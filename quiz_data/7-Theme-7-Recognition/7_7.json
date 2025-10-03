@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhat is the main training method for neural networks?\n{\n= Backpropagation\n~ k-means\n~ Histogram equalization\n~ Decision tree splits\n}",
+    "title": "MC1",
+    "question": "What is the main training method for neural networks?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Backpropagation",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "k-means",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Decision tree splits",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhich is an advantage of neural networks?\n{\n= Nonlinear decision boundaries\n~ Requires no computation\n~ Works only with linear data\n~ Ignores features\n}",
+    "title": "MC2",
+    "question": "Which is an advantage of neural networks?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Nonlinear decision boundaries",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Requires no computation",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Works only with linear data",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Ignores features",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhich is a limitation of neural networks?\n{\n= Overfitting risk\n~ Always interpretable\n~ Requires no data\n~ Linear only\n}",
+    "title": "MC3",
+    "question": "Which is a limitation of neural networks?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Overfitting risk",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Always interpretable",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Requires no data",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Linear only",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhich type of learning is clustering?\n{\n= Unsupervised\n~ Supervised\n~ Reinforcement\n~ Semi-supervised\n}",
+    "title": "MC4",
+    "question": "Which type of learning is clustering?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Unsupervised",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Supervised",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Reinforcement",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Semi-supervised",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhich algorithm is most commonly used for clustering?\n{\n= k-means\n~ SVM\n~ PCA\n~ Naïve Bayes\n}",
+    "title": "MC5",
+    "question": "Which algorithm is most commonly used for clustering?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "k-means",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "SVM",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "PCA",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Naïve Bayes",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich neural-based method performs clustering?\n{\n= Self-organizing maps\n~ Decision trees\n~ Linear regression\n~ Histogram equalization\n}",
+    "title": "MC6",
+    "question": "Which neural-based method performs clustering?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Self-organizing maps",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Decision trees",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Linear regression",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram equalization",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich property is true of k-means?\n{\n= Assigns samples to nearest cluster centroid\n~ Uses support vectors\n~ Maximizes margins\n~ Builds trees\n}",
+    "title": "MC7",
+    "question": "Which property is true of k-means?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Assigns samples to nearest cluster centroid",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Uses support vectors",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Maximizes margins",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Builds trees",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich factor challenges neural networks?\n{\n= Requires large datasets\n~ Ignores data size\n~ No risk of overfitting\n~ Needs no computation\n}",
+    "title": "MC8",
+    "question": "Which factor challenges neural networks?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Requires large datasets",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Ignores data size",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "No risk of overfitting",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Needs no computation",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich factor challenges clustering?\n{\n= Number of clusters must often be chosen\n~ Requires labels\n~ Always linear\n~ Needs kernels\n}",
+    "title": "MC9",
+    "question": "Which factor challenges clustering?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Number of clusters must often be chosen",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Requires labels",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Always linear",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Needs kernels",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich is an application of clustering?\n{\n= Anomaly detection\n~ White balance\n~ Audio compression\n~ Gamma correction\n}",
+    "title": "MC10",
+    "question": "Which is an application of clustering?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Anomaly detection",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "White balance",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Audio compression",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Gamma correction",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the classifier to type.\n{\n= Neural network -> Supervised\n= Clustering -> Unsupervised\n= SVM -> Margin-based\n= Naïve Bayes -> Probabilistic\n}",
+    "title": "MATCH1",
+    "question": "Match the classifier to type.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Neural network",
+        "right": "Supervised"
+      },
+      {
+        "id": 2,
+        "left": "Clustering",
+        "right": "Unsupervised"
+      },
+      {
+        "id": 3,
+        "left": "SVM",
+        "right": "Margin-based"
+      },
+      {
+        "id": 4,
+        "left": "Naïve Bayes",
+        "right": "Probabilistic"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the neural network layer to role.\n{\n= Input -> Features\n= Hidden -> Nonlinear transformations\n= Output -> Predictions\n= Weights -> Parameters\n}",
+    "title": "MATCH2",
+    "question": "Match the neural network layer to role.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Input",
+        "right": "Features"
+      },
+      {
+        "id": 2,
+        "left": "Hidden",
+        "right": "Nonlinear transformations"
+      },
+      {
+        "id": 3,
+        "left": "Output",
+        "right": "Predictions"
+      },
+      {
+        "id": 4,
+        "left": "Weights",
+        "right": "Parameters"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the method to learning type.\n{\n= Backpropagation -> Neural network training\n= k-means -> Clustering\n= SOM -> Neural clustering\n= PCA -> Feature reduction\n}",
+    "title": "MATCH3",
+    "question": "Match the method to learning type.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Backpropagation",
+        "right": "Neural network training"
+      },
+      {
+        "id": 2,
+        "left": "k-means",
+        "right": "Clustering"
+      },
+      {
+        "id": 3,
+        "left": "SOM",
+        "right": "Neural clustering"
+      },
+      {
+        "id": 4,
+        "left": "PCA",
+        "right": "Feature reduction"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the challenge to model.\n{\n= Neural network -> Overfitting\n= Clustering -> Choosing k\n= Decision tree -> Overfitting\n= SVM -> Kernel choice\n}",
+    "title": "MATCH4",
+    "question": "Match the challenge to model.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Neural network",
+        "right": "Overfitting"
+      },
+      {
+        "id": 2,
+        "left": "Clustering",
+        "right": "Choosing k"
+      },
+      {
+        "id": 3,
+        "left": "Decision tree",
+        "right": "Overfitting"
+      },
+      {
+        "id": 4,
+        "left": "SVM",
+        "right": "Kernel choice"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the clustering algorithm to property.\n{\n= k-means -> Centroid-based\n= Hierarchical -> Tree-based\n= SOM -> Neural clustering\n= DBSCAN -> Density-based\n}",
+    "title": "MATCH5",
+    "question": "Match the clustering algorithm to property.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "k-means",
+        "right": "Centroid-based"
+      },
+      {
+        "id": 2,
+        "left": "Hierarchical",
+        "right": "Tree-based"
+      },
+      {
+        "id": 3,
+        "left": "SOM",
+        "right": "Neural clustering"
+      },
+      {
+        "id": 4,
+        "left": "DBSCAN",
+        "right": "Density-based"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the application to domain.\n{\n= Neural networks -> Speech recognition\n= Clustering -> Market segmentation\n= Decision trees -> Medical diagnosis\n= SVM -> Face recognition\n}",
+    "title": "MATCH6",
+    "question": "Match the application to domain.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Neural networks",
+        "right": "Speech recognition"
+      },
+      {
+        "id": 2,
+        "left": "Clustering",
+        "right": "Market segmentation"
+      },
+      {
+        "id": 3,
+        "left": "Decision trees",
+        "right": "Medical diagnosis"
+      },
+      {
+        "id": 4,
+        "left": "SVM",
+        "right": "Face recognition"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the component to neural networks.\n{\n= Node -> Artificial neuron\n= Weight -> Connection strength\n= Activation function -> Nonlinearity\n= Backpropagation -> Training\n}",
+    "title": "MATCH7",
+    "question": "Match the component to neural networks.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Node",
+        "right": "Artificial neuron"
+      },
+      {
+        "id": 2,
+        "left": "Weight",
+        "right": "Connection strength"
+      },
+      {
+        "id": 3,
+        "left": "Activation function",
+        "right": "Nonlinearity"
+      },
+      {
+        "id": 4,
+        "left": "Backpropagation",
+        "right": "Training"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the property to drawback.\n{\n= Neural networks -> Data hungry\n= Clustering -> Requires k\n= Decision tree -> Overfitting\n= Naïve Bayes -> Independence assumption\n}",
+    "title": "MATCH8",
+    "question": "Match the property to drawback.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Neural networks",
+        "right": "Data hungry"
+      },
+      {
+        "id": 2,
+        "left": "Clustering",
+        "right": "Requires k"
+      },
+      {
+        "id": 3,
+        "left": "Decision tree",
+        "right": "Overfitting"
+      },
+      {
+        "id": 4,
+        "left": "Naïve Bayes",
+        "right": "Independence assumption"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the unsupervised method to example.\n{\n= k-means -> Centroid clustering\n= Hierarchical -> Dendrogram\n= SOM -> Neural map\n= PCA -> Dimensionality reduction\n}",
+    "title": "MATCH9",
+    "question": "Match the unsupervised method to example.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "k-means",
+        "right": "Centroid clustering"
+      },
+      {
+        "id": 2,
+        "left": "Hierarchical",
+        "right": "Dendrogram"
+      },
+      {
+        "id": 3,
+        "left": "SOM",
+        "right": "Neural map"
+      },
+      {
+        "id": 4,
+        "left": "PCA",
+        "right": "Dimensionality reduction"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the application to technique.\n{\n= Neural networks -> Image classification\n= Clustering -> Anomaly detection\n= SVM -> Text classification\n= kNN -> Handwriting recognition\n}",
+    "title": "MATCH10",
+    "question": "Match the application to technique.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Neural networks",
+        "right": "Image classification"
+      },
+      {
+        "id": 2,
+        "left": "Clustering",
+        "right": "Anomaly detection"
+      },
+      {
+        "id": 3,
+        "left": "SVM",
+        "right": "Text classification"
+      },
+      {
+        "id": 4,
+        "left": "kNN",
+        "right": "Handwriting recognition"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are properties of neural networks?\n{\n~%25% Nonlinear decision boundaries\n~%25% Backpropagation training\n~%25% Data hungry\n~%25% Risk of overfitting\n}",
+    "title": "MULTI1",
+    "question": "Which are properties of neural networks?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Nonlinear decision boundaries",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Backpropagation training",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Data hungry",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Risk of overfitting",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are applications of neural networks?\n{\n~%25% Image classification\n~%25% Speech recognition\n~%25% Robotics\n~%25% Medical imaging\n}",
+    "title": "MULTI2",
+    "question": "Which are applications of neural networks?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Image classification",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Speech recognition",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Robotics",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Medical imaging",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are properties of clustering?\n{\n~%33.33333% Unsupervised\n~%33.33333% Groups similar data\n~%33.33333% No labels required\n~%-100% Needs labeled data\n}",
+    "title": "MULTI3",
+    "question": "Which are properties of clustering?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Unsupervised",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Groups similar data",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "No labels required",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Needs labeled data",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are clustering algorithms?\n{\n~%25% k-means\n~%25% Hierarchical\n~%25% DBSCAN\n~%25% SOM\n}",
+    "title": "MULTI4",
+    "question": "Which are clustering algorithms?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "k-means",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Hierarchical",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "DBSCAN",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "SOM",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are challenges for neural networks?\n{\n~%33.33333% Large dataset requirements\n~%33.33333% Computationally expensive\n~%33.33333% Overfitting\n~%-100% No computation needed\n}",
+    "title": "MULTI5",
+    "question": "Which are challenges for neural networks?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Large dataset requirements",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Computationally expensive",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Overfitting",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "No computation needed",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are challenges for clustering?\n{\n~%50% Choosing number of clusters\n~%50% Sensitivity to initialization\n~%-100% Requires labels\n~%-100% Kernel always needed\n}",
+    "title": "MULTI6",
+    "question": "Which are challenges for clustering?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Choosing number of clusters",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Sensitivity to initialization",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Requires labels",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Kernel always needed",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are advantages of neural networks?\n{\n~%33.33333% Nonlinear modeling\n~%33.33333% Flexible\n~%33.33333% Powerful\n~%-100% Requires no training\n}",
+    "title": "MULTI7",
+    "question": "Which are advantages of neural networks?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Nonlinear modeling",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Flexible",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Powerful",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Requires no training",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are advantages of clustering?\n{\n~%50% Unsupervised\n~%50% Reveals hidden structure\n~%-100% Requires labels\n~%-100% Always linear\n}",
+    "title": "MULTI8",
+    "question": "Which are advantages of clustering?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Unsupervised",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Reveals hidden structure",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Requires labels",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Always linear",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are applications of clustering?\n{\n~%25% Anomaly detection\n~%25% Market segmentation\n~%25% Image retrieval\n~%25% Data exploration\n}",
+    "title": "MULTI9",
+    "question": "Which are applications of clustering?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Anomaly detection",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Market segmentation",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Image retrieval",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Data exploration",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are neural-based clustering methods?\n{\n~%50% Self-organizing maps (SOM)\n~%50% Neural gas\n~%-100% k-means\n~%-100% PCA\n}",
+    "title": "MULTI10",
+    "question": "Which are neural-based clustering methods?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Self-organizing maps (SOM)",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Neural gas",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "k-means",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "PCA",
+        "weight": -100.0
+      }
+    ]
+  }
+]

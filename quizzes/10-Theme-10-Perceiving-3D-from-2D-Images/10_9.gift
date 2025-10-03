@@ -1,0 +1,304 @@
+::TF1::
+Epipolar geometry describes the relation between two cameras and a 3D point.
+{TRUE}
+
+::TF2::
+The fundamental matrix is a 3×3 matrix.
+{TRUE}
+
+::TF3::
+The fundamental matrix has rank 2.
+{TRUE}
+
+::TF4::
+The fundamental matrix maps points in one image to epipolar lines in the other.
+{TRUE}
+
+::TF6::
+The 8-point algorithm is used to estimate the fundamental matrix.
+{TRUE}
+
+::TF7::
+RANSAC can be used for robust estimation of F.
+{TRUE}
+
+::TF8::
+Epipolar geometry is unrelated to stereo vision.
+{FALSE}
+
+::TF9::
+Planar scenes can cause degeneracy in fundamental matrix estimation.
+{TRUE}
+
+::TF10::
+The fundamental matrix is always full rank.
+{FALSE}
+
+::MC1::
+What does epipolar geometry describe?
+{
+= The relationship between two cameras and a 3D point
+~ Only one image
+~ Histogram matching
+~ File compression
+}
+
+::MC2::
+What size is the fundamental matrix?
+{
+= 3×3
+~ 2×2
+~ 4×4
+~ 8×8
+}
+
+::MC3::
+What is the rank of the fundamental matrix?
+{
+= 2
+~ 1
+~ 3
+~ Full rank
+}
+
+::MC4::
+What does the fundamental matrix map?
+{
+= Points to epipolar lines
+~ Lines to points
+~ Images to histograms
+~ Depth maps directly
+}
+
+::MC5::
+What is the epipolar constraint?
+{
+= x'^T F x = 0
+~ Ax = b
+~ PCA = variance
+~ Histogram equalization
+}
+
+::MC6::
+Which algorithm estimates the fundamental matrix?
+{
+= 8-point algorithm
+~ RANSAC only
+~ Fourier transform
+~ K-means
+}
+
+::MC7::
+Which method improves stability of F estimation?
+{
+= Normalized 8-point algorithm
+~ Histogram bins
+~ Gamma correction
+~ JPEG compression
+}
+
+::MC8::
+Which method handles outliers in F estimation?
+{
+= RANSAC
+~ Histogram smoothing
+~ Gradient descent
+~ PCA
+}
+
+::MC9::
+Which is an application of the fundamental matrix?
+{
+= Stereo rectification
+~ File compression
+~ Audio filtering
+~ White balance
+}
+
+::MC10::
+Which case causes degeneracy in F estimation?
+{
+= Planar scenes
+~ Random noise
+~ Histogram mismatch
+~ Always robust
+}
+
+::MATCH1::
+Match the element to definition.
+{
+= Epipolar line -> Projection of epipolar plane
+= Epipole -> Baseline intersection
+= Fundamental matrix -> Relates images
+= Epipolar plane -> Through cameras and point
+}
+
+::MATCH2::
+Match the method to use.
+{
+= 8-point -> Estimate F
+= Normalized -> Stable estimation
+= RANSAC -> Robust fitting
+= Rectification -> Align epipolar lines
+}
+
+::MATCH3::
+Match the challenge to cause.
+{
+= Planar scene -> Degenerate case
+= Pure rotation -> Degenerate case
+= Noise -> Inaccuracy
+= Outliers -> Wrong F
+}
+
+::MATCH4::
+Match the application to field.
+{
+= Stereo -> Rectification
+= SfM -> Motion estimation
+= Vision -> 3D reconstruction
+= Robotics -> Navigation
+}
+
+::MATCH5::
+Match the matrix to property.
+{
+= Fundamental -> Two-view, uncalibrated
+= Essential -> Calibrated, metric
+= Homography -> Planar mapping
+= Affine -> Linear mapping
+}
+
+::MATCH6::
+Match the technique to purpose.
+{
+= 8-point -> Estimate F
+= Normalized -> Stability
+= RANSAC -> Outlier rejection
+= Iterative refinement -> Accuracy
+}
+
+::MATCH7::
+Match the property to transformation.
+{
+= Preserves straight lines -> Homography
+= Relates epipolar lines -> Fundamental
+= Relates calibrated cameras -> Essential
+= Linear + translation -> Affine
+}
+
+::MATCH8::
+Match the problem to solution.
+{
+= Outliers -> RANSAC
+= Degenerate -> Scene constraints
+= Noise -> Normalization
+= Poor accuracy -> Refinement
+}
+
+::MATCH9::
+Match the notation to meaning.
+{
+= x -> Point in image 1
+= x' -> Point in image 2
+= F -> Fundamental matrix
+}
+
+::MATCH10::
+Match the domain to application.
+{
+= Vision -> Stereo
+= Robotics -> Navigation
+= AR -> Depth mapping
+= Graphics -> 3D modeling
+}
+
+::MULTI1::
+Which are properties of the fundamental matrix?
+{
+~%25% 3×3
+~%25% Rank 2
+~%25% Maps points to lines
+~%25% Encodes epipolar geometry
+}
+
+::MULTI2::
+Which are algorithms for F estimation?
+{
+~%33.33333% 8-point
+~%33.33333% Normalized 8-point
+~%33.33333% RANSAC-based
+~%-100% Histogram equalization
+}
+
+::MULTI3::
+Which are applications of F?
+{
+~%25% Stereo rectification
+~%25% Structure from motion
+~%25% Robotics navigation
+~%25% 3D reconstruction
+}
+
+::MULTI4::
+Which are challenges in F estimation?
+{
+~%25% Planar scenes
+~%25% Pure rotation
+~%25% Noise
+~%25% Outliers
+}
+
+::MULTI5::
+Which are epipolar elements?
+{
+~%25% Epipolar plane
+~%25% Epipolar line
+~%25% Epipole
+~%25% Fundamental matrix
+}
+
+::MULTI6::
+Which are differences between F and E (essential matrix)?
+{
+~%50% F -> Uncalibrated
+~%50% E -> Calibrated
+~%-100% Both identical
+~%-100% Both planar only
+}
+
+::MULTI7::
+Which are steps in F estimation?
+{
+~%25% Collect correspondences
+~%25% Solve with 8-point
+~%25% Normalize data
+~%25% Robust fit (RANSAC)
+}
+
+::MULTI8::
+Which are uses of epipolar geometry?
+{
+~%25% Reducing correspondence search
+~%25% Stereo rectification
+~%25% 3D reconstruction
+~%25% Motion estimation
+}
+
+::MULTI9::
+Which are degenerate cases for F?
+{
+~%50% Planar scenes
+~%50% Pure camera rotation
+~%-100% Random textures
+~%-100% Always generic
+}
+
+::MULTI10::
+Which are domains using F estimation?
+{
+~%25% Vision
+~%25% Robotics
+~%25% AR/VR
+~%25% Graphics
+}

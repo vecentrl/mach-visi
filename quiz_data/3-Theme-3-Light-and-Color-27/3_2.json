@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhat visual cue does shading provide?\n{\n= Information about surface shape and depth\n~ Information about object temperature\n~ Information about image compression\n~ Information about sensor noise\n}",
+    "title": "MC1",
+    "question": "What visual cue does shading provide?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Information about surface shape and depth",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Information about object temperature",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Information about image compression",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Information about sensor noise",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhich illusion demonstrates the effect of shading on perception?\n{\n= Convex/concave illusions\n~ Afterimage effect\n~ Color constancy\n~ Stereopsis\n}",
+    "title": "MC2",
+    "question": "Which illusion demonstrates the effect of shading on perception?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Convex/concave illusions",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Afterimage effect",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Color constancy",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Stereopsis",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhich assumption does human vision often use when interpreting shading?\n{\n= Light comes from above\n~ Light comes from below\n~ Light comes from the left\n~ Light has no direction\n}",
+    "title": "MC3",
+    "question": "Which assumption does human vision often use when interpreting shading?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Light comes from above",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Light comes from below",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Light comes from the left",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Light has no direction",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhat do shadows indicate in images?\n{\n= Object positions and relative depth\n~ Color of materials\n~ File size of images\n~ JPEG artifacts\n}",
+    "title": "MC4",
+    "question": "What do shadows indicate in images?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Object positions and relative depth",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Color of materials",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "File size of images",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "JPEG artifacts",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhat is the main challenge in shading analysis for computer vision?\n{\n= Separating reflectance from illumination\n~ Capturing enough pixels\n~ File storage\n~ Compression artifacts\n}",
+    "title": "MC5",
+    "question": "What is the main challenge in shading analysis for computer vision?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Separating reflectance from illumination",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Capturing enough pixels",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "File storage",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Compression artifacts",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich field besides vision uses shading to enhance realism?\n{\n= Computer graphics\n~ Thermodynamics\n~ Music synthesis\n~ Linguistics\n}",
+    "title": "MC6",
+    "question": "Which field besides vision uses shading to enhance realism?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Computer graphics",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Thermodynamics",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Music synthesis",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Linguistics",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich is an example of a shading cue?\n{\n= Smooth gradient of brightness on a sphere\n~ Uniform gray background\n~ Random noise pattern\n~ Sharp edges only\n}",
+    "title": "MC7",
+    "question": "Which is an example of a shading cue?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Smooth gradient of brightness on a sphere",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Uniform gray background",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Random noise pattern",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Sharp edges only",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhat effect can shading have on perceived geometry?\n{\n= Change in perception of convex vs. concave\n~ No effect on geometry\n~ Only changes color\n~ Changes resolution\n}",
+    "title": "MC8",
+    "question": "What effect can shading have on perceived geometry?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Change in perception of convex vs. concave",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "No effect on geometry",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Only changes color",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Changes resolution",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich term refers to how much light a surface reflects?\n{\n= Reflectance\n~ Irradiance\n~ Illumination\n~ Intensity\n}",
+    "title": "MC9",
+    "question": "Which term refers to how much light a surface reflects?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Reflectance",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Irradiance",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Illumination",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Intensity",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhy is shading important for 3D reconstruction in vision?\n{\n= Encodes surface orientation and depth cues\n~ Provides color constancy\n~ Reduces file size\n~ Matches compression standards\n}",
+    "title": "MC10",
+    "question": "Why is shading important for 3D reconstruction in vision?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Encodes surface orientation and depth cues",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Provides color constancy",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Reduces file size",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Matches compression standards",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the concept to the description.\n{\n= Shading -> Brightness variation on surfaces\n= Shadows -> Clues to object position\n= Reflectance -> Material property\n= Illumination -> Light falling on surface\n}",
+    "title": "MATCH1",
+    "question": "Match the concept to the description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Shading",
+        "right": "Brightness variation on surfaces"
+      },
+      {
+        "id": 2,
+        "left": "Shadows",
+        "right": "Clues to object position"
+      },
+      {
+        "id": 3,
+        "left": "Reflectance",
+        "right": "Material property"
+      },
+      {
+        "id": 4,
+        "left": "Illumination",
+        "right": "Light falling on surface"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the illusion to the interpretation.\n{\n= Light-from-above -> Assumption in shading\n= Convex shading -> Perceived bulge\n= Concave shading -> Perceived indentation\n= Ambiguous shading -> Multiple interpretations\n}",
+    "title": "MATCH2",
+    "question": "Match the illusion to the interpretation.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Light-from-above",
+        "right": "Assumption in shading"
+      },
+      {
+        "id": 2,
+        "left": "Convex shading",
+        "right": "Perceived bulge"
+      },
+      {
+        "id": 3,
+        "left": "Concave shading",
+        "right": "Perceived indentation"
+      },
+      {
+        "id": 4,
+        "left": "Ambiguous shading",
+        "right": "Multiple interpretations"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the element to its role.\n{\n= Illumination -> Source of light\n= Reflectance -> Determines surface brightness\n= Shading -> Encodes shape\n= Shadow -> Gives relative depth\n}",
+    "title": "MATCH3",
+    "question": "Match the element to its role.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Illumination",
+        "right": "Source of light"
+      },
+      {
+        "id": 2,
+        "left": "Reflectance",
+        "right": "Determines surface brightness"
+      },
+      {
+        "id": 3,
+        "left": "Shading",
+        "right": "Encodes shape"
+      },
+      {
+        "id": 4,
+        "left": "Shadow",
+        "right": "Gives relative depth"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the task to the difficulty.\n{\n= Reflectance vs. illumination -> Hard separation\n= Convex/concave perception -> Can be ambiguous\n= Human shading interpretation -> Often assumption-based\n= Vision system shading analysis -> Computationally difficult\n}",
+    "title": "MATCH4",
+    "question": "Match the task to the difficulty.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Reflectance vs. illumination",
+        "right": "Hard separation"
+      },
+      {
+        "id": 2,
+        "left": "Convex/concave perception",
+        "right": "Can be ambiguous"
+      },
+      {
+        "id": 3,
+        "left": "Human shading interpretation",
+        "right": "Often assumption-based"
+      },
+      {
+        "id": 4,
+        "left": "Vision system shading analysis",
+        "right": "Computationally difficult"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the field to its use of shading.\n{\n= Computer vision -> 3D reconstruction\n= Computer graphics -> Realism in rendering\n= Human vision -> Shape perception\n= Photography -> Lighting control\n}",
+    "title": "MATCH5",
+    "question": "Match the field to its use of shading.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Computer vision",
+        "right": "3D reconstruction"
+      },
+      {
+        "id": 2,
+        "left": "Computer graphics",
+        "right": "Realism in rendering"
+      },
+      {
+        "id": 3,
+        "left": "Human vision",
+        "right": "Shape perception"
+      },
+      {
+        "id": 4,
+        "left": "Photography",
+        "right": "Lighting control"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the cue to what it reveals.\n{\n= Shading -> Surface curvature\n= Shadow -> Object location\n= Light direction -> Orientation assumption\n= Reflectance -> Material color\n}",
+    "title": "MATCH6",
+    "question": "Match the cue to what it reveals.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Shading",
+        "right": "Surface curvature"
+      },
+      {
+        "id": 2,
+        "left": "Shadow",
+        "right": "Object location"
+      },
+      {
+        "id": 3,
+        "left": "Light direction",
+        "right": "Orientation assumption"
+      },
+      {
+        "id": 4,
+        "left": "Reflectance",
+        "right": "Material color"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the perceptual cue to example.\n{\n= Gradient brightness -> Rounded object\n= Sharp shadow -> Defined edge\n= Dark region -> Possible occlusion\n= Uniform illumination -> Flat appearance\n}",
+    "title": "MATCH7",
+    "question": "Match the perceptual cue to example.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Gradient brightness",
+        "right": "Rounded object"
+      },
+      {
+        "id": 2,
+        "left": "Sharp shadow",
+        "right": "Defined edge"
+      },
+      {
+        "id": 3,
+        "left": "Dark region",
+        "right": "Possible occlusion"
+      },
+      {
+        "id": 4,
+        "left": "Uniform illumination",
+        "right": "Flat appearance"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the challenge to shading analysis.\n{\n= Ambiguity -> Convex vs. concave\n= Interference -> Multiple light sources\n= Separation -> Reflectance vs. illumination\n= Estimation -> Surface normals\n}",
+    "title": "MATCH8",
+    "question": "Match the challenge to shading analysis.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Ambiguity",
+        "right": "Convex vs. concave"
+      },
+      {
+        "id": 2,
+        "left": "Interference",
+        "right": "Multiple light sources"
+      },
+      {
+        "id": 3,
+        "left": "Separation",
+        "right": "Reflectance vs. illumination"
+      },
+      {
+        "id": 4,
+        "left": "Estimation",
+        "right": "Surface normals"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the visual element to the physical cause.\n{\n= Highlight -> Specular reflection\n= Shadow -> Blocked light\n= Darkening -> Orientation away from light\n= Bright area -> Orientation toward light\n}",
+    "title": "MATCH9",
+    "question": "Match the visual element to the physical cause.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Highlight",
+        "right": "Specular reflection"
+      },
+      {
+        "id": 2,
+        "left": "Shadow",
+        "right": "Blocked light"
+      },
+      {
+        "id": 3,
+        "left": "Darkening",
+        "right": "Orientation away from light"
+      },
+      {
+        "id": 4,
+        "left": "Bright area",
+        "right": "Orientation toward light"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the shading term to the field.\n{\n= Reflectance -> Material science\n= Illumination -> Physics\n= Shading -> Vision\n= Rendering -> Graphics\n}",
+    "title": "MATCH10",
+    "question": "Match the shading term to the field.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Reflectance",
+        "right": "Material science"
+      },
+      {
+        "id": 2,
+        "left": "Illumination",
+        "right": "Physics"
+      },
+      {
+        "id": 3,
+        "left": "Shading",
+        "right": "Vision"
+      },
+      {
+        "id": 4,
+        "left": "Rendering",
+        "right": "Graphics"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are cues provided by shading?\n{\n~%33.33333% Surface curvature\n~%33.33333% Depth perception\n~%33.33333% Shape from light\n~%-100% File compression\n}",
+    "title": "MULTI1",
+    "question": "Which are cues provided by shading?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Surface curvature",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Depth perception",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Shape from light",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "File compression",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are examples of shading illusions?\n{\n~%50% Convex/concave reversal\n~%50% Light-from-above assumption\n~%-100% Color constancy\n~%-100% Stereo disparity\n}",
+    "title": "MULTI2",
+    "question": "Which are examples of shading illusions?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Convex/concave reversal",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Light-from-above assumption",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Color constancy",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Stereo disparity",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are roles of shadows in vision?\n{\n~%33.33333% Object position\n~%33.33333% Depth relations\n~%33.33333% Light source direction\n~%-100% Sensor noise reduction\n}",
+    "title": "MULTI3",
+    "question": "Which are roles of shadows in vision?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Object position",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Depth relations",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Light source direction",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Sensor noise reduction",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich fields rely on shading?\n{\n~%33.33333% Computer vision\n~%33.33333% Computer graphics\n~%33.33333% Human vision\n~%-100% Music theory\n}",
+    "title": "MULTI4",
+    "question": "Which fields rely on shading?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Computer vision",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Computer graphics",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Human vision",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Music theory",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are challenges in shading interpretation?\n{\n~%33.33333% Reflectance vs. illumination\n~%33.33333% Ambiguity of convex/concave\n~%33.33333% Multiple light sources\n~%-100% Unlimited resolution\n}",
+    "title": "MULTI5",
+    "question": "Which are challenges in shading interpretation?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Reflectance vs. illumination",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Ambiguity of convex/concave",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Multiple light sources",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Unlimited resolution",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are true of reflectance?\n{\n~%33.33333% Material property\n~%33.33333% Independent of illumination\n~%33.33333% Affects brightness\n~%-100% Same as irradiance\n}",
+    "title": "MULTI6",
+    "question": "Which are true of reflectance?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Material property",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Independent of illumination",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Affects brightness",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Same as irradiance",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich describe illumination cues?\n{\n~%33.33333% Light direction\n~%33.33333% Shadow placement\n~%33.33333% Brightness gradient\n~%-100% JPEG encoding\n}",
+    "title": "MULTI7",
+    "question": "Which describe illumination cues?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Light direction",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Shadow placement",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Brightness gradient",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "JPEG encoding",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are shading-related perceptual assumptions?\n{\n~%50% Light comes from above\n~%50% Bright = closer to light\n~%-100% Noise always indicates depth\n~%-100% Shadows irrelevant\n}",
+    "title": "MULTI8",
+    "question": "Which are shading-related perceptual assumptions?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Light comes from above",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Bright = closer to light",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Noise always indicates depth",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Shadows irrelevant",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are outputs computer vision may derive from shading?\n{\n~%33.33333% Surface normals\n~%33.33333% 3D shape estimates\n~%33.33333% Depth cues\n~%-100% File formats\n}",
+    "title": "MULTI9",
+    "question": "Which are outputs computer vision may derive from shading?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Surface normals",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "3D shape estimates",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Depth cues",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "File formats",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are physical causes of shading?\n{\n~%33.33333% Surface orientation\n~%33.33333% Illumination direction\n~%33.33333% Reflectance variation\n~%-100% Pixel compression\n}",
+    "title": "MULTI10",
+    "question": "Which are physical causes of shading?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Surface orientation",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Illumination direction",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Reflectance variation",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Pixel compression",
+        "weight": -100.0
+      }
+    ]
+  }
+]

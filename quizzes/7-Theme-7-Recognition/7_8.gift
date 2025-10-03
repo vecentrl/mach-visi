@@ -1,0 +1,309 @@
+::TF1::
+Detection involves locating objects or patterns in images.
+{TRUE}
+
+::TF2::
+Category recognition assigns detected objects to classes.
+{TRUE}
+
+::TF3::
+Face detection is an example of a detection task.
+{TRUE}
+
+::TF4::
+Face recognition is an example of category recognition.
+{TRUE}
+
+::TF5::
+Detection and recognition are identical tasks.
+{FALSE}
+
+::TF6::
+Local features and descriptors can be used for detection.
+{TRUE}
+
+::TF7::
+SVMs and NNs are often used for recognition tasks.
+{TRUE}
+
+::TF8::
+Medical imaging uses detection to locate tumors or lesions.
+{TRUE}
+
+::TF9::
+Industrial inspection uses recognition to identify defect types.
+{TRUE}
+
+::TF10::
+Detection and recognition are unaffected by occlusion.
+{FALSE}
+
+::MC1::
+What does detection mean in computer vision?
+{
+= Locating objects or regions of interest
+~ Assigning class labels
+~ Removing noise
+~ Histogram equalization
+}
+
+::MC2::
+What does category recognition mean?
+{
+= Assigning class labels to detected objects
+~ Locating regions only
+~ Reducing dimensionality
+~ Compressing images
+}
+
+::MC3::
+Which is an example of detection?
+{
+= Finding faces in an image
+~ Classifying digits
+~ Assigning tumor type
+~ Sorting documents
+}
+
+::MC4::
+Which is an example of recognition?
+{
+= Identifying a face as "Alice"
+~ Detecting face bounding boxes
+~ Locating tumors
+~ Segmenting regions
+}
+
+::MC5::
+Which method is commonly used for recognition?
+{
+= Support Vector Machine (SVM)
+~ Histogram equalization
+~ Otsu thresholding
+~ PCA visualization
+}
+
+::MC6::
+Which is a challenge in detection and recognition?
+{
+= Occlusion
+~ Always perfect
+~ File size
+~ Histogram bins
+}
+
+::MC7::
+Which is an application of detection?
+{
+= Tumor localization in medical imaging
+~ Document clustering
+~ Audio compression
+~ Histogram smoothing
+}
+
+::MC8::
+Which is an application of recognition?
+{
+= Face classification
+~ Edge detection
+~ Binary thresholding
+~ White balance
+}
+
+::MC9::
+Which is true about detection and recognition?
+{
+= Detection locates, recognition labels
+~ Detection labels, recognition locates
+~ Both only locate
+~ Both only classify
+}
+
+::MC10::
+Which is a domain where detection is critical?
+{
+= Industrial inspection
+~ JPEG compression
+~ White balance
+~ Gamma correction
+}
+
+::MATCH1::
+Match the task to example.
+{
+= Detection -> Finding a face
+= Recognition -> Identifying the person
+= Segmentation -> Splitting into regions
+= Clustering -> Grouping unlabeled data
+}
+
+::MATCH2::
+Match the domain to application.
+{
+= Medicine -> Tumor detection
+= Security -> Face recognition
+= Industry -> Defect detection
+= Environment -> Scene recognition
+}
+
+::MATCH3::
+Match the method to use.
+{
+= Local features -> Detection
+= Descriptors + classifier -> Recognition
+= Thresholding -> Segmentation
+= PCA -> Dimensionality reduction
+}
+
+::MATCH4::
+Match the classifier to role.
+{
+= SVM -> Recognition
+= NN -> Recognition
+= k-means -> Clustering
+= Harris -> Corner detection
+}
+
+::MATCH5::
+Match the challenge to effect.
+{
+= Occlusion -> Missing objects
+= Illumination -> Poor detection
+= Noise -> False detections
+= Variability -> Recognition errors
+}
+
+::MATCH6::
+Match the task to property.
+{
+= Detection -> Locate
+= Recognition -> Label
+= Segmentation -> Divide
+= Clustering -> Group
+}
+
+::MATCH7::
+Match the application to field.
+{
+= Face detection -> Security
+= Tumor detection -> Medicine
+= Defect inspection -> Industry
+= Scene recognition -> Environment
+}
+
+::MATCH8::
+Match the feature to usage.
+{
+= SIFT -> Local descriptors
+= ORB -> Fast descriptors
+= SVM -> Recognition classifier
+= Harris -> Corner detection
+}
+
+::MATCH9::
+Match the recognition step to description.
+{
+= Feature extraction -> Represent object
+= Classification -> Assign label
+= Detection -> Locate object
+= Evaluation -> Test performance
+}
+
+::MATCH10::
+Match the domain to need.
+{
+= Medicine -> Tumor localization
+= Industry -> Quality control
+= Security -> Identity verification
+= Robotics -> Scene understanding
+}
+
+::MULTI1::
+Which are tasks in computer vision?
+{
+~%25% Detection
+~%25% Recognition
+~%25% Segmentation
+~%25% Clustering
+}
+
+::MULTI2::
+Which are examples of detection?
+{
+~%33.33333% Face detection
+~%33.33333% Tumor detection
+~%33.33333% Defect detection
+~%-100% Face recognition
+}
+
+::MULTI3::
+Which are examples of recognition?
+{
+~%33.33333% Face recognition
+~%33.33333% Tumor classification
+~%33.33333% Scene categorization
+~%-100% Edge detection
+}
+
+::MULTI4::
+Which methods are used in recognition?
+{
+~%33.33333% SVM
+~%33.33333% Neural networks
+~%33.33333% Feature descriptors
+~%-100% Histogram equalization
+}
+
+::MULTI5::
+Which are applications of detection?
+{
+~%25% Face detection
+~%25% Tumor localization
+~%25% Defect detection
+~%25% Object detection in robotics
+}
+
+::MULTI6::
+Which are applications of recognition?
+{
+~%25% Face classification
+~%25% Scene recognition
+~%25% Object category recognition
+~%25% Handwriting classification
+}
+
+::MULTI7::
+Which are challenges for detection & recognition?
+{
+~%25% Occlusion
+~%25% Illumination changes
+~%25% Noise
+~%25% Intra-class variability
+}
+
+::MULTI8::
+Which are true about detection vs. recognition?
+{
+~%50% Detection = locating objects
+~%50% Recognition = assigning labels
+~%-100% Both identical
+~%-100% Both only locate
+}
+
+::MULTI9::
+Which are classifiers used in recognition?
+{
+~%33.33333% SVM
+~%33.33333% Neural networks
+~%33.33333% Decision trees
+~%-100% Histogram bins
+}
+
+::MULTI10::
+Which are domains using detection & recognition?
+{
+~%25% Medicine
+~%25% Security
+~%25% Industry
+~%25% Environment
+}

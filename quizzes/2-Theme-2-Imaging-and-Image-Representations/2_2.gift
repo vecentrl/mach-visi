@@ -1,0 +1,310 @@
+
+::TF1::
+The pinhole model is a common approximation used in computer vision to describe camera projection.
+{TRUE}
+
+::TF2::
+In the pinhole camera model, the image formed is naturally upright without adjustments.
+{FALSE}
+
+::TF3::
+A virtual front image plane can be used to represent the upright image in perspective projection.
+{TRUE}
+
+::TF4::
+The focal length determines how world coordinates map to image coordinates.
+{TRUE}
+
+::TF5::
+Perspective projection equations are independent of focal length.
+{FALSE}
+
+::TF6::
+The principal point is the point where the optical axis intersects the image plane.
+{TRUE}
+
+::TF7::
+Image coordinates are typically represented as an M × N matrix of pixels.
+{TRUE}
+
+::TF8::
+In imaging geometry, row indices usually increase downward in an image matrix.
+{TRUE}
+
+::TF9::
+The geometric camera model can be represented using a rotation matrix and translation vector.
+{TRUE}
+
+::TF10::
+Perspective projection always preserves parallelism of lines in 3D space.
+{FALSE}
+
+::MC1::
+Which model is commonly used to approximate camera projection?
+{
+= Pinhole model
+~ Thin prism model
+~ Orthographic scanner
+~ Radar model
+}
+
+::MC2::
+What does the focal length control in perspective projection?
+{
+= The scaling between world and image coordinates
+~ The shutter speed
+~ The pixel bit depth
+~ The JPEG compression level
+}
+
+::MC3::
+What is the role of a virtual front image plane?
+{
+= To display the image upright
+~ To reduce noise
+~ To increase ISO
+~ To improve lens sharpness
+}
+
+::MC4::
+Which coordinate is often labeled as the principal point in imaging geometry?
+{
+= (c0, r0)
+~ (0,0)
+~ (1,1)
+~ (f,f)
+}
+
+::MC5::
+What does M represent in an image matrix of size M × N?
+{
+= Number of rows
+~ Number of columns
+~ Pixel depth
+~ Image brightness
+}
+
+::MC6::
+What is the relationship in perspective projection for x-coordinates?
+{
+= fx = f * Xc / Zc
+~ fx = Zc / Yc
+~ fx = Yc / f
+~ fx = c0 * r0
+}
+
+::MC7::
+What is the relationship in perspective projection for y-coordinates?
+{
+= fy = f * Yc / Zc
+~ fy = Zc / Xc
+~ fy = Xc / f
+~ fy = c0 * f
+}
+
+::MC8::
+What is included in the geometric camera model?
+{
+= Rotation and translation of the camera
+~ Only shutter speed
+~ Only lens aperture
+~ Noise variance
+}
+
+::MC9::
+Which part of imaging geometry causes nonlinear transformations between viewpoints?
+{
+= Perspective distortion
+~ Histogram equalization
+~ Color balancing
+~ White noise
+}
+
+::MC10::
+Which point in the imaging system corresponds to the intersection of the optical axis with the sensor plane?
+{
+= Principal point
+~ Vanishing point
+~ Focal point
+~ Rotation origin
+}
+
+::MATCH1::
+Match the concept to its definition.
+{
+= Focal length -> Distance between pinhole and image plane
+= Principal point -> Intersection of optical axis with image plane
+= Pinhole model -> Common camera approximation
+= Perspective projection -> Mapping 3D points to 2D image
+}
+
+::MATCH2::
+Match the coordinate system element to its meaning.
+{
+= M -> Number of rows
+= N -> Number of columns
+= (c0, r0) -> Principal point
+= (0,0) -> Image origin
+}
+
+::MATCH3::
+Match the equation to its projection.
+{
+= fx = f * Xc / Zc -> x-coordinate mapping
+= fy = f * Yc / Zc -> y-coordinate mapping
+= (Xc, Yc, Zc) -> Camera-centered world coordinates
+= (u,v) -> Image plane coordinates
+}
+
+::MATCH4::
+Match the model to the description.
+{
+= Pinhole -> Simplified, upside-down projection
+= Virtual front plane -> Upright image representation
+= Geometric camera model -> Rotation + translation
+= Perspective distortion -> Nonlinear viewpoint change
+}
+
+::MATCH5::
+Match the imaging property to the result.
+{
+= Large focal length -> Narrow field of view
+= Small focal length -> Wide field of view
+= Principal point shift -> Image not centered
+= Perspective projection -> Converging parallel lines
+}
+
+::MATCH6::
+Match the transformation element to its type.
+{
+= Rotation matrix -> 3×3 orthonormal matrix
+= Translation vector -> 3×1 displacement
+= Homogeneous coordinates -> Linear algebra tool
+= Perspective projection -> Direct proportionality
+}
+
+::MATCH7::
+Match the 3D concept to its 2D effect.
+{
+= Parallel lines -> Vanishing point
+= Depth change -> Size scaling
+= Object closer -> Larger image
+= Tilted plane -> Foreshortening
+}
+
+::MATCH8::
+Match the symbol to its meaning.
+{
+= f -> Focal length
+= Zc -> Depth coordinate
+= Xc -> Horizontal world coordinate
+= Yc -> Vertical world coordinate
+}
+
+::MATCH9::
+Match the pixel coordinate system to its explanation.
+{
+= Row (r) -> Increases downward
+= Column (c) -> Increases to the right
+= (0,0) -> Image top-left corner
+= (c0,r0) -> Principal point
+}
+
+::MATCH10::
+Match the perspective concept to its description.
+{
+= Perspective projection -> Rays converge to pinhole
+= Virtual image plane -> Corrects upside-down projection
+= Image matrix -> M × N pixel array
+= Camera model -> Mathematical mapping of 3D to 2D
+}
+
+::MULTI1::
+Which are elements of the pinhole camera model?
+{
+~%25% Focal length
+~%25% Image plane
+~%25% Pinhole
+~%-100% Optical zoom lens system
+}
+
+::MULTI2::
+Which are characteristics of perspective projection?
+{
+~%33.33333% Objects further away appear smaller
+~%33.33333% Parallel lines converge
+~%33.33333% Foreshortening occurs
+~%-100% All angles are preserved
+}
+
+::MULTI3::
+Which parameters are part of the geometric camera model?
+{
+~%33.33333% Rotation matrix
+~%33.33333% Translation vector
+~%33.33333% Focal length
+~%-100% JPEG compression
+}
+
+::MULTI4::
+Which coordinates are used in camera geometry?
+{
+~%25% Xc
+~%25% Yc
+~%25% Zc
+~%-100% CPU clock cycle
+}
+
+::MULTI5::
+Which are outputs of perspective projection equations?
+{
+~%50% Image x-coordinate
+~%50% Image y-coordinate
+~%-100% Image brightness
+~%-100% File size
+}
+
+::MULTI6::
+Which are examples of perspective distortion?
+{
+~%33.33333% Change of viewpoint alters shape
+~%33.33333% Parallel lines converge in the image
+~%33.33333% Rectangles project as trapezoids
+~%-100% Image remains invariant
+}
+
+::MULTI7::
+Which are advantages of the pinhole model?
+{
+~%33.33333% Simple mathematical form
+~%33.33333% Useful for projection geometry
+~%33.33333% Approximates real cameras
+~%-100% Models lens aberrations perfectly
+}
+
+::MULTI8::
+Which image coordinate conventions are typical?
+{
+~%33.33333% Rows increase downward
+~%33.33333% Columns increase rightward
+~%33.33333% Origin at top-left
+~%-100% Origin at image center by default
+}
+
+::MULTI9::
+Which are important elements in camera calibration?
+{
+~%25% Focal length
+~%25% Principal point
+~%25% Rotation matrix
+~%25% Translation vector
+}
+
+::MULTI10::
+Which are consequences of small focal length?
+{
+~%33.33333% Wide field of view
+~%33.33333% Strong perspective distortion
+~%33.33333% Larger objects appear smaller
+~%-100% Narrow field of view
+}

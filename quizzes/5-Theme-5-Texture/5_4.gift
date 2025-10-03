@@ -1,0 +1,310 @@
+::TF1::
+Texture features can be statistical, structural, or spectral.
+{TRUE}
+
+::TF2::
+Histograms are examples of structural texture features.
+{FALSE}
+
+::TF3::
+Texels are basic elements in structural texture models.
+{TRUE}
+
+::TF4::
+Spectral methods analyze frequency components of texture.
+{TRUE}
+
+::TF5::
+Gabor filters are used as spectral texture descriptors.
+{TRUE}
+
+::TF6::
+Fourier analysis is a spectral method for texture.
+{TRUE}
+
+::TF7::
+Statistical descriptors include co-occurrence matrix features.
+{TRUE}
+
+::TF8::
+Structural methods describe texture as repeated arrangements of primitives.
+{TRUE}
+
+::TF9::
+Texture features can be used for classification and segmentation.
+{TRUE}
+
+::TF10::
+All textures look the same at all scales of observation.
+{FALSE}
+
+::MC1::
+Which is a statistical texture feature?
+{
+= Histogram
+~ Texel repetition
+~ Gabor filter
+~ Fourier coefficients
+}
+
+::MC2::
+Which is a structural texture feature?
+{
+= Repeated texels
+~ Histogram mean
+~ Co-occurrence entropy
+~ Fourier transform
+}
+
+::MC3::
+Which is a spectral texture feature?
+{
+= Gabor filter
+~ Histogram variance
+~ Texel arrangement
+~ Edge count
+}
+
+::MC4::
+Which method analyzes textures using the frequency domain?
+{
+= Fourier transform
+~ Histogram equalization
+~ Thresholding
+~ Morphology
+}
+
+::MC5::
+Which feature type is best for capturing repeated primitives?
+{
+= Structural
+~ Statistical
+~ Spectral
+~ Random
+}
+
+::MC6::
+Which feature type includes co-occurrence matrices?
+{
+= Statistical
+~ Spectral
+~ Structural
+~ Random
+}
+
+::MC7::
+Which feature type uses texels as building blocks?
+{
+= Structural
+~ Statistical
+~ Spectral
+~ Random
+}
+
+::MC8::
+Which method is multi-scale and frequency-sensitive?
+{
+= Gabor filters
+~ Histogram mean
+~ Otsu’s method
+~ Thresholding
+}
+
+::MC9::
+Which method analyzes textures at multiple scales?
+{
+= Wavelets
+~ Histogram bins
+~ Region growing
+~ Compactness
+}
+
+::MC10::
+Which feature category is most related to repeated pattern structures?
+{
+= Structural
+~ Statistical
+~ Spectral
+~ Random
+}
+
+::MATCH1::
+Match the feature to its category.
+{
+= Histogram -> Statistical
+= Co-occurrence -> Statistical
+= Texels -> Structural
+= Gabor -> Spectral
+}
+
+::MATCH2::
+Match the method to its domain.
+{
+= Fourier -> Frequency
+= Gabor -> Multi-scale frequency
+= Histogram -> Distribution
+= Texel -> Pattern repetition
+}
+
+::MATCH3::
+Match the approach to description.
+{
+= Statistical -> Pixel distributions
+= Structural -> Repeated primitives
+= Spectral -> Frequency components
+= Hybrid -> Combination
+}
+
+::MATCH4::
+Match the descriptor to meaning.
+{
+= Contrast -> Local variation
+= Energy -> Strength of repetition
+= Homogeneity -> Smoothness
+= Entropy -> Randomness
+}
+
+::MATCH5::
+Match the application to features.
+{
+= Classification -> Texture categories
+= Segmentation -> Image partition
+= Inspection -> Surface flaws
+= Recognition -> Object texture
+}
+
+::MATCH6::
+Match the feature type to example.
+{
+= Statistical -> Histogram variance
+= Structural -> Texel grid
+= Spectral -> Fourier coefficients
+= Hybrid -> Gabor + co-occurrence
+}
+
+::MATCH7::
+Match the texture type to example.
+{
+= Smooth -> Sky
+= Coarse -> Sandpaper
+= Regular -> Checkerboard
+= Random -> Clouds
+}
+
+::MATCH8::
+Match the method to advantage.
+{
+= Histogram -> Simple
+= Co-occurrence -> Captures pixel relations
+= Fourier -> Frequency analysis
+= Gabor -> Multi-scale features
+}
+
+::MATCH9::
+Match the scale to observation.
+{
+= Fine scale -> Small details
+= Coarse scale -> Overall structure
+= Multi-scale -> Combination
+= Single scale -> Limited view
+}
+
+::MATCH10::
+Match the category to limitation.
+{
+= Statistical -> Ignores structure
+= Structural -> Needs clear primitives
+= Spectral -> Sensitive to noise
+= All -> Sensitive to illumination
+}
+
+::MULTI1::
+Which are categories of texture features?
+{
+~%33.33333% Statistical
+~%33.33333% Structural
+~%33.33333% Spectral
+~%-100% Chromatic
+}
+
+::MULTI2::
+Which are statistical texture descriptors?
+{
+~%50% Histogram
+~%50% Co-occurrence
+~%-100% Texels
+~%-100% Gabor
+}
+
+::MULTI3::
+Which are structural descriptors?
+{
+~%50% Texels
+~%50% Pattern repetition
+~%-100% Histogram variance
+~%-100% Fourier coefficients
+}
+
+::MULTI4::
+Which are spectral descriptors?
+{
+~%33.33333% Fourier transform
+~%33.33333% Gabor filters
+~%33.33333% Wavelets
+~%-100% Histogram bins
+}
+
+::MULTI5::
+Which are applications of texture features?
+{
+~%25% Classification
+~%25% Segmentation
+~%25% Inspection
+~%25% Recognition
+}
+
+::MULTI6::
+Which are challenges in texture feature extraction?
+{
+~%33.33333% Scale variation
+~%33.33333% Illumination changes
+~%33.33333% Noise
+~%-100% File format
+}
+
+::MULTI7::
+Which are true about Gabor filters?
+{
+~%33.33333% Frequency sensitive
+~%33.33333% Multi-scale
+~%33.33333% Used in texture analysis
+~%-100% Histogram-only
+}
+
+::MULTI8::
+Which are properties of structural methods?
+{
+~%50% Based on texels
+~%50% Require regular repetition
+~%-100% Frequency-based
+~%-100% Histogram-only
+}
+
+::MULTI9::
+Which are advantages of spectral methods?
+{
+~%33.33333% Capture frequency information
+~%33.33333% Capture orientation
+~%33.33333% Multi-scale capability
+~%-100% Based only on pixel mean
+}
+
+::MULTI10::
+Which are examples of multi-scale methods?
+{
+~%50% Gabor filters
+~%50% Wavelets
+~%-100% Histogram
+~%-100% Texels
+}
+

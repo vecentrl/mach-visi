@@ -1,0 +1,309 @@
+::TF1::
+3D transformations can include translation, rotation, and scaling.
+{TRUE}
+
+::TF2::
+Homogeneous coordinates are used to represent 3D transformations.
+{TRUE}
+
+::TF3::
+3D transformations are commonly expressed with 4×4 matrices.
+{TRUE}
+
+::TF4::
+The pinhole camera model projects 3D points onto a 2D image plane.
+{TRUE}
+
+::TF5::
+The pinhole camera model equation is x equals fX/Z, y equals fY/Z.
+{TRUE}
+
+::TF6::
+The pinhole camera model accounts for lens distortion.
+{FALSE}
+
+::TF7::
+3D transformations are used to relate world, camera, and image spaces.
+{TRUE}
+
+::TF8::
+Scaling cannot be represented in homogeneous coordinates.
+{FALSE}
+
+::TF9::
+Camera calibration is an application of 3D transformations and models.
+{TRUE}
+
+::TF10::
+Augmented reality applications rely on accurate camera models.
+{TRUE}
+
+::MC1::
+What do homogeneous coordinates enable?
+{
+= Representation of translations and projections
+~ Only scaling
+~ Only rotations
+~ Only noise reduction
+}
+
+::MC2::
+What matrix size is used for 3D transformations in homogeneous form?
+{
+= 4×4
+~ 3×3
+~ 2×2
+~ 5×5
+}
+
+::MC3::
+What does the pinhole camera model describe?
+{
+= Projection of 3D points to 2D
+~ Image compression
+~ Histogram equalization
+~ Audio filtering
+}
+
+::MC4::
+What is the equation of the pinhole projection?
+{
+= x = fX/Z, y = fY/Z
+~ x = X + f, y = Y + f
+~ x = X/Z, y = Y/Z
+~ x = fX + Z, y = fY + Z
+}
+
+::MC5::
+What does the pinhole model assume?
+{
+= Ideal geometry without lens distortion
+~ Real-world distortions included
+~ Nonlinear projection
+~ Automatic calibration
+}
+
+::MC6::
+Which is an application of camera models?
+{
+= 3D reconstruction
+~ Histogram smoothing
+~ File encryption
+~ JPEG compression
+}
+
+::MC7::
+Which is NOT included in basic 3D transformations?
+{
+= Histogram equalization
+~ Translation
+~ Rotation
+~ Scaling
+}
+
+::MC8::
+Which is a limitation of the pinhole model?
+{
+= Ignores lens distortion
+~ Requires 4×4 matrix
+~ Uses world coordinates
+~ Too general
+}
+
+::MC9::
+Which is required for augmented reality?
+{
+= Accurate camera calibration
+~ Audio equalization
+~ Histogram bins
+~ File compression
+}
+
+::MC10::
+Which is a transformation used in world-to-camera conversion?
+{
+= Rotation and translation
+~ Histogram adjustment
+~ Color balancing
+~ Filtering
+}
+
+::MATCH1::
+Match the transformation to type.
+{
+= Translation -> Shift
+= Rotation -> Turn
+= Scaling -> Resize
+= Homogeneous -> Matrix form
+}
+
+::MATCH2::
+Match the camera concept to meaning.
+{
+= Pinhole model -> Projection to 2D
+= Calibration -> Estimate parameters
+= Projection equation -> x equals fX/Z
+= Distortion -> Lens effects
+}
+
+::MATCH3::
+Match the application to domain.
+{
+= AR -> Overlay graphics
+= Robotics -> Navigation
+= Vision -> 3D reconstruction
+= Graphics -> Rendering
+}
+
+::MATCH4::
+Match the property to model.
+{
+= Preserves straight lines -> Pinhole
+= No distortion -> Ideal model
+= 3×3 matrix -> Intrinsic parameters
+= 4×4 matrix -> 3D transforms
+}
+
+::MATCH5::
+Match the problem to challenge.
+{
+= Distortion -> Not modeled
+= Calibration -> Precision needed
+= Perspective -> Scale with depth
+= Noise -> Measurement errors
+}
+
+::MATCH6::
+Match the equation to role.
+{
+= x = fX/Z -> Horizontal projection
+= y = fY/Z -> Vertical projection
+= f -> Focal length
+= Z -> Depth
+}
+
+::MATCH7::
+Match the coordinate system to role.
+{
+= World -> Scene
+= Camera -> Observer
+= Image -> 2D plane
+= Homogeneous -> Computation
+}
+
+::MATCH8::
+Match the transformation to representation.
+{
+= Translation -> Vector
+= Rotation -> Matrix
+= Scaling -> Diagonal
+= Full -> 4×4 homogeneous
+}
+
+::MATCH9::
+Match the application to field.
+{
+= AR -> Interactive graphics
+= Robotics -> Camera localization
+= Medicine -> Imaging
+= Surveying -> Mapping
+}
+
+::MATCH10::
+Match the property to matrix.
+{
+= 4×4 -> 3D transform
+= 3×3 -> Intrinsic calibration
+= Rank 2 -> Fundamental matrix
+= 3×3 + translation -> Affine
+}
+
+::MULTI1::
+Which are 3D transformations?
+{
+~%25% Translation
+~%25% Rotation
+~%25% Scaling
+~%25% Homogeneous projection
+}
+
+::MULTI2::
+Which are properties of homogeneous coordinates?
+{
+~%33.33333% Enable translation in matrix form
+~%33.33333% Represent projections
+~%33.33333% Work with 4×4 matrices
+~%-100% Ignore scaling
+}
+
+::MULTI3::
+Which are assumptions of pinhole camera model?
+{
+~%50% No distortion
+~%50% Ideal projection
+~%-100% Lens imperfections
+~%-100% Nonlinear effects
+}
+
+::MULTI4::
+Which are applications of camera models?
+{
+~%25% Calibration
+~%25% 3D reconstruction
+~%25% Augmented reality
+~%25% Robotics
+}
+
+::MULTI5::
+Which are challenges in projection?
+{
+~%33.33333% Perspective effects
+~%33.33333% Noise
+~%33.33333% Calibration errors
+~%-100% Histogram mismatch
+}
+
+::MULTI6::
+Which are parts of the pinhole projection equation?
+{
+~%25% x = fX/Z
+~%25% y = fY/Z
+~%25% f focal length
+~%25% Z depth
+}
+
+::MULTI7::
+Which are included in 3D transformation matrices?
+{
+~%33.33333% Translation
+~%33.33333% Rotation
+~%33.33333% Scaling
+~%-100% Histogram equalization
+}
+
+::MULTI8::
+Which are coordinate systems in camera modeling?
+{
+~%25% World
+~%25% Camera
+~%25% Image
+~%25% Homogeneous
+}
+
+::MULTI9::
+Which are benefits of homogeneous coordinates?
+{
+~%33.33333% Simplifies transformations
+~%33.33333% Enables projections
+~%33.33333% Combines operations
+~%-100% Removes depth
+}
+
+::MULTI10::
+Which domains use camera models?
+{
+~%25% AR
+~%25% Robotics
+~%25% Medicine
+~%25% Vision
+}

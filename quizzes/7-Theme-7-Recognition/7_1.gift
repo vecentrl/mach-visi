@@ -1,0 +1,309 @@
+::TF1::
+Pattern recognition is the process of classifying data into categories.
+{TRUE}
+
+::TF2::
+Feature extraction is an important step in pattern recognition.
+{TRUE}
+
+::TF3::
+Supervised learning requires labeled training data.
+{TRUE}
+
+::TF4::
+Unsupervised learning works without labeled data.
+{TRUE}
+
+::TF5::
+Clustering is an example of supervised learning.
+{FALSE}
+
+::TF6::
+Pattern recognition is used in face recognition and medical imaging.
+{TRUE}
+
+::TF7::
+Pattern recognition is never affected by noise.
+{FALSE}
+
+::TF8::
+High-dimensional data can make pattern recognition more difficult.
+{TRUE}
+
+::TF9::
+Support Vector Machines (SVMs) are examples of classifiers in pattern recognition.
+{TRUE}
+
+::TF10::
+Industrial inspection is an application of pattern recognition.
+{TRUE}
+
+::MC1::
+What is the first step in pattern recognition?
+{
+= Feature extraction
+~ Classification
+~ Evaluation
+~ Noise removal
+}
+
+::MC2::
+Which learning type requires labeled data?
+{
+= Supervised
+~ Unsupervised
+~ Clustering
+~ PCA
+}
+
+::MC3::
+Which learning type groups data without labels?
+{
+= Unsupervised
+~ Supervised
+~ Regression
+~ Histogram
+}
+
+::MC4::
+Which is an example of supervised learning?
+{
+= SVM classifier
+~ Clustering
+~ PCA
+~ Histogram equalization
+}
+
+::MC5::
+Which is an example of unsupervised learning?
+{
+= k-means clustering
+~ SVM
+~ Decision tree
+~ Linear regression
+}
+
+::MC6::
+Which is NOT a step in pattern recognition workflow?
+{
+= Audio compression
+~ Feature extraction
+~ Classification
+~ Evaluation
+}
+
+::MC7::
+Which classifier belongs to supervised learning?
+{
+= k-Nearest Neighbor (kNN)
+~ k-means
+~ PCA
+~ Histogram matching
+}
+
+::MC8::
+Which challenge affects pattern recognition?
+{
+= Noise and variability
+~ Perfect invariance
+~ Unlimited data always
+~ No dimensionality issues
+}
+
+::MC9::
+Which field uses pattern recognition?
+{
+= Handwriting recognition
+~ Audio equalization
+~ Image compression
+~ Histogram smoothing
+}
+
+::MC10::
+Which step follows classification in recognition workflow?
+{
+= Evaluation
+~ Feature extraction
+~ Clustering
+~ Illumination correction
+}
+
+::MATCH1::
+Match the step to its role.
+{
+= Feature extraction -> Derive descriptors
+= Classification -> Assign categories
+= Evaluation -> Measure performance
+= Learning -> Build model
+}
+
+::MATCH2::
+Match the type to example.
+{
+= Supervised -> SVM
+= Unsupervised -> k-means
+= Classifier -> kNN
+= Feature extraction -> Texture features
+}
+
+::MATCH3::
+Match the challenge to effect.
+{
+= Noise -> Errors
+= High-dimensional data -> Overfitting
+= Variability -> Misclassification
+= Limited data -> Poor training
+}
+
+::MATCH4::
+Match the domain to application.
+{
+= Medical -> Tumor detection
+= Industry -> Defect inspection
+= Security -> Face recognition
+= Documents -> Handwriting OCR
+}
+
+::MATCH5::
+Match the classifier to category.
+{
+= SVM -> Supervised
+= kNN -> Supervised
+= k-means -> Unsupervised
+= PCA -> Dimensionality reduction
+}
+
+::MATCH6::
+Match the property to learning type.
+{
+= Labeled data -> Supervised
+= No labels -> Unsupervised
+= Classification -> Supervised
+= Clustering -> Unsupervised
+}
+
+::MATCH7::
+Match the step to difficulty.
+{
+= Feature extraction -> Choosing good descriptors
+= Classification -> Model choice
+= Evaluation -> Metrics
+= Learning -> Data availability
+}
+
+::MATCH8::
+Match the algorithm to task.
+{
+= SVM -> Classification
+= k-means -> Clustering
+= PCA -> Feature reduction
+= kNN -> Recognition
+}
+
+::MATCH9::
+Match the problem to solution.
+{
+= Noise -> Preprocessing
+= High dimensionality -> PCA
+= Few labels -> Semi-supervised learning
+= Variability -> Robust features
+}
+
+::MATCH10::
+Match the pattern recognition concept to keyword.
+{
+= Feature extraction -> Descriptors
+= Classification -> Labels
+= Unsupervised -> Clustering
+= Supervised -> Labeled training
+}
+
+::MULTI1::
+Which are steps in pattern recognition workflow?
+{
+~%33.33333% Feature extraction
+~%33.33333% Classification
+~%33.33333% Evaluation
+~%-100% Audio synthesis
+}
+
+::MULTI2::
+Which are supervised learning algorithms?
+{
+~%33.33333% SVM
+~%33.33333% kNN
+~%33.33333% Decision tree
+~%-100% k-means
+}
+
+::MULTI3::
+Which are unsupervised learning methods?
+{
+~%50% k-means
+~%50% Hierarchical clustering
+~%-100% SVM
+~%-100% Decision tree
+}
+
+::MULTI4::
+Which are applications of pattern recognition?
+{
+~%25% Face recognition
+~%25% Handwriting recognition
+~%25% Medical imaging
+~%25% Industrial inspection
+}
+
+::MULTI5::
+Which are challenges for pattern recognition?
+{
+~%33.33333% Noise
+~%33.33333% Variability
+~%33.33333% High-dimensional data
+~%-100% Perfect robustness
+}
+
+::MULTI6::
+Which are classifiers in supervised learning?
+{
+~%33.33333% kNN
+~%33.33333% SVM
+~%33.33333% Decision trees
+~%-100% k-means
+}
+
+::MULTI7::
+Which are first steps before classification?
+{
+~%50% Feature extraction
+~%50% Preprocessing
+~%-100% Evaluation
+~%-100% Final labeling
+}
+
+::MULTI8::
+Which are examples of supervised learning?
+{
+~%33.33333% SVM
+~%33.33333% kNN
+~%33.33333% Decision trees
+~%-100% PCA
+}
+
+::MULTI9::
+Which are examples of unsupervised learning?
+{
+~%50% k-means
+~%50% Clustering
+~%-100% SVM
+~%-100% Decision trees
+}
+
+::MULTI10::
+Which are pattern recognition applications?
+{
+~%25% Tumor detection
+~%25% Face recognition
+~%25% OCR
+~%25% Defect inspection
+}

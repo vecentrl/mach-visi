@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhat is the main goal of automatic understanding of images?\n{\n= Computing properties of the 3D world and recognizing objects\n~ Compressing images into smaller file sizes\n~ Designing new lenses for cameras\n~ Storing pictures in databases\n}",
+    "title": "MC1",
+    "question": "What is the main goal of automatic understanding of images?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Computing properties of the 3D world and recognizing objects",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Compressing images into smaller file sizes",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Designing new lenses for cameras",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Storing pictures in databases",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhich is an example of perception in computer vision?\n{\n= Recognizing a pedestrian crossing a street\n~ Measuring voltage in a circuit\n~ Sorting files alphabetically\n~ Counting the size of a database\n}",
+    "title": "MC2",
+    "question": "Which is an example of perception in computer vision?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Recognizing a pedestrian crossing a street",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Measuring voltage in a circuit",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Sorting files alphabetically",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Counting the size of a database",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhich best describes the process of “interpretation” in image understanding?\n{\n= Assigning meaning to detected visual patterns\n~ Filtering noise from pixel arrays\n~ Correcting color balance\n~ Storing image metadata\n}",
+    "title": "MC3",
+    "question": "Which best describes the process of “interpretation” in image understanding?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Assigning meaning to detected visual patterns",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Filtering noise from pixel arrays",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Correcting color balance",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Storing image metadata",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhich is NOT part of automatic understanding of images?\n{\n= Playing background audio\n~ Recognizing activities\n~ Scene interpretation\n~ Computing object properties\n}",
+    "title": "MC4",
+    "question": "Which is NOT part of automatic understanding of images?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Playing background audio",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Recognizing activities",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Scene interpretation",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Computing object properties",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhich type of recognition is part of automatic video understanding?\n{\n= Action recognition\n~ Audio enhancement\n~ Keyboard typing\n~ Text file parsing\n}",
+    "title": "MC5",
+    "question": "Which type of recognition is part of automatic video understanding?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Action recognition",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Audio enhancement",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Keyboard typing",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Text file parsing",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nAutomatic understanding of images often relies on:\n{\n= Algorithms and representations\n~ Random guessing\n~ Manual human labeling only\n~ Purely optical hardware without computation\n}",
+    "title": "MC6",
+    "question": "Automatic understanding of images often relies on:",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Algorithms and representations",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Random guessing",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Manual human labeling only",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Purely optical hardware without computation",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhat is an example of measuring from visual data?\n{\n= Estimating object distances in a photo\n~ Editing text in a document\n~ Encrypting messages\n~ Sending emails\n}",
+    "title": "MC7",
+    "question": "What is an example of measuring from visual data?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Estimating object distances in a photo",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Editing text in a document",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Encrypting messages",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Sending emails",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich best describes the “perception” role of computer vision?\n{\n= Allowing a machine to recognize and interpret its environment\n~ Providing user passwords\n~ Managing operating systems\n~ Simulating sound waves\n}",
+    "title": "MC8",
+    "question": "Which best describes the “perception” role of computer vision?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Allowing a machine to recognize and interpret its environment",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Providing user passwords",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Managing operating systems",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Simulating sound waves",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich of these is a high-level task in automatic image understanding?\n{\n= Scene recognition\n~ Pixel averaging\n~ File renaming\n~ Voltage measurement\n}",
+    "title": "MC9",
+    "question": "Which of these is a high-level task in automatic image understanding?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Scene recognition",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Pixel averaging",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "File renaming",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Voltage measurement",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich activity is directly supported by automatic video understanding?\n{\n= Detecting suspicious actions in surveillance footage\n~ Sending push notifications\n~ Formatting a hard drive\n~ Editing audio files\n}",
+    "title": "MC10",
+    "question": "Which activity is directly supported by automatic video understanding?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Detecting suspicious actions in surveillance footage",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Sending push notifications",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Formatting a hard drive",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Editing audio files",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the concept to its description.\n{\n= Measurement -> Computing 3D properties from visual data\n= Perception -> Recognizing objects, people, and scenes\n= Interpretation -> Assigning meaning to visual information\n= Activity recognition -> Understanding what actions are happening\n}",
+    "title": "MATCH1",
+    "question": "Match the concept to its description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Measurement",
+        "right": "Computing 3D properties from visual data"
+      },
+      {
+        "id": 2,
+        "left": "Perception",
+        "right": "Recognizing objects, people, and scenes"
+      },
+      {
+        "id": 3,
+        "left": "Interpretation",
+        "right": "Assigning meaning to visual information"
+      },
+      {
+        "id": 4,
+        "left": "Activity recognition",
+        "right": "Understanding what actions are happening"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the example to the task.\n{\n= Recognizing a cat in an image -> Object recognition\n= Identifying a crowd in a stadium -> Scene recognition\n= Detecting a handshake in video -> Activity recognition\n= Estimating room dimensions from photo -> Measurement\n}",
+    "title": "MATCH2",
+    "question": "Match the example to the task.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Recognizing a cat in an image",
+        "right": "Object recognition"
+      },
+      {
+        "id": 2,
+        "left": "Identifying a crowd in a stadium",
+        "right": "Scene recognition"
+      },
+      {
+        "id": 3,
+        "left": "Detecting a handshake in video",
+        "right": "Activity recognition"
+      },
+      {
+        "id": 4,
+        "left": "Estimating room dimensions from photo",
+        "right": "Measurement"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the input to the output.\n{\n= Pixels -> Features\n= Features -> Objects\n= Objects -> Scene interpretation\n= Scenes -> Activity context\n}",
+    "title": "MATCH3",
+    "question": "Match the input to the output.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Pixels",
+        "right": "Features"
+      },
+      {
+        "id": 2,
+        "left": "Features",
+        "right": "Objects"
+      },
+      {
+        "id": 3,
+        "left": "Objects",
+        "right": "Scene interpretation"
+      },
+      {
+        "id": 4,
+        "left": "Scenes",
+        "right": "Activity context"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the visual task to the domain.\n{\n= Object recognition -> Security systems\n= Scene understanding -> Navigation\n= Activity recognition -> Video surveillance\n= 3D measurement -> Robotics\n}",
+    "title": "MATCH4",
+    "question": "Match the visual task to the domain.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Object recognition",
+        "right": "Security systems"
+      },
+      {
+        "id": 2,
+        "left": "Scene understanding",
+        "right": "Navigation"
+      },
+      {
+        "id": 3,
+        "left": "Activity recognition",
+        "right": "Video surveillance"
+      },
+      {
+        "id": 4,
+        "left": "3D measurement",
+        "right": "Robotics"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the data type to its use.\n{\n= 2D image -> Object detection\n= Sequence of frames -> Video activity recognition\n= Depth map -> 3D measurement\n= Semantic labels -> Scene interpretation\n}",
+    "title": "MATCH5",
+    "question": "Match the data type to its use.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "2D image",
+        "right": "Object detection"
+      },
+      {
+        "id": 2,
+        "left": "Sequence of frames",
+        "right": "Video activity recognition"
+      },
+      {
+        "id": 3,
+        "left": "Depth map",
+        "right": "3D measurement"
+      },
+      {
+        "id": 4,
+        "left": "Semantic labels",
+        "right": "Scene interpretation"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the challenge to the task.\n{\n= Occlusion -> Object recognition\n= Complex backgrounds -> Scene interpretation\n= Multiple moving people -> Activity recognition\n= Calibration -> 3D measurement\n}",
+    "title": "MATCH6",
+    "question": "Match the challenge to the task.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Occlusion",
+        "right": "Object recognition"
+      },
+      {
+        "id": 2,
+        "left": "Complex backgrounds",
+        "right": "Scene interpretation"
+      },
+      {
+        "id": 3,
+        "left": "Multiple moving people",
+        "right": "Activity recognition"
+      },
+      {
+        "id": 4,
+        "left": "Calibration",
+        "right": "3D measurement"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the algorithm to its application.\n{\n= Convolutional neural networks -> Object recognition\n= Optical flow -> Activity recognition\n= Stereo vision -> 3D measurement\n= Semantic segmentation -> Scene interpretation\n}",
+    "title": "MATCH7",
+    "question": "Match the algorithm to its application.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Convolutional neural networks",
+        "right": "Object recognition"
+      },
+      {
+        "id": 2,
+        "left": "Optical flow",
+        "right": "Activity recognition"
+      },
+      {
+        "id": 3,
+        "left": "Stereo vision",
+        "right": "3D measurement"
+      },
+      {
+        "id": 4,
+        "left": "Semantic segmentation",
+        "right": "Scene interpretation"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the keyword to its meaning.\n{\n= Perception -> Low-level recognition\n= Interpretation -> Higher-level meaning assignment\n= Measurement -> Quantitative analysis\n= Activity -> Dynamic event recognition\n}",
+    "title": "MATCH8",
+    "question": "Match the keyword to its meaning.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Perception",
+        "right": "Low-level recognition"
+      },
+      {
+        "id": 2,
+        "left": "Interpretation",
+        "right": "Higher-level meaning assignment"
+      },
+      {
+        "id": 3,
+        "left": "Measurement",
+        "right": "Quantitative analysis"
+      },
+      {
+        "id": 4,
+        "left": "Activity",
+        "right": "Dynamic event recognition"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the example to the description.\n{\n= Detecting a face -> Object recognition\n= Identifying a cityscape -> Scene recognition\n= Measuring a building’s height from images -> 3D measurement\n= Spotting running in video -> Activity recognition\n}",
+    "title": "MATCH9",
+    "question": "Match the example to the description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Detecting a face",
+        "right": "Object recognition"
+      },
+      {
+        "id": 2,
+        "left": "Identifying a cityscape",
+        "right": "Scene recognition"
+      },
+      {
+        "id": 3,
+        "left": "Measuring a building’s height from images",
+        "right": "3D measurement"
+      },
+      {
+        "id": 4,
+        "left": "Spotting running in video",
+        "right": "Activity recognition"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the computer vision layer to its task.\n{\n= Low-level processing -> Pixel filtering\n= Mid-level processing -> Feature extraction\n= High-level processing -> Object recognition\n= Interpretation layer -> Scene and activity understanding\n}",
+    "title": "MATCH10",
+    "question": "Match the computer vision layer to its task.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Low-level processing",
+        "right": "Pixel filtering"
+      },
+      {
+        "id": 2,
+        "left": "Mid-level processing",
+        "right": "Feature extraction"
+      },
+      {
+        "id": 3,
+        "left": "High-level processing",
+        "right": "Object recognition"
+      },
+      {
+        "id": 4,
+        "left": "Interpretation layer",
+        "right": "Scene and activity understanding"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are main aims of automatic image understanding?\n{\n~%33.33333% Measurement of 3D properties\n~%33.33333% Recognition of objects and people\n~%33.33333% Interpretation of activities\n~%-100% File compression\n}",
+    "title": "MULTI1",
+    "question": "Which are main aims of automatic image understanding?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Measurement of 3D properties",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Recognition of objects and people",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Interpretation of activities",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "File compression",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are examples of perception in computer vision?\n{\n~%33.33333% Object recognition\n~%33.33333% Scene understanding\n~%33.33333% Person identification\n~%-100% Audio editing\n}",
+    "title": "MULTI2",
+    "question": "Which are examples of perception in computer vision?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Object recognition",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Scene understanding",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Person identification",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Audio editing",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are examples of interpretation tasks?\n{\n~%33.33333% Scene description\n~%33.33333% Activity labeling\n~%33.33333% Assigning semantic meaning\n~%-100% File backup\n}",
+    "title": "MULTI3",
+    "question": "Which are examples of interpretation tasks?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Scene description",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Activity labeling",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Assigning semantic meaning",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "File backup",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich domains use automatic image understanding?\n{\n~%33.33333% Robotics\n~%33.33333% Security and surveillance\n~%33.33333% Augmented reality\n~%-100% Spreadsheet management\n}",
+    "title": "MULTI4",
+    "question": "Which domains use automatic image understanding?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Robotics",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Security and surveillance",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Augmented reality",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Spreadsheet management",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are input sources for automatic image understanding?\n{\n~%33.33333% Single 2D images\n~%33.33333% Video sequences\n~%33.33333% Depth maps\n~%-100% Text files\n}",
+    "title": "MULTI5",
+    "question": "Which are input sources for automatic image understanding?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Single 2D images",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Video sequences",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Depth maps",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Text files",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich challenges affect automatic video understanding?\n{\n~%33.33333% Occlusions\n~%33.33333% Changing illumination\n~%33.33333% Multiple moving objects\n~%-100% Correct spelling\n}",
+    "title": "MULTI6",
+    "question": "Which challenges affect automatic video understanding?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Occlusions",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Changing illumination",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Multiple moving objects",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Correct spelling",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are examples of activity recognition?\n{\n~%33.33333% Detecting walking\n~%33.33333% Identifying handshakes\n~%33.33333% Recognizing running\n~%-100% Calculating tax rates\n}",
+    "title": "MULTI7",
+    "question": "Which are examples of activity recognition?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Detecting walking",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Identifying handshakes",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Recognizing running",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Calculating tax rates",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich algorithms support automatic image understanding?\n{\n~%33.33333% Convolutional neural networks\n~%33.33333% Optical flow\n~%33.33333% Stereo vision\n~%-100% Sorting algorithms for databases\n}",
+    "title": "MULTI8",
+    "question": "Which algorithms support automatic image understanding?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Convolutional neural networks",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Optical flow",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Stereo vision",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Sorting algorithms for databases",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich outputs are produced by image understanding?\n{\n~%33.33333% Object labels\n~%33.33333% Scene categories\n~%33.33333% Activity descriptions\n~%-100% File extensions\n}",
+    "title": "MULTI9",
+    "question": "Which outputs are produced by image understanding?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Object labels",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Scene categories",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Activity descriptions",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "File extensions",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are real-world applications of automatic image understanding?\n{\n~%33.33333% Self-driving cars\n~%33.33333% Surveillance cameras\n~%33.33333% Augmented reality systems\n~%-100% Text document editing\n}",
+    "title": "MULTI10",
+    "question": "Which are real-world applications of automatic image understanding?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Self-driving cars",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Surveillance cameras",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Augmented reality systems",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Text document editing",
+        "weight": -100.0
+      }
+    ]
+  }
+]

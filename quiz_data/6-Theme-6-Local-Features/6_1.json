@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhy are local features important?\n{\n= They are robust for recognition, matching, and reconstruction\n~ They reduce file size\n~ They enhance brightness\n~ They compress textures\n}",
+    "title": "MC1",
+    "question": "Why are local features important?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "They are robust for recognition, matching, and reconstruction",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "They reduce file size",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "They enhance brightness",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "They compress textures",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhich task commonly uses local features?\n{\n= Panorama stitching\n~ Gamma correction\n~ Histogram equalization\n~ White balance\n}",
+    "title": "MC2",
+    "question": "Which task commonly uses local features?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Panorama stitching",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Gamma correction",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "White balance",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhat defines a corner in image processing?\n{\n= Large intensity change in multiple directions\n~ Uniform region\n~ Smooth gradient\n~ Constant brightness\n}",
+    "title": "MC3",
+    "question": "What defines a corner in image processing?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Large intensity change in multiple directions",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Uniform region",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Smooth gradient",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Constant brightness",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhich is an example of a local feature detector?\n{\n= Corner detector\n~ Histogram\n~ Thresholding\n~ White patch\n}",
+    "title": "MC4",
+    "question": "Which is an example of a local feature detector?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Corner detector",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Thresholding",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "White patch",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhich is a property of good local features?\n{\n= Repeatable under varying conditions\n~ Randomly distributed\n~ Independent of structure\n~ Sensitive only to noise\n}",
+    "title": "MC5",
+    "question": "Which is a property of good local features?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Repeatable under varying conditions",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Randomly distributed",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Independent of structure",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Sensitive only to noise",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich vision problem uses local features?\n{\n= 3D reconstruction\n~ Gamma encoding\n~ File compression\n~ Audio recognition\n}",
+    "title": "MC6",
+    "question": "Which vision problem uses local features?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "3D reconstruction",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Gamma encoding",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "File compression",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Audio recognition",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich describes the role of corners?\n{\n= Stable interest points\n~ Flat areas\n~ Textureless regions\n~ Uniform intensity zones\n}",
+    "title": "MC7",
+    "question": "Which describes the role of corners?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Stable interest points",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Flat areas",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Textureless regions",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Uniform intensity zones",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich application relies heavily on feature matching?\n{\n= Image registration\n~ Histogram smoothing\n~ White balance\n~ Gamma correction\n}",
+    "title": "MC8",
+    "question": "Which application relies heavily on feature matching?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Image registration",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram smoothing",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "White balance",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Gamma correction",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich statement is true about local features?\n{\n= They allow robust image alignment\n~ They remove noise automatically\n~ They only exist in grayscale\n~ They are irrelevant for recognition\n}",
+    "title": "MC9",
+    "question": "Which statement is true about local features?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "They allow robust image alignment",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "They remove noise automatically",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "They only exist in grayscale",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "They are irrelevant for recognition",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich condition challenges local features?\n{\n= Illumination change\n~ File size\n~ JPEG format\n~ Audio artifacts\n}",
+    "title": "MC10",
+    "question": "Which condition challenges local features?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Illumination change",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "File size",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "JPEG format",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Audio artifacts",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the concept to description.\n{\n= Local features -> Stable image points\n= Corners -> Intensity change in 2D\n= Matching -> Comparing features\n= Reconstruction -> 3D from features\n}",
+    "title": "MATCH1",
+    "question": "Match the concept to description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Local features",
+        "right": "Stable image points"
+      },
+      {
+        "id": 2,
+        "left": "Corners",
+        "right": "Intensity change in 2D"
+      },
+      {
+        "id": 3,
+        "left": "Matching",
+        "right": "Comparing features"
+      },
+      {
+        "id": 4,
+        "left": "Reconstruction",
+        "right": "3D from features"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the property to example.\n{\n= Scale invariance -> Resized images\n= Rotation invariance -> Rotated images\n= Illumination invariance -> Lighting changes\n= Repeatability -> Consistent detection\n}",
+    "title": "MATCH2",
+    "question": "Match the property to example.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Scale invariance",
+        "right": "Resized images"
+      },
+      {
+        "id": 2,
+        "left": "Rotation invariance",
+        "right": "Rotated images"
+      },
+      {
+        "id": 3,
+        "left": "Illumination invariance",
+        "right": "Lighting changes"
+      },
+      {
+        "id": 4,
+        "left": "Repeatability",
+        "right": "Consistent detection"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the application to role.\n{\n= Panorama stitching -> Align overlapping images\n= Registration -> Align multimodal images\n= Recognition -> Identify objects\n= 3D reconstruction -> Build scene\n}",
+    "title": "MATCH3",
+    "question": "Match the application to role.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Panorama stitching",
+        "right": "Align overlapping images"
+      },
+      {
+        "id": 2,
+        "left": "Registration",
+        "right": "Align multimodal images"
+      },
+      {
+        "id": 3,
+        "left": "Recognition",
+        "right": "Identify objects"
+      },
+      {
+        "id": 4,
+        "left": "3D reconstruction",
+        "right": "Build scene"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the method to category.\n{\n= Corner detection -> Local features\n= Histogram -> Global descriptor\n= Color constancy -> Illumination correction\n= Thresholding -> Segmentation\n}",
+    "title": "MATCH4",
+    "question": "Match the method to category.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Corner detection",
+        "right": "Local features"
+      },
+      {
+        "id": 2,
+        "left": "Histogram",
+        "right": "Global descriptor"
+      },
+      {
+        "id": 3,
+        "left": "Color constancy",
+        "right": "Illumination correction"
+      },
+      {
+        "id": 4,
+        "left": "Thresholding",
+        "right": "Segmentation"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the feature type to example.\n{\n= Corner -> Stable interest point\n= Blob -> Region-based feature\n= Edge -> Gradient-based feature\n= Flat area -> Poor feature\n}",
+    "title": "MATCH5",
+    "question": "Match the feature type to example.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Corner",
+        "right": "Stable interest point"
+      },
+      {
+        "id": 2,
+        "left": "Blob",
+        "right": "Region-based feature"
+      },
+      {
+        "id": 3,
+        "left": "Edge",
+        "right": "Gradient-based feature"
+      },
+      {
+        "id": 4,
+        "left": "Flat area",
+        "right": "Poor feature"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the challenge to effect.\n{\n= Noise -> False detections\n= Illumination change -> Contrast issues\n= Scale change -> Feature mismatch\n= Rotation -> Feature orientation change\n}",
+    "title": "MATCH6",
+    "question": "Match the challenge to effect.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Noise",
+        "right": "False detections"
+      },
+      {
+        "id": 2,
+        "left": "Illumination change",
+        "right": "Contrast issues"
+      },
+      {
+        "id": 3,
+        "left": "Scale change",
+        "right": "Feature mismatch"
+      },
+      {
+        "id": 4,
+        "left": "Rotation",
+        "right": "Feature orientation change"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the domain to example.\n{\n= Object recognition -> Local descriptors\n= Tracking -> Feature matching\n= Robotics -> 3D vision\n= Graphics -> Image stitching\n}",
+    "title": "MATCH7",
+    "question": "Match the domain to example.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Object recognition",
+        "right": "Local descriptors"
+      },
+      {
+        "id": 2,
+        "left": "Tracking",
+        "right": "Feature matching"
+      },
+      {
+        "id": 3,
+        "left": "Robotics",
+        "right": "3D vision"
+      },
+      {
+        "id": 4,
+        "left": "Graphics",
+        "right": "Image stitching"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the requirement to feature.\n{\n= Repeatability -> Reliable detection\n= Distinctiveness -> Unique descriptor\n= Efficiency -> Fast computation\n= Invariance -> Robust to change\n}",
+    "title": "MATCH8",
+    "question": "Match the requirement to feature.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Repeatability",
+        "right": "Reliable detection"
+      },
+      {
+        "id": 2,
+        "left": "Distinctiveness",
+        "right": "Unique descriptor"
+      },
+      {
+        "id": 3,
+        "left": "Efficiency",
+        "right": "Fast computation"
+      },
+      {
+        "id": 4,
+        "left": "Invariance",
+        "right": "Robust to change"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the detector to property.\n{\n= Corner -> 2D intensity change\n= Edge -> 1D intensity change\n= Blob -> Local region extrema\n= Flat -> Uniform\n}",
+    "title": "MATCH9",
+    "question": "Match the detector to property.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Corner",
+        "right": "2D intensity change"
+      },
+      {
+        "id": 2,
+        "left": "Edge",
+        "right": "1D intensity change"
+      },
+      {
+        "id": 3,
+        "left": "Blob",
+        "right": "Local region extrema"
+      },
+      {
+        "id": 4,
+        "left": "Flat",
+        "right": "Uniform"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the local feature to use.\n{\n= Corners -> Registration\n= Blobs -> Detection\n= Edges -> Segmentation\n= Flat -> Not useful\n}",
+    "title": "MATCH10",
+    "question": "Match the local feature to use.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Corners",
+        "right": "Registration"
+      },
+      {
+        "id": 2,
+        "left": "Blobs",
+        "right": "Detection"
+      },
+      {
+        "id": 3,
+        "left": "Edges",
+        "right": "Segmentation"
+      },
+      {
+        "id": 4,
+        "left": "Flat",
+        "right": "Not useful"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are examples of local features?\n{\n~%33.33333% Corners\n~%33.33333% Blobs\n~%33.33333% Edges\n~%-100% Flat regions\n}",
+    "title": "MULTI1",
+    "question": "Which are examples of local features?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Corners",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Blobs",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Edges",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Flat regions",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are properties of good local features?\n{\n~%25% Repeatability\n~%25% Distinctiveness\n~%25% Invariance\n~%25% Efficiency\n}",
+    "title": "MULTI2",
+    "question": "Which are properties of good local features?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Repeatability",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Distinctiveness",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Invariance",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Efficiency",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are applications of local features?\n{\n~%25% Object recognition\n~%25% Panorama stitching\n~%25% 3D reconstruction\n~%25% Tracking\n}",
+    "title": "MULTI3",
+    "question": "Which are applications of local features?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Object recognition",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Panorama stitching",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "3D reconstruction",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Tracking",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are challenges for local features?\n{\n~%33.33333% Noise\n~%33.33333% Illumination variation\n~%33.33333% Scale changes\n~%-100% Perfect invariance\n}",
+    "title": "MULTI4",
+    "question": "Which are challenges for local features?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Noise",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Illumination variation",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Scale changes",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Perfect invariance",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are characteristics of corners?\n{\n~%33.33333% Intensity change in 2D\n~%33.33333% Stable location\n~%33.33333% Useful for matching\n~%-100% Flat intensity\n}",
+    "title": "MULTI5",
+    "question": "Which are characteristics of corners?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Intensity change in 2D",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Stable location",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Useful for matching",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Flat intensity",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich methods use local features?\n{\n~%33.33333% Image registration\n~%33.33333% Object recognition\n~%33.33333% Tracking\n~%-100% Histogram equalization\n}",
+    "title": "MULTI6",
+    "question": "Which methods use local features?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Image registration",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Object recognition",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Tracking",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Histogram equalization",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are examples of feature invariance?\n{\n~%33.33333% Scale invariance\n~%33.33333% Rotation invariance\n~%33.33333% Illumination invariance\n~%-100% File-size invariance\n}",
+    "title": "MULTI7",
+    "question": "Which are examples of feature invariance?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Scale invariance",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Rotation invariance",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Illumination invariance",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "File-size invariance",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are examples of poor features?\n{\n~%50% Flat regions\n~%50% Uniform areas\n~%-100% Corners\n~%-100% Edges\n}",
+    "title": "MULTI8",
+    "question": "Which are examples of poor features?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Flat regions",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Uniform areas",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Corners",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Edges",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are reasons to use local features?\n{\n~%25% Matching\n~%25% Recognition\n~%25% Tracking\n~%25% Reconstruction\n}",
+    "title": "MULTI9",
+    "question": "Which are reasons to use local features?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Matching",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Recognition",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Tracking",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Reconstruction",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are examples of applications requiring robust features?\n{\n~%25% Panorama stitching\n~%25% 3D reconstruction\n~%25% Robotics\n~%25% Object recognition\n}",
+    "title": "MULTI10",
+    "question": "Which are examples of applications requiring robust features?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Panorama stitching",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "3D reconstruction",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Robotics",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Object recognition",
+        "weight": 25.0
+      }
+    ]
+  }
+]

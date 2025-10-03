@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhat is the main idea of photometric stereo?\n{\n= Recover shape from varying illumination\n~ Recover shape from varying viewpoints\n~ Use stereo disparity\n~ Use silhouettes\n}",
+    "title": "MC1",
+    "question": "What is the main idea of photometric stereo?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Recover shape from varying illumination",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Recover shape from varying viewpoints",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Use stereo disparity",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Use silhouettes",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhich must be known in photometric stereo?\n{\n= Light source directions\n~ Stereo disparity\n~ Texture distortion\n~ Object silhouettes\n}",
+    "title": "MC2",
+    "question": "Which must be known in photometric stereo?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Light source directions",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Stereo disparity",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Texture distortion",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Object silhouettes",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhat reflectance model is assumed in photometric stereo?\n{\n= Lambertian\n~ Specular\n~ Glossy\n~ Transparent\n}",
+    "title": "MC3",
+    "question": "What reflectance model is assumed in photometric stereo?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Lambertian",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Specular",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Glossy",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Transparent",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhat is the output of photometric stereo?\n{\n= Surface normals\n~ Depth maps directly\n~ Edge maps\n~ Silhouettes\n}",
+    "title": "MC4",
+    "question": "What is the output of photometric stereo?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Surface normals",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Depth maps directly",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Edge maps",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Silhouettes",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhich step follows surface normal estimation?\n{\n= Depth integration\n~ Stereo matching\n~ Texture mapping\n~ Histogram equalization\n}",
+    "title": "MC5",
+    "question": "Which step follows surface normal estimation?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Depth integration",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Stereo matching",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Texture mapping",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram equalization",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich is an application of photometric stereo?\n{\n= Cultural heritage scanning\n~ JPEG compression\n~ Audio filtering\n~ Gamma correction\n}",
+    "title": "MC6",
+    "question": "Which is an application of photometric stereo?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Cultural heritage scanning",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "JPEG compression",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Audio filtering",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Gamma correction",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich factor causes failure in photometric stereo?\n{\n= Shadows and specularities\n~ Known lights\n~ Lambertian assumption\n~ Multiple images\n}",
+    "title": "MC7",
+    "question": "Which factor causes failure in photometric stereo?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Shadows and specularities",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Known lights",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Lambertian assumption",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Multiple images",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich imaging condition is required for photometric stereo?\n{\n= Same viewpoint\n~ Multiple viewpoints\n~ Random angles\n~ Motion parallax\n}",
+    "title": "MC8",
+    "question": "Which imaging condition is required for photometric stereo?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Same viewpoint",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Multiple viewpoints",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Random angles",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Motion parallax",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich domain uses photometric stereo?\n{\n= Industrial inspection\n~ Audio compression\n~ File encryption\n~ White balance\n}",
+    "title": "MC9",
+    "question": "Which domain uses photometric stereo?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Industrial inspection",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Audio compression",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "File encryption",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "White balance",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich property differentiates photometric stereo from shape from shading?\n{\n= Multiple lighting directions\n~ Single image\n~ Ambiguity only\n~ Uses stereo disparity\n}",
+    "title": "MC10",
+    "question": "Which property differentiates photometric stereo from shape from shading?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Multiple lighting directions",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Single image",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Ambiguity only",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Uses stereo disparity",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the method to cue.\n{\n= Photometric stereo -> Illumination variation\n= Stereo -> Disparity\n= Motion -> Multi-viewpoint\n= Shading -> Single image\n}",
+    "title": "MATCH1",
+    "question": "Match the method to cue.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Photometric stereo",
+        "right": "Illumination variation"
+      },
+      {
+        "id": 2,
+        "left": "Stereo",
+        "right": "Disparity"
+      },
+      {
+        "id": 3,
+        "left": "Motion",
+        "right": "Multi-viewpoint"
+      },
+      {
+        "id": 4,
+        "left": "Shading",
+        "right": "Single image"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the requirement to method.\n{\n= Known lighting -> Photometric stereo\n= Two cameras -> Stereo\n= Multiple frames -> Motion\n= Single shading -> Shape from shading\n}",
+    "title": "MATCH2",
+    "question": "Match the requirement to method.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Known lighting",
+        "right": "Photometric stereo"
+      },
+      {
+        "id": 2,
+        "left": "Two cameras",
+        "right": "Stereo"
+      },
+      {
+        "id": 3,
+        "left": "Multiple frames",
+        "right": "Motion"
+      },
+      {
+        "id": 4,
+        "left": "Single shading",
+        "right": "Shape from shading"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the challenge to cause.\n{\n= Shadows -> Missing data\n= Specularities -> Violate Lambertian assumption\n= Noise -> Unstable normals\n= Unknown lighting -> Failure\n}",
+    "title": "MATCH3",
+    "question": "Match the challenge to cause.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Shadows",
+        "right": "Missing data"
+      },
+      {
+        "id": 2,
+        "left": "Specularities",
+        "right": "Violate Lambertian assumption"
+      },
+      {
+        "id": 3,
+        "left": "Noise",
+        "right": "Unstable normals"
+      },
+      {
+        "id": 4,
+        "left": "Unknown lighting",
+        "right": "Failure"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the application to field.\n{\n= Cultural heritage -> Object scans\n= Industry -> Surface inspection\n= Medicine -> Shape recovery\n= Robotics -> Depth sensing\n}",
+    "title": "MATCH4",
+    "question": "Match the application to field.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Cultural heritage",
+        "right": "Object scans"
+      },
+      {
+        "id": 2,
+        "left": "Industry",
+        "right": "Surface inspection"
+      },
+      {
+        "id": 3,
+        "left": "Medicine",
+        "right": "Shape recovery"
+      },
+      {
+        "id": 4,
+        "left": "Robotics",
+        "right": "Depth sensing"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the step to output.\n{\n= Estimate normals -> Surface orientation\n= Integrate -> Depth map\n= Align lights -> Known directions\n= Capture images -> Varying illumination\n}",
+    "title": "MATCH5",
+    "question": "Match the step to output.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Estimate normals",
+        "right": "Surface orientation"
+      },
+      {
+        "id": 2,
+        "left": "Integrate",
+        "right": "Depth map"
+      },
+      {
+        "id": 3,
+        "left": "Align lights",
+        "right": "Known directions"
+      },
+      {
+        "id": 4,
+        "left": "Capture images",
+        "right": "Varying illumination"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the advantage to method.\n{\n= Photometric stereo -> Detailed surface normals\n= Stereo -> Depth map\n= Motion -> Structure\n= Contour -> Silhouette shape\n}",
+    "title": "MATCH6",
+    "question": "Match the advantage to method.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Photometric stereo",
+        "right": "Detailed surface normals"
+      },
+      {
+        "id": 2,
+        "left": "Stereo",
+        "right": "Depth map"
+      },
+      {
+        "id": 3,
+        "left": "Motion",
+        "right": "Structure"
+      },
+      {
+        "id": 4,
+        "left": "Contour",
+        "right": "Silhouette shape"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the factor to limitation.\n{\n= Shadows -> Missing normals\n= Specularities -> Wrong estimates\n= Non-Lambertian -> Invalid model\n= Few lights -> Poor accuracy\n}",
+    "title": "MATCH7",
+    "question": "Match the factor to limitation.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Shadows",
+        "right": "Missing normals"
+      },
+      {
+        "id": 2,
+        "left": "Specularities",
+        "right": "Wrong estimates"
+      },
+      {
+        "id": 3,
+        "left": "Non-Lambertian",
+        "right": "Invalid model"
+      },
+      {
+        "id": 4,
+        "left": "Few lights",
+        "right": "Poor accuracy"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the imaging setup to description.\n{\n= Fixed viewpoint -> Photometric stereo\n= Two viewpoints -> Stereo\n= Many frames -> Motion\n= Single shading -> Shape from shading\n}",
+    "title": "MATCH8",
+    "question": "Match the imaging setup to description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Fixed viewpoint",
+        "right": "Photometric stereo"
+      },
+      {
+        "id": 2,
+        "left": "Two viewpoints",
+        "right": "Stereo"
+      },
+      {
+        "id": 3,
+        "left": "Many frames",
+        "right": "Motion"
+      },
+      {
+        "id": 4,
+        "left": "Single shading",
+        "right": "Shape from shading"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the concept to description.\n{\n= Normal -> Orientation vector\n= Depth -> Integrated surface\n= Lambertian -> Diffuse reflection\n= Specular -> Mirror-like\n}",
+    "title": "MATCH9",
+    "question": "Match the concept to description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Normal",
+        "right": "Orientation vector"
+      },
+      {
+        "id": 2,
+        "left": "Depth",
+        "right": "Integrated surface"
+      },
+      {
+        "id": 3,
+        "left": "Lambertian",
+        "right": "Diffuse reflection"
+      },
+      {
+        "id": 4,
+        "left": "Specular",
+        "right": "Mirror-like"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the method to requirement.\n{\n= Photometric stereo -> Multiple lights\n= Stereo -> Two cameras\n= Motion -> Multi-frame\n= Contour -> Silhouette\n}",
+    "title": "MATCH10",
+    "question": "Match the method to requirement.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Photometric stereo",
+        "right": "Multiple lights"
+      },
+      {
+        "id": 2,
+        "left": "Stereo",
+        "right": "Two cameras"
+      },
+      {
+        "id": 3,
+        "left": "Motion",
+        "right": "Multi-frame"
+      },
+      {
+        "id": 4,
+        "left": "Contour",
+        "right": "Silhouette"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are requirements of photometric stereo?\n{\n~%33.33333% Known light directions\n~%33.33333% Same viewpoint\n~%33.33333% Multiple images\n~%-100% Multiple viewpoints\n}",
+    "title": "MULTI1",
+    "question": "Which are requirements of photometric stereo?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Known light directions",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Same viewpoint",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Multiple images",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Multiple viewpoints",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are assumptions of photometric stereo?\n{\n~%50% Lambertian reflectance\n~%50% Diffuse surfaces\n~%-100% Strong specular highlights\n~%-100% Transparent materials\n}",
+    "title": "MULTI2",
+    "question": "Which are assumptions of photometric stereo?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Lambertian reflectance",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Diffuse surfaces",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Strong specular highlights",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Transparent materials",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are outputs of photometric stereo?\n{\n~%50% Surface normals\n~%50% Depth maps (via integration)\n~%-100% Silhouettes\n~%-100% Stereo disparity\n}",
+    "title": "MULTI3",
+    "question": "Which are outputs of photometric stereo?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Surface normals",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Depth maps (via integration)",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Silhouettes",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Stereo disparity",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are challenges in photometric stereo?\n{\n~%25% Shadows\n~%25% Specular reflections\n~%25% Non-Lambertian surfaces\n~%25% Noise\n}",
+    "title": "MULTI4",
+    "question": "Which are challenges in photometric stereo?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Shadows",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Specular reflections",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Non-Lambertian surfaces",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Noise",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are applications of photometric stereo?\n{\n~%25% Cultural heritage\n~%25% Industrial inspection\n~%25% Medical imaging\n~%25% Robotics\n}",
+    "title": "MULTI5",
+    "question": "Which are applications of photometric stereo?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Cultural heritage",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Industrial inspection",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Medical imaging",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Robotics",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are cues in Shape from X vs. Photometric stereo?\n{\n~%50% Shading (single image)\n~%50% Illumination variation (multiple images)\n~%-100% Stereo disparity\n~%-100% Motion parallax\n}",
+    "title": "MULTI6",
+    "question": "Which are cues in Shape from X vs. Photometric stereo?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Shading (single image)",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Illumination variation (multiple images)",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Stereo disparity",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Motion parallax",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are limitations of photometric stereo?\n{\n~%33.33333% Shadows\n~%33.33333% Specularities\n~%33.33333% Non-Lambertian surfaces\n~%-100% Robust to all conditions\n}",
+    "title": "MULTI7",
+    "question": "Which are limitations of photometric stereo?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Shadows",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Specularities",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Non-Lambertian surfaces",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Robust to all conditions",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are steps in photometric stereo?\n{\n~%25% Capture multiple images\n~%25% Use known lights\n~%25% Estimate normals\n~%25% Integrate depth\n}",
+    "title": "MULTI8",
+    "question": "Which are steps in photometric stereo?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Capture multiple images",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Use known lights",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Estimate normals",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Integrate depth",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are advantages of photometric stereo?\n{\n~%33.33333% High detail normals\n~%33.33333% Works with fixed camera\n~%33.33333% Accurate for diffuse surfaces\n~%-100% Works with one image only\n}",
+    "title": "MULTI9",
+    "question": "Which are advantages of photometric stereo?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "High detail normals",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Works with fixed camera",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Accurate for diffuse surfaces",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Works with one image only",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are domains using photometric stereo?\n{\n~%25% Vision\n~%25% Medicine\n~%25% Robotics\n~%25% Cultural heritage\n}",
+    "title": "MULTI10",
+    "question": "Which are domains using photometric stereo?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Vision",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Medicine",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Robotics",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Cultural heritage",
+        "weight": 25.0
+      }
+    ]
+  }
+]

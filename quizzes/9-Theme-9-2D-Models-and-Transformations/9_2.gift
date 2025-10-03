@@ -1,0 +1,309 @@
+::TF1::
+RANSAC stands for Random Sample Consensus.
+{TRUE}
+
+::TF2::
+RANSAC is robust to outliers.
+{TRUE}
+
+::TF3::
+RANSAC works by repeatedly sampling subsets of data.
+{TRUE}
+
+::TF4::
+The Hough Transform detects shapes by voting in parameter space.
+{TRUE}
+
+::TF5::
+In Hough Transform, peaks in the accumulator correspond to detected shapes.
+{TRUE}
+
+::TF6::
+RANSAC always uses all data points in each iteration.
+{FALSE}
+
+::TF7::
+The Hough Transform can detect lines and circles.
+{TRUE}
+
+::TF8::
+RANSAC is an iterative algorithm.
+{TRUE}
+
+::TF9::
+Hough Transform is not affected by noise at all.
+{FALSE}
+
+::TF10::
+Both RANSAC and Hough Transform are used for line detection.
+{TRUE}
+
+::MC1::
+What is the main purpose of RANSAC?
+{
+= Robust model fitting with outliers
+~ Histogram equalization
+~ PCA feature reduction
+~ Image compression
+}
+
+::MC2::
+What is the main idea of Hough Transform?
+{
+= Voting in parameter space
+~ Random sampling
+~ Gradient descent
+~ Clustering
+}
+
+::MC3::
+What does RANSAC select in each iteration?
+{
+= A random subset of data
+~ All data points
+~ Only inliers
+~ Histogram bins
+}
+
+::MC4::
+What does the Hough accumulator store?
+{
+= Votes for model parameters
+~ Random samples
+~ Gradient vectors
+~ Nearest neighbors
+}
+
+::MC5::
+Which is an application of Hough Transform?
+{
+= Line detection
+~ Audio compression
+~ Histogram equalization
+~ White balance
+}
+
+::MC6::
+Which is an application of RANSAC?
+{
+= Robust line fitting
+~ Image filtering
+~ File compression
+~ Histogram smoothing
+}
+
+::MC7::
+Which describes the difference between RANSAC and Hough?
+{
+= RANSAC is random sampling, Hough is parameter voting
+~ Both are the same
+~ RANSAC is deterministic, Hough is probabilistic
+~ Hough uses no parameters
+}
+
+::MC8::
+Which is a drawback of RANSAC?
+{
+= Randomness requires many iterations
+~ Always perfect
+~ Requires no data
+~ Ignores noise
+}
+
+::MC9::
+Which is a drawback of Hough Transform?
+{
+= High computation and memory
+~ Cannot detect lines
+~ Needs no parameters
+~ Always fails
+}
+
+::MC10::
+Which describes RANSAC in one phrase?
+{
+= Iterative robust estimator
+~ Histogram smoother
+~ Feature extractor
+~ PCA projector
+}
+
+::MATCH1::
+Match the method to principle.
+{
+= RANSAC -> Random sampling + consensus
+= Hough Transform -> Parameter-space voting
+= PCA -> Dimensionality reduction
+= k-means -> Clustering
+}
+
+::MATCH2::
+Match the application to method.
+{
+= RANSAC -> Robust fitting
+= Hough -> Line detection
+= CNN -> Object recognition
+= SVM -> Classification
+}
+
+::MATCH3::
+Match the drawback to method.
+{
+= RANSAC -> Many iterations
+= Hough -> Computation heavy
+= PCA -> Loses interpretability
+= Decision trees -> Overfitting
+}
+
+::MATCH4::
+Match the step to RANSAC.
+{
+= Sample subset -> Random selection
+= Fit model -> Estimate parameters
+= Evaluate -> Count inliers
+= Consensus -> Keep best
+}
+
+::MATCH5::
+Match the step to Hough.
+{
+= Point -> Votes
+= Accumulator -> Parameter space
+= Peak -> Shape detected
+= Line -> Detected model
+}
+
+::MATCH6::
+Match the feature to usage.
+{
+= RANSAC -> Robust to outliers
+= Hough -> Global voting
+= Lucas–Kanade -> Local motion
+= Horn–Schunck -> Dense flow
+}
+
+::MATCH7::
+Match the shape to Hough detection.
+{
+= Line -> Standard Hough
+= Circle -> Circular Hough
+= Ellipse -> Extended Hough
+= Object -> Generalized Hough
+}
+
+::MATCH8::
+Match the method to challenge.
+{
+= RANSAC -> Random iterations
+= Hough -> High memory
+= CNN -> Training data
+= kNN -> Computation at test
+}
+
+::MATCH9::
+Match the approach to property.
+{
+= RANSAC -> Iterative
+= Hough -> Voting
+= SVM -> Margin
+= Decision tree -> Rules
+}
+
+::MATCH10::
+Match the domain to application.
+{
+= RANSAC -> Motion estimation
+= Hough -> Lane detection
+= CNN -> Face recognition
+= PCA -> Feature reduction
+}
+
+::MULTI1::
+Which are RANSAC properties?
+{
+~%33.33333% Random sampling
+~%33.33333% Robust to outliers
+~%33.33333% Iterative
+~%-100% Always deterministic
+}
+
+::MULTI2::
+Which are Hough Transform properties?
+{
+~%33.33333% Parameter space voting
+~%33.33333% Detects lines and circles
+~%33.33333% Uses accumulator
+~%-100% Needs no parameters
+}
+
+::MULTI3::
+Which are applications of RANSAC?
+{
+~%33.33333% Robust line fitting
+~%33.33333% Plane fitting
+~%33.33333% Motion estimation
+~%-100% Histogram equalization
+}
+
+::MULTI4::
+Which are applications of Hough Transform?
+{
+~%33.33333% Line detection
+~%33.33333% Circle detection
+~%33.33333% Object detection
+~%-100% Gamma correction
+}
+
+::MULTI5::
+Which are drawbacks of RANSAC?
+{
+~%50% Random iterations
+~%50% May miss global optimum
+~%-100% Always perfect
+~%-100% Needs no data
+}
+
+::MULTI6::
+Which are drawbacks of Hough Transform?
+{
+~%50% High computation
+~%50% High memory
+~%-100% Ignores lines
+~%-100% Needs no parameters
+}
+
+::MULTI7::
+Which are similarities between RANSAC and Hough?
+{
+~%50% Shape detection
+~%50% Robust model fitting
+~%-100% Histogram equalization
+~%-100% File compression
+}
+
+::MULTI8::
+Which are differences between RANSAC and Hough?
+{
+~%33.33333% RANSAC = sampling
+~%33.33333% Hough = voting
+~%33.33333% RANSAC iterative, Hough global
+~%-100% Both identical
+}
+
+::MULTI9::
+Which are shapes detectable by Hough Transform?
+{
+~%25% Line
+~%25% Circle
+~%25% Ellipse
+~%25% General objects
+}
+
+::MULTI10::
+Which are domains using RANSAC or Hough?
+{
+~%25% Vision
+~%25% Robotics
+~%25% Medicine
+~%25% Automotive
+}

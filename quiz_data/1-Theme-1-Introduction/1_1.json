@@ -1,0 +1,832 @@
+[
+  {
+    "gift_source": "::MC1::\nWhich best describes computer vision?\n{\n= An interdisciplinary field for extracting meaning from images and video\n~ A field about only storing digital pictures\n~ A branch of optics\n~ A type of mechanical engineering\n}",
+    "title": "MC1",
+    "question": "Which best describes computer vision?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "An interdisciplinary field for extracting meaning from images and video",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "A field about only storing digital pictures",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "A branch of optics",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "A type of mechanical engineering",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhat is the main difference between machine vision and computer vision?\n{\n= Machine vision is more application oriented\n~ Computer vision is only hardware design\n~ Machine vision focuses only on human biology\n~ There is no difference\n}",
+    "title": "MC2",
+    "question": "What is the main difference between machine vision and computer vision?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Machine vision is more application oriented",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Computer vision is only hardware design",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Machine vision focuses only on human biology",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "There is no difference",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhich task is NOT typically part of computer vision?\n{\n= Repairing hardware circuits\n~ Recognizing faces\n~ Tracking motion\n~ Classifying objects\n}",
+    "title": "MC3",
+    "question": "Which task is NOT typically part of computer vision?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Repairing hardware circuits",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Recognizing faces",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Tracking motion",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Classifying objects",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhich of these is an example of computer vision?\n{\n= Detecting pedestrians in a video\n~ Playing audio files\n~ Encrypting data\n~ Compressing text documents\n}",
+    "title": "MC4",
+    "question": "Which of these is an example of computer vision?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Detecting pedestrians in a video",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Playing audio files",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Encrypting data",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Compressing text documents",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nComputer vision is closely related to:\n{\n= Artificial intelligence\n~ Mechanical engineering\n~ Organic chemistry\n~ Database indexing\n}",
+    "title": "MC5",
+    "question": "Computer vision is closely related to:",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Artificial intelligence",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Mechanical engineering",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Organic chemistry",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Database indexing",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich best defines “automatic understanding of images”?\n{\n= Computing 3D properties, recognizing objects and activities\n~ Copying files\n~ Drawing sketches\n~ Designing optical lenses\n}",
+    "title": "MC6",
+    "question": "Which best defines “automatic understanding of images”?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Computing 3D properties, recognizing objects and activities",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Copying files",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Drawing sketches",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Designing optical lenses",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich task fits under computer vision?\n{\n= Scene interpretation from video\n~ Cooking automation\n~ Spreadsheet analysis\n~ Microchip design\n}",
+    "title": "MC7",
+    "question": "Which task fits under computer vision?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Scene interpretation from video",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Cooking automation",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Spreadsheet analysis",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Microchip design",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhat was one original motivation for computer vision research?\n{\n= To automate tasks of human visual perception\n~ To improve keyboard typing speed\n~ To simulate sound recognition\n~ To compress internet protocols\n}",
+    "title": "MC8",
+    "question": "What was one original motivation for computer vision research?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "To automate tasks of human visual perception",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "To improve keyboard typing speed",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "To simulate sound recognition",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "To compress internet protocols",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich of the following is a common tool in computer vision research?\n{\n= Deep learning\n~ Oil painting\n~ Traffic engineering\n~ Rocket propulsion\n}",
+    "title": "MC9",
+    "question": "Which of the following is a common tool in computer vision research?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Deep learning",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Oil painting",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Traffic engineering",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Rocket propulsion",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich of these is primarily handled by computer vision?\n{\n= Image recognition\n~ Hard disk formatting\n~ Password management\n~ CPU instruction decoding\n}",
+    "title": "MC10",
+    "question": "Which of these is primarily handled by computer vision?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Image recognition",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Hard disk formatting",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Password management",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "CPU instruction decoding",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the term to its definition.\n{\n= Image processing -> Transforming images into images\n= Image understanding -> Making decisions or scene descriptions from images\n= Image recognition -> Identifying objects, people, or actions in images\n= Machine learning -> Approach commonly used in computer vision\n}",
+    "title": "MATCH1",
+    "question": "Match the term to its definition.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Image processing",
+        "right": "Transforming images into images"
+      },
+      {
+        "id": 2,
+        "left": "Image understanding",
+        "right": "Making decisions or scene descriptions from images"
+      },
+      {
+        "id": 3,
+        "left": "Image recognition",
+        "right": "Identifying objects, people, or actions in images"
+      },
+      {
+        "id": 4,
+        "left": "Machine learning",
+        "right": "Approach commonly used in computer vision"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the domain to its relevance.\n{\n= Machine learning -> Provides algorithms for pattern recognition\n= Color science -> Helps explain visual perception and imaging\n= Computer graphics -> Related by focusing on image generation\n= Robotics -> Uses vision for navigation and control\n}",
+    "title": "MATCH2",
+    "question": "Match the domain to its relevance.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Machine learning",
+        "right": "Provides algorithms for pattern recognition"
+      },
+      {
+        "id": 2,
+        "left": "Color science",
+        "right": "Helps explain visual perception and imaging"
+      },
+      {
+        "id": 3,
+        "left": "Computer graphics",
+        "right": "Related by focusing on image generation"
+      },
+      {
+        "id": 4,
+        "left": "Robotics",
+        "right": "Uses vision for navigation and control"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the vision type to its focus.\n{\n= Computer vision -> High-level interpretation\n= Machine vision -> Industrial and applied tasks\n= Human vision -> Biological perception\n}",
+    "title": "MATCH3",
+    "question": "Match the vision type to its focus.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Computer vision",
+        "right": "High-level interpretation"
+      },
+      {
+        "id": 2,
+        "left": "Machine vision",
+        "right": "Industrial and applied tasks"
+      },
+      {
+        "id": 3,
+        "left": "Human vision",
+        "right": "Biological perception"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the example to the application.\n{\n= Face detection -> Security and biometrics\n= Cell tracking -> Biomedical image analysis\n= Capsule networks -> Image recognition research\n= HoloLens -> Augmented reality\n}",
+    "title": "MATCH4",
+    "question": "Match the example to the application.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Face detection",
+        "right": "Security and biometrics"
+      },
+      {
+        "id": 2,
+        "left": "Cell tracking",
+        "right": "Biomedical image analysis"
+      },
+      {
+        "id": 3,
+        "left": "Capsule networks",
+        "right": "Image recognition research"
+      },
+      {
+        "id": 4,
+        "left": "HoloLens",
+        "right": "Augmented reality"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the decade with development.\n{\n= Early days -> Special hardware needed\n= Today -> PCs and GPUs perform vision tasks\n= Recent years -> Self-driving cars progress\n}",
+    "title": "MATCH5",
+    "question": "Match the decade with development.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Early days",
+        "right": "Special hardware needed"
+      },
+      {
+        "id": 2,
+        "left": "Today",
+        "right": "PCs and GPUs perform vision tasks"
+      },
+      {
+        "id": 3,
+        "left": "Recent years",
+        "right": "Self-driving cars progress"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the clue to 3D perception.\n{\n= Interposition -> Near objects occlude farther ones\n= Relative size -> Larger objects perceived closer\n= Vanishing point -> Parallel lines converge in distance\n= Foreshortening -> Rectangle projects as trapezoid\n}",
+    "title": "MATCH6",
+    "question": "Match the clue to 3D perception.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Interposition",
+        "right": "Near objects occlude farther ones"
+      },
+      {
+        "id": 2,
+        "left": "Relative size",
+        "right": "Larger objects perceived closer"
+      },
+      {
+        "id": 3,
+        "left": "Vanishing point",
+        "right": "Parallel lines converge in distance"
+      },
+      {
+        "id": 4,
+        "left": "Foreshortening",
+        "right": "Rectangle projects as trapezoid"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the tool with its use.\n{\n= OpenCV -> General computer vision library\n= TensorFlow -> Deep learning framework\n= Digital cameras -> Cheap image acquisition\n= Matlab toolboxes -> Specialized image analysis\n}",
+    "title": "MATCH7",
+    "question": "Match the tool with its use.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "OpenCV",
+        "right": "General computer vision library"
+      },
+      {
+        "id": 2,
+        "left": "TensorFlow",
+        "right": "Deep learning framework"
+      },
+      {
+        "id": 3,
+        "left": "Digital cameras",
+        "right": "Cheap image acquisition"
+      },
+      {
+        "id": 4,
+        "left": "Matlab toolboxes",
+        "right": "Specialized image analysis"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the challenge with the description.\n{\n= Illumination variation -> Shadows, occlusions\n= Scene constraints -> Controlled lighting needed\n= Invariant features -> Needed for reliable recognition\n= Grouping pixels -> Hard for machines, easy for humans\n}",
+    "title": "MATCH8",
+    "question": "Match the challenge with the description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Illumination variation",
+        "right": "Shadows, occlusions"
+      },
+      {
+        "id": 2,
+        "left": "Scene constraints",
+        "right": "Controlled lighting needed"
+      },
+      {
+        "id": 3,
+        "left": "Invariant features",
+        "right": "Needed for reliable recognition"
+      },
+      {
+        "id": 4,
+        "left": "Grouping pixels",
+        "right": "Hard for machines, easy for humans"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the adversarial example source.\n{\n= OpenAI blog -> Research report\n= The Verge -> Popular articles showing fooled AI\n= 3D printed turtle -> Object misclassified as rifle\n= Adversarial images -> Cause wrong DNN predictions\n}",
+    "title": "MATCH9",
+    "question": "Match the adversarial example source.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "OpenAI blog",
+        "right": "Research report"
+      },
+      {
+        "id": 2,
+        "left": "The Verge",
+        "right": "Popular articles showing fooled AI"
+      },
+      {
+        "id": 3,
+        "left": "3D printed turtle",
+        "right": "Object misclassified as rifle"
+      },
+      {
+        "id": 4,
+        "left": "Adversarial images",
+        "right": "Cause wrong DNN predictions"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the computer vision area to example.\n{\n= Recognition -> Identifying objects or faces\n= Retrieval -> Finding images by content\n= Motion -> Tracking objects across frames\n= 3D reconstruction -> Inferring structure from images\n}",
+    "title": "MATCH10",
+    "question": "Match the computer vision area to example.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Recognition",
+        "right": "Identifying objects or faces"
+      },
+      {
+        "id": 2,
+        "left": "Retrieval",
+        "right": "Finding images by content"
+      },
+      {
+        "id": 3,
+        "left": "Motion",
+        "right": "Tracking objects across frames"
+      },
+      {
+        "id": 4,
+        "left": "3D reconstruction",
+        "right": "Inferring structure from images"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich of the following are goals of computer vision?\n{\n~%33.33333% Recognize objects\n~%33.33333% Understand scenes\n~%33.33333% Interpret activities\n~%-100% Encrypt files\n}",
+    "title": "MULTI1",
+    "question": "Which of the following are goals of computer vision?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Recognize objects",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Understand scenes",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Interpret activities",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Encrypt files",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are applications of machine vision?\n{\n~%33.33333% Visual inspection\n~%33.33333% Biometric authentication\n~%33.33333% Augmented reality\n~%-100% Database backup\n}",
+    "title": "MULTI2",
+    "question": "Which are applications of machine vision?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Visual inspection",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Biometric authentication",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Augmented reality",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Database backup",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich technologies are closely related to computer vision?\n{\n~%33.33333% Artificial intelligence\n~%33.33333% Machine learning\n~%33.33333% Color science\n~%-100% Astrology\n}",
+    "title": "MULTI3",
+    "question": "Which technologies are closely related to computer vision?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Artificial intelligence",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Machine learning",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Color science",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Astrology",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are examples of adversarial attacks in computer vision?\n{\n~%50% Small pixel changes fooling DNNs\n~%50% 3D printed objects misclassified\n~%-100% Extra image compression\n~%-100% File renaming\n}",
+    "title": "MULTI4",
+    "question": "Which are examples of adversarial attacks in computer vision?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Small pixel changes fooling DNNs",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "3D printed objects misclassified",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Extra image compression",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "File renaming",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are examples of computer vision in daily life?\n{\n~%33.33333% Face unlock on smartphones\n~%33.33333% Self-driving cars\n~%-100% Word processors\n~%33.33333% Automatic photo tagging\n}",
+    "title": "MULTI5",
+    "question": "Which are examples of computer vision in daily life?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Face unlock on smartphones",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Self-driving cars",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Word processors",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Automatic photo tagging",
+        "weight": 33.33333
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich hardware advances boosted computer vision?\n{\n~%33.33333% GPUs\n~%33.33333% Cheap digital cameras\n~%-100% Dot-matrix printers\n~%33.33333% High-speed internet cables\n}",
+    "title": "MULTI6",
+    "question": "Which hardware advances boosted computer vision?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "GPUs",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Cheap digital cameras",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Dot-matrix printers",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "High-speed internet cables",
+        "weight": 33.33333
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are limitations of computer vision?\n{\n~%33.33333% Varying illumination\n~%33.33333% Occlusions\n~%33.33333% Need for invariant features\n~%-100% Perfect biological mimicry\n}",
+    "title": "MULTI7",
+    "question": "Which are limitations of computer vision?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Varying illumination",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Occlusions",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Need for invariant features",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Perfect biological mimicry",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich methods are commonly used in computer vision research?\n{\n~%50% Deep neural networks\n~%50% Image processing\n~%-100% Handwriting with pen\n~%-100% Cooking recipes\n}",
+    "title": "MULTI8",
+    "question": "Which methods are commonly used in computer vision research?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Deep neural networks",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Image processing",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Handwriting with pen",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Cooking recipes",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich areas overlap with computer vision?\n{\n~%33.33333% Robotics\n~%33.33333% Cognitive science\n~%33.33333% Neuroscience\n~%-100% Literary studies\n}",
+    "title": "MULTI9",
+    "question": "Which areas overlap with computer vision?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Robotics",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Cognitive science",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Neuroscience",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Literary studies",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are characteristics of machine vision vs computer vision?\n{\n~%50% Machine vision is application-oriented\n~%50% Computer vision aims at high-level understanding\n~%-100% Machine vision ignores industry\n~%-100% Computer vision is not related to AI\n}",
+    "title": "MULTI10",
+    "question": "Which are characteristics of machine vision vs computer vision?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Machine vision is application-oriented",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Computer vision aims at high-level understanding",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Machine vision ignores industry",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Computer vision is not related to AI",
+        "weight": -100.0
+      }
+    ]
+  }
+]

@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhich operation shrinks bright regions?\n{\n= Erosion\n~ Dilation\n~ Closing\n~ Thresholding\n}",
+    "title": "MC1",
+    "question": "Which operation shrinks bright regions?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Erosion",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Dilation",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Closing",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Thresholding",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhich operation enlarges bright regions?\n{\n= Dilation\n~ Erosion\n~ Opening\n~ Segmentation\n}",
+    "title": "MC2",
+    "question": "Which operation enlarges bright regions?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Dilation",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Erosion",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Opening",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Segmentation",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhich operation removes small noise spots?\n{\n= Opening\n~ Closing\n~ Thresholding\n~ Edge detection\n}",
+    "title": "MC3",
+    "question": "Which operation removes small noise spots?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Opening",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Closing",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Thresholding",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Edge detection",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhich operation fills small holes in objects?\n{\n= Closing\n~ Opening\n~ Erosion\n~ Thresholding\n}",
+    "title": "MC4",
+    "question": "Which operation fills small holes in objects?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Closing",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Opening",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Erosion",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Thresholding",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhat does connected components labeling do?\n{\n= Groups pixels into connected regions\n~ Measures histogram\n~ Enhances edges\n~ Filters color channels\n}",
+    "title": "MC5",
+    "question": "What does connected components labeling do?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Groups pixels into connected regions",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Measures histogram",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Enhances edges",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Filters color channels",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich type of connectivity includes diagonals?\n{\n= 8-connectivity\n~ 4-connectivity\n~ 6-connectivity\n~ No connectivity\n}",
+    "title": "MC6",
+    "question": "Which type of connectivity includes diagonals?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "8-connectivity",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "4-connectivity",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "6-connectivity",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "No connectivity",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich type of connectivity excludes diagonals?\n{\n= 4-connectivity\n~ 8-connectivity\n~ 6-connectivity\n~ Thresholding\n}",
+    "title": "MC7",
+    "question": "Which type of connectivity excludes diagonals?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "4-connectivity",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "8-connectivity",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "6-connectivity",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Thresholding",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich task can morphology help with?\n{\n= Removing noise and refining shapes\n~ Gamma correction\n~ Histogram equalization\n~ White balancing\n}",
+    "title": "MC8",
+    "question": "Which task can morphology help with?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Removing noise and refining shapes",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Gamma correction",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "White balancing",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich is an application of connected components?\n{\n= Object counting\n~ JPEG compression\n~ Audio filtering\n~ Gamma adjustment\n}",
+    "title": "MC9",
+    "question": "Which is an application of connected components?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Object counting",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "JPEG compression",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Audio filtering",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Gamma adjustment",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich combination defines opening?\n{\n= Erosion followed by dilation\n~ Dilation followed by erosion\n~ Threshold then edge detection\n~ Histogram then threshold\n}",
+    "title": "MC10",
+    "question": "Which combination defines opening?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Erosion followed by dilation",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Dilation followed by erosion",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Threshold then edge detection",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram then threshold",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the operation to the effect.\n{\n= Erosion -> Shrinks objects\n= Dilation -> Grows objects\n= Opening -> Removes small noise\n= Closing -> Fills small holes\n}",
+    "title": "MATCH1",
+    "question": "Match the operation to the effect.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Erosion",
+        "right": "Shrinks objects"
+      },
+      {
+        "id": 2,
+        "left": "Dilation",
+        "right": "Grows objects"
+      },
+      {
+        "id": 3,
+        "left": "Opening",
+        "right": "Removes small noise"
+      },
+      {
+        "id": 4,
+        "left": "Closing",
+        "right": "Fills small holes"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the connectivity to neighbors.\n{\n= 4-connectivity -> Horizontal and vertical\n= 8-connectivity -> Includes diagonals\n= Connected component -> Group of pixels\n= Labeling -> Assigns unique IDs\n}",
+    "title": "MATCH2",
+    "question": "Match the connectivity to neighbors.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "4-connectivity",
+        "right": "Horizontal and vertical"
+      },
+      {
+        "id": 2,
+        "left": "8-connectivity",
+        "right": "Includes diagonals"
+      },
+      {
+        "id": 3,
+        "left": "Connected component",
+        "right": "Group of pixels"
+      },
+      {
+        "id": 4,
+        "left": "Labeling",
+        "right": "Assigns unique IDs"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the method to its application.\n{\n= Morphology -> Shape-based filtering\n= Connected components -> Object counting\n= Erosion -> Remove noise dots\n= Dilation -> Expand shapes\n}",
+    "title": "MATCH3",
+    "question": "Match the method to its application.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Morphology",
+        "right": "Shape-based filtering"
+      },
+      {
+        "id": 2,
+        "left": "Connected components",
+        "right": "Object counting"
+      },
+      {
+        "id": 3,
+        "left": "Erosion",
+        "right": "Remove noise dots"
+      },
+      {
+        "id": 4,
+        "left": "Dilation",
+        "right": "Expand shapes"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the operation to sequence.\n{\n= Opening -> Erosion + dilation\n= Closing -> Dilation + erosion\n= Thresholding -> Intensity cutoff\n= Edge detection -> Gradient-based\n}",
+    "title": "MATCH4",
+    "question": "Match the operation to sequence.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Opening",
+        "right": "Erosion + dilation"
+      },
+      {
+        "id": 2,
+        "left": "Closing",
+        "right": "Dilation + erosion"
+      },
+      {
+        "id": 3,
+        "left": "Thresholding",
+        "right": "Intensity cutoff"
+      },
+      {
+        "id": 4,
+        "left": "Edge detection",
+        "right": "Gradient-based"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the operator to effect on binary object.\n{\n= Erosion -> Smaller\n= Dilation -> Larger\n= Opening -> Smooth boundaries\n= Closing -> Fill holes\n}",
+    "title": "MATCH5",
+    "question": "Match the operator to effect on binary object.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Erosion",
+        "right": "Smaller"
+      },
+      {
+        "id": 2,
+        "left": "Dilation",
+        "right": "Larger"
+      },
+      {
+        "id": 3,
+        "left": "Opening",
+        "right": "Smooth boundaries"
+      },
+      {
+        "id": 4,
+        "left": "Closing",
+        "right": "Fill holes"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the concept to example.\n{\n= Connected components -> Counting coins\n= Morphology -> Cleaning binary mask\n= 4-connectivity -> Pixel neighbors up/down/left/right\n= 8-connectivity -> Neighbors include diagonals\n}",
+    "title": "MATCH6",
+    "question": "Match the concept to example.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Connected components",
+        "right": "Counting coins"
+      },
+      {
+        "id": 2,
+        "left": "Morphology",
+        "right": "Cleaning binary mask"
+      },
+      {
+        "id": 3,
+        "left": "4-connectivity",
+        "right": "Pixel neighbors up/down/left/right"
+      },
+      {
+        "id": 4,
+        "left": "8-connectivity",
+        "right": "Neighbors include diagonals"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the property to the task.\n{\n= Noise -> Removed by opening\n= Holes -> Filled by closing\n= Boundaries -> Smoothed by morphology\n= Objects -> Counted by labeling\n}",
+    "title": "MATCH7",
+    "question": "Match the property to the task.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Noise",
+        "right": "Removed by opening"
+      },
+      {
+        "id": 2,
+        "left": "Holes",
+        "right": "Filled by closing"
+      },
+      {
+        "id": 3,
+        "left": "Boundaries",
+        "right": "Smoothed by morphology"
+      },
+      {
+        "id": 4,
+        "left": "Objects",
+        "right": "Counted by labeling"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the image type to method.\n{\n= Binary image -> Morphology\n= Color image -> Segmentation\n= Depth map -> 3D analysis\n= Grayscale -> Filtering\n}",
+    "title": "MATCH8",
+    "question": "Match the image type to method.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Binary image",
+        "right": "Morphology"
+      },
+      {
+        "id": 2,
+        "left": "Color image",
+        "right": "Segmentation"
+      },
+      {
+        "id": 3,
+        "left": "Depth map",
+        "right": "3D analysis"
+      },
+      {
+        "id": 4,
+        "left": "Grayscale",
+        "right": "Filtering"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the effect to the operation.\n{\n= Shrinks -> Erosion\n= Expands -> Dilation\n= Removes small spots -> Opening\n= Fills gaps -> Closing\n}",
+    "title": "MATCH9",
+    "question": "Match the effect to the operation.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Shrinks",
+        "right": "Erosion"
+      },
+      {
+        "id": 2,
+        "left": "Expands",
+        "right": "Dilation"
+      },
+      {
+        "id": 3,
+        "left": "Removes small spots",
+        "right": "Opening"
+      },
+      {
+        "id": 4,
+        "left": "Fills gaps",
+        "right": "Closing"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the labeling to its meaning.\n{\n= Connected component -> Pixel group\n= Label -> Identifier\n= Region -> Area of pixels\n= Neighbor -> Pixel adjacency\n}",
+    "title": "MATCH10",
+    "question": "Match the labeling to its meaning.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Connected component",
+        "right": "Pixel group"
+      },
+      {
+        "id": 2,
+        "left": "Label",
+        "right": "Identifier"
+      },
+      {
+        "id": 3,
+        "left": "Region",
+        "right": "Area of pixels"
+      },
+      {
+        "id": 4,
+        "left": "Neighbor",
+        "right": "Pixel adjacency"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are morphological operations?\n{\n~%25% Erosion\n~%25% Dilation\n~%25% Opening\n~%25% Closing\n}",
+    "title": "MULTI1",
+    "question": "Which are morphological operations?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Erosion",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Dilation",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Opening",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Closing",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are uses of morphology?\n{\n~%33.33333% Remove noise\n~%33.33333% Refine shapes\n~%33.33333% Smooth boundaries\n~%-100% Audio filtering\n}",
+    "title": "MULTI2",
+    "question": "Which are uses of morphology?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Remove noise",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Refine shapes",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Smooth boundaries",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Audio filtering",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are connectivity types in 2D images?\n{\n~%50% 4-connectivity\n~%50% 8-connectivity\n~%-100% 6-connectivity\n~%-100% 3D only\n}",
+    "title": "MULTI3",
+    "question": "Which are connectivity types in 2D images?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "4-connectivity",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "8-connectivity",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "6-connectivity",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "3D only",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are applications of connected components?\n{\n~%33.33333% Object counting\n~%33.33333% Region extraction\n~%33.33333% Shape analysis\n~%-100% File compression\n}",
+    "title": "MULTI4",
+    "question": "Which are applications of connected components?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Object counting",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Region extraction",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Shape analysis",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "File compression",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich operations are combined in opening?\n{\n~%50% Erosion\n~%50% Dilation\n~%-100% Threshold\n~%-100% Edge detection\n}",
+    "title": "MULTI5",
+    "question": "Which operations are combined in opening?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Erosion",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Dilation",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Threshold",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Edge detection",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich operations are combined in closing?\n{\n~%50% Dilation\n~%50% Erosion\n~%-100% Threshold\n~%-100% Segmentation\n}",
+    "title": "MULTI6",
+    "question": "Which operations are combined in closing?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Dilation",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Erosion",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Threshold",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Segmentation",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are limitations of morphology?\n{\n~%33.33333% Sensitive to noise\n~%33.33333% Can erode thin structures\n~%33.33333% Affected by gaps\n~%-100% Always perfect\n}",
+    "title": "MULTI7",
+    "question": "Which are limitations of morphology?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Sensitive to noise",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Can erode thin structures",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Affected by gaps",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Always perfect",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are benefits of morphology?\n{\n~%33.33333% Noise reduction\n~%33.33333% Shape filtering\n~%33.33333% Boundary smoothing\n~%-100% Audio compression\n}",
+    "title": "MULTI8",
+    "question": "Which are benefits of morphology?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Noise reduction",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Shape filtering",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Boundary smoothing",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Audio compression",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are steps in connected component labeling?\n{\n~%33.33333% Scan image\n~%33.33333% Group connected pixels\n~%33.33333% Assign labels\n~%-100% Encrypt labels\n}",
+    "title": "MULTI9",
+    "question": "Which are steps in connected component labeling?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Scan image",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Group connected pixels",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Assign labels",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Encrypt labels",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are challenges for connected components?\n{\n~%33.33333% Noise\n~%33.33333% Occlusions\n~%33.33333% Small gaps\n~%-100% Always robust\n}",
+    "title": "MULTI10",
+    "question": "Which are challenges for connected components?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Noise",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Occlusions",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Small gaps",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Always robust",
+        "weight": -100.0
+      }
+    ]
+  }
+]

@@ -1,0 +1,309 @@
+::TF1::
+Shape representation is important for object recognition.
+{TRUE}
+
+::TF2::
+Binary images are often used for shape representation.
+{TRUE}
+
+::TF3::
+Boundary-based methods represent the outline of objects.
+{TRUE}
+
+::TF4::
+Region-based methods use the entire interior of a shape.
+{TRUE}
+
+::TF5::
+Perimeter is the length of the boundary of a shape.
+{TRUE}
+
+::TF6::
+Area is the number of pixels inside the boundary.
+{TRUE}
+
+::TF7::
+Compactness compares area to perimeter to describe shape.
+{TRUE}
+
+::TF8::
+Shape representation is only used in computer graphics, not vision.
+{FALSE}
+
+::TF9::
+Silhouettes are examples of binary shape representation.
+{TRUE}
+
+::TF10::
+Shape descriptors are used in industrial and medical applications.
+{TRUE}
+
+::MC1::
+Which is a boundary-based representation?
+{
+= Object contour
+~ Pixel intensity histogram
+~ Color segmentation
+~ Histogram equalization
+}
+
+::MC2::
+Which is a region-based representation?
+{
+= Filled binary mask
+~ Polygonal contour
+~ Skeleton curve
+~ Edge pixels only
+}
+
+::MC3::
+Which measure describes shape size?
+{
+= Area
+~ Color
+~ Intensity variance
+~ Illumination
+}
+
+::MC4::
+Which measure describes boundary length?
+{
+= Perimeter
+~ Compactness
+~ Area
+~ Histogram bins
+}
+
+::MC5::
+Which descriptor relates area to perimeter?
+{
+= Compactness
+~ Radius
+~ Diameter
+~ Color variance
+}
+
+::MC6::
+Which is an application of shape representation?
+{
+= Optical character recognition
+~ Gamma correction
+~ File compression
+~ Audio editing
+}
+
+::MC7::
+Which are examples of binary shape representations?
+{
+= Silhouettes
+~ Grayscale shading
+~ Texture patterns
+~ Noise images
+}
+
+::MC8::
+Which describes region-based methods?
+{
+= Uses all pixels inside the shape
+~ Uses only the contour
+~ Uses color histograms
+~ Uses gamma correction
+}
+
+::MC9::
+Which describes boundary-based methods?
+{
+= Focus on object outline
+~ Focus on pixel values inside
+~ Focus on intensity averages
+~ Focus on gamma correction
+}
+
+::MC10::
+Which is a basic shape descriptor?
+{
+= Compactness
+~ JPEG compression
+~ Gamma correction
+~ Fourier filtering
+}
+
+::MATCH1::
+Match the representation type to example.
+{
+= Region-based -> Binary mask
+= Boundary-based -> Contour
+= Silhouette -> Binary outline
+= Skeleton -> Medial axis
+}
+
+::MATCH2::
+Match the descriptor to definition.
+{
+= Area -> Pixels inside
+= Perimeter -> Boundary length
+= Compactness -> Area/perimeter relation
+= Shape descriptor -> Numerical feature
+}
+
+::MATCH3::
+Match the application to use.
+{
+= OCR -> Character shapes
+= Industrial inspection -> Defect detection
+= Medical imaging -> Organ segmentation
+= Robotics -> Object recognition
+}
+
+::MATCH4::
+Match the property to measurement.
+{
+= Size -> Area
+= Boundary -> Perimeter
+= Shape quality -> Compactness
+= Representation -> Contour
+}
+
+::MATCH5::
+Match the example to type.
+{
+= Silhouette -> Binary shape
+= Filled mask -> Region-based
+= Outline -> Boundary-based
+= Compactness -> Descriptor
+}
+
+::MATCH6::
+Match the task to shape analysis.
+{
+= Classification -> Shape descriptors
+= Retrieval -> Shape comparison
+= Recognition -> Shape representation
+= Segmentation -> Shape isolation
+}
+
+::MATCH7::
+Match the method to drawback.
+{
+= Boundary-based -> Sensitive to noise
+= Region-based -> Sensitive to occlusion
+= Silhouette -> Loses texture
+= Compactness -> Not unique
+}
+
+::MATCH8::
+Match the descriptor to application.
+{
+= Area -> Size comparison
+= Perimeter -> Length of contour
+= Compactness -> Roundness measure
+= Silhouette -> Shape matching
+}
+
+::MATCH9::
+Match the representation to domain.
+{
+= Region-based -> Medical imaging
+= Boundary-based -> OCR
+= Silhouette -> Graphics
+= Skeleton -> Robotics
+}
+
+::MATCH10::
+Match the measure to symbol.
+{
+= Area -> A
+= Perimeter -> P
+= Compactness -> P²/A
+= Descriptor -> Feature vector
+}
+
+::MULTI1::
+Which are binary shape representations?
+{
+~%33.33333% Silhouettes
+~%33.33333% Outlines
+~%33.33333% Masks
+~%-100% Grayscale texture
+}
+
+::MULTI2::
+Which are region-based representations?
+{
+~%50% Filled binary mask
+~%50% Pixel interiors
+~%-100% Contour only
+~%-100% Skeleton curve
+}
+
+::MULTI3::
+Which are boundary-based representations?
+{
+~%33.33333% Contours
+~%33.33333% Outlines
+~%33.33333% Edges
+~%-100% Binary mask
+}
+
+::MULTI4::
+Which are shape descriptors?
+{
+~%33.33333% Area
+~%33.33333% Perimeter
+~%33.33333% Compactness
+~%-100% Gamma value
+}
+
+::MULTI5::
+Which are applications of shape representation?
+{
+~%33.33333% Object recognition
+~%33.33333% OCR
+~%33.33333% Medical imaging
+~%-100% Audio synthesis
+}
+
+::MULTI6::
+Which are challenges for boundary-based methods?
+{
+~%50% Sensitive to noise
+~%50% Requires accurate edge detection
+~%-100% Always robust
+~%-100% Works with no contours
+}
+
+::MULTI7::
+Which are challenges for region-based methods?
+{
+~%50% Sensitive to occlusion
+~%50% Can merge multiple objects
+~%-100% Always reliable
+~%-100% Ignores pixel interiors
+}
+
+::MULTI8::
+Which are examples of compactness use?
+{
+~%50% Roundness measure
+~%50% Shape discrimination
+~%-100% Gamma correction
+~%-100% File compression
+}
+
+::MULTI9::
+Which are reasons for using shape representation?
+{
+~%25% Recognition
+~%25% Classification
+~%25% Comparison
+~%25% Retrieval
+}
+
+::MULTI10::
+Which are true about silhouettes?
+{
+~%33.33333% Binary representation
+~%33.33333% Useful in matching
+~%33.33333% Lose internal texture
+~%-100% Encode color
+}

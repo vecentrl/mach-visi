@@ -1,0 +1,309 @@
+::TF1::
+Texture analysis extracts features to describe surface patterns.
+{TRUE}
+
+::TF2::
+Co-occurrence matrices provide statistical texture features.
+{TRUE}
+
+::TF3::
+Contrast, energy, homogeneity, and entropy are derived from co-occurrence matrices.
+{TRUE}
+
+::TF4::
+Fourier and Gabor methods analyze texture in the frequency domain.
+{TRUE}
+
+::TF5::
+Structural methods use repetitive primitives (texels) to model texture.
+{TRUE}
+
+::TF6::
+Texture synthesis generates new textures from samples.
+{TRUE}
+
+::TF7::
+Random textures are easy to synthesize perfectly.
+{FALSE}
+
+::TF8::
+Texture analysis is used in surface classification and recognition tasks.
+{TRUE}
+
+::TF9::
+Illumination variation does not affect texture analysis.
+{FALSE}
+
+::TF10::
+Gabor filters are commonly used for multi-scale texture analysis.
+{TRUE}
+
+::MC1::
+Which features can be extracted from co-occurrence matrices?
+{
+= Contrast, energy, homogeneity, entropy
+~ RGB color histograms
+~ JPEG compression artifacts
+~ File size
+}
+
+::MC2::
+Which method is an example of a spectral texture descriptor?
+{
+= Gabor filter
+~ Histogram
+~ Co-occurrence matrix
+~ Otsu thresholding
+}
+
+::MC3::
+Which is a structural approach to texture?
+{
+= Using repeated texels
+~ Fourier analysis
+~ Histogram equalization
+~ Edge detection
+}
+
+::MC4::
+What is the goal of texture synthesis?
+{
+= Generate new textures similar to samples
+~ Reduce noise
+~ Increase file size
+~ Encrypt data
+}
+
+::MC5::
+Which feature measures local variations in intensity?
+{
+= Contrast
+~ Energy
+~ Homogeneity
+~ Entropy
+}
+
+::MC6::
+Which feature measures texture smoothness or uniformity?
+{
+= Homogeneity
+~ Contrast
+~ Entropy
+~ Histogram bins
+}
+
+::MC7::
+Which feature measures the strength of repetition?
+{
+= Energy
+~ Contrast
+~ Homogeneity
+~ JPEG quality
+}
+
+::MC8::
+Which feature measures randomness?
+{
+= Entropy
+~ Energy
+~ Contrast
+~ Homogeneity
+}
+
+::MC9::
+Which domain is used by spectral texture analysis?
+{
+= Frequency domain
+~ Spatial domain only
+~ File compression
+~ Binary thresholding
+}
+
+::MC10::
+Which application uses texture synthesis?
+{
+= Graphics and animation
+~ Histogram equalization
+~ White balance
+~ File encryption
+}
+
+::MATCH1::
+Match the statistical feature to its meaning.
+{
+= Contrast -> Intensity difference
+= Energy -> Repetition strength
+= Homogeneity -> Uniformity
+= Entropy -> Randomness
+}
+
+::MATCH2::
+Match the method to its type.
+{
+= Histogram -> Statistical
+= Co-occurrence -> Statistical
+= Fourier -> Spectral
+= Gabor -> Spectral
+}
+
+::MATCH3::
+Match the approach to description.
+{
+= Statistical -> Distribution-based
+= Spectral -> Frequency-based
+= Structural -> Pattern-based
+= Synthesis -> Generating textures
+}
+
+::MATCH4::
+Match the feature to the property.
+{
+= Contrast -> Local variation
+= Energy -> Strength of pattern
+= Homogeneity -> Smoothness
+= Entropy -> Disorder
+}
+
+::MATCH5::
+Match the application to texture analysis.
+{
+= Medical imaging -> Tissue classification
+= Remote sensing -> Land cover classification
+= Industrial inspection -> Surface defects
+= Scene recognition -> Identifying context
+}
+
+::MATCH6::
+Match the method to application.
+{
+= Fourier -> Frequency features
+= Gabor -> Multi-scale analysis
+= Co-occurrence -> Statistical descriptors
+= Texel models -> Structural approach
+}
+
+::MATCH7::
+Match the challenge to effect.
+{
+= Scale variation -> Feature instability
+= Illumination -> Contrast change
+= Noise -> Distorted patterns
+= Randomness -> Hard synthesis
+}
+
+::MATCH8::
+Match the synthesis method to idea.
+{
+= Sample-based -> Copying patches
+= Model-based -> Parameterized descriptors
+= Procedural -> Algorithmic generation
+= Hybrid -> Combination
+}
+
+::MATCH9::
+Match the feature to example.
+{
+= High contrast -> Rough surface
+= High homogeneity -> Smooth area
+= High energy -> Strong repetition
+= High entropy -> Random texture
+}
+
+::MATCH10::
+Match the descriptor to the domain.
+{
+= Co-occurrence -> Statistics
+= Fourier -> Frequency
+= Gabor -> Multi-scale frequency
+= Texel -> Structural
+}
+
+::MULTI1::
+Which are statistical features of texture?
+{
+~%25% Contrast
+~%25% Energy
+~%25% Homogeneity
+~%25% Entropy
+}
+
+::MULTI2::
+Which are spectral methods?
+{
+~%33.33333% Fourier
+~%33.33333% Gabor
+~%33.33333% Wavelets
+~%-100% Histogram
+}
+
+::MULTI3::
+Which are structural methods?
+{
+~%50% Texels
+~%50% Pattern repetition
+~%-100% Fourier
+~%-100% Gabor
+}
+
+::MULTI4::
+Which are applications of texture analysis?
+{
+~%25% Surface classification
+~%25% Medical imaging
+~%25% Remote sensing
+~%25% Scene recognition
+}
+
+::MULTI5::
+Which are challenges for texture analysis?
+{
+~%33.33333% Illumination variation
+~%33.33333% Noise
+~%33.33333% Scale variation
+~%-100% File compression
+}
+
+::MULTI6::
+Which are types of texture synthesis methods?
+{
+~%25% Sample-based
+~%25% Model-based
+~%25% Procedural
+~%25% Hybrid
+}
+
+::MULTI7::
+Which are properties of co-occurrence features?
+{
+~%50% Statistical
+~%50% Based on pixel pairs
+~%-100% Frequency domain
+~%-100% Always structural
+}
+
+::MULTI8::
+Which are properties of Gabor filters?
+{
+~%33.33333% Multi-scale
+~%33.33333% Frequency-based
+~%33.33333% Directional sensitivity
+~%-100% Histogram-based
+}
+
+::MULTI9::
+Which are goals of texture synthesis?
+{
+~%33.33333% Generate realistic textures
+~%33.33333% Extend samples
+~%33.33333% Graphics/animation
+~%-100% Reduce image size
+}
+
+::MULTI10::
+Which are descriptors of randomness in texture?
+{
+~%50% Entropy
+~%50% Variance
+~%-100% Energy
+~%-100% Homogeneity
+}

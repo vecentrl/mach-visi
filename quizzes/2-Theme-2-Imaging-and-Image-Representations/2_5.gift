@@ -1,0 +1,309 @@
+::TF1::
+Depth cameras produce RGB-D images, which include both color and depth.
+{TRUE}
+
+::TF2::
+Triangulation for depth measurement requires a known geometry between projector and camera.
+{TRUE}
+
+::TF3::
+Scanning mirrors can be used in triangulation to capture the entire scene.
+{TRUE}
+
+::TF4::
+Kinect projects a pseudo-random infrared pattern to measure depth.
+{TRUE}
+
+::TF5::
+Kinect requires calibration between projector and camera.
+{TRUE}
+
+::TF6::
+LIDAR measures distance by comparing the phase shift of transmitted and received light.
+{TRUE}
+
+::TF7::
+Mechanical steering is often needed in traditional LIDAR systems.
+{TRUE}
+
+::TF8::
+Time-of-flight cameras estimate depth by measuring how long light takes to travel to the object and back.
+{TRUE}
+
+::TF9::
+Time-of-flight imaging provides slower acquisition than mechanically steered LIDAR.
+{FALSE}
+
+::TF10::
+RGB-D imaging is unrelated to 3D reconstruction.
+{FALSE}
+
+::MC1::
+Which type of image is produced by depth cameras?
+{
+= RGB-D image
+~ JPEG
+~ Histogram
+~ Gamma-corrected RGB
+}
+
+::MC2::
+Which method uses projected light patterns to measure depth?
+{
+= Triangulation
+~ Histogram equalization
+~ Gamma correction
+~ Thresholding
+}
+
+::MC3::
+What is required in triangulation-based depth measurement?
+{
+= Known geometry between projector and camera
+~ Only color balancing
+~ Random noise
+~ Single-lens optics
+}
+
+::MC4::
+Which device uses a pseudo-random infrared dot pattern for depth sensing?
+{
+= Kinect
+~ DSLR
+~ Webcam
+~ Microscope
+}
+
+::MC5::
+Which depth-sensing device relies on amplitude-modulated laser beams?
+{
+= LIDAR
+~ RGB camera
+~ Webcam
+~ Optical mouse
+}
+
+::MC6::
+What does LIDAR measure to estimate distance?
+{
+= Phase shift of reflected signal
+~ Pixel brightness
+~ JPEG compression
+~ File size
+}
+
+::MC7::
+Why is LIDAR often slower than time-of-flight cameras?
+{
+= Mechanical scanning is required
+~ Too much noise
+~ Weak sensors
+~ Incorrect calibration
+}
+
+::MC8::
+What is measured directly in time-of-flight cameras?
+{
+= Travel time of light
+~ Pixel color
+~ Gamma value
+~ Image sharpness
+}
+
+::MC9::
+Which technology provides dense depth maps in real time?
+{
+= Kinect
+~ Simple webcam
+~ JPEG compressor
+~ CRT monitor
+}
+
+::MC10::
+Which system is often called “scannerless LIDAR”?
+{
+= Time-of-flight camera
+~ Triangulation
+~ Kinect
+~ Stereo vision
+}
+
+::MATCH1::
+Match the method to its description.
+{
+= Triangulation -> Uses projector + camera geometry
+= Kinect -> Projects NIR pattern
+= LIDAR -> Measures phase of modulated laser
+= Time-of-flight -> Measures round-trip time of light
+}
+
+::MATCH2::
+Match the device to its output.
+{
+= RGB camera -> Color image
+= Depth camera -> RGB-D
+= Kinect -> Dense depth map
+= LIDAR -> Range image
+}
+
+::MATCH3::
+Match the challenge to the technology.
+{
+= Mechanical scanning -> LIDAR
+= Calibration with projector -> Kinect
+= Pseudo-random pattern -> Kinect
+= Fast acquisition -> Time-of-flight
+}
+
+::MATCH4::
+Match the technique to the component.
+{
+= Triangulation -> Plane of light
+= Kinect -> CMOS IR camera
+= LIDAR -> Amplitude-modulated laser
+= ToF camera -> Timing electronics
+}
+
+::MATCH5::
+Match the principle to the method.
+{
+= Geometry -> Triangulation
+= Phase comparison -> LIDAR
+= Travel time -> ToF
+= Pattern projection -> Kinect
+}
+
+::MATCH6::
+Match the device to the property.
+{
+= Kinect -> Projects IR speckles
+= LIDAR -> Mechanical scanning
+= ToF camera -> Scannerless
+= Triangulation -> Requires known geometry
+}
+
+::MATCH7::
+Match the acronym to the meaning.
+{
+= RGB-D -> Color + depth image
+= NIR -> Near-infrared
+= ToF -> Time of flight
+= LIDAR -> Light detection and ranging
+}
+
+::MATCH8::
+Match the imaging type to its advantage.
+{
+= RGB-D -> Adds depth to color
+= Triangulation -> Simple geometry
+= LIDAR -> Long range
+= ToF -> Fast acquisition
+}
+
+::MATCH9::
+Match the technology to its application.
+{
+= Kinect -> Gaming / motion tracking
+= LIDAR -> Autonomous vehicles
+= ToF -> Gesture recognition
+= Triangulation -> 3D scanning
+}
+
+::MATCH10::
+Match the signal property to the method.
+{
+= Infrared pattern -> Kinect
+= Phase shift -> LIDAR
+= Round-trip delay -> ToF
+= Projection geometry -> Triangulation
+}
+
+::MULTI1::
+Which devices provide depth imaging?
+{
+~%33.33333% Kinect
+~%33.33333% LIDAR
+~%33.33333% Time-of-flight camera
+~%-100% Webcam
+}
+
+::MULTI2::
+Which are key aspects of triangulation?
+{
+~%33.33333% Plane of light
+~%33.33333% Known geometry
+~%33.33333% Projector-camera setup
+~%-100% Histogram stretching
+}
+
+::MULTI3::
+Which are components of Kinect’s depth sensing?
+{
+~%33.33333% Projected IR speckle pattern
+~%33.33333% IR CMOS camera
+~%33.33333% Calibration between camera and projector
+~%-100% Mechanical scanning mirrors
+}
+
+::MULTI4::
+Which are features of LIDAR systems?
+{
+~%33.33333% Amplitude-modulated laser beam
+~%33.33333% Phase shift measurement
+~%33.33333% Mechanical steering
+~%-100% JPEG compression
+}
+
+::MULTI5::
+Which are characteristics of time-of-flight cameras?
+{
+~%33.33333% Scannerless design
+~%33.33333% Fast acquisition
+~%33.33333% Measures round-trip light time
+~%-100% Requires rotating mirrors
+}
+
+::MULTI6::
+Which outputs are typical for depth imaging devices?
+{
+~%33.33333% Depth map
+~%33.33333% Range image
+~%33.33333% RGB-D
+~%-100% Text file
+}
+
+::MULTI7::
+Which sensors are commonly used in depth cameras?
+{
+~%50% CMOS
+~%50% CCD
+~%-100% CRT
+~%-100% Plasma
+}
+
+::MULTI8::
+Which technologies provide dense depth information?
+{
+~%33.33333% Kinect
+~%33.33333% LIDAR
+~%33.33333% ToF camera
+~%-100% Webcam
+}
+
+::MULTI9::
+Which techniques are useful for 3D reconstruction?
+{
+~%25% Triangulation
+~%25% Kinect
+~%25% LIDAR
+~%25% Time-of-flight
+}
+
+::MULTI10::
+Which applications use depth imaging?
+{
+~%33.33333% Gesture recognition
+~%33.33333% Robotics
+~%33.33333% Autonomous driving
+~%-100% Text editing
+}

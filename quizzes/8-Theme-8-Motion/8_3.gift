@@ -1,0 +1,309 @@
+::TF1::
+The Lucas–Kanade method is a local optical flow algorithm.
+{TRUE}
+
+::TF2::
+Lucas–Kanade assumes brightness constancy of moving pixels.
+{TRUE}
+
+::TF3::
+Lucas–Kanade assumes small motion between frames.
+{TRUE}
+
+::TF4::
+Lucas–Kanade uses a local window of pixels to solve motion equations.
+{TRUE}
+
+::TF5::
+Lucas–Kanade produces dense optical flow for every pixel in the image.
+{FALSE}
+
+::TF6::
+Spatial coherence is an assumption in Lucas–Kanade.
+{TRUE}
+
+::TF7::
+Lucas–Kanade is often applied to corners or strong features.
+{TRUE}
+
+::TF8::
+Lucas–Kanade works well with large displacements.
+{FALSE}
+
+::TF9::
+Lucas–Kanade is used in video stabilization.
+{TRUE}
+
+::TF10::
+Lucas–Kanade fails in textureless regions.
+{TRUE}
+
+::MC1::
+What type of optical flow method is Lucas–Kanade?
+{
+= Local, differential
+~ Global, smoothness
+~ CNN-based
+~ Histogram-based
+}
+
+::MC2::
+Which assumption underlies Lucas–Kanade?
+{
+= Brightness constancy
+~ Histogram equalization
+~ Large displacements
+~ No spatial coherence
+}
+
+::MC3::
+Which assumption is specific to Lucas–Kanade?
+{
+= Small motion
+~ Large motion
+~ Noisy motion
+~ Random motion
+}
+
+::MC4::
+What does Lucas–Kanade use to estimate motion?
+{
+= Local window of pixels
+~ Entire image
+~ Only histograms
+~ Only CNN features
+}
+
+::MC5::
+What kind of flow does Lucas–Kanade usually produce?
+{
+= Sparse flow at features
+~ Dense flow everywhere
+~ Histogram equalization
+~ Binary segmentation
+}
+
+::MC6::
+Which is an application of Lucas–Kanade?
+{
+= Feature tracking
+~ Histogram matching
+~ Gamma correction
+~ Image compression
+}
+
+::MC7::
+Which factor causes Lucas–Kanade to fail?
+{
+= Large displacements
+~ Small motions
+~ Brightness constancy
+~ Window selection
+}
+
+::MC8::
+Which kind of regions does Lucas–Kanade struggle with?
+{
+= Textureless
+~ Corner-rich
+~ Feature-rich
+~ High-contrast
+}
+
+::MC9::
+Which is an advantage of Lucas–Kanade?
+{
+= Efficient for small local motion
+~ Works for large global motion
+~ Provides dense flow automatically
+~ Requires no assumptions
+}
+
+::MC10::
+Which domain applies Lucas–Kanade widely?
+{
+= Video stabilization
+~ JPEG compression
+~ Histogram smoothing
+~ Audio filtering
+}
+
+::MATCH1::
+Match the assumption to meaning.
+{
+= Brightness constancy -> Pixel intensity unchanged
+= Small motion -> Tiny displacement
+= Spatial coherence -> Neighboring pixels move similarly
+= Local window -> Patch of pixels
+}
+
+::MATCH2::
+Match the method to category.
+{
+= Lucas–Kanade -> Local optical flow
+= Horn–Schunck -> Global optical flow
+= CNN-based flow -> Learned
+= Background subtraction -> Foreground detection
+}
+
+::MATCH3::
+Match the property to Lucas–Kanade.
+{
+= Sparse flow -> Few points
+= Local -> Window-based
+= Corner-friendly -> Works on features
+= Limitation -> Large motion failure
+}
+
+::MATCH4::
+Match the component to role.
+{
+= Window -> Region for equations
+= Brightness -> Constancy assumption
+= Spatial coherence -> Neighbor similarity
+= Motion equation -> Solved locally
+}
+
+::MATCH5::
+Match the algorithm to application.
+{
+= Lucas–Kanade -> Feature tracking
+= Horn–Schunck -> Dense flow
+= CNN flow -> Large motion
+= Background subtraction -> Moving objects
+}
+
+::MATCH6::
+Match the issue to cause.
+{
+= Occlusion -> Missing flow
+= Large displacement -> Failure
+= Uniform region -> No features
+= Noise -> Unstable estimation
+}
+
+::MATCH7::
+Match the flow type to description.
+{
+= Sparse flow -> Few keypoints
+= Dense flow -> All pixels
+= Local -> Patch-based
+= Global -> Whole image
+}
+
+::MATCH8::
+Match the application to example.
+{
+= Stabilization -> Video correction
+= Tracking -> Object following
+= Analysis -> Motion study
+= Robotics -> Navigation
+}
+
+::MATCH9::
+Match the method to limitation.
+{
+= Lucas–Kanade -> Large motion
+= Horn–Schunck -> Oversmoothing
+= CNN flow -> Needs training
+= Background subtraction -> Illumination
+}
+
+::MATCH10::
+Match the assumption to failure case.
+{
+= Brightness constancy -> Illumination change
+= Small motion -> Large displacement
+= Spatial coherence -> Motion discontinuities
+= Window -> Textureless regions
+}
+
+::MULTI1::
+Which are assumptions of Lucas–Kanade?
+{
+~%25% Brightness constancy
+~%25% Small motion
+~%25% Spatial coherence
+~%25% Local windows
+}
+
+::MULTI2::
+Which are applications of Lucas–Kanade?
+{
+~%33.33333% Video stabilization
+~%33.33333% Feature tracking
+~%33.33333% Motion analysis
+~%-100% Histogram smoothing
+}
+
+::MULTI3::
+Which are limitations of Lucas–Kanade?
+{
+~%33.33333% Large motion
+~%33.33333% Occlusion
+~%33.33333% Textureless regions
+~%-100% Always robust
+}
+
+::MULTI4::
+Which are properties of Lucas–Kanade?
+{
+~%33.33333% Local
+~%33.33333% Window-based
+~%33.33333% Sparse flow
+~%-100% Dense global flow
+}
+
+::MULTI5::
+Which are features that support Lucas–Kanade well?
+{
+~%33.33333% Corners
+~%33.33333% High-contrast regions
+~%33.33333% Distinct features
+~%-100% Flat regions
+}
+
+::MULTI6::
+Which are optical flow methods?
+{
+~%25% Lucas–Kanade
+~%25% Horn–Schunck
+~%25% CNN flow
+~%25% Farneback
+}
+
+::MULTI7::
+Which are challenges for optical flow?
+{
+~%25% Occlusion
+~%25% Illumination changes
+~%25% Large motion
+~%25% Noise
+}
+
+::MULTI8::
+Which are outputs of Lucas–Kanade?
+{
+~%50% Motion vectors at features
+~%50% Sparse optical flow
+~%-100% Dense per-pixel flow
+~%-100% Histogram bins
+}
+
+::MULTI9::
+Which are assumptions that may fail in real videos?
+{
+~%33.33333% Brightness constancy
+~%33.33333% Small motion
+~%33.33333% Spatial coherence
+~%-100% Random motion
+}
+
+::MULTI10::
+Which are domains using Lucas–Kanade?
+{
+~%25% Robotics
+~%25% Video stabilization
+~%25% Sports tracking
+~%25% Motion analysis
+}

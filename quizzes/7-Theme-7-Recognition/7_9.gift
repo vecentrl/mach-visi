@@ -1,0 +1,309 @@
+::TF1::
+Deep learning has largely replaced traditional hand-crafted features in recognition.
+{TRUE}
+
+::TF2::
+Convolutional Neural Networks (CNNs) combine feature extraction and classification.
+{TRUE}
+
+::TF3::
+SIFT and HOG are examples of hand-crafted features.
+{TRUE}
+
+::TF4::
+CNNs require large amounts of training data.
+{TRUE}
+
+::TF5::
+Deep learning recognition methods are always fully interpretable.
+{FALSE}
+
+::TF6::
+CNNs are widely used in face and object recognition.
+{TRUE}
+
+::TF7::
+Medical imaging can benefit from deep learning recognition.
+{TRUE}
+
+::TF8::
+Autonomous vehicles rely on CNN-based object detection.
+{TRUE}
+
+::TF9::
+Deep learning requires no computation at all.
+{FALSE}
+
+::TF10::
+The traditional pipeline separated feature extraction and classification.
+{TRUE}
+
+::MC1::
+What do CNNs combine?
+{
+= Feature extraction and classification
+~ Only clustering
+~ Only feature extraction
+~ Only compression
+}
+
+::MC2::
+Which are examples of hand-crafted features?
+{
+= SIFT and HOG
+~ CNN filters
+~ PCA eigenfaces
+~ Neural embeddings
+}
+
+::MC3::
+Which is an advantage of CNNs?
+{
+= End-to-end learning
+~ No training data needed
+~ Always interpretable
+~ Feature independence
+}
+
+::MC4::
+Which is a drawback of CNNs?
+{
+= Requires large datasets
+~ Requires no computation
+~ No risk of overfitting
+~ Always interpretable
+}
+
+::MC5::
+Which application uses CNN recognition?
+{
+= Autonomous driving
+~ Audio compression
+~ Histogram equalization
+~ Gamma correction
+}
+
+::MC6::
+Which is the main difference between traditional recognition and deep learning?
+{
+= Hand-crafted features vs. learned features
+~ Only dataset size
+~ Only color information
+~ Only SVMs
+}
+
+::MC7::
+Which is an example of a classifier in traditional recognition pipelines?
+{
+= SVM
+~ CNN
+~ PCA
+~ Histogram equalization
+}
+
+::MC8::
+Which property is true of CNNs?
+{
+= Hierarchical feature learning
+~ Always shallow
+~ Only linear boundaries
+~ Requires no GPU
+}
+
+::MC9::
+Which challenge affects deep learning recognition?
+{
+= Interpretability
+~ Always perfect recognition
+~ Ignores training data
+~ Requires no labels
+}
+
+::MC10::
+Which property explains CNN success in vision?
+{
+= Automatic feature extraction
+~ Always handcrafted features
+~ Low computation
+~ Random guessing
+}
+
+::MATCH1::
+Match the approach to property.
+{
+= Traditional -> Hand-crafted features
+= Deep learning -> Learned features
+= CNN -> End-to-end
+= SVM -> Separate classifier
+}
+
+::MATCH2::
+Match the feature type to example.
+{
+= Hand-crafted -> SIFT
+= Hand-crafted -> HOG
+= Learned -> CNN filters
+= Traditional -> PCA eigenfaces
+}
+
+::MATCH3::
+Match the application to method.
+{
+= Autonomous vehicles -> CNN
+= Medical imaging -> Deep learning
+= Face recognition -> CNNs
+= Old OCR -> Hand-crafted + SVM
+}
+
+::MATCH4::
+Match the classifier to pipeline.
+{
+= SVM -> Traditional
+= Decision tree -> Traditional
+= CNN -> Modern deep learning
+= kNN -> Traditional
+}
+
+::MATCH5::
+Match the challenge to effect.
+{
+= Data-hungry -> Needs large datasets
+= Expensive -> GPU required
+= Interpretability -> Black-box
+= Overfitting -> Poor generalization
+}
+
+::MATCH6::
+Match the method to advantage.
+{
+= Hand-crafted -> Works with small data
+= CNN -> Learns features automatically
+= Traditional -> Simple computation
+= Deep learning -> High accuracy
+}
+
+::MATCH7::
+Match the domain to example.
+{
+= Security -> Face recognition
+= Medicine -> Tumor analysis
+= Automotive -> Object detection
+= Environment -> Scene recognition
+}
+
+::MATCH8::
+Match the property to need.
+{
+= Large datasets -> CNN training
+= GPUs -> Computation
+= End-to-end -> CNN design
+= Separate pipeline -> Traditional
+}
+
+::MATCH9::
+Match the model to drawback.
+{
+= CNN -> Black-box
+= Hand-crafted -> Limited flexibility
+= Deep learning -> Computationally heavy
+= Traditional -> Manual design
+}
+
+::MATCH10::
+Match the recognition type to property.
+{
+= Detection -> Locating objects
+= Recognition -> Assign labels
+= Traditional -> Features + classifier
+= Deep learning -> End-to-end
+}
+
+::MULTI1::
+Which are examples of hand-crafted features?
+{
+~%33.33333% SIFT
+~%33.33333% HOG
+~%33.33333% SURF
+~%-100% CNN filters
+}
+
+::MULTI2::
+Which are examples of learned features?
+{
+~%50% CNN filters
+~%50% Deep embeddings
+~%-100% SIFT
+~%-100% HOG
+}
+
+::MULTI3::
+Which are applications of CNNs?
+{
+~%25% Face recognition
+~%25% Object detection
+~%25% Medical imaging
+~%25% Autonomous driving
+}
+
+::MULTI4::
+Which are advantages of CNNs?
+{
+~%33.33333% End-to-end learning
+~%33.33333% Automatic feature extraction
+~%33.33333% High accuracy
+~%-100% Hand-crafted design
+}
+
+::MULTI5::
+Which are challenges of CNNs?
+{
+~%25% Require large datasets
+~%25% Computationally expensive
+~%25% Risk of overfitting
+~%25% Interpretability issues
+}
+
+::MULTI6::
+Which describe traditional pipelines?
+{
+~%50% Hand-crafted features
+~%50% Separate classifier
+~%-100% End-to-end learning
+~%-100% CNN filters
+}
+
+::MULTI7::
+Which are classifiers used in traditional recognition?
+{
+~%33.33333% SVM
+~%33.33333% kNN
+~%33.33333% Decision trees
+~%-100% CNN
+}
+
+::MULTI8::
+Which are applications of deep learning recognition?
+{
+~%25% Face ID in phones
+~%25% Self-driving cars
+~%25% Medical diagnosis
+~%25% Industrial defect detection
+}
+
+::MULTI9::
+Which are true about CNN properties?
+{
+~%33.33333% Learn hierarchical features
+~%33.33333% End-to-end models
+~%33.33333% Require GPUs
+~%-100% Always interpretable
+}
+
+::MULTI10::
+Which are differences between traditional and modern recognition?
+{
+~%33.33333% Traditional = hand-crafted features
+~%33.33333% Deep learning = learned features
+~%33.33333% CNN = end-to-end
+~%-100% Both identical
+}

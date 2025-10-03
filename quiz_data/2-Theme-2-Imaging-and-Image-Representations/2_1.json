@@ -1,0 +1,814 @@
+[
+  {
+    "gift_source": "::MC1::\nWhich of these is NOT a type of camera commonly used in imaging?\n{\n= Microwave oven\n~ Photographic camera\n~ Surveillance camera\n~ Astronomical camera\n}",
+    "title": "MC1",
+    "question": "Which of these is NOT a type of camera commonly used in imaging?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Microwave oven",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Photographic camera",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Surveillance camera",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Astronomical camera",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhich type of camera can capture both color and depth information?\n{\n= RGB-D camera\n~ Video camera\n~ Photographic camera\n~ Line scan camera\n}",
+    "title": "MC2",
+    "question": "Which type of camera can capture both color and depth information?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "RGB-D camera",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Video camera",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Photographic camera",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Line scan camera",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhich type of camera is particularly useful for conveyor belt inspections?\n{\n= Line scan camera\n~ Web camera\n~ Astronomical camera\n~ Photographic camera\n}",
+    "title": "MC3",
+    "question": "Which type of camera is particularly useful for conveyor belt inspections?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Line scan camera",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Web camera",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Astronomical camera",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Photographic camera",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhich imaging device is designed for hyperspectral measurements?\n{\n= Spectral camera\n~ Video camera\n~ Webcam\n~ DSLR\n}",
+    "title": "MC4",
+    "question": "Which imaging device is designed for hyperspectral measurements?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Spectral camera",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Video camera",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Webcam",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "DSLR",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhich is an example of a machine vision camera application?\n{\n= Industrial quality control\n~ Playing music\n~ Storing databases\n~ Writing documents\n}",
+    "title": "MC5",
+    "question": "Which is an example of a machine vision camera application?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Industrial quality control",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Playing music",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Storing databases",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Writing documents",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich part of a digital camera controls the amount of light entering the sensor?\n{\n= Aperture\n~ Flash memory\n~ CCD\n~ Battery\n}",
+    "title": "MC6",
+    "question": "Which part of a digital camera controls the amount of light entering the sensor?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Aperture",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Flash memory",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "CCD",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Battery",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich part of a camera body determines exposure time?\n{\n= Shutter\n~ Lens\n~ CMOS\n~ USB port\n}",
+    "title": "MC7",
+    "question": "Which part of a camera body determines exposure time?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Shutter",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Lens",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "CMOS",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "USB port",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich lens characteristic allows focusing on objects at different distances?\n{\n= Focusing\n~ Aperture\n~ Flash\n~ ISO\n}",
+    "title": "MC8",
+    "question": "Which lens characteristic allows focusing on objects at different distances?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Focusing",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Aperture",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Flash",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "ISO",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich is a common ISO setting adjustment in digital cameras?\n{\n= Sensor gain\n~ Lens diameter\n~ Shutter curtain\n~ JPEG compression\n}",
+    "title": "MC9",
+    "question": "Which is a common ISO setting adjustment in digital cameras?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Sensor gain",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Lens diameter",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Shutter curtain",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "JPEG compression",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich pipeline step converts raw sensor signals into a final image?\n{\n= Digital signal processing (DSP)\n~ Aperture adjustment\n~ Flash synchronization\n~ Mechanical shuttering\n}",
+    "title": "MC10",
+    "question": "Which pipeline step converts raw sensor signals into a final image?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Digital signal processing (DSP)",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Aperture adjustment",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Flash synchronization",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Mechanical shuttering",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the camera type to its application.\n{\n= Astronomical camera -> Observing stars and planets\n= Surveillance camera -> Security monitoring\n= Industrial camera -> Quality inspection\n= Web camera -> Online communication\n}",
+    "title": "MATCH1",
+    "question": "Match the camera type to its application.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Astronomical camera",
+        "right": "Observing stars and planets"
+      },
+      {
+        "id": 2,
+        "left": "Surveillance camera",
+        "right": "Security monitoring"
+      },
+      {
+        "id": 3,
+        "left": "Industrial camera",
+        "right": "Quality inspection"
+      },
+      {
+        "id": 4,
+        "left": "Web camera",
+        "right": "Online communication"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the sensor type to its property.\n{\n= CCD -> Often higher image quality, lower noise\n= CMOS -> Lower power consumption, cheaper integration\n= Full-frame sensor -> Used in professional DSLRs\n= Small sensor -> Common in smartphones\n}",
+    "title": "MATCH2",
+    "question": "Match the sensor type to its property.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "CCD",
+        "right": "Often higher image quality, lower noise"
+      },
+      {
+        "id": 2,
+        "left": "CMOS",
+        "right": "Lower power consumption, cheaper integration"
+      },
+      {
+        "id": 3,
+        "left": "Full-frame sensor",
+        "right": "Used in professional DSLRs"
+      },
+      {
+        "id": 4,
+        "left": "Small sensor",
+        "right": "Common in smartphones"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the camera part to its function.\n{\n= Shutter -> Controls exposure time\n= Aperture -> Controls light amount\n= Lens -> Focuses light\n= Image sensor -> Captures photons\n}",
+    "title": "MATCH3",
+    "question": "Match the camera part to its function.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Shutter",
+        "right": "Controls exposure time"
+      },
+      {
+        "id": 2,
+        "left": "Aperture",
+        "right": "Controls light amount"
+      },
+      {
+        "id": 3,
+        "left": "Lens",
+        "right": "Focuses light"
+      },
+      {
+        "id": 4,
+        "left": "Image sensor",
+        "right": "Captures photons"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the file format to its description.\n{\n= RAW -> Contains minimally processed sensor data\n= JPG -> Compressed standard image format\n= DSP pipeline -> Converts RAW to final format\n= A/D conversion -> Transforms analog to digital signal\n}",
+    "title": "MATCH4",
+    "question": "Match the file format to its description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "RAW",
+        "right": "Contains minimally processed sensor data"
+      },
+      {
+        "id": 2,
+        "left": "JPG",
+        "right": "Compressed standard image format"
+      },
+      {
+        "id": 3,
+        "left": "DSP pipeline",
+        "right": "Converts RAW to final format"
+      },
+      {
+        "id": 4,
+        "left": "A/D conversion",
+        "right": "Transforms analog to digital signal"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the processing step to its role.\n{\n= Demosaicing -> Reconstructing color image from CFA\n= White balancing -> Correcting color cast\n= Gamma correction -> Adjusting brightness perception\n= JPEG encoding -> Compressing image\n}",
+    "title": "MATCH5",
+    "question": "Match the processing step to its role.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Demosaicing",
+        "right": "Reconstructing color image from CFA"
+      },
+      {
+        "id": 2,
+        "left": "White balancing",
+        "right": "Correcting color cast"
+      },
+      {
+        "id": 3,
+        "left": "Gamma correction",
+        "right": "Adjusting brightness perception"
+      },
+      {
+        "id": 4,
+        "left": "JPEG encoding",
+        "right": "Compressing image"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the camera type to a keyword.\n{\n= RGB-D camera -> Depth sensing\n= Spectral camera -> Infrared or hyperspectral\n= Line scan camera -> Conveyor belt imaging\n= Photographic camera -> Still photography\n}",
+    "title": "MATCH6",
+    "question": "Match the camera type to a keyword.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "RGB-D camera",
+        "right": "Depth sensing"
+      },
+      {
+        "id": 2,
+        "left": "Spectral camera",
+        "right": "Infrared or hyperspectral"
+      },
+      {
+        "id": 3,
+        "left": "Line scan camera",
+        "right": "Conveyor belt imaging"
+      },
+      {
+        "id": 4,
+        "left": "Photographic camera",
+        "right": "Still photography"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the optical element to its function.\n{\n= Lens -> Focus light rays\n= Aperture -> Control brightness\n= Flash -> Illuminate the scene\n= Optical filter -> Select wavelength band\n}",
+    "title": "MATCH7",
+    "question": "Match the optical element to its function.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Lens",
+        "right": "Focus light rays"
+      },
+      {
+        "id": 2,
+        "left": "Aperture",
+        "right": "Control brightness"
+      },
+      {
+        "id": 3,
+        "left": "Flash",
+        "right": "Illuminate the scene"
+      },
+      {
+        "id": 4,
+        "left": "Optical filter",
+        "right": "Select wavelength band"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the camera body part to its task.\n{\n= Flash -> Provides extra light\n= Shutter -> Opens and closes exposure\n= Viewfinder -> Helps frame the image\n= Battery -> Supplies power\n}",
+    "title": "MATCH8",
+    "question": "Match the camera body part to its task.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Flash",
+        "right": "Provides extra light"
+      },
+      {
+        "id": 2,
+        "left": "Shutter",
+        "right": "Opens and closes exposure"
+      },
+      {
+        "id": 3,
+        "left": "Viewfinder",
+        "right": "Helps frame the image"
+      },
+      {
+        "id": 4,
+        "left": "Battery",
+        "right": "Supplies power"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the concept to its description.\n{\n= ISO -> Sensor sensitivity\n= F-number -> Ratio of focal length to aperture diameter\n= Depth of field -> Range in focus\n= Principal point -> Center of imaging geometry\n}",
+    "title": "MATCH9",
+    "question": "Match the concept to its description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "ISO",
+        "right": "Sensor sensitivity"
+      },
+      {
+        "id": 2,
+        "left": "F-number",
+        "right": "Ratio of focal length to aperture diameter"
+      },
+      {
+        "id": 3,
+        "left": "Depth of field",
+        "right": "Range in focus"
+      },
+      {
+        "id": 4,
+        "left": "Principal point",
+        "right": "Center of imaging geometry"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the sensor issue to its description.\n{\n= Vignetting -> Brightness falloff at edges\n= Noise -> Random variation in pixel values\n= Distortion -> Warping of straight lines\n= Aberration -> Color fringing\n}",
+    "title": "MATCH10",
+    "question": "Match the sensor issue to its description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Vignetting",
+        "right": "Brightness falloff at edges"
+      },
+      {
+        "id": 2,
+        "left": "Noise",
+        "right": "Random variation in pixel values"
+      },
+      {
+        "id": 3,
+        "left": "Distortion",
+        "right": "Warping of straight lines"
+      },
+      {
+        "id": 4,
+        "left": "Aberration",
+        "right": "Color fringing"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are special-purpose cameras?\n{\n~%33.33333% Spectral camera\n~%33.33333% Astronomical camera\n~%33.33333% Line scan camera\n~%-100% Typewriter\n}",
+    "title": "MULTI2",
+    "question": "Which are special-purpose cameras?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Spectral camera",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Astronomical camera",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Line scan camera",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Typewriter",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are components of a digital camera body?\n{\n~%25% Shutter\n~%25% Flash\n~%25% Battery\n~%25% Viewfinder\n}",
+    "title": "MULTI3",
+    "question": "Which are components of a digital camera body?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Shutter",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Flash",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Battery",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Viewfinder",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich belong to the optics system of a camera?\n{\n~%33.33333% Lenses\n~%33.33333% Aperture\n~%33.33333% Focusing\n~%-100% USB connector\n}",
+    "title": "MULTI4",
+    "question": "Which belong to the optics system of a camera?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Lenses",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Aperture",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Focusing",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "USB connector",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are image sensor technologies?\n{\n~%50% CCD\n~%50% CMOS\n~%-100% CRT\n~%-100% Plasma\n}",
+    "title": "MULTI5",
+    "question": "Which are image sensor technologies?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "CCD",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "CMOS",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "CRT",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Plasma",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are steps in the digital camera processing pipeline?\n{\n~%25% Demosaicing\n~%25% White balancing\n~%25% Gamma correction\n~%25% JPEG encoding\n}",
+    "title": "MULTI6",
+    "question": "Which are steps in the digital camera processing pipeline?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Demosaicing",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "White balancing",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Gamma correction",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "JPEG encoding",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are typical image quality problems?\n{\n~%33.33333% Noise\n~%33.33333% Distortion\n~%33.33333% Vignetting\n~%-100% Perfect clarity\n}",
+    "title": "MULTI7",
+    "question": "Which are typical image quality problems?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Noise",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Distortion",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Vignetting",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Perfect clarity",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are common characteristics of full-frame sensors?\n{\n~%50% Large size\n~%50% Used in professional DSLRs\n~%-100% Typical in smartphones\n~%-100% Only used in line scan cameras\n}",
+    "title": "MULTI8",
+    "question": "Which are common characteristics of full-frame sensors?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Large size",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Used in professional DSLRs",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Typical in smartphones",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Only used in line scan cameras",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are examples of camera optics?\n{\n~%33.33333% Lens\n~%33.33333% Aperture\n~%33.33333% Optical filters\n~%-100% SD card\n}",
+    "title": "MULTI9",
+    "question": "Which are examples of camera optics?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Lens",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Aperture",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Optical filters",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "SD card",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are digital camera output formats?\n{\n~%50% RAW\n~%50% JPEG\n~%-100% TXT\n~%-100% MP3\n}",
+    "title": "MULTI10",
+    "question": "Which are digital camera output formats?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "RAW",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "JPEG",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "TXT",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "MP3",
+        "weight": -100.0
+      }
+    ]
+  }
+]

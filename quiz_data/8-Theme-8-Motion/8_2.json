@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhat does optical flow represent?\n{\n= Apparent pixel motion\n~ Pixel brightness only\n~ Histogram bins\n~ Audio signals\n}",
+    "title": "MC1",
+    "question": "What does optical flow represent?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Apparent pixel motion",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Pixel brightness only",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Histogram bins",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Audio signals",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhich assumption is used in optical flow?\n{\n= Brightness constancy\n~ Histogram equalization\n~ PCA reduction\n~ Gamma correction\n}",
+    "title": "MC2",
+    "question": "Which assumption is used in optical flow?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Brightness constancy",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "PCA reduction",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Gamma correction",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhich method is local and window-based?\n{\n= Lucas–Kanade\n~ Horn–Schunck\n~ SVM\n~ k-means\n}",
+    "title": "MC3",
+    "question": "Which method is local and window-based?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Lucas–Kanade",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Horn–Schunck",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "SVM",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "k-means",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhich method is global and smoothness-based?\n{\n= Horn–Schunck\n~ Lucas–Kanade\n~ PCA\n~ Decision trees\n}",
+    "title": "MC4",
+    "question": "Which method is global and smoothness-based?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Horn–Schunck",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Lucas–Kanade",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "PCA",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Decision trees",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhich property does spatial smoothness enforce?\n{\n= Neighboring pixels move similarly\n~ Pixel brightness never changes\n~ Histogram equalization\n~ File compression\n}",
+    "title": "MC5",
+    "question": "Which property does spatial smoothness enforce?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Neighboring pixels move similarly",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Pixel brightness never changes",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "File compression",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich is an application of optical flow?\n{\n= Object tracking\n~ Histogram smoothing\n~ JPEG compression\n~ Audio filtering\n}",
+    "title": "MC6",
+    "question": "Which is an application of optical flow?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Object tracking",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram smoothing",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "JPEG compression",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Audio filtering",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich challenge affects optical flow?\n{\n= Occlusion\n~ Always robust\n~ No computation\n~ Histogram bins\n}",
+    "title": "MC7",
+    "question": "Which challenge affects optical flow?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Occlusion",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Always robust",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "No computation",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram bins",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich factor complicates optical flow estimation?\n{\n= Illumination change\n~ Always constant brightness\n~ Perfect pixel alignment\n~ Unlimited computation\n}",
+    "title": "MC8",
+    "question": "Which factor complicates optical flow estimation?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Illumination change",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Always constant brightness",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Perfect pixel alignment",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Unlimited computation",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich field uses optical flow for motion analysis?\n{\n= Autonomous driving\n~ File encryption\n~ Histogram equalization\n~ Gamma correction\n}",
+    "title": "MC9",
+    "question": "Which field uses optical flow for motion analysis?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Autonomous driving",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "File encryption",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Gamma correction",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich feature is shared by Lucas–Kanade and Horn–Schunck?\n{\n= Based on brightness constancy assumption\n~ Work only on binary images\n~ Ignore smoothness\n~ Used for audio\n}",
+    "title": "MC10",
+    "question": "Which feature is shared by Lucas–Kanade and Horn–Schunck?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Based on brightness constancy assumption",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Work only on binary images",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Ignore smoothness",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Used for audio",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the method to property.\n{\n= Lucas–Kanade -> Local, window-based\n= Horn–Schunck -> Global, smoothness\n= Both -> Brightness constancy\n= CNN -> Learned flow\n}",
+    "title": "MATCH1",
+    "question": "Match the method to property.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Lucas–Kanade",
+        "right": "Local, window-based"
+      },
+      {
+        "id": 2,
+        "left": "Horn–Schunck",
+        "right": "Global, smoothness"
+      },
+      {
+        "id": 3,
+        "left": "Both",
+        "right": "Brightness constancy"
+      },
+      {
+        "id": 4,
+        "left": "CNN",
+        "right": "Learned flow"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the assumption to definition.\n{\n= Brightness constancy -> Pixel intensity stays constant\n= Spatial smoothness -> Neighboring pixels move similarly\n= Global regularization -> Horn–Schunck\n= Local windows -> Lucas–Kanade\n}",
+    "title": "MATCH2",
+    "question": "Match the assumption to definition.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Brightness constancy",
+        "right": "Pixel intensity stays constant"
+      },
+      {
+        "id": 2,
+        "left": "Spatial smoothness",
+        "right": "Neighboring pixels move similarly"
+      },
+      {
+        "id": 3,
+        "left": "Global regularization",
+        "right": "Horn–Schunck"
+      },
+      {
+        "id": 4,
+        "left": "Local windows",
+        "right": "Lucas–Kanade"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the challenge to effect.\n{\n= Occlusion -> Missing flow\n= Noise -> Errors\n= Illumination change -> False motion\n= Large displacement -> Failure\n}",
+    "title": "MATCH3",
+    "question": "Match the challenge to effect.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Occlusion",
+        "right": "Missing flow"
+      },
+      {
+        "id": 2,
+        "left": "Noise",
+        "right": "Errors"
+      },
+      {
+        "id": 3,
+        "left": "Illumination change",
+        "right": "False motion"
+      },
+      {
+        "id": 4,
+        "left": "Large displacement",
+        "right": "Failure"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the application to field.\n{\n= Tracking -> Optical flow\n= Action recognition -> Motion cues\n= Driving -> Motion estimation\n= Robotics -> Navigation\n}",
+    "title": "MATCH4",
+    "question": "Match the application to field.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Tracking",
+        "right": "Optical flow"
+      },
+      {
+        "id": 2,
+        "left": "Action recognition",
+        "right": "Motion cues"
+      },
+      {
+        "id": 3,
+        "left": "Driving",
+        "right": "Motion estimation"
+      },
+      {
+        "id": 4,
+        "left": "Robotics",
+        "right": "Navigation"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the method to drawback.\n{\n= Lucas–Kanade -> Local only\n= Horn–Schunck -> Oversmoothing\n= Both -> Sensitive to noise\n= CNN -> Needs training data\n}",
+    "title": "MATCH5",
+    "question": "Match the method to drawback.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Lucas–Kanade",
+        "right": "Local only"
+      },
+      {
+        "id": 2,
+        "left": "Horn–Schunck",
+        "right": "Oversmoothing"
+      },
+      {
+        "id": 3,
+        "left": "Both",
+        "right": "Sensitive to noise"
+      },
+      {
+        "id": 4,
+        "left": "CNN",
+        "right": "Needs training data"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the assumption to limitation.\n{\n= Brightness constancy -> Fails under lighting change\n= Smoothness -> Fails at motion boundaries\n= Local windows -> Miss large motion\n= Global models -> Computational cost\n}",
+    "title": "MATCH6",
+    "question": "Match the assumption to limitation.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Brightness constancy",
+        "right": "Fails under lighting change"
+      },
+      {
+        "id": 2,
+        "left": "Smoothness",
+        "right": "Fails at motion boundaries"
+      },
+      {
+        "id": 3,
+        "left": "Local windows",
+        "right": "Miss large motion"
+      },
+      {
+        "id": 4,
+        "left": "Global models",
+        "right": "Computational cost"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the method to domain.\n{\n= Lucas–Kanade -> Sparse flow\n= Horn–Schunck -> Dense flow\n= CNN -> Deep flow estimation\n= Histogram -> Not flow\n}",
+    "title": "MATCH7",
+    "question": "Match the method to domain.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Lucas–Kanade",
+        "right": "Sparse flow"
+      },
+      {
+        "id": 2,
+        "left": "Horn–Schunck",
+        "right": "Dense flow"
+      },
+      {
+        "id": 3,
+        "left": "CNN",
+        "right": "Deep flow estimation"
+      },
+      {
+        "id": 4,
+        "left": "Histogram",
+        "right": "Not flow"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the property to requirement.\n{\n= Occlusion -> Hard to track\n= Illumination -> Brightness change\n= Large displacement -> Multi-scale methods\n= Smoothness -> Regularization\n}",
+    "title": "MATCH8",
+    "question": "Match the property to requirement.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Occlusion",
+        "right": "Hard to track"
+      },
+      {
+        "id": 2,
+        "left": "Illumination",
+        "right": "Brightness change"
+      },
+      {
+        "id": 3,
+        "left": "Large displacement",
+        "right": "Multi-scale methods"
+      },
+      {
+        "id": 4,
+        "left": "Smoothness",
+        "right": "Regularization"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the technique to type.\n{\n= Optical flow -> Motion estimation\n= Background subtraction -> Foreground detection\n= Segmentation -> Partitioning\n= Clustering -> Grouping\n}",
+    "title": "MATCH9",
+    "question": "Match the technique to type.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Optical flow",
+        "right": "Motion estimation"
+      },
+      {
+        "id": 2,
+        "left": "Background subtraction",
+        "right": "Foreground detection"
+      },
+      {
+        "id": 3,
+        "left": "Segmentation",
+        "right": "Partitioning"
+      },
+      {
+        "id": 4,
+        "left": "Clustering",
+        "right": "Grouping"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the domain to application.\n{\n= Security -> Activity monitoring\n= Sports -> Player tracking\n= Automotive -> Lane following\n= Medicine -> Motion analysis\n}",
+    "title": "MATCH10",
+    "question": "Match the domain to application.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Security",
+        "right": "Activity monitoring"
+      },
+      {
+        "id": 2,
+        "left": "Sports",
+        "right": "Player tracking"
+      },
+      {
+        "id": 3,
+        "left": "Automotive",
+        "right": "Lane following"
+      },
+      {
+        "id": 4,
+        "left": "Medicine",
+        "right": "Motion analysis"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are assumptions in optical flow?\n{\n~%50% Brightness constancy\n~%50% Spatial smoothness\n~%-100% Histogram constancy\n~%-100% PCA projection\n}",
+    "title": "MULTI1",
+    "question": "Which are assumptions in optical flow?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Brightness constancy",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Spatial smoothness",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Histogram constancy",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "PCA projection",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are optical flow methods?\n{\n~%33.33333% Lucas–Kanade\n~%33.33333% Horn–Schunck\n~%33.33333% CNN-based flow\n~%-100% Histogram equalization\n}",
+    "title": "MULTI2",
+    "question": "Which are optical flow methods?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Lucas–Kanade",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Horn–Schunck",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "CNN-based flow",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Histogram equalization",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are applications of optical flow?\n{\n~%25% Object tracking\n~%25% Action recognition\n~%25% Autonomous driving\n~%25% Human motion analysis\n}",
+    "title": "MULTI3",
+    "question": "Which are applications of optical flow?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Object tracking",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Action recognition",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Autonomous driving",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Human motion analysis",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are challenges for optical flow?\n{\n~%25% Occlusion\n~%25% Illumination variation\n~%25% Noise\n~%25% Large displacements\n}",
+    "title": "MULTI4",
+    "question": "Which are challenges for optical flow?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Occlusion",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Illumination variation",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Noise",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Large displacements",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are properties of Lucas–Kanade?\n{\n~%50% Local\n~%50% Window-based\n~%-100% Global\n~%-100% CNN-based\n}",
+    "title": "MULTI5",
+    "question": "Which are properties of Lucas–Kanade?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Local",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Window-based",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Global",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "CNN-based",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are properties of Horn–Schunck?\n{\n~%33.33333% Global\n~%33.33333% Smoothness-based\n~%33.33333% Dense flow\n~%-100% Local only\n}",
+    "title": "MULTI6",
+    "question": "Which are properties of Horn–Schunck?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Global",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Smoothness-based",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Dense flow",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Local only",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are examples of motion-based fields?\n{\n~%25% Surveillance\n~%25% Sports\n~%25% Driving\n~%25% Robotics\n}",
+    "title": "MULTI7",
+    "question": "Which are examples of motion-based fields?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Surveillance",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Sports",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Driving",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Robotics",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are advantages of CNN-based optical flow?\n{\n~%33.33333% Learn features\n~%33.33333% Handle large displacements\n~%33.33333% High accuracy\n~%-100% Require no data\n}",
+    "title": "MULTI8",
+    "question": "Which are advantages of CNN-based optical flow?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Learn features",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Handle large displacements",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "High accuracy",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Require no data",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich assumptions may fail in real scenes?\n{\n~%33.33333% Brightness constancy\n~%33.33333% Spatial smoothness\n~%33.33333% No occlusion\n~%-100% Histogram constancy\n}",
+    "title": "MULTI9",
+    "question": "Which assumptions may fail in real scenes?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Brightness constancy",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Spatial smoothness",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "No occlusion",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Histogram constancy",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are outputs of optical flow?\n{\n~%50% Motion vectors\n~%50% Foreground detection masks\n~%-100% Histogram bins\n~%-100% JPEG coefficients\n}",
+    "title": "MULTI10",
+    "question": "Which are outputs of optical flow?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Motion vectors",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Foreground detection masks",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Histogram bins",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "JPEG coefficients",
+        "weight": -100.0
+      }
+    ]
+  }
+]

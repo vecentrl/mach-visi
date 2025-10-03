@@ -1,0 +1,814 @@
+[
+  {
+    "gift_source": "::MC1::\nWhat does the optical model in computer vision attempt to describe?\n{\n= How light passes through lenses and forms an image\n~ How pixels are stored in memory\n~ How files are compressed\n~ How CPUs process instructions\n}",
+    "title": "MC1",
+    "question": "What does the optical model in computer vision attempt to describe?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "How light passes through lenses and forms an image",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "How pixels are stored in memory",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "How files are compressed",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "How CPUs process instructions",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhich function describes the spread of a point of light in an imaging system?\n{\n= Point-spread function (PSF)\n~ Gamma function\n~ Noise distribution\n~ Histogram equalization\n}",
+    "title": "MC2",
+    "question": "Which function describes the spread of a point of light in an imaging system?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Point-spread function (PSF)",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Gamma function",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Noise distribution",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram equalization",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhat is the Fourier transform of the PSF called?\n{\n= Optical transfer function (OTF)\n~ Color filter array\n~ Depth map\n~ Power spectrum density\n}",
+    "title": "MC3",
+    "question": "What is the Fourier transform of the PSF called?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Optical transfer function (OTF)",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Color filter array",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Depth map",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Power spectrum density",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhich model relates object distance, image distance, and focal length?\n{\n= Thin lens model\n~ Pinhole model\n~ Histogram model\n~ Perspective model\n}",
+    "title": "MC4",
+    "question": "Which model relates object distance, image distance, and focal length?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Thin lens model",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Pinhole model",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Histogram model",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Perspective model",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhat does the circle of confusion measure?\n{\n= Degree of misfocus\n~ Sensor size\n~ Focal length\n~ Image sharpness\n}",
+    "title": "MC5",
+    "question": "What does the circle of confusion measure?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Degree of misfocus",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Sensor size",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Focal length",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Image sharpness",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhat is defined by the ratio of focal length to aperture diameter?\n{\n= F-number\n~ ISO\n~ Shutter speed\n~ Principal point\n}",
+    "title": "MC6",
+    "question": "What is defined by the ratio of focal length to aperture diameter?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "F-number",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "ISO",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Shutter speed",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Principal point",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhat does depth of field describe?\n{\n= Range of distances that appear sharp\n~ Brightness of the image\n~ Sensor size\n~ Lens distortion\n}",
+    "title": "MC7",
+    "question": "What does depth of field describe?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Range of distances that appear sharp",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Brightness of the image",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Sensor size",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Lens distortion",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich factor reduces depth of field?\n{\n= Large aperture\n~ Small focal length\n~ Small aperture\n~ Long exposure\n}",
+    "title": "MC8",
+    "question": "Which factor reduces depth of field?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Large aperture",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Small focal length",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Small aperture",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Long exposure",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich problem do wide-angle lenses commonly introduce?\n{\n= Radial distortion\n~ Histogram flattening\n~ Color banding\n~ Vignetting only\n}",
+    "title": "MC9",
+    "question": "Which problem do wide-angle lenses commonly introduce?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Radial distortion",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram flattening",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Color banding",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Vignetting only",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich parameters model radial distortion?\n{\n= k1 and k2\n~ ISO and f-number\n~ R and t\n~ X and Y\n}",
+    "title": "MC10",
+    "question": "Which parameters model radial distortion?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "k1 and k2",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "ISO and f-number",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "R and t",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "X and Y",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the optical concept to its description.\n{\n= OTF -> Fourier transform of PSF\n= PSF -> Spread of a point in image\n= Thin lens model -> Object, image, focal length relation\n= Circle of confusion -> Measure of misfocus\n}",
+    "title": "MATCH1",
+    "question": "Match the optical concept to its description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "OTF",
+        "right": "Fourier transform of PSF"
+      },
+      {
+        "id": 2,
+        "left": "PSF",
+        "right": "Spread of a point in image"
+      },
+      {
+        "id": 3,
+        "left": "Thin lens model",
+        "right": "Object, image, focal length relation"
+      },
+      {
+        "id": 4,
+        "left": "Circle of confusion",
+        "right": "Measure of misfocus"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the aperture size to the effect.\n{\n= Large aperture -> Shallow depth of field\n= Small aperture -> Deep depth of field\n= Very large aperture -> More blur outside focus\n= Small f-number -> Larger aperture\n}",
+    "title": "MATCH2",
+    "question": "Match the aperture size to the effect.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Large aperture",
+        "right": "Shallow depth of field"
+      },
+      {
+        "id": 2,
+        "left": "Small aperture",
+        "right": "Deep depth of field"
+      },
+      {
+        "id": 3,
+        "left": "Very large aperture",
+        "right": "More blur outside focus"
+      },
+      {
+        "id": 4,
+        "left": "Small f-number",
+        "right": "Larger aperture"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the lens characteristic to its impact.\n{\n= Wide-angle lens -> Radial distortion\n= Large aperture -> Shallow depth of field\n= Misfocus -> Circle of confusion\n= Optical imperfection -> Aberration\n}",
+    "title": "MATCH3",
+    "question": "Match the lens characteristic to its impact.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Wide-angle lens",
+        "right": "Radial distortion"
+      },
+      {
+        "id": 2,
+        "left": "Large aperture",
+        "right": "Shallow depth of field"
+      },
+      {
+        "id": 3,
+        "left": "Misfocus",
+        "right": "Circle of confusion"
+      },
+      {
+        "id": 4,
+        "left": "Optical imperfection",
+        "right": "Aberration"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the parameter to its meaning.\n{\n= F-number -> f / aperture diameter\n= Focal length -> Distance from lens to sensor at focus\n= Principal point -> Center of image geometry\n= Depth of field -> Range of acceptable sharpness\n}",
+    "title": "MATCH4",
+    "question": "Match the parameter to its meaning.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "F-number",
+        "right": "f / aperture diameter"
+      },
+      {
+        "id": 2,
+        "left": "Focal length",
+        "right": "Distance from lens to sensor at focus"
+      },
+      {
+        "id": 3,
+        "left": "Principal point",
+        "right": "Center of image geometry"
+      },
+      {
+        "id": 4,
+        "left": "Depth of field",
+        "right": "Range of acceptable sharpness"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the phenomenon to the description.\n{\n= Blur -> Light spread in sensor\n= Smear -> Streaking of light\n= Distortion -> Geometric warping\n= Aberration -> Color fringing\n}",
+    "title": "MATCH5",
+    "question": "Match the phenomenon to the description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Blur",
+        "right": "Light spread in sensor"
+      },
+      {
+        "id": 2,
+        "left": "Smear",
+        "right": "Streaking of light"
+      },
+      {
+        "id": 3,
+        "left": "Distortion",
+        "right": "Geometric warping"
+      },
+      {
+        "id": 4,
+        "left": "Aberration",
+        "right": "Color fringing"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the function to its type.\n{\n= OTF -> Frequency domain\n= PSF -> Spatial domain\n= Gamma correction -> Brightness scaling\n= Histogram equalization -> Contrast adjustment\n}",
+    "title": "MATCH6",
+    "question": "Match the function to its type.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "OTF",
+        "right": "Frequency domain"
+      },
+      {
+        "id": 2,
+        "left": "PSF",
+        "right": "Spatial domain"
+      },
+      {
+        "id": 3,
+        "left": "Gamma correction",
+        "right": "Brightness scaling"
+      },
+      {
+        "id": 4,
+        "left": "Histogram equalization",
+        "right": "Contrast adjustment"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the optical model to its feature.\n{\n= Pinhole model -> Simple approximation\n= Thin lens model -> Circle of confusion\n= Depth of field -> Range of sharp focus\n= Distortion model -> Radial correction\n}",
+    "title": "MATCH7",
+    "question": "Match the optical model to its feature.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Pinhole model",
+        "right": "Simple approximation"
+      },
+      {
+        "id": 2,
+        "left": "Thin lens model",
+        "right": "Circle of confusion"
+      },
+      {
+        "id": 3,
+        "left": "Depth of field",
+        "right": "Range of sharp focus"
+      },
+      {
+        "id": 4,
+        "left": "Distortion model",
+        "right": "Radial correction"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the term to its role.\n{\n= Gaussian kernel -> Approximates blur\n= Radial distortion -> Modeled by k1, k2\n= Aberration -> Chromatic shift\n= Aperture -> Controls incoming light\n}",
+    "title": "MATCH8",
+    "question": "Match the term to its role.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Gaussian kernel",
+        "right": "Approximates blur"
+      },
+      {
+        "id": 2,
+        "left": "Radial distortion",
+        "right": "Modeled by k1, k2"
+      },
+      {
+        "id": 3,
+        "left": "Aberration",
+        "right": "Chromatic shift"
+      },
+      {
+        "id": 4,
+        "left": "Aperture",
+        "right": "Controls incoming light"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the optical imperfection to its effect.\n{\n= Distortion -> Straight lines curve\n= Aberration -> Colors misalign\n= Vignetting -> Brightness falloff\n= Noise -> Random variation\n}",
+    "title": "MATCH9",
+    "question": "Match the optical imperfection to its effect.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Distortion",
+        "right": "Straight lines curve"
+      },
+      {
+        "id": 2,
+        "left": "Aberration",
+        "right": "Colors misalign"
+      },
+      {
+        "id": 3,
+        "left": "Vignetting",
+        "right": "Brightness falloff"
+      },
+      {
+        "id": 4,
+        "left": "Noise",
+        "right": "Random variation"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the optical setting to the consequence.\n{\n= High f-number -> Deep depth of field\n= Low f-number -> Shallow depth of field\n= Long focal length -> Narrow field of view\n= Wide-angle -> Strong radial distortion\n}",
+    "title": "MATCH10",
+    "question": "Match the optical setting to the consequence.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "High f-number",
+        "right": "Deep depth of field"
+      },
+      {
+        "id": 2,
+        "left": "Low f-number",
+        "right": "Shallow depth of field"
+      },
+      {
+        "id": 3,
+        "left": "Long focal length",
+        "right": "Narrow field of view"
+      },
+      {
+        "id": 4,
+        "left": "Wide-angle",
+        "right": "Strong radial distortion"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich functions describe how light is transferred in an imaging system?\n{\n~%50% OTF\n~%50% PSF\n~%-100% Histogram\n~%-100% LUT\n}",
+    "title": "MULTI2",
+    "question": "Which functions describe how light is transferred in an imaging system?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "OTF",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "PSF",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Histogram",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "LUT",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich assumptions are part of the thin lens model?\n{\n~%33.33333% Light focuses through a single plane\n~%33.33333% Misfocus can be measured by circle of confusion\n~%33.33333% Depth of field depends on aperture and focus distance\n~%-100% No lens distortion exists\n}",
+    "title": "MULTI3",
+    "question": "Which assumptions are part of the thin lens model?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Light focuses through a single plane",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Misfocus can be measured by circle of confusion",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Depth of field depends on aperture and focus distance",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "No lens distortion exists",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich affect depth of field?\n{\n~%33.33333% Aperture size\n~%33.33333% Focal length\n~%33.33333% Focus distance\n~%-100% JPEG encoding\n}",
+    "title": "MULTI4",
+    "question": "Which affect depth of field?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Aperture size",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Focal length",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Focus distance",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "JPEG encoding",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are parameters of radial distortion models?\n{\n~%50% k1\n~%50% k2\n~%-100% ISO\n~%-100% Shutter speed\n}",
+    "title": "MULTI5",
+    "question": "Which are parameters of radial distortion models?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "k1",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "k2",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "ISO",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Shutter speed",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich problems are caused by real lenses?\n{\n~%25% Blur\n~%25% Distortion\n~%25% Aberration\n~%25% Attenuation\n}",
+    "title": "MULTI6",
+    "question": "Which problems are caused by real lenses?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Blur",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Distortion",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Aberration",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Attenuation",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are true statements about f-number?\n{\n~%33.33333% Defined as focal length / aperture diameter\n~%33.33333% Small f-number = large aperture\n~%33.33333% Large f-number = deep depth of field\n~%-100% Independent of aperture size\n}",
+    "title": "MULTI7",
+    "question": "Which are true statements about f-number?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Defined as focal length / aperture diameter",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Small f-number = large aperture",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Large f-number = deep depth of field",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Independent of aperture size",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are modeled with OTF/PSF?\n{\n~%33.33333% Optical blur\n~%33.33333% Contrast transfer\n~%33.33333% Light spread\n~%-100% File size\n}",
+    "title": "MULTI8",
+    "question": "Which are modeled with OTF/PSF?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Optical blur",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Contrast transfer",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Light spread",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "File size",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich effects increase with wide-angle lenses?\n{\n~%50% Radial distortion\n~%50% Perspective exaggeration\n~%-100% Less distortion\n~%-100% Narrow field of view\n}",
+    "title": "MULTI9",
+    "question": "Which effects increase with wide-angle lenses?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Radial distortion",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Perspective exaggeration",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Less distortion",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Narrow field of view",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich describe out-of-focus blur?\n{\n~%33.33333% Approximated with Gaussian\n~%33.33333% Caused by defocus\n~%33.33333% Measured by circle of confusion\n~%-100% Corrected by ISO adjustment\n}",
+    "title": "MULTI10",
+    "question": "Which describe out-of-focus blur?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Approximated with Gaussian",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Caused by defocus",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Measured by circle of confusion",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Corrected by ISO adjustment",
+        "weight": -100.0
+      }
+    ]
+  }
+]

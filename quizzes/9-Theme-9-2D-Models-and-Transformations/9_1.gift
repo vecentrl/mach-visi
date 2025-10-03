@@ -1,0 +1,309 @@
+::TF1::
+Model fitting estimates parameters of a model from data.
+{TRUE}
+
+::TF2::
+Least squares fitting minimizes the sum of squared errors.
+{TRUE}
+
+::TF3::
+Model fitting is used to fit lines, planes, and curves in vision.
+{TRUE}
+
+::TF4::
+Model fitting is not useful in camera calibration.
+{FALSE}
+
+::TF5::
+Noise and outliers are challenges in model fitting.
+{TRUE}
+
+::TF6::
+Robust fitting methods handle outliers better than plain least squares.
+{TRUE}
+
+::TF7::
+All model fitting problems are linear.
+{FALSE}
+
+::TF8::
+Model fitting can support 3D reconstruction.
+{TRUE}
+
+::TF9::
+Model fitting requires a model assumption.
+{TRUE}
+
+::TF10::
+Model fitting is only used in statistics, not in vision.
+{FALSE}
+
+::MC1::
+What does model fitting do?
+{
+= Estimates model parameters from data
+~ Removes all noise
+~ Always provides perfect prediction
+~ Compresses images
+}
+
+::MC2::
+Which method minimizes squared error?
+{
+= Least squares
+~ Maximum likelihood
+~ PCA
+~ Histogram equalization
+}
+
+::MC3::
+Which is an example of model fitting in vision?
+{
+= Fitting a line to edge points
+~ Histogram equalization
+~ JPEG compression
+~ Gamma correction
+}
+
+::MC4::
+Which is a drawback of least squares?
+{
+= Sensitive to outliers
+~ Always robust
+~ Ignores error
+~ Works only for curves
+}
+
+::MC5::
+Which method is more robust to outliers?
+{
+= RANSAC
+~ Least squares
+~ Histogram equalization
+~ PCA
+}
+
+::MC6::
+Which is an application of model fitting?
+{
+= Camera calibration
+~ Audio compression
+~ File encryption
+~ Histogram smoothing
+}
+
+::MC7::
+Which factor affects model fitting quality?
+{
+= Noise
+~ File format
+~ Gamma correction
+~ Histogram bins
+}
+
+::MC8::
+Which property is true of robust fitting?
+{
+= Handles outliers better
+~ Ignores models
+~ Needs no data
+~ Always linear
+}
+
+::MC9::
+Which is a challenge in non-linear fitting?
+{
+= Convergence
+~ Always perfect accuracy
+~ No noise
+~ Histogram issues
+}
+
+::MC10::
+Which is an example of 3D model fitting?
+{
+= Fitting a plane to 3D points
+~ Histogram equalization
+~ File compression
+~ PCA feature reduction
+}
+
+::MATCH1::
+Match the method to property.
+{
+= Least squares -> Minimizes squared error
+= RANSAC -> Robust to outliers
+= PCA -> Feature reduction
+= k-means -> Clustering
+}
+
+::MATCH2::
+Match the model to application.
+{
+= Line -> Edge fitting
+= Plane -> 3D reconstruction
+= Polynomial -> Curve fitting
+= Camera -> Calibration
+}
+
+::MATCH3::
+Match the challenge to cause.
+{
+= Noise -> Measurement errors
+= Outliers -> Wrong samples
+= Non-linear -> Convergence issues
+= Few data -> Poor estimates
+}
+
+::MATCH4::
+Match the technique to robustness.
+{
+= Least squares -> Sensitive
+= RANSAC -> Robust
+= Robust regression -> Outlier handling
+= Plain mean -> Sensitive
+}
+
+::MATCH5::
+Match the application to domain.
+{
+= Vision -> Line/plane fitting
+= Robotics -> Pose estimation
+= Medicine -> Shape detection
+= Graphics -> Model approximation
+}
+
+::MATCH6::
+Match the model to shape.
+{
+= Line -> 2D edge
+= Plane -> 3D surface
+= Circle -> Round object
+= Ellipse -> Shape outline
+}
+
+::MATCH7::
+Match the method to drawback.
+{
+= Least squares -> Outliers sensitive
+= RANSAC -> Randomness
+= Non-linear -> Convergence issues
+= Robust regression -> Complexity
+}
+
+::MATCH8::
+Match the domain to use.
+{
+= Camera calibration -> Vision
+= Pose estimation -> Robotics
+= Tumor detection -> Medicine
+= Object modeling -> Graphics
+}
+
+::MATCH9::
+Match the technique to description.
+{
+= Least squares -> Minimize sum of squares
+= RANSAC -> Random sampling
+= Robust regression -> Weighted fitting
+= PCA -> Reduce dimensions
+}
+
+::MATCH10::
+Match the problem to solution.
+{
+= Outliers -> RANSAC
+= Noise -> Robust regression
+= Non-linear -> Iterative solver
+= Few data -> Regularization
+}
+
+::MULTI1::
+Which are model fitting methods?
+{
+~%25% Least squares
+~%25% RANSAC
+~%25% Robust regression
+~%25% Maximum likelihood
+}
+
+::MULTI2::
+Which are challenges in model fitting?
+{
+~%25% Noise
+~%25% Outliers
+~%25% Non-linearity
+~%25% Few data
+}
+
+::MULTI3::
+Which are applications of model fitting?
+{
+~%33.33333% Camera calibration
+~%33.33333% 3D reconstruction
+~%33.33333% Object detection
+~%-100% Audio compression
+}
+
+::MULTI4::
+Which are true about least squares?
+{
+~%50% Minimizes squared error
+~%50% Sensitive to outliers
+~%-100% Robust to all data
+~%-100% Handles occlusion
+}
+
+::MULTI5::
+Which are true about robust fitting?
+{
+~%33.33333% Handles outliers
+~%33.33333% More stable
+~%33.33333% Can use RANSAC
+~%-100% Sensitive like least squares
+}
+
+::MULTI6::
+Which are examples of fitted models?
+{
+~%25% Line
+~%25% Plane
+~%25% Circle
+~%25% Ellipse
+}
+
+::MULTI7::
+Which are domains using model fitting?
+{
+~%25% Vision
+~%25% Robotics
+~%25% Medicine
+~%25% Graphics
+}
+
+::MULTI8::
+Which are drawbacks of model fitting?
+{
+~%50% Sensitive to noise/outliers
+~%50% Convergence issues in non-linear cases
+~%-100% Always perfect
+~%-100% Needs no data
+}
+
+::MULTI9::
+Which are robust fitting methods?
+{
+~%33.33333% RANSAC
+~%33.33333% Robust regression
+~%33.33333% M-estimators
+~%-100% Plain least squares
+}
+
+::MULTI10::
+Which are benefits of model fitting?
+{
+~%25% Parameter estimation
+~%25% Data generalization
+~%25% Shape detection
+~%25% Reconstruction
+}

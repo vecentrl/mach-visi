@@ -1,0 +1,309 @@
+::TF1::
+Shading provides important cues about the shape and depth of objects.
+{TRUE}
+
+::TF2::
+Human vision is completely independent of shading information.
+{FALSE}
+
+::TF3::
+The perception of convexity or concavity can be influenced by shading patterns.
+{TRUE}
+
+::TF4::
+The human visual system often assumes light comes from above.
+{TRUE}
+
+::TF5::
+Separating reflectance from illumination is an easy and solved problem in vision.
+{FALSE}
+
+::TF6::
+Shadows can provide clues about the relative position of objects.
+{TRUE}
+
+::TF7::
+Shading information is used in both human vision and computer graphics.
+{TRUE}
+
+::TF8::
+Illumination cues are irrelevant to depth perception.
+{FALSE}
+
+::TF9::
+Computer vision systems attempt to interpret shading for 3D reconstruction.
+{TRUE}
+
+::TF10::
+Human interpretation of shading is always correct.
+{FALSE}
+
+::MC1::
+What visual cue does shading provide?
+{
+= Information about surface shape and depth
+~ Information about object temperature
+~ Information about image compression
+~ Information about sensor noise
+}
+
+::MC2::
+Which illusion demonstrates the effect of shading on perception?
+{
+= Convex/concave illusions
+~ Afterimage effect
+~ Color constancy
+~ Stereopsis
+}
+
+::MC3::
+Which assumption does human vision often use when interpreting shading?
+{
+= Light comes from above
+~ Light comes from below
+~ Light comes from the left
+~ Light has no direction
+}
+
+::MC4::
+What do shadows indicate in images?
+{
+= Object positions and relative depth
+~ Color of materials
+~ File size of images
+~ JPEG artifacts
+}
+
+::MC5::
+What is the main challenge in shading analysis for computer vision?
+{
+= Separating reflectance from illumination
+~ Capturing enough pixels
+~ File storage
+~ Compression artifacts
+}
+
+::MC6::
+Which field besides vision uses shading to enhance realism?
+{
+= Computer graphics
+~ Thermodynamics
+~ Music synthesis
+~ Linguistics
+}
+
+::MC7::
+Which is an example of a shading cue?
+{
+= Smooth gradient of brightness on a sphere
+~ Uniform gray background
+~ Random noise pattern
+~ Sharp edges only
+}
+
+::MC8::
+What effect can shading have on perceived geometry?
+{
+= Change in perception of convex vs. concave
+~ No effect on geometry
+~ Only changes color
+~ Changes resolution
+}
+
+::MC9::
+Which term refers to how much light a surface reflects?
+{
+= Reflectance
+~ Irradiance
+~ Illumination
+~ Intensity
+}
+
+::MC10::
+Why is shading important for 3D reconstruction in vision?
+{
+= Encodes surface orientation and depth cues
+~ Provides color constancy
+~ Reduces file size
+~ Matches compression standards
+}
+
+::MATCH1::
+Match the concept to the description.
+{
+= Shading -> Brightness variation on surfaces
+= Shadows -> Clues to object position
+= Reflectance -> Material property
+= Illumination -> Light falling on surface
+}
+
+::MATCH2::
+Match the illusion to the interpretation.
+{
+= Light-from-above -> Assumption in shading
+= Convex shading -> Perceived bulge
+= Concave shading -> Perceived indentation
+= Ambiguous shading -> Multiple interpretations
+}
+
+::MATCH3::
+Match the element to its role.
+{
+= Illumination -> Source of light
+= Reflectance -> Determines surface brightness
+= Shading -> Encodes shape
+= Shadow -> Gives relative depth
+}
+
+::MATCH4::
+Match the task to the difficulty.
+{
+= Reflectance vs. illumination -> Hard separation
+= Convex/concave perception -> Can be ambiguous
+= Human shading interpretation -> Often assumption-based
+= Vision system shading analysis -> Computationally difficult
+}
+
+::MATCH5::
+Match the field to its use of shading.
+{
+= Computer vision -> 3D reconstruction
+= Computer graphics -> Realism in rendering
+= Human vision -> Shape perception
+= Photography -> Lighting control
+}
+
+::MATCH6::
+Match the cue to what it reveals.
+{
+= Shading -> Surface curvature
+= Shadow -> Object location
+= Light direction -> Orientation assumption
+= Reflectance -> Material color
+}
+
+::MATCH7::
+Match the perceptual cue to example.
+{
+= Gradient brightness -> Rounded object
+= Sharp shadow -> Defined edge
+= Dark region -> Possible occlusion
+= Uniform illumination -> Flat appearance
+}
+
+::MATCH8::
+Match the challenge to shading analysis.
+{
+= Ambiguity -> Convex vs. concave
+= Interference -> Multiple light sources
+= Separation -> Reflectance vs. illumination
+= Estimation -> Surface normals
+}
+
+::MATCH9::
+Match the visual element to the physical cause.
+{
+= Highlight -> Specular reflection
+= Shadow -> Blocked light
+= Darkening -> Orientation away from light
+= Bright area -> Orientation toward light
+}
+
+::MATCH10::
+Match the shading term to the field.
+{
+= Reflectance -> Material science
+= Illumination -> Physics
+= Shading -> Vision
+= Rendering -> Graphics
+}
+
+::MULTI1::
+Which are cues provided by shading?
+{
+~%33.33333% Surface curvature
+~%33.33333% Depth perception
+~%33.33333% Shape from light
+~%-100% File compression
+}
+
+::MULTI2::
+Which are examples of shading illusions?
+{
+~%50% Convex/concave reversal
+~%50% Light-from-above assumption
+~%-100% Color constancy
+~%-100% Stereo disparity
+}
+
+::MULTI3::
+Which are roles of shadows in vision?
+{
+~%33.33333% Object position
+~%33.33333% Depth relations
+~%33.33333% Light source direction
+~%-100% Sensor noise reduction
+}
+
+::MULTI4::
+Which fields rely on shading?
+{
+~%33.33333% Computer vision
+~%33.33333% Computer graphics
+~%33.33333% Human vision
+~%-100% Music theory
+}
+
+::MULTI5::
+Which are challenges in shading interpretation?
+{
+~%33.33333% Reflectance vs. illumination
+~%33.33333% Ambiguity of convex/concave
+~%33.33333% Multiple light sources
+~%-100% Unlimited resolution
+}
+
+::MULTI6::
+Which are true of reflectance?
+{
+~%33.33333% Material property
+~%33.33333% Independent of illumination
+~%33.33333% Affects brightness
+~%-100% Same as irradiance
+}
+
+::MULTI7::
+Which describe illumination cues?
+{
+~%33.33333% Light direction
+~%33.33333% Shadow placement
+~%33.33333% Brightness gradient
+~%-100% JPEG encoding
+}
+
+::MULTI8::
+Which are shading-related perceptual assumptions?
+{
+~%50% Light comes from above
+~%50% Bright = closer to light
+~%-100% Noise always indicates depth
+~%-100% Shadows irrelevant
+}
+
+::MULTI9::
+Which are outputs computer vision may derive from shading?
+{
+~%33.33333% Surface normals
+~%33.33333% 3D shape estimates
+~%33.33333% Depth cues
+~%-100% File formats
+}
+
+::MULTI10::
+Which are physical causes of shading?
+{
+~%33.33333% Surface orientation
+~%33.33333% Illumination direction
+~%33.33333% Reflectance variation
+~%-100% Pixel compression
+}

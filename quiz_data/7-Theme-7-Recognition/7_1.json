@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhat is the first step in pattern recognition?\n{\n= Feature extraction\n~ Classification\n~ Evaluation\n~ Noise removal\n}",
+    "title": "MC1",
+    "question": "What is the first step in pattern recognition?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Feature extraction",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Classification",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Evaluation",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Noise removal",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhich learning type requires labeled data?\n{\n= Supervised\n~ Unsupervised\n~ Clustering\n~ PCA\n}",
+    "title": "MC2",
+    "question": "Which learning type requires labeled data?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Supervised",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Unsupervised",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Clustering",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "PCA",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhich learning type groups data without labels?\n{\n= Unsupervised\n~ Supervised\n~ Regression\n~ Histogram\n}",
+    "title": "MC3",
+    "question": "Which learning type groups data without labels?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Unsupervised",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Supervised",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Regression",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhich is an example of supervised learning?\n{\n= SVM classifier\n~ Clustering\n~ PCA\n~ Histogram equalization\n}",
+    "title": "MC4",
+    "question": "Which is an example of supervised learning?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "SVM classifier",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Clustering",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "PCA",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram equalization",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhich is an example of unsupervised learning?\n{\n= k-means clustering\n~ SVM\n~ Decision tree\n~ Linear regression\n}",
+    "title": "MC5",
+    "question": "Which is an example of unsupervised learning?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "k-means clustering",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "SVM",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Decision tree",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Linear regression",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich is NOT a step in pattern recognition workflow?\n{\n= Audio compression\n~ Feature extraction\n~ Classification\n~ Evaluation\n}",
+    "title": "MC6",
+    "question": "Which is NOT a step in pattern recognition workflow?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Audio compression",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Feature extraction",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Classification",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Evaluation",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich classifier belongs to supervised learning?\n{\n= k-Nearest Neighbor (kNN)\n~ k-means\n~ PCA\n~ Histogram matching\n}",
+    "title": "MC7",
+    "question": "Which classifier belongs to supervised learning?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "k-Nearest Neighbor (kNN)",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "k-means",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "PCA",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram matching",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich challenge affects pattern recognition?\n{\n= Noise and variability\n~ Perfect invariance\n~ Unlimited data always\n~ No dimensionality issues\n}",
+    "title": "MC8",
+    "question": "Which challenge affects pattern recognition?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Noise and variability",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Perfect invariance",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Unlimited data always",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "No dimensionality issues",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich field uses pattern recognition?\n{\n= Handwriting recognition\n~ Audio equalization\n~ Image compression\n~ Histogram smoothing\n}",
+    "title": "MC9",
+    "question": "Which field uses pattern recognition?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Handwriting recognition",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Audio equalization",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Image compression",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram smoothing",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich step follows classification in recognition workflow?\n{\n= Evaluation\n~ Feature extraction\n~ Clustering\n~ Illumination correction\n}",
+    "title": "MC10",
+    "question": "Which step follows classification in recognition workflow?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Evaluation",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Feature extraction",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Clustering",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Illumination correction",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the step to its role.\n{\n= Feature extraction -> Derive descriptors\n= Classification -> Assign categories\n= Evaluation -> Measure performance\n= Learning -> Build model\n}",
+    "title": "MATCH1",
+    "question": "Match the step to its role.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Feature extraction",
+        "right": "Derive descriptors"
+      },
+      {
+        "id": 2,
+        "left": "Classification",
+        "right": "Assign categories"
+      },
+      {
+        "id": 3,
+        "left": "Evaluation",
+        "right": "Measure performance"
+      },
+      {
+        "id": 4,
+        "left": "Learning",
+        "right": "Build model"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the type to example.\n{\n= Supervised -> SVM\n= Unsupervised -> k-means\n= Classifier -> kNN\n= Feature extraction -> Texture features\n}",
+    "title": "MATCH2",
+    "question": "Match the type to example.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Supervised",
+        "right": "SVM"
+      },
+      {
+        "id": 2,
+        "left": "Unsupervised",
+        "right": "k-means"
+      },
+      {
+        "id": 3,
+        "left": "Classifier",
+        "right": "kNN"
+      },
+      {
+        "id": 4,
+        "left": "Feature extraction",
+        "right": "Texture features"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the challenge to effect.\n{\n= Noise -> Errors\n= High-dimensional data -> Overfitting\n= Variability -> Misclassification\n= Limited data -> Poor training\n}",
+    "title": "MATCH3",
+    "question": "Match the challenge to effect.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Noise",
+        "right": "Errors"
+      },
+      {
+        "id": 2,
+        "left": "High-dimensional data",
+        "right": "Overfitting"
+      },
+      {
+        "id": 3,
+        "left": "Variability",
+        "right": "Misclassification"
+      },
+      {
+        "id": 4,
+        "left": "Limited data",
+        "right": "Poor training"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the domain to application.\n{\n= Medical -> Tumor detection\n= Industry -> Defect inspection\n= Security -> Face recognition\n= Documents -> Handwriting OCR\n}",
+    "title": "MATCH4",
+    "question": "Match the domain to application.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Medical",
+        "right": "Tumor detection"
+      },
+      {
+        "id": 2,
+        "left": "Industry",
+        "right": "Defect inspection"
+      },
+      {
+        "id": 3,
+        "left": "Security",
+        "right": "Face recognition"
+      },
+      {
+        "id": 4,
+        "left": "Documents",
+        "right": "Handwriting OCR"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the classifier to category.\n{\n= SVM -> Supervised\n= kNN -> Supervised\n= k-means -> Unsupervised\n= PCA -> Dimensionality reduction\n}",
+    "title": "MATCH5",
+    "question": "Match the classifier to category.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "SVM",
+        "right": "Supervised"
+      },
+      {
+        "id": 2,
+        "left": "kNN",
+        "right": "Supervised"
+      },
+      {
+        "id": 3,
+        "left": "k-means",
+        "right": "Unsupervised"
+      },
+      {
+        "id": 4,
+        "left": "PCA",
+        "right": "Dimensionality reduction"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the property to learning type.\n{\n= Labeled data -> Supervised\n= No labels -> Unsupervised\n= Classification -> Supervised\n= Clustering -> Unsupervised\n}",
+    "title": "MATCH6",
+    "question": "Match the property to learning type.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Labeled data",
+        "right": "Supervised"
+      },
+      {
+        "id": 2,
+        "left": "No labels",
+        "right": "Unsupervised"
+      },
+      {
+        "id": 3,
+        "left": "Classification",
+        "right": "Supervised"
+      },
+      {
+        "id": 4,
+        "left": "Clustering",
+        "right": "Unsupervised"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the step to difficulty.\n{\n= Feature extraction -> Choosing good descriptors\n= Classification -> Model choice\n= Evaluation -> Metrics\n= Learning -> Data availability\n}",
+    "title": "MATCH7",
+    "question": "Match the step to difficulty.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Feature extraction",
+        "right": "Choosing good descriptors"
+      },
+      {
+        "id": 2,
+        "left": "Classification",
+        "right": "Model choice"
+      },
+      {
+        "id": 3,
+        "left": "Evaluation",
+        "right": "Metrics"
+      },
+      {
+        "id": 4,
+        "left": "Learning",
+        "right": "Data availability"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the algorithm to task.\n{\n= SVM -> Classification\n= k-means -> Clustering\n= PCA -> Feature reduction\n= kNN -> Recognition\n}",
+    "title": "MATCH8",
+    "question": "Match the algorithm to task.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "SVM",
+        "right": "Classification"
+      },
+      {
+        "id": 2,
+        "left": "k-means",
+        "right": "Clustering"
+      },
+      {
+        "id": 3,
+        "left": "PCA",
+        "right": "Feature reduction"
+      },
+      {
+        "id": 4,
+        "left": "kNN",
+        "right": "Recognition"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the problem to solution.\n{\n= Noise -> Preprocessing\n= High dimensionality -> PCA\n= Few labels -> Semi-supervised learning\n= Variability -> Robust features\n}",
+    "title": "MATCH9",
+    "question": "Match the problem to solution.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Noise",
+        "right": "Preprocessing"
+      },
+      {
+        "id": 2,
+        "left": "High dimensionality",
+        "right": "PCA"
+      },
+      {
+        "id": 3,
+        "left": "Few labels",
+        "right": "Semi-supervised learning"
+      },
+      {
+        "id": 4,
+        "left": "Variability",
+        "right": "Robust features"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the pattern recognition concept to keyword.\n{\n= Feature extraction -> Descriptors\n= Classification -> Labels\n= Unsupervised -> Clustering\n= Supervised -> Labeled training\n}",
+    "title": "MATCH10",
+    "question": "Match the pattern recognition concept to keyword.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Feature extraction",
+        "right": "Descriptors"
+      },
+      {
+        "id": 2,
+        "left": "Classification",
+        "right": "Labels"
+      },
+      {
+        "id": 3,
+        "left": "Unsupervised",
+        "right": "Clustering"
+      },
+      {
+        "id": 4,
+        "left": "Supervised",
+        "right": "Labeled training"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are steps in pattern recognition workflow?\n{\n~%33.33333% Feature extraction\n~%33.33333% Classification\n~%33.33333% Evaluation\n~%-100% Audio synthesis\n}",
+    "title": "MULTI1",
+    "question": "Which are steps in pattern recognition workflow?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Feature extraction",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Classification",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Evaluation",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Audio synthesis",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are supervised learning algorithms?\n{\n~%33.33333% SVM\n~%33.33333% kNN\n~%33.33333% Decision tree\n~%-100% k-means\n}",
+    "title": "MULTI2",
+    "question": "Which are supervised learning algorithms?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "SVM",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "kNN",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Decision tree",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "k-means",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are unsupervised learning methods?\n{\n~%50% k-means\n~%50% Hierarchical clustering\n~%-100% SVM\n~%-100% Decision tree\n}",
+    "title": "MULTI3",
+    "question": "Which are unsupervised learning methods?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "k-means",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Hierarchical clustering",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "SVM",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Decision tree",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are applications of pattern recognition?\n{\n~%25% Face recognition\n~%25% Handwriting recognition\n~%25% Medical imaging\n~%25% Industrial inspection\n}",
+    "title": "MULTI4",
+    "question": "Which are applications of pattern recognition?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Face recognition",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Handwriting recognition",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Medical imaging",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Industrial inspection",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are challenges for pattern recognition?\n{\n~%33.33333% Noise\n~%33.33333% Variability\n~%33.33333% High-dimensional data\n~%-100% Perfect robustness\n}",
+    "title": "MULTI5",
+    "question": "Which are challenges for pattern recognition?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Noise",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Variability",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "High-dimensional data",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Perfect robustness",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are classifiers in supervised learning?\n{\n~%33.33333% kNN\n~%33.33333% SVM\n~%33.33333% Decision trees\n~%-100% k-means\n}",
+    "title": "MULTI6",
+    "question": "Which are classifiers in supervised learning?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "kNN",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "SVM",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Decision trees",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "k-means",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are first steps before classification?\n{\n~%50% Feature extraction\n~%50% Preprocessing\n~%-100% Evaluation\n~%-100% Final labeling\n}",
+    "title": "MULTI7",
+    "question": "Which are first steps before classification?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Feature extraction",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Preprocessing",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Evaluation",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Final labeling",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are examples of supervised learning?\n{\n~%33.33333% SVM\n~%33.33333% kNN\n~%33.33333% Decision trees\n~%-100% PCA\n}",
+    "title": "MULTI8",
+    "question": "Which are examples of supervised learning?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "SVM",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "kNN",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Decision trees",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "PCA",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are examples of unsupervised learning?\n{\n~%50% k-means\n~%50% Clustering\n~%-100% SVM\n~%-100% Decision trees\n}",
+    "title": "MULTI9",
+    "question": "Which are examples of unsupervised learning?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "k-means",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Clustering",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "SVM",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Decision trees",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are pattern recognition applications?\n{\n~%25% Tumor detection\n~%25% Face recognition\n~%25% OCR\n~%25% Defect inspection\n}",
+    "title": "MULTI10",
+    "question": "Which are pattern recognition applications?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Tumor detection",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Face recognition",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "OCR",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Defect inspection",
+        "weight": 25.0
+      }
+    ]
+  }
+]

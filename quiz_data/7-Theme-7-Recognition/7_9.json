@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhat do CNNs combine?\n{\n= Feature extraction and classification\n~ Only clustering\n~ Only feature extraction\n~ Only compression\n}",
+    "title": "MC1",
+    "question": "What do CNNs combine?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Feature extraction and classification",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Only clustering",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Only feature extraction",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Only compression",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhich are examples of hand-crafted features?\n{\n= SIFT and HOG\n~ CNN filters\n~ PCA eigenfaces\n~ Neural embeddings\n}",
+    "title": "MC2",
+    "question": "Which are examples of hand-crafted features?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "SIFT and HOG",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "CNN filters",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "PCA eigenfaces",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Neural embeddings",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhich is an advantage of CNNs?\n{\n= End-to-end learning\n~ No training data needed\n~ Always interpretable\n~ Feature independence\n}",
+    "title": "MC3",
+    "question": "Which is an advantage of CNNs?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "End-to-end learning",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "No training data needed",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Always interpretable",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Feature independence",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhich is a drawback of CNNs?\n{\n= Requires large datasets\n~ Requires no computation\n~ No risk of overfitting\n~ Always interpretable\n}",
+    "title": "MC4",
+    "question": "Which is a drawback of CNNs?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Requires large datasets",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Requires no computation",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "No risk of overfitting",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Always interpretable",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhich application uses CNN recognition?\n{\n= Autonomous driving\n~ Audio compression\n~ Histogram equalization\n~ Gamma correction\n}",
+    "title": "MC5",
+    "question": "Which application uses CNN recognition?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Autonomous driving",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Audio compression",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Gamma correction",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich is the main difference between traditional recognition and deep learning?\n{\n= Hand-crafted features vs. learned features\n~ Only dataset size\n~ Only color information\n~ Only SVMs\n}",
+    "title": "MC6",
+    "question": "Which is the main difference between traditional recognition and deep learning?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Hand-crafted features vs. learned features",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Only dataset size",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Only color information",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Only SVMs",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich is an example of a classifier in traditional recognition pipelines?\n{\n= SVM\n~ CNN\n~ PCA\n~ Histogram equalization\n}",
+    "title": "MC7",
+    "question": "Which is an example of a classifier in traditional recognition pipelines?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "SVM",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "CNN",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "PCA",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram equalization",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich property is true of CNNs?\n{\n= Hierarchical feature learning\n~ Always shallow\n~ Only linear boundaries\n~ Requires no GPU\n}",
+    "title": "MC8",
+    "question": "Which property is true of CNNs?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Hierarchical feature learning",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Always shallow",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Only linear boundaries",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Requires no GPU",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich challenge affects deep learning recognition?\n{\n= Interpretability\n~ Always perfect recognition\n~ Ignores training data\n~ Requires no labels\n}",
+    "title": "MC9",
+    "question": "Which challenge affects deep learning recognition?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Interpretability",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Always perfect recognition",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Ignores training data",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Requires no labels",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich property explains CNN success in vision?\n{\n= Automatic feature extraction\n~ Always handcrafted features\n~ Low computation\n~ Random guessing\n}",
+    "title": "MC10",
+    "question": "Which property explains CNN success in vision?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Automatic feature extraction",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Always handcrafted features",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Low computation",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Random guessing",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the approach to property.\n{\n= Traditional -> Hand-crafted features\n= Deep learning -> Learned features\n= CNN -> End-to-end\n= SVM -> Separate classifier\n}",
+    "title": "MATCH1",
+    "question": "Match the approach to property.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Traditional",
+        "right": "Hand-crafted features"
+      },
+      {
+        "id": 2,
+        "left": "Deep learning",
+        "right": "Learned features"
+      },
+      {
+        "id": 3,
+        "left": "CNN",
+        "right": "End-to-end"
+      },
+      {
+        "id": 4,
+        "left": "SVM",
+        "right": "Separate classifier"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the feature type to example.\n{\n= Hand-crafted -> SIFT\n= Hand-crafted -> HOG\n= Learned -> CNN filters\n= Traditional -> PCA eigenfaces\n}",
+    "title": "MATCH2",
+    "question": "Match the feature type to example.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Hand-crafted",
+        "right": "SIFT"
+      },
+      {
+        "id": 2,
+        "left": "Hand-crafted",
+        "right": "HOG"
+      },
+      {
+        "id": 3,
+        "left": "Learned",
+        "right": "CNN filters"
+      },
+      {
+        "id": 4,
+        "left": "Traditional",
+        "right": "PCA eigenfaces"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the application to method.\n{\n= Autonomous vehicles -> CNN\n= Medical imaging -> Deep learning\n= Face recognition -> CNNs\n= Old OCR -> Hand-crafted + SVM\n}",
+    "title": "MATCH3",
+    "question": "Match the application to method.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Autonomous vehicles",
+        "right": "CNN"
+      },
+      {
+        "id": 2,
+        "left": "Medical imaging",
+        "right": "Deep learning"
+      },
+      {
+        "id": 3,
+        "left": "Face recognition",
+        "right": "CNNs"
+      },
+      {
+        "id": 4,
+        "left": "Old OCR",
+        "right": "Hand-crafted + SVM"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the classifier to pipeline.\n{\n= SVM -> Traditional\n= Decision tree -> Traditional\n= CNN -> Modern deep learning\n= kNN -> Traditional\n}",
+    "title": "MATCH4",
+    "question": "Match the classifier to pipeline.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "SVM",
+        "right": "Traditional"
+      },
+      {
+        "id": 2,
+        "left": "Decision tree",
+        "right": "Traditional"
+      },
+      {
+        "id": 3,
+        "left": "CNN",
+        "right": "Modern deep learning"
+      },
+      {
+        "id": 4,
+        "left": "kNN",
+        "right": "Traditional"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the challenge to effect.\n{\n= Data-hungry -> Needs large datasets\n= Expensive -> GPU required\n= Interpretability -> Black-box\n= Overfitting -> Poor generalization\n}",
+    "title": "MATCH5",
+    "question": "Match the challenge to effect.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Data-hungry",
+        "right": "Needs large datasets"
+      },
+      {
+        "id": 2,
+        "left": "Expensive",
+        "right": "GPU required"
+      },
+      {
+        "id": 3,
+        "left": "Interpretability",
+        "right": "Black-box"
+      },
+      {
+        "id": 4,
+        "left": "Overfitting",
+        "right": "Poor generalization"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the method to advantage.\n{\n= Hand-crafted -> Works with small data\n= CNN -> Learns features automatically\n= Traditional -> Simple computation\n= Deep learning -> High accuracy\n}",
+    "title": "MATCH6",
+    "question": "Match the method to advantage.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Hand-crafted",
+        "right": "Works with small data"
+      },
+      {
+        "id": 2,
+        "left": "CNN",
+        "right": "Learns features automatically"
+      },
+      {
+        "id": 3,
+        "left": "Traditional",
+        "right": "Simple computation"
+      },
+      {
+        "id": 4,
+        "left": "Deep learning",
+        "right": "High accuracy"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the domain to example.\n{\n= Security -> Face recognition\n= Medicine -> Tumor analysis\n= Automotive -> Object detection\n= Environment -> Scene recognition\n}",
+    "title": "MATCH7",
+    "question": "Match the domain to example.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Security",
+        "right": "Face recognition"
+      },
+      {
+        "id": 2,
+        "left": "Medicine",
+        "right": "Tumor analysis"
+      },
+      {
+        "id": 3,
+        "left": "Automotive",
+        "right": "Object detection"
+      },
+      {
+        "id": 4,
+        "left": "Environment",
+        "right": "Scene recognition"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the property to need.\n{\n= Large datasets -> CNN training\n= GPUs -> Computation\n= End-to-end -> CNN design\n= Separate pipeline -> Traditional\n}",
+    "title": "MATCH8",
+    "question": "Match the property to need.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Large datasets",
+        "right": "CNN training"
+      },
+      {
+        "id": 2,
+        "left": "GPUs",
+        "right": "Computation"
+      },
+      {
+        "id": 3,
+        "left": "End-to-end",
+        "right": "CNN design"
+      },
+      {
+        "id": 4,
+        "left": "Separate pipeline",
+        "right": "Traditional"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the model to drawback.\n{\n= CNN -> Black-box\n= Hand-crafted -> Limited flexibility\n= Deep learning -> Computationally heavy\n= Traditional -> Manual design\n}",
+    "title": "MATCH9",
+    "question": "Match the model to drawback.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "CNN",
+        "right": "Black-box"
+      },
+      {
+        "id": 2,
+        "left": "Hand-crafted",
+        "right": "Limited flexibility"
+      },
+      {
+        "id": 3,
+        "left": "Deep learning",
+        "right": "Computationally heavy"
+      },
+      {
+        "id": 4,
+        "left": "Traditional",
+        "right": "Manual design"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the recognition type to property.\n{\n= Detection -> Locating objects\n= Recognition -> Assign labels\n= Traditional -> Features + classifier\n= Deep learning -> End-to-end\n}",
+    "title": "MATCH10",
+    "question": "Match the recognition type to property.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Detection",
+        "right": "Locating objects"
+      },
+      {
+        "id": 2,
+        "left": "Recognition",
+        "right": "Assign labels"
+      },
+      {
+        "id": 3,
+        "left": "Traditional",
+        "right": "Features + classifier"
+      },
+      {
+        "id": 4,
+        "left": "Deep learning",
+        "right": "End-to-end"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are examples of hand-crafted features?\n{\n~%33.33333% SIFT\n~%33.33333% HOG\n~%33.33333% SURF\n~%-100% CNN filters\n}",
+    "title": "MULTI1",
+    "question": "Which are examples of hand-crafted features?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "SIFT",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "HOG",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "SURF",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "CNN filters",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are examples of learned features?\n{\n~%50% CNN filters\n~%50% Deep embeddings\n~%-100% SIFT\n~%-100% HOG\n}",
+    "title": "MULTI2",
+    "question": "Which are examples of learned features?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "CNN filters",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Deep embeddings",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "SIFT",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "HOG",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are applications of CNNs?\n{\n~%25% Face recognition\n~%25% Object detection\n~%25% Medical imaging\n~%25% Autonomous driving\n}",
+    "title": "MULTI3",
+    "question": "Which are applications of CNNs?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Face recognition",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Object detection",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Medical imaging",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Autonomous driving",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are advantages of CNNs?\n{\n~%33.33333% End-to-end learning\n~%33.33333% Automatic feature extraction\n~%33.33333% High accuracy\n~%-100% Hand-crafted design\n}",
+    "title": "MULTI4",
+    "question": "Which are advantages of CNNs?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "End-to-end learning",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Automatic feature extraction",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "High accuracy",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Hand-crafted design",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are challenges of CNNs?\n{\n~%25% Require large datasets\n~%25% Computationally expensive\n~%25% Risk of overfitting\n~%25% Interpretability issues\n}",
+    "title": "MULTI5",
+    "question": "Which are challenges of CNNs?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Require large datasets",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Computationally expensive",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Risk of overfitting",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Interpretability issues",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich describe traditional pipelines?\n{\n~%50% Hand-crafted features\n~%50% Separate classifier\n~%-100% End-to-end learning\n~%-100% CNN filters\n}",
+    "title": "MULTI6",
+    "question": "Which describe traditional pipelines?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Hand-crafted features",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Separate classifier",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "End-to-end learning",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "CNN filters",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are classifiers used in traditional recognition?\n{\n~%33.33333% SVM\n~%33.33333% kNN\n~%33.33333% Decision trees\n~%-100% CNN\n}",
+    "title": "MULTI7",
+    "question": "Which are classifiers used in traditional recognition?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "SVM",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "kNN",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Decision trees",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "CNN",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are applications of deep learning recognition?\n{\n~%25% Face ID in phones\n~%25% Self-driving cars\n~%25% Medical diagnosis\n~%25% Industrial defect detection\n}",
+    "title": "MULTI8",
+    "question": "Which are applications of deep learning recognition?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Face ID in phones",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Self-driving cars",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Medical diagnosis",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Industrial defect detection",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are true about CNN properties?\n{\n~%33.33333% Learn hierarchical features\n~%33.33333% End-to-end models\n~%33.33333% Require GPUs\n~%-100% Always interpretable\n}",
+    "title": "MULTI9",
+    "question": "Which are true about CNN properties?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Learn hierarchical features",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "End-to-end models",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Require GPUs",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Always interpretable",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are differences between traditional and modern recognition?\n{\n~%33.33333% Traditional = hand-crafted features\n~%33.33333% Deep learning = learned features\n~%33.33333% CNN = end-to-end\n~%-100% Both identical\n}",
+    "title": "MULTI10",
+    "question": "Which are differences between traditional and modern recognition?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Traditional = hand-crafted features",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Deep learning = learned features",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "CNN = end-to-end",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Both identical",
+        "weight": -100.0
+      }
+    ]
+  }
+]

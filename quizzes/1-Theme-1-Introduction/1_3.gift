@@ -1,0 +1,311 @@
+
+
+::TF1::
+Image processing usually means transforming one image into another image.
+{TRUE}
+
+::TF2::
+Image understanding involves constructing scene descriptions and making decisions from images.
+{TRUE}
+
+::TF3::
+Image recognition is the ability to identify objects, people, or actions in images.
+{TRUE}
+
+::TF4::
+Image processing and image understanding are exactly the same process.
+{FALSE}
+
+::TF5::
+Machine learning is a common approach for solving computer vision problems.
+{TRUE}
+
+::TF6::
+Deep learning is unrelated to machine learning.
+{FALSE}
+
+::TF7::
+Deep neural networks (DNNs) are popular techniques in modern computer vision.
+{TRUE}
+
+::TF8::
+Color science and optics are unrelated to computer vision.
+{FALSE}
+
+::TF9::
+Robotics often relies on computer vision for navigation and object detection.
+{TRUE}
+
+::TF10::
+Computer graphics is considered a related area because it generates images instead of analyzing them.
+{TRUE}
+
+::MC1::
+Which best describes image processing?
+{
+= Transforming images into other images
+~ Assigning semantic labels
+~ Detecting human activity
+~ Writing camera drivers
+}
+
+::MC2::
+What is the main task of image understanding?
+{
+= Making decisions and constructing scene descriptions
+~ Compressing pictures
+~ Saving data in memory
+~ Measuring sensor voltages
+}
+
+::MC3::
+Which task fits under image recognition?
+{
+= Identifying objects or people in an image
+~ Building new sensors
+~ Printing documents
+~ Sorting numbers
+}
+
+::MC4::
+Which statement best describes the relationship between image processing and computer vision?
+{
+= Image processing often supports computer vision tasks
+~ They are completely unrelated
+~ Image processing is always more advanced
+~ Computer vision is only hardware
+}
+
+::MC5::
+Which is a common technique in modern computer vision?
+{
+= Deep neural networks
+~ Chemical analysis
+~ Disk encryption
+~ Text formatting
+}
+
+::MC6::
+What does "machine learning" provide to computer vision?
+{
+= A way to learn patterns and models from data
+~ A method to clean camera lenses
+~ Manual labeling of all inputs
+~ File compression algorithms
+}
+
+::MC7::
+Which area is most directly related to computer vision?
+{
+= Artificial intelligence
+~ Ancient history
+~ Civil engineering
+~ Organic chemistry
+}
+
+::MC8::
+Which task is most clearly image recognition?
+{
+= Detecting handwritten numbers
+~ Filtering noise
+~ Adjusting brightness
+~ Saving raw images
+}
+
+::MC9::
+Which field contributes to human-like perception in vision systems?
+{
+= Cognitive science
+~ Metallurgy
+~ Agriculture
+~ Typography
+}
+
+::MC10::
+Which related field focuses on generating synthetic pictures?
+{
+= Computer graphics
+~ Neuroscience
+~ Color science
+~ Robotics
+}
+
+::MATCH1::
+Match the term to its definition.
+{
+= Image processing -> Transformation of images into images
+= Image understanding -> Making decisions based on images
+= Image recognition -> Identifying objects or actions in images
+= Machine learning -> Common approach for solving vision problems
+}
+
+::MATCH2::
+Match the task to its level.
+{
+= Pixel filtering -> Image processing
+= Scene description -> Image understanding
+= Face detection -> Image recognition
+= Learning from data -> Machine learning
+}
+
+::MATCH3::
+Match the technology to its role.
+{
+= Deep learning -> Popular ML technique
+= DNN -> Network of multiple layers
+= AI -> Broader field including reasoning and learning
+= Robotics -> Applies vision for control
+}
+
+::MATCH4::
+Match the field to its connection.
+{
+= Color science -> Helps explain visual perception
+= Optics -> Models how light interacts with sensors
+= Computer graphics -> Produces images
+= Neuroscience -> Inspires artificial perception
+}
+
+::MATCH5::
+Match the concept to its example.
+{
+= Image processing -> Histogram equalization
+= Image recognition -> Identifying a cat in a photo
+= Image understanding -> Generating a scene description
+= Machine learning -> Training an SVM classifier
+}
+
+::MATCH6::
+Match the related area to its contribution.
+{
+= Mathematics -> Provides tools for models
+= Cognitive science -> Understanding human perception
+= Robotics -> Vision-based navigation
+= Imaging -> Capturing raw data
+}
+
+::MATCH7::
+Match the algorithm to the category.
+{
+= CNN -> Deep learning
+= SVM -> Machine learning
+= Thresholding -> Image processing
+= Object classification -> Image recognition
+}
+
+::MATCH8::
+Match the role to the example.
+{
+= Image processing -> Denoising an image
+= Image recognition -> Detecting cars
+= Image understanding -> Telling the story of a scene
+= Machine learning -> Training a classifier
+}
+
+::MATCH9::
+Match the pair correctly.
+{
+= Image recognition -> Identifying handwriting
+= Image understanding -> Deciding if a photo shows a park
+= Image processing -> Rotating an image
+= Deep learning -> Using neural networks
+}
+
+::MATCH10::
+Match the subfield to its relevance.
+{
+= AI -> Provides intelligence framework
+= Color science -> Supports perception modeling
+= Robotics -> Needs machine vision
+= Computer graphics -> Inverse of computer vision
+}
+
+::MULTI1::
+Which are tasks of image processing?
+{
+~%50% Noise reduction
+~%50% Histogram equalization
+~%-100% Scene interpretation
+~%-100% Object recognition
+}
+
+::MULTI2::
+Which are tasks of image understanding?
+{
+~%33.33333% Constructing scene descriptions
+~%33.33333% Making decisions from images
+~%33.33333% High-level semantic labeling
+~%-100% Rotating an image
+}
+
+::MULTI3::
+Which belong to image recognition?
+{
+~%33.33333% Object identification
+~%33.33333% Place recognition
+~%33.33333% Action recognition
+~%-100% Color balancing
+}
+
+::MULTI4::
+Which are machine learning approaches useful in vision?
+{
+~%33.33333% Support vector machines
+~%33.33333% Decision trees
+~%33.33333% Neural networks
+~%-100% Handwriting with pen
+}
+
+::MULTI5::
+Which are examples of deep learning in vision?
+{
+~%33.33333% Convolutional neural networks
+~%33.33333% Recurrent neural networks
+~%33.33333% Generative adversarial networks
+~%-100% Sorting algorithms
+}
+
+::MULTI6::
+Which fields are directly related to computer vision?
+{
+~%25% Robotics
+~%25% AI
+~%25% Cognitive science
+~%25% Color science
+}
+
+::MULTI7::
+Which are examples of image processing?
+{
+~%33.33333% Smoothing
+~%33.33333% Thresholding
+~%33.33333% Edge detection
+~%-100% Object recognition
+}
+
+::MULTI8::
+Which areas are connected to image understanding?
+{
+~%33.33333% Scene classification
+~%33.33333% Semantic segmentation
+~%33.33333% Activity labeling
+~%-100% Brightness correction
+}
+
+::MULTI9::
+Which technologies are part of modern computer vision?
+{
+~%33.33333% Deep neural networks
+~%33.33333% GPUs
+~%33.33333% Large datasets
+~%-100% Typewriters
+}
+
+::MULTI10::
+Which related fields contribute knowledge to computer vision?
+{
+~%25% Neuroscience
+~%25% Optics
+~%25% Mathematics
+~%25% Robotics
+}

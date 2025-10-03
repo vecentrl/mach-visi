@@ -1,0 +1,309 @@
+::TF1::
+Human stereo vision relies on binocular disparity.
+{TRUE}
+
+::TF2::
+The brain fuses left and right eye images to create depth perception.
+{TRUE}
+
+::TF3::
+Convergence and accommodation are additional depth cues.
+{TRUE}
+
+::TF4::
+Motion parallax can also provide depth information.
+{TRUE}
+
+::TF5::
+Stereoscopic displays present the same image to both eyes.
+{FALSE}
+
+::TF6::
+Autostereoscopic displays provide 3D without glasses.
+{TRUE}
+
+::TF7::
+VR headsets use stereo vision combined with motion tracking.
+{TRUE}
+
+::TF8::
+3D displays are only used in entertainment.
+{FALSE}
+
+::TF9::
+Eye strain can occur from mismatches in 3D displays.
+{TRUE}
+
+::TF10::
+Telepresence can benefit from 3D display technology.
+{TRUE}
+
+::MC1::
+What is the key cue in human stereo vision?
+{
+= Binocular disparity
+~ Shadows
+~ Texture gradients
+~ Motion blur
+}
+
+::MC2::
+What does the brain do with binocular disparity?
+{
+= Fuses images into depth perception
+~ Ignores them
+~ Produces color differences
+~ Reduces resolution
+}
+
+::MC3::
+Which is an additional depth cue?
+{
+= Motion parallax
+~ JPEG artifacts
+~ Gamma correction
+~ Histogram equalization
+}
+
+::MC4::
+What is a stereoscopic display?
+{
+= Presents different images to each eye
+~ Uses only one image
+~ Requires no disparity
+~ Always glasses-free
+}
+
+::MC5::
+What is an autostereoscopic display?
+{
+= Provides 3D without glasses
+~ Requires special glasses
+~ Uses only VR headsets
+~ Provides 2D only
+}
+
+::MC6::
+Which device provides immersive stereo with motion tracking?
+{
+= VR headset
+~ Standard monitor
+~ Histogram display
+~ Audio headphones
+}
+
+::MC7::
+Which is an application of 3D displays?
+{
+= Medical visualization
+~ Audio compression
+~ File encryption
+~ White balance
+}
+
+::MC8::
+Which is a challenge of 3D displays?
+{
+= Eye strain
+~ Always natural
+~ No mismatch issues
+~ Works in all angles
+}
+
+::MC9::
+Which depth cue is linked to eye muscle activity?
+{
+= Convergence
+~ Disparity
+~ Shading
+~ Texture
+}
+
+::MC10::
+Which depth cue relates to lens focus?
+{
+= Accommodation
+~ Convergence
+~ Disparity
+~ Contour
+}
+
+::MATCH1::
+Match the depth cue to meaning.
+{
+= Disparity -> Difference between eyes
+= Convergence -> Eye rotation
+= Accommodation -> Lens focusing
+= Motion parallax -> Relative movement
+}
+
+::MATCH2::
+Match the display to property.
+{
+= Stereoscopic -> Glasses needed
+= Autostereoscopic -> Glasses-free
+= VR headset -> Immersive
+= AR -> Mixed reality
+}
+
+::MATCH3::
+Match the application to domain.
+{
+= Entertainment -> 3D movies
+= Medicine -> Visualization
+= Training -> Simulators
+= Communication -> Telepresence
+}
+
+::MATCH4::
+Match the challenge to cause.
+{
+= Eye strain -> Mismatch cues
+= Viewing zone -> Limited angles
+= Convergence-accommodation -> Conflict
+= Cost -> Specialized hardware
+}
+
+::MATCH5::
+Match the device to example.
+{
+= Polarized glasses -> 3D cinema
+= Lenticular lens -> Autostereo
+= Headset -> VR
+= Smartphone AR -> Mixed reality
+}
+
+::MATCH6::
+Match the cue to system.
+{
+= Binocular disparity -> Stereo vision
+= Texture gradient -> Monocular
+= Motion parallax -> Dynamic
+= Shading -> Lighting cue
+}
+
+::MATCH7::
+Match the method to drawback.
+{
+= Stereoscopic -> Glasses needed
+= Autostereoscopic -> Limited zone
+= VR -> Motion sickness
+= AR -> Overlay challenges
+}
+
+::MATCH8::
+Match the display type to domain.
+{
+= Cinema -> Stereoscopic
+= Gaming -> VR
+= Advertising -> Autostereo
+= Medicine -> 3D visualization
+}
+
+::MATCH9::
+Match the system to challenge.
+{
+= VR headset -> Motion sickness
+= Cinema -> Glasses needed
+= Autostereo -> Limited angles
+= Telepresence -> Bandwidth
+}
+
+::MATCH10::
+Match the cue to perception.
+{
+= Disparity -> Depth
+= Convergence -> Near/far
+= Accommodation -> Focus
+= Parallax -> Relative depth
+}
+
+::MULTI1::
+Which are cues for human depth perception?
+{
+~%25% Disparity
+~%25% Convergence
+~%25% Accommodation
+~%25% Motion parallax
+}
+
+::MULTI2::
+Which are display types for 3D viewing?
+{
+~%33.33333% Stereoscopic
+~%33.33333% Autostereoscopic
+~%33.33333% VR headset
+~%-100% Standard 2D monitor
+}
+
+::MULTI3::
+Which are applications of 3D displays?
+{
+~%25% Entertainment
+~%25% Training
+~%25% Medicine
+~%25% Telepresence
+}
+
+::MULTI4::
+Which are challenges of 3D displays?
+{
+~%25% Eye strain
+~%25% Convergence-accommodation conflict
+~%25% Limited viewing zone
+~%25% Cost
+}
+
+::MULTI5::
+Which are properties of stereoscopic displays?
+{
+~%50% Glasses needed
+~%50% Two images
+~%-100% Always glasses-free
+~%-100% Only 2D
+}
+
+::MULTI6::
+Which are properties of autostereoscopic displays?
+{
+~%50% Glasses-free
+~%50% Limited viewing zones
+~%-100% Requires glasses
+~%-100% Motion tracking always
+}
+
+::MULTI7::
+Which are features of VR/AR headsets?
+{
+~%33.33333% Immersive stereo
+~%33.33333% Motion tracking
+~%33.33333% Mixed/virtual reality
+~%-100% Always 2D
+}
+
+::MULTI8::
+Which are cues specifically binocular?
+{
+~%50% Disparity
+~%50% Convergence
+~%-100% Motion parallax
+~%-100% Texture gradient
+}
+
+::MULTI9::
+Which are limitations of 3D display systems?
+{
+~%25% Eye strain
+~%25% Conflicts in depth cues
+~%25% Limited angles
+~%25% Hardware cost
+}
+
+::MULTI10::
+Which are domains using stereo 3D displays?
+{
+~%25% Cinema
+~%25% Gaming
+~%25% Medicine
+~%25% Communication
+}

@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhat does color constancy mean?\n{\n= Object color appears stable under different lighting\n~ All colors are perceived equally\n~ Shadows have no effect\n~ Brightness never changes\n}",
+    "title": "MC1",
+    "question": "What does color constancy mean?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Object color appears stable under different lighting",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "All colors are perceived equally",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Shadows have no effect",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Brightness never changes",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhich is an example of a brightness illusion?\n{\n= Checker shadow illusion\n~ Stereopsis\n~ Motion parallax\n~ Gamma correction\n}",
+    "title": "MC2",
+    "question": "Which is an example of a brightness illusion?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Checker shadow illusion",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Stereopsis",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Motion parallax",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Gamma correction",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhich explains why two squares of the same shade look different in context?\n{\n= Influence of surrounding shading and shadow\n~ Incorrect sensor calibration\n~ JPEG compression\n~ File size differences\n}",
+    "title": "MC3",
+    "question": "Which explains why two squares of the same shade look different in context?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Influence of surrounding shading and shadow",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Incorrect sensor calibration",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "JPEG compression",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "File size differences",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhich is NOT a characteristic of human vision?\n{\n= Perfect measurement of absolute light intensity\n~ Color constancy\n~ Brightness constancy\n~ Context-dependent perception\n}",
+    "title": "MC4",
+    "question": "Which is NOT a characteristic of human vision?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Perfect measurement of absolute light intensity",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Color constancy",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Brightness constancy",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Context-dependent perception",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhy do illusions matter for computer vision?\n{\n= They reveal how human perception differs from raw data\n~ They eliminate the need for sensors\n~ They ensure all pixels are accurate\n~ They prevent image compression\n}",
+    "title": "MC5",
+    "question": "Why do illusions matter for computer vision?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "They reveal how human perception differs from raw data",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "They eliminate the need for sensors",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "They ensure all pixels are accurate",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "They prevent image compression",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich factor influences human perception of brightness?\n{\n= Context and surrounding light\n~ File format\n~ Pixel resolution only\n~ Gamma encoding\n}",
+    "title": "MC6",
+    "question": "Which factor influences human perception of brightness?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Context and surrounding light",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "File format",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Pixel resolution only",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Gamma encoding",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich example shows color constancy?\n{\n= A red apple looking red under daylight and indoor light\n~ A red pixel measured as changing values\n~ Shadows always appearing black\n~ Compression artifacts in JPEG\n}",
+    "title": "MC7",
+    "question": "Which example shows color constancy?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "A red apple looking red under daylight and indoor light",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "A red pixel measured as changing values",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Shadows always appearing black",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Compression artifacts in JPEG",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich illusion demonstrates that the same luminance can appear different?\n{\n= Checker shadow illusion\n~ Stereogram\n~ Motion blur\n~ Lens distortion\n}",
+    "title": "MC8",
+    "question": "Which illusion demonstrates that the same luminance can appear different?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Checker shadow illusion",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Stereogram",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Motion blur",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Lens distortion",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich field benefits from modeling human perception of light and color?\n{\n= Computer graphics\n~ File compression\n~ Circuit design\n~ Cryptography\n}",
+    "title": "MC9",
+    "question": "Which field benefits from modeling human perception of light and color?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Computer graphics",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "File compression",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Circuit design",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Cryptography",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich perceptual phenomenon helps humans perceive a stable world despite lighting changes?\n{\n= Constancy\n~ Chromatic aberration\n~ Vignetting\n~ Noise\n}",
+    "title": "MC10",
+    "question": "Which perceptual phenomenon helps humans perceive a stable world despite lighting changes?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Constancy",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Chromatic aberration",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Vignetting",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Noise",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the constancy type to its meaning.\n{\n= Color constancy -> Stable object color under different lights\n= Brightness constancy -> Stable object brightness under different illumination\n= Size constancy -> Stable size perception despite distance\n= Shape constancy -> Stable shape perception despite orientation\n}",
+    "title": "MATCH1",
+    "question": "Match the constancy type to its meaning.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Color constancy",
+        "right": "Stable object color under different lights"
+      },
+      {
+        "id": 2,
+        "left": "Brightness constancy",
+        "right": "Stable object brightness under different illumination"
+      },
+      {
+        "id": 3,
+        "left": "Size constancy",
+        "right": "Stable size perception despite distance"
+      },
+      {
+        "id": 4,
+        "left": "Shape constancy",
+        "right": "Stable shape perception despite orientation"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the illusion to its description.\n{\n= Checker shadow -> Same shades appear different\n= Color illusion -> Context alters hue perception\n= Brightness illusion -> Shadows change perceived gray\n= Optical illusion -> Visual trick of interpretation\n}",
+    "title": "MATCH2",
+    "question": "Match the illusion to its description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Checker shadow",
+        "right": "Same shades appear different"
+      },
+      {
+        "id": 2,
+        "left": "Color illusion",
+        "right": "Context alters hue perception"
+      },
+      {
+        "id": 3,
+        "left": "Brightness illusion",
+        "right": "Shadows change perceived gray"
+      },
+      {
+        "id": 4,
+        "left": "Optical illusion",
+        "right": "Visual trick of interpretation"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the concept to the field.\n{\n= Illusions -> Psychology\n= Color constancy -> Vision science\n= Rendering -> Computer graphics\n= Radiometry -> Physics\n}",
+    "title": "MATCH3",
+    "question": "Match the concept to the field.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Illusions",
+        "right": "Psychology"
+      },
+      {
+        "id": 2,
+        "left": "Color constancy",
+        "right": "Vision science"
+      },
+      {
+        "id": 3,
+        "left": "Rendering",
+        "right": "Computer graphics"
+      },
+      {
+        "id": 4,
+        "left": "Radiometry",
+        "right": "Physics"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the cause to the perception.\n{\n= Surrounding brightness -> Alters apparent shade\n= Shadow context -> Changes perceived color\n= Light direction assumption -> Convex/concave reversal\n= Contrast effect -> Alters perception of gray\n}",
+    "title": "MATCH4",
+    "question": "Match the cause to the perception.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Surrounding brightness",
+        "right": "Alters apparent shade"
+      },
+      {
+        "id": 2,
+        "left": "Shadow context",
+        "right": "Changes perceived color"
+      },
+      {
+        "id": 3,
+        "left": "Light direction assumption",
+        "right": "Convex/concave reversal"
+      },
+      {
+        "id": 4,
+        "left": "Contrast effect",
+        "right": "Alters perception of gray"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the example to the principle.\n{\n= Red apple under sunlight and lamp -> Color constancy\n= Checker shadow illusion -> Brightness illusion\n= Face appearing convex under shading -> Shape-from-shading\n= Yellow streetlight changing scene color -> Illumination effect\n}",
+    "title": "MATCH5",
+    "question": "Match the example to the principle.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Red apple under sunlight and lamp",
+        "right": "Color constancy"
+      },
+      {
+        "id": 2,
+        "left": "Checker shadow illusion",
+        "right": "Brightness illusion"
+      },
+      {
+        "id": 3,
+        "left": "Face appearing convex under shading",
+        "right": "Shape-from-shading"
+      },
+      {
+        "id": 4,
+        "left": "Yellow streetlight changing scene color",
+        "right": "Illumination effect"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the constancy effect to its benefit.\n{\n= Color constancy -> Stable object recognition\n= Brightness constancy -> Understand shading\n= Size constancy -> Recognize distance\n= Shape constancy -> Recognize rotated objects\n}",
+    "title": "MATCH6",
+    "question": "Match the constancy effect to its benefit.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Color constancy",
+        "right": "Stable object recognition"
+      },
+      {
+        "id": 2,
+        "left": "Brightness constancy",
+        "right": "Understand shading"
+      },
+      {
+        "id": 3,
+        "left": "Size constancy",
+        "right": "Recognize distance"
+      },
+      {
+        "id": 4,
+        "left": "Shape constancy",
+        "right": "Recognize rotated objects"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the human vision property to its issue.\n{\n= Constancy -> Can cause illusions\n= Illusion -> Misperception of physical reality\n= Perception -> Context-dependent\n= Measurement -> Physics-based\n}",
+    "title": "MATCH7",
+    "question": "Match the human vision property to its issue.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Constancy",
+        "right": "Can cause illusions"
+      },
+      {
+        "id": 2,
+        "left": "Illusion",
+        "right": "Misperception of physical reality"
+      },
+      {
+        "id": 3,
+        "left": "Perception",
+        "right": "Context-dependent"
+      },
+      {
+        "id": 4,
+        "left": "Measurement",
+        "right": "Physics-based"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the phenomenon to its consequence.\n{\n= Illusions -> Reveal perception bias\n= Constancy -> Enables stability\n= Shadows -> Create ambiguity\n= Context -> Alters perception\n}",
+    "title": "MATCH8",
+    "question": "Match the phenomenon to its consequence.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Illusions",
+        "right": "Reveal perception bias"
+      },
+      {
+        "id": 2,
+        "left": "Constancy",
+        "right": "Enables stability"
+      },
+      {
+        "id": 3,
+        "left": "Shadows",
+        "right": "Create ambiguity"
+      },
+      {
+        "id": 4,
+        "left": "Context",
+        "right": "Alters perception"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the perception type to the system.\n{\n= Human vision -> Context-dependent\n= Computer vision -> Raw pixel values\n= Radiometry -> Physical measurements\n= Graphics -> Rendering perception\n}",
+    "title": "MATCH9",
+    "question": "Match the perception type to the system.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Human vision",
+        "right": "Context-dependent"
+      },
+      {
+        "id": 2,
+        "left": "Computer vision",
+        "right": "Raw pixel values"
+      },
+      {
+        "id": 3,
+        "left": "Radiometry",
+        "right": "Physical measurements"
+      },
+      {
+        "id": 4,
+        "left": "Graphics",
+        "right": "Rendering perception"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the effect to the example.\n{\n= Color constancy -> Apple looks red indoors/outdoors\n= Brightness illusion -> Checkerboard shadow\n= Shape-from-shading -> Convex/concave\n= Context -> Two identical grays look different\n}",
+    "title": "MATCH10",
+    "question": "Match the effect to the example.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Color constancy",
+        "right": "Apple looks red indoors/outdoors"
+      },
+      {
+        "id": 2,
+        "left": "Brightness illusion",
+        "right": "Checkerboard shadow"
+      },
+      {
+        "id": 3,
+        "left": "Shape-from-shading",
+        "right": "Convex/concave"
+      },
+      {
+        "id": 4,
+        "left": "Context",
+        "right": "Two identical grays look different"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are examples of constancy in vision?\n{\n~%25% Color constancy\n~%25% Brightness constancy\n~%25% Size constancy\n~%25% Shape constancy\n}",
+    "title": "MULTI1",
+    "question": "Which are examples of constancy in vision?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Color constancy",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Brightness constancy",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Size constancy",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Shape constancy",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are examples of visual illusions?\n{\n~%33.33333% Checker shadow illusion\n~%33.33333% Brightness illusions\n~%33.33333% Color illusions\n~%-100% File compression artifacts\n}",
+    "title": "MULTI2",
+    "question": "Which are examples of visual illusions?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Checker shadow illusion",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Brightness illusions",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Color illusions",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "File compression artifacts",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich statements about constancy are true?\n{\n~%33.33333% Helps perceive stable world\n~%33.33333% Based on context\n~%33.33333% Can cause illusions\n~%-100% Perfectly matches physics\n}",
+    "title": "MULTI3",
+    "question": "Which statements about constancy are true?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Helps perceive stable world",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Based on context",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Can cause illusions",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Perfectly matches physics",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are human perception properties?\n{\n~%25% Context dependence\n~%25% Illusions\n~%25% Constancy\n~%25% Sensitivity to shading\n}",
+    "title": "MULTI4",
+    "question": "Which are human perception properties?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Context dependence",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Illusions",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Constancy",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Sensitivity to shading",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are true about color constancy?\n{\n~%33.33333% Makes object color stable\n~%33.33333% Helps recognition\n~%33.33333% Independent of illumination spectrum\n~%-100% Same as brightness constancy\n}",
+    "title": "MULTI5",
+    "question": "Which are true about color constancy?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Makes object color stable",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Helps recognition",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Independent of illumination spectrum",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Same as brightness constancy",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are examples of brightness illusions?\n{\n~%50% Checker shadow illusion\n~%50% Context-based gray perception\n~%-100% JPEG blocking\n~%-100% Gamma correction\n}",
+    "title": "MULTI6",
+    "question": "Which are examples of brightness illusions?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Checker shadow illusion",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Context-based gray perception",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "JPEG blocking",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Gamma correction",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich disciplines use knowledge of human illusions?\n{\n~%33.33333% Psychology\n~%33.33333% Computer vision\n~%33.33333% Graphics\n~%-100% Thermodynamics\n}",
+    "title": "MULTI7",
+    "question": "Which disciplines use knowledge of human illusions?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Psychology",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Computer vision",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Graphics",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Thermodynamics",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich factors influence perceived brightness?\n{\n~%33.33333% Shadows\n~%33.33333% Surrounding contrast\n~%33.33333% Illumination context\n~%-100% Pixel storage format\n}",
+    "title": "MULTI8",
+    "question": "Which factors influence perceived brightness?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Shadows",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Surrounding contrast",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Illumination context",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Pixel storage format",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are consequences of constancy in vision?\n{\n~%33.33333% Stable perception\n~%33.33333% Misperceptions possible\n~%33.33333% Context influences\n~%-100% Exact radiometric accuracy\n}",
+    "title": "MULTI9",
+    "question": "Which are consequences of constancy in vision?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Stable perception",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Misperceptions possible",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Context influences",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Exact radiometric accuracy",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are examples where human vision differs from physical measurement?\n{\n~%33.33333% Illusions\n~%33.33333% Constancy\n~%33.33333% Context effects\n~%-100% Lux measurements\n}",
+    "title": "MULTI10",
+    "question": "Which are examples where human vision differs from physical measurement?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Illusions",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Constancy",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Context effects",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Lux measurements",
+        "weight": -100.0
+      }
+    ]
+  }
+]

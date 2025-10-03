@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhat does disparity in stereo vision provide?\n{\n= Depth\n~ Brightness\n~ Color\n~ Texture\n}",
+    "title": "MC1",
+    "question": "What does disparity in stereo vision provide?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Depth",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Brightness",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Color",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Texture",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhat is the stereo correspondence problem?\n{\n= Finding matching points in two views\n~ Detecting corners\n~ Filtering images\n~ Reducing noise\n}",
+    "title": "MC2",
+    "question": "What is the stereo correspondence problem?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Finding matching points in two views",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Detecting corners",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Filtering images",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Reducing noise",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhat is an epipolar plane?\n{\n= Plane through two camera centers and a 3D point\n~ Any image plane\n~ Plane through one camera only\n~ Always horizontal\n}",
+    "title": "MC3",
+    "question": "What is an epipolar plane?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Plane through two camera centers and a 3D point",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Any image plane",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Plane through one camera only",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Always horizontal",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhat is an epipolar line?\n{\n= Projection of the epipolar plane into an image\n~ A histogram line\n~ A random edge\n~ A depth contour\n}",
+    "title": "MC4",
+    "question": "What is an epipolar line?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Projection of the epipolar plane into an image",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "A histogram line",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "A random edge",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "A depth contour",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhat does the epipole represent?\n{\n= Intersection of the baseline with the image plane\n~ A corner point\n~ The center of projection\n~ The disparity map\n}",
+    "title": "MC5",
+    "question": "What does the epipole represent?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Intersection of the baseline with the image plane",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "A corner point",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "The center of projection",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "The disparity map",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhat matrix encodes epipolar geometry?\n{\n= Fundamental matrix\n~ Covariance matrix\n~ Transformation matrix\n~ Histogram matrix\n}",
+    "title": "MC6",
+    "question": "What matrix encodes epipolar geometry?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Fundamental matrix",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Covariance matrix",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Transformation matrix",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram matrix",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhat is the advantage of epipolar geometry?\n{\n= Reduces search to 1D along lines\n~ Requires no calibration\n~ Avoids disparity\n~ Eliminates occlusion\n}",
+    "title": "MC7",
+    "question": "What is the advantage of epipolar geometry?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Reduces search to 1D along lines",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Requires no calibration",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Avoids disparity",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Eliminates occlusion",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich is an application of stereo vision?\n{\n= 3D reconstruction\n~ JPEG compression\n~ Audio filtering\n~ Histogram equalization\n}",
+    "title": "MC8",
+    "question": "Which is an application of stereo vision?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "3D reconstruction",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "JPEG compression",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Audio filtering",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram equalization",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich is a challenge in stereo matching?\n{\n= Textureless regions\n~ Always robust\n~ Infinite accuracy\n~ Perfect occlusion handling\n}",
+    "title": "MC9",
+    "question": "Which is a challenge in stereo matching?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Textureless regions",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Always robust",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Infinite accuracy",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Perfect occlusion handling",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich field uses stereo correspondence?\n{\n= Autonomous vehicles\n~ Audio compression\n~ File encryption\n~ Gamma correction\n}",
+    "title": "MC10",
+    "question": "Which field uses stereo correspondence?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Autonomous vehicles",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Audio compression",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "File encryption",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Gamma correction",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the concept to definition.\n{\n= Disparity -> Difference between image positions\n= Epipolar line -> Projection of epipolar plane\n= Epipole -> Baseline intersection\n= Fundamental matrix -> Relates image points\n}",
+    "title": "MATCH1",
+    "question": "Match the concept to definition.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Disparity",
+        "right": "Difference between image positions"
+      },
+      {
+        "id": 2,
+        "left": "Epipolar line",
+        "right": "Projection of epipolar plane"
+      },
+      {
+        "id": 3,
+        "left": "Epipole",
+        "right": "Baseline intersection"
+      },
+      {
+        "id": 4,
+        "left": "Fundamental matrix",
+        "right": "Relates image points"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the problem to cause.\n{\n= Occlusion -> Hidden regions\n= Textureless -> Ambiguous match\n= Repetitive patterns -> Wrong match\n= Calibration error -> Wrong geometry\n}",
+    "title": "MATCH2",
+    "question": "Match the problem to cause.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Occlusion",
+        "right": "Hidden regions"
+      },
+      {
+        "id": 2,
+        "left": "Textureless",
+        "right": "Ambiguous match"
+      },
+      {
+        "id": 3,
+        "left": "Repetitive patterns",
+        "right": "Wrong match"
+      },
+      {
+        "id": 4,
+        "left": "Calibration error",
+        "right": "Wrong geometry"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the application to field.\n{\n= Depth maps -> Vision\n= 3D reconstruction -> Graphics\n= Obstacle detection -> Robotics\n= Navigation -> Autonomous vehicles\n}",
+    "title": "MATCH3",
+    "question": "Match the application to field.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Depth maps",
+        "right": "Vision"
+      },
+      {
+        "id": 2,
+        "left": "3D reconstruction",
+        "right": "Graphics"
+      },
+      {
+        "id": 3,
+        "left": "Obstacle detection",
+        "right": "Robotics"
+      },
+      {
+        "id": 4,
+        "left": "Navigation",
+        "right": "Autonomous vehicles"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the element to geometry.\n{\n= Epipolar plane -> Through both cameras\n= Epipolar line -> Image projection\n= Epipole -> Baseline intersection\n= Camera baseline -> Between centers\n}",
+    "title": "MATCH4",
+    "question": "Match the element to geometry.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Epipolar plane",
+        "right": "Through both cameras"
+      },
+      {
+        "id": 2,
+        "left": "Epipolar line",
+        "right": "Image projection"
+      },
+      {
+        "id": 3,
+        "left": "Epipole",
+        "right": "Baseline intersection"
+      },
+      {
+        "id": 4,
+        "left": "Camera baseline",
+        "right": "Between centers"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the advantage to method.\n{\n= Epipolar geometry -> 1D search\n= Disparity -> Depth\n= Stereo -> Dense maps\n= RANSAC -> Robust fitting\n}",
+    "title": "MATCH5",
+    "question": "Match the advantage to method.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Epipolar geometry",
+        "right": "1D search"
+      },
+      {
+        "id": 2,
+        "left": "Disparity",
+        "right": "Depth"
+      },
+      {
+        "id": 3,
+        "left": "Stereo",
+        "right": "Dense maps"
+      },
+      {
+        "id": 4,
+        "left": "RANSAC",
+        "right": "Robust fitting"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the matrix to use.\n{\n= Fundamental matrix -> Two-view geometry\n= Essential matrix -> Calibrated stereo\n= Homography -> Planar mapping\n= Affine -> Linear mapping\n}",
+    "title": "MATCH6",
+    "question": "Match the matrix to use.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Fundamental matrix",
+        "right": "Two-view geometry"
+      },
+      {
+        "id": 2,
+        "left": "Essential matrix",
+        "right": "Calibrated stereo"
+      },
+      {
+        "id": 3,
+        "left": "Homography",
+        "right": "Planar mapping"
+      },
+      {
+        "id": 4,
+        "left": "Affine",
+        "right": "Linear mapping"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the stereo concept to description.\n{\n= Correspondence -> Match points\n= Disparity -> Pixel shift\n= Depth -> Inverse of disparity\n= Occlusion -> Missing info\n}",
+    "title": "MATCH7",
+    "question": "Match the stereo concept to description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Correspondence",
+        "right": "Match points"
+      },
+      {
+        "id": 2,
+        "left": "Disparity",
+        "right": "Pixel shift"
+      },
+      {
+        "id": 3,
+        "left": "Depth",
+        "right": "Inverse of disparity"
+      },
+      {
+        "id": 4,
+        "left": "Occlusion",
+        "right": "Missing info"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the step to process.\n{\n= Calibration -> Camera geometry\n= Rectification -> Align epipolar lines\n= Matching -> Correspondences\n= Depth map -> Output\n}",
+    "title": "MATCH8",
+    "question": "Match the step to process.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Calibration",
+        "right": "Camera geometry"
+      },
+      {
+        "id": 2,
+        "left": "Rectification",
+        "right": "Align epipolar lines"
+      },
+      {
+        "id": 3,
+        "left": "Matching",
+        "right": "Correspondences"
+      },
+      {
+        "id": 4,
+        "left": "Depth map",
+        "right": "Output"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the field to application.\n{\n= Robotics -> Obstacle detection\n= Vision -> 3D reconstruction\n= Medicine -> Imaging\n= Automotive -> Driving\n}",
+    "title": "MATCH9",
+    "question": "Match the field to application.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Robotics",
+        "right": "Obstacle detection"
+      },
+      {
+        "id": 2,
+        "left": "Vision",
+        "right": "3D reconstruction"
+      },
+      {
+        "id": 3,
+        "left": "Medicine",
+        "right": "Imaging"
+      },
+      {
+        "id": 4,
+        "left": "Automotive",
+        "right": "Driving"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the challenge to mitigation.\n{\n= Occlusion -> Ignore mismatched regions\n= Textureless -> Regularization\n= Repetitive -> Context info\n= Noise -> Filtering\n}",
+    "title": "MATCH10",
+    "question": "Match the challenge to mitigation.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Occlusion",
+        "right": "Ignore mismatched regions"
+      },
+      {
+        "id": 2,
+        "left": "Textureless",
+        "right": "Regularization"
+      },
+      {
+        "id": 3,
+        "left": "Repetitive",
+        "right": "Context info"
+      },
+      {
+        "id": 4,
+        "left": "Noise",
+        "right": "Filtering"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are steps in stereo vision?\n{\n~%25% Calibration\n~%25% Rectification\n~%25% Matching\n~%25% Depth estimation\n}",
+    "title": "MULTI1",
+    "question": "Which are steps in stereo vision?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Calibration",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Rectification",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Matching",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Depth estimation",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are elements of epipolar geometry?\n{\n~%25% Epipolar plane\n~%25% Epipolar line\n~%25% Epipole\n~%25% Fundamental matrix\n}",
+    "title": "MULTI2",
+    "question": "Which are elements of epipolar geometry?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Epipolar plane",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Epipolar line",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Epipole",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Fundamental matrix",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are challenges in stereo correspondence?\n{\n~%25% Occlusion\n~%25% Textureless areas\n~%25% Repetitive patterns\n~%25% Calibration errors\n}",
+    "title": "MULTI3",
+    "question": "Which are challenges in stereo correspondence?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Occlusion",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Textureless areas",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Repetitive patterns",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Calibration errors",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are applications of stereo vision?\n{\n~%25% Depth maps\n~%25% 3D reconstruction\n~%25% Robotics\n~%25% Autonomous vehicles\n}",
+    "title": "MULTI4",
+    "question": "Which are applications of stereo vision?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Depth maps",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "3D reconstruction",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Robotics",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Autonomous vehicles",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are properties of the fundamental matrix?\n{\n~%33.33333% Encodes epipolar geometry\n~%33.33333% Relates image points\n~%33.33333% Rank 2\n~%-100% Preserves parallelism\n}",
+    "title": "MULTI5",
+    "question": "Which are properties of the fundamental matrix?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Encodes epipolar geometry",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Relates image points",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Rank 2",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Preserves parallelism",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are preserved by homography, not stereo?\n{\n~%50% Planar mapping\n~%50% Perspective mapping\n~%-100% Disparity\n~%-100% Depth\n}",
+    "title": "MULTI6",
+    "question": "Which are preserved by homography, not stereo?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Planar mapping",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Perspective mapping",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Disparity",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Depth",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are advantages of epipolar geometry?\n{\n~%33.33333% Reduces correspondence search\n~%33.33333% Relates images mathematically\n~%33.33333% Supports depth recovery\n~%-100% Ignores calibration\n}",
+    "title": "MULTI7",
+    "question": "Which are advantages of epipolar geometry?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Reduces correspondence search",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Relates images mathematically",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Supports depth recovery",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Ignores calibration",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are cues for stereo correspondence?\n{\n~%50% Texture\n~%50% Edges\n~%-100% Audio\n~%-100% Color balance\n}",
+    "title": "MULTI8",
+    "question": "Which are cues for stereo correspondence?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Texture",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Edges",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Audio",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Color balance",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are limitations of stereo vision?\n{\n~%25% Occlusion\n~%25% Textureless regions\n~%25% Repetitive patterns\n~%25% Calibration sensitivity\n}",
+    "title": "MULTI9",
+    "question": "Which are limitations of stereo vision?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Occlusion",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Textureless regions",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Repetitive patterns",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Calibration sensitivity",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich domains use stereo correspondence?\n{\n~%25% Robotics\n~%25% Autonomous driving\n~%25% Vision\n~%25% Medicine\n}",
+    "title": "MULTI10",
+    "question": "Which domains use stereo correspondence?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Robotics",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Autonomous driving",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Vision",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Medicine",
+        "weight": 25.0
+      }
+    ]
+  }
+]

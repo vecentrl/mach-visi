@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhat is the basis of the Harris detector?\n{\n= Gradient covariance matrix\n~ Histogram equalization\n~ Fourier transform\n~ Co-occurrence matrix\n}",
+    "title": "MC1",
+    "question": "What is the basis of the Harris detector?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Gradient covariance matrix",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Fourier transform",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Co-occurrence matrix",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhich criterion does Shi-Tomasi use?\n{\n= Minimum eigenvalue\n~ Determinant only\n~ Trace only\n~ Fourier coefficients\n}",
+    "title": "MC2",
+    "question": "Which criterion does Shi-Tomasi use?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Minimum eigenvalue",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Determinant only",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Trace only",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Fourier coefficients",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhat does FAST stand for?\n{\n= Features from Accelerated Segment Test\n~ Fourier-based Adaptive Segmentation Tool\n~ Fast Approximation of Shape Tracking\n~ Feature Analysis by Spatial Threshold\n}",
+    "title": "MC3",
+    "question": "What does FAST stand for?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Features from Accelerated Segment Test",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Fourier-based Adaptive Segmentation Tool",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Fast Approximation of Shape Tracking",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Feature Analysis by Spatial Threshold",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhich is an advantage of FAST?\n{\n= High speed, suitable for real-time\n~ Invariant to all transformations\n~ Provides descriptors directly\n~ Works only on binary images\n}",
+    "title": "MC4",
+    "question": "Which is an advantage of FAST?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "High speed, suitable for real-time",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Invariant to all transformations",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Provides descriptors directly",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Works only on binary images",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhich is a drawback of Harris?\n{\n= Computationally heavier than FAST\n~ Cannot detect corners\n~ Ignores gradients\n~ Never rotation invariant\n}",
+    "title": "MC5",
+    "question": "Which is a drawback of Harris?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Computationally heavier than FAST",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Cannot detect corners",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Ignores gradients",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Never rotation invariant",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich application is Shi-Tomasi especially known for?\n{\n= Tracking (\"Good Features to Track\")\n~ Compression\n~ Histogram smoothing\n~ Edge detection\n}",
+    "title": "MC6",
+    "question": "Which application is Shi-Tomasi especially known for?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Tracking (\"Good Features to Track\")",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Compression",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Histogram smoothing",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Edge detection",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich property is desirable for corner detectors?\n{\n= Repeatability\n~ Sensitivity to noise only\n~ Randomness\n~ Invariance failure\n}",
+    "title": "MC7",
+    "question": "Which property is desirable for corner detectors?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Repeatability",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Sensitivity to noise only",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Randomness",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Invariance failure",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich algorithm uses a circular pixel test for corners?\n{\n= FAST\n~ Harris\n~ Shi-Tomasi\n~ Otsu\n}",
+    "title": "MC8",
+    "question": "Which algorithm uses a circular pixel test for corners?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "FAST",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Harris",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Shi-Tomasi",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Otsu",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich method relies on eigenvalues of the covariance matrix?\n{\n= Harris and Shi-Tomasi\n~ FAST only\n~ Fourier descriptors\n~ Morphology\n}",
+    "title": "MC9",
+    "question": "Which method relies on eigenvalues of the covariance matrix?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Harris and Shi-Tomasi",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "FAST only",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Fourier descriptors",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Morphology",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich application uses corner detectors?\n{\n= Panorama stitching\n~ Histogram equalization\n~ White balance\n~ Audio compression\n}",
+    "title": "MC10",
+    "question": "Which application uses corner detectors?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Panorama stitching",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "White balance",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Audio compression",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the detector to property.\n{\n= Harris -> Gradient covariance\n= Shi-Tomasi -> Minimum eigenvalue\n= FAST -> Circular neighborhood test\n= All -> Corner detection\n}",
+    "title": "MATCH1",
+    "question": "Match the detector to property.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Harris",
+        "right": "Gradient covariance"
+      },
+      {
+        "id": 2,
+        "left": "Shi-Tomasi",
+        "right": "Minimum eigenvalue"
+      },
+      {
+        "id": 3,
+        "left": "FAST",
+        "right": "Circular neighborhood test"
+      },
+      {
+        "id": 4,
+        "left": "All",
+        "right": "Corner detection"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the detector to application.\n{\n= Harris -> Feature matching\n= Shi-Tomasi -> Tracking\n= FAST -> Real-time detection\n= All -> Recognition\n}",
+    "title": "MATCH2",
+    "question": "Match the detector to application.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Harris",
+        "right": "Feature matching"
+      },
+      {
+        "id": 2,
+        "left": "Shi-Tomasi",
+        "right": "Tracking"
+      },
+      {
+        "id": 3,
+        "left": "FAST",
+        "right": "Real-time detection"
+      },
+      {
+        "id": 4,
+        "left": "All",
+        "right": "Recognition"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the detector to limitation.\n{\n= Harris -> Computationally heavier\n= Shi-Tomasi -> Similar to Harris but slower\n= FAST -> Less accurate under noise\n= All -> Sensitive to illumination\n}",
+    "title": "MATCH3",
+    "question": "Match the detector to limitation.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Harris",
+        "right": "Computationally heavier"
+      },
+      {
+        "id": 2,
+        "left": "Shi-Tomasi",
+        "right": "Similar to Harris but slower"
+      },
+      {
+        "id": 3,
+        "left": "FAST",
+        "right": "Less accurate under noise"
+      },
+      {
+        "id": 4,
+        "left": "All",
+        "right": "Sensitive to illumination"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the criterion to detector.\n{\n= Eigenvalues -> Harris, Shi-Tomasi\n= Circular pixel test -> FAST\n= Minimum eigenvalue -> Shi-Tomasi\n= Gradient covariance -> Harris\n}",
+    "title": "MATCH4",
+    "question": "Match the criterion to detector.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Eigenvalues",
+        "right": "Harris, Shi-Tomasi"
+      },
+      {
+        "id": 2,
+        "left": "Circular pixel test",
+        "right": "FAST"
+      },
+      {
+        "id": 3,
+        "left": "Minimum eigenvalue",
+        "right": "Shi-Tomasi"
+      },
+      {
+        "id": 4,
+        "left": "Gradient covariance",
+        "right": "Harris"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the abbreviation to meaning.\n{\n= FAST -> Features from Accelerated Segment Test\n= PCA -> Principal Component Analysis\n= SLAM -> Simultaneous Localization and Mapping\n= LDA -> Linear Discriminant Analysis\n}",
+    "title": "MATCH5",
+    "question": "Match the abbreviation to meaning.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "FAST",
+        "right": "Features from Accelerated Segment Test"
+      },
+      {
+        "id": 2,
+        "left": "PCA",
+        "right": "Principal Component Analysis"
+      },
+      {
+        "id": 3,
+        "left": "SLAM",
+        "right": "Simultaneous Localization and Mapping"
+      },
+      {
+        "id": 4,
+        "left": "LDA",
+        "right": "Linear Discriminant Analysis"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the property to detector.\n{\n= Rotation invariance -> Harris\n= Good features to track -> Shi-Tomasi\n= Real-time -> FAST\n= Gradient-based -> Harris\n}",
+    "title": "MATCH6",
+    "question": "Match the property to detector.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Rotation invariance",
+        "right": "Harris"
+      },
+      {
+        "id": 2,
+        "left": "Good features to track",
+        "right": "Shi-Tomasi"
+      },
+      {
+        "id": 3,
+        "left": "Real-time",
+        "right": "FAST"
+      },
+      {
+        "id": 4,
+        "left": "Gradient-based",
+        "right": "Harris"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the domain to usage.\n{\n= Robotics -> SLAM\n= Graphics -> Panorama stitching\n= Vision -> Tracking\n= Industry -> Object detection\n}",
+    "title": "MATCH7",
+    "question": "Match the domain to usage.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Robotics",
+        "right": "SLAM"
+      },
+      {
+        "id": 2,
+        "left": "Graphics",
+        "right": "Panorama stitching"
+      },
+      {
+        "id": 3,
+        "left": "Vision",
+        "right": "Tracking"
+      },
+      {
+        "id": 4,
+        "left": "Industry",
+        "right": "Object detection"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the step to algorithm.\n{\n= Compute gradient covariance -> Harris\n= Take minimum eigenvalue -> Shi-Tomasi\n= Use circular intensity test -> FAST\n= Select interest points -> All\n}",
+    "title": "MATCH8",
+    "question": "Match the step to algorithm.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Compute gradient covariance",
+        "right": "Harris"
+      },
+      {
+        "id": 2,
+        "left": "Take minimum eigenvalue",
+        "right": "Shi-Tomasi"
+      },
+      {
+        "id": 3,
+        "left": "Use circular intensity test",
+        "right": "FAST"
+      },
+      {
+        "id": 4,
+        "left": "Select interest points",
+        "right": "All"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the benefit to algorithm.\n{\n= Robust corners -> Harris\n= Better tracking -> Shi-Tomasi\n= High speed -> FAST\n= All -> Local feature detection\n}",
+    "title": "MATCH9",
+    "question": "Match the benefit to algorithm.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Robust corners",
+        "right": "Harris"
+      },
+      {
+        "id": 2,
+        "left": "Better tracking",
+        "right": "Shi-Tomasi"
+      },
+      {
+        "id": 3,
+        "left": "High speed",
+        "right": "FAST"
+      },
+      {
+        "id": 4,
+        "left": "All",
+        "right": "Local feature detection"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the challenge to all detectors.\n{\n= Noise -> False detections\n= Illumination -> Reduced repeatability\n= Scale -> Matching errors\n= Computation -> Trade-off\n}",
+    "title": "MATCH10",
+    "question": "Match the challenge to all detectors.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Noise",
+        "right": "False detections"
+      },
+      {
+        "id": 2,
+        "left": "Illumination",
+        "right": "Reduced repeatability"
+      },
+      {
+        "id": 3,
+        "left": "Scale",
+        "right": "Matching errors"
+      },
+      {
+        "id": 4,
+        "left": "Computation",
+        "right": "Trade-off"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are corner detectors?\n{\n~%33.33333% Harris\n~%33.33333% Shi-Tomasi\n~%33.33333% FAST\n~%-100% Otsu\n}",
+    "title": "MULTI1",
+    "question": "Which are corner detectors?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Harris",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Shi-Tomasi",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "FAST",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Otsu",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are properties of Harris corners?\n{\n~%33.33333% Gradient covariance\n~%33.33333% Rotation invariance\n~%33.33333% Widely used\n~%-100% Circular pixel test\n}",
+    "title": "MULTI2",
+    "question": "Which are properties of Harris corners?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Gradient covariance",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Rotation invariance",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Widely used",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Circular pixel test",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are properties of Shi-Tomasi?\n{\n~%33.33333% Minimum eigenvalue\n~%33.33333% Good for tracking\n~%33.33333% Derived from Harris\n~%-100% Circular intensity test\n}",
+    "title": "MULTI3",
+    "question": "Which are properties of Shi-Tomasi?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Minimum eigenvalue",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Good for tracking",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Derived from Harris",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Circular intensity test",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are properties of FAST?\n{\n~%33.33333% High speed\n~%33.33333% Real-time use\n~%33.33333% Circular neighborhood test\n~%-100% Eigenvalue calculation\n}",
+    "title": "MULTI4",
+    "question": "Which are properties of FAST?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "High speed",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Real-time use",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Circular neighborhood test",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Eigenvalue calculation",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are desirable properties of corner detectors?\n{\n~%25% Repeatability\n~%25% Distinctiveness\n~%25% Invariance\n~%25% Efficiency\n}",
+    "title": "MULTI5",
+    "question": "Which are desirable properties of corner detectors?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Repeatability",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Distinctiveness",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Invariance",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Efficiency",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are applications of corner detection?\n{\n~%25% Panorama stitching\n~%25% SLAM\n~%25% Object recognition\n~%25% Tracking\n}",
+    "title": "MULTI6",
+    "question": "Which are applications of corner detection?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Panorama stitching",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "SLAM",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Object recognition",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Tracking",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are limitations of FAST?\n{\n~%50% Sensitive to noise\n~%50% Less accurate than Harris\n~%-100% Always invariant\n~%-100% Eigenvalue based\n}",
+    "title": "MULTI7",
+    "question": "Which are limitations of FAST?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Sensitive to noise",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Less accurate than Harris",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Always invariant",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Eigenvalue based",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are advantages of Harris?\n{\n~%50% Robust corners\n~%50% Rotation invariance\n~%-100% Always fastest\n~%-100% Circular test\n}",
+    "title": "MULTI8",
+    "question": "Which are advantages of Harris?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Robust corners",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Rotation invariance",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Always fastest",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Circular test",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are advantages of Shi-Tomasi?\n{\n~%50% Good tracking performance\n~%50% Refinement of Harris\n~%-100% Fastest real-time\n~%-100% Circular test\n}",
+    "title": "MULTI9",
+    "question": "Which are advantages of Shi-Tomasi?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Good tracking performance",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Refinement of Harris",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Fastest real-time",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Circular test",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are applications of FAST?\n{\n~%33.33333% Real-time tracking\n~%33.33333% Robotics\n~%33.33333% SLAM\n~%-100% Histogram smoothing\n}",
+    "title": "MULTI10",
+    "question": "Which are applications of FAST?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Real-time tracking",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Robotics",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "SLAM",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Histogram smoothing",
+        "weight": -100.0
+      }
+    ]
+  }
+]

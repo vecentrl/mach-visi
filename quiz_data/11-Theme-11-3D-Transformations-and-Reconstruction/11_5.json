@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhat does triangulation compute?\n{\n= 3D point from ray intersection\n~ Brightness histogram\n~ Only 2D projections\n~ Audio signals\n}",
+    "title": "MC1",
+    "question": "What does triangulation compute?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "3D point from ray intersection",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Brightness histogram",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Only 2D projections",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Audio signals",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhat is required for triangulation?\n{\n= Camera geometry\n~ JPEG compression\n~ Histogram bins\n~ PCA\n}",
+    "title": "MC2",
+    "question": "What is required for triangulation?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Camera geometry",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "JPEG compression",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Histogram bins",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "PCA",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhat does structured light project?\n{\n= Known pattern\n~ Random noise\n~ Stereo disparity\n~ Shadows\n}",
+    "title": "MC3",
+    "question": "What does structured light project?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Known pattern",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Random noise",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Stereo disparity",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Shadows",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nHow is depth recovered in structured light?\n{\n= Triangulation with camera and projector\n~ Histogram equalization\n~ Gamma correction\n~ Audio filtering\n}",
+    "title": "MC4",
+    "question": "How is depth recovered in structured light?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Triangulation with camera and projector",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Gamma correction",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Audio filtering",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhich is an advantage of structured light?\n{\n= Works in textureless regions\n~ Needs no calibration\n~ Ignores occlusion\n~ Always outdoors\n}",
+    "title": "MC5",
+    "question": "Which is an advantage of structured light?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Works in textureless regions",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Needs no calibration",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Ignores occlusion",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Always outdoors",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich is a drawback of structured light?\n{\n= Sensitive to ambient light\n~ Always robust\n~ Needs no projector\n~ Uses only passive images\n}",
+    "title": "MC6",
+    "question": "Which is a drawback of structured light?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Sensitive to ambient light",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Always robust",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Needs no projector",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Uses only passive images",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich is a common application of structured light?\n{\n= 3D scanning\n~ JPEG compression\n~ Gamma correction\n~ Histogram smoothing\n}",
+    "title": "MC7",
+    "question": "Which is a common application of structured light?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "3D scanning",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "JPEG compression",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Gamma correction",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram smoothing",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich factor causes missing depth data?\n{\n= Occlusion and shadows\n~ Histogram mismatch\n~ File size\n~ Color balance\n}",
+    "title": "MC8",
+    "question": "Which factor causes missing depth data?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Occlusion and shadows",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram mismatch",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "File size",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Color balance",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich sensor used structured light in early consumer devices?\n{\n= Microsoft Kinect\n~ GoPro\n~ DSLR\n~ Thermal cameras\n}",
+    "title": "MC9",
+    "question": "Which sensor used structured light in early consumer devices?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Microsoft Kinect",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "GoPro",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "DSLR",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Thermal cameras",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich field uses triangulation?\n{\n= Stereo vision\n~ Audio processing\n~ File encryption\n~ Gamma correction\n}",
+    "title": "MC10",
+    "question": "Which field uses triangulation?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Stereo vision",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Audio processing",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "File encryption",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Gamma correction",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the method to principle.\n{\n= Triangulation -> Ray intersection\n= Structured light -> Projected patterns\n= Stereo -> Passive triangulation\n= Kinect -> Structured light\n}",
+    "title": "MATCH1",
+    "question": "Match the method to principle.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Triangulation",
+        "right": "Ray intersection"
+      },
+      {
+        "id": 2,
+        "left": "Structured light",
+        "right": "Projected patterns"
+      },
+      {
+        "id": 3,
+        "left": "Stereo",
+        "right": "Passive triangulation"
+      },
+      {
+        "id": 4,
+        "left": "Kinect",
+        "right": "Structured light"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the advantage to method.\n{\n= Structured light -> Works on textureless\n= Triangulation -> Requires geometry\n= Stereo -> Passive only\n= Kinect -> Consumer 3D scan\n}",
+    "title": "MATCH2",
+    "question": "Match the advantage to method.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Structured light",
+        "right": "Works on textureless"
+      },
+      {
+        "id": 2,
+        "left": "Triangulation",
+        "right": "Requires geometry"
+      },
+      {
+        "id": 3,
+        "left": "Stereo",
+        "right": "Passive only"
+      },
+      {
+        "id": 4,
+        "left": "Kinect",
+        "right": "Consumer 3D scan"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the drawback to method.\n{\n= Structured light -> Ambient light sensitive\n= Stereo -> Textureless fails\n= Triangulation -> Calibration needed\n= Kinect -> Shadows cause holes\n}",
+    "title": "MATCH3",
+    "question": "Match the drawback to method.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Structured light",
+        "right": "Ambient light sensitive"
+      },
+      {
+        "id": 2,
+        "left": "Stereo",
+        "right": "Textureless fails"
+      },
+      {
+        "id": 3,
+        "left": "Triangulation",
+        "right": "Calibration needed"
+      },
+      {
+        "id": 4,
+        "left": "Kinect",
+        "right": "Shadows cause holes"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the application to field.\n{\n= Industrial -> Inspection\n= Consumer -> Kinect\n= Medicine -> 3D scans\n= Robotics -> Mapping\n}",
+    "title": "MATCH4",
+    "question": "Match the application to field.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Industrial",
+        "right": "Inspection"
+      },
+      {
+        "id": 2,
+        "left": "Consumer",
+        "right": "Kinect"
+      },
+      {
+        "id": 3,
+        "left": "Medicine",
+        "right": "3D scans"
+      },
+      {
+        "id": 4,
+        "left": "Robotics",
+        "right": "Mapping"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the component to role.\n{\n= Projector -> Pattern source\n= Camera -> Capture deformation\n= Calibration -> Geometry known\n= Triangulation -> Depth recovery\n}",
+    "title": "MATCH5",
+    "question": "Match the component to role.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Projector",
+        "right": "Pattern source"
+      },
+      {
+        "id": 2,
+        "left": "Camera",
+        "right": "Capture deformation"
+      },
+      {
+        "id": 3,
+        "left": "Calibration",
+        "right": "Geometry known"
+      },
+      {
+        "id": 4,
+        "left": "Triangulation",
+        "right": "Depth recovery"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the problem to cause.\n{\n= Ambient light -> Interference\n= Occlusion -> Missing data\n= Noise -> Errors\n= Miscalibration -> Wrong depth\n}",
+    "title": "MATCH6",
+    "question": "Match the problem to cause.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Ambient light",
+        "right": "Interference"
+      },
+      {
+        "id": 2,
+        "left": "Occlusion",
+        "right": "Missing data"
+      },
+      {
+        "id": 3,
+        "left": "Noise",
+        "right": "Errors"
+      },
+      {
+        "id": 4,
+        "left": "Miscalibration",
+        "right": "Wrong depth"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the pattern to method.\n{\n= Stripes -> Structured light\n= Dots -> Kinect\n= Checkerboard -> Calibration\n= Features -> Sparse correspondences\n}",
+    "title": "MATCH7",
+    "question": "Match the pattern to method.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Stripes",
+        "right": "Structured light"
+      },
+      {
+        "id": 2,
+        "left": "Dots",
+        "right": "Kinect"
+      },
+      {
+        "id": 3,
+        "left": "Checkerboard",
+        "right": "Calibration"
+      },
+      {
+        "id": 4,
+        "left": "Features",
+        "right": "Sparse correspondences"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the sensor to application.\n{\n= Kinect -> Gaming\n= Laser scanner -> Industry\n= Stereo camera -> Robotics\n= Structured light -> Biometrics\n}",
+    "title": "MATCH8",
+    "question": "Match the sensor to application.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Kinect",
+        "right": "Gaming"
+      },
+      {
+        "id": 2,
+        "left": "Laser scanner",
+        "right": "Industry"
+      },
+      {
+        "id": 3,
+        "left": "Stereo camera",
+        "right": "Robotics"
+      },
+      {
+        "id": 4,
+        "left": "Structured light",
+        "right": "Biometrics"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the process to step.\n{\n= Project pattern -> Active illumination\n= Capture -> Camera records\n= Compute -> Deformation analysis\n= Depth -> Triangulation\n}",
+    "title": "MATCH9",
+    "question": "Match the process to step.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Project pattern",
+        "right": "Active illumination"
+      },
+      {
+        "id": 2,
+        "left": "Capture",
+        "right": "Camera records"
+      },
+      {
+        "id": 3,
+        "left": "Compute",
+        "right": "Deformation analysis"
+      },
+      {
+        "id": 4,
+        "left": "Depth",
+        "right": "Triangulation"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the advantage to system.\n{\n= Structured light -> Accuracy\n= Stereo -> Passive sensing\n= Kinect -> Low cost\n= Triangulation -> Geometric basis\n}",
+    "title": "MATCH10",
+    "question": "Match the advantage to system.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Structured light",
+        "right": "Accuracy"
+      },
+      {
+        "id": 2,
+        "left": "Stereo",
+        "right": "Passive sensing"
+      },
+      {
+        "id": 3,
+        "left": "Kinect",
+        "right": "Low cost"
+      },
+      {
+        "id": 4,
+        "left": "Triangulation",
+        "right": "Geometric basis"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are requirements of triangulation?\n{\n~%33.33333% Known geometry\n~%33.33333% Camera/projector calibration\n~%33.33333% Ray intersection\n~%-100% Audio filters\n}",
+    "title": "MULTI1",
+    "question": "Which are requirements of triangulation?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Known geometry",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Camera/projector calibration",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Ray intersection",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Audio filters",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are properties of structured light?\n{\n~%25% Projects patterns\n~%25% Active sensing\n~%25% Uses triangulation\n~%25% Requires calibration\n}",
+    "title": "MULTI2",
+    "question": "Which are properties of structured light?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Projects patterns",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Active sensing",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Uses triangulation",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Requires calibration",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are applications of structured light?\n{\n~%25% Kinect\n~%25% 3D scanning\n~%25% Industrial inspection\n~%25% Biometrics\n}",
+    "title": "MULTI3",
+    "question": "Which are applications of structured light?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Kinect",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "3D scanning",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Industrial inspection",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Biometrics",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are drawbacks of structured light?\n{\n~%25% Ambient light sensitivity\n~%25% Occlusion issues\n~%25% Requires projector\n~%25% Calibration needed\n}",
+    "title": "MULTI4",
+    "question": "Which are drawbacks of structured light?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Ambient light sensitivity",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Occlusion issues",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Requires projector",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Calibration needed",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are advantages of structured light?\n{\n~%50% Works in textureless areas\n~%50% High accuracy\n~%-100% Ignores calibration\n~%-100% Always outdoors\n}",
+    "title": "MULTI5",
+    "question": "Which are advantages of structured light?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Works in textureless areas",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "High accuracy",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Ignores calibration",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Always outdoors",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are types of projected patterns?\n{\n~%33.33333% Stripes\n~%33.33333% Grids\n~%33.33333% Dots\n~%-100% Shadows\n}",
+    "title": "MULTI6",
+    "question": "Which are types of projected patterns?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Stripes",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Grids",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Dots",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Shadows",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are applications of triangulation?\n{\n~%25% Stereo vision\n~%25% Multi-view geometry\n~%25% Laser scanning\n~%25% Structured light\n}",
+    "title": "MULTI7",
+    "question": "Which are applications of triangulation?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Stereo vision",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Multi-view geometry",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Laser scanning",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Structured light",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are challenges in structured light?\n{\n~%33.33333% Shadows\n~%33.33333% Ambient light\n~%33.33333% Occlusion\n~%-100% No calibration\n}",
+    "title": "MULTI8",
+    "question": "Which are challenges in structured light?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Shadows",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Ambient light",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Occlusion",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "No calibration",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are domains using structured light?\n{\n~%25% Industry\n~%25% Medicine\n~%25% Consumer devices\n~%25% Robotics\n}",
+    "title": "MULTI9",
+    "question": "Which are domains using structured light?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Industry",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Medicine",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Consumer devices",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Robotics",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are outputs of structured light scanning?\n{\n~%25% Depth maps\n~%25% 3D models\n~%25% Point clouds\n~%25% Surface details\n}",
+    "title": "MULTI10",
+    "question": "Which are outputs of structured light scanning?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Depth maps",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "3D models",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Point clouds",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Surface details",
+        "weight": 25.0
+      }
+    ]
+  }
+]

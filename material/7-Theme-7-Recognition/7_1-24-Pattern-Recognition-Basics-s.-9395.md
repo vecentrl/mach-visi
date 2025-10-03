@@ -76,12 +76,3 @@ These methods form the core of many practical vision systems, from face recognit
 ### Supervised classification 94
 -->
 
-Perfect 👍 Thanks for clarifying.
-Here’s the **rewritten Part 1** following your new instructions:
-
----
-
-Perfect — here’s the **rewritten and expanded Group 25a** with all the math, pictures, and student-friendly explanations integrated:
-
----
-

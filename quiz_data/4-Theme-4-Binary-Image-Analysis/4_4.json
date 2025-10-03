@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhich is a boundary-based representation?\n{\n= Object contour\n~ Pixel intensity histogram\n~ Color segmentation\n~ Histogram equalization\n}",
+    "title": "MC1",
+    "question": "Which is a boundary-based representation?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Object contour",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Pixel intensity histogram",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Color segmentation",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram equalization",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhich is a region-based representation?\n{\n= Filled binary mask\n~ Polygonal contour\n~ Skeleton curve\n~ Edge pixels only\n}",
+    "title": "MC2",
+    "question": "Which is a region-based representation?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Filled binary mask",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Polygonal contour",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Skeleton curve",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Edge pixels only",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhich measure describes shape size?\n{\n= Area\n~ Color\n~ Intensity variance\n~ Illumination\n}",
+    "title": "MC3",
+    "question": "Which measure describes shape size?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Area",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Color",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Intensity variance",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Illumination",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhich measure describes boundary length?\n{\n= Perimeter\n~ Compactness\n~ Area\n~ Histogram bins\n}",
+    "title": "MC4",
+    "question": "Which measure describes boundary length?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Perimeter",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Compactness",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Area",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram bins",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhich descriptor relates area to perimeter?\n{\n= Compactness\n~ Radius\n~ Diameter\n~ Color variance\n}",
+    "title": "MC5",
+    "question": "Which descriptor relates area to perimeter?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Compactness",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Radius",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Diameter",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Color variance",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich is an application of shape representation?\n{\n= Optical character recognition\n~ Gamma correction\n~ File compression\n~ Audio editing\n}",
+    "title": "MC6",
+    "question": "Which is an application of shape representation?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Optical character recognition",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Gamma correction",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "File compression",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Audio editing",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich are examples of binary shape representations?\n{\n= Silhouettes\n~ Grayscale shading\n~ Texture patterns\n~ Noise images\n}",
+    "title": "MC7",
+    "question": "Which are examples of binary shape representations?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Silhouettes",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Grayscale shading",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Texture patterns",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Noise images",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich describes region-based methods?\n{\n= Uses all pixels inside the shape\n~ Uses only the contour\n~ Uses color histograms\n~ Uses gamma correction\n}",
+    "title": "MC8",
+    "question": "Which describes region-based methods?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Uses all pixels inside the shape",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Uses only the contour",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Uses color histograms",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Uses gamma correction",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich describes boundary-based methods?\n{\n= Focus on object outline\n~ Focus on pixel values inside\n~ Focus on intensity averages\n~ Focus on gamma correction\n}",
+    "title": "MC9",
+    "question": "Which describes boundary-based methods?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Focus on object outline",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Focus on pixel values inside",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Focus on intensity averages",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Focus on gamma correction",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich is a basic shape descriptor?\n{\n= Compactness\n~ JPEG compression\n~ Gamma correction\n~ Fourier filtering\n}",
+    "title": "MC10",
+    "question": "Which is a basic shape descriptor?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Compactness",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "JPEG compression",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Gamma correction",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Fourier filtering",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the representation type to example.\n{\n= Region-based -> Binary mask\n= Boundary-based -> Contour\n= Silhouette -> Binary outline\n= Skeleton -> Medial axis\n}",
+    "title": "MATCH1",
+    "question": "Match the representation type to example.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Region-based",
+        "right": "Binary mask"
+      },
+      {
+        "id": 2,
+        "left": "Boundary-based",
+        "right": "Contour"
+      },
+      {
+        "id": 3,
+        "left": "Silhouette",
+        "right": "Binary outline"
+      },
+      {
+        "id": 4,
+        "left": "Skeleton",
+        "right": "Medial axis"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the descriptor to definition.\n{\n= Area -> Pixels inside\n= Perimeter -> Boundary length\n= Compactness -> Area/perimeter relation\n= Shape descriptor -> Numerical feature\n}",
+    "title": "MATCH2",
+    "question": "Match the descriptor to definition.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Area",
+        "right": "Pixels inside"
+      },
+      {
+        "id": 2,
+        "left": "Perimeter",
+        "right": "Boundary length"
+      },
+      {
+        "id": 3,
+        "left": "Compactness",
+        "right": "Area/perimeter relation"
+      },
+      {
+        "id": 4,
+        "left": "Shape descriptor",
+        "right": "Numerical feature"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the application to use.\n{\n= OCR -> Character shapes\n= Industrial inspection -> Defect detection\n= Medical imaging -> Organ segmentation\n= Robotics -> Object recognition\n}",
+    "title": "MATCH3",
+    "question": "Match the application to use.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "OCR",
+        "right": "Character shapes"
+      },
+      {
+        "id": 2,
+        "left": "Industrial inspection",
+        "right": "Defect detection"
+      },
+      {
+        "id": 3,
+        "left": "Medical imaging",
+        "right": "Organ segmentation"
+      },
+      {
+        "id": 4,
+        "left": "Robotics",
+        "right": "Object recognition"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the property to measurement.\n{\n= Size -> Area\n= Boundary -> Perimeter\n= Shape quality -> Compactness\n= Representation -> Contour\n}",
+    "title": "MATCH4",
+    "question": "Match the property to measurement.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Size",
+        "right": "Area"
+      },
+      {
+        "id": 2,
+        "left": "Boundary",
+        "right": "Perimeter"
+      },
+      {
+        "id": 3,
+        "left": "Shape quality",
+        "right": "Compactness"
+      },
+      {
+        "id": 4,
+        "left": "Representation",
+        "right": "Contour"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the example to type.\n{\n= Silhouette -> Binary shape\n= Filled mask -> Region-based\n= Outline -> Boundary-based\n= Compactness -> Descriptor\n}",
+    "title": "MATCH5",
+    "question": "Match the example to type.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Silhouette",
+        "right": "Binary shape"
+      },
+      {
+        "id": 2,
+        "left": "Filled mask",
+        "right": "Region-based"
+      },
+      {
+        "id": 3,
+        "left": "Outline",
+        "right": "Boundary-based"
+      },
+      {
+        "id": 4,
+        "left": "Compactness",
+        "right": "Descriptor"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the task to shape analysis.\n{\n= Classification -> Shape descriptors\n= Retrieval -> Shape comparison\n= Recognition -> Shape representation\n= Segmentation -> Shape isolation\n}",
+    "title": "MATCH6",
+    "question": "Match the task to shape analysis.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Classification",
+        "right": "Shape descriptors"
+      },
+      {
+        "id": 2,
+        "left": "Retrieval",
+        "right": "Shape comparison"
+      },
+      {
+        "id": 3,
+        "left": "Recognition",
+        "right": "Shape representation"
+      },
+      {
+        "id": 4,
+        "left": "Segmentation",
+        "right": "Shape isolation"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the method to drawback.\n{\n= Boundary-based -> Sensitive to noise\n= Region-based -> Sensitive to occlusion\n= Silhouette -> Loses texture\n= Compactness -> Not unique\n}",
+    "title": "MATCH7",
+    "question": "Match the method to drawback.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Boundary-based",
+        "right": "Sensitive to noise"
+      },
+      {
+        "id": 2,
+        "left": "Region-based",
+        "right": "Sensitive to occlusion"
+      },
+      {
+        "id": 3,
+        "left": "Silhouette",
+        "right": "Loses texture"
+      },
+      {
+        "id": 4,
+        "left": "Compactness",
+        "right": "Not unique"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the descriptor to application.\n{\n= Area -> Size comparison\n= Perimeter -> Length of contour\n= Compactness -> Roundness measure\n= Silhouette -> Shape matching\n}",
+    "title": "MATCH8",
+    "question": "Match the descriptor to application.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Area",
+        "right": "Size comparison"
+      },
+      {
+        "id": 2,
+        "left": "Perimeter",
+        "right": "Length of contour"
+      },
+      {
+        "id": 3,
+        "left": "Compactness",
+        "right": "Roundness measure"
+      },
+      {
+        "id": 4,
+        "left": "Silhouette",
+        "right": "Shape matching"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the representation to domain.\n{\n= Region-based -> Medical imaging\n= Boundary-based -> OCR\n= Silhouette -> Graphics\n= Skeleton -> Robotics\n}",
+    "title": "MATCH9",
+    "question": "Match the representation to domain.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Region-based",
+        "right": "Medical imaging"
+      },
+      {
+        "id": 2,
+        "left": "Boundary-based",
+        "right": "OCR"
+      },
+      {
+        "id": 3,
+        "left": "Silhouette",
+        "right": "Graphics"
+      },
+      {
+        "id": 4,
+        "left": "Skeleton",
+        "right": "Robotics"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the measure to symbol.\n{\n= Area -> A\n= Perimeter -> P\n= Compactness -> P²/A\n= Descriptor -> Feature vector\n}",
+    "title": "MATCH10",
+    "question": "Match the measure to symbol.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Area",
+        "right": "A"
+      },
+      {
+        "id": 2,
+        "left": "Perimeter",
+        "right": "P"
+      },
+      {
+        "id": 3,
+        "left": "Compactness",
+        "right": "P²/A"
+      },
+      {
+        "id": 4,
+        "left": "Descriptor",
+        "right": "Feature vector"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are binary shape representations?\n{\n~%33.33333% Silhouettes\n~%33.33333% Outlines\n~%33.33333% Masks\n~%-100% Grayscale texture\n}",
+    "title": "MULTI1",
+    "question": "Which are binary shape representations?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Silhouettes",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Outlines",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Masks",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Grayscale texture",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are region-based representations?\n{\n~%50% Filled binary mask\n~%50% Pixel interiors\n~%-100% Contour only\n~%-100% Skeleton curve\n}",
+    "title": "MULTI2",
+    "question": "Which are region-based representations?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Filled binary mask",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Pixel interiors",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Contour only",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Skeleton curve",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are boundary-based representations?\n{\n~%33.33333% Contours\n~%33.33333% Outlines\n~%33.33333% Edges\n~%-100% Binary mask\n}",
+    "title": "MULTI3",
+    "question": "Which are boundary-based representations?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Contours",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Outlines",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Edges",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Binary mask",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are shape descriptors?\n{\n~%33.33333% Area\n~%33.33333% Perimeter\n~%33.33333% Compactness\n~%-100% Gamma value\n}",
+    "title": "MULTI4",
+    "question": "Which are shape descriptors?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Area",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Perimeter",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Compactness",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Gamma value",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are applications of shape representation?\n{\n~%33.33333% Object recognition\n~%33.33333% OCR\n~%33.33333% Medical imaging\n~%-100% Audio synthesis\n}",
+    "title": "MULTI5",
+    "question": "Which are applications of shape representation?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Object recognition",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "OCR",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Medical imaging",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Audio synthesis",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are challenges for boundary-based methods?\n{\n~%50% Sensitive to noise\n~%50% Requires accurate edge detection\n~%-100% Always robust\n~%-100% Works with no contours\n}",
+    "title": "MULTI6",
+    "question": "Which are challenges for boundary-based methods?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Sensitive to noise",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Requires accurate edge detection",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Always robust",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Works with no contours",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are challenges for region-based methods?\n{\n~%50% Sensitive to occlusion\n~%50% Can merge multiple objects\n~%-100% Always reliable\n~%-100% Ignores pixel interiors\n}",
+    "title": "MULTI7",
+    "question": "Which are challenges for region-based methods?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Sensitive to occlusion",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Can merge multiple objects",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Always reliable",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Ignores pixel interiors",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are examples of compactness use?\n{\n~%50% Roundness measure\n~%50% Shape discrimination\n~%-100% Gamma correction\n~%-100% File compression\n}",
+    "title": "MULTI8",
+    "question": "Which are examples of compactness use?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Roundness measure",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Shape discrimination",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Gamma correction",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "File compression",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are reasons for using shape representation?\n{\n~%25% Recognition\n~%25% Classification\n~%25% Comparison\n~%25% Retrieval\n}",
+    "title": "MULTI9",
+    "question": "Which are reasons for using shape representation?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Recognition",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Classification",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Comparison",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Retrieval",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are true about silhouettes?\n{\n~%33.33333% Binary representation\n~%33.33333% Useful in matching\n~%33.33333% Lose internal texture\n~%-100% Encode color\n}",
+    "title": "MULTI10",
+    "question": "Which are true about silhouettes?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Binary representation",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Useful in matching",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Lose internal texture",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Encode color",
+        "weight": -100.0
+      }
+    ]
+  }
+]

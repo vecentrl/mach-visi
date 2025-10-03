@@ -1,0 +1,309 @@
+::TF1::
+Image alignment means registering two or more images into the same coordinate system.
+{TRUE}
+
+::TF2::
+Affine transformations preserve straight lines and parallelism.
+{TRUE}
+
+::TF3::
+Affine transformations can include translation, rotation, scaling, and shearing.
+{TRUE}
+
+::TF4::
+Affine transformations always preserve angles and lengths.
+{FALSE}
+
+::TF5::
+Affine mapping is a linear transformation plus translation.
+{TRUE}
+
+::TF6::
+Panorama stitching is an application of image alignment.
+{TRUE}
+
+::TF7::
+Affine transformations can be estimated from feature correspondences.
+{TRUE}
+
+::TF8::
+Affine transformations are the most general transformations in vision.
+{FALSE}
+
+::TF9::
+Noise and outliers make alignment more difficult.
+{TRUE}
+
+::TF10::
+Medical image registration can use affine mapping.
+{TRUE}
+
+::MC1::
+What is the main goal of image alignment?
+{
+= Register images to a common coordinate system
+~ Compress images
+~ Detect objects
+~ Enhance contrast
+}
+
+::MC2::
+Which does an affine transformation preserve?
+{
+= Straight lines and parallelism
+~ Angles and lengths
+~ Only rotations
+~ Only translations
+}
+
+::MC3::
+Which operations are included in affine transformations?
+{
+= Translation, rotation, scaling, shearing
+~ Histogram equalization
+~ JPEG encoding
+~ Filtering
+}
+
+::MC4::
+Which mathematical form describes affine mapping?
+{
+= Linear transform + translation
+~ Nonlinear warping
+~ Random sampling
+~ Histogram normalization
+}
+
+::MC5::
+Which is an application of affine alignment?
+{
+= Panorama stitching
+~ JPEG compression
+~ Histogram equalization
+~ White balance
+}
+
+::MC6::
+Which factor challenges affine alignment?
+{
+= Outliers
+~ File size
+~ Color histogram
+~ Audio signals
+}
+
+::MC7::
+Which tool is used to estimate affine parameters?
+{
+= Feature correspondences
+~ Random pixels
+~ PCA eigenfaces
+~ Histogram bins
+}
+
+::MC8::
+Which application domain uses image alignment?
+{
+= Medical imaging
+~ Audio compression
+~ File encryption
+~ White balance
+}
+
+::MC9::
+Which property is NOT preserved in affine transforms?
+{
+= Angles
+~ Parallelism
+~ Straight lines
+~ Collinearity
+}
+
+::MC10::
+Which is true about affine transforms?
+{
+= Combination of linear transformation + translation
+~ Nonlinear deformation
+~ Histogram-based adjustment
+~ Random projection
+}
+
+::MATCH1::
+Match the property to transform.
+{
+= Affine -> Lines and parallelism preserved
+= Euclidean -> Lengths and angles preserved
+= Similarity -> Shape preserved under scale
+= Projective -> Straight lines preserved, not parallelism
+}
+
+::MATCH2::
+Match the operation to category.
+{
+= Translation -> Shift
+= Rotation -> Turn
+= Scaling -> Resize
+= Shearing -> Skew
+}
+
+::MATCH3::
+Match the application to domain.
+{
+= Panorama stitching -> Vision
+= Motion compensation -> Video
+= Registration -> Medical
+= Alignment -> Robotics
+}
+
+::MATCH4::
+Match the problem to challenge.
+{
+= Noise -> Inaccurate parameters
+= Outliers -> Wrong alignment
+= Few correspondences -> Poor estimation
+= Occlusion -> Missing features
+}
+
+::MATCH5::
+Match the transform to property.
+{
+= Affine -> Linear + translation
+= Euclidean -> Rigid, preserves distance
+= Similarity -> Scaled rigid
+= Projective -> Perspective mapping
+}
+
+::MATCH6::
+Match the estimation method to description.
+{
+= Least squares -> Minimizes error
+= RANSAC -> Robust to outliers
+= Feature matching -> Correspondences
+= Optimization -> Refinement
+}
+
+::MATCH7::
+Match the concept to definition.
+{
+= Affine -> Linear + translation
+= Shear -> Skew transformation
+= Scaling -> Size change
+= Translation -> Position shift
+}
+
+::MATCH8::
+Match the technique to robustness.
+{
+= Least squares -> Sensitive to outliers
+= RANSAC -> Robust fitting
+= Robust regression -> Weighted errors
+= Plain mean -> Sensitive
+}
+
+::MATCH9::
+Match the application to example.
+{
+= Vision -> Panorama
+= Medicine -> MRI registration
+= Robotics -> Motion alignment
+= Graphics -> Image warping
+}
+
+::MATCH10::
+Match the feature to role.
+{
+= Corner -> Stable match
+= Edge -> Guideline
+= SIFT -> Descriptor
+= ORB -> Fast descriptor
+}
+
+::MULTI1::
+Which are operations in affine transforms?
+{
+~%25% Translation
+~%25% Rotation
+~%25% Scaling
+~%25% Shearing
+}
+
+::MULTI2::
+Which are preserved by affine mapping?
+{
+~%33.33333% Straight lines
+~%33.33333% Parallelism
+~%33.33333% Collinearity
+~%-100% Angles
+}
+
+::MULTI3::
+Which are applications of affine alignment?
+{
+~%25% Panorama stitching
+~%25% Motion compensation
+~%25% Medical registration
+~%25% Robotics navigation
+}
+
+::MULTI4::
+Which are challenges in affine mapping?
+{
+~%33.33333% Noise
+~%33.33333% Outliers
+~%33.33333% Few correspondences
+~%-100% Always robust
+}
+
+::MULTI5::
+Which are examples of linear + translation transforms?
+{
+~%33.33333% Affine
+~%33.33333% Euclidean
+~%33.33333% Similarity
+~%-100% Nonlinear warping
+}
+
+::MULTI6::
+Which are robust estimation methods?
+{
+~%50% RANSAC
+~%50% Robust regression
+~%-100% Plain least squares
+~%-100% Histogram equalization
+}
+
+::MULTI7::
+Which are feature-based methods for alignment?
+{
+~%33.33333% Corners
+~%33.33333% SIFT
+~%33.33333% ORB
+~%-100% Random pixels
+}
+
+::MULTI8::
+Which are properties of affine transforms?
+{
+~%25% Preserve straight lines
+~%25% Preserve parallelism
+~%25% Allow skewing
+~%25% Allow scaling
+}
+
+::MULTI9::
+Which are domains using affine alignment?
+{
+~%25% Vision
+~%25% Medicine
+~%25% Robotics
+~%25% Graphics
+}
+
+::MULTI10::
+Which are drawbacks of affine mapping?
+{
+~%50% Not angle-preserving
+~%50% Sensitive to noise/outliers
+~%-100% Always nonlinear
+~%-100% Uses no correspondences
+}

@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhich criterion is used in ID3 decision trees?\n{\n= Information gain\n~ Gini index\n~ Margin maximization\n~ PCA variance\n}",
+    "title": "MC1",
+    "question": "Which criterion is used in ID3 decision trees?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Information gain",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Gini index",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Margin maximization",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "PCA variance",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhich criterion is used in CART decision trees?\n{\n= Gini index\n~ Entropy\n~ Ratio test\n~ Cosine similarity\n}",
+    "title": "MC2",
+    "question": "Which criterion is used in CART decision trees?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Gini index",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Entropy",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Ratio test",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Cosine similarity",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhat does entropy measure?\n{\n= Uncertainty\n~ Distance\n~ Compactness\n~ Margin\n}",
+    "title": "MC3",
+    "question": "What does entropy measure?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Uncertainty",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Distance",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Compactness",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Margin",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhat does pruning do in decision trees?\n{\n= Reduces overfitting by removing branches\n~ Adds more splits\n~ Increases complexity\n~ Ignores noise\n}",
+    "title": "MC4",
+    "question": "What does pruning do in decision trees?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Reduces overfitting by removing branches",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Adds more splits",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Increases complexity",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Ignores noise",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhich is a drawback of decision trees?\n{\n= Overfitting\n~ No interpretability\n~ Requires kernel trick\n~ Needs feature independence\n}",
+    "title": "MC5",
+    "question": "Which is a drawback of decision trees?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Overfitting",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "No interpretability",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Requires kernel trick",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Needs feature independence",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich classifier models dependencies with a directed graph?\n{\n= Bayesian networks\n~ Naïve Bayes\n~ Decision trees\n~ kNN\n}",
+    "title": "MC6",
+    "question": "Which classifier models dependencies with a directed graph?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Bayesian networks",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Naïve Bayes",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Decision trees",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "kNN",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich classifier assumes independence of features?\n{\n= Naïve Bayes\n~ Bayesian network\n~ Decision tree\n~ SVM\n}",
+    "title": "MC7",
+    "question": "Which classifier assumes independence of features?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Naïve Bayes",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Bayesian network",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Decision tree",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "SVM",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich is an application of Bayesian networks?\n{\n= Medical diagnosis\n~ Gamma correction\n~ File compression\n~ Histogram equalization\n}",
+    "title": "MC8",
+    "question": "Which is an application of Bayesian networks?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Medical diagnosis",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Gamma correction",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "File compression",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram equalization",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich is an advantage of decision trees?\n{\n= Easy to interpret\n~ Require independence\n~ Always overfit\n~ Black-box model\n}",
+    "title": "MC9",
+    "question": "Which is an advantage of decision trees?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Easy to interpret",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Require independence",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Always overfit",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Black-box model",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich is an advantage of Bayesian networks?\n{\n= Capture feature dependencies\n~ Assume independence\n~ Always linear\n~ Require kernel trick\n}",
+    "title": "MC10",
+    "question": "Which is an advantage of Bayesian networks?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Capture feature dependencies",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Assume independence",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Always linear",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Require kernel trick",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the tree method to splitting criterion.\n{\n= ID3 -> Information gain\n= C4.5 -> Entropy + ratio\n= CART -> Gini index\n= Random forest -> Multiple trees\n}",
+    "title": "MATCH1",
+    "question": "Match the tree method to splitting criterion.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "ID3",
+        "right": "Information gain"
+      },
+      {
+        "id": 2,
+        "left": "C4.5",
+        "right": "Entropy + ratio"
+      },
+      {
+        "id": 3,
+        "left": "CART",
+        "right": "Gini index"
+      },
+      {
+        "id": 4,
+        "left": "Random forest",
+        "right": "Multiple trees"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the concept to definition.\n{\n= Entropy -> Measure of uncertainty\n= Information gain -> Reduction in entropy\n= Gini index -> Impurity measure\n= Pruning -> Reduce overfitting\n}",
+    "title": "MATCH2",
+    "question": "Match the concept to definition.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Entropy",
+        "right": "Measure of uncertainty"
+      },
+      {
+        "id": 2,
+        "left": "Information gain",
+        "right": "Reduction in entropy"
+      },
+      {
+        "id": 3,
+        "left": "Gini index",
+        "right": "Impurity measure"
+      },
+      {
+        "id": 4,
+        "left": "Pruning",
+        "right": "Reduce overfitting"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the classifier to property.\n{\n= Naïve Bayes -> Independence assumption\n= Bayesian network -> Dependency modeling\n= Decision tree -> Rule-based splits\n= SVM -> Margin-based\n}",
+    "title": "MATCH3",
+    "question": "Match the classifier to property.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Naïve Bayes",
+        "right": "Independence assumption"
+      },
+      {
+        "id": 2,
+        "left": "Bayesian network",
+        "right": "Dependency modeling"
+      },
+      {
+        "id": 3,
+        "left": "Decision tree",
+        "right": "Rule-based splits"
+      },
+      {
+        "id": 4,
+        "left": "SVM",
+        "right": "Margin-based"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the classifier to drawback.\n{\n= Naïve Bayes -> Poor with correlated features\n= Bayesian network -> Complex to build\n= Decision tree -> Overfitting\n= Random forest -> Less interpretable\n}",
+    "title": "MATCH4",
+    "question": "Match the classifier to drawback.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Naïve Bayes",
+        "right": "Poor with correlated features"
+      },
+      {
+        "id": 2,
+        "left": "Bayesian network",
+        "right": "Complex to build"
+      },
+      {
+        "id": 3,
+        "left": "Decision tree",
+        "right": "Overfitting"
+      },
+      {
+        "id": 4,
+        "left": "Random forest",
+        "right": "Less interpretable"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the classifier to advantage.\n{\n= Decision tree -> Interpretability\n= Naïve Bayes -> Simplicity\n= Bayesian network -> Dependencies modeled\n= SVM -> Robust boundaries\n}",
+    "title": "MATCH5",
+    "question": "Match the classifier to advantage.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Decision tree",
+        "right": "Interpretability"
+      },
+      {
+        "id": 2,
+        "left": "Naïve Bayes",
+        "right": "Simplicity"
+      },
+      {
+        "id": 3,
+        "left": "Bayesian network",
+        "right": "Dependencies modeled"
+      },
+      {
+        "id": 4,
+        "left": "SVM",
+        "right": "Robust boundaries"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the concept to example.\n{\n= Overfitting -> Tree fits noise\n= Pruning -> Branch removal\n= Information gain -> Entropy reduction\n= Gini index -> Impurity\n}",
+    "title": "MATCH6",
+    "question": "Match the concept to example.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Overfitting",
+        "right": "Tree fits noise"
+      },
+      {
+        "id": 2,
+        "left": "Pruning",
+        "right": "Branch removal"
+      },
+      {
+        "id": 3,
+        "left": "Information gain",
+        "right": "Entropy reduction"
+      },
+      {
+        "id": 4,
+        "left": "Gini index",
+        "right": "Impurity"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the domain to application.\n{\n= Medicine -> Diagnosis\n= Security -> Intrusion detection\n= Industry -> Defect classification\n= NLP -> Text categorization\n}",
+    "title": "MATCH7",
+    "question": "Match the domain to application.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Medicine",
+        "right": "Diagnosis"
+      },
+      {
+        "id": 2,
+        "left": "Security",
+        "right": "Intrusion detection"
+      },
+      {
+        "id": 3,
+        "left": "Industry",
+        "right": "Defect classification"
+      },
+      {
+        "id": 4,
+        "left": "NLP",
+        "right": "Text categorization"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the splitting method to weakness.\n{\n= Entropy -> Biased to many values\n= Gini index -> Similar classes confusion\n= Information gain -> Requires log computation\n= Ratio gain -> Balances entropy bias\n}",
+    "title": "MATCH8",
+    "question": "Match the splitting method to weakness.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Entropy",
+        "right": "Biased to many values"
+      },
+      {
+        "id": 2,
+        "left": "Gini index",
+        "right": "Similar classes confusion"
+      },
+      {
+        "id": 3,
+        "left": "Information gain",
+        "right": "Requires log computation"
+      },
+      {
+        "id": 4,
+        "left": "Ratio gain",
+        "right": "Balances entropy bias"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the classifier to learning type.\n{\n= Decision tree -> Supervised\n= Naïve Bayes -> Supervised\n= Bayesian network -> Probabilistic\n= PCA -> Unsupervised reduction\n}",
+    "title": "MATCH9",
+    "question": "Match the classifier to learning type.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Decision tree",
+        "right": "Supervised"
+      },
+      {
+        "id": 2,
+        "left": "Naïve Bayes",
+        "right": "Supervised"
+      },
+      {
+        "id": 3,
+        "left": "Bayesian network",
+        "right": "Probabilistic"
+      },
+      {
+        "id": 4,
+        "left": "PCA",
+        "right": "Unsupervised reduction"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the network to description.\n{\n= Bayesian network -> Graph of dependencies\n= Naïve Bayes -> Independence assumption\n= Decision tree -> Rule-based model\n= Random forest -> Ensemble of trees\n}",
+    "title": "MATCH10",
+    "question": "Match the network to description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Bayesian network",
+        "right": "Graph of dependencies"
+      },
+      {
+        "id": 2,
+        "left": "Naïve Bayes",
+        "right": "Independence assumption"
+      },
+      {
+        "id": 3,
+        "left": "Decision tree",
+        "right": "Rule-based model"
+      },
+      {
+        "id": 4,
+        "left": "Random forest",
+        "right": "Ensemble of trees"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are splitting criteria in decision trees?\n{\n~%33.33333% Entropy\n~%33.33333% Information gain\n~%33.33333% Gini index\n~%-100% Histogram bins\n}",
+    "title": "MULTI1",
+    "question": "Which are splitting criteria in decision trees?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Entropy",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Information gain",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Gini index",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Histogram bins",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are causes of overfitting?\n{\n~%50% Too many splits\n~%50% Noise in training data\n~%-100% Pruning\n~%-100% Small trees\n}",
+    "title": "MULTI2",
+    "question": "Which are causes of overfitting?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Too many splits",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Noise in training data",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Pruning",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Small trees",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are methods to reduce overfitting?\n{\n~%50% Pruning\n~%50% Ensemble methods (random forest)\n~%-100% Adding noise\n~%-100% Ignoring training data\n}",
+    "title": "MULTI3",
+    "question": "Which are methods to reduce overfitting?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Pruning",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Ensemble methods (random forest)",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Adding noise",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Ignoring training data",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are properties of Naïve Bayes?\n{\n~%33.33333% Probabilistic\n~%33.33333% Assumes independence\n~%33.33333% Simple\n~%-100% Dependency modeling\n}",
+    "title": "MULTI4",
+    "question": "Which are properties of Naïve Bayes?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Probabilistic",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Assumes independence",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Simple",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Dependency modeling",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are properties of Bayesian networks?\n{\n~%33.33333% Probabilistic\n~%33.33333% Graph-based\n~%33.33333% Model dependencies\n~%-100% Assume independence only\n}",
+    "title": "MULTI5",
+    "question": "Which are properties of Bayesian networks?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Probabilistic",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Graph-based",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Model dependencies",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Assume independence only",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are drawbacks of decision trees?\n{\n~%33.33333% Overfitting\n~%33.33333% Instability\n~%33.33333% Biased splits\n~%-100% Perfect robustness\n}",
+    "title": "MULTI6",
+    "question": "Which are drawbacks of decision trees?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Overfitting",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Instability",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Biased splits",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Perfect robustness",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are applications of Bayesian networks?\n{\n~%25% Medical diagnosis\n~%25% Risk assessment\n~%25% Fault detection\n~%25% Text classification\n}",
+    "title": "MULTI7",
+    "question": "Which are applications of Bayesian networks?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Medical diagnosis",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Risk assessment",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Fault detection",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Text classification",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are applications of decision trees?\n{\n~%25% Medical diagnosis\n~%25% Industrial defect detection\n~%25% Spam filtering\n~%25% Pattern classification\n}",
+    "title": "MULTI8",
+    "question": "Which are applications of decision trees?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Medical diagnosis",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Industrial defect detection",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Spam filtering",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Pattern classification",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are advantages of Bayesian classifiers?\n{\n~%33.33333% Simplicity\n~%33.33333% Probabilistic reasoning\n~%33.33333% Can handle uncertainty\n~%-100% Overfit always\n}",
+    "title": "MULTI9",
+    "question": "Which are advantages of Bayesian classifiers?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Simplicity",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Probabilistic reasoning",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Can handle uncertainty",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Overfit always",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are decision tree methods?\n{\n~%33.33333% ID3\n~%33.33333% C4.5\n~%33.33333% CART\n~%-100% PCA\n}",
+    "title": "MULTI10",
+    "question": "Which are decision tree methods?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "ID3",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "C4.5",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "CART",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "PCA",
+        "weight": -100.0
+      }
+    ]
+  }
+]

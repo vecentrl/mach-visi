@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhat type of transformation is a homography?\n{\n= Projective\n~ Affine\n~ Euclidean\n~ Similarity\n}",
+    "title": "MC1",
+    "question": "What type of transformation is a homography?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Projective",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Affine",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Euclidean",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Similarity",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nHow is a homography represented mathematically?\n{\n= 3×3 matrix\n~ 2×2 matrix\n~ 4×4 matrix\n~ 1×3 vector\n}",
+    "title": "MC2",
+    "question": "How is a homography represented mathematically?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "3×3 matrix",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "2×2 matrix",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "4×4 matrix",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "1×3 vector",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhich property does a homography preserve?\n{\n= Straight lines\n~ Parallelism\n~ Lengths\n~ Angles\n}",
+    "title": "MC3",
+    "question": "Which property does a homography preserve?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Straight lines",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Parallelism",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Lengths",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Angles",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhich is an advantage of homography over affine mapping?\n{\n= Can model perspective\n~ Preserves parallelism\n~ Requires fewer correspondences\n~ Always angle-preserving\n}",
+    "title": "MC4",
+    "question": "Which is an advantage of homography over affine mapping?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Can model perspective",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Preserves parallelism",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Requires fewer correspondences",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Always angle-preserving",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhich is required to compute a homography?\n{\n= Four point correspondences\n~ Three point correspondences\n~ One line correspondence\n~ Histogram bins\n}",
+    "title": "MC5",
+    "question": "Which is required to compute a homography?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Four point correspondences",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Three point correspondences",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "One line correspondence",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram bins",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich is an application of homographies?\n{\n= Image rectification\n~ Histogram equalization\n~ JPEG compression\n~ White balance\n}",
+    "title": "MC6",
+    "question": "Which is an application of homographies?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Image rectification",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "JPEG compression",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "White balance",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich is a challenge in homography estimation?\n{\n= Collinear points\n~ Parallel preservation\n~ Always noise-free\n~ File size\n}",
+    "title": "MC7",
+    "question": "Which is a challenge in homography estimation?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Collinear points",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Parallel preservation",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Always noise-free",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "File size",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich domain uses homographies?\n{\n= Camera calibration\n~ Audio compression\n~ File encryption\n~ Histogram smoothing\n}",
+    "title": "MC8",
+    "question": "Which domain uses homographies?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Camera calibration",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Audio compression",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "File encryption",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram smoothing",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich is true about affine vs. homography?\n{\n= Homography is more general\n~ Affine is more general\n~ Both identical\n~ Both preserve parallelism\n}",
+    "title": "MC9",
+    "question": "Which is true about affine vs. homography?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Homography is more general",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Affine is more general",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Both identical",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Both preserve parallelism",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich factor affects homography accuracy?\n{\n= Noise and outliers\n~ File format\n~ Gamma encoding\n~ JPEG compression\n}",
+    "title": "MC10",
+    "question": "Which factor affects homography accuracy?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Noise and outliers",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "File format",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Gamma encoding",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "JPEG compression",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the transformation to generality.\n{\n= Euclidean -> Distances/angles preserved\n= Similarity -> Scale + rotation\n= Affine -> Parallelism preserved\n= Homography -> Perspective mapping\n}",
+    "title": "MATCH1",
+    "question": "Match the transformation to generality.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Euclidean",
+        "right": "Distances/angles preserved"
+      },
+      {
+        "id": 2,
+        "left": "Similarity",
+        "right": "Scale + rotation"
+      },
+      {
+        "id": 3,
+        "left": "Affine",
+        "right": "Parallelism preserved"
+      },
+      {
+        "id": 4,
+        "left": "Homography",
+        "right": "Perspective mapping"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the application to homography.\n{\n= Panorama -> Align images\n= Rectification -> Deskew documents\n= Calibration -> Camera geometry\n= Augmented reality -> Plane mapping\n}",
+    "title": "MATCH2",
+    "question": "Match the application to homography.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Panorama",
+        "right": "Align images"
+      },
+      {
+        "id": 2,
+        "left": "Rectification",
+        "right": "Deskew documents"
+      },
+      {
+        "id": 3,
+        "left": "Calibration",
+        "right": "Camera geometry"
+      },
+      {
+        "id": 4,
+        "left": "Augmented reality",
+        "right": "Plane mapping"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the challenge to effect.\n{\n= Noise -> Inaccurate matrix\n= Outliers -> Wrong mapping\n= Collinear -> Degenerate case\n= Few points -> Insufficient data\n}",
+    "title": "MATCH3",
+    "question": "Match the challenge to effect.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Noise",
+        "right": "Inaccurate matrix"
+      },
+      {
+        "id": 2,
+        "left": "Outliers",
+        "right": "Wrong mapping"
+      },
+      {
+        "id": 3,
+        "left": "Collinear",
+        "right": "Degenerate case"
+      },
+      {
+        "id": 4,
+        "left": "Few points",
+        "right": "Insufficient data"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the concept to requirement.\n{\n= Affine -> 3 points\n= Homography -> 4 points\n= RANSAC -> Robust fitting\n= Least squares -> Error minimization\n}",
+    "title": "MATCH4",
+    "question": "Match the concept to requirement.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Affine",
+        "right": "3 points"
+      },
+      {
+        "id": 2,
+        "left": "Homography",
+        "right": "4 points"
+      },
+      {
+        "id": 3,
+        "left": "RANSAC",
+        "right": "Robust fitting"
+      },
+      {
+        "id": 4,
+        "left": "Least squares",
+        "right": "Error minimization"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the method to domain.\n{\n= Homography -> Panorama\n= Affine -> Motion compensation\n= Euclidean -> Rigid transform\n= Projective -> Perspective\n}",
+    "title": "MATCH5",
+    "question": "Match the method to domain.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Homography",
+        "right": "Panorama"
+      },
+      {
+        "id": 2,
+        "left": "Affine",
+        "right": "Motion compensation"
+      },
+      {
+        "id": 3,
+        "left": "Euclidean",
+        "right": "Rigid transform"
+      },
+      {
+        "id": 4,
+        "left": "Projective",
+        "right": "Perspective"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the property to transformation.\n{\n= Preserves parallelism -> Affine\n= Preserves perspective -> Homography\n= Preserves angles -> Euclidean\n= Preserves ratios of lengths -> Similarity\n}",
+    "title": "MATCH6",
+    "question": "Match the property to transformation.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Preserves parallelism",
+        "right": "Affine"
+      },
+      {
+        "id": 2,
+        "left": "Preserves perspective",
+        "right": "Homography"
+      },
+      {
+        "id": 3,
+        "left": "Preserves angles",
+        "right": "Euclidean"
+      },
+      {
+        "id": 4,
+        "left": "Preserves ratios of lengths",
+        "right": "Similarity"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the application to field.\n{\n= Vision -> Panorama stitching\n= Medicine -> Image rectification\n= Robotics -> Pose estimation\n= Graphics -> Texture mapping\n}",
+    "title": "MATCH7",
+    "question": "Match the application to field.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Vision",
+        "right": "Panorama stitching"
+      },
+      {
+        "id": 2,
+        "left": "Medicine",
+        "right": "Image rectification"
+      },
+      {
+        "id": 3,
+        "left": "Robotics",
+        "right": "Pose estimation"
+      },
+      {
+        "id": 4,
+        "left": "Graphics",
+        "right": "Texture mapping"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the limitation to algorithm.\n{\n= Affine -> Cannot model perspective\n= Homography -> Needs 4 points\n= Euclidean -> Too rigid\n= Similarity -> No shear\n}",
+    "title": "MATCH8",
+    "question": "Match the limitation to algorithm.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Affine",
+        "right": "Cannot model perspective"
+      },
+      {
+        "id": 2,
+        "left": "Homography",
+        "right": "Needs 4 points"
+      },
+      {
+        "id": 3,
+        "left": "Euclidean",
+        "right": "Too rigid"
+      },
+      {
+        "id": 4,
+        "left": "Similarity",
+        "right": "No shear"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the parameter to description.\n{\n= h11..h33 -> Homography matrix elements\n= Correspondences -> Data points\n= Outliers -> Errors\n= Residual -> Fitting error\n}",
+    "title": "MATCH9",
+    "question": "Match the parameter to description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "h11..h33",
+        "right": "Homography matrix elements"
+      },
+      {
+        "id": 2,
+        "left": "Correspondences",
+        "right": "Data points"
+      },
+      {
+        "id": 3,
+        "left": "Outliers",
+        "right": "Errors"
+      },
+      {
+        "id": 4,
+        "left": "Residual",
+        "right": "Fitting error"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the technique to robustness.\n{\n= Least squares -> Sensitive\n= RANSAC -> Robust\n= Normalization -> Improves stability\n= Iterative refinement -> Accuracy\n}",
+    "title": "MATCH10",
+    "question": "Match the technique to robustness.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Least squares",
+        "right": "Sensitive"
+      },
+      {
+        "id": 2,
+        "left": "RANSAC",
+        "right": "Robust"
+      },
+      {
+        "id": 3,
+        "left": "Normalization",
+        "right": "Improves stability"
+      },
+      {
+        "id": 4,
+        "left": "Iterative refinement",
+        "right": "Accuracy"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are properties of homographies?\n{\n~%25% Projective\n~%25% 3×3 matrix\n~%25% Preserve lines\n~%25% Allow perspective\n}",
+    "title": "MULTI1",
+    "question": "Which are properties of homographies?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Projective",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "3×3 matrix",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Preserve lines",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Allow perspective",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are NOT preserved in homography?\n{\n~%50% Parallelism\n~%50% Lengths/angles\n~%-100% Straight lines\n~%-100% Collinearity\n}",
+    "title": "MULTI2",
+    "question": "Which are NOT preserved in homography?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Parallelism",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Lengths/angles",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Straight lines",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Collinearity",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are applications of homographies?\n{\n~%25% Panorama stitching\n~%25% Rectification\n~%25% Camera calibration\n~%25% Augmented reality\n}",
+    "title": "MULTI3",
+    "question": "Which are applications of homographies?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Panorama stitching",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Rectification",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Camera calibration",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Augmented reality",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are challenges in homography estimation?\n{\n~%25% Noise\n~%25% Outliers\n~%25% Collinear points\n~%25% Degenerate data\n}",
+    "title": "MULTI4",
+    "question": "Which are challenges in homography estimation?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Noise",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Outliers",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Collinear points",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Degenerate data",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are examples of projective transformations?\n{\n~%50% Homography\n~%50% Perspective mapping\n~%-100% Affine\n~%-100% Euclidean\n}",
+    "title": "MULTI5",
+    "question": "Which are examples of projective transformations?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Homography",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Perspective mapping",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Affine",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Euclidean",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are estimation methods for homographies?\n{\n~%33.33333% Four correspondences\n~%33.33333% Least squares\n~%33.33333% RANSAC\n~%-100% Histogram bins\n}",
+    "title": "MULTI6",
+    "question": "Which are estimation methods for homographies?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Four correspondences",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Least squares",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "RANSAC",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Histogram bins",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are limitations of affine mapping compared to homography?\n{\n~%33.33333% Cannot model perspective\n~%33.33333% Less general\n~%33.33333% Only linear + translation\n~%-100% Handles perspective always\n}",
+    "title": "MULTI7",
+    "question": "Which are limitations of affine mapping compared to homography?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Cannot model perspective",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Less general",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Only linear + translation",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Handles perspective always",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are transformations more general than affine?\n{\n~%33.33333% Homography\n~%33.33333% Projective mapping\n~%33.33333% Perspective transform\n~%-100% Euclidean\n}",
+    "title": "MULTI8",
+    "question": "Which are transformations more general than affine?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Homography",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Projective mapping",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Perspective transform",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Euclidean",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are applications of homographies in AR/VR?\n{\n~%33.33333% Plane mapping\n~%33.33333% Viewpoint correction\n~%33.33333% Texture alignment\n~%-100% Audio filtering\n}",
+    "title": "MULTI9",
+    "question": "Which are applications of homographies in AR/VR?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Plane mapping",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Viewpoint correction",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Texture alignment",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Audio filtering",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are benefits of homographies?\n{\n~%25% Handle perspective\n~%25% Enable panoramas\n~%25% Rectify tilted images\n~%25% Camera calibration\n}",
+    "title": "MULTI10",
+    "question": "Which are benefits of homographies?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Handle perspective",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Enable panoramas",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Rectify tilted images",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Camera calibration",
+        "weight": 25.0
+      }
+    ]
+  }
+]

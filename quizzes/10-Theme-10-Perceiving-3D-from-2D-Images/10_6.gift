@@ -1,0 +1,309 @@
+::TF1::
+Stereo correspondence means finding matching points in two images.
+{TRUE}
+
+::TF2::
+Disparity between corresponding points provides depth information.
+{TRUE}
+
+::TF3::
+Epipolar geometry reduces correspondence search to a line.
+{TRUE}
+
+::TF4::
+An epipolar plane passes through both camera centers and a 3D point.
+{TRUE}
+
+::TF5::
+Epipolar lines are projections of the epipolar plane in each image.
+{TRUE}
+
+::TF6::
+The epipole is the intersection of the baseline with the image plane.
+{TRUE}
+
+::TF7::
+The fundamental matrix relates points between two stereo images.
+{TRUE}
+
+::TF8::
+Without epipolar geometry, correspondence search would be 2D in the image.
+{TRUE}
+
+::TF9::
+Stereo correspondence is never affected by occlusion.
+{FALSE}
+
+::TF10::
+Stereo vision is used in robotics and autonomous driving.
+{TRUE}
+
+::MC1::
+What does disparity in stereo vision provide?
+{
+= Depth
+~ Brightness
+~ Color
+~ Texture
+}
+
+::MC2::
+What is the stereo correspondence problem?
+{
+= Finding matching points in two views
+~ Detecting corners
+~ Filtering images
+~ Reducing noise
+}
+
+::MC3::
+What is an epipolar plane?
+{
+= Plane through two camera centers and a 3D point
+~ Any image plane
+~ Plane through one camera only
+~ Always horizontal
+}
+
+::MC4::
+What is an epipolar line?
+{
+= Projection of the epipolar plane into an image
+~ A histogram line
+~ A random edge
+~ A depth contour
+}
+
+::MC5::
+What does the epipole represent?
+{
+= Intersection of the baseline with the image plane
+~ A corner point
+~ The center of projection
+~ The disparity map
+}
+
+::MC6::
+What matrix encodes epipolar geometry?
+{
+= Fundamental matrix
+~ Covariance matrix
+~ Transformation matrix
+~ Histogram matrix
+}
+
+::MC7::
+What is the advantage of epipolar geometry?
+{
+= Reduces search to 1D along lines
+~ Requires no calibration
+~ Avoids disparity
+~ Eliminates occlusion
+}
+
+::MC8::
+Which is an application of stereo vision?
+{
+= 3D reconstruction
+~ JPEG compression
+~ Audio filtering
+~ Histogram equalization
+}
+
+::MC9::
+Which is a challenge in stereo matching?
+{
+= Textureless regions
+~ Always robust
+~ Infinite accuracy
+~ Perfect occlusion handling
+}
+
+::MC10::
+Which field uses stereo correspondence?
+{
+= Autonomous vehicles
+~ Audio compression
+~ File encryption
+~ Gamma correction
+}
+
+::MATCH1::
+Match the concept to definition.
+{
+= Disparity -> Difference between image positions
+= Epipolar line -> Projection of epipolar plane
+= Epipole -> Baseline intersection
+= Fundamental matrix -> Relates image points
+}
+
+::MATCH2::
+Match the problem to cause.
+{
+= Occlusion -> Hidden regions
+= Textureless -> Ambiguous match
+= Repetitive patterns -> Wrong match
+= Calibration error -> Wrong geometry
+}
+
+::MATCH3::
+Match the application to field.
+{
+= Depth maps -> Vision
+= 3D reconstruction -> Graphics
+= Obstacle detection -> Robotics
+= Navigation -> Autonomous vehicles
+}
+
+::MATCH4::
+Match the element to geometry.
+{
+= Epipolar plane -> Through both cameras
+= Epipolar line -> Image projection
+= Epipole -> Baseline intersection
+= Camera baseline -> Between centers
+}
+
+::MATCH5::
+Match the advantage to method.
+{
+= Epipolar geometry -> 1D search
+= Disparity -> Depth
+= Stereo -> Dense maps
+= RANSAC -> Robust fitting
+}
+
+::MATCH6::
+Match the matrix to use.
+{
+= Fundamental matrix -> Two-view geometry
+= Essential matrix -> Calibrated stereo
+= Homography -> Planar mapping
+= Affine -> Linear mapping
+}
+
+::MATCH7::
+Match the stereo concept to description.
+{
+= Correspondence -> Match points
+= Disparity -> Pixel shift
+= Depth -> Inverse of disparity
+= Occlusion -> Missing info
+}
+
+::MATCH8::
+Match the step to process.
+{
+= Calibration -> Camera geometry
+= Rectification -> Align epipolar lines
+= Matching -> Correspondences
+= Depth map -> Output
+}
+
+::MATCH9::
+Match the field to application.
+{
+= Robotics -> Obstacle detection
+= Vision -> 3D reconstruction
+= Medicine -> Imaging
+= Automotive -> Driving
+}
+
+::MATCH10::
+Match the challenge to mitigation.
+{
+= Occlusion -> Ignore mismatched regions
+= Textureless -> Regularization
+= Repetitive -> Context info
+= Noise -> Filtering
+}
+
+::MULTI1::
+Which are steps in stereo vision?
+{
+~%25% Calibration
+~%25% Rectification
+~%25% Matching
+~%25% Depth estimation
+}
+
+::MULTI2::
+Which are elements of epipolar geometry?
+{
+~%25% Epipolar plane
+~%25% Epipolar line
+~%25% Epipole
+~%25% Fundamental matrix
+}
+
+::MULTI3::
+Which are challenges in stereo correspondence?
+{
+~%25% Occlusion
+~%25% Textureless areas
+~%25% Repetitive patterns
+~%25% Calibration errors
+}
+
+::MULTI4::
+Which are applications of stereo vision?
+{
+~%25% Depth maps
+~%25% 3D reconstruction
+~%25% Robotics
+~%25% Autonomous vehicles
+}
+
+::MULTI5::
+Which are properties of the fundamental matrix?
+{
+~%33.33333% Encodes epipolar geometry
+~%33.33333% Relates image points
+~%33.33333% Rank 2
+~%-100% Preserves parallelism
+}
+
+::MULTI6::
+Which are preserved by homography, not stereo?
+{
+~%50% Planar mapping
+~%50% Perspective mapping
+~%-100% Disparity
+~%-100% Depth
+}
+
+::MULTI7::
+Which are advantages of epipolar geometry?
+{
+~%33.33333% Reduces correspondence search
+~%33.33333% Relates images mathematically
+~%33.33333% Supports depth recovery
+~%-100% Ignores calibration
+}
+
+::MULTI8::
+Which are cues for stereo correspondence?
+{
+~%50% Texture
+~%50% Edges
+~%-100% Audio
+~%-100% Color balance
+}
+
+::MULTI9::
+Which are limitations of stereo vision?
+{
+~%25% Occlusion
+~%25% Textureless regions
+~%25% Repetitive patterns
+~%25% Calibration sensitivity
+}
+
+::MULTI10::
+Which domains use stereo correspondence?
+{
+~%25% Robotics
+~%25% Autonomous driving
+~%25% Vision
+~%25% Medicine
+}

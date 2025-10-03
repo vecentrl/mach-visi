@@ -1,0 +1,309 @@
+::TF1::
+The k-Nearest Neighbor (kNN) classifier uses multiple nearest samples for classification.
+{TRUE}
+
+::TF2::
+If k equals 1, kNN reduces to standard Nearest Neighbor.
+{TRUE}
+
+::TF3::
+A larger k value makes kNN more robust to noise.
+{TRUE}
+
+::TF4::
+Too large a k may oversmooth class boundaries.
+{TRUE}
+
+::TF5::
+kNN requires storing the entire training dataset.
+{TRUE}
+
+::TF6::
+Decision boundaries in NN classifiers are often irregular.
+{TRUE}
+
+::TF7::
+Centroid classifiers create linear decision boundaries between class means.
+{TRUE}
+
+::TF8::
+kNN classification requires computing distances to training samples at test time.
+{TRUE}
+
+::TF9::
+The choice of distance metric affects NN and kNN classification.
+{TRUE}
+
+::TF10::
+kNN is used in applications like handwriting and image recognition.
+{TRUE}
+
+::MC1::
+What does kNN classification use?
+{
+= Majority vote among k closest samples
+~ Only class centroids
+~ Decision tree rules
+~ Histogram bins
+}
+
+::MC2::
+What happens when k equals 1 in kNN?
+{
+= Same as Nearest Neighbor
+~ Same as Centroid
+~ Always perfect
+~ Ignores training data
+}
+
+::MC3::
+What is the effect of large k in kNN?
+{
+= Smoother boundaries, less noise sensitivity
+~ Always better accuracy
+~ More irregular boundaries
+~ Ignores neighbors
+}
+
+::MC4::
+Which classifier creates linear decision boundaries?
+{
+= Nearest Centroid
+~ NN
+~ kNN
+~ Decision trees
+}
+
+::MC5::
+Which classifier produces irregular decision boundaries?
+{
+= Nearest Neighbor
+~ Centroid
+~ Linear regression
+~ PCA
+}
+
+::MC6::
+Which factor influences kNN performance?
+{
+= Choice of k
+~ Histogram bins
+~ Gamma value
+~ File format
+}
+
+::MC7::
+Which is a drawback of kNN?
+{
+= High computation at classification time
+~ No distance needed
+~ Ignores training data
+~ Creates centroids
+}
+
+::MC8::
+Which method reduces storage cost in distance classifiers?
+{
+= Centroid
+~ NN
+~ kNN
+~ Histogram
+}
+
+::MC9::
+Which application benefits from kNN?
+{
+= Handwriting recognition
+~ Gamma correction
+~ White balance
+~ Histogram equalization
+}
+
+::MC10::
+Which affects decision boundary shape?
+{
+= Classifier type (NN vs. Centroid)
+~ File format
+~ Gamma encoding
+~ JPEG compression
+}
+
+::MATCH1::
+Match the classifier to boundary.
+{
+= NN -> Irregular
+= Centroid -> Linear
+= kNN -> Smoother with k
+= SVM -> Margin-based
+}
+
+::MATCH2::
+Match the classifier to requirement.
+{
+= NN -> Store all data
+= Centroid -> Store class means
+= kNN -> Compute majority of neighbors
+= PCA -> Reduce dimensions
+}
+
+::MATCH3::
+Match the classifier to drawback.
+{
+= NN -> Noise sensitivity
+= Centroid -> Oversimplification
+= kNN -> Computational cost
+= All -> Distance choice matters
+}
+
+::MATCH4::
+Match the classifier to application.
+{
+= NN -> Retrieval
+= Centroid -> Face recognition
+= kNN -> Handwriting recognition
+= All -> Pattern recognition
+}
+
+::MATCH5::
+Match the parameter k to effect.
+{
+= k=1 -> Noise sensitive
+= Small k -> Flexible boundaries
+= Large k -> Robust, smooth
+= Too large k -> Oversmoothing
+}
+
+::MATCH6::
+Match the distance metric to property.
+{
+= Euclidean -> L2 norm
+= Manhattan -> L1 norm
+= Cosine -> Angle similarity
+= Mahalanobis -> Accounts for variance
+}
+
+::MATCH7::
+Match the decision boundary to description.
+{
+= NN -> Complex, irregular
+= Centroid -> Linear midplane
+= kNN -> Balance of smoothness
+= SVM -> Hyperplane margin
+}
+
+::MATCH8::
+Match the classifier to storage.
+{
+= NN -> All training samples
+= Centroid -> Class mean
+= kNN -> All samples + parameter k
+= PCA -> Reduced data
+}
+
+::MATCH9::
+Match the factor to influence.
+{
+= Distance metric -> Classification result
+= Value of k -> Boundary smoothness
+= Training data size -> Computation
+= Noise -> Misclassification
+}
+
+::MATCH10::
+Match the classifier to strength.
+{
+= NN -> Simplicity
+= Centroid -> Efficiency
+= kNN -> Robust with larger k
+= All -> Easy to understand
+}
+
+::MULTI1::
+Which are distance-based classifiers?
+{
+~%33.33333% NN
+~%33.33333% Centroid
+~%33.33333% kNN
+~%-100% Decision trees
+}
+
+::MULTI2::
+Which are properties of kNN?
+{
+~%33.33333% Uses multiple neighbors
+~%33.33333% Sensitive to k choice
+~%33.33333% Requires distance computation
+~%-100% Uses only centroids
+}
+
+::MULTI3::
+Which are advantages of NN/kNN?
+{
+~%50% Simple
+~%50% Intuitive
+~%-100% Always most efficient
+~%-100% Ignore training data
+}
+
+::MULTI4::
+Which are drawbacks of NN/kNN?
+{
+~%25% Sensitive to noise
+~%25% Computational cost
+~%25% High storage
+~%25% Scale sensitivity
+}
+
+::MULTI5::
+Which are advantages of Centroid classification?
+{
+~%33.33333% Compact storage
+~%33.33333% Fast classification
+~%33.33333% Simple decision boundaries
+~%-100% Requires storing all samples
+}
+
+::MULTI6::
+Which are limitations of Centroid classification?
+{
+~%50% Oversimplifies boundaries
+~%50% Fails with overlapping classes
+~%-100% Stores all data
+~%-100% Always robust
+}
+
+::MULTI7::
+Which affect decision boundaries?
+{
+~%33.33333% Classifier type
+~%33.33333% Value of k
+~%33.33333% Distance metric
+~%-100% File compression
+}
+
+::MULTI8::
+Which are common applications of distance classifiers?
+{
+~%25% Retrieval
+~%25% Recognition
+~%25% Classification
+~%25% Pattern analysis
+}
+
+::MULTI9::
+Which are challenges for NN/kNN?
+{
+~%33.33333% Noise
+~%33.33333% High computation
+~%33.33333% Scaling
+~%-100% Always robust
+}
+
+::MULTI10::
+Which are examples of distance metrics?
+{
+~%25% Euclidean
+~%25% Manhattan
+~%25% Cosine
+~%25% Mahalanobis
+}

@@ -1,0 +1,309 @@
+::TF1::
+Otsu’s method finds an optimal threshold by maximizing between-class variance.
+{TRUE}
+
+::TF2::
+Global thresholding always works well in images with uneven illumination.
+{FALSE}
+
+::TF3::
+Adaptive thresholding uses local neighborhoods to determine thresholds.
+{TRUE}
+
+::TF4::
+Color segmentation can be performed directly in HSV color space.
+{TRUE}
+
+::TF5::
+RGB is often not the best color space for robust segmentation.
+{TRUE}
+
+::TF6::
+CIELAB is a perceptually uniform color space useful for segmentation.
+{TRUE}
+
+::TF7::
+Color segmentation can separate objects based on chromaticity rather than intensity.
+{TRUE}
+
+::TF8::
+Overlapping color distributions can make color segmentation difficult.
+{TRUE}
+
+::TF9::
+Advanced thresholding is always immune to noise.
+{FALSE}
+
+::TF10::
+Color segmentation is used in object tracking and inspection tasks.
+{TRUE}
+
+::MC1::
+Which algorithm automatically determines a global threshold?
+{
+= Otsu’s method
+~ Histogram equalization
+~ White patch
+~ Retinex
+}
+
+::MC2::
+Which method adapts thresholds to local variations?
+{
+= Adaptive thresholding
+~ Global thresholding
+~ Otsu’s method only
+~ Fourier filtering
+}
+
+::MC3::
+Which color space is perceptually uniform?
+{
+= CIELAB
+~ RGB
+~ HSV
+~ CMYK
+}
+
+::MC4::
+Which color space separates hue, saturation, and value?
+{
+= HSV
+~ RGB
+~ CIE XYZ
+~ CMYK
+}
+
+::MC5::
+Which task benefits from color segmentation?
+{
+= Object tracking
+~ Gamma correction
+~ File compression
+~ Histogram equalization
+}
+
+::MC6::
+Which is a drawback of global thresholding?
+{
+= Fails under uneven illumination
+~ Always slow
+~ Works only in color images
+~ Independent of histogram
+}
+
+::MC7::
+Which assumption underlies Otsu’s method?
+{
+= Image histogram has bimodal distribution
+~ All pixels are uniform
+~ Noise dominates
+~ Always multimodal
+}
+
+::MC8::
+Which challenge affects color segmentation?
+{
+= Overlapping color distributions
+~ Perfect separation
+~ Uniform illumination always
+~ Infinite resolution
+}
+
+::MC9::
+Which domain is adaptive thresholding most useful for?
+{
+= Unevenly illuminated images
+~ Perfectly uniform scenes
+~ Binary images
+~ File compression
+}
+
+::MC10::
+Which color model is used in printing but not ideal for segmentation?
+{
+= CMYK
+~ RGB
+~ HSV
+~ CIELAB
+}
+
+::MATCH1::
+Match the method to its description.
+{
+= Otsu’s method -> Maximizes between-class variance
+= Adaptive thresholding -> Local neighborhood thresholds
+= Global thresholding -> Single cutoff for whole image
+= Color segmentation -> Uses chromatic information
+}
+
+::MATCH2::
+Match the color space to its property.
+{
+= RGB -> Device-dependent
+= HSV -> Hue, saturation, value separation
+= CIELAB -> Perceptually uniform
+= CMYK -> Printing model
+}
+
+::MATCH3::
+Match the challenge to the effect.
+{
+= Uneven illumination -> Fails global thresholding
+= Noise -> Misclassified pixels
+= Overlapping distributions -> Hard color separation
+= Varying light -> Unstable segmentation
+}
+
+::MATCH4::
+Match the application to segmentation type.
+{
+= Object tracking -> Color segmentation
+= Medical imaging -> Adaptive thresholding
+= Industrial inspection -> Otsu’s method
+= Scene understanding -> Region segmentation
+}
+
+::MATCH5::
+Match the algorithm to the assumption.
+{
+= Otsu -> Bimodal histogram
+= Adaptive -> Local variation
+= Global -> Uniform illumination
+= Retinex -> Human perception model
+}
+
+::MATCH6::
+Match the space to its use.
+{
+= RGB -> Raw camera output
+= HSV -> Color segmentation
+= CIELAB -> Perceptual comparison
+= CMYK -> Printing
+}
+
+::MATCH7::
+Match the segmentation type to an example.
+{
+= Global thresholding -> Simple black/white separation
+= Adaptive thresholding -> Uneven lighting correction
+= Otsu’s method -> Automatic threshold finding
+= Color segmentation -> Fruit detection
+}
+
+::MATCH8::
+Match the factor to the method.
+{
+= Illumination variation -> Adaptive thresholding
+= Bimodal histogram -> Otsu’s method
+= Device dependence -> RGB
+= Printing -> CMYK
+}
+
+::MATCH9::
+Match the type to its limitation.
+{
+= Global thresholding -> Sensitive to illumination
+= Adaptive thresholding -> Computationally heavier
+= Otsu -> Needs bimodal histogram
+= Color segmentation -> Overlapping colors
+}
+
+::MATCH10::
+Match the technique to its domain.
+{
+= Otsu -> Industrial imaging
+= Adaptive threshold -> Document scanning
+= HSV segmentation -> Object tracking
+= CIELAB -> Perceptual segmentation
+}
+
+::MULTI1::
+Which are advanced thresholding methods?
+{
+~%50% Otsu’s method
+~%50% Adaptive thresholding
+~%-100% Global thresholding only
+~%-100% JPEG compression
+}
+
+::MULTI2::
+Which are color spaces useful for segmentation?
+{
+~%33.33333% HSV
+~%33.33333% CIELAB
+~%33.33333% CIE XYZ
+~%-100% CMYK
+}
+
+::MULTI3::
+Which are limitations of global thresholding?
+{
+~%33.33333% Sensitive to illumination
+~%33.33333% Cannot handle uneven lighting
+~%33.33333% Fails with noise
+~%-100% Always robust
+}
+
+::MULTI4::
+Which are applications of color segmentation?
+{
+~%33.33333% Object tracking
+~%33.33333% Medical imaging
+~%33.33333% Industrial inspection
+~%-100% Audio processing
+}
+
+::MULTI5::
+Which are properties of HSV?
+{
+~%33.33333% Separates hue
+~%33.33333% Separates saturation
+~%33.33333% Separates value
+~%-100% Device-independent standard
+}
+
+::MULTI6::
+Which are properties of CIELAB?
+{
+~%33.33333% Perceptually uniform
+~%33.33333% Device independent
+~%33.33333% Derived from XYZ
+~%-100% Printing model
+}
+
+::MULTI7::
+Which are advantages of Otsu’s method?
+{
+~%50% Automatic thresholding
+~%50% Histogram-based
+~%-100% Requires no bimodal assumption
+~%-100% Works only in color images
+}
+
+::MULTI8::
+Which are challenges for color segmentation?
+{
+~%33.33333% Overlapping color distributions
+~%33.33333% Illumination variation
+~%33.33333% Shadows
+~%-100% File size
+}
+
+::MULTI9::
+Which are true of adaptive thresholding?
+{
+~%50% Works locally
+~%50% Handles uneven lighting
+~%-100% Always global
+~%-100% Device-independent only
+}
+
+::MULTI10::
+Which are applications of segmentation in different domains?
+{
+~%25% Industrial inspection
+~%25% Object tracking
+~%25% Medical imaging
+~%25% Scene understanding
+}

@@ -1,0 +1,309 @@
+::TF1::
+Extrinsic parameters describe the transformation from world to camera coordinates.
+{TRUE}
+
+::TF2::
+Extrinsic parameters include rotation and translation.
+{TRUE}
+
+::TF3::
+Intrinsic parameters describe the internal properties of the camera.
+{TRUE}
+
+::TF4::
+The intrinsic matrix K is a 3×3 matrix.
+{TRUE}
+
+::TF5::
+Focal length and principal point are part of intrinsic parameters.
+{TRUE}
+
+::TF6::
+The projection equation can be written as x' equals K [R|t] X.
+{TRUE}
+
+::TF7::
+The extrinsic parameters define the camera’s position and orientation.
+{TRUE}
+
+::TF8::
+Skew is always zero in every camera.
+{FALSE}
+
+::TF9::
+Calibration is used to estimate intrinsic and extrinsic parameters.
+{TRUE}
+
+::TF10::
+Intrinsic parameters are independent of lens distortion.
+{FALSE}
+
+::MC1::
+What do extrinsic parameters represent?
+{
+= World-to-camera transformation
+~ Internal lens properties
+~ Pixel intensity scaling
+~ Noise reduction
+}
+
+::MC2::
+What do intrinsic parameters represent?
+{
+= Internal camera characteristics
+~ External camera pose
+~ World coordinate system
+~ Noise filtering
+}
+
+::MC3::
+Which are included in intrinsic parameters?
+{
+= Focal length and principal point
+~ Rotation and translation
+~ Histogram bins
+~ Gamma correction
+}
+
+::MC4::
+What is the form of the intrinsic matrix K?
+{
+= 3×3
+~ 4×4
+~ 2×2
+~ 5×5
+}
+
+::MC5::
+Which parameters are in extrinsics?
+{
+= Rotation and translation
+~ Focal length and skew
+~ Principal point
+~ Image width and height
+}
+
+::MC6::
+What is the full camera projection equation?
+{
+= x' = K [R|t] X
+~ x = fX/Z
+~ Ax = b
+~ PCA = variance
+}
+
+::MC7::
+What does calibration compute?
+{
+= Intrinsic and extrinsic parameters
+~ Only pixel brightness
+~ Image compression
+~ Histogram equalization
+}
+
+::MC8::
+Which is a limitation of the simple camera model?
+{
+= Ignores lens distortion
+~ Needs PCA
+~ Requires audio filtering
+~ Works only for grayscale
+}
+
+::MC9::
+Which is true about skew in K?
+{
+= Usually 0 in modern cameras
+~ Always 1
+~ Always large
+~ Not part of K
+}
+
+::MC10::
+Which domain uses extrinsic and intrinsic calibration?
+{
+= Augmented reality
+~ Audio compression
+~ File encryption
+~ Histogram smoothing
+}
+
+::MATCH1::
+Match the parameter to category.
+{
+= Rotation -> Extrinsic
+= Translation -> Extrinsic
+= Focal length -> Intrinsic
+= Principal point -> Intrinsic
+}
+
+::MATCH2::
+Match the symbol to meaning.
+{
+= fx, fy -> Focal lengths
+= cx, cy -> Principal point
+= R -> Rotation
+= t -> Translation
+}
+
+::MATCH3::
+Match the matrix to role.
+{
+= K -> Intrinsic
+= [R|t] -> Extrinsic
+= Projection -> Camera matrix
+= F -> Fundamental
+}
+
+::MATCH4::
+Match the property to model.
+{
+= Pose -> Extrinsic
+= Internal geometry -> Intrinsic
+= Lens distortion -> Non-ideal
+= Calibration -> Estimation
+}
+
+::MATCH5::
+Match the application to field.
+{
+= Calibration -> Vision
+= AR -> Overlay graphics
+= Robotics -> Localization
+= Graphics -> Rendering
+}
+
+::MATCH6::
+Match the problem to cause.
+{
+= Distortion -> Lens
+= Noise -> Sensor
+= Miscalibration -> Wrong parameters
+= Skew -> Pixel geometry
+}
+
+::MATCH7::
+Match the domain to example.
+{
+= AR -> Hologram alignment
+= Robotics -> Camera pose
+= Medicine -> Imaging
+= Vision -> Reconstruction
+}
+
+::MATCH8::
+Match the camera equation to component.
+{
+= K -> Intrinsic matrix
+= [R|t] -> Extrinsic matrix
+= X -> 3D point
+= x' -> Image point
+}
+
+::MATCH9::
+Match the extrinsic parameter to effect.
+{
+= Rotation -> Orientation
+= Translation -> Position
+= [R|t] -> Pose
+= Identity -> No transform
+}
+
+::MATCH10::
+Match the intrinsic parameter to effect.
+{
+= fx, fy -> Scale
+= cx, cy -> Principal point offset
+= Skew -> Axis alignment
+= K -> Internal geometry
+}
+
+::MULTI1::
+Which are intrinsic parameters?
+{
+~%25% Focal length
+~%25% Principal point
+~%25% Skew
+~%25% Pixel scaling
+}
+
+::MULTI2::
+Which are extrinsic parameters?
+{
+~%33.33333% Rotation
+~%33.33333% Translation
+~%33.33333% Pose
+~%-100% Focal length
+}
+
+::MULTI3::
+Which are included in the intrinsic matrix K?
+{
+~%33.33333% fx
+~%33.33333% fy
+~%33.33333% cx, cy
+~%-100% Rotation
+}
+
+::MULTI4::
+Which are applications of calibration?
+{
+~%25% Camera geometry
+~%25% AR
+~%25% Robotics
+~%25% 3D reconstruction
+}
+
+::MULTI5::
+Which are properties of extrinsic parameters?
+{
+~%33.33333% Orientation
+~%33.33333% Position
+~%33.33333% World-to-camera mapping
+~%-100% Lens distortion
+}
+
+::MULTI6::
+Which are applications of intrinsic parameters?
+{
+~%33.33333% Correct field of view
+~%33.33333% Image scaling
+~%33.33333% Centering principal point
+~%-100% Camera pose
+}
+
+::MULTI7::
+Which are challenges in camera calibration?
+{
+~%25% Lens distortion
+~%25% Noise
+~%25% Degenerate configurations
+~%25% Precision errors
+}
+
+::MULTI8::
+Which are components of the projection equation?
+{
+~%25% Intrinsic K
+~%25% Extrinsic [R|t]
+~%25% 3D point X
+~%25% Image point x'
+}
+
+::MULTI9::
+Which are domains using camera models?
+{
+~%25% Vision
+~%25% Robotics
+~%25% AR/VR
+~%25% Graphics
+}
+
+::MULTI10::
+Which are limitations of the basic camera model?
+{
+~%50% Ignores lens distortion
+~%50% Needs calibration
+~%-100% Always perfect
+~%-100% No geometry involved
+}

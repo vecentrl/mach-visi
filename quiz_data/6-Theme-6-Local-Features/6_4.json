@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhat is the main purpose of a local descriptor?\n{\n= To represent a feature for matching and recognition\n~ To compress an image\n~ To remove noise\n~ To balance colors\n}",
+    "title": "MC1",
+    "question": "What is the main purpose of a local descriptor?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "To represent a feature for matching and recognition",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "To compress an image",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "To remove noise",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "To balance colors",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhich descriptor is known for high robustness but high cost?\n{\n= SIFT\n~ SURF\n~ ORB\n~ FAST\n}",
+    "title": "MC2",
+    "question": "Which descriptor is known for high robustness but high cost?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "SIFT",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "SURF",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "ORB",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "FAST",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhich descriptor was designed as a faster approximation of SIFT?\n{\n= SURF\n~ ORB\n~ FAST\n~ MSER\n}",
+    "title": "MC3",
+    "question": "Which descriptor was designed as a faster approximation of SIFT?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "SURF",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "ORB",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "FAST",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "MSER",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhich descriptor is binary and efficient for real-time?\n{\n= ORB\n~ SIFT\n~ SURF\n~ Harris\n}",
+    "title": "MC4",
+    "question": "Which descriptor is binary and efficient for real-time?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "ORB",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "SIFT",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "SURF",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Harris",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhich property is essential for a good local descriptor?\n{\n= Distinctiveness\n~ Randomness\n~ Sensitivity to noise\n~ File size dependence\n}",
+    "title": "MC5",
+    "question": "Which property is essential for a good local descriptor?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Distinctiveness",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Randomness",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Sensitivity to noise",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "File size dependence",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich descriptor is based on gradient orientation histograms?\n{\n= SIFT\n~ SURF\n~ ORB\n~ BRIEF\n}",
+    "title": "MC6",
+    "question": "Which descriptor is based on gradient orientation histograms?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "SIFT",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "SURF",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "ORB",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "BRIEF",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich descriptor combines FAST with BRIEF?\n{\n= ORB\n~ SIFT\n~ SURF\n~ MSER\n}",
+    "title": "MC7",
+    "question": "Which descriptor combines FAST with BRIEF?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "ORB",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "SIFT",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "SURF",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "MSER",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich descriptor is most computationally heavy?\n{\n= SIFT\n~ SURF\n~ ORB\n~ FAST\n}",
+    "title": "MC8",
+    "question": "Which descriptor is most computationally heavy?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "SIFT",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "SURF",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "ORB",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "FAST",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich property is improved in SURF compared to SIFT?\n{\n= Speed\n~ Accuracy\n~ Distinctiveness\n~ Rotation sensitivity\n}",
+    "title": "MC9",
+    "question": "Which property is improved in SURF compared to SIFT?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Speed",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Accuracy",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Distinctiveness",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Rotation sensitivity",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich application uses local descriptors?\n{\n= 3D reconstruction\n~ Histogram equalization\n~ File compression\n~ Gamma correction\n}",
+    "title": "MC10",
+    "question": "Which application uses local descriptors?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "3D reconstruction",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "File compression",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Gamma correction",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the descriptor to property.\n{\n= SIFT -> Gradient histograms\n= SURF -> Faster SIFT approximation\n= ORB -> Binary descriptor\n= All -> Feature matching\n}",
+    "title": "MATCH1",
+    "question": "Match the descriptor to property.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "SIFT",
+        "right": "Gradient histograms"
+      },
+      {
+        "id": 2,
+        "left": "SURF",
+        "right": "Faster SIFT approximation"
+      },
+      {
+        "id": 3,
+        "left": "ORB",
+        "right": "Binary descriptor"
+      },
+      {
+        "id": 4,
+        "left": "All",
+        "right": "Feature matching"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the acronym to meaning.\n{\n= SIFT -> Scale-Invariant Feature Transform\n= SURF -> Speeded-Up Robust Features\n= ORB -> Oriented FAST and BRIEF\n= SLAM -> Simultaneous Localization and Mapping\n}",
+    "title": "MATCH2",
+    "question": "Match the acronym to meaning.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "SIFT",
+        "right": "Scale-Invariant Feature Transform"
+      },
+      {
+        "id": 2,
+        "left": "SURF",
+        "right": "Speeded-Up Robust Features"
+      },
+      {
+        "id": 3,
+        "left": "ORB",
+        "right": "Oriented FAST and BRIEF"
+      },
+      {
+        "id": 4,
+        "left": "SLAM",
+        "right": "Simultaneous Localization and Mapping"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the descriptor to drawback.\n{\n= SIFT -> Slow\n= SURF -> Less distinctive than SIFT\n= ORB -> Less robust to large scale changes\n= All -> Sensitive to extreme illumination\n}",
+    "title": "MATCH3",
+    "question": "Match the descriptor to drawback.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "SIFT",
+        "right": "Slow"
+      },
+      {
+        "id": 2,
+        "left": "SURF",
+        "right": "Less distinctive than SIFT"
+      },
+      {
+        "id": 3,
+        "left": "ORB",
+        "right": "Less robust to large scale changes"
+      },
+      {
+        "id": 4,
+        "left": "All",
+        "right": "Sensitive to extreme illumination"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the descriptor to advantage.\n{\n= SIFT -> Robustness\n= SURF -> Speed\n= ORB -> Efficiency\n= All -> Feature matching\n}",
+    "title": "MATCH4",
+    "question": "Match the descriptor to advantage.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "SIFT",
+        "right": "Robustness"
+      },
+      {
+        "id": 2,
+        "left": "SURF",
+        "right": "Speed"
+      },
+      {
+        "id": 3,
+        "left": "ORB",
+        "right": "Efficiency"
+      },
+      {
+        "id": 4,
+        "left": "All",
+        "right": "Feature matching"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the descriptor to application.\n{\n= SIFT -> Object recognition\n= SURF -> Image retrieval\n= ORB -> Real-time SLAM\n= All -> 3D reconstruction\n}",
+    "title": "MATCH5",
+    "question": "Match the descriptor to application.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "SIFT",
+        "right": "Object recognition"
+      },
+      {
+        "id": 2,
+        "left": "SURF",
+        "right": "Image retrieval"
+      },
+      {
+        "id": 3,
+        "left": "ORB",
+        "right": "Real-time SLAM"
+      },
+      {
+        "id": 4,
+        "left": "All",
+        "right": "3D reconstruction"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the descriptor to data type.\n{\n= SIFT -> Floating-point vectors\n= SURF -> Floating-point (shorter)\n= ORB -> Binary vectors\n= All -> Feature descriptors\n}",
+    "title": "MATCH6",
+    "question": "Match the descriptor to data type.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "SIFT",
+        "right": "Floating-point vectors"
+      },
+      {
+        "id": 2,
+        "left": "SURF",
+        "right": "Floating-point (shorter)"
+      },
+      {
+        "id": 3,
+        "left": "ORB",
+        "right": "Binary vectors"
+      },
+      {
+        "id": 4,
+        "left": "All",
+        "right": "Feature descriptors"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the requirement to property.\n{\n= Distinctive -> Differentiates features\n= Robust -> Works under noise\n= Compact -> Efficient representation\n= Invariant -> Stable under changes\n}",
+    "title": "MATCH7",
+    "question": "Match the requirement to property.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Distinctive",
+        "right": "Differentiates features"
+      },
+      {
+        "id": 2,
+        "left": "Robust",
+        "right": "Works under noise"
+      },
+      {
+        "id": 3,
+        "left": "Compact",
+        "right": "Efficient representation"
+      },
+      {
+        "id": 4,
+        "left": "Invariant",
+        "right": "Stable under changes"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the step to descriptor.\n{\n= Compute gradients -> SIFT\n= Use Haar wavelets -> SURF\n= Binary intensity test -> ORB\n= Build feature vector -> All\n}",
+    "title": "MATCH8",
+    "question": "Match the step to descriptor.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Compute gradients",
+        "right": "SIFT"
+      },
+      {
+        "id": 2,
+        "left": "Use Haar wavelets",
+        "right": "SURF"
+      },
+      {
+        "id": 3,
+        "left": "Binary intensity test",
+        "right": "ORB"
+      },
+      {
+        "id": 4,
+        "left": "Build feature vector",
+        "right": "All"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the detector-descriptor pair.\n{\n= FAST -> ORB\n= MSER -> Region descriptor\n= Harris -> Corners\n= SIFT -> Scale-invariant features\n}",
+    "title": "MATCH9",
+    "question": "Match the detector-descriptor pair.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "FAST",
+        "right": "ORB"
+      },
+      {
+        "id": 2,
+        "left": "MSER",
+        "right": "Region descriptor"
+      },
+      {
+        "id": 3,
+        "left": "Harris",
+        "right": "Corners"
+      },
+      {
+        "id": 4,
+        "left": "SIFT",
+        "right": "Scale-invariant features"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the challenge to effect.\n{\n= Noise -> Descriptor errors\n= Scale change -> Matching issues\n= Rotation -> Orientation differences\n= Illumination -> Reduced distinctiveness\n}",
+    "title": "MATCH10",
+    "question": "Match the challenge to effect.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Noise",
+        "right": "Descriptor errors"
+      },
+      {
+        "id": 2,
+        "left": "Scale change",
+        "right": "Matching issues"
+      },
+      {
+        "id": 3,
+        "left": "Rotation",
+        "right": "Orientation differences"
+      },
+      {
+        "id": 4,
+        "left": "Illumination",
+        "right": "Reduced distinctiveness"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are local descriptors?\n{\n~%33.33333% SIFT\n~%33.33333% SURF\n~%33.33333% ORB\n~%-100% FAST\n}",
+    "title": "MULTI1",
+    "question": "Which are local descriptors?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "SIFT",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "SURF",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "ORB",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "FAST",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are desirable properties of descriptors?\n{\n~%25% Distinctiveness\n~%25% Robustness\n~%25% Compactness\n~%25% Invariance\n}",
+    "title": "MULTI2",
+    "question": "Which are desirable properties of descriptors?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Distinctiveness",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Robustness",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Compactness",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Invariance",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are true of SIFT?\n{\n~%33.33333% Scale-invariant\n~%33.33333% Rotation-invariant\n~%33.33333% Gradient histograms\n~%-100% Binary descriptor\n}",
+    "title": "MULTI3",
+    "question": "Which are true of SIFT?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Scale-invariant",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Rotation-invariant",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Gradient histograms",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Binary descriptor",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are true of SURF?\n{\n~%33.33333% Faster than SIFT\n~%33.33333% Uses Haar wavelets\n~%33.33333% Robust features\n~%-100% Binary-only\n}",
+    "title": "MULTI4",
+    "question": "Which are true of SURF?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Faster than SIFT",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Uses Haar wavelets",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Robust features",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Binary-only",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are true of ORB?\n{\n~%33.33333% Combines FAST + BRIEF\n~%33.33333% Binary descriptors\n~%33.33333% Efficient for real-time\n~%-100% Gradient histograms\n}",
+    "title": "MULTI5",
+    "question": "Which are true of ORB?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Combines FAST + BRIEF",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Binary descriptors",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Efficient for real-time",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Gradient histograms",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are applications of local descriptors?\n{\n~%25% Object recognition\n~%25% Image retrieval\n~%25% SLAM\n~%25% 3D reconstruction\n}",
+    "title": "MULTI6",
+    "question": "Which are applications of local descriptors?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Object recognition",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Image retrieval",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "SLAM",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "3D reconstruction",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are drawbacks of SIFT?\n{\n~%50% Computationally expensive\n~%50% Slower than SURF\n~%-100% Binary-only\n~%-100% Not distinctive\n}",
+    "title": "MULTI7",
+    "question": "Which are drawbacks of SIFT?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Computationally expensive",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Slower than SURF",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Binary-only",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Not distinctive",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are drawbacks of ORB?\n{\n~%50% Less robust to large scale changes\n~%50% Less distinctive than SIFT\n~%-100% Always slow\n~%-100% Requires floating-point\n}",
+    "title": "MULTI8",
+    "question": "Which are drawbacks of ORB?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Less robust to large scale changes",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Less distinctive than SIFT",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Always slow",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Requires floating-point",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are differences between descriptors?\n{\n~%33.33333% SIFT = floating-point\n~%33.33333% SURF = faster, shorter vectors\n~%33.33333% ORB = binary vectors\n~%-100% All identical\n}",
+    "title": "MULTI9",
+    "question": "Which are differences between descriptors?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "SIFT = floating-point",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "SURF = faster, shorter vectors",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "ORB = binary vectors",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "All identical",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are properties of good local descriptors?\n{\n~%25% Distinctiveness\n~%25% Robustness\n~%25% Efficiency\n~%25% Invariance\n}",
+    "title": "MULTI10",
+    "question": "Which are properties of good local descriptors?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Distinctiveness",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Robustness",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Efficiency",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Invariance",
+        "weight": 25.0
+      }
+    ]
+  }
+]

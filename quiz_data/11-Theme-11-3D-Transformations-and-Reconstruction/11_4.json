@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhat does camera calibration estimate?\n{\n= Intrinsic and extrinsic parameters\n~ Only brightness\n~ Only file size\n~ Only histograms\n}",
+    "title": "MC1",
+    "question": "What does camera calibration estimate?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Intrinsic and extrinsic parameters",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Only brightness",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Only file size",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Only histograms",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhat is included in intrinsic parameters?\n{\n= Focal length, principal point, skew\n~ Rotation, translation\n~ Reprojection error\n~ Calibration pattern\n}",
+    "title": "MC2",
+    "question": "What is included in intrinsic parameters?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Focal length, principal point, skew",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Rotation, translation",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Reprojection error",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Calibration pattern",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhat is included in extrinsic parameters?\n{\n= Rotation and translation\n~ Focal length and skew\n~ Principal point\n~ Lens distortion\n}",
+    "title": "MC3",
+    "question": "What is included in extrinsic parameters?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Rotation and translation",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Focal length and skew",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Principal point",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Lens distortion",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhat does the intrinsic matrix K represent?\n{\n= Internal camera parameters\n~ External pose\n~ Reprojection error\n~ Histogram bins\n}",
+    "title": "MC4",
+    "question": "What does the intrinsic matrix K represent?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Internal camera parameters",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "External pose",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Reprojection error",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram bins",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhat does calibration optimize?\n{\n= Reprojection error\n~ Audio compression\n~ Histogram equalization\n~ Gamma correction\n}",
+    "title": "MC5",
+    "question": "What does calibration optimize?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Reprojection error",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Audio compression",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Gamma correction",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich tool is often used for calibration?\n{\n= Checkerboard pattern\n~ Histogram plot\n~ PCA basis\n~ Audio filter\n}",
+    "title": "MC6",
+    "question": "Which tool is often used for calibration?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Checkerboard pattern",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram plot",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "PCA basis",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Audio filter",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich distortions are corrected in calibration?\n{\n= Radial and tangential\n~ Only Gaussian noise\n~ Only blur\n~ Always none\n}",
+    "title": "MC7",
+    "question": "Which distortions are corrected in calibration?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Radial and tangential",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Only Gaussian noise",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Only blur",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Always none",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich is an application of calibration?\n{\n= Augmented reality\n~ JPEG compression\n~ File encryption\n~ White balance\n}",
+    "title": "MC8",
+    "question": "Which is an application of calibration?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Augmented reality",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "JPEG compression",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "File encryption",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "White balance",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich is a challenge in calibration?\n{\n= Lens distortion\n~ Always exact\n~ No effect of noise\n~ Always easy\n}",
+    "title": "MC9",
+    "question": "Which is a challenge in calibration?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Lens distortion",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Always exact",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "No effect of noise",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Always easy",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich is required for calibration?\n{\n= Known 3D–2D correspondences\n~ Random noise\n~ File size\n~ Gamma correction\n}",
+    "title": "MC10",
+    "question": "Which is required for calibration?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Known 3D–2D correspondences",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Random noise",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "File size",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Gamma correction",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the parameter to type.\n{\n= Focal length -> Intrinsic\n= Principal point -> Intrinsic\n= Rotation -> Extrinsic\n= Translation -> Extrinsic\n}",
+    "title": "MATCH1",
+    "question": "Match the parameter to type.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Focal length",
+        "right": "Intrinsic"
+      },
+      {
+        "id": 2,
+        "left": "Principal point",
+        "right": "Intrinsic"
+      },
+      {
+        "id": 3,
+        "left": "Rotation",
+        "right": "Extrinsic"
+      },
+      {
+        "id": 4,
+        "left": "Translation",
+        "right": "Extrinsic"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the matrix to role.\n{\n= K -> Intrinsic\n= [R|t] -> Extrinsic\n= Distortion -> Lens effects\n= Projection -> Mapping 3D to 2D\n}",
+    "title": "MATCH2",
+    "question": "Match the matrix to role.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "K",
+        "right": "Intrinsic"
+      },
+      {
+        "id": 2,
+        "left": "[R|t]",
+        "right": "Extrinsic"
+      },
+      {
+        "id": 3,
+        "left": "Distortion",
+        "right": "Lens effects"
+      },
+      {
+        "id": 4,
+        "left": "Projection",
+        "right": "Mapping 3D to 2D"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the distortion to type.\n{\n= Radial -> Barrel/pincushion\n= Tangential -> Lens misalignment\n= Gaussian noise -> Not distortion\n= Blur -> Not modeled\n}",
+    "title": "MATCH3",
+    "question": "Match the distortion to type.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Radial",
+        "right": "Barrel/pincushion"
+      },
+      {
+        "id": 2,
+        "left": "Tangential",
+        "right": "Lens misalignment"
+      },
+      {
+        "id": 3,
+        "left": "Gaussian noise",
+        "right": "Not distortion"
+      },
+      {
+        "id": 4,
+        "left": "Blur",
+        "right": "Not modeled"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the method to usage.\n{\n= Checkerboard -> Calibration\n= Optimization -> Error minimization\n= RANSAC -> Outlier rejection\n= Normalization -> Stability\n}",
+    "title": "MATCH4",
+    "question": "Match the method to usage.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Checkerboard",
+        "right": "Calibration"
+      },
+      {
+        "id": 2,
+        "left": "Optimization",
+        "right": "Error minimization"
+      },
+      {
+        "id": 3,
+        "left": "RANSAC",
+        "right": "Outlier rejection"
+      },
+      {
+        "id": 4,
+        "left": "Normalization",
+        "right": "Stability"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the problem to cause.\n{\n= Noise -> Feature detection errors\n= Distortion -> Lens imperfection\n= Degeneracy -> Poor setup\n= Outliers -> Wrong correspondences\n}",
+    "title": "MATCH5",
+    "question": "Match the problem to cause.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Noise",
+        "right": "Feature detection errors"
+      },
+      {
+        "id": 2,
+        "left": "Distortion",
+        "right": "Lens imperfection"
+      },
+      {
+        "id": 3,
+        "left": "Degeneracy",
+        "right": "Poor setup"
+      },
+      {
+        "id": 4,
+        "left": "Outliers",
+        "right": "Wrong correspondences"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the application to domain.\n{\n= AR -> Overlay alignment\n= Robotics -> Navigation\n= Vision -> 3D reconstruction\n= Medicine -> Imaging\n}",
+    "title": "MATCH6",
+    "question": "Match the application to domain.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "AR",
+        "right": "Overlay alignment"
+      },
+      {
+        "id": 2,
+        "left": "Robotics",
+        "right": "Navigation"
+      },
+      {
+        "id": 3,
+        "left": "Vision",
+        "right": "3D reconstruction"
+      },
+      {
+        "id": 4,
+        "left": "Medicine",
+        "right": "Imaging"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the calibration concept to definition.\n{\n= Intrinsic -> Internal geometry\n= Extrinsic -> Pose\n= Distortion -> Lens effect\n= Reprojection error -> Accuracy metric\n}",
+    "title": "MATCH7",
+    "question": "Match the calibration concept to definition.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Intrinsic",
+        "right": "Internal geometry"
+      },
+      {
+        "id": 2,
+        "left": "Extrinsic",
+        "right": "Pose"
+      },
+      {
+        "id": 3,
+        "left": "Distortion",
+        "right": "Lens effect"
+      },
+      {
+        "id": 4,
+        "left": "Reprojection error",
+        "right": "Accuracy metric"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the component to description.\n{\n= fx, fy -> Focal lengths\n= cx, cy -> Principal point\n= R -> Rotation\n= t -> Translation\n}",
+    "title": "MATCH8",
+    "question": "Match the component to description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "fx, fy",
+        "right": "Focal lengths"
+      },
+      {
+        "id": 2,
+        "left": "cx, cy",
+        "right": "Principal point"
+      },
+      {
+        "id": 3,
+        "left": "R",
+        "right": "Rotation"
+      },
+      {
+        "id": 4,
+        "left": "t",
+        "right": "Translation"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the technique to step.\n{\n= Detect pattern -> 2D points\n= Match to 3D -> Correspondences\n= Optimize -> Minimize error\n= Output -> Parameters\n}",
+    "title": "MATCH9",
+    "question": "Match the technique to step.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Detect pattern",
+        "right": "2D points"
+      },
+      {
+        "id": 2,
+        "left": "Match to 3D",
+        "right": "Correspondences"
+      },
+      {
+        "id": 3,
+        "left": "Optimize",
+        "right": "Minimize error"
+      },
+      {
+        "id": 4,
+        "left": "Output",
+        "right": "Parameters"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the parameter to matrix.\n{\n= K -> Intrinsic\n= [R|t] -> Extrinsic\n= Distortion coefficients -> Lens\n= Projection matrix -> Full mapping\n}",
+    "title": "MATCH10",
+    "question": "Match the parameter to matrix.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "K",
+        "right": "Intrinsic"
+      },
+      {
+        "id": 2,
+        "left": "[R|t]",
+        "right": "Extrinsic"
+      },
+      {
+        "id": 3,
+        "left": "Distortion coefficients",
+        "right": "Lens"
+      },
+      {
+        "id": 4,
+        "left": "Projection matrix",
+        "right": "Full mapping"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are intrinsic parameters?\n{\n~%25% Focal length\n~%25% Principal point\n~%25% Skew\n~%25% Pixel scaling\n}",
+    "title": "MULTI1",
+    "question": "Which are intrinsic parameters?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Focal length",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Principal point",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Skew",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Pixel scaling",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are extrinsic parameters?\n{\n~%33.33333% Rotation\n~%33.33333% Translation\n~%33.33333% Pose\n~%-100% Focal length\n}",
+    "title": "MULTI2",
+    "question": "Which are extrinsic parameters?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Rotation",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Translation",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Pose",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Focal length",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are lens distortions?\n{\n~%50% Radial\n~%50% Tangential\n~%-100% Gaussian noise\n~%-100% JPEG artifacts\n}",
+    "title": "MULTI3",
+    "question": "Which are lens distortions?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Radial",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Tangential",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Gaussian noise",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "JPEG artifacts",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are steps in calibration?\n{\n~%25% Detect calibration pattern\n~%25% Establish 3D–2D correspondences\n~%25% Optimize reprojection error\n~%25% Estimate parameters\n}",
+    "title": "MULTI4",
+    "question": "Which are steps in calibration?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Detect calibration pattern",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Establish 3D–2D correspondences",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Optimize reprojection error",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Estimate parameters",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are challenges in calibration?\n{\n~%25% Noise\n~%25% Lens distortion\n~%25% Degeneracy\n~%25% Outliers\n}",
+    "title": "MULTI5",
+    "question": "Which are challenges in calibration?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Noise",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Lens distortion",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Degeneracy",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Outliers",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are applications of calibration?\n{\n~%25% 3D reconstruction\n~%25% AR\n~%25% Robotics\n~%25% Vision\n}",
+    "title": "MULTI6",
+    "question": "Which are applications of calibration?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "3D reconstruction",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "AR",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Robotics",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Vision",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are parts of the projection matrix?\n{\n~%25% Intrinsic K\n~%25% Extrinsic [R|t]\n~%25% Distortion parameters\n~%25% Homogeneous coordinates\n}",
+    "title": "MULTI7",
+    "question": "Which are parts of the projection matrix?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Intrinsic K",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Extrinsic [R|t]",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Distortion parameters",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Homogeneous coordinates",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are benefits of calibration?\n{\n~%25% Accurate pose\n~%25% Correct distortion\n~%25% Reliable depth\n~%25% AR alignment\n}",
+    "title": "MULTI8",
+    "question": "Which are benefits of calibration?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Accurate pose",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Correct distortion",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Reliable depth",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "AR alignment",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are problems in uncalibrated cameras?\n{\n~%33.33333% Distortion\n~%33.33333% Wrong scale\n~%33.33333% Poor AR alignment\n~%-100% Always accurate\n}",
+    "title": "MULTI9",
+    "question": "Which are problems in uncalibrated cameras?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Distortion",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Wrong scale",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Poor AR alignment",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Always accurate",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are domains needing calibration?\n{\n~%25% AR/VR\n~%25% Robotics\n~%25% Medicine\n~%25% Computer vision\n}",
+    "title": "MULTI10",
+    "question": "Which are domains needing calibration?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "AR/VR",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Robotics",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Medicine",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Computer vision",
+        "weight": 25.0
+      }
+    ]
+  }
+]

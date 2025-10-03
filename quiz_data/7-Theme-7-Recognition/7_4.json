@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhat does SVM try to maximize?\n{\n= The margin between classes\n~ The number of support vectors\n~ The noise in training data\n~ The size of dataset\n}",
+    "title": "MC1",
+    "question": "What does SVM try to maximize?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "The margin between classes",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "The number of support vectors",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "The noise in training data",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "The size of dataset",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhat are support vectors?\n{\n= Points closest to the decision boundary\n~ All training samples\n~ Random features\n~ Histogram bins\n}",
+    "title": "MC2",
+    "question": "What are support vectors?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Points closest to the decision boundary",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "All training samples",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Random features",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram bins",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhat defines the decision boundary in SVM?\n{\n= Separating hyperplane\n~ Histogram equalization\n~ k-means clustering\n~ PCA projection\n}",
+    "title": "MC3",
+    "question": "What defines the decision boundary in SVM?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Separating hyperplane",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "k-means clustering",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "PCA projection",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhich property improves generalization in SVM?\n{\n= Larger margin\n~ Smaller dataset\n~ More support vectors\n~ Random boundaries\n}",
+    "title": "MC4",
+    "question": "Which property improves generalization in SVM?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Larger margin",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Smaller dataset",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "More support vectors",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Random boundaries",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhich learning type does SVM belong to?\n{\n= Supervised\n~ Unsupervised\n~ Reinforcement\n~ Clustering\n}",
+    "title": "MC5",
+    "question": "Which learning type does SVM belong to?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Supervised",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Unsupervised",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Reinforcement",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Clustering",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich is an application of SVM?\n{\n= Text classification\n~ Audio compression\n~ White balance\n~ Histogram smoothing\n}",
+    "title": "MC6",
+    "question": "Which is an application of SVM?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Text classification",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Audio compression",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "White balance",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram smoothing",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich factor defines classification in SVM?\n{\n= Distance to hyperplane\n~ Histogram variance\n~ k-means centroids\n~ Audio frequency\n}",
+    "title": "MC7",
+    "question": "Which factor defines classification in SVM?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Distance to hyperplane",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram variance",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "k-means centroids",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Audio frequency",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhat does the hyperplane represent in SVM?\n{\n= Decision boundary\n~ Histogram equalization\n~ Feature clustering\n~ Centroid averaging\n}",
+    "title": "MC8",
+    "question": "What does the hyperplane represent in SVM?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Decision boundary",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Feature clustering",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Centroid averaging",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich is a challenge for SVM?\n{\n= Choice of kernel for nonlinear problems\n~ Always perfect separation\n~ No training required\n~ Distance metric irrelevant\n}",
+    "title": "MC9",
+    "question": "Which is a challenge for SVM?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Choice of kernel for nonlinear problems",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Always perfect separation",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "No training required",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Distance metric irrelevant",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich is true about SVM margins?\n{\n= Wider margin → better generalization\n~ Narrower margin → better generalization\n~ Margin is irrelevant\n~ Margin equals centroid\n}",
+    "title": "MC10",
+    "question": "Which is true about SVM margins?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Wider margin → better generalization",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Narrower margin → better generalization",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Margin is irrelevant",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Margin equals centroid",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the concept to definition.\n{\n= SVM -> Support Vector Machine\n= Hyperplane -> Decision boundary\n= Margin -> Distance to support vectors\n= Support vectors -> Closest samples\n}",
+    "title": "MATCH1",
+    "question": "Match the concept to definition.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "SVM",
+        "right": "Support Vector Machine"
+      },
+      {
+        "id": 2,
+        "left": "Hyperplane",
+        "right": "Decision boundary"
+      },
+      {
+        "id": 3,
+        "left": "Margin",
+        "right": "Distance to support vectors"
+      },
+      {
+        "id": 4,
+        "left": "Support vectors",
+        "right": "Closest samples"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the property to benefit.\n{\n= Wide margin -> Better generalization\n= Support vectors -> Define boundary\n= Hyperplane -> Separates classes\n= Distance -> Defines classification\n}",
+    "title": "MATCH2",
+    "question": "Match the property to benefit.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Wide margin",
+        "right": "Better generalization"
+      },
+      {
+        "id": 2,
+        "left": "Support vectors",
+        "right": "Define boundary"
+      },
+      {
+        "id": 3,
+        "left": "Hyperplane",
+        "right": "Separates classes"
+      },
+      {
+        "id": 4,
+        "left": "Distance",
+        "right": "Defines classification"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the application to field.\n{\n= Text classification -> NLP\n= Face recognition -> Vision\n= Bioinformatics -> Gene classification\n= Industrial inspection -> Defect detection\n}",
+    "title": "MATCH3",
+    "question": "Match the application to field.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Text classification",
+        "right": "NLP"
+      },
+      {
+        "id": 2,
+        "left": "Face recognition",
+        "right": "Vision"
+      },
+      {
+        "id": 3,
+        "left": "Bioinformatics",
+        "right": "Gene classification"
+      },
+      {
+        "id": 4,
+        "left": "Industrial inspection",
+        "right": "Defect detection"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the learning type to method.\n{\n= SVM -> Supervised\n= k-means -> Unsupervised\n= Reinforcement -> Agent learning\n= PCA -> Dimensionality reduction\n}",
+    "title": "MATCH4",
+    "question": "Match the learning type to method.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "SVM",
+        "right": "Supervised"
+      },
+      {
+        "id": 2,
+        "left": "k-means",
+        "right": "Unsupervised"
+      },
+      {
+        "id": 3,
+        "left": "Reinforcement",
+        "right": "Agent learning"
+      },
+      {
+        "id": 4,
+        "left": "PCA",
+        "right": "Dimensionality reduction"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the factor to effect.\n{\n= Noise -> Misclassification\n= Small margin -> Poor generalization\n= Wide margin -> Robust classifier\n= Kernel -> Nonlinear separation\n}",
+    "title": "MATCH5",
+    "question": "Match the factor to effect.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Noise",
+        "right": "Misclassification"
+      },
+      {
+        "id": 2,
+        "left": "Small margin",
+        "right": "Poor generalization"
+      },
+      {
+        "id": 3,
+        "left": "Wide margin",
+        "right": "Robust classifier"
+      },
+      {
+        "id": 4,
+        "left": "Kernel",
+        "right": "Nonlinear separation"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the component to SVM.\n{\n= Hyperplane -> Decision boundary\n= Margin -> Separation distance\n= Support vectors -> Boundary samples\n= Distance -> Classification score\n}",
+    "title": "MATCH6",
+    "question": "Match the component to SVM.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Hyperplane",
+        "right": "Decision boundary"
+      },
+      {
+        "id": 2,
+        "left": "Margin",
+        "right": "Separation distance"
+      },
+      {
+        "id": 3,
+        "left": "Support vectors",
+        "right": "Boundary samples"
+      },
+      {
+        "id": 4,
+        "left": "Distance",
+        "right": "Classification score"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the classifier to property.\n{\n= NN -> Instance-based\n= Centroid -> Prototype-based\n= SVM -> Margin-based\n= Decision tree -> Rule-based\n}",
+    "title": "MATCH7",
+    "question": "Match the classifier to property.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "NN",
+        "right": "Instance-based"
+      },
+      {
+        "id": 2,
+        "left": "Centroid",
+        "right": "Prototype-based"
+      },
+      {
+        "id": 3,
+        "left": "SVM",
+        "right": "Margin-based"
+      },
+      {
+        "id": 4,
+        "left": "Decision tree",
+        "right": "Rule-based"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the concept to synonym.\n{\n= Support vector -> Boundary sample\n= Hyperplane -> Separator\n= Margin -> Safety distance\n= Classification -> Decision\n}",
+    "title": "MATCH8",
+    "question": "Match the concept to synonym.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Support vector",
+        "right": "Boundary sample"
+      },
+      {
+        "id": 2,
+        "left": "Hyperplane",
+        "right": "Separator"
+      },
+      {
+        "id": 3,
+        "left": "Margin",
+        "right": "Safety distance"
+      },
+      {
+        "id": 4,
+        "left": "Classification",
+        "right": "Decision"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the challenge to solution.\n{\n= Nonlinear separation -> Kernel trick\n= Noise -> Soft margin SVM\n= High dimensions -> SVM works well\n= Too few labels -> Semi-supervised\n}",
+    "title": "MATCH9",
+    "question": "Match the challenge to solution.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Nonlinear separation",
+        "right": "Kernel trick"
+      },
+      {
+        "id": 2,
+        "left": "Noise",
+        "right": "Soft margin SVM"
+      },
+      {
+        "id": 3,
+        "left": "High dimensions",
+        "right": "SVM works well"
+      },
+      {
+        "id": 4,
+        "left": "Too few labels",
+        "right": "Semi-supervised"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the field to use.\n{\n= Text -> Document categorization\n= Vision -> Face recognition\n= Industry -> Quality control\n= Medicine -> Diagnosis\n}",
+    "title": "MATCH10",
+    "question": "Match the field to use.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Text",
+        "right": "Document categorization"
+      },
+      {
+        "id": 2,
+        "left": "Vision",
+        "right": "Face recognition"
+      },
+      {
+        "id": 3,
+        "left": "Industry",
+        "right": "Quality control"
+      },
+      {
+        "id": 4,
+        "left": "Medicine",
+        "right": "Diagnosis"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are key elements of SVM?\n{\n~%25% Hyperplane\n~%25% Support vectors\n~%25% Margin\n~%25% Distance measure\n}",
+    "title": "MULTI1",
+    "question": "Which are key elements of SVM?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Hyperplane",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Support vectors",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Margin",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Distance measure",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are desirable properties of SVM?\n{\n~%33.33333% Large margin\n~%33.33333% Good generalization\n~%33.33333% Robustness\n~%-100% Random boundary\n}",
+    "title": "MULTI2",
+    "question": "Which are desirable properties of SVM?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Large margin",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Good generalization",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Robustness",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Random boundary",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are applications of SVM?\n{\n~%25% Text classification\n~%25% Face recognition\n~%25% Bioinformatics\n~%25% Industrial inspection\n}",
+    "title": "MULTI3",
+    "question": "Which are applications of SVM?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Text classification",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Face recognition",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Bioinformatics",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Industrial inspection",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich describe support vectors?\n{\n~%33.33333% Closest to boundary\n~%33.33333% Define hyperplane\n~%33.33333% Influence decision function\n~%-100% Random points\n}",
+    "title": "MULTI4",
+    "question": "Which describe support vectors?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Closest to boundary",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Define hyperplane",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Influence decision function",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Random points",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich describe the hyperplane in SVM?\n{\n~%50% Decision boundary\n~%50% Separates classes\n~%-100% Histogram\n~%-100% Clustering result\n}",
+    "title": "MULTI5",
+    "question": "Which describe the hyperplane in SVM?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Decision boundary",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Separates classes",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Histogram",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Clustering result",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are challenges in SVM?\n{\n~%33.33333% Kernel choice\n~%33.33333% Noise\n~%33.33333% Small margin\n~%-100% No distance used\n}",
+    "title": "MULTI6",
+    "question": "Which are challenges in SVM?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Kernel choice",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Noise",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Small margin",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "No distance used",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are properties of margins in SVM?\n{\n~%50% Distance between classes\n~%50% Larger margin → better generalization\n~%-100% Margin irrelevant\n~%-100% Margin = centroid\n}",
+    "title": "MULTI7",
+    "question": "Which are properties of margins in SVM?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Distance between classes",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Larger margin → better generalization",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Margin irrelevant",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Margin = centroid",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are classifiers similar to SVM in purpose?\n{\n~%50% Logistic regression\n~%50% Decision trees\n~%-100% JPEG\n~%-100% Histogram equalization\n}",
+    "title": "MULTI8",
+    "question": "Which are classifiers similar to SVM in purpose?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Logistic regression",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Decision trees",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "JPEG",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Histogram equalization",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are correct about supervised learning?\n{\n~%33.33333% Uses labeled data\n~%33.33333% SVM is supervised\n~%33.33333% kNN is supervised\n~%-100% k-means is supervised\n}",
+    "title": "MULTI9",
+    "question": "Which are correct about supervised learning?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Uses labeled data",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "SVM is supervised",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "kNN is supervised",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "k-means is supervised",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are examples of SVM applications?\n{\n~%25% Document categorization\n~%25% Face recognition\n~%25% Defect inspection\n~%25% Medical diagnosis\n}",
+    "title": "MULTI10",
+    "question": "Which are examples of SVM applications?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Document categorization",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Face recognition",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Defect inspection",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Medical diagnosis",
+        "weight": 25.0
+      }
+    ]
+  }
+]

@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nHow many degrees of freedom does a homography have (ignoring scale)?\n{\n= 8\n~ 9\n~ 6\n~ 3\n}",
+    "title": "MC1",
+    "question": "How many degrees of freedom does a homography have (ignoring scale)?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "8",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "9",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "6",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "3",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhat is the minimum number of point correspondences for homography estimation?\n{\n= Four\n~ Three\n~ Two\n~ One\n}",
+    "title": "MC2",
+    "question": "What is the minimum number of point correspondences for homography estimation?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Four",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Three",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Two",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "One",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhy must homography points be non-collinear?\n{\n= Collinear points lead to degeneracy\n~ It reduces computation\n~ It avoids parallelism\n~ It is required for affine transforms\n}",
+    "title": "MC3",
+    "question": "Why must homography points be non-collinear?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Collinear points lead to degeneracy",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "It reduces computation",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "It avoids parallelism",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "It is required for affine transforms",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhich method solves over-determined homography equations?\n{\n= Least squares\n~ Histogram equalization\n~ PCA\n~ Clustering\n}",
+    "title": "MC4",
+    "question": "Which method solves over-determined homography equations?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Least squares",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "PCA",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Clustering",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhich method improves numerical stability in homography estimation?\n{\n= Normalization of coordinates\n~ JPEG compression\n~ Gamma correction\n~ White balance\n}",
+    "title": "MC5",
+    "question": "Which method improves numerical stability in homography estimation?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Normalization of coordinates",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "JPEG compression",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Gamma correction",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "White balance",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich robust method is often used for homography estimation?\n{\n= RANSAC\n~ Histogram smoothing\n~ Decision trees\n~ SVM\n}",
+    "title": "MC6",
+    "question": "Which robust method is often used for homography estimation?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "RANSAC",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram smoothing",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Decision trees",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "SVM",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich step minimizes reprojection error?\n{\n= Iterative refinement\n~ Initial correspondences only\n~ Random guessing\n~ Histogram equalization\n}",
+    "title": "MC7",
+    "question": "Which step minimizes reprojection error?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Iterative refinement",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Initial correspondences only",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Random guessing",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram equalization",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich is an application of homography estimation?\n{\n= Image rectification\n~ JPEG encoding\n~ Gamma correction\n~ Audio compression\n}",
+    "title": "MC8",
+    "question": "Which is an application of homography estimation?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Image rectification",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "JPEG encoding",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Gamma correction",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Audio compression",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich factor causes errors in homography estimation?\n{\n= Noise and outliers\n~ File format\n~ Histogram bins\n~ Gamma encoding\n}",
+    "title": "MC9",
+    "question": "Which factor causes errors in homography estimation?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Noise and outliers",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "File format",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Histogram bins",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Gamma encoding",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich field uses homography estimation?\n{\n= Augmented reality\n~ Audio compression\n~ File encryption\n~ Histogram smoothing\n}",
+    "title": "MC10",
+    "question": "Which field uses homography estimation?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Augmented reality",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Audio compression",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "File encryption",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram smoothing",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the method to role.\n{\n= Four points -> Minimum correspondences\n= Least squares -> Over-determined solve\n= Normalization -> Stability\n= RANSAC -> Outlier handling\n}",
+    "title": "MATCH1",
+    "question": "Match the method to role.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Four points",
+        "right": "Minimum correspondences"
+      },
+      {
+        "id": 2,
+        "left": "Least squares",
+        "right": "Over-determined solve"
+      },
+      {
+        "id": 3,
+        "left": "Normalization",
+        "right": "Stability"
+      },
+      {
+        "id": 4,
+        "left": "RANSAC",
+        "right": "Outlier handling"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the property to homography.\n{\n= 3×3 matrix -> Transformation\n= 8 DoF -> Degrees of freedom\n= Straight lines -> Preserved\n= Parallelism -> Not preserved\n}",
+    "title": "MATCH2",
+    "question": "Match the property to homography.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "3×3 matrix",
+        "right": "Transformation"
+      },
+      {
+        "id": 2,
+        "left": "8 DoF",
+        "right": "Degrees of freedom"
+      },
+      {
+        "id": 3,
+        "left": "Straight lines",
+        "right": "Preserved"
+      },
+      {
+        "id": 4,
+        "left": "Parallelism",
+        "right": "Not preserved"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the challenge to effect.\n{\n= Noise -> Inaccurate estimate\n= Outliers -> Wrong mapping\n= Collinearity -> Degeneracy\n= Few points -> Insufficient data\n}",
+    "title": "MATCH3",
+    "question": "Match the challenge to effect.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Noise",
+        "right": "Inaccurate estimate"
+      },
+      {
+        "id": 2,
+        "left": "Outliers",
+        "right": "Wrong mapping"
+      },
+      {
+        "id": 3,
+        "left": "Collinearity",
+        "right": "Degeneracy"
+      },
+      {
+        "id": 4,
+        "left": "Few points",
+        "right": "Insufficient data"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the step to estimation.\n{\n= Point correspondences -> Input\n= Normalization -> Preprocessing\n= Least squares -> Solve\n= Refinement -> Minimize error\n}",
+    "title": "MATCH4",
+    "question": "Match the step to estimation.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Point correspondences",
+        "right": "Input"
+      },
+      {
+        "id": 2,
+        "left": "Normalization",
+        "right": "Preprocessing"
+      },
+      {
+        "id": 3,
+        "left": "Least squares",
+        "right": "Solve"
+      },
+      {
+        "id": 4,
+        "left": "Refinement",
+        "right": "Minimize error"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the application to domain.\n{\n= Panorama -> Vision\n= Rectification -> Document deskew\n= Calibration -> Camera geometry\n= AR -> Plane mapping\n}",
+    "title": "MATCH5",
+    "question": "Match the application to domain.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Panorama",
+        "right": "Vision"
+      },
+      {
+        "id": 2,
+        "left": "Rectification",
+        "right": "Document deskew"
+      },
+      {
+        "id": 3,
+        "left": "Calibration",
+        "right": "Camera geometry"
+      },
+      {
+        "id": 4,
+        "left": "AR",
+        "right": "Plane mapping"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the technique to description.\n{\n= RANSAC -> Robust fitting\n= Least squares -> Minimizes squared error\n= Normalization -> Coordinate scaling\n= Iterative refinement -> Error reduction\n}",
+    "title": "MATCH6",
+    "question": "Match the technique to description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "RANSAC",
+        "right": "Robust fitting"
+      },
+      {
+        "id": 2,
+        "left": "Least squares",
+        "right": "Minimizes squared error"
+      },
+      {
+        "id": 3,
+        "left": "Normalization",
+        "right": "Coordinate scaling"
+      },
+      {
+        "id": 4,
+        "left": "Iterative refinement",
+        "right": "Error reduction"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the limitation to cause.\n{\n= Degenerate -> Collinear points\n= Noise -> Unstable estimate\n= Outliers -> Wrong result\n= Few points -> Not solvable\n}",
+    "title": "MATCH7",
+    "question": "Match the limitation to cause.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Degenerate",
+        "right": "Collinear points"
+      },
+      {
+        "id": 2,
+        "left": "Noise",
+        "right": "Unstable estimate"
+      },
+      {
+        "id": 3,
+        "left": "Outliers",
+        "right": "Wrong result"
+      },
+      {
+        "id": 4,
+        "left": "Few points",
+        "right": "Not solvable"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the algorithm to usage.\n{\n= Homography -> Panorama stitching\n= Affine -> Motion compensation\n= Euclidean -> Rigid motion\n= Similarity -> Scale + rotation\n}",
+    "title": "MATCH8",
+    "question": "Match the algorithm to usage.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Homography",
+        "right": "Panorama stitching"
+      },
+      {
+        "id": 2,
+        "left": "Affine",
+        "right": "Motion compensation"
+      },
+      {
+        "id": 3,
+        "left": "Euclidean",
+        "right": "Rigid motion"
+      },
+      {
+        "id": 4,
+        "left": "Similarity",
+        "right": "Scale + rotation"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the homography element to meaning.\n{\n= h11..h33 -> Matrix entries\n= Scale -> Arbitrary factor\n= Inliers -> Support model\n= Residual -> Reprojection error\n}",
+    "title": "MATCH9",
+    "question": "Match the homography element to meaning.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "h11..h33",
+        "right": "Matrix entries"
+      },
+      {
+        "id": 2,
+        "left": "Scale",
+        "right": "Arbitrary factor"
+      },
+      {
+        "id": 3,
+        "left": "Inliers",
+        "right": "Support model"
+      },
+      {
+        "id": 4,
+        "left": "Residual",
+        "right": "Reprojection error"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the robust step to purpose.\n{\n= RANSAC -> Outlier rejection\n= Normalization -> Stability\n= Iterative refinement -> Accuracy\n= Least squares -> Initial solve\n}",
+    "title": "MATCH10",
+    "question": "Match the robust step to purpose.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "RANSAC",
+        "right": "Outlier rejection"
+      },
+      {
+        "id": 2,
+        "left": "Normalization",
+        "right": "Stability"
+      },
+      {
+        "id": 3,
+        "left": "Iterative refinement",
+        "right": "Accuracy"
+      },
+      {
+        "id": 4,
+        "left": "Least squares",
+        "right": "Initial solve"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are properties of homography?\n{\n~%25% 3×3 matrix\n~%25% 8 degrees of freedom\n~%25% Preserves straight lines\n~%25% Models perspective\n}",
+    "title": "MULTI1",
+    "question": "Which are properties of homography?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "3×3 matrix",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "8 degrees of freedom",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Preserves straight lines",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Models perspective",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are requirements for homography estimation?\n{\n~%33.33333% Four point correspondences\n~%33.33333% Non-collinearity\n~%33.33333% Feature matching\n~%-100% Collinear points\n}",
+    "title": "MULTI2",
+    "question": "Which are requirements for homography estimation?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Four point correspondences",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Non-collinearity",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Feature matching",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Collinear points",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are methods for robust homography estimation?\n{\n~%33.33333% RANSAC\n~%33.33333% Normalization\n~%33.33333% Iterative refinement\n~%-100% Histogram equalization\n}",
+    "title": "MULTI3",
+    "question": "Which are methods for robust homography estimation?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "RANSAC",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Normalization",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Iterative refinement",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Histogram equalization",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are applications of homography estimation?\n{\n~%25% Panorama stitching\n~%25% Rectification\n~%25% Augmented reality\n~%25% Camera calibration\n}",
+    "title": "MULTI4",
+    "question": "Which are applications of homography estimation?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Panorama stitching",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Rectification",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Augmented reality",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Camera calibration",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are challenges in homography estimation?\n{\n~%25% Noise\n~%25% Outliers\n~%25% Collinear points\n~%25% Degenerate data\n}",
+    "title": "MULTI5",
+    "question": "Which are challenges in homography estimation?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Noise",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Outliers",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Collinear points",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Degenerate data",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are properties NOT preserved by homography?\n{\n~%50% Parallelism\n~%50% Ratios of lengths\n~%-100% Straight lines\n~%-100% Collinearity\n}",
+    "title": "MULTI6",
+    "question": "Which are properties NOT preserved by homography?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Parallelism",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Ratios of lengths",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Straight lines",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Collinearity",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are estimation steps for homography?\n{\n~%25% Collect correspondences\n~%25% Normalize coordinates\n~%25% Solve equations\n~%25% Refine by minimizing error\n}",
+    "title": "MULTI7",
+    "question": "Which are estimation steps for homography?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Collect correspondences",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Normalize coordinates",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Solve equations",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Refine by minimizing error",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are benefits of using RANSAC for homography?\n{\n~%33.33333% Robust to outliers\n~%33.33333% Works with mismatched points\n~%33.33333% More reliable estimates\n~%-100% Needs no correspondences\n}",
+    "title": "MULTI8",
+    "question": "Which are benefits of using RANSAC for homography?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Robust to outliers",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Works with mismatched points",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "More reliable estimates",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Needs no correspondences",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are challenges with minimal four points?\n{\n~%50% Degenerate if collinear\n~%50% Sensitive to noise\n~%-100% Always robust\n~%-100% Needs no correspondences\n}",
+    "title": "MULTI9",
+    "question": "Which are challenges with minimal four points?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Degenerate if collinear",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Sensitive to noise",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Always robust",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Needs no correspondences",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are domains using homography estimation?\n{\n~%25% Vision\n~%25% Augmented reality\n~%25% Robotics\n~%25% Medical imaging\n}",
+    "title": "MULTI10",
+    "question": "Which are domains using homography estimation?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Vision",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Augmented reality",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Robotics",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Medical imaging",
+        "weight": 25.0
+      }
+    ]
+  }
+]

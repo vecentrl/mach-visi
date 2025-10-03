@@ -1,0 +1,309 @@
+::TF1::
+Morphology uses shape-based operations on binary or grayscale images.
+{TRUE}
+
+::TF2::
+Erosion shrinks objects in a binary image.
+{TRUE}
+
+::TF3::
+Dilation makes objects grow in a binary image.
+{TRUE}
+
+::TF4::
+Opening is erosion followed by dilation.
+{TRUE}
+
+::TF5::
+Closing is dilation followed by erosion.
+{TRUE}
+
+::TF6::
+Morphology is only applied to grayscale images, not binary images.
+{FALSE}
+
+::TF7::
+Connected components labeling identifies groups of connected pixels.
+{TRUE}
+
+::TF8::
+4-connectivity considers only horizontal and vertical neighbors.
+{TRUE}
+
+::TF9::
+8-connectivity considers horizontal, vertical, and diagonal neighbors.
+{TRUE}
+
+::TF10::
+Connected components can be used to count objects in an image.
+{TRUE}
+
+::MC1::
+Which operation shrinks bright regions?
+{
+= Erosion
+~ Dilation
+~ Closing
+~ Thresholding
+}
+
+::MC2::
+Which operation enlarges bright regions?
+{
+= Dilation
+~ Erosion
+~ Opening
+~ Segmentation
+}
+
+::MC3::
+Which operation removes small noise spots?
+{
+= Opening
+~ Closing
+~ Thresholding
+~ Edge detection
+}
+
+::MC4::
+Which operation fills small holes in objects?
+{
+= Closing
+~ Opening
+~ Erosion
+~ Thresholding
+}
+
+::MC5::
+What does connected components labeling do?
+{
+= Groups pixels into connected regions
+~ Measures histogram
+~ Enhances edges
+~ Filters color channels
+}
+
+::MC6::
+Which type of connectivity includes diagonals?
+{
+= 8-connectivity
+~ 4-connectivity
+~ 6-connectivity
+~ No connectivity
+}
+
+::MC7::
+Which type of connectivity excludes diagonals?
+{
+= 4-connectivity
+~ 8-connectivity
+~ 6-connectivity
+~ Thresholding
+}
+
+::MC8::
+Which task can morphology help with?
+{
+= Removing noise and refining shapes
+~ Gamma correction
+~ Histogram equalization
+~ White balancing
+}
+
+::MC9::
+Which is an application of connected components?
+{
+= Object counting
+~ JPEG compression
+~ Audio filtering
+~ Gamma adjustment
+}
+
+::MC10::
+Which combination defines opening?
+{
+= Erosion followed by dilation
+~ Dilation followed by erosion
+~ Threshold then edge detection
+~ Histogram then threshold
+}
+
+::MATCH1::
+Match the operation to the effect.
+{
+= Erosion -> Shrinks objects
+= Dilation -> Grows objects
+= Opening -> Removes small noise
+= Closing -> Fills small holes
+}
+
+::MATCH2::
+Match the connectivity to neighbors.
+{
+= 4-connectivity -> Horizontal and vertical
+= 8-connectivity -> Includes diagonals
+= Connected component -> Group of pixels
+= Labeling -> Assigns unique IDs
+}
+
+::MATCH3::
+Match the method to its application.
+{
+= Morphology -> Shape-based filtering
+= Connected components -> Object counting
+= Erosion -> Remove noise dots
+= Dilation -> Expand shapes
+}
+
+::MATCH4::
+Match the operation to sequence.
+{
+= Opening -> Erosion + dilation
+= Closing -> Dilation + erosion
+= Thresholding -> Intensity cutoff
+= Edge detection -> Gradient-based
+}
+
+::MATCH5::
+Match the operator to effect on binary object.
+{
+= Erosion -> Smaller
+= Dilation -> Larger
+= Opening -> Smooth boundaries
+= Closing -> Fill holes
+}
+
+::MATCH6::
+Match the concept to example.
+{
+= Connected components -> Counting coins
+= Morphology -> Cleaning binary mask
+= 4-connectivity -> Pixel neighbors up/down/left/right
+= 8-connectivity -> Neighbors include diagonals
+}
+
+::MATCH7::
+Match the property to the task.
+{
+= Noise -> Removed by opening
+= Holes -> Filled by closing
+= Boundaries -> Smoothed by morphology
+= Objects -> Counted by labeling
+}
+
+::MATCH8::
+Match the image type to method.
+{
+= Binary image -> Morphology
+= Color image -> Segmentation
+= Depth map -> 3D analysis
+= Grayscale -> Filtering
+}
+
+::MATCH9::
+Match the effect to the operation.
+{
+= Shrinks -> Erosion
+= Expands -> Dilation
+= Removes small spots -> Opening
+= Fills gaps -> Closing
+}
+
+::MATCH10::
+Match the labeling to its meaning.
+{
+= Connected component -> Pixel group
+= Label -> Identifier
+= Region -> Area of pixels
+= Neighbor -> Pixel adjacency
+}
+
+::MULTI1::
+Which are morphological operations?
+{
+~%25% Erosion
+~%25% Dilation
+~%25% Opening
+~%25% Closing
+}
+
+::MULTI2::
+Which are uses of morphology?
+{
+~%33.33333% Remove noise
+~%33.33333% Refine shapes
+~%33.33333% Smooth boundaries
+~%-100% Audio filtering
+}
+
+::MULTI3::
+Which are connectivity types in 2D images?
+{
+~%50% 4-connectivity
+~%50% 8-connectivity
+~%-100% 6-connectivity
+~%-100% 3D only
+}
+
+::MULTI4::
+Which are applications of connected components?
+{
+~%33.33333% Object counting
+~%33.33333% Region extraction
+~%33.33333% Shape analysis
+~%-100% File compression
+}
+
+::MULTI5::
+Which operations are combined in opening?
+{
+~%50% Erosion
+~%50% Dilation
+~%-100% Threshold
+~%-100% Edge detection
+}
+
+::MULTI6::
+Which operations are combined in closing?
+{
+~%50% Dilation
+~%50% Erosion
+~%-100% Threshold
+~%-100% Segmentation
+}
+
+::MULTI7::
+Which are limitations of morphology?
+{
+~%33.33333% Sensitive to noise
+~%33.33333% Can erode thin structures
+~%33.33333% Affected by gaps
+~%-100% Always perfect
+}
+
+::MULTI8::
+Which are benefits of morphology?
+{
+~%33.33333% Noise reduction
+~%33.33333% Shape filtering
+~%33.33333% Boundary smoothing
+~%-100% Audio compression
+}
+
+::MULTI9::
+Which are steps in connected component labeling?
+{
+~%33.33333% Scan image
+~%33.33333% Group connected pixels
+~%33.33333% Assign labels
+~%-100% Encrypt labels
+}
+
+::MULTI10::
+Which are challenges for connected components?
+{
+~%33.33333% Noise
+~%33.33333% Occlusions
+~%33.33333% Small gaps
+~%-100% Always robust
+}

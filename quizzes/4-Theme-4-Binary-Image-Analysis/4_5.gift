@@ -1,0 +1,309 @@
+::TF1::
+Shape moments can describe properties such as area, centroid, and orientation.
+{TRUE}
+
+::TF2::
+Hu moments are invariant to translation, scale, and rotation.
+{TRUE}
+
+::TF3::
+Fourier descriptors are based on transforming the boundary of a shape.
+{TRUE}
+
+::TF4::
+Skeletonization reduces a shape to its medial axis.
+{TRUE}
+
+::TF5::
+Shape descriptors should ideally be invariant to scale, rotation, and translation.
+{TRUE}
+
+::TF6::
+Fourier descriptors cannot be normalized for scale invariance.
+{FALSE}
+
+::TF7::
+Skeletons are useful for analyzing elongated structures.
+{TRUE}
+
+::TF8::
+Hu invariant moments are examples of region-based descriptors.
+{TRUE}
+
+::TF9::
+Fourier descriptors are examples of boundary-based shape descriptors.
+{TRUE}
+
+::TF10::
+Skeletonization always preserves the exact pixel values of the boundary.
+{FALSE}
+
+::MC1::
+Which property is given by the centroid of a shape?
+{
+= Geometric center
+~ Boundary length
+~ Brightness
+~ Noise level
+}
+
+::MC2::
+Which property is described by orientation moments?
+{
+= Main axis of the shape
+~ Color
+~ Texture
+~ File size
+}
+
+::MC3::
+Which moments are invariant to translation, rotation, and scale?
+{
+= Hu moments
+~ Raw moments
+~ Color histograms
+~ Edge gradients
+}
+
+::MC4::
+What do Fourier descriptors represent?
+{
+= Boundary shape in frequency domain
+~ Intensity histogram
+~ Color distribution
+~ Texture patches
+}
+
+::MC5::
+What does skeletonization produce?
+{
+= Medial axis of a shape
+~ Outer contour
+~ Histogram equalization
+~ Noise removal
+}
+
+::MC6::
+Which is an advantage of Fourier descriptors?
+{
+= Compact boundary representation
+~ Require raw pixel texture
+~ Only work for convex shapes
+~ Always lose invariance
+}
+
+::MC7::
+Which is an application of skeletons?
+{
+= Analyzing branching structures
+~ File compression
+~ Gamma correction
+~ Histogram smoothing
+}
+
+::MC8::
+Which property should robust shape descriptors have?
+{
+= Invariance to scale, rotation, translation
+~ Sensitivity to noise
+~ Dependence on file type
+~ Dependence on illumination
+}
+
+::MC9::
+Which moment feature describes the area of a shape?
+{
+= Zeroth-order moment
+~ First-order moment
+~ Second-order moment
+~ Hu moment 1
+}
+
+::MC10::
+Which is a limitation of skeletons?
+{
+= Sensitive to noise and boundary irregularities
+~ Always compact
+~ Always invariant
+~ Ignore structure
+}
+
+::MATCH1::
+Match the descriptor to its type.
+{
+= Moments -> Region-based
+= Fourier descriptors -> Boundary-based
+= Skeleton -> Medial axis
+= Compactness -> Simple descriptor
+}
+
+::MATCH2::
+Match the moment to property.
+{
+= Zeroth-order -> Area
+= First-order -> Centroid
+= Second-order -> Orientation
+= Hu moments -> Invariant features
+}
+
+::MATCH3::
+Match the method to its application.
+{
+= Moments -> Shape recognition
+= Fourier descriptors -> Boundary matching
+= Skeleton -> Branch analysis
+= Compactness -> Roundness measure
+}
+
+::MATCH4::
+Match the property to the descriptor.
+{
+= Area -> Moment
+= Centroid -> Moment
+= Boundary shape -> Fourier descriptor
+= Thin axis -> Skeleton
+}
+
+::MATCH5::
+Match the invariant feature to example.
+{
+= Translation invariance -> Centroid shift removed
+= Scale invariance -> Normalized descriptors
+= Rotation invariance -> Angle normalization
+= Hu moments -> All three invariances
+}
+
+::MATCH6::
+Match the algorithm to domain.
+{
+= Moments -> Region statistics
+= Fourier -> Frequency representation
+= Skeleton -> Topological analysis
+= Compactness -> Simple measurement
+}
+
+::MATCH7::
+Match the descriptor to limitation.
+{
+= Moments -> Sensitive to noise
+= Fourier -> Boundary-dependent
+= Skeleton -> Sensitive to irregularities
+= Compactness -> Not unique
+}
+
+::MATCH8::
+Match the feature to invariant property.
+{
+= Hu moments -> Rotation
+= Fourier descriptors -> Scale
+= Normalization -> Translation
+= Centroid -> Position
+}
+
+::MATCH9::
+Match the representation to robustness.
+{
+= Moments -> Region-based stability
+= Fourier -> Boundary detail
+= Skeleton -> Topology preservation
+= Compactness -> Rough descriptor
+}
+
+::MATCH10::
+Match the property to feature.
+{
+= Area -> Zeroth-order moment
+= Centroid -> First-order moment
+= Orientation -> Second-order moment
+= Hu moments -> Invariant shape descriptor
+}
+
+::MULTI1::
+Which are examples of region-based descriptors?
+{
+~%33.33333% Moments
+~%33.33333% Area
+~%33.33333% Centroid
+~%-100% Fourier descriptors
+}
+
+::MULTI2::
+Which are examples of boundary-based descriptors?
+{
+~%50% Fourier descriptors
+~%50% Contours
+~%-100% Moments
+~%-100% Skeleton
+}
+
+::MULTI3::
+Which are properties of Hu moments?
+{
+~%33.33333% Invariant to translation
+~%33.33333% Invariant to scale
+~%33.33333% Invariant to rotation
+~%-100% Dependent on illumination
+}
+
+::MULTI4::
+Which are properties of skeletonization?
+{
+~%33.33333% Produces medial axis
+~%33.33333% Useful for elongated shapes
+~%33.33333% Sensitive to noise
+~%-100% Preserves pixel intensities
+}
+
+::MULTI5::
+Which are advantages of Fourier descriptors?
+{
+~%33.33333% Compact shape representation
+~%33.33333% Boundary matching
+~%33.33333% Invariance with normalization
+~%-100% Region-based
+}
+
+::MULTI6::
+Which are basic shape descriptors?
+{
+~%33.33333% Compactness
+~%33.33333% Area
+~%33.33333% Perimeter
+~%-100% JPEG size
+}
+
+::MULTI7::
+Which are desirable properties of shape descriptors?
+{
+~%25% Scale invariance
+~%25% Rotation invariance
+~%25% Translation invariance
+~%25% Robustness
+}
+
+::MULTI8::
+Which are challenges for skeletons?
+{
+~%50% Noise sensitivity
+~%50% Boundary irregularities
+~%-100% Always smooth
+~%-100% Always unique
+}
+
+::MULTI9::
+Which are examples of invariant shape representations?
+{
+~%33.33333% Hu moments
+~%33.33333% Normalized Fourier descriptors
+~%33.33333% Compactness ratio
+~%-100% Raw pixel intensity
+}
+
+::MULTI10::
+Which are applications of advanced shape descriptors?
+{
+~%33.33333% Object recognition
+~%33.33333% Shape classification
+~%33.33333% Image retrieval
+~%-100% File compression
+}

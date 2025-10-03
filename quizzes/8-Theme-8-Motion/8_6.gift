@@ -1,0 +1,309 @@
+::TF1::
+Feature tracking follows points across video frames.
+{TRUE}
+
+::TF2::
+The Lucas–Kanade tracker is commonly used for feature tracking.
+{TRUE}
+
+::TF3::
+KLT is based on selecting strong corners for tracking.
+{TRUE}
+
+::TF4::
+Feature tracking provides continuous motion paths of objects.
+{TRUE}
+
+::TF5::
+Tracking is the same as detection.
+{FALSE}
+
+::TF6::
+Feature tracking can be used in video stabilization.
+{TRUE}
+
+::TF7::
+Drift refers to accumulation of small tracking errors over time.
+{TRUE}
+
+::TF8::
+Occlusion can cause loss of tracked features.
+{TRUE}
+
+::TF9::
+Feature tracking is useful in robotics navigation.
+{TRUE}
+
+::TF10::
+Feature tracking is unaffected by fast motion.
+{FALSE}
+
+::MC1::
+What is the purpose of feature tracking?
+{
+= Follow points/regions across frames
+~ Detect objects once
+~ Compress video
+~ Enhance brightness
+}
+
+::MC2::
+Which algorithm is commonly used for sparse tracking?
+{
+= Lucas–Kanade
+~ Horn–Schunck
+~ CNN flow
+~ Frame differencing
+}
+
+::MC3::
+What does the KLT tracker rely on?
+{
+= Strong corners
+~ Uniform regions
+~ Color histograms
+~ Audio signals
+}
+
+::MC4::
+Which application uses feature tracking?
+{
+= Video stabilization
+~ JPEG encoding
+~ Histogram equalization
+~ Gamma correction
+}
+
+::MC5::
+What is drift in tracking?
+{
+= Accumulation of errors
+~ Sudden jumps
+~ Always correct matching
+~ Histogram shift
+}
+
+::MC6::
+Which factor can cause tracked features to be lost?
+{
+= Occlusion
+~ Histogram equalization
+~ PCA projection
+~ File compression
+}
+
+::MC7::
+Which is an application of motion feature tracking?
+{
+= Human motion capture
+~ Histogram smoothing
+~ Audio equalization
+~ Image filtering
+}
+
+::MC8::
+Which field applies tracking for navigation?
+{
+= Robotics
+~ White balance
+~ File encryption
+~ Gamma correction
+}
+
+::MC9::
+Which challenge affects feature tracking?
+{
+= Illumination changes
+~ Always invariant
+~ No motion issues
+~ No drift
+}
+
+::MC10::
+Which is a property of detection vs. tracking?
+{
+= Detection finds objects, tracking maintains them
+~ Detection and tracking are identical
+~ Tracking finds new objects only
+~ Detection maintains continuity
+}
+
+::MATCH1::
+Match the tracker to property.
+{
+= Lucas–Kanade -> Sparse optical flow
+= KLT -> Strong corner tracking
+= Horn–Schunck -> Dense flow
+= CNN -> Learned motion
+}
+
+::MATCH2::
+Match the challenge to effect.
+{
+= Occlusion -> Feature loss
+= Drift -> Accumulated error
+= Illumination -> False motion
+= Fast motion -> Tracking failure
+}
+
+::MATCH3::
+Match the application to field.
+{
+= Video stabilization -> Media
+= Motion capture -> Sports
+= Robotics -> Navigation
+= Surveillance -> Person tracking
+}
+
+::MATCH4::
+Match the feature to suitability.
+{
+= Corner -> Good for tracking
+= Flat region -> Poor
+= High texture -> Good
+= Uniform area -> Poor
+}
+
+::MATCH5::
+Match the task to role.
+{
+= Detection -> Find new objects
+= Tracking -> Maintain identity
+= Segmentation -> Divide image
+= Clustering -> Group data
+}
+
+::MATCH6::
+Match the domain to example.
+{
+= Medicine -> Surgery assistance
+= Sports -> Athlete tracking
+= Industry -> Robot vision
+= Media -> Stabilization
+}
+
+::MATCH7::
+Match the property to challenge.
+{
+= Occlusion -> Hidden object
+= Drift -> Gradual loss
+= Illumination -> False changes
+= Noise -> Instability
+}
+
+::MATCH8::
+Match the tracker to application.
+{
+= Lucas–Kanade -> Sparse tracking
+= KLT -> Reliable corner tracking
+= CNN tracker -> Modern methods
+= Particle filter -> Probabilistic tracking
+}
+
+::MATCH9::
+Match the motion feature to output.
+{
+= Trajectory -> Path
+= Flow vector -> Displacement
+= Bounding box -> Region
+= Landmark -> Keypoint
+}
+
+::MATCH10::
+Match the concept to description.
+{
+= Tracking -> Maintain motion identity
+= Detection -> Locate objects
+= Drift -> Accumulated error
+= Occlusion -> Hidden features
+}
+
+::MULTI1::
+Which are feature tracking methods?
+{
+~%33.33333% Lucas–Kanade
+~%33.33333% KLT
+~%33.33333% CNN trackers
+~%-100% Histogram equalization
+}
+
+::MULTI2::
+Which are applications of tracking?
+{
+~%25% Video stabilization
+~%25% Motion capture
+~%25% Robotics navigation
+~%25% Surveillance
+}
+
+::MULTI3::
+Which are challenges for tracking?
+{
+~%25% Occlusion
+~%25% Drift
+~%25% Illumination changes
+~%25% Fast motion
+}
+
+::MULTI4::
+Which are suitable features for tracking?
+{
+~%33.33333% Corners
+~%33.33333% High-texture regions
+~%33.33333% Distinctive points
+~%-100% Uniform regions
+}
+
+::MULTI5::
+Which are limitations of Lucas–Kanade tracking?
+{
+~%50% Sensitive to large motion
+~%50% Sensitive to textureless regions
+~%-100% Works on all pixels equally
+~%-100% Perfect robustness
+}
+
+::MULTI6::
+Which are improvements of KLT over standard Lucas–Kanade?
+{
+~%50% Strong corner selection
+~%50% Better stability
+~%-100% Handles large motions automatically
+~%-100% Needs no assumptions
+}
+
+::MULTI7::
+Which are outputs of tracking?
+{
+~%25% Trajectories
+~%25% Flow vectors
+~%25% Landmarks
+~%25% Bounding boxes
+}
+
+::MULTI8::
+Which are motion tracking applications?
+{
+~%25% Gesture recognition
+~%25% Sports analysis
+~%25% Medical surgery guidance
+~%25% Robotics
+}
+
+::MULTI9::
+Which are common trackers?
+{
+~%33.33333% KLT
+~%33.33333% Particle filter
+~%33.33333% CNN-based
+~%-100% Histogram filters
+}
+
+::MULTI10::
+Which are domains using tracking?
+{
+~%25% Media stabilization
+~%25% Robotics navigation
+~%25% Sports performance
+~%25% Surveillance
+}

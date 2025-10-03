@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhat do homogeneous coordinates enable?\n{\n= Representation of translations and projections\n~ Only scaling\n~ Only rotations\n~ Only noise reduction\n}",
+    "title": "MC1",
+    "question": "What do homogeneous coordinates enable?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Representation of translations and projections",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Only scaling",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Only rotations",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Only noise reduction",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhat matrix size is used for 3D transformations in homogeneous form?\n{\n= 4×4\n~ 3×3\n~ 2×2\n~ 5×5\n}",
+    "title": "MC2",
+    "question": "What matrix size is used for 3D transformations in homogeneous form?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "4×4",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "3×3",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "2×2",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "5×5",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhat does the pinhole camera model describe?\n{\n= Projection of 3D points to 2D\n~ Image compression\n~ Histogram equalization\n~ Audio filtering\n}",
+    "title": "MC3",
+    "question": "What does the pinhole camera model describe?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Projection of 3D points to 2D",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Image compression",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Audio filtering",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhat is the equation of the pinhole projection?\n{\n= x = fX/Z, y = fY/Z\n~ x = X + f, y = Y + f\n~ x = X/Z, y = Y/Z\n~ x = fX + Z, y = fY + Z\n}",
+    "title": "MC4",
+    "question": "What is the equation of the pinhole projection?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "x = fX/Z, y = fY/Z",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "x = X + f, y = Y + f",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "x = X/Z, y = Y/Z",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "x = fX + Z, y = fY + Z",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhat does the pinhole model assume?\n{\n= Ideal geometry without lens distortion\n~ Real-world distortions included\n~ Nonlinear projection\n~ Automatic calibration\n}",
+    "title": "MC5",
+    "question": "What does the pinhole model assume?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Ideal geometry without lens distortion",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Real-world distortions included",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Nonlinear projection",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Automatic calibration",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich is an application of camera models?\n{\n= 3D reconstruction\n~ Histogram smoothing\n~ File encryption\n~ JPEG compression\n}",
+    "title": "MC6",
+    "question": "Which is an application of camera models?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "3D reconstruction",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram smoothing",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "File encryption",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "JPEG compression",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich is NOT included in basic 3D transformations?\n{\n= Histogram equalization\n~ Translation\n~ Rotation\n~ Scaling\n}",
+    "title": "MC7",
+    "question": "Which is NOT included in basic 3D transformations?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Histogram equalization",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Translation",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Rotation",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Scaling",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich is a limitation of the pinhole model?\n{\n= Ignores lens distortion\n~ Requires 4×4 matrix\n~ Uses world coordinates\n~ Too general\n}",
+    "title": "MC8",
+    "question": "Which is a limitation of the pinhole model?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Ignores lens distortion",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Requires 4×4 matrix",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Uses world coordinates",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Too general",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich is required for augmented reality?\n{\n= Accurate camera calibration\n~ Audio equalization\n~ Histogram bins\n~ File compression\n}",
+    "title": "MC9",
+    "question": "Which is required for augmented reality?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Accurate camera calibration",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Audio equalization",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Histogram bins",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "File compression",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich is a transformation used in world-to-camera conversion?\n{\n= Rotation and translation\n~ Histogram adjustment\n~ Color balancing\n~ Filtering\n}",
+    "title": "MC10",
+    "question": "Which is a transformation used in world-to-camera conversion?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Rotation and translation",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram adjustment",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Color balancing",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Filtering",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the transformation to type.\n{\n= Translation -> Shift\n= Rotation -> Turn\n= Scaling -> Resize\n= Homogeneous -> Matrix form\n}",
+    "title": "MATCH1",
+    "question": "Match the transformation to type.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Translation",
+        "right": "Shift"
+      },
+      {
+        "id": 2,
+        "left": "Rotation",
+        "right": "Turn"
+      },
+      {
+        "id": 3,
+        "left": "Scaling",
+        "right": "Resize"
+      },
+      {
+        "id": 4,
+        "left": "Homogeneous",
+        "right": "Matrix form"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the camera concept to meaning.\n{\n= Pinhole model -> Projection to 2D\n= Calibration -> Estimate parameters\n= Projection equation -> x equals fX/Z\n= Distortion -> Lens effects\n}",
+    "title": "MATCH2",
+    "question": "Match the camera concept to meaning.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Pinhole model",
+        "right": "Projection to 2D"
+      },
+      {
+        "id": 2,
+        "left": "Calibration",
+        "right": "Estimate parameters"
+      },
+      {
+        "id": 3,
+        "left": "Projection equation",
+        "right": "x equals fX/Z"
+      },
+      {
+        "id": 4,
+        "left": "Distortion",
+        "right": "Lens effects"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the application to domain.\n{\n= AR -> Overlay graphics\n= Robotics -> Navigation\n= Vision -> 3D reconstruction\n= Graphics -> Rendering\n}",
+    "title": "MATCH3",
+    "question": "Match the application to domain.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "AR",
+        "right": "Overlay graphics"
+      },
+      {
+        "id": 2,
+        "left": "Robotics",
+        "right": "Navigation"
+      },
+      {
+        "id": 3,
+        "left": "Vision",
+        "right": "3D reconstruction"
+      },
+      {
+        "id": 4,
+        "left": "Graphics",
+        "right": "Rendering"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the property to model.\n{\n= Preserves straight lines -> Pinhole\n= No distortion -> Ideal model\n= 3×3 matrix -> Intrinsic parameters\n= 4×4 matrix -> 3D transforms\n}",
+    "title": "MATCH4",
+    "question": "Match the property to model.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Preserves straight lines",
+        "right": "Pinhole"
+      },
+      {
+        "id": 2,
+        "left": "No distortion",
+        "right": "Ideal model"
+      },
+      {
+        "id": 3,
+        "left": "3×3 matrix",
+        "right": "Intrinsic parameters"
+      },
+      {
+        "id": 4,
+        "left": "4×4 matrix",
+        "right": "3D transforms"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the problem to challenge.\n{\n= Distortion -> Not modeled\n= Calibration -> Precision needed\n= Perspective -> Scale with depth\n= Noise -> Measurement errors\n}",
+    "title": "MATCH5",
+    "question": "Match the problem to challenge.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Distortion",
+        "right": "Not modeled"
+      },
+      {
+        "id": 2,
+        "left": "Calibration",
+        "right": "Precision needed"
+      },
+      {
+        "id": 3,
+        "left": "Perspective",
+        "right": "Scale with depth"
+      },
+      {
+        "id": 4,
+        "left": "Noise",
+        "right": "Measurement errors"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the equation to role.\n{\n= x = fX/Z -> Horizontal projection\n= y = fY/Z -> Vertical projection\n= f -> Focal length\n= Z -> Depth\n}",
+    "title": "MATCH6",
+    "question": "Match the equation to role.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "x = fX/Z",
+        "right": "Horizontal projection"
+      },
+      {
+        "id": 2,
+        "left": "y = fY/Z",
+        "right": "Vertical projection"
+      },
+      {
+        "id": 3,
+        "left": "f",
+        "right": "Focal length"
+      },
+      {
+        "id": 4,
+        "left": "Z",
+        "right": "Depth"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the coordinate system to role.\n{\n= World -> Scene\n= Camera -> Observer\n= Image -> 2D plane\n= Homogeneous -> Computation\n}",
+    "title": "MATCH7",
+    "question": "Match the coordinate system to role.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "World",
+        "right": "Scene"
+      },
+      {
+        "id": 2,
+        "left": "Camera",
+        "right": "Observer"
+      },
+      {
+        "id": 3,
+        "left": "Image",
+        "right": "2D plane"
+      },
+      {
+        "id": 4,
+        "left": "Homogeneous",
+        "right": "Computation"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the transformation to representation.\n{\n= Translation -> Vector\n= Rotation -> Matrix\n= Scaling -> Diagonal\n= Full -> 4×4 homogeneous\n}",
+    "title": "MATCH8",
+    "question": "Match the transformation to representation.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Translation",
+        "right": "Vector"
+      },
+      {
+        "id": 2,
+        "left": "Rotation",
+        "right": "Matrix"
+      },
+      {
+        "id": 3,
+        "left": "Scaling",
+        "right": "Diagonal"
+      },
+      {
+        "id": 4,
+        "left": "Full",
+        "right": "4×4 homogeneous"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the application to field.\n{\n= AR -> Interactive graphics\n= Robotics -> Camera localization\n= Medicine -> Imaging\n= Surveying -> Mapping\n}",
+    "title": "MATCH9",
+    "question": "Match the application to field.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "AR",
+        "right": "Interactive graphics"
+      },
+      {
+        "id": 2,
+        "left": "Robotics",
+        "right": "Camera localization"
+      },
+      {
+        "id": 3,
+        "left": "Medicine",
+        "right": "Imaging"
+      },
+      {
+        "id": 4,
+        "left": "Surveying",
+        "right": "Mapping"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the property to matrix.\n{\n= 4×4 -> 3D transform\n= 3×3 -> Intrinsic calibration\n= Rank 2 -> Fundamental matrix\n= 3×3 + translation -> Affine\n}",
+    "title": "MATCH10",
+    "question": "Match the property to matrix.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "4×4",
+        "right": "3D transform"
+      },
+      {
+        "id": 2,
+        "left": "3×3",
+        "right": "Intrinsic calibration"
+      },
+      {
+        "id": 3,
+        "left": "Rank 2",
+        "right": "Fundamental matrix"
+      },
+      {
+        "id": 4,
+        "left": "3×3 + translation",
+        "right": "Affine"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are 3D transformations?\n{\n~%25% Translation\n~%25% Rotation\n~%25% Scaling\n~%25% Homogeneous projection\n}",
+    "title": "MULTI1",
+    "question": "Which are 3D transformations?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Translation",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Rotation",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Scaling",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Homogeneous projection",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are properties of homogeneous coordinates?\n{\n~%33.33333% Enable translation in matrix form\n~%33.33333% Represent projections\n~%33.33333% Work with 4×4 matrices\n~%-100% Ignore scaling\n}",
+    "title": "MULTI2",
+    "question": "Which are properties of homogeneous coordinates?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Enable translation in matrix form",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Represent projections",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Work with 4×4 matrices",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Ignore scaling",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are assumptions of pinhole camera model?\n{\n~%50% No distortion\n~%50% Ideal projection\n~%-100% Lens imperfections\n~%-100% Nonlinear effects\n}",
+    "title": "MULTI3",
+    "question": "Which are assumptions of pinhole camera model?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "No distortion",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Ideal projection",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Lens imperfections",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Nonlinear effects",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are applications of camera models?\n{\n~%25% Calibration\n~%25% 3D reconstruction\n~%25% Augmented reality\n~%25% Robotics\n}",
+    "title": "MULTI4",
+    "question": "Which are applications of camera models?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Calibration",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "3D reconstruction",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Augmented reality",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Robotics",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are challenges in projection?\n{\n~%33.33333% Perspective effects\n~%33.33333% Noise\n~%33.33333% Calibration errors\n~%-100% Histogram mismatch\n}",
+    "title": "MULTI5",
+    "question": "Which are challenges in projection?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Perspective effects",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Noise",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Calibration errors",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Histogram mismatch",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are parts of the pinhole projection equation?\n{\n~%25% x = fX/Z\n~%25% y = fY/Z\n~%25% f focal length\n~%25% Z depth\n}",
+    "title": "MULTI6",
+    "question": "Which are parts of the pinhole projection equation?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "x = fX/Z",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "y = fY/Z",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "f focal length",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Z depth",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are included in 3D transformation matrices?\n{\n~%33.33333% Translation\n~%33.33333% Rotation\n~%33.33333% Scaling\n~%-100% Histogram equalization\n}",
+    "title": "MULTI7",
+    "question": "Which are included in 3D transformation matrices?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Translation",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Rotation",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Scaling",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Histogram equalization",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are coordinate systems in camera modeling?\n{\n~%25% World\n~%25% Camera\n~%25% Image\n~%25% Homogeneous\n}",
+    "title": "MULTI8",
+    "question": "Which are coordinate systems in camera modeling?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "World",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Camera",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Image",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Homogeneous",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are benefits of homogeneous coordinates?\n{\n~%33.33333% Simplifies transformations\n~%33.33333% Enables projections\n~%33.33333% Combines operations\n~%-100% Removes depth\n}",
+    "title": "MULTI9",
+    "question": "Which are benefits of homogeneous coordinates?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Simplifies transformations",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Enables projections",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Combines operations",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Removes depth",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich domains use camera models?\n{\n~%25% AR\n~%25% Robotics\n~%25% Medicine\n~%25% Vision\n}",
+    "title": "MULTI10",
+    "question": "Which domains use camera models?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "AR",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Robotics",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Medicine",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Vision",
+        "weight": 25.0
+      }
+    ]
+  }
+]

@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nHow many lights are needed for the simplest photometric stereo setup?\n{\n= Three\n~ One\n~ Two\n~ Four\n}",
+    "title": "MC1",
+    "question": "How many lights are needed for the simplest photometric stereo setup?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Three",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "One",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Two",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Four",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhat is the advantage of using more than three lights?\n{\n= More robustness\n~ No computation needed\n~ Always eliminates shadows\n~ Infinite precision\n}",
+    "title": "MC2",
+    "question": "What is the advantage of using more than three lights?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "More robustness",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "No computation needed",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Always eliminates shadows",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Infinite precision",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhat does uncalibrated photometric stereo assume?\n{\n= Light directions unknown\n~ Perfect Lambertian surfaces\n~ Known lighting always\n~ Stereo cameras\n}",
+    "title": "MC3",
+    "question": "What does uncalibrated photometric stereo assume?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Light directions unknown",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Perfect Lambertian surfaces",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Known lighting always",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Stereo cameras",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhich extension uses different wavelengths?\n{\n= Color photometric stereo\n~ Uncalibrated photometric stereo\n~ Polarization stereo\n~ Stereo disparity\n}",
+    "title": "MC4",
+    "question": "Which extension uses different wavelengths?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Color photometric stereo",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Uncalibrated photometric stereo",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Polarization stereo",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Stereo disparity",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhich is a limitation of photometric stereo?\n{\n= Sensitive to specular reflections\n~ Robust to all noise\n~ Works perfectly outdoors\n~ Needs no lighting info\n}",
+    "title": "MC5",
+    "question": "Which is a limitation of photometric stereo?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Sensitive to specular reflections",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Robust to all noise",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Works perfectly outdoors",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Needs no lighting info",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich extension exploits polarization effects?\n{\n= Polarization-based photometric stereo\n~ Color photometric stereo\n~ RANSAC-based stereo\n~ Histogram equalization\n}",
+    "title": "MC6",
+    "question": "Which extension exploits polarization effects?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Polarization-based photometric stereo",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Color photometric stereo",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "RANSAC-based stereo",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram equalization",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich condition is best for photometric stereo?\n{\n= Controlled lighting\n~ Random outdoor light\n~ Only one lamp\n~ Noisy environment\n}",
+    "title": "MC7",
+    "question": "Which condition is best for photometric stereo?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Controlled lighting",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Random outdoor light",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Only one lamp",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Noisy environment",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich factor causes reduced accuracy in photometric stereo?\n{\n= Shadows\n~ Always robust\n~ No assumptions\n~ Infinite accuracy\n}",
+    "title": "MC8",
+    "question": "Which factor causes reduced accuracy in photometric stereo?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Shadows",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Always robust",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "No assumptions",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Infinite accuracy",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich is an application of photometric stereo?\n{\n= High-precision surface inspection\n~ JPEG compression\n~ Gamma correction\n~ Histogram equalization\n}",
+    "title": "MC9",
+    "question": "Which is an application of photometric stereo?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "High-precision surface inspection",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "JPEG compression",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Gamma correction",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram equalization",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich domain benefits from photometric stereo?\n{\n= Cultural heritage\n~ Audio compression\n~ File encryption\n~ Gamma encoding\n}",
+    "title": "MC10",
+    "question": "Which domain benefits from photometric stereo?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Cultural heritage",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Audio compression",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "File encryption",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Gamma encoding",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the extension to property.\n{\n= Color -> Uses wavelengths\n= Uncalibrated -> Unknown lights\n= Polarization -> Exploits polarization\n= Standard -> Known lights\n}",
+    "title": "MATCH1",
+    "question": "Match the extension to property.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Color",
+        "right": "Uses wavelengths"
+      },
+      {
+        "id": 2,
+        "left": "Uncalibrated",
+        "right": "Unknown lights"
+      },
+      {
+        "id": 3,
+        "left": "Polarization",
+        "right": "Exploits polarization"
+      },
+      {
+        "id": 4,
+        "left": "Standard",
+        "right": "Known lights"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the requirement to method.\n{\n= 3 lights -> Basic setup\n= More lights -> Robustness\n= Controlled lighting -> Accuracy\n= Outdoor lighting -> Poor performance\n}",
+    "title": "MATCH2",
+    "question": "Match the requirement to method.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "3 lights",
+        "right": "Basic setup"
+      },
+      {
+        "id": 2,
+        "left": "More lights",
+        "right": "Robustness"
+      },
+      {
+        "id": 3,
+        "left": "Controlled lighting",
+        "right": "Accuracy"
+      },
+      {
+        "id": 4,
+        "left": "Outdoor lighting",
+        "right": "Poor performance"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the limitation to cause.\n{\n= Shadows -> Missing data\n= Specular reflections -> Invalid Lambertian\n= Non-Lambertian -> Wrong normals\n= Few lights -> Poor estimates\n}",
+    "title": "MATCH3",
+    "question": "Match the limitation to cause.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Shadows",
+        "right": "Missing data"
+      },
+      {
+        "id": 2,
+        "left": "Specular reflections",
+        "right": "Invalid Lambertian"
+      },
+      {
+        "id": 3,
+        "left": "Non-Lambertian",
+        "right": "Wrong normals"
+      },
+      {
+        "id": 4,
+        "left": "Few lights",
+        "right": "Poor estimates"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the application to domain.\n{\n= Surface inspection -> Industry\n= Biometric scanning -> Security\n= Object scanning -> Cultural heritage\n= Medical imaging -> Diagnostics\n}",
+    "title": "MATCH4",
+    "question": "Match the application to domain.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Surface inspection",
+        "right": "Industry"
+      },
+      {
+        "id": 2,
+        "left": "Biometric scanning",
+        "right": "Security"
+      },
+      {
+        "id": 3,
+        "left": "Object scanning",
+        "right": "Cultural heritage"
+      },
+      {
+        "id": 4,
+        "left": "Medical imaging",
+        "right": "Diagnostics"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the step to description.\n{\n= Capture images -> Vary lights\n= Solve equations -> Estimate normals\n= Integrate normals -> Depth map\n= Refinement -> Improve accuracy\n}",
+    "title": "MATCH5",
+    "question": "Match the step to description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Capture images",
+        "right": "Vary lights"
+      },
+      {
+        "id": 2,
+        "left": "Solve equations",
+        "right": "Estimate normals"
+      },
+      {
+        "id": 3,
+        "left": "Integrate normals",
+        "right": "Depth map"
+      },
+      {
+        "id": 4,
+        "left": "Refinement",
+        "right": "Improve accuracy"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the factor to robustness.\n{\n= More lights -> Less sensitive\n= RANSAC -> Outlier handling\n= Controlled lighting -> Stability\n= Iterative refinement -> Accuracy\n}",
+    "title": "MATCH6",
+    "question": "Match the factor to robustness.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "More lights",
+        "right": "Less sensitive"
+      },
+      {
+        "id": 2,
+        "left": "RANSAC",
+        "right": "Outlier handling"
+      },
+      {
+        "id": 3,
+        "left": "Controlled lighting",
+        "right": "Stability"
+      },
+      {
+        "id": 4,
+        "left": "Iterative refinement",
+        "right": "Accuracy"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the technique to weakness.\n{\n= Color stereo -> Needs calibration\n= Uncalibrated -> Ambiguity\n= Polarization -> Special setup\n= Standard -> Shadows affect\n}",
+    "title": "MATCH7",
+    "question": "Match the technique to weakness.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Color stereo",
+        "right": "Needs calibration"
+      },
+      {
+        "id": 2,
+        "left": "Uncalibrated",
+        "right": "Ambiguity"
+      },
+      {
+        "id": 3,
+        "left": "Polarization",
+        "right": "Special setup"
+      },
+      {
+        "id": 4,
+        "left": "Standard",
+        "right": "Shadows affect"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the photometric cue to usage.\n{\n= Intensity -> Normal estimation\n= Wavelength -> Color stereo\n= Polarization -> Reflectance separation\n= Geometry -> Integration\n}",
+    "title": "MATCH8",
+    "question": "Match the photometric cue to usage.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Intensity",
+        "right": "Normal estimation"
+      },
+      {
+        "id": 2,
+        "left": "Wavelength",
+        "right": "Color stereo"
+      },
+      {
+        "id": 3,
+        "left": "Polarization",
+        "right": "Reflectance separation"
+      },
+      {
+        "id": 4,
+        "left": "Geometry",
+        "right": "Integration"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the condition to effect.\n{\n= Shadows -> Missing normals\n= More lights -> Robust normals\n= Few lights -> Poor normals\n= Specularities -> Wrong estimation\n}",
+    "title": "MATCH9",
+    "question": "Match the condition to effect.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Shadows",
+        "right": "Missing normals"
+      },
+      {
+        "id": 2,
+        "left": "More lights",
+        "right": "Robust normals"
+      },
+      {
+        "id": 3,
+        "left": "Few lights",
+        "right": "Poor normals"
+      },
+      {
+        "id": 4,
+        "left": "Specularities",
+        "right": "Wrong estimation"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the application to field.\n{\n= Cultural heritage -> 3D scans\n= Industry -> Surface defects\n= Medicine -> Shape analysis\n= Security -> Biometrics\n}",
+    "title": "MATCH10",
+    "question": "Match the application to field.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Cultural heritage",
+        "right": "3D scans"
+      },
+      {
+        "id": 2,
+        "left": "Industry",
+        "right": "Surface defects"
+      },
+      {
+        "id": 3,
+        "left": "Medicine",
+        "right": "Shape analysis"
+      },
+      {
+        "id": 4,
+        "left": "Security",
+        "right": "Biometrics"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are requirements for photometric stereo?\n{\n~%33.33333% At least three lights\n~%33.33333% Known lighting (standard)\n~%33.33333% Fixed viewpoint\n~%-100% Outdoor sunlight only\n}",
+    "title": "MULTI1",
+    "question": "Which are requirements for photometric stereo?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "At least three lights",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Known lighting (standard)",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Fixed viewpoint",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Outdoor sunlight only",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are extensions of photometric stereo?\n{\n~%33.33333% Color photometric stereo\n~%33.33333% Uncalibrated photometric stereo\n~%33.33333% Polarization-based\n~%-100% Stereo disparity\n}",
+    "title": "MULTI2",
+    "question": "Which are extensions of photometric stereo?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Color photometric stereo",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Uncalibrated photometric stereo",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Polarization-based",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Stereo disparity",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are limitations of photometric stereo?\n{\n~%25% Shadows\n~%25% Specular reflections\n~%25% Non-Lambertian surfaces\n~%25% Noise\n}",
+    "title": "MULTI3",
+    "question": "Which are limitations of photometric stereo?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Shadows",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Specular reflections",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Non-Lambertian surfaces",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Noise",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are applications of photometric stereo?\n{\n~%25% Surface inspection\n~%25% Cultural heritage\n~%25% Biometric scanning\n~%25% Medical imaging\n}",
+    "title": "MULTI4",
+    "question": "Which are applications of photometric stereo?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Surface inspection",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Cultural heritage",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Biometric scanning",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Medical imaging",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are advantages of using more lights?\n{\n~%33.33333% More robustness\n~%33.33333% Handles shadows better\n~%33.33333% Reduces noise effect\n~%-100% Always perfect\n}",
+    "title": "MULTI5",
+    "question": "Which are advantages of using more lights?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "More robustness",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Handles shadows better",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Reduces noise effect",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Always perfect",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are properties of uncalibrated photometric stereo?\n{\n~%50% Unknown light directions\n~%50% Joint estimation\n~%-100% Needs known lights\n~%-100% Always perfect\n}",
+    "title": "MULTI6",
+    "question": "Which are properties of uncalibrated photometric stereo?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Unknown light directions",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Joint estimation",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Needs known lights",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Always perfect",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are properties of color photometric stereo?\n{\n~%50% Different wavelengths\n~%50% Multi-spectral analysis\n~%-100% Always grayscale\n~%-100% Needs only one image\n}",
+    "title": "MULTI7",
+    "question": "Which are properties of color photometric stereo?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Different wavelengths",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Multi-spectral analysis",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Always grayscale",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Needs only one image",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are steps in photometric stereo?\n{\n~%25% Capture images under lights\n~%25% Estimate normals\n~%25% Integrate normals\n~%25% Refine results\n}",
+    "title": "MULTI8",
+    "question": "Which are steps in photometric stereo?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Capture images under lights",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Estimate normals",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Integrate normals",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Refine results",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are best conditions for photometric stereo?\n{\n~%50% Controlled lighting\n~%50% Multiple light sources\n~%-100% Sunlight only\n~%-100% Moving camera\n}",
+    "title": "MULTI9",
+    "question": "Which are best conditions for photometric stereo?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Controlled lighting",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Multiple light sources",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Sunlight only",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Moving camera",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are domains using photometric stereo?\n{\n~%25% Industry\n~%25% Cultural heritage\n~%25% Medicine\n~%25% Security\n}",
+    "title": "MULTI10",
+    "question": "Which are domains using photometric stereo?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Industry",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Cultural heritage",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Medicine",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Security",
+        "weight": 25.0
+      }
+    ]
+  }
+]

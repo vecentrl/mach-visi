@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhat is the goal of stereo matching?\n{\n= Compute disparity maps\n~ Adjust brightness\n~ Perform segmentation\n~ Reduce noise\n}",
+    "title": "MC1",
+    "question": "What is the goal of stereo matching?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Compute disparity maps",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Adjust brightness",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Perform segmentation",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Reduce noise",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhat do local stereo methods rely on?\n{\n= Small matching windows\n~ Large global models\n~ Histogram equalization\n~ Fourier transforms\n}",
+    "title": "MC2",
+    "question": "What do local stereo methods rely on?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Small matching windows",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Large global models",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Fourier transforms",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhat is minimized in global stereo methods?\n{\n= Energy function\n~ Histogram bins\n~ Compression error\n~ JPEG coefficients\n}",
+    "title": "MC3",
+    "question": "What is minimized in global stereo methods?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Energy function",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram bins",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Compression error",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "JPEG coefficients",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhat are the two main terms in stereo energy functions?\n{\n= Data and smoothness\n~ Color and contrast\n~ Histogram and brightness\n~ Gamma and exposure\n}",
+    "title": "MC4",
+    "question": "What are the two main terms in stereo energy functions?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Data and smoothness",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Color and contrast",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Histogram and brightness",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Gamma and exposure",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhich is a global optimization technique?\n{\n= Graph cuts\n~ Histogram equalization\n~ JPEG encoding\n~ PCA\n}",
+    "title": "MC5",
+    "question": "Which is a global optimization technique?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Graph cuts",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "JPEG encoding",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "PCA",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich is a local method drawback?\n{\n= Errors in textureless regions\n~ Always exact\n~ Works with no images\n~ No effect of occlusion\n}",
+    "title": "MC6",
+    "question": "Which is a local method drawback?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Errors in textureless regions",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Always exact",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Works with no images",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "No effect of occlusion",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich is a drawback of global methods?\n{\n= Computational cost\n~ Always inaccurate\n~ No smoothness\n~ Ignores disparity\n}",
+    "title": "MC7",
+    "question": "Which is a drawback of global methods?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Computational cost",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Always inaccurate",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "No smoothness",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Ignores disparity",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich is an application of stereo matching?\n{\n= Depth estimation\n~ Audio compression\n~ File encryption\n~ Gamma correction\n}",
+    "title": "MC8",
+    "question": "Which is an application of stereo matching?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Depth estimation",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Audio compression",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "File encryption",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Gamma correction",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich factor complicates stereo matching?\n{\n= Repetitive patterns\n~ Always unique matches\n~ No occlusion\n~ Histogram mismatch\n}",
+    "title": "MC9",
+    "question": "Which factor complicates stereo matching?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Repetitive patterns",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Always unique matches",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "No occlusion",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram mismatch",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich is a trade-off in stereo optimization?\n{\n= Local fast vs. global accurate\n~ Always global is best\n~ Always local is best\n~ No trade-off\n}",
+    "title": "MC10",
+    "question": "Which is a trade-off in stereo optimization?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Local fast vs. global accurate",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Always global is best",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Always local is best",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "No trade-off",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the method to category.\n{\n= Local -> Window-based\n= Global -> Energy-based\n= Graph cuts -> Global\n= Dynamic programming -> Optimization\n}",
+    "title": "MATCH1",
+    "question": "Match the method to category.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Local",
+        "right": "Window-based"
+      },
+      {
+        "id": 2,
+        "left": "Global",
+        "right": "Energy-based"
+      },
+      {
+        "id": 3,
+        "left": "Graph cuts",
+        "right": "Global"
+      },
+      {
+        "id": 4,
+        "left": "Dynamic programming",
+        "right": "Optimization"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the energy term to meaning.\n{\n= Data -> Photometric similarity\n= Smoothness -> Neighbor consistency\n= Regularization -> Penalty\n= Outlier -> Error\n}",
+    "title": "MATCH2",
+    "question": "Match the energy term to meaning.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Data",
+        "right": "Photometric similarity"
+      },
+      {
+        "id": 2,
+        "left": "Smoothness",
+        "right": "Neighbor consistency"
+      },
+      {
+        "id": 3,
+        "left": "Regularization",
+        "right": "Penalty"
+      },
+      {
+        "id": 4,
+        "left": "Outlier",
+        "right": "Error"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the algorithm to property.\n{\n= Graph cuts -> Discrete optimization\n= Belief propagation -> Probabilistic\n= Dynamic programming -> Sequential\n= Window matching -> Local\n}",
+    "title": "MATCH3",
+    "question": "Match the algorithm to property.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Graph cuts",
+        "right": "Discrete optimization"
+      },
+      {
+        "id": 2,
+        "left": "Belief propagation",
+        "right": "Probabilistic"
+      },
+      {
+        "id": 3,
+        "left": "Dynamic programming",
+        "right": "Sequential"
+      },
+      {
+        "id": 4,
+        "left": "Window matching",
+        "right": "Local"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the problem to cause.\n{\n= Occlusion -> Missing matches\n= Textureless -> Ambiguity\n= Repetitive -> Wrong match\n= Noise -> Errors\n}",
+    "title": "MATCH4",
+    "question": "Match the problem to cause.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Occlusion",
+        "right": "Missing matches"
+      },
+      {
+        "id": 2,
+        "left": "Textureless",
+        "right": "Ambiguity"
+      },
+      {
+        "id": 3,
+        "left": "Repetitive",
+        "right": "Wrong match"
+      },
+      {
+        "id": 4,
+        "left": "Noise",
+        "right": "Errors"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the trade-off to type.\n{\n= Local -> Efficient\n= Global -> Accurate\n= Real-time -> Needs speed\n= Robust -> Needs computation\n}",
+    "title": "MATCH5",
+    "question": "Match the trade-off to type.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Local",
+        "right": "Efficient"
+      },
+      {
+        "id": 2,
+        "left": "Global",
+        "right": "Accurate"
+      },
+      {
+        "id": 3,
+        "left": "Real-time",
+        "right": "Needs speed"
+      },
+      {
+        "id": 4,
+        "left": "Robust",
+        "right": "Needs computation"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the application to domain.\n{\n= Depth map -> Vision\n= Obstacle detection -> Robotics\n= Reconstruction -> Graphics\n= Navigation -> Autonomous vehicles\n}",
+    "title": "MATCH6",
+    "question": "Match the application to domain.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Depth map",
+        "right": "Vision"
+      },
+      {
+        "id": 2,
+        "left": "Obstacle detection",
+        "right": "Robotics"
+      },
+      {
+        "id": 3,
+        "left": "Reconstruction",
+        "right": "Graphics"
+      },
+      {
+        "id": 4,
+        "left": "Navigation",
+        "right": "Autonomous vehicles"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the method to drawback.\n{\n= Local -> Textureless errors\n= Global -> Computation heavy\n= Graph cuts -> Complexity\n= Dynamic programming -> Limited flexibility\n}",
+    "title": "MATCH7",
+    "question": "Match the method to drawback.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Local",
+        "right": "Textureless errors"
+      },
+      {
+        "id": 2,
+        "left": "Global",
+        "right": "Computation heavy"
+      },
+      {
+        "id": 3,
+        "left": "Graph cuts",
+        "right": "Complexity"
+      },
+      {
+        "id": 4,
+        "left": "Dynamic programming",
+        "right": "Limited flexibility"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the technique to description.\n{\n= Graph cuts -> Min-cut/Max-flow\n= Belief propagation -> Message passing\n= Dynamic programming -> Sequential solve\n= Local matching -> Simple windows\n}",
+    "title": "MATCH8",
+    "question": "Match the technique to description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Graph cuts",
+        "right": "Min-cut/Max-flow"
+      },
+      {
+        "id": 2,
+        "left": "Belief propagation",
+        "right": "Message passing"
+      },
+      {
+        "id": 3,
+        "left": "Dynamic programming",
+        "right": "Sequential solve"
+      },
+      {
+        "id": 4,
+        "left": "Local matching",
+        "right": "Simple windows"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the feature to challenge.\n{\n= Occlusion -> Hidden areas\n= Textureless -> Ambiguity\n= Repetition -> Confusion\n= Calibration -> Errors\n}",
+    "title": "MATCH9",
+    "question": "Match the feature to challenge.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Occlusion",
+        "right": "Hidden areas"
+      },
+      {
+        "id": 2,
+        "left": "Textureless",
+        "right": "Ambiguity"
+      },
+      {
+        "id": 3,
+        "left": "Repetition",
+        "right": "Confusion"
+      },
+      {
+        "id": 4,
+        "left": "Calibration",
+        "right": "Errors"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the step to process.\n{\n= Capture -> Stereo images\n= Match -> Correspondences\n= Optimize -> Energy minimization\n= Output -> Depth map\n}",
+    "title": "MATCH10",
+    "question": "Match the step to process.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Capture",
+        "right": "Stereo images"
+      },
+      {
+        "id": 2,
+        "left": "Match",
+        "right": "Correspondences"
+      },
+      {
+        "id": 3,
+        "left": "Optimize",
+        "right": "Energy minimization"
+      },
+      {
+        "id": 4,
+        "left": "Output",
+        "right": "Depth map"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are stereo matching methods?\n{\n~%25% Local\n~%25% Global\n~%25% Semi-global\n~%25% Hybrid\n}",
+    "title": "MULTI1",
+    "question": "Which are stereo matching methods?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Local",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Global",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Semi-global",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Hybrid",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are terms in stereo energy functions?\n{\n~%50% Data\n~%50% Smoothness\n~%-100% Histogram\n~%-100% Gamma\n}",
+    "title": "MULTI2",
+    "question": "Which are terms in stereo energy functions?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Data",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Smoothness",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Histogram",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Gamma",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are global optimization techniques?\n{\n~%33.33333% Graph cuts\n~%33.33333% Belief propagation\n~%33.33333% Dynamic programming\n~%-100% Histogram equalization\n}",
+    "title": "MULTI3",
+    "question": "Which are global optimization techniques?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Graph cuts",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Belief propagation",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Dynamic programming",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Histogram equalization",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are drawbacks of local methods?\n{\n~%50% Errors in textureless regions\n~%50% Problems with occlusion\n~%-100% Always robust\n~%-100% Always global\n}",
+    "title": "MULTI4",
+    "question": "Which are drawbacks of local methods?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Errors in textureless regions",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Problems with occlusion",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Always robust",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Always global",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are drawbacks of global methods?\n{\n~%50% High computation\n~%50% Slower speed\n~%-100% Always fast\n~%-100% Always trivial\n}",
+    "title": "MULTI5",
+    "question": "Which are drawbacks of global methods?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "High computation",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Slower speed",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Always fast",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Always trivial",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are challenges in stereo matching?\n{\n~%25% Occlusion\n~%25% Textureless areas\n~%25% Repetitive patterns\n~%25% Noise\n}",
+    "title": "MULTI6",
+    "question": "Which are challenges in stereo matching?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Occlusion",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Textureless areas",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Repetitive patterns",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Noise",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are applications of stereo matching?\n{\n~%25% Depth maps\n~%25% 3D reconstruction\n~%25% Robotics\n~%25% Autonomous driving\n}",
+    "title": "MULTI7",
+    "question": "Which are applications of stereo matching?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Depth maps",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "3D reconstruction",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Robotics",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Autonomous driving",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are properties of local stereo methods?\n{\n~%50% Window-based\n~%50% Fast\n~%-100% Always accurate\n~%-100% Energy minimization\n}",
+    "title": "MULTI8",
+    "question": "Which are properties of local stereo methods?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Window-based",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Fast",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Always accurate",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Energy minimization",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are properties of global stereo methods?\n{\n~%33.33333% Energy minimization\n~%33.33333% Data + smoothness\n~%33.33333% More accurate\n~%-100% Always real-time\n}",
+    "title": "MULTI9",
+    "question": "Which are properties of global stereo methods?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Energy minimization",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Data + smoothness",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "More accurate",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Always real-time",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are energy optimization algorithms?\n{\n~%33.33333% Graph cuts\n~%33.33333% Belief propagation\n~%33.33333% Dynamic programming\n~%-100% Histogram matching\n}",
+    "title": "MULTI10",
+    "question": "Which are energy optimization algorithms?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Graph cuts",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Belief propagation",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Dynamic programming",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Histogram matching",
+        "weight": -100.0
+      }
+    ]
+  }
+]

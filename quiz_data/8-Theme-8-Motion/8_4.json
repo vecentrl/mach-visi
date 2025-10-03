@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhat problem does pyramidal Lucas–Kanade solve?\n{\n= Large motions\n~ Noisy regions\n~ Histogram equalization\n~ Feature independence\n}",
+    "title": "MC1",
+    "question": "What problem does pyramidal Lucas–Kanade solve?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Large motions",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Noisy regions",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Feature independence",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhat is an image pyramid?\n{\n= Multi-resolution representation\n~ Histogram of gradients\n~ k-means clustering\n~ PCA reduction\n}",
+    "title": "MC2",
+    "question": "What is an image pyramid?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Multi-resolution representation",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram of gradients",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "k-means clustering",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "PCA reduction",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nHow does pyramidal Lucas–Kanade work?\n{\n= Coarse-to-fine refinement\n~ Fine-to-coarse refinement\n~ Single-scale only\n~ Random sampling\n}",
+    "title": "MC3",
+    "question": "How does pyramidal Lucas–Kanade work?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Coarse-to-fine refinement",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Fine-to-coarse refinement",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Single-scale only",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Random sampling",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhat does the KLT tracker use?\n{\n= Lucas–Kanade method\n~ SVM\n~ Decision tree\n~ CNN\n}",
+    "title": "MC4",
+    "question": "What does the KLT tracker use?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Lucas–Kanade method",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "SVM",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Decision tree",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "CNN",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhich type of features are best for Lucas–Kanade tracking?\n{\n= Corners\n~ Flat regions\n~ Uniform textures\n~ Random pixels\n}",
+    "title": "MC5",
+    "question": "Which type of features are best for Lucas–Kanade tracking?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Corners",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Flat regions",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Uniform textures",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Random pixels",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich is an application of pyramidal Lucas–Kanade?\n{\n= Object tracking\n~ Histogram equalization\n~ Audio compression\n~ White balance\n}",
+    "title": "MC6",
+    "question": "Which is an application of pyramidal Lucas–Kanade?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Object tracking",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Audio compression",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "White balance",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich challenge remains for Lucas–Kanade?\n{\n= Occlusion\n~ Large motions always solved\n~ No effect of illumination\n~ Textureless regions help\n}",
+    "title": "MC7",
+    "question": "Which challenge remains for Lucas–Kanade?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Occlusion",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Large motions always solved",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "No effect of illumination",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Textureless regions help",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich property improves robustness in pyramidal Lucas–Kanade?\n{\n= Multi-scale processing\n~ Single-scale only\n~ Histogram matching\n~ Random features\n}",
+    "title": "MC8",
+    "question": "Which property improves robustness in pyramidal Lucas–Kanade?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Multi-scale processing",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Single-scale only",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Histogram matching",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Random features",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich is an application of the KLT tracker?\n{\n= Video stabilization\n~ Gamma correction\n~ JPEG compression\n~ Histogram smoothing\n}",
+    "title": "MC9",
+    "question": "Which is an application of the KLT tracker?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Video stabilization",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Gamma correction",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "JPEG compression",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram smoothing",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich assumption can fail for Lucas–Kanade?\n{\n= Brightness constancy\n~ Histogram equalization\n~ Gradient normalization\n~ Noisy labels\n}",
+    "title": "MC10",
+    "question": "Which assumption can fail for Lucas–Kanade?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Brightness constancy",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Gradient normalization",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Noisy labels",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the method to property.\n{\n= Standard Lucas–Kanade -> Small motion\n= Pyramidal Lucas–Kanade -> Larger motion\n= KLT tracker -> Feature tracking\n= CNN flow -> Learned flow\n}",
+    "title": "MATCH1",
+    "question": "Match the method to property.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Standard Lucas–Kanade",
+        "right": "Small motion"
+      },
+      {
+        "id": 2,
+        "left": "Pyramidal Lucas–Kanade",
+        "right": "Larger motion"
+      },
+      {
+        "id": 3,
+        "left": "KLT tracker",
+        "right": "Feature tracking"
+      },
+      {
+        "id": 4,
+        "left": "CNN flow",
+        "right": "Learned flow"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the component to description.\n{\n= Pyramid -> Multi-scale image\n= Coarse-to-fine -> Refinement\n= Window -> Local patch\n= Feature -> Corner point\n}",
+    "title": "MATCH2",
+    "question": "Match the component to description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Pyramid",
+        "right": "Multi-scale image"
+      },
+      {
+        "id": 2,
+        "left": "Coarse-to-fine",
+        "right": "Refinement"
+      },
+      {
+        "id": 3,
+        "left": "Window",
+        "right": "Local patch"
+      },
+      {
+        "id": 4,
+        "left": "Feature",
+        "right": "Corner point"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the method to application.\n{\n= Pyramidal Lucas–Kanade -> Object tracking\n= KLT tracker -> Video stabilization\n= Horn–Schunck -> Dense flow\n= CNN flow -> Large displacements\n}",
+    "title": "MATCH3",
+    "question": "Match the method to application.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Pyramidal Lucas–Kanade",
+        "right": "Object tracking"
+      },
+      {
+        "id": 2,
+        "left": "KLT tracker",
+        "right": "Video stabilization"
+      },
+      {
+        "id": 3,
+        "left": "Horn–Schunck",
+        "right": "Dense flow"
+      },
+      {
+        "id": 4,
+        "left": "CNN flow",
+        "right": "Large displacements"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the challenge to effect.\n{\n= Occlusion -> Missing features\n= Illumination -> False motion\n= Textureless -> Poor tracking\n= Noise -> Instability\n}",
+    "title": "MATCH4",
+    "question": "Match the challenge to effect.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Occlusion",
+        "right": "Missing features"
+      },
+      {
+        "id": 2,
+        "left": "Illumination",
+        "right": "False motion"
+      },
+      {
+        "id": 3,
+        "left": "Textureless",
+        "right": "Poor tracking"
+      },
+      {
+        "id": 4,
+        "left": "Noise",
+        "right": "Instability"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the assumption to issue.\n{\n= Brightness constancy -> Lighting changes\n= Small motion -> Large displacements\n= Spatial coherence -> Motion boundaries\n= Pyramid -> Helps scale\n}",
+    "title": "MATCH5",
+    "question": "Match the assumption to issue.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Brightness constancy",
+        "right": "Lighting changes"
+      },
+      {
+        "id": 2,
+        "left": "Small motion",
+        "right": "Large displacements"
+      },
+      {
+        "id": 3,
+        "left": "Spatial coherence",
+        "right": "Motion boundaries"
+      },
+      {
+        "id": 4,
+        "left": "Pyramid",
+        "right": "Helps scale"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the feature to suitability.\n{\n= Corner -> Good for tracking\n= Flat region -> Poor\n= Texture-rich -> Good\n= Uniform -> Poor\n}",
+    "title": "MATCH6",
+    "question": "Match the feature to suitability.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Corner",
+        "right": "Good for tracking"
+      },
+      {
+        "id": 2,
+        "left": "Flat region",
+        "right": "Poor"
+      },
+      {
+        "id": 3,
+        "left": "Texture-rich",
+        "right": "Good"
+      },
+      {
+        "id": 4,
+        "left": "Uniform",
+        "right": "Poor"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the algorithm to limitation.\n{\n= Standard Lucas–Kanade -> Fails at large motion\n= Pyramidal -> Slower but better scale\n= KLT -> Still limited by assumptions\n= CNN flow -> Needs training data\n}",
+    "title": "MATCH7",
+    "question": "Match the algorithm to limitation.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Standard Lucas–Kanade",
+        "right": "Fails at large motion"
+      },
+      {
+        "id": 2,
+        "left": "Pyramidal",
+        "right": "Slower but better scale"
+      },
+      {
+        "id": 3,
+        "left": "KLT",
+        "right": "Still limited by assumptions"
+      },
+      {
+        "id": 4,
+        "left": "CNN flow",
+        "right": "Needs training data"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the application to domain.\n{\n= Robotics -> Navigation\n= Sports -> Player tracking\n= Medicine -> Motion analysis\n= Video -> Stabilization\n}",
+    "title": "MATCH8",
+    "question": "Match the application to domain.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Robotics",
+        "right": "Navigation"
+      },
+      {
+        "id": 2,
+        "left": "Sports",
+        "right": "Player tracking"
+      },
+      {
+        "id": 3,
+        "left": "Medicine",
+        "right": "Motion analysis"
+      },
+      {
+        "id": 4,
+        "left": "Video",
+        "right": "Stabilization"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the concept to explanation.\n{\n= Pyramid -> Multi-resolution\n= Coarse-to-fine -> Progressive refinement\n= Window -> Local patch\n= Flow vector -> Motion estimate\n}",
+    "title": "MATCH9",
+    "question": "Match the concept to explanation.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Pyramid",
+        "right": "Multi-resolution"
+      },
+      {
+        "id": 2,
+        "left": "Coarse-to-fine",
+        "right": "Progressive refinement"
+      },
+      {
+        "id": 3,
+        "left": "Window",
+        "right": "Local patch"
+      },
+      {
+        "id": 4,
+        "left": "Flow vector",
+        "right": "Motion estimate"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the method to description.\n{\n= Pyramidal Lucas–Kanade -> Multi-scale sparse flow\n= KLT tracker -> Corner tracking\n= Horn–Schunck -> Global smoothness\n= Background subtraction -> Foreground masks\n}",
+    "title": "MATCH10",
+    "question": "Match the method to description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Pyramidal Lucas–Kanade",
+        "right": "Multi-scale sparse flow"
+      },
+      {
+        "id": 2,
+        "left": "KLT tracker",
+        "right": "Corner tracking"
+      },
+      {
+        "id": 3,
+        "left": "Horn–Schunck",
+        "right": "Global smoothness"
+      },
+      {
+        "id": 4,
+        "left": "Background subtraction",
+        "right": "Foreground masks"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are improvements of pyramidal Lucas–Kanade?\n{\n~%50% Handles larger motions\n~%50% Multi-scale refinement\n~%-100% Requires no assumptions\n~%-100% Works on flat regions\n}",
+    "title": "MULTI1",
+    "question": "Which are improvements of pyramidal Lucas–Kanade?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Handles larger motions",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Multi-scale refinement",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Requires no assumptions",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Works on flat regions",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are assumptions of Lucas–Kanade?\n{\n~%33.33333% Brightness constancy\n~%33.33333% Small motion\n~%33.33333% Spatial coherence\n~%-100% Histogram constancy\n}",
+    "title": "MULTI2",
+    "question": "Which are assumptions of Lucas–Kanade?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Brightness constancy",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Small motion",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Spatial coherence",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Histogram constancy",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are applications of pyramidal Lucas–Kanade?\n{\n~%33.33333% Object tracking\n~%33.33333% Gesture recognition\n~%33.33333% Video stabilization\n~%-100% Audio synthesis\n}",
+    "title": "MULTI3",
+    "question": "Which are applications of pyramidal Lucas–Kanade?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Object tracking",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Gesture recognition",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Video stabilization",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Audio synthesis",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are challenges for Lucas–Kanade tracking?\n{\n~%25% Occlusion\n~%25% Illumination changes\n~%25% Textureless regions\n~%25% Noise\n}",
+    "title": "MULTI4",
+    "question": "Which are challenges for Lucas–Kanade tracking?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Occlusion",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Illumination changes",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Textureless regions",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Noise",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are examples of suitable features?\n{\n~%33.33333% Corners\n~%33.33333% High-contrast regions\n~%33.33333% Distinct features\n~%-100% Flat regions\n}",
+    "title": "MULTI5",
+    "question": "Which are examples of suitable features?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Corners",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "High-contrast regions",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Distinct features",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Flat regions",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are examples of image pyramids?\n{\n~%50% Gaussian pyramid\n~%50% Laplacian pyramid\n~%-100% Histogram pyramid\n~%-100% Fourier histogram\n}",
+    "title": "MULTI6",
+    "question": "Which are examples of image pyramids?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Gaussian pyramid",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Laplacian pyramid",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Histogram pyramid",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Fourier histogram",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are outputs of Lucas–Kanade?\n{\n~%50% Motion vectors\n~%50% Sparse flow\n~%-100% Dense flow always\n~%-100% Histogram bins\n}",
+    "title": "MULTI7",
+    "question": "Which are outputs of Lucas–Kanade?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Motion vectors",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Sparse flow",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Dense flow always",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Histogram bins",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are applications of KLT tracker?\n{\n~%25% Stabilization\n~%25% Tracking\n~%25% Motion analysis\n~%25% Robotics navigation\n}",
+    "title": "MULTI8",
+    "question": "Which are applications of KLT tracker?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Stabilization",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Tracking",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Motion analysis",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Robotics navigation",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are limitations of pyramidal Lucas–Kanade?\n{\n~%50% Slower than standard\n~%50% Still limited by assumptions\n~%-100% Works for all motions\n~%-100% Needs no features\n}",
+    "title": "MULTI9",
+    "question": "Which are limitations of pyramidal Lucas–Kanade?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Slower than standard",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Still limited by assumptions",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Works for all motions",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Needs no features",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are domains where Lucas–Kanade is applied?\n{\n~%25% Robotics\n~%25% Video stabilization\n~%25% Sports tracking\n~%25% Medical imaging\n}",
+    "title": "MULTI10",
+    "question": "Which are domains where Lucas–Kanade is applied?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Robotics",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Video stabilization",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Sports tracking",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Medical imaging",
+        "weight": 25.0
+      }
+    ]
+  }
+]

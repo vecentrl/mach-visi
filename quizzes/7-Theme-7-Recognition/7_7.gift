@@ -1,0 +1,309 @@
+::TF1::
+Neural networks consist of layers of interconnected nodes.
+{TRUE}
+
+::TF2::
+Neural networks can model nonlinear decision boundaries.
+{TRUE}
+
+::TF3::
+Backpropagation is used to train neural networks.
+{TRUE}
+
+::TF4::
+Neural networks always require very little training data.
+{FALSE}
+
+::TF5::
+Overfitting is a risk when training neural networks.
+{TRUE}
+
+::TF6::
+Clustering is an unsupervised learning method.
+{TRUE}
+
+::TF7::
+k-means is a popular clustering algorithm.
+{TRUE}
+
+::TF8::
+Self-organizing maps (SOM) are neural-based clustering methods.
+{TRUE}
+
+::TF9::
+Clustering requires labeled training data.
+{FALSE}
+
+::TF10::
+Both neural networks and clustering are applied in pattern recognition.
+{TRUE}
+
+::MC1::
+What is the main training method for neural networks?
+{
+= Backpropagation
+~ k-means
+~ Histogram equalization
+~ Decision tree splits
+}
+
+::MC2::
+Which is an advantage of neural networks?
+{
+= Nonlinear decision boundaries
+~ Requires no computation
+~ Works only with linear data
+~ Ignores features
+}
+
+::MC3::
+Which is a limitation of neural networks?
+{
+= Overfitting risk
+~ Always interpretable
+~ Requires no data
+~ Linear only
+}
+
+::MC4::
+Which type of learning is clustering?
+{
+= Unsupervised
+~ Supervised
+~ Reinforcement
+~ Semi-supervised
+}
+
+::MC5::
+Which algorithm is most commonly used for clustering?
+{
+= k-means
+~ SVM
+~ PCA
+~ Naïve Bayes
+}
+
+::MC6::
+Which neural-based method performs clustering?
+{
+= Self-organizing maps
+~ Decision trees
+~ Linear regression
+~ Histogram equalization
+}
+
+::MC7::
+Which property is true of k-means?
+{
+= Assigns samples to nearest cluster centroid
+~ Uses support vectors
+~ Maximizes margins
+~ Builds trees
+}
+
+::MC8::
+Which factor challenges neural networks?
+{
+= Requires large datasets
+~ Ignores data size
+~ No risk of overfitting
+~ Needs no computation
+}
+
+::MC9::
+Which factor challenges clustering?
+{
+= Number of clusters must often be chosen
+~ Requires labels
+~ Always linear
+~ Needs kernels
+}
+
+::MC10::
+Which is an application of clustering?
+{
+= Anomaly detection
+~ White balance
+~ Audio compression
+~ Gamma correction
+}
+
+::MATCH1::
+Match the classifier to type.
+{
+= Neural network -> Supervised
+= Clustering -> Unsupervised
+= SVM -> Margin-based
+= Naïve Bayes -> Probabilistic
+}
+
+::MATCH2::
+Match the neural network layer to role.
+{
+= Input -> Features
+= Hidden -> Nonlinear transformations
+= Output -> Predictions
+= Weights -> Parameters
+}
+
+::MATCH3::
+Match the method to learning type.
+{
+= Backpropagation -> Neural network training
+= k-means -> Clustering
+= SOM -> Neural clustering
+= PCA -> Feature reduction
+}
+
+::MATCH4::
+Match the challenge to model.
+{
+= Neural network -> Overfitting
+= Clustering -> Choosing k
+= Decision tree -> Overfitting
+= SVM -> Kernel choice
+}
+
+::MATCH5::
+Match the clustering algorithm to property.
+{
+= k-means -> Centroid-based
+= Hierarchical -> Tree-based
+= SOM -> Neural clustering
+= DBSCAN -> Density-based
+}
+
+::MATCH6::
+Match the application to domain.
+{
+= Neural networks -> Speech recognition
+= Clustering -> Market segmentation
+= Decision trees -> Medical diagnosis
+= SVM -> Face recognition
+}
+
+::MATCH7::
+Match the component to neural networks.
+{
+= Node -> Artificial neuron
+= Weight -> Connection strength
+= Activation function -> Nonlinearity
+= Backpropagation -> Training
+}
+
+::MATCH8::
+Match the property to drawback.
+{
+= Neural networks -> Data hungry
+= Clustering -> Requires k
+= Decision tree -> Overfitting
+= Naïve Bayes -> Independence assumption
+}
+
+::MATCH9::
+Match the unsupervised method to example.
+{
+= k-means -> Centroid clustering
+= Hierarchical -> Dendrogram
+= SOM -> Neural map
+= PCA -> Dimensionality reduction
+}
+
+::MATCH10::
+Match the application to technique.
+{
+= Neural networks -> Image classification
+= Clustering -> Anomaly detection
+= SVM -> Text classification
+= kNN -> Handwriting recognition
+}
+
+::MULTI1::
+Which are properties of neural networks?
+{
+~%25% Nonlinear decision boundaries
+~%25% Backpropagation training
+~%25% Data hungry
+~%25% Risk of overfitting
+}
+
+::MULTI2::
+Which are applications of neural networks?
+{
+~%25% Image classification
+~%25% Speech recognition
+~%25% Robotics
+~%25% Medical imaging
+}
+
+::MULTI3::
+Which are properties of clustering?
+{
+~%33.33333% Unsupervised
+~%33.33333% Groups similar data
+~%33.33333% No labels required
+~%-100% Needs labeled data
+}
+
+::MULTI4::
+Which are clustering algorithms?
+{
+~%25% k-means
+~%25% Hierarchical
+~%25% DBSCAN
+~%25% SOM
+}
+
+::MULTI5::
+Which are challenges for neural networks?
+{
+~%33.33333% Large dataset requirements
+~%33.33333% Computationally expensive
+~%33.33333% Overfitting
+~%-100% No computation needed
+}
+
+::MULTI6::
+Which are challenges for clustering?
+{
+~%50% Choosing number of clusters
+~%50% Sensitivity to initialization
+~%-100% Requires labels
+~%-100% Kernel always needed
+}
+
+::MULTI7::
+Which are advantages of neural networks?
+{
+~%33.33333% Nonlinear modeling
+~%33.33333% Flexible
+~%33.33333% Powerful
+~%-100% Requires no training
+}
+
+::MULTI8::
+Which are advantages of clustering?
+{
+~%50% Unsupervised
+~%50% Reveals hidden structure
+~%-100% Requires labels
+~%-100% Always linear
+}
+
+::MULTI9::
+Which are applications of clustering?
+{
+~%25% Anomaly detection
+~%25% Market segmentation
+~%25% Image retrieval
+~%25% Data exploration
+}
+
+::MULTI10::
+Which are neural-based clustering methods?
+{
+~%50% Self-organizing maps (SOM)
+~%50% Neural gas
+~%-100% k-means
+~%-100% PCA
+}

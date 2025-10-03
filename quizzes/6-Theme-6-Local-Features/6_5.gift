@@ -1,0 +1,310 @@
+::TF1::
+Feature descriptors can have different variants such as SIFT, SURF, ORB, BRIEF, and FREAK.
+{TRUE}
+
+::TF2::
+SIFT is slower but highly distinctive compared to other descriptors.
+{TRUE}
+
+::TF3::
+ORB is a binary descriptor optimized for speed.
+{TRUE}
+
+::TF4::
+BRIEF and FREAK are examples of binary descriptors.
+{TRUE}
+
+::TF5::
+Nearest Neighbor is a common strategy for feature matching.
+{TRUE}
+
+::TF6::
+Lowe’s ratio test helps eliminate mismatches in descriptor matching.
+{TRUE}
+
+::TF7::
+Feature matching is used in panorama stitching and object recognition.
+{TRUE}
+
+::TF8::
+All descriptor variants achieve perfect invariance to illumination and viewpoint.
+{FALSE}
+
+::TF9::
+k-Nearest Neighbor (kNN) matching finds the top-k closest matches for a feature.
+{TRUE}
+
+::TF10::
+Outliers and mismatches are common challenges in feature matching.
+{TRUE}
+
+::MC1::
+Which descriptor is binary and efficient for real-time?
+{
+= ORB
+~ SIFT
+~ SURF
+~ PCA
+}
+
+::MC2::
+Which descriptor is slower but very robust and distinctive?
+{
+= SIFT
+~ ORB
+~ BRIEF
+~ FAST
+}
+
+::MC3::
+Which descriptors are binary?
+{
+= BRIEF and FREAK
+~ SIFT and SURF
+~ Gabor and Fourier
+~ MSER and Harris
+}
+
+::MC4::
+What does Lowe’s ratio test do?
+{
+= Reduces false matches
+~ Computes Fourier descriptors
+~ Increases dimensionality
+~ Generates new keypoints
+}
+
+::MC5::
+Which matching method finds the closest descriptor in feature space?
+{
+= Nearest Neighbor
+~ Ratio test
+~ PCA reduction
+~ Morphology
+}
+
+::MC6::
+Which matching method finds multiple top matches?
+{
+= k-Nearest Neighbor
+~ Histogram equalization
+~ Gradient descent
+~ Thresholding
+}
+
+::MC7::
+Which challenge occurs in feature matching?
+{
+= Outliers
+~ Always perfect matches
+~ Illumination invariance guaranteed
+~ No noise sensitivity
+}
+
+::MC8::
+Which is an application of descriptor matching?
+{
+= Panorama stitching
+~ White balance
+~ Gamma correction
+~ Histogram equalization
+}
+
+::MC9::
+Which descriptor is most efficient for real-time SLAM?
+{
+= ORB
+~ SIFT
+~ SURF
+~ BRIEF
+}
+
+::MC10::
+Which factor influences choice of descriptor?
+{
+= Trade-off between speed and distinctiveness
+~ File size of image
+~ Gamma encoding
+~ Histogram bin count
+}
+
+::MATCH1::
+Match the descriptor to type.
+{
+= SIFT -> Floating-point, distinctive
+= SURF -> Faster, approximate SIFT
+= ORB -> Binary, real-time
+= BRIEF -> Simple binary tests
+}
+
+::MATCH2::
+Match the descriptor to property.
+{
+= FREAK -> Binary, inspired by retina
+= BRIEF -> Binary, random intensity tests
+= ORB -> FAST + BRIEF combination
+= SIFT -> Gradient histograms
+}
+
+::MATCH3::
+Match the matching method to description.
+{
+= Nearest Neighbor -> Closest descriptor
+= kNN -> Top-k closest matches
+= Ratio test -> Eliminates mismatches
+= RANSAC -> Removes outliers
+}
+
+::MATCH4::
+Match the descriptor to application.
+{
+= SIFT -> High-accuracy recognition
+= SURF -> Faster matching
+= ORB -> Real-time SLAM
+= BRIEF -> Lightweight matching
+}
+
+::MATCH5::
+Match the challenge to effect.
+{
+= Outliers -> Wrong correspondences
+= Noise -> Descriptor corruption
+= Illumination -> Reduced distinctiveness
+= Viewpoint change -> Feature mismatch
+}
+
+::MATCH6::
+Match the method to benefit.
+{
+= Ratio test -> Fewer false matches
+= Nearest Neighbor -> Simple matching
+= kNN -> Multiple candidates
+= RANSAC -> Robust matching
+}
+
+::MATCH7::
+Match the descriptor to drawback.
+{
+= SIFT -> Slow
+= SURF -> Less distinctive than SIFT
+= ORB -> Less robust to large scale changes
+= BRIEF -> Sensitive to rotation
+}
+
+::MATCH8::
+Match the acronym to meaning.
+{
+= ORB -> Oriented FAST and BRIEF
+= BRIEF -> Binary Robust Independent Elementary Features
+= FREAK -> Fast Retina Keypoint
+= SLAM -> Simultaneous Localization and Mapping
+}
+
+::MATCH9::
+Match the feature to use.
+{
+= Panorama stitching -> Matching
+= Object recognition -> Descriptors
+= SLAM -> ORB features
+= Image retrieval -> Feature vectors
+}
+
+::MATCH10::
+Match the method to domain.
+{
+= Ratio test -> SIFT
+= kNN -> Descriptor search
+= RANSAC -> Outlier rejection
+= Nearest Neighbor -> Basic matching
+}
+
+::MULTI1::
+Which are descriptor variants?
+{
+~%20% SIFT
+~%20% SURF
+~%20% ORB
+~%20% BRIEF
+~%20% FREAK
+}
+
+::MULTI2::
+Which are binary descriptors?
+{
+~%33.33333% ORB
+~%33.33333% BRIEF
+~%33.33333% FREAK
+~%-100% SIFT
+}
+
+::MULTI3::
+Which are floating-point descriptors?
+{
+~%50% SIFT
+~%50% SURF
+~%-100% ORB
+~%-100% BRIEF
+}
+
+::MULTI4::
+Which are matching methods?
+{
+~%25% Nearest Neighbor
+~%25% kNN
+~%25% Ratio test
+~%25% RANSAC
+}
+
+::MULTI5::
+Which are applications of feature matching?
+{
+~%25% Panorama stitching
+~%25% Object recognition
+~%25% SLAM
+~%25% 3D reconstruction
+}
+
+::MULTI6::
+Which are challenges in descriptor matching?
+{
+~%33.33333% Outliers
+~%33.33333% Noise
+~%33.33333% Illumination variation
+~%-100% Perfect robustness
+}
+
+::MULTI7::
+Which are true of SIFT?
+{
+~%50% Distinctive
+~%50% Slow
+~%-100% Binary
+~%-100% Always fastest
+}
+
+::MULTI8::
+Which are true of ORB?
+{
+~%50% Binary
+~%50% Efficient
+~%-100% Floating-point only
+~%-100% Always most accurate
+}
+
+::MULTI9::
+Which are benefits of ratio test?
+{
+~%33.33333% Reduces false matches
+~%33.33333% Improves robustness
+~%33.33333% Common in SIFT matching
+~%-100% Increases mismatches
+}
+
+::MULTI10::
+Which are benefits of combining descriptors with robust matching (e.g. RANSAC)?
+{
+~%33.33333% Remove outliers
+~%33.33333% Improve accuracy
+~%33.33333% Robust correspondences
+~%-100% Increase false matches
+}

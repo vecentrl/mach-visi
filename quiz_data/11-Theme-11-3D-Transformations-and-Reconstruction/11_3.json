@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhat does pose estimation compute?\n{\n= Camera position and orientation\n~ Only focal length\n~ Only pixel brightness\n~ Only histogram equalization\n}",
+    "title": "MC1",
+    "question": "What does pose estimation compute?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Camera position and orientation",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Only focal length",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Only pixel brightness",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Only histogram equalization",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhat is the P3P problem?\n{\n= Pose from 3 3D–2D correspondences\n~ Pose from 2D–2D correspondences\n~ Only depth recovery\n~ PCA decomposition\n}",
+    "title": "MC2",
+    "question": "What is the P3P problem?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Pose from 3 3D–2D correspondences",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Pose from 2D–2D correspondences",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Only depth recovery",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "PCA decomposition",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nHow many solutions can P3P yield?\n{\n= Up to four\n~ Always one\n~ Only two\n~ Unlimited\n}",
+    "title": "MC3",
+    "question": "How many solutions can P3P yield?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Up to four",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Always one",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Only two",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Unlimited",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhat is required for P3P?\n{\n= 3 non-collinear 3D–2D correspondences\n~ Only one point\n~ Histogram bins\n~ Random noise\n}",
+    "title": "MC4",
+    "question": "What is required for P3P?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "3 non-collinear 3D–2D correspondences",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Only one point",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Histogram bins",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Random noise",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhat does P3P assume about camera intrinsics?\n{\n= They are known\n~ They are unknown\n~ They are ignored\n~ They are random\n}",
+    "title": "MC5",
+    "question": "What does P3P assume about camera intrinsics?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "They are known",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "They are unknown",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "They are ignored",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "They are random",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich matrix components does pose estimation compute?\n{\n= Rotation and translation\n~ Only scaling\n~ Only focal length\n~ Only skew\n}",
+    "title": "MC6",
+    "question": "Which matrix components does pose estimation compute?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Rotation and translation",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Only scaling",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Only focal length",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Only skew",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich field uses pose estimation?\n{\n= Robotics\n~ Audio processing\n~ File compression\n~ Histogram equalization\n}",
+    "title": "MC7",
+    "question": "Which field uses pose estimation?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Robotics",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Audio processing",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "File compression",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram equalization",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich is a challenge in P3P?\n{\n= Collinear points\n~ Always unique solution\n~ No effect of noise\n~ No calibration needed\n}",
+    "title": "MC8",
+    "question": "Which is a challenge in P3P?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Collinear points",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Always unique solution",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "No effect of noise",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "No calibration needed",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich is an application of P3P?\n{\n= Augmented reality\n~ JPEG compression\n~ Gamma correction\n~ Audio filtering\n}",
+    "title": "MC9",
+    "question": "Which is an application of P3P?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Augmented reality",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "JPEG compression",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Gamma correction",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Audio filtering",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich term best describes P3P solutions?\n{\n= Multiple possible poses\n~ Always exact\n~ Single fixed answer\n~ No solution\n}",
+    "title": "MC10",
+    "question": "Which term best describes P3P solutions?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Multiple possible poses",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Always exact",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Single fixed answer",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "No solution",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the parameter to role.\n{\n= Rotation -> Orientation\n= Translation -> Position\n= Intrinsics -> Internal calibration\n= Correspondences -> Input data\n}",
+    "title": "MATCH1",
+    "question": "Match the parameter to role.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Rotation",
+        "right": "Orientation"
+      },
+      {
+        "id": 2,
+        "left": "Translation",
+        "right": "Position"
+      },
+      {
+        "id": 3,
+        "left": "Intrinsics",
+        "right": "Internal calibration"
+      },
+      {
+        "id": 4,
+        "left": "Correspondences",
+        "right": "Input data"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the method to requirement.\n{\n= P3P -> 3 points\n= PnP -> More points\n= RANSAC -> Outlier handling\n= Calibration -> Intrinsics\n}",
+    "title": "MATCH2",
+    "question": "Match the method to requirement.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "P3P",
+        "right": "3 points"
+      },
+      {
+        "id": 2,
+        "left": "PnP",
+        "right": "More points"
+      },
+      {
+        "id": 3,
+        "left": "RANSAC",
+        "right": "Outlier handling"
+      },
+      {
+        "id": 4,
+        "left": "Calibration",
+        "right": "Intrinsics"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the challenge to cause.\n{\n= Collinear points -> Degenerate\n= Noise -> Inaccuracy\n= Outliers -> Wrong pose\n= Ambiguity -> Multiple solutions\n}",
+    "title": "MATCH3",
+    "question": "Match the challenge to cause.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Collinear points",
+        "right": "Degenerate"
+      },
+      {
+        "id": 2,
+        "left": "Noise",
+        "right": "Inaccuracy"
+      },
+      {
+        "id": 3,
+        "left": "Outliers",
+        "right": "Wrong pose"
+      },
+      {
+        "id": 4,
+        "left": "Ambiguity",
+        "right": "Multiple solutions"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the application to field.\n{\n= AR -> Overlay graphics\n= Robotics -> Navigation\n= Vision -> SLAM\n= Medicine -> Image guidance\n}",
+    "title": "MATCH4",
+    "question": "Match the application to field.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "AR",
+        "right": "Overlay graphics"
+      },
+      {
+        "id": 2,
+        "left": "Robotics",
+        "right": "Navigation"
+      },
+      {
+        "id": 3,
+        "left": "Vision",
+        "right": "SLAM"
+      },
+      {
+        "id": 4,
+        "left": "Medicine",
+        "right": "Image guidance"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the correspondence type to description.\n{\n= 3D–2D -> P3P input\n= 3D–3D -> Registration\n= 2D–2D -> Epipolar geometry\n= 2D–3D -> Pose estimation\n}",
+    "title": "MATCH5",
+    "question": "Match the correspondence type to description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "3D–2D",
+        "right": "P3P input"
+      },
+      {
+        "id": 2,
+        "left": "3D–3D",
+        "right": "Registration"
+      },
+      {
+        "id": 3,
+        "left": "2D–2D",
+        "right": "Epipolar geometry"
+      },
+      {
+        "id": 4,
+        "left": "2D–3D",
+        "right": "Pose estimation"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the solution to refinement.\n{\n= P3P -> Initial guess\n= PnP -> Extended solution\n= Iterative refinement -> Accuracy\n= RANSAC -> Robustness\n}",
+    "title": "MATCH6",
+    "question": "Match the solution to refinement.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "P3P",
+        "right": "Initial guess"
+      },
+      {
+        "id": 2,
+        "left": "PnP",
+        "right": "Extended solution"
+      },
+      {
+        "id": 3,
+        "left": "Iterative refinement",
+        "right": "Accuracy"
+      },
+      {
+        "id": 4,
+        "left": "RANSAC",
+        "right": "Robustness"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the matrix to content.\n{\n= R -> Rotation\n= t -> Translation\n= K -> Intrinsics\n= [R|t] -> Extrinsic\n}",
+    "title": "MATCH7",
+    "question": "Match the matrix to content.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "R",
+        "right": "Rotation"
+      },
+      {
+        "id": 2,
+        "left": "t",
+        "right": "Translation"
+      },
+      {
+        "id": 3,
+        "left": "K",
+        "right": "Intrinsics"
+      },
+      {
+        "id": 4,
+        "left": "[R|t]",
+        "right": "Extrinsic"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the step to purpose.\n{\n= Detect points -> Features\n= Match -> Correspondences\n= Solve P3P -> Initial pose\n= Refine -> Improve accuracy\n}",
+    "title": "MATCH8",
+    "question": "Match the step to purpose.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Detect points",
+        "right": "Features"
+      },
+      {
+        "id": 2,
+        "left": "Match",
+        "right": "Correspondences"
+      },
+      {
+        "id": 3,
+        "left": "Solve P3P",
+        "right": "Initial pose"
+      },
+      {
+        "id": 4,
+        "left": "Refine",
+        "right": "Improve accuracy"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the problem to method.\n{\n= Outliers -> RANSAC\n= Ambiguity -> Extra points\n= Degenerate -> Non-collinear points\n= Noise -> Iterative refinement\n}",
+    "title": "MATCH9",
+    "question": "Match the problem to method.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Outliers",
+        "right": "RANSAC"
+      },
+      {
+        "id": 2,
+        "left": "Ambiguity",
+        "right": "Extra points"
+      },
+      {
+        "id": 3,
+        "left": "Degenerate",
+        "right": "Non-collinear points"
+      },
+      {
+        "id": 4,
+        "left": "Noise",
+        "right": "Iterative refinement"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the domain to example.\n{\n= AR -> Headset overlay\n= Robotics -> Localization\n= SLAM -> Mapping\n= Graphics -> Camera placement\n}",
+    "title": "MATCH10",
+    "question": "Match the domain to example.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "AR",
+        "right": "Headset overlay"
+      },
+      {
+        "id": 2,
+        "left": "Robotics",
+        "right": "Localization"
+      },
+      {
+        "id": 3,
+        "left": "SLAM",
+        "right": "Mapping"
+      },
+      {
+        "id": 4,
+        "left": "Graphics",
+        "right": "Camera placement"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are inputs to P3P?\n{\n~%33.33333% 3D points\n~%33.33333% 2D points\n~%33.33333% Intrinsic matrix\n~%-100% Audio signals\n}",
+    "title": "MULTI1",
+    "question": "Which are inputs to P3P?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "3D points",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "2D points",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Intrinsic matrix",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Audio signals",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are outputs of P3P?\n{\n~%50% Rotation\n~%50% Translation\n~%-100% Intrinsic parameters\n~%-100% Histograms\n}",
+    "title": "MULTI2",
+    "question": "Which are outputs of P3P?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Rotation",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Translation",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Intrinsic parameters",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Histograms",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are requirements of P3P?\n{\n~%33.33333% Known intrinsics\n~%33.33333% 3 correspondences\n~%33.33333% Non-collinear points\n~%-100% Collinear points\n}",
+    "title": "MULTI3",
+    "question": "Which are requirements of P3P?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Known intrinsics",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "3 correspondences",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Non-collinear points",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Collinear points",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are challenges of P3P?\n{\n~%25% Noise\n~%25% Outliers\n~%25% Degenerate points\n~%25% Ambiguity\n}",
+    "title": "MULTI4",
+    "question": "Which are challenges of P3P?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Noise",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Outliers",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Degenerate points",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Ambiguity",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are extensions of P3P?\n{\n~%50% PnP (n > 3)\n~%50% Iterative refinement\n~%-100% Histogram equalization\n~%-100% PCA\n}",
+    "title": "MULTI5",
+    "question": "Which are extensions of P3P?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "PnP (n > 3)",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Iterative refinement",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Histogram equalization",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "PCA",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are applications of pose estimation?\n{\n~%25% Augmented reality\n~%25% Robotics\n~%25% SLAM\n~%25% Medicine\n}",
+    "title": "MULTI6",
+    "question": "Which are applications of pose estimation?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Augmented reality",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Robotics",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "SLAM",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Medicine",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are solutions to multiple poses in P3P?\n{\n~%33.33333% Extra correspondences\n~%33.33333% RANSAC\n~%33.33333% Geometric validation\n~%-100% Ignoring calibration\n}",
+    "title": "MULTI7",
+    "question": "Which are solutions to multiple poses in P3P?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Extra correspondences",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "RANSAC",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Geometric validation",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Ignoring calibration",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are included in extrinsic parameters from P3P?\n{\n~%50% Rotation\n~%50% Translation\n~%-100% Focal length\n~%-100% Principal point\n}",
+    "title": "MULTI8",
+    "question": "Which are included in extrinsic parameters from P3P?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Rotation",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Translation",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Focal length",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Principal point",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are characteristics of P3P?\n{\n~%25% Minimal problem\n~%25% Up to 4 solutions\n~%25% Needs intrinsics\n~%25% Sensitive to noise\n}",
+    "title": "MULTI9",
+    "question": "Which are characteristics of P3P?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Minimal problem",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Up to 4 solutions",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Needs intrinsics",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Sensitive to noise",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are domains using P3P?\n{\n~%25% Vision\n~%25% Robotics\n~%25% AR\n~%25% Graphics\n}",
+    "title": "MULTI10",
+    "question": "Which are domains using P3P?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Vision",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Robotics",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "AR",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Graphics",
+        "weight": 25.0
+      }
+    ]
+  }
+]

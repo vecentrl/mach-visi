@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhich best describes image processing?\n{\n= Transforming images into other images\n~ Assigning semantic labels\n~ Detecting human activity\n~ Writing camera drivers\n}",
+    "title": "MC1",
+    "question": "Which best describes image processing?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Transforming images into other images",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Assigning semantic labels",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Detecting human activity",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Writing camera drivers",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhat is the main task of image understanding?\n{\n= Making decisions and constructing scene descriptions\n~ Compressing pictures\n~ Saving data in memory\n~ Measuring sensor voltages\n}",
+    "title": "MC2",
+    "question": "What is the main task of image understanding?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Making decisions and constructing scene descriptions",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Compressing pictures",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Saving data in memory",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Measuring sensor voltages",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhich task fits under image recognition?\n{\n= Identifying objects or people in an image\n~ Building new sensors\n~ Printing documents\n~ Sorting numbers\n}",
+    "title": "MC3",
+    "question": "Which task fits under image recognition?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Identifying objects or people in an image",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Building new sensors",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Printing documents",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Sorting numbers",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhich statement best describes the relationship between image processing and computer vision?\n{\n= Image processing often supports computer vision tasks\n~ They are completely unrelated\n~ Image processing is always more advanced\n~ Computer vision is only hardware\n}",
+    "title": "MC4",
+    "question": "Which statement best describes the relationship between image processing and computer vision?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Image processing often supports computer vision tasks",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "They are completely unrelated",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Image processing is always more advanced",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Computer vision is only hardware",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhich is a common technique in modern computer vision?\n{\n= Deep neural networks\n~ Chemical analysis\n~ Disk encryption\n~ Text formatting\n}",
+    "title": "MC5",
+    "question": "Which is a common technique in modern computer vision?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Deep neural networks",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Chemical analysis",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Disk encryption",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Text formatting",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhat does \"machine learning\" provide to computer vision?\n{\n= A way to learn patterns and models from data\n~ A method to clean camera lenses\n~ Manual labeling of all inputs\n~ File compression algorithms\n}",
+    "title": "MC6",
+    "question": "What does \"machine learning\" provide to computer vision?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "A way to learn patterns and models from data",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "A method to clean camera lenses",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Manual labeling of all inputs",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "File compression algorithms",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich area is most directly related to computer vision?\n{\n= Artificial intelligence\n~ Ancient history\n~ Civil engineering\n~ Organic chemistry\n}",
+    "title": "MC7",
+    "question": "Which area is most directly related to computer vision?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Artificial intelligence",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Ancient history",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Civil engineering",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Organic chemistry",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich task is most clearly image recognition?\n{\n= Detecting handwritten numbers\n~ Filtering noise\n~ Adjusting brightness\n~ Saving raw images\n}",
+    "title": "MC8",
+    "question": "Which task is most clearly image recognition?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Detecting handwritten numbers",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Filtering noise",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Adjusting brightness",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Saving raw images",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich field contributes to human-like perception in vision systems?\n{\n= Cognitive science\n~ Metallurgy\n~ Agriculture\n~ Typography\n}",
+    "title": "MC9",
+    "question": "Which field contributes to human-like perception in vision systems?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Cognitive science",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Metallurgy",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Agriculture",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Typography",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich related field focuses on generating synthetic pictures?\n{\n= Computer graphics\n~ Neuroscience\n~ Color science\n~ Robotics\n}",
+    "title": "MC10",
+    "question": "Which related field focuses on generating synthetic pictures?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Computer graphics",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Neuroscience",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Color science",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Robotics",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the term to its definition.\n{\n= Image processing -> Transformation of images into images\n= Image understanding -> Making decisions based on images\n= Image recognition -> Identifying objects or actions in images\n= Machine learning -> Common approach for solving vision problems\n}",
+    "title": "MATCH1",
+    "question": "Match the term to its definition.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Image processing",
+        "right": "Transformation of images into images"
+      },
+      {
+        "id": 2,
+        "left": "Image understanding",
+        "right": "Making decisions based on images"
+      },
+      {
+        "id": 3,
+        "left": "Image recognition",
+        "right": "Identifying objects or actions in images"
+      },
+      {
+        "id": 4,
+        "left": "Machine learning",
+        "right": "Common approach for solving vision problems"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the task to its level.\n{\n= Pixel filtering -> Image processing\n= Scene description -> Image understanding\n= Face detection -> Image recognition\n= Learning from data -> Machine learning\n}",
+    "title": "MATCH2",
+    "question": "Match the task to its level.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Pixel filtering",
+        "right": "Image processing"
+      },
+      {
+        "id": 2,
+        "left": "Scene description",
+        "right": "Image understanding"
+      },
+      {
+        "id": 3,
+        "left": "Face detection",
+        "right": "Image recognition"
+      },
+      {
+        "id": 4,
+        "left": "Learning from data",
+        "right": "Machine learning"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the technology to its role.\n{\n= Deep learning -> Popular ML technique\n= DNN -> Network of multiple layers\n= AI -> Broader field including reasoning and learning\n= Robotics -> Applies vision for control\n}",
+    "title": "MATCH3",
+    "question": "Match the technology to its role.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Deep learning",
+        "right": "Popular ML technique"
+      },
+      {
+        "id": 2,
+        "left": "DNN",
+        "right": "Network of multiple layers"
+      },
+      {
+        "id": 3,
+        "left": "AI",
+        "right": "Broader field including reasoning and learning"
+      },
+      {
+        "id": 4,
+        "left": "Robotics",
+        "right": "Applies vision for control"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the field to its connection.\n{\n= Color science -> Helps explain visual perception\n= Optics -> Models how light interacts with sensors\n= Computer graphics -> Produces images\n= Neuroscience -> Inspires artificial perception\n}",
+    "title": "MATCH4",
+    "question": "Match the field to its connection.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Color science",
+        "right": "Helps explain visual perception"
+      },
+      {
+        "id": 2,
+        "left": "Optics",
+        "right": "Models how light interacts with sensors"
+      },
+      {
+        "id": 3,
+        "left": "Computer graphics",
+        "right": "Produces images"
+      },
+      {
+        "id": 4,
+        "left": "Neuroscience",
+        "right": "Inspires artificial perception"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the concept to its example.\n{\n= Image processing -> Histogram equalization\n= Image recognition -> Identifying a cat in a photo\n= Image understanding -> Generating a scene description\n= Machine learning -> Training an SVM classifier\n}",
+    "title": "MATCH5",
+    "question": "Match the concept to its example.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Image processing",
+        "right": "Histogram equalization"
+      },
+      {
+        "id": 2,
+        "left": "Image recognition",
+        "right": "Identifying a cat in a photo"
+      },
+      {
+        "id": 3,
+        "left": "Image understanding",
+        "right": "Generating a scene description"
+      },
+      {
+        "id": 4,
+        "left": "Machine learning",
+        "right": "Training an SVM classifier"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the related area to its contribution.\n{\n= Mathematics -> Provides tools for models\n= Cognitive science -> Understanding human perception\n= Robotics -> Vision-based navigation\n= Imaging -> Capturing raw data\n}",
+    "title": "MATCH6",
+    "question": "Match the related area to its contribution.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Mathematics",
+        "right": "Provides tools for models"
+      },
+      {
+        "id": 2,
+        "left": "Cognitive science",
+        "right": "Understanding human perception"
+      },
+      {
+        "id": 3,
+        "left": "Robotics",
+        "right": "Vision-based navigation"
+      },
+      {
+        "id": 4,
+        "left": "Imaging",
+        "right": "Capturing raw data"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the algorithm to the category.\n{\n= CNN -> Deep learning\n= SVM -> Machine learning\n= Thresholding -> Image processing\n= Object classification -> Image recognition\n}",
+    "title": "MATCH7",
+    "question": "Match the algorithm to the category.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "CNN",
+        "right": "Deep learning"
+      },
+      {
+        "id": 2,
+        "left": "SVM",
+        "right": "Machine learning"
+      },
+      {
+        "id": 3,
+        "left": "Thresholding",
+        "right": "Image processing"
+      },
+      {
+        "id": 4,
+        "left": "Object classification",
+        "right": "Image recognition"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the role to the example.\n{\n= Image processing -> Denoising an image\n= Image recognition -> Detecting cars\n= Image understanding -> Telling the story of a scene\n= Machine learning -> Training a classifier\n}",
+    "title": "MATCH8",
+    "question": "Match the role to the example.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Image processing",
+        "right": "Denoising an image"
+      },
+      {
+        "id": 2,
+        "left": "Image recognition",
+        "right": "Detecting cars"
+      },
+      {
+        "id": 3,
+        "left": "Image understanding",
+        "right": "Telling the story of a scene"
+      },
+      {
+        "id": 4,
+        "left": "Machine learning",
+        "right": "Training a classifier"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the pair correctly.\n{\n= Image recognition -> Identifying handwriting\n= Image understanding -> Deciding if a photo shows a park\n= Image processing -> Rotating an image\n= Deep learning -> Using neural networks\n}",
+    "title": "MATCH9",
+    "question": "Match the pair correctly.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Image recognition",
+        "right": "Identifying handwriting"
+      },
+      {
+        "id": 2,
+        "left": "Image understanding",
+        "right": "Deciding if a photo shows a park"
+      },
+      {
+        "id": 3,
+        "left": "Image processing",
+        "right": "Rotating an image"
+      },
+      {
+        "id": 4,
+        "left": "Deep learning",
+        "right": "Using neural networks"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the subfield to its relevance.\n{\n= AI -> Provides intelligence framework\n= Color science -> Supports perception modeling\n= Robotics -> Needs machine vision\n= Computer graphics -> Inverse of computer vision\n}",
+    "title": "MATCH10",
+    "question": "Match the subfield to its relevance.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "AI",
+        "right": "Provides intelligence framework"
+      },
+      {
+        "id": 2,
+        "left": "Color science",
+        "right": "Supports perception modeling"
+      },
+      {
+        "id": 3,
+        "left": "Robotics",
+        "right": "Needs machine vision"
+      },
+      {
+        "id": 4,
+        "left": "Computer graphics",
+        "right": "Inverse of computer vision"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are tasks of image processing?\n{\n~%50% Noise reduction\n~%50% Histogram equalization\n~%-100% Scene interpretation\n~%-100% Object recognition\n}",
+    "title": "MULTI1",
+    "question": "Which are tasks of image processing?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Noise reduction",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Histogram equalization",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Scene interpretation",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Object recognition",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are tasks of image understanding?\n{\n~%33.33333% Constructing scene descriptions\n~%33.33333% Making decisions from images\n~%33.33333% High-level semantic labeling\n~%-100% Rotating an image\n}",
+    "title": "MULTI2",
+    "question": "Which are tasks of image understanding?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Constructing scene descriptions",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Making decisions from images",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "High-level semantic labeling",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Rotating an image",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich belong to image recognition?\n{\n~%33.33333% Object identification\n~%33.33333% Place recognition\n~%33.33333% Action recognition\n~%-100% Color balancing\n}",
+    "title": "MULTI3",
+    "question": "Which belong to image recognition?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Object identification",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Place recognition",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Action recognition",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Color balancing",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are machine learning approaches useful in vision?\n{\n~%33.33333% Support vector machines\n~%33.33333% Decision trees\n~%33.33333% Neural networks\n~%-100% Handwriting with pen\n}",
+    "title": "MULTI4",
+    "question": "Which are machine learning approaches useful in vision?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Support vector machines",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Decision trees",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Neural networks",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Handwriting with pen",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are examples of deep learning in vision?\n{\n~%33.33333% Convolutional neural networks\n~%33.33333% Recurrent neural networks\n~%33.33333% Generative adversarial networks\n~%-100% Sorting algorithms\n}",
+    "title": "MULTI5",
+    "question": "Which are examples of deep learning in vision?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Convolutional neural networks",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Recurrent neural networks",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Generative adversarial networks",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Sorting algorithms",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich fields are directly related to computer vision?\n{\n~%25% Robotics\n~%25% AI\n~%25% Cognitive science\n~%25% Color science\n}",
+    "title": "MULTI6",
+    "question": "Which fields are directly related to computer vision?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Robotics",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "AI",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Cognitive science",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Color science",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are examples of image processing?\n{\n~%33.33333% Smoothing\n~%33.33333% Thresholding\n~%33.33333% Edge detection\n~%-100% Object recognition\n}",
+    "title": "MULTI7",
+    "question": "Which are examples of image processing?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Smoothing",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Thresholding",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Edge detection",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Object recognition",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich areas are connected to image understanding?\n{\n~%33.33333% Scene classification\n~%33.33333% Semantic segmentation\n~%33.33333% Activity labeling\n~%-100% Brightness correction\n}",
+    "title": "MULTI8",
+    "question": "Which areas are connected to image understanding?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Scene classification",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Semantic segmentation",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Activity labeling",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Brightness correction",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich technologies are part of modern computer vision?\n{\n~%33.33333% Deep neural networks\n~%33.33333% GPUs\n~%33.33333% Large datasets\n~%-100% Typewriters\n}",
+    "title": "MULTI9",
+    "question": "Which technologies are part of modern computer vision?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Deep neural networks",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "GPUs",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Large datasets",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Typewriters",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich related fields contribute knowledge to computer vision?\n{\n~%25% Neuroscience\n~%25% Optics\n~%25% Mathematics\n~%25% Robotics\n}",
+    "title": "MULTI10",
+    "question": "Which related fields contribute knowledge to computer vision?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Neuroscience",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Optics",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Mathematics",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Robotics",
+        "weight": 25.0
+      }
+    ]
+  }
+]

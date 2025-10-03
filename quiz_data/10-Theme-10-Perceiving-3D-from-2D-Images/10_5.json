@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhat is the key cue in human stereo vision?\n{\n= Binocular disparity\n~ Shadows\n~ Texture gradients\n~ Motion blur\n}",
+    "title": "MC1",
+    "question": "What is the key cue in human stereo vision?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Binocular disparity",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Shadows",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Texture gradients",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Motion blur",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhat does the brain do with binocular disparity?\n{\n= Fuses images into depth perception\n~ Ignores them\n~ Produces color differences\n~ Reduces resolution\n}",
+    "title": "MC2",
+    "question": "What does the brain do with binocular disparity?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Fuses images into depth perception",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Ignores them",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Produces color differences",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Reduces resolution",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhich is an additional depth cue?\n{\n= Motion parallax\n~ JPEG artifacts\n~ Gamma correction\n~ Histogram equalization\n}",
+    "title": "MC3",
+    "question": "Which is an additional depth cue?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Motion parallax",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "JPEG artifacts",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Gamma correction",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram equalization",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhat is a stereoscopic display?\n{\n= Presents different images to each eye\n~ Uses only one image\n~ Requires no disparity\n~ Always glasses-free\n}",
+    "title": "MC4",
+    "question": "What is a stereoscopic display?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Presents different images to each eye",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Uses only one image",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Requires no disparity",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Always glasses-free",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhat is an autostereoscopic display?\n{\n= Provides 3D without glasses\n~ Requires special glasses\n~ Uses only VR headsets\n~ Provides 2D only\n}",
+    "title": "MC5",
+    "question": "What is an autostereoscopic display?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Provides 3D without glasses",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Requires special glasses",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Uses only VR headsets",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Provides 2D only",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich device provides immersive stereo with motion tracking?\n{\n= VR headset\n~ Standard monitor\n~ Histogram display\n~ Audio headphones\n}",
+    "title": "MC6",
+    "question": "Which device provides immersive stereo with motion tracking?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "VR headset",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Standard monitor",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Histogram display",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Audio headphones",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich is an application of 3D displays?\n{\n= Medical visualization\n~ Audio compression\n~ File encryption\n~ White balance\n}",
+    "title": "MC7",
+    "question": "Which is an application of 3D displays?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Medical visualization",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Audio compression",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "File encryption",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "White balance",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich is a challenge of 3D displays?\n{\n= Eye strain\n~ Always natural\n~ No mismatch issues\n~ Works in all angles\n}",
+    "title": "MC8",
+    "question": "Which is a challenge of 3D displays?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Eye strain",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Always natural",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "No mismatch issues",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Works in all angles",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich depth cue is linked to eye muscle activity?\n{\n= Convergence\n~ Disparity\n~ Shading\n~ Texture\n}",
+    "title": "MC9",
+    "question": "Which depth cue is linked to eye muscle activity?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Convergence",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Disparity",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Shading",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Texture",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich depth cue relates to lens focus?\n{\n= Accommodation\n~ Convergence\n~ Disparity\n~ Contour\n}",
+    "title": "MC10",
+    "question": "Which depth cue relates to lens focus?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Accommodation",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Convergence",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Disparity",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Contour",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the depth cue to meaning.\n{\n= Disparity -> Difference between eyes\n= Convergence -> Eye rotation\n= Accommodation -> Lens focusing\n= Motion parallax -> Relative movement\n}",
+    "title": "MATCH1",
+    "question": "Match the depth cue to meaning.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Disparity",
+        "right": "Difference between eyes"
+      },
+      {
+        "id": 2,
+        "left": "Convergence",
+        "right": "Eye rotation"
+      },
+      {
+        "id": 3,
+        "left": "Accommodation",
+        "right": "Lens focusing"
+      },
+      {
+        "id": 4,
+        "left": "Motion parallax",
+        "right": "Relative movement"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the display to property.\n{\n= Stereoscopic -> Glasses needed\n= Autostereoscopic -> Glasses-free\n= VR headset -> Immersive\n= AR -> Mixed reality\n}",
+    "title": "MATCH2",
+    "question": "Match the display to property.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Stereoscopic",
+        "right": "Glasses needed"
+      },
+      {
+        "id": 2,
+        "left": "Autostereoscopic",
+        "right": "Glasses-free"
+      },
+      {
+        "id": 3,
+        "left": "VR headset",
+        "right": "Immersive"
+      },
+      {
+        "id": 4,
+        "left": "AR",
+        "right": "Mixed reality"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the application to domain.\n{\n= Entertainment -> 3D movies\n= Medicine -> Visualization\n= Training -> Simulators\n= Communication -> Telepresence\n}",
+    "title": "MATCH3",
+    "question": "Match the application to domain.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Entertainment",
+        "right": "3D movies"
+      },
+      {
+        "id": 2,
+        "left": "Medicine",
+        "right": "Visualization"
+      },
+      {
+        "id": 3,
+        "left": "Training",
+        "right": "Simulators"
+      },
+      {
+        "id": 4,
+        "left": "Communication",
+        "right": "Telepresence"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the challenge to cause.\n{\n= Eye strain -> Mismatch cues\n= Viewing zone -> Limited angles\n= Convergence-accommodation -> Conflict\n= Cost -> Specialized hardware\n}",
+    "title": "MATCH4",
+    "question": "Match the challenge to cause.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Eye strain",
+        "right": "Mismatch cues"
+      },
+      {
+        "id": 2,
+        "left": "Viewing zone",
+        "right": "Limited angles"
+      },
+      {
+        "id": 3,
+        "left": "Convergence-accommodation",
+        "right": "Conflict"
+      },
+      {
+        "id": 4,
+        "left": "Cost",
+        "right": "Specialized hardware"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the device to example.\n{\n= Polarized glasses -> 3D cinema\n= Lenticular lens -> Autostereo\n= Headset -> VR\n= Smartphone AR -> Mixed reality\n}",
+    "title": "MATCH5",
+    "question": "Match the device to example.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Polarized glasses",
+        "right": "3D cinema"
+      },
+      {
+        "id": 2,
+        "left": "Lenticular lens",
+        "right": "Autostereo"
+      },
+      {
+        "id": 3,
+        "left": "Headset",
+        "right": "VR"
+      },
+      {
+        "id": 4,
+        "left": "Smartphone AR",
+        "right": "Mixed reality"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the cue to system.\n{\n= Binocular disparity -> Stereo vision\n= Texture gradient -> Monocular\n= Motion parallax -> Dynamic\n= Shading -> Lighting cue\n}",
+    "title": "MATCH6",
+    "question": "Match the cue to system.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Binocular disparity",
+        "right": "Stereo vision"
+      },
+      {
+        "id": 2,
+        "left": "Texture gradient",
+        "right": "Monocular"
+      },
+      {
+        "id": 3,
+        "left": "Motion parallax",
+        "right": "Dynamic"
+      },
+      {
+        "id": 4,
+        "left": "Shading",
+        "right": "Lighting cue"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the method to drawback.\n{\n= Stereoscopic -> Glasses needed\n= Autostereoscopic -> Limited zone\n= VR -> Motion sickness\n= AR -> Overlay challenges\n}",
+    "title": "MATCH7",
+    "question": "Match the method to drawback.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Stereoscopic",
+        "right": "Glasses needed"
+      },
+      {
+        "id": 2,
+        "left": "Autostereoscopic",
+        "right": "Limited zone"
+      },
+      {
+        "id": 3,
+        "left": "VR",
+        "right": "Motion sickness"
+      },
+      {
+        "id": 4,
+        "left": "AR",
+        "right": "Overlay challenges"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the display type to domain.\n{\n= Cinema -> Stereoscopic\n= Gaming -> VR\n= Advertising -> Autostereo\n= Medicine -> 3D visualization\n}",
+    "title": "MATCH8",
+    "question": "Match the display type to domain.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Cinema",
+        "right": "Stereoscopic"
+      },
+      {
+        "id": 2,
+        "left": "Gaming",
+        "right": "VR"
+      },
+      {
+        "id": 3,
+        "left": "Advertising",
+        "right": "Autostereo"
+      },
+      {
+        "id": 4,
+        "left": "Medicine",
+        "right": "3D visualization"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the system to challenge.\n{\n= VR headset -> Motion sickness\n= Cinema -> Glasses needed\n= Autostereo -> Limited angles\n= Telepresence -> Bandwidth\n}",
+    "title": "MATCH9",
+    "question": "Match the system to challenge.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "VR headset",
+        "right": "Motion sickness"
+      },
+      {
+        "id": 2,
+        "left": "Cinema",
+        "right": "Glasses needed"
+      },
+      {
+        "id": 3,
+        "left": "Autostereo",
+        "right": "Limited angles"
+      },
+      {
+        "id": 4,
+        "left": "Telepresence",
+        "right": "Bandwidth"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the cue to perception.\n{\n= Disparity -> Depth\n= Convergence -> Near/far\n= Accommodation -> Focus\n= Parallax -> Relative depth\n}",
+    "title": "MATCH10",
+    "question": "Match the cue to perception.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Disparity",
+        "right": "Depth"
+      },
+      {
+        "id": 2,
+        "left": "Convergence",
+        "right": "Near/far"
+      },
+      {
+        "id": 3,
+        "left": "Accommodation",
+        "right": "Focus"
+      },
+      {
+        "id": 4,
+        "left": "Parallax",
+        "right": "Relative depth"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are cues for human depth perception?\n{\n~%25% Disparity\n~%25% Convergence\n~%25% Accommodation\n~%25% Motion parallax\n}",
+    "title": "MULTI1",
+    "question": "Which are cues for human depth perception?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Disparity",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Convergence",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Accommodation",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Motion parallax",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are display types for 3D viewing?\n{\n~%33.33333% Stereoscopic\n~%33.33333% Autostereoscopic\n~%33.33333% VR headset\n~%-100% Standard 2D monitor\n}",
+    "title": "MULTI2",
+    "question": "Which are display types for 3D viewing?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Stereoscopic",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Autostereoscopic",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "VR headset",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Standard 2D monitor",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are applications of 3D displays?\n{\n~%25% Entertainment\n~%25% Training\n~%25% Medicine\n~%25% Telepresence\n}",
+    "title": "MULTI3",
+    "question": "Which are applications of 3D displays?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Entertainment",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Training",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Medicine",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Telepresence",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are challenges of 3D displays?\n{\n~%25% Eye strain\n~%25% Convergence-accommodation conflict\n~%25% Limited viewing zone\n~%25% Cost\n}",
+    "title": "MULTI4",
+    "question": "Which are challenges of 3D displays?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Eye strain",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Convergence-accommodation conflict",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Limited viewing zone",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Cost",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are properties of stereoscopic displays?\n{\n~%50% Glasses needed\n~%50% Two images\n~%-100% Always glasses-free\n~%-100% Only 2D\n}",
+    "title": "MULTI5",
+    "question": "Which are properties of stereoscopic displays?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Glasses needed",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Two images",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Always glasses-free",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Only 2D",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are properties of autostereoscopic displays?\n{\n~%50% Glasses-free\n~%50% Limited viewing zones\n~%-100% Requires glasses\n~%-100% Motion tracking always\n}",
+    "title": "MULTI6",
+    "question": "Which are properties of autostereoscopic displays?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Glasses-free",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Limited viewing zones",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Requires glasses",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Motion tracking always",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are features of VR/AR headsets?\n{\n~%33.33333% Immersive stereo\n~%33.33333% Motion tracking\n~%33.33333% Mixed/virtual reality\n~%-100% Always 2D\n}",
+    "title": "MULTI7",
+    "question": "Which are features of VR/AR headsets?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Immersive stereo",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Motion tracking",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Mixed/virtual reality",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Always 2D",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are cues specifically binocular?\n{\n~%50% Disparity\n~%50% Convergence\n~%-100% Motion parallax\n~%-100% Texture gradient\n}",
+    "title": "MULTI8",
+    "question": "Which are cues specifically binocular?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Disparity",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Convergence",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Motion parallax",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Texture gradient",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are limitations of 3D display systems?\n{\n~%25% Eye strain\n~%25% Conflicts in depth cues\n~%25% Limited angles\n~%25% Hardware cost\n}",
+    "title": "MULTI9",
+    "question": "Which are limitations of 3D display systems?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Eye strain",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Conflicts in depth cues",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Limited angles",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Hardware cost",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are domains using stereo 3D displays?\n{\n~%25% Cinema\n~%25% Gaming\n~%25% Medicine\n~%25% Communication\n}",
+    "title": "MULTI10",
+    "question": "Which are domains using stereo 3D displays?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Cinema",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Gaming",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Medicine",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Communication",
+        "weight": 25.0
+      }
+    ]
+  }
+]

@@ -1,0 +1,309 @@
+::TF1::
+The CIE XYZ model is a standard reference color model.
+{TRUE}
+
+::TF2::
+CIE XYZ values can be derived as linear combinations of RGB values.
+{TRUE}
+
+::TF3::
+The chromaticity diagram shows all colors perceivable by humans.
+{TRUE}
+
+::TF4::
+The gamut of a device refers to the full range of human color perception.
+{FALSE}
+
+::TF5::
+Standard illuminants are used as reference light sources for color measurement.
+{TRUE}
+
+::TF6::
+The CIE XYZ model is perceptually uniform.
+{FALSE}
+
+::TF7::
+The CIE chromaticity diagram can represent hues and saturation but not brightness.
+{TRUE}
+
+::TF8::
+CIELAB was developed to be more perceptually uniform than CIE XYZ.
+{TRUE}
+
+::TF9::
+Gamut boundaries of displays are shown as triangles inside the chromaticity diagram.
+{TRUE}
+
+::TF10::
+The XYZ model is device-independent.
+{TRUE}
+
+::MC1::
+What is the main purpose of the CIE XYZ model?
+{
+= To provide a standard reference for color representation
+~ To describe only RGB displays
+~ To define physical wavelength ranges
+~ To replace illuminants
+}
+
+::MC2::
+How are XYZ values related to RGB?
+{
+= Linear combinations
+~ Nonlinear gamma correction
+~ Multiplicative blending
+~ Subtractive primaries
+}
+
+::MC3::
+What does the chromaticity diagram represent?
+{
+= All perceivable colors mapped by chromaticity
+~ Only grayscale values
+~ Image compression ratios
+~ Light intensities only
+}
+
+::MC4::
+What is a color gamut?
+{
+= Subset of colors a device can produce
+~ All colors humans can perceive
+~ All wavelengths in visible light
+~ A unit of luminance
+}
+
+::MC5::
+Which are examples of standard illuminants?
+{
+= D65 daylight
+~ RGB primaries
+~ JPEG compression
+~ Gamma curves
+}
+
+::MC6::
+Which model is more perceptually uniform than CIE XYZ?
+{
+= CIELAB
+~ CMYK
+~ HSV
+~ RYB
+}
+
+::MC7::
+Which property is NOT shown in a chromaticity diagram?
+{
+= Brightness
+~ Hue
+~ Saturation
+~ Chromaticity coordinates
+}
+
+::MC8::
+What shape typically represents a display’s gamut in a chromaticity diagram?
+{
+= Triangle
+~ Circle
+~ Rectangle
+~ Line
+}
+
+::MC9::
+Which is an advantage of CIE XYZ?
+{
+= Device independence
+~ Perceptual uniformity
+~ Compactness
+~ Nonlinear compression
+}
+
+::MC10::
+Which is a disadvantage of CIE XYZ?
+{
+= Not perceptually uniform
+~ Not device-independent
+~ Cannot represent visible colors
+~ Ignores illuminants
+}
+
+::MATCH1::
+Match the model to its property.
+{
+= CIE XYZ -> Standard reference
+= CIELAB -> Perceptually uniform
+= RGB -> Device dependent
+= CMYK -> Printing model
+}
+
+::MATCH2::
+Match the term to the definition.
+{
+= Chromaticity diagram -> Map of perceivable colors
+= Gamut -> Subset of colors of device
+= Illuminant -> Standard light source
+= Tristimulus -> Three-component representation
+}
+
+::MATCH3::
+Match the component to its role.
+{
+= X -> Red-green contribution
+= Y -> Luminance
+= Z -> Blue contribution
+= XYZ -> Linear from RGB
+}
+
+::MATCH4::
+Match the diagram element to its meaning.
+{
+= Horseshoe shape -> Visible spectrum
+= Triangle inside -> Device gamut
+= Point inside -> A specific color
+= Edge curve -> Spectral locus
+}
+
+::MATCH5::
+Match the color space to its use.
+{
+= CIE XYZ -> Standard reference
+= CIELAB -> Perceptual differences
+= HSV -> Editing and selection
+= CMYK -> Printing
+}
+
+::MATCH6::
+Match the illuminant to its description.
+{
+= D65 -> Average daylight
+= A -> Tungsten light
+= C -> Average daylight, older definition
+= E -> Equal-energy white
+}
+
+::MATCH7::
+Match the property to the limitation.
+{
+= CIE XYZ -> Not perceptually uniform
+= CIELAB -> More uniform but nonlinear
+= RGB -> Device dependent
+= CMYK -> Limited gamut
+}
+
+::MATCH8::
+Match the measurement to the application.
+{
+= Chromaticity coordinates -> Color plotting
+= Gamut -> Device capabilities
+= Illuminant -> Reference lighting
+= CIELAB -> Perceived differences
+}
+
+::MATCH9::
+Match the feature to the example.
+{
+= Device-independent -> CIE XYZ
+= Perceptually uniform -> CIELAB
+= Additive primaries -> RGB
+= Subtractive primaries -> CMY
+}
+
+::MATCH10::
+Match the quantity to the unit/representation.
+{
+= Tristimulus values -> XYZ
+= Chromaticity coordinates -> (x,y)
+= Gamut -> Subset of diagram
+= Illuminant -> Defined spectrum
+}
+
+::MULTI1::
+Which are properties of CIE XYZ?
+{
+~%33.33333% Standardized reference
+~%33.33333% Derived from RGB
+~%33.33333% Device independent
+~%-100% Perceptually uniform
+}
+
+::MULTI2::
+Which are features of a chromaticity diagram?
+{
+~%33.33333% Horseshoe-shaped spectrum
+~%33.33333% Gamut triangles
+~%33.33333% Chromaticity coordinates
+~%-100% Brightness axis
+}
+
+::MULTI3::
+Which are examples of standard illuminants?
+{
+~%25% D65 daylight
+~%25% A tungsten
+~%25% C average daylight
+~%25% Equal-energy white
+}
+
+::MULTI4::
+Which are device-dependent color spaces?
+{
+~%50% RGB
+~%50% CMYK
+~%-100% CIE XYZ
+~%-100% CIELAB
+}
+
+::MULTI5::
+Which are device-independent spaces?
+{
+~%50% CIE XYZ
+~%50% CIELAB
+~%-100% RGB
+~%-100% CMYK
+}
+
+::MULTI6::
+Which are shown in chromaticity diagrams?
+{
+~%33.33333% Hue
+~%33.33333% Saturation
+~%33.33333% Chromaticity coordinates
+~%-100% Brightness
+}
+
+::MULTI7::
+Which are limitations of CIE XYZ?
+{
+~%50% Not perceptually uniform
+~%50% Complex to interpret
+~%-100% Device-dependent
+~%-100% Cannot represent visible colors
+}
+
+::MULTI8::
+Which are advantages of CIE XYZ?
+{
+~%33.33333% Device independent
+~%33.33333% Standard reference
+~%33.33333% Covers visible gamut
+~%-100% Perceptually uniform
+}
+
+::MULTI9::
+Which are features of CIELAB?
+{
+~%33.33333% More perceptually uniform
+~%33.33333% Derived from XYZ
+~%33.33333% Useful for color difference
+~%-100% Device dependent
+}
+
+::MULTI10::
+Which are represented in a chromaticity diagram?
+{
+~%33.33333% Spectral locus
+~%33.33333% Device gamut
+~%33.33333% Specific chromaticity points
+~%-100% Gamma curve
+}

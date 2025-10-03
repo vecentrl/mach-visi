@@ -1,0 +1,309 @@
+::TF1::
+Real lenses are usually perfect and introduce no distortion.
+{FALSE}
+
+::TF2::
+The pinhole model can approximate a lens in many cases.
+{TRUE}
+
+::TF3::
+The optical transfer function (OTF) models how optics project light from a scene to the sensor.
+{TRUE}
+
+::TF4::
+The point-spread function (PSF) is the inverse Fourier transform of the OTF.
+{TRUE}
+
+::TF5::
+Out-of-focus blur can be approximated with a Gaussian kernel.
+{TRUE}
+
+::TF6::
+The thin lens model describes the relationship between object distance, image distance, and focal length.
+{TRUE}
+
+::TF7::
+Misfocus is measured using the circle of confusion.
+{TRUE}
+
+::TF8::
+Depth of field decreases when the lens aperture is very small.
+{FALSE}
+
+::TF9::
+Lenses with large aperture (small f-number) have shallow depth of field.
+{TRUE}
+
+::TF10::
+Wide-angle lenses often exhibit noticeable radial distortion.
+{TRUE}
+
+::MC1::
+What does the optical model in computer vision attempt to describe?
+{
+= How light passes through lenses and forms an image
+~ How pixels are stored in memory
+~ How files are compressed
+~ How CPUs process instructions
+}
+
+::MC2::
+Which function describes the spread of a point of light in an imaging system?
+{
+= Point-spread function (PSF)
+~ Gamma function
+~ Noise distribution
+~ Histogram equalization
+}
+
+::MC3::
+What is the Fourier transform of the PSF called?
+{
+= Optical transfer function (OTF)
+~ Color filter array
+~ Depth map
+~ Power spectrum density
+}
+
+::MC4::
+Which model relates object distance, image distance, and focal length?
+{
+= Thin lens model
+~ Pinhole model
+~ Histogram model
+~ Perspective model
+}
+
+::MC5::
+What does the circle of confusion measure?
+{
+= Degree of misfocus
+~ Sensor size
+~ Focal length
+~ Image sharpness
+}
+
+::MC6::
+What is defined by the ratio of focal length to aperture diameter?
+{
+= F-number
+~ ISO
+~ Shutter speed
+~ Principal point
+}
+
+::MC7::
+What does depth of field describe?
+{
+= Range of distances that appear sharp
+~ Brightness of the image
+~ Sensor size
+~ Lens distortion
+}
+
+::MC8::
+Which factor reduces depth of field?
+{
+= Large aperture
+~ Small focal length
+~ Small aperture
+~ Long exposure
+}
+
+::MC9::
+Which problem do wide-angle lenses commonly introduce?
+{
+= Radial distortion
+~ Histogram flattening
+~ Color banding
+~ Vignetting only
+}
+
+::MC10::
+Which parameters model radial distortion?
+{
+= k1 and k2
+~ ISO and f-number
+~ R and t
+~ X and Y
+}
+
+::MATCH1::
+Match the optical concept to its description.
+{
+= OTF -> Fourier transform of PSF
+= PSF -> Spread of a point in image
+= Thin lens model -> Object, image, focal length relation
+= Circle of confusion -> Measure of misfocus
+}
+
+::MATCH2::
+Match the aperture size to the effect.
+{
+= Large aperture -> Shallow depth of field
+= Small aperture -> Deep depth of field
+= Very large aperture -> More blur outside focus
+= Small f-number -> Larger aperture
+}
+
+::MATCH3::
+Match the lens characteristic to its impact.
+{
+= Wide-angle lens -> Radial distortion
+= Large aperture -> Shallow depth of field
+= Misfocus -> Circle of confusion
+= Optical imperfection -> Aberration
+}
+
+::MATCH4::
+Match the parameter to its meaning.
+{
+= F-number -> f / aperture diameter
+= Focal length -> Distance from lens to sensor at focus
+= Principal point -> Center of image geometry
+= Depth of field -> Range of acceptable sharpness
+}
+
+::MATCH5::
+Match the phenomenon to the description.
+{
+= Blur -> Light spread in sensor
+= Smear -> Streaking of light
+= Distortion -> Geometric warping
+= Aberration -> Color fringing
+}
+
+::MATCH6::
+Match the function to its type.
+{
+= OTF -> Frequency domain
+= PSF -> Spatial domain
+= Gamma correction -> Brightness scaling
+= Histogram equalization -> Contrast adjustment
+}
+
+::MATCH7::
+Match the optical model to its feature.
+{
+= Pinhole model -> Simple approximation
+= Thin lens model -> Circle of confusion
+= Depth of field -> Range of sharp focus
+= Distortion model -> Radial correction
+}
+
+::MATCH8::
+Match the term to its role.
+{
+= Gaussian kernel -> Approximates blur
+= Radial distortion -> Modeled by k1, k2
+= Aberration -> Chromatic shift
+= Aperture -> Controls incoming light
+}
+
+::MATCH9::
+Match the optical imperfection to its effect.
+{
+= Distortion -> Straight lines curve
+= Aberration -> Colors misalign
+= Vignetting -> Brightness falloff
+= Noise -> Random variation
+}
+
+::MATCH10::
+Match the optical setting to the consequence.
+{
+= High f-number -> Deep depth of field
+= Low f-number -> Shallow depth of field
+= Long focal length -> Narrow field of view
+= Wide-angle -> Strong radial distortion
+}
+
+::MULTI1::
+Which are part of the optical model in computer vision?
+{
+~%25% Blur
+~%25% Smear
+~%25% Distortion
+~%-100% File compression
+}
+
+::MULTI2::
+Which functions describe how light is transferred in an imaging system?
+{
+~%50% OTF
+~%50% PSF
+~%-100% Histogram
+~%-100% LUT
+}
+
+::MULTI3::
+Which assumptions are part of the thin lens model?
+{
+~%33.33333% Light focuses through a single plane
+~%33.33333% Misfocus can be measured by circle of confusion
+~%33.33333% Depth of field depends on aperture and focus distance
+~%-100% No lens distortion exists
+}
+
+::MULTI4::
+Which affect depth of field?
+{
+~%33.33333% Aperture size
+~%33.33333% Focal length
+~%33.33333% Focus distance
+~%-100% JPEG encoding
+}
+
+::MULTI5::
+Which are parameters of radial distortion models?
+{
+~%50% k1
+~%50% k2
+~%-100% ISO
+~%-100% Shutter speed
+}
+
+::MULTI6::
+Which problems are caused by real lenses?
+{
+~%25% Blur
+~%25% Distortion
+~%25% Aberration
+~%25% Attenuation
+}
+
+::MULTI7::
+Which are true statements about f-number?
+{
+~%33.33333% Defined as focal length / aperture diameter
+~%33.33333% Small f-number = large aperture
+~%33.33333% Large f-number = deep depth of field
+~%-100% Independent of aperture size
+}
+
+::MULTI8::
+Which are modeled with OTF/PSF?
+{
+~%33.33333% Optical blur
+~%33.33333% Contrast transfer
+~%33.33333% Light spread
+~%-100% File size
+}
+
+::MULTI9::
+Which effects increase with wide-angle lenses?
+{
+~%50% Radial distortion
+~%50% Perspective exaggeration
+~%-100% Less distortion
+~%-100% Narrow field of view
+}
+
+::MULTI10::
+Which describe out-of-focus blur?
+{
+~%33.33333% Approximated with Gaussian
+~%33.33333% Caused by defocus
+~%33.33333% Measured by circle of confusion
+~%-100% Corrected by ISO adjustment
+}

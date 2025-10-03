@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhat does kNN classification use?\n{\n= Majority vote among k closest samples\n~ Only class centroids\n~ Decision tree rules\n~ Histogram bins\n}",
+    "title": "MC1",
+    "question": "What does kNN classification use?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Majority vote among k closest samples",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Only class centroids",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Decision tree rules",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram bins",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhat happens when k equals 1 in kNN?\n{\n= Same as Nearest Neighbor\n~ Same as Centroid\n~ Always perfect\n~ Ignores training data\n}",
+    "title": "MC2",
+    "question": "What happens when k equals 1 in kNN?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Same as Nearest Neighbor",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Same as Centroid",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Always perfect",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Ignores training data",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhat is the effect of large k in kNN?\n{\n= Smoother boundaries, less noise sensitivity\n~ Always better accuracy\n~ More irregular boundaries\n~ Ignores neighbors\n}",
+    "title": "MC3",
+    "question": "What is the effect of large k in kNN?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Smoother boundaries, less noise sensitivity",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Always better accuracy",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "More irregular boundaries",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Ignores neighbors",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhich classifier creates linear decision boundaries?\n{\n= Nearest Centroid\n~ NN\n~ kNN\n~ Decision trees\n}",
+    "title": "MC4",
+    "question": "Which classifier creates linear decision boundaries?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Nearest Centroid",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "NN",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "kNN",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Decision trees",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhich classifier produces irregular decision boundaries?\n{\n= Nearest Neighbor\n~ Centroid\n~ Linear regression\n~ PCA\n}",
+    "title": "MC5",
+    "question": "Which classifier produces irregular decision boundaries?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Nearest Neighbor",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Centroid",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Linear regression",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "PCA",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich factor influences kNN performance?\n{\n= Choice of k\n~ Histogram bins\n~ Gamma value\n~ File format\n}",
+    "title": "MC6",
+    "question": "Which factor influences kNN performance?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Choice of k",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram bins",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Gamma value",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "File format",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich is a drawback of kNN?\n{\n= High computation at classification time\n~ No distance needed\n~ Ignores training data\n~ Creates centroids\n}",
+    "title": "MC7",
+    "question": "Which is a drawback of kNN?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "High computation at classification time",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "No distance needed",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Ignores training data",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Creates centroids",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich method reduces storage cost in distance classifiers?\n{\n= Centroid\n~ NN\n~ kNN\n~ Histogram\n}",
+    "title": "MC8",
+    "question": "Which method reduces storage cost in distance classifiers?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Centroid",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "NN",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "kNN",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich application benefits from kNN?\n{\n= Handwriting recognition\n~ Gamma correction\n~ White balance\n~ Histogram equalization\n}",
+    "title": "MC9",
+    "question": "Which application benefits from kNN?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Handwriting recognition",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Gamma correction",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "White balance",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram equalization",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich affects decision boundary shape?\n{\n= Classifier type (NN vs. Centroid)\n~ File format\n~ Gamma encoding\n~ JPEG compression\n}",
+    "title": "MC10",
+    "question": "Which affects decision boundary shape?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Classifier type (NN vs. Centroid)",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "File format",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Gamma encoding",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "JPEG compression",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the classifier to boundary.\n{\n= NN -> Irregular\n= Centroid -> Linear\n= kNN -> Smoother with k\n= SVM -> Margin-based\n}",
+    "title": "MATCH1",
+    "question": "Match the classifier to boundary.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "NN",
+        "right": "Irregular"
+      },
+      {
+        "id": 2,
+        "left": "Centroid",
+        "right": "Linear"
+      },
+      {
+        "id": 3,
+        "left": "kNN",
+        "right": "Smoother with k"
+      },
+      {
+        "id": 4,
+        "left": "SVM",
+        "right": "Margin-based"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the classifier to requirement.\n{\n= NN -> Store all data\n= Centroid -> Store class means\n= kNN -> Compute majority of neighbors\n= PCA -> Reduce dimensions\n}",
+    "title": "MATCH2",
+    "question": "Match the classifier to requirement.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "NN",
+        "right": "Store all data"
+      },
+      {
+        "id": 2,
+        "left": "Centroid",
+        "right": "Store class means"
+      },
+      {
+        "id": 3,
+        "left": "kNN",
+        "right": "Compute majority of neighbors"
+      },
+      {
+        "id": 4,
+        "left": "PCA",
+        "right": "Reduce dimensions"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the classifier to drawback.\n{\n= NN -> Noise sensitivity\n= Centroid -> Oversimplification\n= kNN -> Computational cost\n= All -> Distance choice matters\n}",
+    "title": "MATCH3",
+    "question": "Match the classifier to drawback.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "NN",
+        "right": "Noise sensitivity"
+      },
+      {
+        "id": 2,
+        "left": "Centroid",
+        "right": "Oversimplification"
+      },
+      {
+        "id": 3,
+        "left": "kNN",
+        "right": "Computational cost"
+      },
+      {
+        "id": 4,
+        "left": "All",
+        "right": "Distance choice matters"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the classifier to application.\n{\n= NN -> Retrieval\n= Centroid -> Face recognition\n= kNN -> Handwriting recognition\n= All -> Pattern recognition\n}",
+    "title": "MATCH4",
+    "question": "Match the classifier to application.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "NN",
+        "right": "Retrieval"
+      },
+      {
+        "id": 2,
+        "left": "Centroid",
+        "right": "Face recognition"
+      },
+      {
+        "id": 3,
+        "left": "kNN",
+        "right": "Handwriting recognition"
+      },
+      {
+        "id": 4,
+        "left": "All",
+        "right": "Pattern recognition"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the parameter k to effect.\n{\n= k=1 -> Noise sensitive\n= Small k -> Flexible boundaries\n= Large k -> Robust, smooth\n= Too large k -> Oversmoothing\n}",
+    "title": "MATCH5",
+    "question": "Match the parameter k to effect.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "k=1",
+        "right": "Noise sensitive"
+      },
+      {
+        "id": 2,
+        "left": "Small k",
+        "right": "Flexible boundaries"
+      },
+      {
+        "id": 3,
+        "left": "Large k",
+        "right": "Robust, smooth"
+      },
+      {
+        "id": 4,
+        "left": "Too large k",
+        "right": "Oversmoothing"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the distance metric to property.\n{\n= Euclidean -> L2 norm\n= Manhattan -> L1 norm\n= Cosine -> Angle similarity\n= Mahalanobis -> Accounts for variance\n}",
+    "title": "MATCH6",
+    "question": "Match the distance metric to property.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Euclidean",
+        "right": "L2 norm"
+      },
+      {
+        "id": 2,
+        "left": "Manhattan",
+        "right": "L1 norm"
+      },
+      {
+        "id": 3,
+        "left": "Cosine",
+        "right": "Angle similarity"
+      },
+      {
+        "id": 4,
+        "left": "Mahalanobis",
+        "right": "Accounts for variance"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the decision boundary to description.\n{\n= NN -> Complex, irregular\n= Centroid -> Linear midplane\n= kNN -> Balance of smoothness\n= SVM -> Hyperplane margin\n}",
+    "title": "MATCH7",
+    "question": "Match the decision boundary to description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "NN",
+        "right": "Complex, irregular"
+      },
+      {
+        "id": 2,
+        "left": "Centroid",
+        "right": "Linear midplane"
+      },
+      {
+        "id": 3,
+        "left": "kNN",
+        "right": "Balance of smoothness"
+      },
+      {
+        "id": 4,
+        "left": "SVM",
+        "right": "Hyperplane margin"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the classifier to storage.\n{\n= NN -> All training samples\n= Centroid -> Class mean\n= kNN -> All samples + parameter k\n= PCA -> Reduced data\n}",
+    "title": "MATCH8",
+    "question": "Match the classifier to storage.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "NN",
+        "right": "All training samples"
+      },
+      {
+        "id": 2,
+        "left": "Centroid",
+        "right": "Class mean"
+      },
+      {
+        "id": 3,
+        "left": "kNN",
+        "right": "All samples + parameter k"
+      },
+      {
+        "id": 4,
+        "left": "PCA",
+        "right": "Reduced data"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the factor to influence.\n{\n= Distance metric -> Classification result\n= Value of k -> Boundary smoothness\n= Training data size -> Computation\n= Noise -> Misclassification\n}",
+    "title": "MATCH9",
+    "question": "Match the factor to influence.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Distance metric",
+        "right": "Classification result"
+      },
+      {
+        "id": 2,
+        "left": "Value of k",
+        "right": "Boundary smoothness"
+      },
+      {
+        "id": 3,
+        "left": "Training data size",
+        "right": "Computation"
+      },
+      {
+        "id": 4,
+        "left": "Noise",
+        "right": "Misclassification"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the classifier to strength.\n{\n= NN -> Simplicity\n= Centroid -> Efficiency\n= kNN -> Robust with larger k\n= All -> Easy to understand\n}",
+    "title": "MATCH10",
+    "question": "Match the classifier to strength.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "NN",
+        "right": "Simplicity"
+      },
+      {
+        "id": 2,
+        "left": "Centroid",
+        "right": "Efficiency"
+      },
+      {
+        "id": 3,
+        "left": "kNN",
+        "right": "Robust with larger k"
+      },
+      {
+        "id": 4,
+        "left": "All",
+        "right": "Easy to understand"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are distance-based classifiers?\n{\n~%33.33333% NN\n~%33.33333% Centroid\n~%33.33333% kNN\n~%-100% Decision trees\n}",
+    "title": "MULTI1",
+    "question": "Which are distance-based classifiers?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "NN",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Centroid",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "kNN",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Decision trees",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are properties of kNN?\n{\n~%33.33333% Uses multiple neighbors\n~%33.33333% Sensitive to k choice\n~%33.33333% Requires distance computation\n~%-100% Uses only centroids\n}",
+    "title": "MULTI2",
+    "question": "Which are properties of kNN?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Uses multiple neighbors",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Sensitive to k choice",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Requires distance computation",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Uses only centroids",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are advantages of NN/kNN?\n{\n~%50% Simple\n~%50% Intuitive\n~%-100% Always most efficient\n~%-100% Ignore training data\n}",
+    "title": "MULTI3",
+    "question": "Which are advantages of NN/kNN?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Simple",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Intuitive",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Always most efficient",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Ignore training data",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are drawbacks of NN/kNN?\n{\n~%25% Sensitive to noise\n~%25% Computational cost\n~%25% High storage\n~%25% Scale sensitivity\n}",
+    "title": "MULTI4",
+    "question": "Which are drawbacks of NN/kNN?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Sensitive to noise",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Computational cost",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "High storage",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Scale sensitivity",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are advantages of Centroid classification?\n{\n~%33.33333% Compact storage\n~%33.33333% Fast classification\n~%33.33333% Simple decision boundaries\n~%-100% Requires storing all samples\n}",
+    "title": "MULTI5",
+    "question": "Which are advantages of Centroid classification?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Compact storage",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Fast classification",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Simple decision boundaries",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Requires storing all samples",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are limitations of Centroid classification?\n{\n~%50% Oversimplifies boundaries\n~%50% Fails with overlapping classes\n~%-100% Stores all data\n~%-100% Always robust\n}",
+    "title": "MULTI6",
+    "question": "Which are limitations of Centroid classification?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Oversimplifies boundaries",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Fails with overlapping classes",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Stores all data",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Always robust",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich affect decision boundaries?\n{\n~%33.33333% Classifier type\n~%33.33333% Value of k\n~%33.33333% Distance metric\n~%-100% File compression\n}",
+    "title": "MULTI7",
+    "question": "Which affect decision boundaries?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Classifier type",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Value of k",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Distance metric",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "File compression",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are common applications of distance classifiers?\n{\n~%25% Retrieval\n~%25% Recognition\n~%25% Classification\n~%25% Pattern analysis\n}",
+    "title": "MULTI8",
+    "question": "Which are common applications of distance classifiers?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Retrieval",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Recognition",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Classification",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Pattern analysis",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are challenges for NN/kNN?\n{\n~%33.33333% Noise\n~%33.33333% High computation\n~%33.33333% Scaling\n~%-100% Always robust\n}",
+    "title": "MULTI9",
+    "question": "Which are challenges for NN/kNN?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Noise",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "High computation",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Scaling",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Always robust",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are examples of distance metrics?\n{\n~%25% Euclidean\n~%25% Manhattan\n~%25% Cosine\n~%25% Mahalanobis\n}",
+    "title": "MULTI10",
+    "question": "Which are examples of distance metrics?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Euclidean",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Manhattan",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Cosine",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Mahalanobis",
+        "weight": 25.0
+      }
+    ]
+  }
+]

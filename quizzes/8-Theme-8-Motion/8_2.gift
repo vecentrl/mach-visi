@@ -1,0 +1,309 @@
+::TF1::
+Optical flow describes the apparent motion of pixels in image sequences.
+{TRUE}
+
+::TF2::
+Optical flow can be used for foreground detection.
+{TRUE}
+
+::TF3::
+Brightness constancy assumes pixel intensity stays constant as it moves.
+{TRUE}
+
+::TF4::
+Spatial smoothness assumes neighboring pixels move similarly.
+{TRUE}
+
+::TF5::
+Lucas–Kanade is a local, window-based optical flow method.
+{TRUE}
+
+::TF6::
+Horn–Schunck is a global method that enforces smoothness.
+{TRUE}
+
+::TF7::
+Optical flow is only used in audio processing.
+{FALSE}
+
+::TF8::
+Autonomous vehicles use optical flow for motion estimation.
+{TRUE}
+
+::TF9::
+Optical flow is never affected by occlusion.
+{FALSE}
+
+::TF10::
+Large displacements are a challenge for optical flow methods.
+{TRUE}
+
+::MC1::
+What does optical flow represent?
+{
+= Apparent pixel motion
+~ Pixel brightness only
+~ Histogram bins
+~ Audio signals
+}
+
+::MC2::
+Which assumption is used in optical flow?
+{
+= Brightness constancy
+~ Histogram equalization
+~ PCA reduction
+~ Gamma correction
+}
+
+::MC3::
+Which method is local and window-based?
+{
+= Lucas–Kanade
+~ Horn–Schunck
+~ SVM
+~ k-means
+}
+
+::MC4::
+Which method is global and smoothness-based?
+{
+= Horn–Schunck
+~ Lucas–Kanade
+~ PCA
+~ Decision trees
+}
+
+::MC5::
+Which property does spatial smoothness enforce?
+{
+= Neighboring pixels move similarly
+~ Pixel brightness never changes
+~ Histogram equalization
+~ File compression
+}
+
+::MC6::
+Which is an application of optical flow?
+{
+= Object tracking
+~ Histogram smoothing
+~ JPEG compression
+~ Audio filtering
+}
+
+::MC7::
+Which challenge affects optical flow?
+{
+= Occlusion
+~ Always robust
+~ No computation
+~ Histogram bins
+}
+
+::MC8::
+Which factor complicates optical flow estimation?
+{
+= Illumination change
+~ Always constant brightness
+~ Perfect pixel alignment
+~ Unlimited computation
+}
+
+::MC9::
+Which field uses optical flow for motion analysis?
+{
+= Autonomous driving
+~ File encryption
+~ Histogram equalization
+~ Gamma correction
+}
+
+::MC10::
+Which feature is shared by Lucas–Kanade and Horn–Schunck?
+{
+= Based on brightness constancy assumption
+~ Work only on binary images
+~ Ignore smoothness
+~ Used for audio
+}
+
+::MATCH1::
+Match the method to property.
+{
+= Lucas–Kanade -> Local, window-based
+= Horn–Schunck -> Global, smoothness
+= Both -> Brightness constancy
+= CNN -> Learned flow
+}
+
+::MATCH2::
+Match the assumption to definition.
+{
+= Brightness constancy -> Pixel intensity stays constant
+= Spatial smoothness -> Neighboring pixels move similarly
+= Global regularization -> Horn–Schunck
+= Local windows -> Lucas–Kanade
+}
+
+::MATCH3::
+Match the challenge to effect.
+{
+= Occlusion -> Missing flow
+= Noise -> Errors
+= Illumination change -> False motion
+= Large displacement -> Failure
+}
+
+::MATCH4::
+Match the application to field.
+{
+= Tracking -> Optical flow
+= Action recognition -> Motion cues
+= Driving -> Motion estimation
+= Robotics -> Navigation
+}
+
+::MATCH5::
+Match the method to drawback.
+{
+= Lucas–Kanade -> Local only
+= Horn–Schunck -> Oversmoothing
+= Both -> Sensitive to noise
+= CNN -> Needs training data
+}
+
+::MATCH6::
+Match the assumption to limitation.
+{
+= Brightness constancy -> Fails under lighting change
+= Smoothness -> Fails at motion boundaries
+= Local windows -> Miss large motion
+= Global models -> Computational cost
+}
+
+::MATCH7::
+Match the method to domain.
+{
+= Lucas–Kanade -> Sparse flow
+= Horn–Schunck -> Dense flow
+= CNN -> Deep flow estimation
+= Histogram -> Not flow
+}
+
+::MATCH8::
+Match the property to requirement.
+{
+= Occlusion -> Hard to track
+= Illumination -> Brightness change
+= Large displacement -> Multi-scale methods
+= Smoothness -> Regularization
+}
+
+::MATCH9::
+Match the technique to type.
+{
+= Optical flow -> Motion estimation
+= Background subtraction -> Foreground detection
+= Segmentation -> Partitioning
+= Clustering -> Grouping
+}
+
+::MATCH10::
+Match the domain to application.
+{
+= Security -> Activity monitoring
+= Sports -> Player tracking
+= Automotive -> Lane following
+= Medicine -> Motion analysis
+}
+
+::MULTI1::
+Which are assumptions in optical flow?
+{
+~%50% Brightness constancy
+~%50% Spatial smoothness
+~%-100% Histogram constancy
+~%-100% PCA projection
+}
+
+::MULTI2::
+Which are optical flow methods?
+{
+~%33.33333% Lucas–Kanade
+~%33.33333% Horn–Schunck
+~%33.33333% CNN-based flow
+~%-100% Histogram equalization
+}
+
+::MULTI3::
+Which are applications of optical flow?
+{
+~%25% Object tracking
+~%25% Action recognition
+~%25% Autonomous driving
+~%25% Human motion analysis
+}
+
+::MULTI4::
+Which are challenges for optical flow?
+{
+~%25% Occlusion
+~%25% Illumination variation
+~%25% Noise
+~%25% Large displacements
+}
+
+::MULTI5::
+Which are properties of Lucas–Kanade?
+{
+~%50% Local
+~%50% Window-based
+~%-100% Global
+~%-100% CNN-based
+}
+
+::MULTI6::
+Which are properties of Horn–Schunck?
+{
+~%33.33333% Global
+~%33.33333% Smoothness-based
+~%33.33333% Dense flow
+~%-100% Local only
+}
+
+::MULTI7::
+Which are examples of motion-based fields?
+{
+~%25% Surveillance
+~%25% Sports
+~%25% Driving
+~%25% Robotics
+}
+
+::MULTI8::
+Which are advantages of CNN-based optical flow?
+{
+~%33.33333% Learn features
+~%33.33333% Handle large displacements
+~%33.33333% High accuracy
+~%-100% Require no data
+}
+
+::MULTI9::
+Which assumptions may fail in real scenes?
+{
+~%33.33333% Brightness constancy
+~%33.33333% Spatial smoothness
+~%33.33333% No occlusion
+~%-100% Histogram constancy
+}
+
+::MULTI10::
+Which are outputs of optical flow?
+{
+~%50% Motion vectors
+~%50% Foreground detection masks
+~%-100% Histogram bins
+~%-100% JPEG coefficients
+}

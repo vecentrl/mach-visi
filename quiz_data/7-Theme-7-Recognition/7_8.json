@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhat does detection mean in computer vision?\n{\n= Locating objects or regions of interest\n~ Assigning class labels\n~ Removing noise\n~ Histogram equalization\n}",
+    "title": "MC1",
+    "question": "What does detection mean in computer vision?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Locating objects or regions of interest",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Assigning class labels",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Removing noise",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram equalization",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhat does category recognition mean?\n{\n= Assigning class labels to detected objects\n~ Locating regions only\n~ Reducing dimensionality\n~ Compressing images\n}",
+    "title": "MC2",
+    "question": "What does category recognition mean?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Assigning class labels to detected objects",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Locating regions only",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Reducing dimensionality",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Compressing images",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhich is an example of detection?\n{\n= Finding faces in an image\n~ Classifying digits\n~ Assigning tumor type\n~ Sorting documents\n}",
+    "title": "MC3",
+    "question": "Which is an example of detection?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Finding faces in an image",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Classifying digits",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Assigning tumor type",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Sorting documents",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhich is an example of recognition?\n{\n= Identifying a face as \"Alice\"\n~ Detecting face bounding boxes\n~ Locating tumors\n~ Segmenting regions\n}",
+    "title": "MC4",
+    "question": "Which is an example of recognition?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Identifying a face as \"Alice\"",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Detecting face bounding boxes",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Locating tumors",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Segmenting regions",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhich method is commonly used for recognition?\n{\n= Support Vector Machine (SVM)\n~ Histogram equalization\n~ Otsu thresholding\n~ PCA visualization\n}",
+    "title": "MC5",
+    "question": "Which method is commonly used for recognition?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Support Vector Machine (SVM)",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Otsu thresholding",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "PCA visualization",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich is a challenge in detection and recognition?\n{\n= Occlusion\n~ Always perfect\n~ File size\n~ Histogram bins\n}",
+    "title": "MC6",
+    "question": "Which is a challenge in detection and recognition?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Occlusion",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Always perfect",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "File size",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram bins",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich is an application of detection?\n{\n= Tumor localization in medical imaging\n~ Document clustering\n~ Audio compression\n~ Histogram smoothing\n}",
+    "title": "MC7",
+    "question": "Which is an application of detection?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Tumor localization in medical imaging",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Document clustering",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Audio compression",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram smoothing",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich is an application of recognition?\n{\n= Face classification\n~ Edge detection\n~ Binary thresholding\n~ White balance\n}",
+    "title": "MC8",
+    "question": "Which is an application of recognition?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Face classification",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Edge detection",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Binary thresholding",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "White balance",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich is true about detection and recognition?\n{\n= Detection locates, recognition labels\n~ Detection labels, recognition locates\n~ Both only locate\n~ Both only classify\n}",
+    "title": "MC9",
+    "question": "Which is true about detection and recognition?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Detection locates, recognition labels",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Detection labels, recognition locates",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Both only locate",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Both only classify",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich is a domain where detection is critical?\n{\n= Industrial inspection\n~ JPEG compression\n~ White balance\n~ Gamma correction\n}",
+    "title": "MC10",
+    "question": "Which is a domain where detection is critical?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Industrial inspection",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "JPEG compression",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "White balance",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Gamma correction",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the task to example.\n{\n= Detection -> Finding a face\n= Recognition -> Identifying the person\n= Segmentation -> Splitting into regions\n= Clustering -> Grouping unlabeled data\n}",
+    "title": "MATCH1",
+    "question": "Match the task to example.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Detection",
+        "right": "Finding a face"
+      },
+      {
+        "id": 2,
+        "left": "Recognition",
+        "right": "Identifying the person"
+      },
+      {
+        "id": 3,
+        "left": "Segmentation",
+        "right": "Splitting into regions"
+      },
+      {
+        "id": 4,
+        "left": "Clustering",
+        "right": "Grouping unlabeled data"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the domain to application.\n{\n= Medicine -> Tumor detection\n= Security -> Face recognition\n= Industry -> Defect detection\n= Environment -> Scene recognition\n}",
+    "title": "MATCH2",
+    "question": "Match the domain to application.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Medicine",
+        "right": "Tumor detection"
+      },
+      {
+        "id": 2,
+        "left": "Security",
+        "right": "Face recognition"
+      },
+      {
+        "id": 3,
+        "left": "Industry",
+        "right": "Defect detection"
+      },
+      {
+        "id": 4,
+        "left": "Environment",
+        "right": "Scene recognition"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the method to use.\n{\n= Local features -> Detection\n= Descriptors + classifier -> Recognition\n= Thresholding -> Segmentation\n= PCA -> Dimensionality reduction\n}",
+    "title": "MATCH3",
+    "question": "Match the method to use.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Local features",
+        "right": "Detection"
+      },
+      {
+        "id": 2,
+        "left": "Descriptors + classifier",
+        "right": "Recognition"
+      },
+      {
+        "id": 3,
+        "left": "Thresholding",
+        "right": "Segmentation"
+      },
+      {
+        "id": 4,
+        "left": "PCA",
+        "right": "Dimensionality reduction"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the classifier to role.\n{\n= SVM -> Recognition\n= NN -> Recognition\n= k-means -> Clustering\n= Harris -> Corner detection\n}",
+    "title": "MATCH4",
+    "question": "Match the classifier to role.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "SVM",
+        "right": "Recognition"
+      },
+      {
+        "id": 2,
+        "left": "NN",
+        "right": "Recognition"
+      },
+      {
+        "id": 3,
+        "left": "k-means",
+        "right": "Clustering"
+      },
+      {
+        "id": 4,
+        "left": "Harris",
+        "right": "Corner detection"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the challenge to effect.\n{\n= Occlusion -> Missing objects\n= Illumination -> Poor detection\n= Noise -> False detections\n= Variability -> Recognition errors\n}",
+    "title": "MATCH5",
+    "question": "Match the challenge to effect.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Occlusion",
+        "right": "Missing objects"
+      },
+      {
+        "id": 2,
+        "left": "Illumination",
+        "right": "Poor detection"
+      },
+      {
+        "id": 3,
+        "left": "Noise",
+        "right": "False detections"
+      },
+      {
+        "id": 4,
+        "left": "Variability",
+        "right": "Recognition errors"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the task to property.\n{\n= Detection -> Locate\n= Recognition -> Label\n= Segmentation -> Divide\n= Clustering -> Group\n}",
+    "title": "MATCH6",
+    "question": "Match the task to property.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Detection",
+        "right": "Locate"
+      },
+      {
+        "id": 2,
+        "left": "Recognition",
+        "right": "Label"
+      },
+      {
+        "id": 3,
+        "left": "Segmentation",
+        "right": "Divide"
+      },
+      {
+        "id": 4,
+        "left": "Clustering",
+        "right": "Group"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the application to field.\n{\n= Face detection -> Security\n= Tumor detection -> Medicine\n= Defect inspection -> Industry\n= Scene recognition -> Environment\n}",
+    "title": "MATCH7",
+    "question": "Match the application to field.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Face detection",
+        "right": "Security"
+      },
+      {
+        "id": 2,
+        "left": "Tumor detection",
+        "right": "Medicine"
+      },
+      {
+        "id": 3,
+        "left": "Defect inspection",
+        "right": "Industry"
+      },
+      {
+        "id": 4,
+        "left": "Scene recognition",
+        "right": "Environment"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the feature to usage.\n{\n= SIFT -> Local descriptors\n= ORB -> Fast descriptors\n= SVM -> Recognition classifier\n= Harris -> Corner detection\n}",
+    "title": "MATCH8",
+    "question": "Match the feature to usage.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "SIFT",
+        "right": "Local descriptors"
+      },
+      {
+        "id": 2,
+        "left": "ORB",
+        "right": "Fast descriptors"
+      },
+      {
+        "id": 3,
+        "left": "SVM",
+        "right": "Recognition classifier"
+      },
+      {
+        "id": 4,
+        "left": "Harris",
+        "right": "Corner detection"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the recognition step to description.\n{\n= Feature extraction -> Represent object\n= Classification -> Assign label\n= Detection -> Locate object\n= Evaluation -> Test performance\n}",
+    "title": "MATCH9",
+    "question": "Match the recognition step to description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Feature extraction",
+        "right": "Represent object"
+      },
+      {
+        "id": 2,
+        "left": "Classification",
+        "right": "Assign label"
+      },
+      {
+        "id": 3,
+        "left": "Detection",
+        "right": "Locate object"
+      },
+      {
+        "id": 4,
+        "left": "Evaluation",
+        "right": "Test performance"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the domain to need.\n{\n= Medicine -> Tumor localization\n= Industry -> Quality control\n= Security -> Identity verification\n= Robotics -> Scene understanding\n}",
+    "title": "MATCH10",
+    "question": "Match the domain to need.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Medicine",
+        "right": "Tumor localization"
+      },
+      {
+        "id": 2,
+        "left": "Industry",
+        "right": "Quality control"
+      },
+      {
+        "id": 3,
+        "left": "Security",
+        "right": "Identity verification"
+      },
+      {
+        "id": 4,
+        "left": "Robotics",
+        "right": "Scene understanding"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are tasks in computer vision?\n{\n~%25% Detection\n~%25% Recognition\n~%25% Segmentation\n~%25% Clustering\n}",
+    "title": "MULTI1",
+    "question": "Which are tasks in computer vision?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Detection",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Recognition",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Segmentation",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Clustering",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are examples of detection?\n{\n~%33.33333% Face detection\n~%33.33333% Tumor detection\n~%33.33333% Defect detection\n~%-100% Face recognition\n}",
+    "title": "MULTI2",
+    "question": "Which are examples of detection?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Face detection",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Tumor detection",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Defect detection",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Face recognition",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are examples of recognition?\n{\n~%33.33333% Face recognition\n~%33.33333% Tumor classification\n~%33.33333% Scene categorization\n~%-100% Edge detection\n}",
+    "title": "MULTI3",
+    "question": "Which are examples of recognition?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Face recognition",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Tumor classification",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Scene categorization",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Edge detection",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich methods are used in recognition?\n{\n~%33.33333% SVM\n~%33.33333% Neural networks\n~%33.33333% Feature descriptors\n~%-100% Histogram equalization\n}",
+    "title": "MULTI4",
+    "question": "Which methods are used in recognition?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "SVM",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Neural networks",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Feature descriptors",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Histogram equalization",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are applications of detection?\n{\n~%25% Face detection\n~%25% Tumor localization\n~%25% Defect detection\n~%25% Object detection in robotics\n}",
+    "title": "MULTI5",
+    "question": "Which are applications of detection?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Face detection",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Tumor localization",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Defect detection",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Object detection in robotics",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are applications of recognition?\n{\n~%25% Face classification\n~%25% Scene recognition\n~%25% Object category recognition\n~%25% Handwriting classification\n}",
+    "title": "MULTI6",
+    "question": "Which are applications of recognition?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Face classification",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Scene recognition",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Object category recognition",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Handwriting classification",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are challenges for detection & recognition?\n{\n~%25% Occlusion\n~%25% Illumination changes\n~%25% Noise\n~%25% Intra-class variability\n}",
+    "title": "MULTI7",
+    "question": "Which are challenges for detection & recognition?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Occlusion",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Illumination changes",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Noise",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Intra-class variability",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are true about detection vs. recognition?\n{\n~%50% Detection = locating objects\n~%50% Recognition = assigning labels\n~%-100% Both identical\n~%-100% Both only locate\n}",
+    "title": "MULTI8",
+    "question": "Which are true about detection vs. recognition?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Detection = locating objects",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Recognition = assigning labels",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Both identical",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Both only locate",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are classifiers used in recognition?\n{\n~%33.33333% SVM\n~%33.33333% Neural networks\n~%33.33333% Decision trees\n~%-100% Histogram bins\n}",
+    "title": "MULTI9",
+    "question": "Which are classifiers used in recognition?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "SVM",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Neural networks",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Decision trees",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Histogram bins",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are domains using detection & recognition?\n{\n~%25% Medicine\n~%25% Security\n~%25% Industry\n~%25% Environment\n}",
+    "title": "MULTI10",
+    "question": "Which are domains using detection & recognition?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Medicine",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Security",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Industry",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Environment",
+        "weight": 25.0
+      }
+    ]
+  }
+]

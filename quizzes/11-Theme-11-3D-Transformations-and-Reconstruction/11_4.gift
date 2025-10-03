@@ -1,0 +1,309 @@
+::TF1::
+Camera calibration estimates intrinsic and extrinsic parameters.
+{TRUE}
+
+::TF2::
+Intrinsic parameters describe the internal geometry of the camera.
+{TRUE}
+
+::TF3::
+Extrinsic parameters describe the camera’s pose relative to the world.
+{TRUE}
+
+::TF4::
+Lens distortion can be estimated during calibration.
+{TRUE}
+
+::TF5::
+The intrinsic matrix K is 3×3.
+{TRUE}
+
+::TF6::
+Extrinsic parameters include focal length and principal point.
+{FALSE}
+
+::TF7::
+Calibration can be done using a checkerboard pattern.
+{TRUE}
+
+::TF8::
+Calibration minimizes reprojection error.
+{TRUE}
+
+::TF9::
+Camera calibration is not needed for augmented reality.
+{FALSE}
+
+::TF10::
+Noise in feature detection affects calibration accuracy.
+{TRUE}
+
+::MC1::
+What does camera calibration estimate?
+{
+= Intrinsic and extrinsic parameters
+~ Only brightness
+~ Only file size
+~ Only histograms
+}
+
+::MC2::
+What is included in intrinsic parameters?
+{
+= Focal length, principal point, skew
+~ Rotation, translation
+~ Reprojection error
+~ Calibration pattern
+}
+
+::MC3::
+What is included in extrinsic parameters?
+{
+= Rotation and translation
+~ Focal length and skew
+~ Principal point
+~ Lens distortion
+}
+
+::MC4::
+What does the intrinsic matrix K represent?
+{
+= Internal camera parameters
+~ External pose
+~ Reprojection error
+~ Histogram bins
+}
+
+::MC5::
+What does calibration optimize?
+{
+= Reprojection error
+~ Audio compression
+~ Histogram equalization
+~ Gamma correction
+}
+
+::MC6::
+Which tool is often used for calibration?
+{
+= Checkerboard pattern
+~ Histogram plot
+~ PCA basis
+~ Audio filter
+}
+
+::MC7::
+Which distortions are corrected in calibration?
+{
+= Radial and tangential
+~ Only Gaussian noise
+~ Only blur
+~ Always none
+}
+
+::MC8::
+Which is an application of calibration?
+{
+= Augmented reality
+~ JPEG compression
+~ File encryption
+~ White balance
+}
+
+::MC9::
+Which is a challenge in calibration?
+{
+= Lens distortion
+~ Always exact
+~ No effect of noise
+~ Always easy
+}
+
+::MC10::
+Which is required for calibration?
+{
+= Known 3D–2D correspondences
+~ Random noise
+~ File size
+~ Gamma correction
+}
+
+::MATCH1::
+Match the parameter to type.
+{
+= Focal length -> Intrinsic
+= Principal point -> Intrinsic
+= Rotation -> Extrinsic
+= Translation -> Extrinsic
+}
+
+::MATCH2::
+Match the matrix to role.
+{
+= K -> Intrinsic
+= [R|t] -> Extrinsic
+= Distortion -> Lens effects
+= Projection -> Mapping 3D to 2D
+}
+
+::MATCH3::
+Match the distortion to type.
+{
+= Radial -> Barrel/pincushion
+= Tangential -> Lens misalignment
+= Gaussian noise -> Not distortion
+= Blur -> Not modeled
+}
+
+::MATCH4::
+Match the method to usage.
+{
+= Checkerboard -> Calibration
+= Optimization -> Error minimization
+= RANSAC -> Outlier rejection
+= Normalization -> Stability
+}
+
+::MATCH5::
+Match the problem to cause.
+{
+= Noise -> Feature detection errors
+= Distortion -> Lens imperfection
+= Degeneracy -> Poor setup
+= Outliers -> Wrong correspondences
+}
+
+::MATCH6::
+Match the application to domain.
+{
+= AR -> Overlay alignment
+= Robotics -> Navigation
+= Vision -> 3D reconstruction
+= Medicine -> Imaging
+}
+
+::MATCH7::
+Match the calibration concept to definition.
+{
+= Intrinsic -> Internal geometry
+= Extrinsic -> Pose
+= Distortion -> Lens effect
+= Reprojection error -> Accuracy metric
+}
+
+::MATCH8::
+Match the component to description.
+{
+= fx, fy -> Focal lengths
+= cx, cy -> Principal point
+= R -> Rotation
+= t -> Translation
+}
+
+::MATCH9::
+Match the technique to step.
+{
+= Detect pattern -> 2D points
+= Match to 3D -> Correspondences
+= Optimize -> Minimize error
+= Output -> Parameters
+}
+
+::MATCH10::
+Match the parameter to matrix.
+{
+= K -> Intrinsic
+= [R|t] -> Extrinsic
+= Distortion coefficients -> Lens
+= Projection matrix -> Full mapping
+}
+
+::MULTI1::
+Which are intrinsic parameters?
+{
+~%25% Focal length
+~%25% Principal point
+~%25% Skew
+~%25% Pixel scaling
+}
+
+::MULTI2::
+Which are extrinsic parameters?
+{
+~%33.33333% Rotation
+~%33.33333% Translation
+~%33.33333% Pose
+~%-100% Focal length
+}
+
+::MULTI3::
+Which are lens distortions?
+{
+~%50% Radial
+~%50% Tangential
+~%-100% Gaussian noise
+~%-100% JPEG artifacts
+}
+
+::MULTI4::
+Which are steps in calibration?
+{
+~%25% Detect calibration pattern
+~%25% Establish 3D–2D correspondences
+~%25% Optimize reprojection error
+~%25% Estimate parameters
+}
+
+::MULTI5::
+Which are challenges in calibration?
+{
+~%25% Noise
+~%25% Lens distortion
+~%25% Degeneracy
+~%25% Outliers
+}
+
+::MULTI6::
+Which are applications of calibration?
+{
+~%25% 3D reconstruction
+~%25% AR
+~%25% Robotics
+~%25% Vision
+}
+
+::MULTI7::
+Which are parts of the projection matrix?
+{
+~%25% Intrinsic K
+~%25% Extrinsic [R|t]
+~%25% Distortion parameters
+~%25% Homogeneous coordinates
+}
+
+::MULTI8::
+Which are benefits of calibration?
+{
+~%25% Accurate pose
+~%25% Correct distortion
+~%25% Reliable depth
+~%25% AR alignment
+}
+
+::MULTI9::
+Which are problems in uncalibrated cameras?
+{
+~%33.33333% Distortion
+~%33.33333% Wrong scale
+~%33.33333% Poor AR alignment
+~%-100% Always accurate
+}
+
+::MULTI10::
+Which are domains needing calibration?
+{
+~%25% AR/VR
+~%25% Robotics
+~%25% Medicine
+~%25% Computer vision
+}

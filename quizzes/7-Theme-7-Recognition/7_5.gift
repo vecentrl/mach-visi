@@ -1,0 +1,309 @@
+::TF1::
+Bayesian classifiers use probability to assign classes.
+{TRUE}
+
+::TF2::
+Naïve Bayes assumes independence between features.
+{TRUE}
+
+::TF3::
+Decision trees classify by following feature-based splits.
+{TRUE}
+
+::TF4::
+In Naïve Bayes, the class with highest posterior probability is chosen.
+{TRUE}
+
+::TF5::
+Decision tree leaves represent final class labels.
+{TRUE}
+
+::TF6::
+Naïve Bayes works well even if features are strongly dependent.
+{FALSE}
+
+::TF7::
+Decision trees can overfit training data.
+{TRUE}
+
+::TF8::
+Bayesian classifiers are not probabilistic.
+{FALSE}
+
+::TF9::
+Spam filtering is an application of Bayesian classification.
+{TRUE}
+
+::TF10::
+Decision trees cannot be visualized.
+{FALSE}
+
+::MC1::
+What is the decision rule in Bayesian classification?
+{
+= Choose the class with highest posterior probability
+~ Choose the class with most features
+~ Always select majority class
+~ Random choice
+}
+
+::MC2::
+Which assumption does Naïve Bayes make?
+{
+= Feature independence
+~ Features always correlated
+~ Linear separability
+~ Nonlinear kernel use
+}
+
+::MC3::
+What is a main advantage of Naïve Bayes?
+{
+= Simple and effective
+~ Always perfect accuracy
+~ Requires no training data
+~ No probability use
+}
+
+::MC4::
+Which is a drawback of Naïve Bayes?
+{
+= Assumes independence between features
+~ Too complex to compute
+~ Requires large decision trees
+~ Needs kernel trick
+}
+
+::MC5::
+What defines decision trees?
+{
+= Hierarchical feature tests
+~ Probability models
+~ Gradient descent
+~ Clustering rules
+}
+
+::MC6::
+What do leaves in decision trees represent?
+{
+= Final class labels
+~ Feature tests
+~ Probability distributions
+~ Distance metrics
+}
+
+::MC7::
+Which is a drawback of decision trees?
+{
+= Overfitting
+~ Cannot be trained
+~ No interpretability
+~ Independence assumption
+}
+
+::MC8::
+Which is an application of Bayesian classifiers?
+{
+= Spam filtering
+~ File compression
+~ Histogram equalization
+~ Gamma correction
+}
+
+::MC9::
+Which is an application of decision trees?
+{
+= Medical diagnosis
+~ Histogram smoothing
+~ Gamma correction
+~ File encryption
+}
+
+::MC10::
+Which statement is true about Bayesian vs. Trees?
+{
+= Bayesian are probabilistic, Trees are rule-based
+~ Both assume feature independence
+~ Trees are always better
+~ Bayesian require kernels
+}
+
+::MATCH1::
+Match the classifier to principle.
+{
+= Naïve Bayes -> Probability + independence assumption
+= Decision tree -> Feature-based splits
+= SVM -> Margin maximization
+= kNN -> Neighbor voting
+}
+
+::MATCH2::
+Match the concept to description.
+{
+= Prior probability -> Probability before data
+= Posterior probability -> Probability after data
+= Likelihood -> Data probability given class
+= Independence -> Naïve Bayes assumption
+}
+
+::MATCH3::
+Match the classifier to advantage.
+{
+= Naïve Bayes -> Simple, efficient
+= Decision tree -> Interpretability
+= SVM -> Strong generalization
+= NN -> Simple matching
+}
+
+::MATCH4::
+Match the classifier to drawback.
+{
+= Naïve Bayes -> Independence assumption
+= Decision tree -> Overfitting
+= SVM -> Kernel choice
+= kNN -> High computation
+}
+
+::MATCH5::
+Match the classifier to application.
+{
+= Naïve Bayes -> Spam filtering
+= Decision tree -> Medical diagnosis
+= SVM -> Face recognition
+= kNN -> Handwriting
+}
+
+::MATCH6::
+Match the component to Bayesian rule.
+{
+= Prior -> Before evidence
+= Likelihood -> Data given class
+= Posterior -> Class after evidence
+= Independence -> Feature assumption
+}
+
+::MATCH7::
+Match the classifier to property.
+{
+= Naïve Bayes -> Probabilistic
+= Decision tree -> Rule-based
+= SVM -> Margin-based
+= PCA -> Dimensionality reduction
+}
+
+::MATCH8::
+Match the decision tree element to role.
+{
+= Node -> Feature test
+= Branch -> Outcome
+= Leaf -> Class label
+= Root -> Start
+}
+
+::MATCH9::
+Match the issue to solution.
+{
+= Tree overfitting -> Pruning
+= Feature dependence -> Naïve Bayes limitation
+= Nonlinear boundaries -> Kernel SVM
+= Noise -> Robust features
+}
+
+::MATCH10::
+Match the classifier to type.
+{
+= Naïve Bayes -> Probabilistic
+= Decision tree -> Hierarchical
+= kNN -> Distance-based
+= Neural network -> Connectionist
+}
+
+::MULTI1::
+Which are probabilistic classifiers?
+{
+~%50% Naïve Bayes
+~%50% Bayesian networks
+~%-100% Decision trees
+~%-100% SVM
+}
+
+::MULTI2::
+Which are rule-based classifiers?
+{
+~%50% Decision trees
+~%50% Rule sets
+~%-100% Naïve Bayes
+~%-100% SVM
+}
+
+::MULTI3::
+Which are applications of Bayesian classifiers?
+{
+~%33.33333% Spam filtering
+~%33.33333% Document classification
+~%33.33333% Sentiment analysis
+~%-100% Image compression
+}
+
+::MULTI4::
+Which are applications of decision trees?
+{
+~%33.33333% Medical diagnosis
+~%33.33333% Industrial inspection
+~%33.33333% Pattern classification
+~%-100% Audio synthesis
+}
+
+::MULTI5::
+Which are advantages of Naïve Bayes?
+{
+~%33.33333% Simple
+~%33.33333% Efficient
+~%33.33333% Probabilistic
+~%-100% Requires feature dependence
+}
+
+::MULTI6::
+Which are advantages of decision trees?
+{
+~%33.33333% Easy to interpret
+~%33.33333% Handle mixed features
+~%33.33333% Visualizable
+~%-100% Require kernel trick
+}
+
+::MULTI7::
+Which are drawbacks of Naïve Bayes?
+{
+~%50% Independence assumption
+~%50% May misclassify correlated features
+~%-100% Too complex
+~%-100% Requires pruning
+}
+
+::MULTI8::
+Which are drawbacks of decision trees?
+{
+~%50% Overfitting
+~%50% Instability with small changes
+~%-100% Independence assumption
+~%-100% No visualization
+}
+
+::MULTI9::
+Which are components of Bayesian rule?
+{
+~%25% Prior
+~%25% Likelihood
+~%25% Posterior
+~%25% Independence assumption
+}
+
+::MULTI10::
+Which are classifier types?
+{
+~%25% Probabilistic
+~%25% Rule-based
+~%25% Distance-based
+~%25% Margin-based
+}

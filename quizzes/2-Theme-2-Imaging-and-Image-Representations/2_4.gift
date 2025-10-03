@@ -1,0 +1,301 @@
+
+::TF1::
+Chromatic aberration occurs because different colors focus at the same magnification factor.
+{FALSE}
+
+::TF2::
+Compound lenses are used to reduce chromatic aberration.
+{TRUE}
+
+::TF3::
+Vignetting refers to brightness falloff toward the edges of an image.
+{TRUE}
+
+::TF4::
+The radiometric relation for vignetting depends on the off-axis angle.
+{TRUE}
+
+::TF5::
+Shot noise follows a Poisson distribution related to photon arrivals.
+{TRUE}
+
+::TF6::
+Electronic circuit noise is a form of image noise.
+{TRUE}
+
+::TF7::
+Thermal noise is independent of image sensors.
+{FALSE}
+
+::TF8::
+Sensor RGB values usually need conversion to standard color spaces like sRGB.
+{TRUE}
+
+::TF9::
+White balance corrects for illumination effects to render whites as neutral.
+{TRUE}
+
+::TF10::
+Gamma pre-correction compensates for the nonlinear human brightness perception.
+{TRUE}
+
+::MC1::
+What is chromatic aberration?
+{
+= Different colors focusing at slightly different points
+~ Uneven exposure due to shutter
+~ Brightness falloff at edges
+~ Random photon noise
+}
+
+::MC2::
+Which type of lens can reduce chromatic aberration?
+{
+= Compound lens
+~ Single-element lens
+~ Plastic pinhole
+~ Diffuser
+}
+
+::MC3::
+What does vignetting cause in an image?
+{
+= Darkening at the edges
+~ Color fringing
+~ Motion blur
+~ Noise spikes
+}
+
+::MC4::
+What is the main cause of shot noise?
+{
+= Random arrival of photons
+~ JPEG compression
+~ Incorrect gamma correction
+~ Lens distortion
+}
+
+::MC5::
+Which type of noise is modeled as Poisson-distributed?
+{
+= Shot noise
+~ Quantization noise
+~ Thermal noise
+~ Electronic noise
+}
+
+::MC6::
+Which type of noise is introduced by digitizing signals?
+{
+= Quantization noise
+~ Thermal noise
+~ Shot noise
+~ Photon absorption
+}
+
+::MC7::
+Which color space is commonly used for JPEG compression?
+{
+= YCbCr
+~ HSV
+~ RGB only
+~ CIE XYZ
+}
+
+::MC8::
+What is the purpose of white balance?
+{
+= Adjusting colors to account for illumination
+~ Removing blur
+~ Reducing noise
+~ Correcting gamma
+}
+
+::MC9::
+Gamma pre-correction adjusts image intensity because\:
+{
+= Human vision is nonlinear in brightness
+~ Cameras are nonlinear
+~ Sensors measure hue directly
+~ Pixels are arranged irregularly
+}
+
+::MATCH1::
+Match the optical effect to its description.
+{
+= Chromatic aberration -> Colors focus differently
+= Vignetting -> Brightness falloff at edges
+= Noise -> Random variation in pixel values
+= White balance -> Adjust colors for illumination
+}
+
+::MATCH2::
+Match the noise type to its cause.
+{
+= Shot noise -> Photon randomness
+= Quantization noise -> Digitization step size
+= Thermal noise -> Heat in electronics
+= Electronic noise -> Circuit interference
+}
+
+::MATCH3::
+Match the lens type to its effect.
+{
+= Simple lens -> Chromatic aberration
+= Compound lens -> Corrects aberration
+= Wide aperture -> Shallow depth of field
+= Wide angle -> Strong radial distortion
+}
+
+::MATCH4::
+Match the correction to the purpose.
+{
+= White balance -> Correct color cast
+= Gamma correction -> Adjust brightness perception
+= Denoising -> Reduce random variation
+= Color transform -> Map to standard space
+}
+
+::MATCH5::
+Match the function to the domain.
+{
+= OTF -> Frequency response of optics
+= PSF -> Spatial spread of light
+= Gamma curve -> Intensity adjustment
+= YCbCr -> Color space for compression
+}
+
+::MATCH6::
+Match the camera operation to the result.
+{
+= White balancing -> Neutral whites
+= Gamma correction -> Match human perception
+= Demosaicing -> Reconstruct color image
+= Compression -> Reduce file size
+}
+
+::MATCH7::
+Match the type of noise to its distribution.
+{
+= Shot noise -> Poisson
+= Electronic noise -> Random
+= Quantization noise -> Uniform
+= Thermal noise -> Gaussian-like
+}
+
+::MATCH8::
+Match the issue to the solution.
+{
+= Chromatic aberration -> Compound lenses
+= Vignetting -> Radiometric correction
+= Noise -> Denoising
+= Illumination shift -> White balance
+}
+
+::MATCH9::
+Match the example to the category.
+{
+= sRGB -> Standard color space
+= YCbCr -> Compression color space
+= HSV -> Nonlinear intuitive color space
+= CIE XYZ -> Foundation of colorimetry
+}
+
+::MATCH10::
+Match the gamma value to perception.
+{
+= <1 (0.45) -> Brightens dark tones
+= exactly 1 -> Linear
+= >1 (2.0) -> Darkens mid-tones
+= Variable -> Adjusts brightness mapping
+}
+
+::MULTI1::
+Which are types of lens-related imperfections?
+{
+~%33.33333% Chromatic aberration
+~%33.33333% Vignetting
+~%33.33333% Distortion
+~%-100% File compression artifacts
+}
+
+::MULTI2::
+Which are sources of image noise?
+{
+~%25% Shot noise
+~%25% Quantization noise
+~%25% Electronic noise
+~%25% Thermal noise
+}
+
+::MULTI3::
+Which techniques correct lens or sensor effects?
+{
+~%33.33333% White balance
+~%33.33333% Gamma correction
+~%33.33333% Denoising
+~%-100% Encryption
+}
+
+::MULTI4::
+Which color spaces are commonly used in imaging?
+{
+~%33.33333% RGB
+~%33.33333% sRGB
+~%33.33333% YCbCr
+~%-100% ASCII
+}
+
+::MULTI5::
+Which are characteristics of vignetting?
+{
+~%50% Brightness falloff toward edges
+~%50% Depends on off-axis angle
+~%-100% Uniform brightness everywhere
+~%-100% Always intentional
+}
+
+::MULTI6::
+Which are common noise models in images?
+{
+~%50% Poisson (shot noise)
+~%50% Gaussian (thermal/electronic)
+~%-100% Hexadecimal
+~%-100% ASCII coding
+}
+
+::MULTI7::
+Which are common corrections in digital camera pipelines?
+{
+~%25% Demosaicing
+~%25% White balancing
+~%25% Gamma correction
+~%25% JPEG encoding
+}
+
+::MULTI8::
+Which are examples of optical imperfections?
+{
+~%33.33333% Blur
+~%33.33333% Chromatic aberration
+~%33.33333% Vignetting
+~%-100% Perfect focus
+}
+
+::MULTI9::
+Which tasks are part of preparing an image for human perception?
+{
+~%33.33333% Gamma correction
+~%33.33333% White balance
+~%33.33333% Noise reduction
+~%-100% File encryption
+}
+
+::MULTI10::
+Which values or spaces are standard in digital imaging?
+{
+~%33.33333% sRGB
+~%33.33333% Gamma ≈ 0.45
+~%33.33333% YCbCr
+~%-100% Morse code
+}

@@ -1,0 +1,309 @@
+::TF1::
+Semi-global matching (SGM) is a compromise between local and global stereo methods.
+{TRUE}
+
+::TF2::
+Regularization helps smooth disparity maps while preserving edges.
+{TRUE}
+
+::TF3::
+Sub-pixel refinement improves the precision of disparity estimation.
+{TRUE}
+
+::TF4::
+Left-right consistency checks are used to filter out mismatches.
+{TRUE}
+
+::TF5::
+Hole filling is used to address occluded areas in disparity maps.
+{TRUE}
+
+::TF6::
+Post-processing is unnecessary in stereo matching pipelines.
+{FALSE}
+
+::TF7::
+Semi-global matching is often used in real-time stereo applications.
+{TRUE}
+
+::TF8::
+Sub-pixel refinement makes disparity estimation less accurate.
+{FALSE}
+
+::TF9::
+Stereo optimization balances accuracy and computation speed.
+{TRUE}
+
+::TF10::
+Autonomous driving uses optimized stereo matching for depth sensing.
+{TRUE}
+
+::MC1::
+What does semi-global matching (SGM) combine?
+{
+= Local efficiency and global accuracy
+~ Histogram equalization
+~ PCA features
+~ Fourier transforms
+}
+
+::MC2::
+What is the role of regularization in stereo optimization?
+{
+= Smooth disparities while preserving edges
+~ Remove color
+~ Ignore depth
+~ Filter brightness
+}
+
+::MC3::
+What is sub-pixel refinement used for?
+{
+= Improve disparity precision
+~ Reduce occlusion
+~ Remove texture
+~ Normalize brightness
+}
+
+::MC4::
+What is a left-right consistency check?
+{
+= Compares disparities from both directions
+~ Compares stereo vs. motion
+~ Measures brightness only
+~ Checks color histograms
+}
+
+::MC5::
+What does hole filling address?
+{
+= Occluded or missing disparity regions
+~ Histogram mismatches
+~ JPEG blocks
+~ Gamma correction
+}
+
+::MC6::
+Which is an application of stereo optimization refinements?
+{
+= Autonomous driving
+~ Audio filtering
+~ File encryption
+~ Histogram equalization
+}
+
+::MC7::
+Which is a challenge in stereo optimization?
+{
+= Balancing accuracy and speed
+~ Always trivial
+~ Ignoring occlusions
+~ File compression
+}
+
+::MC8::
+Which technique improves precision beyond pixel level?
+{
+= Sub-pixel refinement
+~ Global energy minimization
+~ Histogram equalization
+~ PCA
+}
+
+::MC9::
+Which is a post-processing step?
+{
+= Left-right check
+~ Stereo capture
+~ Epipolar rectification
+~ Feature detection
+}
+
+::MC10::
+Which is an advantage of semi-global matching?
+{
+= Real-time capability
+~ Always perfect accuracy
+~ Needs no regularization
+~ Ignores occlusions
+}
+
+::MATCH1::
+Match the refinement to role.
+{
+= Regularization -> Smooth disparities
+= Sub-pixel refinement -> Precision
+= Consistency check -> Detect mismatches
+= Hole filling -> Fix occlusion
+}
+
+::MATCH2::
+Match the method to type.
+{
+= Local -> Window-based
+= Global -> Energy-based
+= Semi-global -> Compromise
+= Post-processing -> Refinement
+}
+
+::MATCH3::
+Match the problem to solution.
+{
+= Occlusion -> Hole filling
+= Mismatches -> Consistency check
+= Noise -> Regularization
+= Precision -> Sub-pixel refinement
+}
+
+::MATCH4::
+Match the application to domain.
+{
+= Driving -> Stereo sensing
+= Robotics -> Navigation
+= Graphics -> 3D reconstruction
+= Medicine -> Imaging
+}
+
+::MATCH5::
+Match the step to function.
+{
+= SGM -> Balanced optimization
+= Regularization -> Edge-preserving smoothing
+= Sub-pixel -> Refined depth
+= Consistency -> Error filtering
+}
+
+::MATCH6::
+Match the challenge to cause.
+{
+= Large disparities -> Wide baseline
+= Occlusion -> Hidden regions
+= Real-time -> Computation limits
+= Accuracy -> Limited resolution
+}
+
+::MATCH7::
+Match the refinement to advantage.
+{
+= Sub-pixel -> Precision
+= SGM -> Efficiency
+= Regularization -> Smoothness
+= Hole filling -> Completeness
+}
+
+::MATCH8::
+Match the domain to use.
+{
+= Autonomous -> Driving
+= Robotics -> Mapping
+= Vision -> 3D models
+= AR/VR -> Immersion
+}
+
+::MATCH9::
+Match the concept to description.
+{
+= Disparity map -> Depth info
+= Consistency check -> Left vs. right
+= Hole filling -> Fill missing
+= Regularization -> Smoothness
+}
+
+::MATCH10::
+Match the algorithm to category.
+{
+= Graph cuts -> Global
+= Belief propagation -> Global
+= SGM -> Semi-global
+= Window matching -> Local
+}
+
+::MULTI1::
+Which are refinements in stereo optimization?
+{
+~%25% Regularization
+~%25% Sub-pixel refinement
+~%25% Consistency check
+~%25% Hole filling
+}
+
+::MULTI2::
+Which are features of semi-global matching?
+{
+~%33.33333% Combines local & global
+~%33.33333% Efficient
+~%33.33333% Real-time capable
+~%-100% Always global-only
+}
+
+::MULTI3::
+Which are post-processing steps?
+{
+~%25% Consistency check
+~%25% Hole filling
+~%25% Filtering mismatches
+~%25% Refinement
+}
+
+::MULTI4::
+Which are challenges in stereo optimization?
+{
+~%25% Occlusion
+~%25% Large disparities
+~%25% Accuracy vs. speed
+~%25% Repetitive patterns
+}
+
+::MULTI5::
+Which are applications of optimized stereo?
+{
+~%25% Autonomous driving
+~%25% Robotics
+~%25% 3D reconstruction
+~%25% AR/VR
+}
+
+::MULTI6::
+Which are advantages of sub-pixel refinement?
+{
+~%50% Higher precision
+~%50% Smoother depth
+~%-100% Lower accuracy
+~%-100% Always slower
+}
+
+::MULTI7::
+Which are benefits of regularization?
+{
+~%33.33333% Smooth maps
+~%33.33333% Preserve edges
+~%33.33333% Reduce noise
+~%-100% Remove disparity
+}
+
+::MULTI8::
+Which are outputs of stereo matching with optimization?
+{
+~%25% Dense disparity map
+~%25% Depth map
+~%25% 3D reconstruction
+~%25% Obstacle detection
+}
+
+::MULTI9::
+Which are domains using stereo optimization?
+{
+~%25% Robotics
+~%25% Automotive
+~%25% Graphics
+~%25% AR/VR
+}
+
+::MULTI10::
+Which are challenges for real-time stereo?
+{
+~%33.33333% Computation
+~%33.33333% Accuracy
+~%33.33333% Occlusion handling
+~%-100% Always trivial
+}

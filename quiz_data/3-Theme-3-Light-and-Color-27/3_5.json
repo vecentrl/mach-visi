@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhat is the main purpose of the CIE XYZ model?\n{\n= To provide a standard reference for color representation\n~ To describe only RGB displays\n~ To define physical wavelength ranges\n~ To replace illuminants\n}",
+    "title": "MC1",
+    "question": "What is the main purpose of the CIE XYZ model?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "To provide a standard reference for color representation",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "To describe only RGB displays",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "To define physical wavelength ranges",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "To replace illuminants",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nHow are XYZ values related to RGB?\n{\n= Linear combinations\n~ Nonlinear gamma correction\n~ Multiplicative blending\n~ Subtractive primaries\n}",
+    "title": "MC2",
+    "question": "How are XYZ values related to RGB?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Linear combinations",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Nonlinear gamma correction",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Multiplicative blending",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Subtractive primaries",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhat does the chromaticity diagram represent?\n{\n= All perceivable colors mapped by chromaticity\n~ Only grayscale values\n~ Image compression ratios\n~ Light intensities only\n}",
+    "title": "MC3",
+    "question": "What does the chromaticity diagram represent?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "All perceivable colors mapped by chromaticity",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Only grayscale values",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Image compression ratios",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Light intensities only",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhat is a color gamut?\n{\n= Subset of colors a device can produce\n~ All colors humans can perceive\n~ All wavelengths in visible light\n~ A unit of luminance\n}",
+    "title": "MC4",
+    "question": "What is a color gamut?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Subset of colors a device can produce",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "All colors humans can perceive",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "All wavelengths in visible light",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "A unit of luminance",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhich are examples of standard illuminants?\n{\n= D65 daylight\n~ RGB primaries\n~ JPEG compression\n~ Gamma curves\n}",
+    "title": "MC5",
+    "question": "Which are examples of standard illuminants?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "D65 daylight",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "RGB primaries",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "JPEG compression",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Gamma curves",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich model is more perceptually uniform than CIE XYZ?\n{\n= CIELAB\n~ CMYK\n~ HSV\n~ RYB\n}",
+    "title": "MC6",
+    "question": "Which model is more perceptually uniform than CIE XYZ?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "CIELAB",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "CMYK",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "HSV",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "RYB",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich property is NOT shown in a chromaticity diagram?\n{\n= Brightness\n~ Hue\n~ Saturation\n~ Chromaticity coordinates\n}",
+    "title": "MC7",
+    "question": "Which property is NOT shown in a chromaticity diagram?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Brightness",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Hue",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Saturation",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Chromaticity coordinates",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhat shape typically represents a display’s gamut in a chromaticity diagram?\n{\n= Triangle\n~ Circle\n~ Rectangle\n~ Line\n}",
+    "title": "MC8",
+    "question": "What shape typically represents a display’s gamut in a chromaticity diagram?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Triangle",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Circle",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Rectangle",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Line",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich is an advantage of CIE XYZ?\n{\n= Device independence\n~ Perceptual uniformity\n~ Compactness\n~ Nonlinear compression\n}",
+    "title": "MC9",
+    "question": "Which is an advantage of CIE XYZ?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Device independence",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Perceptual uniformity",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Compactness",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Nonlinear compression",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich is a disadvantage of CIE XYZ?\n{\n= Not perceptually uniform\n~ Not device-independent\n~ Cannot represent visible colors\n~ Ignores illuminants\n}",
+    "title": "MC10",
+    "question": "Which is a disadvantage of CIE XYZ?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Not perceptually uniform",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Not device-independent",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Cannot represent visible colors",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Ignores illuminants",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the model to its property.\n{\n= CIE XYZ -> Standard reference\n= CIELAB -> Perceptually uniform\n= RGB -> Device dependent\n= CMYK -> Printing model\n}",
+    "title": "MATCH1",
+    "question": "Match the model to its property.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "CIE XYZ",
+        "right": "Standard reference"
+      },
+      {
+        "id": 2,
+        "left": "CIELAB",
+        "right": "Perceptually uniform"
+      },
+      {
+        "id": 3,
+        "left": "RGB",
+        "right": "Device dependent"
+      },
+      {
+        "id": 4,
+        "left": "CMYK",
+        "right": "Printing model"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the term to the definition.\n{\n= Chromaticity diagram -> Map of perceivable colors\n= Gamut -> Subset of colors of device\n= Illuminant -> Standard light source\n= Tristimulus -> Three-component representation\n}",
+    "title": "MATCH2",
+    "question": "Match the term to the definition.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Chromaticity diagram",
+        "right": "Map of perceivable colors"
+      },
+      {
+        "id": 2,
+        "left": "Gamut",
+        "right": "Subset of colors of device"
+      },
+      {
+        "id": 3,
+        "left": "Illuminant",
+        "right": "Standard light source"
+      },
+      {
+        "id": 4,
+        "left": "Tristimulus",
+        "right": "Three-component representation"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the component to its role.\n{\n= X -> Red-green contribution\n= Y -> Luminance\n= Z -> Blue contribution\n= XYZ -> Linear from RGB\n}",
+    "title": "MATCH3",
+    "question": "Match the component to its role.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "X",
+        "right": "Red-green contribution"
+      },
+      {
+        "id": 2,
+        "left": "Y",
+        "right": "Luminance"
+      },
+      {
+        "id": 3,
+        "left": "Z",
+        "right": "Blue contribution"
+      },
+      {
+        "id": 4,
+        "left": "XYZ",
+        "right": "Linear from RGB"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the diagram element to its meaning.\n{\n= Horseshoe shape -> Visible spectrum\n= Triangle inside -> Device gamut\n= Point inside -> A specific color\n= Edge curve -> Spectral locus\n}",
+    "title": "MATCH4",
+    "question": "Match the diagram element to its meaning.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Horseshoe shape",
+        "right": "Visible spectrum"
+      },
+      {
+        "id": 2,
+        "left": "Triangle inside",
+        "right": "Device gamut"
+      },
+      {
+        "id": 3,
+        "left": "Point inside",
+        "right": "A specific color"
+      },
+      {
+        "id": 4,
+        "left": "Edge curve",
+        "right": "Spectral locus"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the color space to its use.\n{\n= CIE XYZ -> Standard reference\n= CIELAB -> Perceptual differences\n= HSV -> Editing and selection\n= CMYK -> Printing\n}",
+    "title": "MATCH5",
+    "question": "Match the color space to its use.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "CIE XYZ",
+        "right": "Standard reference"
+      },
+      {
+        "id": 2,
+        "left": "CIELAB",
+        "right": "Perceptual differences"
+      },
+      {
+        "id": 3,
+        "left": "HSV",
+        "right": "Editing and selection"
+      },
+      {
+        "id": 4,
+        "left": "CMYK",
+        "right": "Printing"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the illuminant to its description.\n{\n= D65 -> Average daylight\n= A -> Tungsten light\n= C -> Average daylight, older definition\n= E -> Equal-energy white\n}",
+    "title": "MATCH6",
+    "question": "Match the illuminant to its description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "D65",
+        "right": "Average daylight"
+      },
+      {
+        "id": 2,
+        "left": "A",
+        "right": "Tungsten light"
+      },
+      {
+        "id": 3,
+        "left": "C",
+        "right": "Average daylight, older definition"
+      },
+      {
+        "id": 4,
+        "left": "E",
+        "right": "Equal-energy white"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the property to the limitation.\n{\n= CIE XYZ -> Not perceptually uniform\n= CIELAB -> More uniform but nonlinear\n= RGB -> Device dependent\n= CMYK -> Limited gamut\n}",
+    "title": "MATCH7",
+    "question": "Match the property to the limitation.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "CIE XYZ",
+        "right": "Not perceptually uniform"
+      },
+      {
+        "id": 2,
+        "left": "CIELAB",
+        "right": "More uniform but nonlinear"
+      },
+      {
+        "id": 3,
+        "left": "RGB",
+        "right": "Device dependent"
+      },
+      {
+        "id": 4,
+        "left": "CMYK",
+        "right": "Limited gamut"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the measurement to the application.\n{\n= Chromaticity coordinates -> Color plotting\n= Gamut -> Device capabilities\n= Illuminant -> Reference lighting\n= CIELAB -> Perceived differences\n}",
+    "title": "MATCH8",
+    "question": "Match the measurement to the application.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Chromaticity coordinates",
+        "right": "Color plotting"
+      },
+      {
+        "id": 2,
+        "left": "Gamut",
+        "right": "Device capabilities"
+      },
+      {
+        "id": 3,
+        "left": "Illuminant",
+        "right": "Reference lighting"
+      },
+      {
+        "id": 4,
+        "left": "CIELAB",
+        "right": "Perceived differences"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the feature to the example.\n{\n= Device-independent -> CIE XYZ\n= Perceptually uniform -> CIELAB\n= Additive primaries -> RGB\n= Subtractive primaries -> CMY\n}",
+    "title": "MATCH9",
+    "question": "Match the feature to the example.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Device-independent",
+        "right": "CIE XYZ"
+      },
+      {
+        "id": 2,
+        "left": "Perceptually uniform",
+        "right": "CIELAB"
+      },
+      {
+        "id": 3,
+        "left": "Additive primaries",
+        "right": "RGB"
+      },
+      {
+        "id": 4,
+        "left": "Subtractive primaries",
+        "right": "CMY"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the quantity to the unit/representation.\n{\n= Tristimulus values -> XYZ\n= Chromaticity coordinates -> (x,y)\n= Gamut -> Subset of diagram\n= Illuminant -> Defined spectrum\n}",
+    "title": "MATCH10",
+    "question": "Match the quantity to the unit/representation.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Tristimulus values",
+        "right": "XYZ"
+      },
+      {
+        "id": 2,
+        "left": "Chromaticity coordinates",
+        "right": "(x,y)"
+      },
+      {
+        "id": 3,
+        "left": "Gamut",
+        "right": "Subset of diagram"
+      },
+      {
+        "id": 4,
+        "left": "Illuminant",
+        "right": "Defined spectrum"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are properties of CIE XYZ?\n{\n~%33.33333% Standardized reference\n~%33.33333% Derived from RGB\n~%33.33333% Device independent\n~%-100% Perceptually uniform\n}",
+    "title": "MULTI1",
+    "question": "Which are properties of CIE XYZ?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Standardized reference",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Derived from RGB",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Device independent",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Perceptually uniform",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are features of a chromaticity diagram?\n{\n~%33.33333% Horseshoe-shaped spectrum\n~%33.33333% Gamut triangles\n~%33.33333% Chromaticity coordinates\n~%-100% Brightness axis\n}",
+    "title": "MULTI2",
+    "question": "Which are features of a chromaticity diagram?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Horseshoe-shaped spectrum",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Gamut triangles",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Chromaticity coordinates",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Brightness axis",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are examples of standard illuminants?\n{\n~%25% D65 daylight\n~%25% A tungsten\n~%25% C average daylight\n~%25% Equal-energy white\n}",
+    "title": "MULTI3",
+    "question": "Which are examples of standard illuminants?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "D65 daylight",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "A tungsten",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "C average daylight",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Equal-energy white",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are device-dependent color spaces?\n{\n~%50% RGB\n~%50% CMYK\n~%-100% CIE XYZ\n~%-100% CIELAB\n}",
+    "title": "MULTI4",
+    "question": "Which are device-dependent color spaces?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "RGB",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "CMYK",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "CIE XYZ",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "CIELAB",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are device-independent spaces?\n{\n~%50% CIE XYZ\n~%50% CIELAB\n~%-100% RGB\n~%-100% CMYK\n}",
+    "title": "MULTI5",
+    "question": "Which are device-independent spaces?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "CIE XYZ",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "CIELAB",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "RGB",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "CMYK",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are shown in chromaticity diagrams?\n{\n~%33.33333% Hue\n~%33.33333% Saturation\n~%33.33333% Chromaticity coordinates\n~%-100% Brightness\n}",
+    "title": "MULTI6",
+    "question": "Which are shown in chromaticity diagrams?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Hue",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Saturation",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Chromaticity coordinates",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Brightness",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are limitations of CIE XYZ?\n{\n~%50% Not perceptually uniform\n~%50% Complex to interpret\n~%-100% Device-dependent\n~%-100% Cannot represent visible colors\n}",
+    "title": "MULTI7",
+    "question": "Which are limitations of CIE XYZ?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Not perceptually uniform",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Complex to interpret",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Device-dependent",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Cannot represent visible colors",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are advantages of CIE XYZ?\n{\n~%33.33333% Device independent\n~%33.33333% Standard reference\n~%33.33333% Covers visible gamut\n~%-100% Perceptually uniform\n}",
+    "title": "MULTI8",
+    "question": "Which are advantages of CIE XYZ?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Device independent",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Standard reference",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Covers visible gamut",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Perceptually uniform",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are features of CIELAB?\n{\n~%33.33333% More perceptually uniform\n~%33.33333% Derived from XYZ\n~%33.33333% Useful for color difference\n~%-100% Device dependent\n}",
+    "title": "MULTI9",
+    "question": "Which are features of CIELAB?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "More perceptually uniform",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Derived from XYZ",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Useful for color difference",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Device dependent",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are represented in a chromaticity diagram?\n{\n~%33.33333% Spectral locus\n~%33.33333% Device gamut\n~%33.33333% Specific chromaticity points\n~%-100% Gamma curve\n}",
+    "title": "MULTI10",
+    "question": "Which are represented in a chromaticity diagram?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Spectral locus",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Device gamut",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Specific chromaticity points",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Gamma curve",
+        "weight": -100.0
+      }
+    ]
+  }
+]

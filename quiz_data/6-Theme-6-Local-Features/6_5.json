@@ -1,0 +1,847 @@
+[
+  {
+    "gift_source": "::MC1::\nWhich descriptor is binary and efficient for real-time?\n{\n= ORB\n~ SIFT\n~ SURF\n~ PCA\n}",
+    "title": "MC1",
+    "question": "Which descriptor is binary and efficient for real-time?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "ORB",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "SIFT",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "SURF",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "PCA",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhich descriptor is slower but very robust and distinctive?\n{\n= SIFT\n~ ORB\n~ BRIEF\n~ FAST\n}",
+    "title": "MC2",
+    "question": "Which descriptor is slower but very robust and distinctive?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "SIFT",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "ORB",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "BRIEF",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "FAST",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhich descriptors are binary?\n{\n= BRIEF and FREAK\n~ SIFT and SURF\n~ Gabor and Fourier\n~ MSER and Harris\n}",
+    "title": "MC3",
+    "question": "Which descriptors are binary?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "BRIEF and FREAK",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "SIFT and SURF",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Gabor and Fourier",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "MSER and Harris",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhat does Lowe’s ratio test do?\n{\n= Reduces false matches\n~ Computes Fourier descriptors\n~ Increases dimensionality\n~ Generates new keypoints\n}",
+    "title": "MC4",
+    "question": "What does Lowe’s ratio test do?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Reduces false matches",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Computes Fourier descriptors",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Increases dimensionality",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Generates new keypoints",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhich matching method finds the closest descriptor in feature space?\n{\n= Nearest Neighbor\n~ Ratio test\n~ PCA reduction\n~ Morphology\n}",
+    "title": "MC5",
+    "question": "Which matching method finds the closest descriptor in feature space?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Nearest Neighbor",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Ratio test",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "PCA reduction",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Morphology",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich matching method finds multiple top matches?\n{\n= k-Nearest Neighbor\n~ Histogram equalization\n~ Gradient descent\n~ Thresholding\n}",
+    "title": "MC6",
+    "question": "Which matching method finds multiple top matches?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "k-Nearest Neighbor",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Gradient descent",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Thresholding",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich challenge occurs in feature matching?\n{\n= Outliers\n~ Always perfect matches\n~ Illumination invariance guaranteed\n~ No noise sensitivity\n}",
+    "title": "MC7",
+    "question": "Which challenge occurs in feature matching?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Outliers",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Always perfect matches",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Illumination invariance guaranteed",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "No noise sensitivity",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich is an application of descriptor matching?\n{\n= Panorama stitching\n~ White balance\n~ Gamma correction\n~ Histogram equalization\n}",
+    "title": "MC8",
+    "question": "Which is an application of descriptor matching?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Panorama stitching",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "White balance",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Gamma correction",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram equalization",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich descriptor is most efficient for real-time SLAM?\n{\n= ORB\n~ SIFT\n~ SURF\n~ BRIEF\n}",
+    "title": "MC9",
+    "question": "Which descriptor is most efficient for real-time SLAM?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "ORB",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "SIFT",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "SURF",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "BRIEF",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich factor influences choice of descriptor?\n{\n= Trade-off between speed and distinctiveness\n~ File size of image\n~ Gamma encoding\n~ Histogram bin count\n}",
+    "title": "MC10",
+    "question": "Which factor influences choice of descriptor?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Trade-off between speed and distinctiveness",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "File size of image",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Gamma encoding",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram bin count",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the descriptor to type.\n{\n= SIFT -> Floating-point, distinctive\n= SURF -> Faster, approximate SIFT\n= ORB -> Binary, real-time\n= BRIEF -> Simple binary tests\n}",
+    "title": "MATCH1",
+    "question": "Match the descriptor to type.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "SIFT",
+        "right": "Floating-point, distinctive"
+      },
+      {
+        "id": 2,
+        "left": "SURF",
+        "right": "Faster, approximate SIFT"
+      },
+      {
+        "id": 3,
+        "left": "ORB",
+        "right": "Binary, real-time"
+      },
+      {
+        "id": 4,
+        "left": "BRIEF",
+        "right": "Simple binary tests"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the descriptor to property.\n{\n= FREAK -> Binary, inspired by retina\n= BRIEF -> Binary, random intensity tests\n= ORB -> FAST + BRIEF combination\n= SIFT -> Gradient histograms\n}",
+    "title": "MATCH2",
+    "question": "Match the descriptor to property.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "FREAK",
+        "right": "Binary, inspired by retina"
+      },
+      {
+        "id": 2,
+        "left": "BRIEF",
+        "right": "Binary, random intensity tests"
+      },
+      {
+        "id": 3,
+        "left": "ORB",
+        "right": "FAST + BRIEF combination"
+      },
+      {
+        "id": 4,
+        "left": "SIFT",
+        "right": "Gradient histograms"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the matching method to description.\n{\n= Nearest Neighbor -> Closest descriptor\n= kNN -> Top-k closest matches\n= Ratio test -> Eliminates mismatches\n= RANSAC -> Removes outliers\n}",
+    "title": "MATCH3",
+    "question": "Match the matching method to description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Nearest Neighbor",
+        "right": "Closest descriptor"
+      },
+      {
+        "id": 2,
+        "left": "kNN",
+        "right": "Top-k closest matches"
+      },
+      {
+        "id": 3,
+        "left": "Ratio test",
+        "right": "Eliminates mismatches"
+      },
+      {
+        "id": 4,
+        "left": "RANSAC",
+        "right": "Removes outliers"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the descriptor to application.\n{\n= SIFT -> High-accuracy recognition\n= SURF -> Faster matching\n= ORB -> Real-time SLAM\n= BRIEF -> Lightweight matching\n}",
+    "title": "MATCH4",
+    "question": "Match the descriptor to application.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "SIFT",
+        "right": "High-accuracy recognition"
+      },
+      {
+        "id": 2,
+        "left": "SURF",
+        "right": "Faster matching"
+      },
+      {
+        "id": 3,
+        "left": "ORB",
+        "right": "Real-time SLAM"
+      },
+      {
+        "id": 4,
+        "left": "BRIEF",
+        "right": "Lightweight matching"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the challenge to effect.\n{\n= Outliers -> Wrong correspondences\n= Noise -> Descriptor corruption\n= Illumination -> Reduced distinctiveness\n= Viewpoint change -> Feature mismatch\n}",
+    "title": "MATCH5",
+    "question": "Match the challenge to effect.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Outliers",
+        "right": "Wrong correspondences"
+      },
+      {
+        "id": 2,
+        "left": "Noise",
+        "right": "Descriptor corruption"
+      },
+      {
+        "id": 3,
+        "left": "Illumination",
+        "right": "Reduced distinctiveness"
+      },
+      {
+        "id": 4,
+        "left": "Viewpoint change",
+        "right": "Feature mismatch"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the method to benefit.\n{\n= Ratio test -> Fewer false matches\n= Nearest Neighbor -> Simple matching\n= kNN -> Multiple candidates\n= RANSAC -> Robust matching\n}",
+    "title": "MATCH6",
+    "question": "Match the method to benefit.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Ratio test",
+        "right": "Fewer false matches"
+      },
+      {
+        "id": 2,
+        "left": "Nearest Neighbor",
+        "right": "Simple matching"
+      },
+      {
+        "id": 3,
+        "left": "kNN",
+        "right": "Multiple candidates"
+      },
+      {
+        "id": 4,
+        "left": "RANSAC",
+        "right": "Robust matching"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the descriptor to drawback.\n{\n= SIFT -> Slow\n= SURF -> Less distinctive than SIFT\n= ORB -> Less robust to large scale changes\n= BRIEF -> Sensitive to rotation\n}",
+    "title": "MATCH7",
+    "question": "Match the descriptor to drawback.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "SIFT",
+        "right": "Slow"
+      },
+      {
+        "id": 2,
+        "left": "SURF",
+        "right": "Less distinctive than SIFT"
+      },
+      {
+        "id": 3,
+        "left": "ORB",
+        "right": "Less robust to large scale changes"
+      },
+      {
+        "id": 4,
+        "left": "BRIEF",
+        "right": "Sensitive to rotation"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the acronym to meaning.\n{\n= ORB -> Oriented FAST and BRIEF\n= BRIEF -> Binary Robust Independent Elementary Features\n= FREAK -> Fast Retina Keypoint\n= SLAM -> Simultaneous Localization and Mapping\n}",
+    "title": "MATCH8",
+    "question": "Match the acronym to meaning.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "ORB",
+        "right": "Oriented FAST and BRIEF"
+      },
+      {
+        "id": 2,
+        "left": "BRIEF",
+        "right": "Binary Robust Independent Elementary Features"
+      },
+      {
+        "id": 3,
+        "left": "FREAK",
+        "right": "Fast Retina Keypoint"
+      },
+      {
+        "id": 4,
+        "left": "SLAM",
+        "right": "Simultaneous Localization and Mapping"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the feature to use.\n{\n= Panorama stitching -> Matching\n= Object recognition -> Descriptors\n= SLAM -> ORB features\n= Image retrieval -> Feature vectors\n}",
+    "title": "MATCH9",
+    "question": "Match the feature to use.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Panorama stitching",
+        "right": "Matching"
+      },
+      {
+        "id": 2,
+        "left": "Object recognition",
+        "right": "Descriptors"
+      },
+      {
+        "id": 3,
+        "left": "SLAM",
+        "right": "ORB features"
+      },
+      {
+        "id": 4,
+        "left": "Image retrieval",
+        "right": "Feature vectors"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the method to domain.\n{\n= Ratio test -> SIFT\n= kNN -> Descriptor search\n= RANSAC -> Outlier rejection\n= Nearest Neighbor -> Basic matching\n}",
+    "title": "MATCH10",
+    "question": "Match the method to domain.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Ratio test",
+        "right": "SIFT"
+      },
+      {
+        "id": 2,
+        "left": "kNN",
+        "right": "Descriptor search"
+      },
+      {
+        "id": 3,
+        "left": "RANSAC",
+        "right": "Outlier rejection"
+      },
+      {
+        "id": 4,
+        "left": "Nearest Neighbor",
+        "right": "Basic matching"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are descriptor variants?\n{\n~%20% SIFT\n~%20% SURF\n~%20% ORB\n~%20% BRIEF\n~%20% FREAK\n}",
+    "title": "MULTI1",
+    "question": "Which are descriptor variants?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "SIFT",
+        "weight": 20.0
+      },
+      {
+        "id": 2,
+        "text": "SURF",
+        "weight": 20.0
+      },
+      {
+        "id": 3,
+        "text": "ORB",
+        "weight": 20.0
+      },
+      {
+        "id": 4,
+        "text": "BRIEF",
+        "weight": 20.0
+      },
+      {
+        "id": 5,
+        "text": "FREAK",
+        "weight": 20.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are binary descriptors?\n{\n~%33.33333% ORB\n~%33.33333% BRIEF\n~%33.33333% FREAK\n~%-100% SIFT\n}",
+    "title": "MULTI2",
+    "question": "Which are binary descriptors?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "ORB",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "BRIEF",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "FREAK",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "SIFT",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are floating-point descriptors?\n{\n~%50% SIFT\n~%50% SURF\n~%-100% ORB\n~%-100% BRIEF\n}",
+    "title": "MULTI3",
+    "question": "Which are floating-point descriptors?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "SIFT",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "SURF",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "ORB",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "BRIEF",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are matching methods?\n{\n~%25% Nearest Neighbor\n~%25% kNN\n~%25% Ratio test\n~%25% RANSAC\n}",
+    "title": "MULTI4",
+    "question": "Which are matching methods?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Nearest Neighbor",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "kNN",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Ratio test",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "RANSAC",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are applications of feature matching?\n{\n~%25% Panorama stitching\n~%25% Object recognition\n~%25% SLAM\n~%25% 3D reconstruction\n}",
+    "title": "MULTI5",
+    "question": "Which are applications of feature matching?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Panorama stitching",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Object recognition",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "SLAM",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "3D reconstruction",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are challenges in descriptor matching?\n{\n~%33.33333% Outliers\n~%33.33333% Noise\n~%33.33333% Illumination variation\n~%-100% Perfect robustness\n}",
+    "title": "MULTI6",
+    "question": "Which are challenges in descriptor matching?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Outliers",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Noise",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Illumination variation",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Perfect robustness",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are true of SIFT?\n{\n~%50% Distinctive\n~%50% Slow\n~%-100% Binary\n~%-100% Always fastest\n}",
+    "title": "MULTI7",
+    "question": "Which are true of SIFT?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Distinctive",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Slow",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Binary",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Always fastest",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are true of ORB?\n{\n~%50% Binary\n~%50% Efficient\n~%-100% Floating-point only\n~%-100% Always most accurate\n}",
+    "title": "MULTI8",
+    "question": "Which are true of ORB?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Binary",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Efficient",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Floating-point only",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Always most accurate",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are benefits of ratio test?\n{\n~%33.33333% Reduces false matches\n~%33.33333% Improves robustness\n~%33.33333% Common in SIFT matching\n~%-100% Increases mismatches\n}",
+    "title": "MULTI9",
+    "question": "Which are benefits of ratio test?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Reduces false matches",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Improves robustness",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Common in SIFT matching",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Increases mismatches",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are benefits of combining descriptors with robust matching (e.g. RANSAC)?\n{\n~%33.33333% Remove outliers\n~%33.33333% Improve accuracy\n~%33.33333% Robust correspondences\n~%-100% Increase false matches\n}",
+    "title": "MULTI10",
+    "question": "Which are benefits of combining descriptors with robust matching (e.g. RANSAC)?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Remove outliers",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Improve accuracy",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Robust correspondences",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Increase false matches",
+        "weight": -100.0
+      }
+    ]
+  }
+]

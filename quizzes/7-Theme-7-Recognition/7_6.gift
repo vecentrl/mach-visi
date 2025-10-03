@@ -1,0 +1,309 @@
+::TF1::
+Decision trees split data based on feature tests.
+{TRUE}
+
+::TF2::
+Entropy measures the uncertainty in data.
+{TRUE}
+
+::TF3::
+Information gain is based on reduction in entropy.
+{TRUE}
+
+::TF4::
+The Gini index is another common splitting criterion in decision trees.
+{TRUE}
+
+::TF5::
+Overfitting occurs when a tree becomes too complex and fits noise.
+{TRUE}
+
+::TF6::
+Pruning helps reduce overfitting in decision trees.
+{TRUE}
+
+::TF7::
+Naïve Bayes assumes feature independence.
+{TRUE}
+
+::TF8::
+Bayesian networks can model dependencies between features.
+{TRUE}
+
+::TF9::
+Decision trees cannot be pruned once grown.
+{FALSE}
+
+::TF10::
+Bayesian networks are graphical models of probabilistic relationships.
+{TRUE}
+
+::MC1::
+Which criterion is used in ID3 decision trees?
+{
+= Information gain
+~ Gini index
+~ Margin maximization
+~ PCA variance
+}
+
+::MC2::
+Which criterion is used in CART decision trees?
+{
+= Gini index
+~ Entropy
+~ Ratio test
+~ Cosine similarity
+}
+
+::MC3::
+What does entropy measure?
+{
+= Uncertainty
+~ Distance
+~ Compactness
+~ Margin
+}
+
+::MC4::
+What does pruning do in decision trees?
+{
+= Reduces overfitting by removing branches
+~ Adds more splits
+~ Increases complexity
+~ Ignores noise
+}
+
+::MC5::
+Which is a drawback of decision trees?
+{
+= Overfitting
+~ No interpretability
+~ Requires kernel trick
+~ Needs feature independence
+}
+
+::MC6::
+Which classifier models dependencies with a directed graph?
+{
+= Bayesian networks
+~ Naïve Bayes
+~ Decision trees
+~ kNN
+}
+
+::MC7::
+Which classifier assumes independence of features?
+{
+= Naïve Bayes
+~ Bayesian network
+~ Decision tree
+~ SVM
+}
+
+::MC8::
+Which is an application of Bayesian networks?
+{
+= Medical diagnosis
+~ Gamma correction
+~ File compression
+~ Histogram equalization
+}
+
+::MC9::
+Which is an advantage of decision trees?
+{
+= Easy to interpret
+~ Require independence
+~ Always overfit
+~ Black-box model
+}
+
+::MC10::
+Which is an advantage of Bayesian networks?
+{
+= Capture feature dependencies
+~ Assume independence
+~ Always linear
+~ Require kernel trick
+}
+
+::MATCH1::
+Match the tree method to splitting criterion.
+{
+= ID3 -> Information gain
+= C4.5 -> Entropy + ratio
+= CART -> Gini index
+= Random forest -> Multiple trees
+}
+
+::MATCH2::
+Match the concept to definition.
+{
+= Entropy -> Measure of uncertainty
+= Information gain -> Reduction in entropy
+= Gini index -> Impurity measure
+= Pruning -> Reduce overfitting
+}
+
+::MATCH3::
+Match the classifier to property.
+{
+= Naïve Bayes -> Independence assumption
+= Bayesian network -> Dependency modeling
+= Decision tree -> Rule-based splits
+= SVM -> Margin-based
+}
+
+::MATCH4::
+Match the classifier to drawback.
+{
+= Naïve Bayes -> Poor with correlated features
+= Bayesian network -> Complex to build
+= Decision tree -> Overfitting
+= Random forest -> Less interpretable
+}
+
+::MATCH5::
+Match the classifier to advantage.
+{
+= Decision tree -> Interpretability
+= Naïve Bayes -> Simplicity
+= Bayesian network -> Dependencies modeled
+= SVM -> Robust boundaries
+}
+
+::MATCH6::
+Match the concept to example.
+{
+= Overfitting -> Tree fits noise
+= Pruning -> Branch removal
+= Information gain -> Entropy reduction
+= Gini index -> Impurity
+}
+
+::MATCH7::
+Match the domain to application.
+{
+= Medicine -> Diagnosis
+= Security -> Intrusion detection
+= Industry -> Defect classification
+= NLP -> Text categorization
+}
+
+::MATCH8::
+Match the splitting method to weakness.
+{
+= Entropy -> Biased to many values
+= Gini index -> Similar classes confusion
+= Information gain -> Requires log computation
+= Ratio gain -> Balances entropy bias
+}
+
+::MATCH9::
+Match the classifier to learning type.
+{
+= Decision tree -> Supervised
+= Naïve Bayes -> Supervised
+= Bayesian network -> Probabilistic
+= PCA -> Unsupervised reduction
+}
+
+::MATCH10::
+Match the network to description.
+{
+= Bayesian network -> Graph of dependencies
+= Naïve Bayes -> Independence assumption
+= Decision tree -> Rule-based model
+= Random forest -> Ensemble of trees
+}
+
+::MULTI1::
+Which are splitting criteria in decision trees?
+{
+~%33.33333% Entropy
+~%33.33333% Information gain
+~%33.33333% Gini index
+~%-100% Histogram bins
+}
+
+::MULTI2::
+Which are causes of overfitting?
+{
+~%50% Too many splits
+~%50% Noise in training data
+~%-100% Pruning
+~%-100% Small trees
+}
+
+::MULTI3::
+Which are methods to reduce overfitting?
+{
+~%50% Pruning
+~%50% Ensemble methods (random forest)
+~%-100% Adding noise
+~%-100% Ignoring training data
+}
+
+::MULTI4::
+Which are properties of Naïve Bayes?
+{
+~%33.33333% Probabilistic
+~%33.33333% Assumes independence
+~%33.33333% Simple
+~%-100% Dependency modeling
+}
+
+::MULTI5::
+Which are properties of Bayesian networks?
+{
+~%33.33333% Probabilistic
+~%33.33333% Graph-based
+~%33.33333% Model dependencies
+~%-100% Assume independence only
+}
+
+::MULTI6::
+Which are drawbacks of decision trees?
+{
+~%33.33333% Overfitting
+~%33.33333% Instability
+~%33.33333% Biased splits
+~%-100% Perfect robustness
+}
+
+::MULTI7::
+Which are applications of Bayesian networks?
+{
+~%25% Medical diagnosis
+~%25% Risk assessment
+~%25% Fault detection
+~%25% Text classification
+}
+
+::MULTI8::
+Which are applications of decision trees?
+{
+~%25% Medical diagnosis
+~%25% Industrial defect detection
+~%25% Spam filtering
+~%25% Pattern classification
+}
+
+::MULTI9::
+Which are advantages of Bayesian classifiers?
+{
+~%33.33333% Simplicity
+~%33.33333% Probabilistic reasoning
+~%33.33333% Can handle uncertainty
+~%-100% Overfit always
+}
+
+::MULTI10::
+Which are decision tree methods?
+{
+~%33.33333% ID3
+~%33.33333% C4.5
+~%33.33333% CART
+~%-100% PCA
+}

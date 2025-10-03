@@ -1,0 +1,309 @@
+::TF1::
+Dense optical flow estimates motion for every pixel in the image.
+{TRUE}
+
+::TF2::
+Horn–Schunck is a classic method for dense optical flow.
+{TRUE}
+
+::TF3::
+Dense flow produces a complete motion field.
+{TRUE}
+
+::TF4::
+Dense flow is always computationally cheaper than sparse flow.
+{FALSE}
+
+::TF5::
+Dense flow is sensitive to illumination changes.
+{TRUE}
+
+::TF6::
+Dense flow can be used in crowd movement analysis.
+{TRUE}
+
+::TF7::
+Dense flow methods rely on smoothness assumptions.
+{TRUE}
+
+::TF8::
+Dense flow is unaffected by occlusion.
+{FALSE}
+
+::TF9::
+Dense flow can be used in activity recognition.
+{TRUE}
+
+::TF10::
+Dense flow is useful for video compression.
+{TRUE}
+
+::MC1::
+What does dense optical flow provide?
+{
+= Motion vectors for every pixel
+~ Motion vectors for corners only
+~ Histograms
+~ Binary segmentation
+}
+
+::MC2::
+Which method is a global dense flow algorithm?
+{
+= Horn–Schunck
+~ Lucas–Kanade
+~ CNN tracker
+~ Frame differencing
+}
+
+::MC3::
+Which describes a dense flow field?
+{
+= Complete velocity map of all pixels
+~ Sparse set of features
+~ Histogram bins
+~ Object bounding boxes
+}
+
+::MC4::
+Which is an application of dense flow?
+{
+= Crowd analysis
+~ JPEG compression
+~ White balance
+~ Histogram smoothing
+}
+
+::MC5::
+Which is a limitation of dense flow?
+{
+= Sensitive to illumination and noise
+~ Always robust
+~ Requires no computation
+~ Ignores occlusion
+}
+
+::MC6::
+Which property does Horn–Schunck enforce?
+{
+= Global smoothness
+~ Sparse matching
+~ Histogram equalization
+~ Random sampling
+}
+
+::MC7::
+Which is an advantage of dense flow?
+{
+= Provides full motion information
+~ Always fastest
+~ No assumptions
+~ Works only on corners
+}
+
+::MC8::
+Which is a drawback of dense flow?
+{
+= High computational cost
+~ Provides no motion information
+~ Always perfect
+~ Ignores smoothness
+}
+
+::MC9::
+Which challenge affects dense flow estimation?
+{
+= Occlusion
+~ Perfect robustness
+~ Small dataset size
+~ Always smooth
+}
+
+::MC10::
+Which domain applies dense flow?
+{
+= Activity recognition
+~ File compression only
+~ White balance
+~ Gamma correction
+}
+
+::MATCH1::
+Match the flow type to property.
+{
+= Sparse flow -> Few keypoints
+= Dense flow -> All pixels
+= Local -> Window-based
+= Global -> Smoothness
+}
+
+::MATCH2::
+Match the algorithm to category.
+{
+= Lucas–Kanade -> Sparse local
+= Horn–Schunck -> Dense global
+= CNN flow -> Learned dense
+= Frame differencing -> Simple detection
+}
+
+::MATCH3::
+Match the challenge to effect.
+{
+= Illumination -> False motion
+= Noise -> Instability
+= Occlusion -> Missing vectors
+= Computation -> High cost
+}
+
+::MATCH4::
+Match the application to field.
+{
+= Crowd analysis -> Surveillance
+= Activity recognition -> Sports
+= Video compression -> Media
+= Navigation -> Robotics
+}
+
+::MATCH5::
+Match the assumption to limitation.
+{
+= Brightness constancy -> Illumination changes
+= Smoothness -> Motion discontinuities
+= Global model -> Oversmoothing
+= Dense field -> Heavy computation
+}
+
+::MATCH6::
+Match the method to property.
+{
+= Horn–Schunck -> Smooth dense flow
+= Lucas–Kanade -> Sparse features
+= CNN flow -> Deep learning
+= Background subtraction -> Foreground masks
+}
+
+::MATCH7::
+Match the advantage to flow type.
+{
+= Sparse flow -> Efficiency
+= Dense flow -> Complete field
+= CNN flow -> Robust learning
+= Frame differencing -> Simplicity
+}
+
+::MATCH8::
+Match the drawback to method.
+{
+= Dense flow -> Expensive computation
+= Sparse flow -> Limited coverage
+= Horn–Schunck -> Oversmoothing
+= Lucas–Kanade -> Large motion fails
+}
+
+::MATCH9::
+Match the property to type.
+{
+= Dense -> Motion vector per pixel
+= Sparse -> Few features
+= Global -> Whole image constraints
+= Local -> Neighborhood patches
+}
+
+::MATCH10::
+Match the motion analysis to application.
+{
+= Dense flow -> Crowd tracking
+= Sparse flow -> Corner tracking
+= CNN flow -> Complex motions
+= Frame differencing -> Simple detection
+}
+
+::MULTI1::
+Which are types of optical flow?
+{
+~%25% Sparse
+~%25% Dense
+~%25% Local
+~%25% Global
+}
+
+::MULTI2::
+Which are dense flow algorithms?
+{
+~%50% Horn–Schunck
+~%50% Farnebäck
+~%-100% Lucas–Kanade
+~%-100% Harris
+}
+
+::MULTI3::
+Which are applications of dense flow?
+{
+~%25% Crowd analysis
+~%25% Video compression
+~%25% Activity recognition
+~%25% Robotics navigation
+}
+
+::MULTI4::
+Which are advantages of dense flow?
+{
+~%33.33333% Complete motion field
+~%33.33333% Smooth flow
+~%33.33333% Full pixel coverage
+~%-100% Always efficient
+}
+
+::MULTI5::
+Which are challenges in dense flow?
+{
+~%25% Illumination change
+~%25% Occlusion
+~%25% Noise
+~%25% High computation
+}
+
+::MULTI6::
+Which are properties of Horn–Schunck?
+{
+~%33.33333% Global
+~%33.33333% Smoothness
+~%33.33333% Dense flow
+~%-100% Local only
+}
+
+::MULTI7::
+Which are properties of sparse flow?
+{
+~%50% Few points
+~%50% Feature-based
+~%-100% All pixels
+~%-100% Global
+}
+
+::MULTI8::
+Which are drawbacks of dense flow?
+{
+~%50% Sensitive to illumination
+~%50% Computationally heavy
+~%-100% Always efficient
+~%-100% Ignores occlusion
+}
+
+::MULTI9::
+Which are outputs of dense flow?
+{
+~%50% Pixel-wise motion vectors
+~%50% Complete velocity field
+~%-100% Only corners
+~%-100% Histogram bins
+}
+
+::MULTI10::
+Which are domains using dense flow?
+{
+~%25% Surveillance
+~%25% Sports
+~%25% Robotics
+~%25% Media compression
+}

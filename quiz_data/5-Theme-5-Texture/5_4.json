@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhich is a statistical texture feature?\n{\n= Histogram\n~ Texel repetition\n~ Gabor filter\n~ Fourier coefficients\n}",
+    "title": "MC1",
+    "question": "Which is a statistical texture feature?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Histogram",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Texel repetition",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Gabor filter",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Fourier coefficients",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhich is a structural texture feature?\n{\n= Repeated texels\n~ Histogram mean\n~ Co-occurrence entropy\n~ Fourier transform\n}",
+    "title": "MC2",
+    "question": "Which is a structural texture feature?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Repeated texels",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram mean",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Co-occurrence entropy",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Fourier transform",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhich is a spectral texture feature?\n{\n= Gabor filter\n~ Histogram variance\n~ Texel arrangement\n~ Edge count\n}",
+    "title": "MC3",
+    "question": "Which is a spectral texture feature?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Gabor filter",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram variance",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Texel arrangement",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Edge count",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhich method analyzes textures using the frequency domain?\n{\n= Fourier transform\n~ Histogram equalization\n~ Thresholding\n~ Morphology\n}",
+    "title": "MC4",
+    "question": "Which method analyzes textures using the frequency domain?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Fourier transform",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Thresholding",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Morphology",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhich feature type is best for capturing repeated primitives?\n{\n= Structural\n~ Statistical\n~ Spectral\n~ Random\n}",
+    "title": "MC5",
+    "question": "Which feature type is best for capturing repeated primitives?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Structural",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Statistical",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Spectral",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Random",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich feature type includes co-occurrence matrices?\n{\n= Statistical\n~ Spectral\n~ Structural\n~ Random\n}",
+    "title": "MC6",
+    "question": "Which feature type includes co-occurrence matrices?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Statistical",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Spectral",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Structural",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Random",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich feature type uses texels as building blocks?\n{\n= Structural\n~ Statistical\n~ Spectral\n~ Random\n}",
+    "title": "MC7",
+    "question": "Which feature type uses texels as building blocks?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Structural",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Statistical",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Spectral",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Random",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich method is multi-scale and frequency-sensitive?\n{\n= Gabor filters\n~ Histogram mean\n~ Otsu’s method\n~ Thresholding\n}",
+    "title": "MC8",
+    "question": "Which method is multi-scale and frequency-sensitive?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Gabor filters",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram mean",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Otsu’s method",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Thresholding",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich method analyzes textures at multiple scales?\n{\n= Wavelets\n~ Histogram bins\n~ Region growing\n~ Compactness\n}",
+    "title": "MC9",
+    "question": "Which method analyzes textures at multiple scales?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Wavelets",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram bins",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Region growing",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Compactness",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich feature category is most related to repeated pattern structures?\n{\n= Structural\n~ Statistical\n~ Spectral\n~ Random\n}",
+    "title": "MC10",
+    "question": "Which feature category is most related to repeated pattern structures?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Structural",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Statistical",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Spectral",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Random",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the feature to its category.\n{\n= Histogram -> Statistical\n= Co-occurrence -> Statistical\n= Texels -> Structural\n= Gabor -> Spectral\n}",
+    "title": "MATCH1",
+    "question": "Match the feature to its category.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Histogram",
+        "right": "Statistical"
+      },
+      {
+        "id": 2,
+        "left": "Co-occurrence",
+        "right": "Statistical"
+      },
+      {
+        "id": 3,
+        "left": "Texels",
+        "right": "Structural"
+      },
+      {
+        "id": 4,
+        "left": "Gabor",
+        "right": "Spectral"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the method to its domain.\n{\n= Fourier -> Frequency\n= Gabor -> Multi-scale frequency\n= Histogram -> Distribution\n= Texel -> Pattern repetition\n}",
+    "title": "MATCH2",
+    "question": "Match the method to its domain.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Fourier",
+        "right": "Frequency"
+      },
+      {
+        "id": 2,
+        "left": "Gabor",
+        "right": "Multi-scale frequency"
+      },
+      {
+        "id": 3,
+        "left": "Histogram",
+        "right": "Distribution"
+      },
+      {
+        "id": 4,
+        "left": "Texel",
+        "right": "Pattern repetition"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the approach to description.\n{\n= Statistical -> Pixel distributions\n= Structural -> Repeated primitives\n= Spectral -> Frequency components\n= Hybrid -> Combination\n}",
+    "title": "MATCH3",
+    "question": "Match the approach to description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Statistical",
+        "right": "Pixel distributions"
+      },
+      {
+        "id": 2,
+        "left": "Structural",
+        "right": "Repeated primitives"
+      },
+      {
+        "id": 3,
+        "left": "Spectral",
+        "right": "Frequency components"
+      },
+      {
+        "id": 4,
+        "left": "Hybrid",
+        "right": "Combination"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the descriptor to meaning.\n{\n= Contrast -> Local variation\n= Energy -> Strength of repetition\n= Homogeneity -> Smoothness\n= Entropy -> Randomness\n}",
+    "title": "MATCH4",
+    "question": "Match the descriptor to meaning.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Contrast",
+        "right": "Local variation"
+      },
+      {
+        "id": 2,
+        "left": "Energy",
+        "right": "Strength of repetition"
+      },
+      {
+        "id": 3,
+        "left": "Homogeneity",
+        "right": "Smoothness"
+      },
+      {
+        "id": 4,
+        "left": "Entropy",
+        "right": "Randomness"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the application to features.\n{\n= Classification -> Texture categories\n= Segmentation -> Image partition\n= Inspection -> Surface flaws\n= Recognition -> Object texture\n}",
+    "title": "MATCH5",
+    "question": "Match the application to features.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Classification",
+        "right": "Texture categories"
+      },
+      {
+        "id": 2,
+        "left": "Segmentation",
+        "right": "Image partition"
+      },
+      {
+        "id": 3,
+        "left": "Inspection",
+        "right": "Surface flaws"
+      },
+      {
+        "id": 4,
+        "left": "Recognition",
+        "right": "Object texture"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the feature type to example.\n{\n= Statistical -> Histogram variance\n= Structural -> Texel grid\n= Spectral -> Fourier coefficients\n= Hybrid -> Gabor + co-occurrence\n}",
+    "title": "MATCH6",
+    "question": "Match the feature type to example.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Statistical",
+        "right": "Histogram variance"
+      },
+      {
+        "id": 2,
+        "left": "Structural",
+        "right": "Texel grid"
+      },
+      {
+        "id": 3,
+        "left": "Spectral",
+        "right": "Fourier coefficients"
+      },
+      {
+        "id": 4,
+        "left": "Hybrid",
+        "right": "Gabor + co-occurrence"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the texture type to example.\n{\n= Smooth -> Sky\n= Coarse -> Sandpaper\n= Regular -> Checkerboard\n= Random -> Clouds\n}",
+    "title": "MATCH7",
+    "question": "Match the texture type to example.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Smooth",
+        "right": "Sky"
+      },
+      {
+        "id": 2,
+        "left": "Coarse",
+        "right": "Sandpaper"
+      },
+      {
+        "id": 3,
+        "left": "Regular",
+        "right": "Checkerboard"
+      },
+      {
+        "id": 4,
+        "left": "Random",
+        "right": "Clouds"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the method to advantage.\n{\n= Histogram -> Simple\n= Co-occurrence -> Captures pixel relations\n= Fourier -> Frequency analysis\n= Gabor -> Multi-scale features\n}",
+    "title": "MATCH8",
+    "question": "Match the method to advantage.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Histogram",
+        "right": "Simple"
+      },
+      {
+        "id": 2,
+        "left": "Co-occurrence",
+        "right": "Captures pixel relations"
+      },
+      {
+        "id": 3,
+        "left": "Fourier",
+        "right": "Frequency analysis"
+      },
+      {
+        "id": 4,
+        "left": "Gabor",
+        "right": "Multi-scale features"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the scale to observation.\n{\n= Fine scale -> Small details\n= Coarse scale -> Overall structure\n= Multi-scale -> Combination\n= Single scale -> Limited view\n}",
+    "title": "MATCH9",
+    "question": "Match the scale to observation.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Fine scale",
+        "right": "Small details"
+      },
+      {
+        "id": 2,
+        "left": "Coarse scale",
+        "right": "Overall structure"
+      },
+      {
+        "id": 3,
+        "left": "Multi-scale",
+        "right": "Combination"
+      },
+      {
+        "id": 4,
+        "left": "Single scale",
+        "right": "Limited view"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the category to limitation.\n{\n= Statistical -> Ignores structure\n= Structural -> Needs clear primitives\n= Spectral -> Sensitive to noise\n= All -> Sensitive to illumination\n}",
+    "title": "MATCH10",
+    "question": "Match the category to limitation.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Statistical",
+        "right": "Ignores structure"
+      },
+      {
+        "id": 2,
+        "left": "Structural",
+        "right": "Needs clear primitives"
+      },
+      {
+        "id": 3,
+        "left": "Spectral",
+        "right": "Sensitive to noise"
+      },
+      {
+        "id": 4,
+        "left": "All",
+        "right": "Sensitive to illumination"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are categories of texture features?\n{\n~%33.33333% Statistical\n~%33.33333% Structural\n~%33.33333% Spectral\n~%-100% Chromatic\n}",
+    "title": "MULTI1",
+    "question": "Which are categories of texture features?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Statistical",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Structural",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Spectral",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Chromatic",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are statistical texture descriptors?\n{\n~%50% Histogram\n~%50% Co-occurrence\n~%-100% Texels\n~%-100% Gabor\n}",
+    "title": "MULTI2",
+    "question": "Which are statistical texture descriptors?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Histogram",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Co-occurrence",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Texels",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Gabor",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are structural descriptors?\n{\n~%50% Texels\n~%50% Pattern repetition\n~%-100% Histogram variance\n~%-100% Fourier coefficients\n}",
+    "title": "MULTI3",
+    "question": "Which are structural descriptors?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Texels",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Pattern repetition",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Histogram variance",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Fourier coefficients",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are spectral descriptors?\n{\n~%33.33333% Fourier transform\n~%33.33333% Gabor filters\n~%33.33333% Wavelets\n~%-100% Histogram bins\n}",
+    "title": "MULTI4",
+    "question": "Which are spectral descriptors?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Fourier transform",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Gabor filters",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Wavelets",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Histogram bins",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are applications of texture features?\n{\n~%25% Classification\n~%25% Segmentation\n~%25% Inspection\n~%25% Recognition\n}",
+    "title": "MULTI5",
+    "question": "Which are applications of texture features?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Classification",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Segmentation",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Inspection",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Recognition",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are challenges in texture feature extraction?\n{\n~%33.33333% Scale variation\n~%33.33333% Illumination changes\n~%33.33333% Noise\n~%-100% File format\n}",
+    "title": "MULTI6",
+    "question": "Which are challenges in texture feature extraction?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Scale variation",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Illumination changes",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Noise",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "File format",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are true about Gabor filters?\n{\n~%33.33333% Frequency sensitive\n~%33.33333% Multi-scale\n~%33.33333% Used in texture analysis\n~%-100% Histogram-only\n}",
+    "title": "MULTI7",
+    "question": "Which are true about Gabor filters?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Frequency sensitive",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Multi-scale",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Used in texture analysis",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Histogram-only",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are properties of structural methods?\n{\n~%50% Based on texels\n~%50% Require regular repetition\n~%-100% Frequency-based\n~%-100% Histogram-only\n}",
+    "title": "MULTI8",
+    "question": "Which are properties of structural methods?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Based on texels",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Require regular repetition",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Frequency-based",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Histogram-only",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are advantages of spectral methods?\n{\n~%33.33333% Capture frequency information\n~%33.33333% Capture orientation\n~%33.33333% Multi-scale capability\n~%-100% Based only on pixel mean\n}",
+    "title": "MULTI9",
+    "question": "Which are advantages of spectral methods?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Capture frequency information",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Capture orientation",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Multi-scale capability",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Based only on pixel mean",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are examples of multi-scale methods?\n{\n~%50% Gabor filters\n~%50% Wavelets\n~%-100% Histogram\n~%-100% Texels\n}",
+    "title": "MULTI10",
+    "question": "Which are examples of multi-scale methods?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Gabor filters",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Wavelets",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Histogram",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Texels",
+        "weight": -100.0
+      }
+    ]
+  }
+]

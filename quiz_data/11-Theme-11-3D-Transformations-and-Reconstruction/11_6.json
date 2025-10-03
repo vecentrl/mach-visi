@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhat does SfM jointly estimate?\n{\n= 3D points and camera poses\n~ Only depth from shading\n~ Only histograms\n~ Only compression\n}",
+    "title": "MC1",
+    "question": "What does SfM jointly estimate?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "3D points and camera poses",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Only depth from shading",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Only histograms",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Only compression",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhat is the first step of SfM?\n{\n= Feature detection and matching\n~ Depth map estimation\n~ Image compression\n~ PCA\n}",
+    "title": "MC2",
+    "question": "What is the first step of SfM?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Feature detection and matching",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Depth map estimation",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Image compression",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "PCA",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhich method is used to reject outliers in matches?\n{\n= RANSAC\n~ Histogram equalization\n~ PCA\n~ Gradient descent\n}",
+    "title": "MC3",
+    "question": "Which method is used to reject outliers in matches?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "RANSAC",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "PCA",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Gradient descent",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhich matrix is central to two-view pose estimation?\n{\n= Essential matrix\n~ Homography\n~ Covariance\n~ Histogram\n}",
+    "title": "MC4",
+    "question": "Which matrix is central to two-view pose estimation?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Essential matrix",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Homography",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Covariance",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhat is triangulation used for in SfM?\n{\n= Computing 3D points\n~ Filtering noise\n~ Histogram equalization\n~ Gamma correction\n}",
+    "title": "MC5",
+    "question": "What is triangulation used for in SfM?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Computing 3D points",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Filtering noise",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Gamma correction",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich is an application of SfM?\n{\n= Cultural heritage 3D reconstruction\n~ Audio compression\n~ File encryption\n~ JPEG encoding\n}",
+    "title": "MC6",
+    "question": "Which is an application of SfM?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Cultural heritage 3D reconstruction",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Audio compression",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "File encryption",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "JPEG encoding",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich is a challenge in SfM?\n{\n= Outliers and mismatches\n~ Always robust\n~ No geometry required\n~ Guaranteed exactness\n}",
+    "title": "MC7",
+    "question": "Which is a challenge in SfM?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Outliers and mismatches",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Always robust",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "No geometry required",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Guaranteed exactness",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich is required for SfM?\n{\n= Multiple overlapping images\n~ Only one image\n~ Only disparity\n~ Audio input\n}",
+    "title": "MC8",
+    "question": "Which is required for SfM?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Multiple overlapping images",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Only one image",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Only disparity",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Audio input",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich technique is used for initial pose estimation in SfM?\n{\n= Essential matrix decomposition\n~ Histogram bins\n~ PCA\n~ JPEG compression\n}",
+    "title": "MC9",
+    "question": "Which technique is used for initial pose estimation in SfM?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Essential matrix decomposition",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram bins",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "PCA",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "JPEG compression",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich domain benefits from SfM?\n{\n= Robotics navigation\n~ Audio filtering\n~ White balance\n~ Histogram smoothing\n}",
+    "title": "MC10",
+    "question": "Which domain benefits from SfM?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Robotics navigation",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Audio filtering",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "White balance",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram smoothing",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the step to description.\n{\n= Feature detection -> Find points\n= Matching -> Link across images\n= RANSAC -> Remove outliers\n= Essential matrix -> Pose estimation\n}",
+    "title": "MATCH1",
+    "question": "Match the step to description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Feature detection",
+        "right": "Find points"
+      },
+      {
+        "id": 2,
+        "left": "Matching",
+        "right": "Link across images"
+      },
+      {
+        "id": 3,
+        "left": "RANSAC",
+        "right": "Remove outliers"
+      },
+      {
+        "id": 4,
+        "left": "Essential matrix",
+        "right": "Pose estimation"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the component to role.\n{\n= 3D points -> Structure\n= Camera poses -> Motion\n= Correspondences -> Input\n= Triangulation -> Depth recovery\n}",
+    "title": "MATCH2",
+    "question": "Match the component to role.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "3D points",
+        "right": "Structure"
+      },
+      {
+        "id": 2,
+        "left": "Camera poses",
+        "right": "Motion"
+      },
+      {
+        "id": 3,
+        "left": "Correspondences",
+        "right": "Input"
+      },
+      {
+        "id": 4,
+        "left": "Triangulation",
+        "right": "Depth recovery"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the problem to challenge.\n{\n= Noise -> Unstable estimates\n= Outliers -> Wrong geometry\n= Wide baseline -> Matching difficult\n= Textureless -> Few features\n}",
+    "title": "MATCH3",
+    "question": "Match the problem to challenge.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Noise",
+        "right": "Unstable estimates"
+      },
+      {
+        "id": 2,
+        "left": "Outliers",
+        "right": "Wrong geometry"
+      },
+      {
+        "id": 3,
+        "left": "Wide baseline",
+        "right": "Matching difficult"
+      },
+      {
+        "id": 4,
+        "left": "Textureless",
+        "right": "Few features"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the application to domain.\n{\n= Mapping -> Robotics\n= Reconstruction -> Heritage\n= AR/VR -> Immersion\n= Vision -> 3D modeling\n}",
+    "title": "MATCH4",
+    "question": "Match the application to domain.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Mapping",
+        "right": "Robotics"
+      },
+      {
+        "id": 2,
+        "left": "Reconstruction",
+        "right": "Heritage"
+      },
+      {
+        "id": 3,
+        "left": "AR/VR",
+        "right": "Immersion"
+      },
+      {
+        "id": 4,
+        "left": "Vision",
+        "right": "3D modeling"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the method to stage.\n{\n= SIFT -> Feature detection\n= ORB -> Fast features\n= RANSAC -> Outlier rejection\n= Essential matrix -> Pose estimation\n}",
+    "title": "MATCH5",
+    "question": "Match the method to stage.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "SIFT",
+        "right": "Feature detection"
+      },
+      {
+        "id": 2,
+        "left": "ORB",
+        "right": "Fast features"
+      },
+      {
+        "id": 3,
+        "left": "RANSAC",
+        "right": "Outlier rejection"
+      },
+      {
+        "id": 4,
+        "left": "Essential matrix",
+        "right": "Pose estimation"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the geometry to usage.\n{\n= Fundamental matrix -> Uncalibrated\n= Essential matrix -> Calibrated\n= Homography -> Planar mapping\n= Triangulation -> 3D points\n}",
+    "title": "MATCH6",
+    "question": "Match the geometry to usage.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Fundamental matrix",
+        "right": "Uncalibrated"
+      },
+      {
+        "id": 2,
+        "left": "Essential matrix",
+        "right": "Calibrated"
+      },
+      {
+        "id": 3,
+        "left": "Homography",
+        "right": "Planar mapping"
+      },
+      {
+        "id": 4,
+        "left": "Triangulation",
+        "right": "3D points"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the pipeline to order.\n{\n= Detect -> Features\n= Match -> Across views\n= Estimate pose -> Essential matrix\n= Triangulate -> 3D points\n}",
+    "title": "MATCH7",
+    "question": "Match the pipeline to order.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Detect",
+        "right": "Features"
+      },
+      {
+        "id": 2,
+        "left": "Match",
+        "right": "Across views"
+      },
+      {
+        "id": 3,
+        "left": "Estimate pose",
+        "right": "Essential matrix"
+      },
+      {
+        "id": 4,
+        "left": "Triangulate",
+        "right": "3D points"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the correspondence issue to effect.\n{\n= Outliers -> Wrong pose\n= Degeneracy -> Unstable solution\n= Wide baseline -> Matching hard\n= Noise -> Error\n}",
+    "title": "MATCH8",
+    "question": "Match the correspondence issue to effect.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Outliers",
+        "right": "Wrong pose"
+      },
+      {
+        "id": 2,
+        "left": "Degeneracy",
+        "right": "Unstable solution"
+      },
+      {
+        "id": 3,
+        "left": "Wide baseline",
+        "right": "Matching hard"
+      },
+      {
+        "id": 4,
+        "left": "Noise",
+        "right": "Error"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the domain to application.\n{\n= AR -> Overlay graphics\n= Robotics -> Navigation\n= Heritage -> 3D scanning\n= Vision -> Reconstruction\n}",
+    "title": "MATCH9",
+    "question": "Match the domain to application.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "AR",
+        "right": "Overlay graphics"
+      },
+      {
+        "id": 2,
+        "left": "Robotics",
+        "right": "Navigation"
+      },
+      {
+        "id": 3,
+        "left": "Heritage",
+        "right": "3D scanning"
+      },
+      {
+        "id": 4,
+        "left": "Vision",
+        "right": "Reconstruction"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the refinement to purpose.\n{\n= Bundle adjustment -> Optimization\n= RANSAC -> Robustness\n= Normalization -> Stability\n= Multi-view -> Expansion\n}",
+    "title": "MATCH10",
+    "question": "Match the refinement to purpose.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Bundle adjustment",
+        "right": "Optimization"
+      },
+      {
+        "id": 2,
+        "left": "RANSAC",
+        "right": "Robustness"
+      },
+      {
+        "id": 3,
+        "left": "Normalization",
+        "right": "Stability"
+      },
+      {
+        "id": 4,
+        "left": "Multi-view",
+        "right": "Expansion"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are steps in SfM pipeline (part 1)?\n{\n~%25% Feature detection\n~%25% Matching\n~%25% Outlier rejection\n~%25% Pose estimation\n}",
+    "title": "MULTI1",
+    "question": "Which are steps in SfM pipeline (part 1)?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Feature detection",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Matching",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Outlier rejection",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Pose estimation",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are inputs to SfM?\n{\n~%33.33333% Multiple images\n~%33.33333% Feature matches\n~%33.33333% Calibration (optional)\n~%-100% Single image only\n}",
+    "title": "MULTI2",
+    "question": "Which are inputs to SfM?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Multiple images",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Feature matches",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Calibration (optional)",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Single image only",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are applications of SfM?\n{\n~%25% 3D mapping\n~%25% AR/VR\n~%25% Robotics\n~%25% Cultural heritage\n}",
+    "title": "MULTI3",
+    "question": "Which are applications of SfM?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "3D mapping",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "AR/VR",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Robotics",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Cultural heritage",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are challenges in SfM?\n{\n~%25% Noise\n~%25% Outliers\n~%25% Wide baselines\n~%25% Textureless scenes\n}",
+    "title": "MULTI4",
+    "question": "Which are challenges in SfM?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Noise",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Outliers",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Wide baselines",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Textureless scenes",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are techniques in SfM pose estimation?\n{\n~%50% Essential matrix\n~%50% RANSAC\n~%-100% JPEG compression\n~%-100% Histogram bins\n}",
+    "title": "MULTI5",
+    "question": "Which are techniques in SfM pose estimation?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Essential matrix",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "RANSAC",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "JPEG compression",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Histogram bins",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are outputs of SfM?\n{\n~%33.33333% 3D points\n~%33.33333% Camera poses\n~%33.33333% Structure\n~%-100% Audio features\n}",
+    "title": "MULTI6",
+    "question": "Which are outputs of SfM?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "3D points",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Camera poses",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Structure",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Audio features",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are challenges with wide-baseline SfM?\n{\n~%33.33333% Feature mismatches\n~%33.33333% Occlusion\n~%33.33333% Appearance change\n~%-100% Always robust\n}",
+    "title": "MULTI7",
+    "question": "Which are challenges with wide-baseline SfM?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Feature mismatches",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Occlusion",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Appearance change",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Always robust",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are advantages of SfM?\n{\n~%33.33333% Works with uncalibrated cameras\n~%33.33333% Recovers motion\n~%33.33333% Recovers structure\n~%-100% Needs only one image\n}",
+    "title": "MULTI8",
+    "question": "Which are advantages of SfM?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Works with uncalibrated cameras",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Recovers motion",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Recovers structure",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Needs only one image",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are methods for outlier rejection?\n{\n~%50% RANSAC\n~%50% Robust estimation\n~%-100% Always keep all matches\n~%-100% Only histograms\n}",
+    "title": "MULTI9",
+    "question": "Which are methods for outlier rejection?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "RANSAC",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Robust estimation",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Always keep all matches",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Only histograms",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich domains use SfM?\n{\n~%25% Vision\n~%25% Robotics\n~%25% AR/VR\n~%25% Heritage\n}",
+    "title": "MULTI10",
+    "question": "Which domains use SfM?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Vision",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Robotics",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "AR/VR",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Heritage",
+        "weight": 25.0
+      }
+    ]
+  }
+]

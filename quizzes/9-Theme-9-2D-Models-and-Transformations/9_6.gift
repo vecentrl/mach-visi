@@ -1,0 +1,309 @@
+::TF1::
+An affine transformation can be determined from three non-collinear point correspondences.
+{TRUE}
+
+::TF2::
+Affine parameter estimation often uses least squares.
+{TRUE}
+
+::TF3::
+RANSAC can make affine estimation more robust to outliers.
+{TRUE}
+
+::TF4::
+Affine mapping can perfectly represent perspective projection.
+{FALSE}
+
+::TF5::
+Affine mapping is often used in panorama mosaicking.
+{TRUE}
+
+::TF6::
+Affine alignment can be applied in medical image registration.
+{TRUE}
+
+::TF7::
+An affine transform requires both linear parameters and translation.
+{TRUE}
+
+::TF8::
+Affine models cannot represent shear transformations.
+{FALSE}
+
+::TF9::
+Noise in correspondences affects affine estimation accuracy.
+{TRUE}
+
+::TF10::
+Affine alignment is sometimes only an approximation of real-world geometry.
+{TRUE}
+
+::MC1::
+How many point pairs are needed to uniquely determine an affine transform?
+{
+= Three non-collinear
+~ Two
+~ Four
+~ One
+}
+
+::MC2::
+Which method solves over-determined affine systems?
+{
+= Least squares
+~ Histogram equalization
+~ PCA
+~ Fourier transform
+}
+
+::MC3::
+Which robust method is used to handle outliers in affine fitting?
+{
+= RANSAC
+~ Histogram bins
+~ Gamma correction
+~ Gradient descent
+}
+
+::MC4::
+Which application uses affine alignment?
+{
+= Panorama mosaicking
+~ Audio compression
+~ JPEG encoding
+~ Gamma correction
+}
+
+::MC5::
+Which is a limitation of affine mapping?
+{
+= Cannot model perspective distortion
+~ Always nonlinear
+~ Needs no correspondences
+~ Ignores translation
+}
+
+::MC6::
+Which is preserved by affine transforms?
+{
+= Parallelism
+~ Angles
+~ Distances
+~ Brightness
+}
+
+::MC7::
+Which domain applies affine registration?
+{
+= Medical imaging
+~ Audio filtering
+~ File encryption
+~ Histogram equalization
+}
+
+::MC8::
+Which comparison is correct?
+{
+= Affine is more general than similarity
+~ Affine is less general than translation
+~ Affine is identical to projective
+~ Affine preserves angles
+}
+
+::MC9::
+Which factor degrades affine estimation?
+{
+= Noise and outliers
+~ JPEG compression
+~ Gamma encoding
+~ File size
+}
+
+::MC10::
+Which is an affine operation?
+{
+= Shearing
+~ Nonlinear warping
+~ Histogram equalization
+~ PCA projection
+}
+
+::MATCH1::
+Match the method to robustness.
+{
+= Least squares -> Sensitive to outliers
+= RANSAC -> Robust to outliers
+= PCA -> Dimensionality reduction
+= CNN -> Deep features
+}
+
+::MATCH2::
+Match the transform to generality.
+{
+= Translation -> Most basic
+= Similarity -> Includes scale/rotation
+= Affine -> Adds shear
+= Projective -> Includes perspective
+}
+
+::MATCH3::
+Match the application to field.
+{
+= Panorama -> Vision
+= Registration -> Medical
+= Motion compensation -> Video
+= Mapping -> Robotics
+}
+
+::MATCH4::
+Match the problem to cause.
+{
+= Noise -> Inaccurate estimate
+= Outliers -> Wrong parameters
+= Few points -> Insufficient model
+= Perspective -> Not affine
+}
+
+::MATCH5::
+Match the parameter to description.
+{
+= Linear -> Rotation/scale/shear
+= Translation -> Shift
+= Correspondences -> Data for estimation
+= Residual -> Error
+}
+
+::MATCH6::
+Match the solver to description.
+{
+= Least squares -> Fit to all data
+= RANSAC -> Robust estimation
+= Iterative refinement -> Better accuracy
+= Direct solve -> Minimal points
+}
+
+::MATCH7::
+Match the concept to definition.
+{
+= Shear -> Skewing
+= Scale -> Resize
+= Rotate -> Turn
+= Translate -> Shift
+}
+
+::MATCH8::
+Match the transform to limitation.
+{
+= Translation -> Too simple
+= Similarity -> No shear
+= Affine -> No perspective
+= Projective -> More complex
+}
+
+::MATCH9::
+Match the estimation method to property.
+{
+= Least squares -> Minimizes squared error
+= RANSAC -> Ignores outliers
+= Minimal set -> Three point pairs
+= Overdetermined -> Extra pairs
+}
+
+::MATCH10::
+Match the application to example.
+{
+= Panorama -> Mosaic
+= Medical -> CT registration
+= Robotics -> Path alignment
+= Graphics -> Warping
+}
+
+::MULTI1::
+Which are required to determine affine transform?
+{
+~%33.33333% Three point pairs
+~%33.33333% Non-collinearity
+~%33.33333% Correspondences
+~%-100% Only one point
+}
+
+::MULTI2::
+Which are methods for affine estimation?
+{
+~%33.33333% Least squares
+~%33.33333% RANSAC
+~%33.33333% Iterative refinement
+~%-100% Histogram bins
+}
+
+::MULTI3::
+Which are applications of affine alignment?
+{
+~%25% Panorama mosaicking
+~%25% Medical registration
+~%25% Motion compensation
+~%25% Robotics mapping
+}
+
+::MULTI4::
+Which are limitations of affine mapping?
+{
+~%50% No perspective modeling
+~%50% Sensitive to noise/outliers
+~%-100% Angle preserving
+~%-100% Distance preserving
+}
+
+::MULTI5::
+Which are affine operations?
+{
+~%25% Translation
+~%25% Rotation
+~%25% Scaling
+~%25% Shearing
+}
+
+::MULTI6::
+Which are robust estimation methods?
+{
+~%50% RANSAC
+~%50% Robust regression
+~%-100% Plain least squares
+~%-100% Histogram smoothing
+}
+
+::MULTI7::
+Which are domains using affine alignment?
+{
+~%25% Vision
+~%25% Medicine
+~%25% Robotics
+~%25% Graphics
+}
+
+::MULTI8::
+Which are challenges in affine estimation?
+{
+~%25% Noise
+~%25% Outliers
+~%25% Insufficient points
+~%25% Perspective effects
+}
+
+::MULTI9::
+Which are transformations more general than affine?
+{
+~%50% Projective
+~%50% Homography
+~%-100% Translation
+~%-100% Similarity
+}
+
+::MULTI10::
+Which are benefits of affine alignment?
+{
+~%25% Mosaicking
+~%25% Registration
+~%25% Motion compensation
+~%25% Shape mapping
+}

@@ -1,0 +1,309 @@
+::TF1::
+The pyramidal Lucas–Kanade method is designed to handle larger motions.
+{TRUE}
+
+::TF2::
+An image pyramid represents the image at multiple resolutions.
+{TRUE}
+
+::TF3::
+Pyramidal Lucas–Kanade refines motion estimates from coarse to fine levels.
+{TRUE}
+
+::TF4::
+The standard Lucas–Kanade fails with large displacements.
+{TRUE}
+
+::TF5::
+The KLT tracker is based on Lucas–Kanade.
+{TRUE}
+
+::TF6::
+Pyramidal Lucas–Kanade is often applied to corners and strong features.
+{TRUE}
+
+::TF7::
+Pyramidal Lucas–Kanade produces dense flow for every pixel.
+{FALSE}
+
+::TF8::
+Occlusion still challenges pyramidal Lucas–Kanade.
+{TRUE}
+
+::TF9::
+Video stabilization can be achieved with Lucas–Kanade tracking.
+{TRUE}
+
+::TF10::
+Textureless regions provide reliable features for Lucas–Kanade.
+{FALSE}
+
+::MC1::
+What problem does pyramidal Lucas–Kanade solve?
+{
+= Large motions
+~ Noisy regions
+~ Histogram equalization
+~ Feature independence
+}
+
+::MC2::
+What is an image pyramid?
+{
+= Multi-resolution representation
+~ Histogram of gradients
+~ k-means clustering
+~ PCA reduction
+}
+
+::MC3::
+How does pyramidal Lucas–Kanade work?
+{
+= Coarse-to-fine refinement
+~ Fine-to-coarse refinement
+~ Single-scale only
+~ Random sampling
+}
+
+::MC4::
+What does the KLT tracker use?
+{
+= Lucas–Kanade method
+~ SVM
+~ Decision tree
+~ CNN
+}
+
+::MC5::
+Which type of features are best for Lucas–Kanade tracking?
+{
+= Corners
+~ Flat regions
+~ Uniform textures
+~ Random pixels
+}
+
+::MC6::
+Which is an application of pyramidal Lucas–Kanade?
+{
+= Object tracking
+~ Histogram equalization
+~ Audio compression
+~ White balance
+}
+
+::MC7::
+Which challenge remains for Lucas–Kanade?
+{
+= Occlusion
+~ Large motions always solved
+~ No effect of illumination
+~ Textureless regions help
+}
+
+::MC8::
+Which property improves robustness in pyramidal Lucas–Kanade?
+{
+= Multi-scale processing
+~ Single-scale only
+~ Histogram matching
+~ Random features
+}
+
+::MC9::
+Which is an application of the KLT tracker?
+{
+= Video stabilization
+~ Gamma correction
+~ JPEG compression
+~ Histogram smoothing
+}
+
+::MC10::
+Which assumption can fail for Lucas–Kanade?
+{
+= Brightness constancy
+~ Histogram equalization
+~ Gradient normalization
+~ Noisy labels
+}
+
+::MATCH1::
+Match the method to property.
+{
+= Standard Lucas–Kanade -> Small motion
+= Pyramidal Lucas–Kanade -> Larger motion
+= KLT tracker -> Feature tracking
+= CNN flow -> Learned flow
+}
+
+::MATCH2::
+Match the component to description.
+{
+= Pyramid -> Multi-scale image
+= Coarse-to-fine -> Refinement
+= Window -> Local patch
+= Feature -> Corner point
+}
+
+::MATCH3::
+Match the method to application.
+{
+= Pyramidal Lucas–Kanade -> Object tracking
+= KLT tracker -> Video stabilization
+= Horn–Schunck -> Dense flow
+= CNN flow -> Large displacements
+}
+
+::MATCH4::
+Match the challenge to effect.
+{
+= Occlusion -> Missing features
+= Illumination -> False motion
+= Textureless -> Poor tracking
+= Noise -> Instability
+}
+
+::MATCH5::
+Match the assumption to issue.
+{
+= Brightness constancy -> Lighting changes
+= Small motion -> Large displacements
+= Spatial coherence -> Motion boundaries
+= Pyramid -> Helps scale
+}
+
+::MATCH6::
+Match the feature to suitability.
+{
+= Corner -> Good for tracking
+= Flat region -> Poor
+= Texture-rich -> Good
+= Uniform -> Poor
+}
+
+::MATCH7::
+Match the algorithm to limitation.
+{
+= Standard Lucas–Kanade -> Fails at large motion
+= Pyramidal -> Slower but better scale
+= KLT -> Still limited by assumptions
+= CNN flow -> Needs training data
+}
+
+::MATCH8::
+Match the application to domain.
+{
+= Robotics -> Navigation
+= Sports -> Player tracking
+= Medicine -> Motion analysis
+= Video -> Stabilization
+}
+
+::MATCH9::
+Match the concept to explanation.
+{
+= Pyramid -> Multi-resolution
+= Coarse-to-fine -> Progressive refinement
+= Window -> Local patch
+= Flow vector -> Motion estimate
+}
+
+::MATCH10::
+Match the method to description.
+{
+= Pyramidal Lucas–Kanade -> Multi-scale sparse flow
+= KLT tracker -> Corner tracking
+= Horn–Schunck -> Global smoothness
+= Background subtraction -> Foreground masks
+}
+
+::MULTI1::
+Which are improvements of pyramidal Lucas–Kanade?
+{
+~%50% Handles larger motions
+~%50% Multi-scale refinement
+~%-100% Requires no assumptions
+~%-100% Works on flat regions
+}
+
+::MULTI2::
+Which are assumptions of Lucas–Kanade?
+{
+~%33.33333% Brightness constancy
+~%33.33333% Small motion
+~%33.33333% Spatial coherence
+~%-100% Histogram constancy
+}
+
+::MULTI3::
+Which are applications of pyramidal Lucas–Kanade?
+{
+~%33.33333% Object tracking
+~%33.33333% Gesture recognition
+~%33.33333% Video stabilization
+~%-100% Audio synthesis
+}
+
+::MULTI4::
+Which are challenges for Lucas–Kanade tracking?
+{
+~%25% Occlusion
+~%25% Illumination changes
+~%25% Textureless regions
+~%25% Noise
+}
+
+::MULTI5::
+Which are examples of suitable features?
+{
+~%33.33333% Corners
+~%33.33333% High-contrast regions
+~%33.33333% Distinct features
+~%-100% Flat regions
+}
+
+::MULTI6::
+Which are examples of image pyramids?
+{
+~%50% Gaussian pyramid
+~%50% Laplacian pyramid
+~%-100% Histogram pyramid
+~%-100% Fourier histogram
+}
+
+::MULTI7::
+Which are outputs of Lucas–Kanade?
+{
+~%50% Motion vectors
+~%50% Sparse flow
+~%-100% Dense flow always
+~%-100% Histogram bins
+}
+
+::MULTI8::
+Which are applications of KLT tracker?
+{
+~%25% Stabilization
+~%25% Tracking
+~%25% Motion analysis
+~%25% Robotics navigation
+}
+
+::MULTI9::
+Which are limitations of pyramidal Lucas–Kanade?
+{
+~%50% Slower than standard
+~%50% Still limited by assumptions
+~%-100% Works for all motions
+~%-100% Needs no features
+}
+
+::MULTI10::
+Which are domains where Lucas–Kanade is applied?
+{
+~%25% Robotics
+~%25% Video stabilization
+~%25% Sports tracking
+~%25% Medical imaging
+}

@@ -1,0 +1,814 @@
+[
+  {
+    "gift_source": "::MC1::\nWhat does MSER stand for?\n{\n= Maximally Stable Extremal Regions\n~ Multi-Scale Edge Response\n~ Minimum Stable Edge Regions\n~ Multi-Scale Error Reduction\n}",
+    "title": "MC1",
+    "question": "What does MSER stand for?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Maximally Stable Extremal Regions",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Multi-Scale Edge Response",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Minimum Stable Edge Regions",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Multi-Scale Error Reduction",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhat is the basis of MSER detection?\n{\n= Stability of regions across intensity thresholds\n~ Eigenvalue analysis\n~ Gradient magnitude\n~ Circular neighborhood test\n}",
+    "title": "MC2",
+    "question": "What is the basis of MSER detection?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Stability of regions across intensity thresholds",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Eigenvalue analysis",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Gradient magnitude",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Circular neighborhood test",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhich type of feature does MSER detect?\n{\n= Regions\n~ Points only\n~ Edges only\n~ Textures only\n}",
+    "title": "MC3",
+    "question": "Which type of feature does MSER detect?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Regions",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Points only",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Edges only",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Textures only",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhich property makes MSER attractive?\n{\n= Scale and affine invariance\n~ Always fastest runtime\n~ Works only on color images\n~ Requires Fourier transform\n}",
+    "title": "MC4",
+    "question": "Which property makes MSER attractive?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Scale and affine invariance",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Always fastest runtime",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Works only on color images",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Requires Fourier transform",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhich application benefits from MSER?\n{\n= Text detection\n~ Audio compression\n~ Gamma correction\n~ Histogram equalization\n}",
+    "title": "MC5",
+    "question": "Which application benefits from MSER?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Text detection",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Audio compression",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Gamma correction",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram equalization",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich challenge affects MSER?\n{\n= Sensitivity to noise\n~ Invariance failure\n~ Always inaccurate\n~ Limited to binary images\n}",
+    "title": "MC6",
+    "question": "Which challenge affects MSER?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Sensitivity to noise",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Invariance failure",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Always inaccurate",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Limited to binary images",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich invariances are associated with MSER?\n{\n= Scale and affine\n~ Only translation\n~ Only rotation\n~ None\n}",
+    "title": "MC8",
+    "question": "Which invariances are associated with MSER?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Scale and affine",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Only translation",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Only rotation",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "None",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich property makes MSER useful for stereo matching?\n{\n= Robust region correspondences\n~ Sensitivity to color\n~ Always binary\n~ Edge filtering\n}",
+    "title": "MC9",
+    "question": "Which property makes MSER useful for stereo matching?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Robust region correspondences",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Sensitivity to color",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Always binary",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Edge filtering",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich is a drawback of MSER?\n{\n= Computationally heavier than FAST\n~ Cannot detect regions\n~ No invariance\n~ Not repeatable\n}",
+    "title": "MC10",
+    "question": "Which is a drawback of MSER?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Computationally heavier than FAST",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Cannot detect regions",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "No invariance",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Not repeatable",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the detector to feature type.\n{\n= Harris -> Corners\n= FAST -> Corners (real-time)\n= MSER -> Regions\n= SIFT -> Scale-invariant keypoints\n}",
+    "title": "MATCH1",
+    "question": "Match the detector to feature type.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Harris",
+        "right": "Corners"
+      },
+      {
+        "id": 2,
+        "left": "FAST",
+        "right": "Corners (real-time)"
+      },
+      {
+        "id": 3,
+        "left": "MSER",
+        "right": "Regions"
+      },
+      {
+        "id": 4,
+        "left": "SIFT",
+        "right": "Scale-invariant keypoints"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the property to MSER.\n{\n= Scale invariance -> Resizing robustness\n= Affine invariance -> Shape changes\n= Illumination tolerance -> Stable regions\n= Blob-like -> Region appearance\n}",
+    "title": "MATCH2",
+    "question": "Match the property to MSER.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Scale invariance",
+        "right": "Resizing robustness"
+      },
+      {
+        "id": 2,
+        "left": "Affine invariance",
+        "right": "Shape changes"
+      },
+      {
+        "id": 3,
+        "left": "Illumination tolerance",
+        "right": "Stable regions"
+      },
+      {
+        "id": 4,
+        "left": "Blob-like",
+        "right": "Region appearance"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the application to method.\n{\n= MSER -> Text detection\n= Harris -> Registration\n= FAST -> Real-time corners\n= SIFT -> Scale-invariant keypoints\n}",
+    "title": "MATCH3",
+    "question": "Match the application to method.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "MSER",
+        "right": "Text detection"
+      },
+      {
+        "id": 2,
+        "left": "Harris",
+        "right": "Registration"
+      },
+      {
+        "id": 3,
+        "left": "FAST",
+        "right": "Real-time corners"
+      },
+      {
+        "id": 4,
+        "left": "SIFT",
+        "right": "Scale-invariant keypoints"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the detector to limitation.\n{\n= Harris -> Heavier computation\n= FAST -> Sensitive to noise\n= MSER -> Sensitive to noise, slower\n= All -> Sensitive to extreme lighting\n}",
+    "title": "MATCH4",
+    "question": "Match the detector to limitation.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Harris",
+        "right": "Heavier computation"
+      },
+      {
+        "id": 2,
+        "left": "FAST",
+        "right": "Sensitive to noise"
+      },
+      {
+        "id": 3,
+        "left": "MSER",
+        "right": "Sensitive to noise, slower"
+      },
+      {
+        "id": 4,
+        "left": "All",
+        "right": "Sensitive to extreme lighting"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the method to invariance.\n{\n= Harris -> Rotation\n= Shi-Tomasi -> Tracking stability\n= FAST -> Speed, not invariance\n= MSER -> Scale & affine\n}",
+    "title": "MATCH5",
+    "question": "Match the method to invariance.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Harris",
+        "right": "Rotation"
+      },
+      {
+        "id": 2,
+        "left": "Shi-Tomasi",
+        "right": "Tracking stability"
+      },
+      {
+        "id": 3,
+        "left": "FAST",
+        "right": "Speed, not invariance"
+      },
+      {
+        "id": 4,
+        "left": "MSER",
+        "right": "Scale & affine"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the detection type to example.\n{\n= Corners -> Harris\n= Edges -> Canny\n= Regions -> MSER\n= Blobs -> DoG\n}",
+    "title": "MATCH6",
+    "question": "Match the detection type to example.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Corners",
+        "right": "Harris"
+      },
+      {
+        "id": 2,
+        "left": "Edges",
+        "right": "Canny"
+      },
+      {
+        "id": 3,
+        "left": "Regions",
+        "right": "MSER"
+      },
+      {
+        "id": 4,
+        "left": "Blobs",
+        "right": "DoG"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the descriptor to field.\n{\n= MSER -> Region features\n= Harris -> Corner features\n= SIFT -> Scale-invariant keypoints\n= ORB -> Fast binary descriptors\n}",
+    "title": "MATCH7",
+    "question": "Match the descriptor to field.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "MSER",
+        "right": "Region features"
+      },
+      {
+        "id": 2,
+        "left": "Harris",
+        "right": "Corner features"
+      },
+      {
+        "id": 3,
+        "left": "SIFT",
+        "right": "Scale-invariant keypoints"
+      },
+      {
+        "id": 4,
+        "left": "ORB",
+        "right": "Fast binary descriptors"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the property to usage.\n{\n= MSER -> Blob/region detection\n= Harris -> Local corners\n= FAST -> Real-time detection\n= SIFT -> Robust descriptors\n}",
+    "title": "MATCH8",
+    "question": "Match the property to usage.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "MSER",
+        "right": "Blob/region detection"
+      },
+      {
+        "id": 2,
+        "left": "Harris",
+        "right": "Local corners"
+      },
+      {
+        "id": 3,
+        "left": "FAST",
+        "right": "Real-time detection"
+      },
+      {
+        "id": 4,
+        "left": "SIFT",
+        "right": "Robust descriptors"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the challenge to effect.\n{\n= Noise -> Spurious regions\n= Scale -> MSER invariant\n= Affine transform -> MSER robust\n= Computation -> Slower than FAST\n}",
+    "title": "MATCH9",
+    "question": "Match the challenge to effect.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Noise",
+        "right": "Spurious regions"
+      },
+      {
+        "id": 2,
+        "left": "Scale",
+        "right": "MSER invariant"
+      },
+      {
+        "id": 3,
+        "left": "Affine transform",
+        "right": "MSER robust"
+      },
+      {
+        "id": 4,
+        "left": "Computation",
+        "right": "Slower than FAST"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the application to example.\n{\n= MSER -> Text detection\n= Harris -> Panorama stitching\n= FAST -> Real-time SLAM\n= SIFT -> Object recognition\n}",
+    "title": "MATCH10",
+    "question": "Match the application to example.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "MSER",
+        "right": "Text detection"
+      },
+      {
+        "id": 2,
+        "left": "Harris",
+        "right": "Panorama stitching"
+      },
+      {
+        "id": 3,
+        "left": "FAST",
+        "right": "Real-time SLAM"
+      },
+      {
+        "id": 4,
+        "left": "SIFT",
+        "right": "Object recognition"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are region detectors?\n{\n~%50% MSER\n~%50% Blob detection\n~%-100% Harris\n~%-100% FAST\n}",
+    "title": "MULTI1",
+    "question": "Which are region detectors?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "MSER",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Blob detection",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Harris",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "FAST",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are corner detectors?\n{\n~%33.33333% Harris\n~%33.33333% Shi-Tomasi\n~%33.33333% FAST\n~%-100% MSER\n}",
+    "title": "MULTI2",
+    "question": "Which are corner detectors?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Harris",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Shi-Tomasi",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "FAST",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "MSER",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are properties of MSER?\n{\n~%25% Scale invariance\n~%25% Affine invariance\n~%25% Region-based\n~%25% Useful in text detection\n}",
+    "title": "MULTI3",
+    "question": "Which are properties of MSER?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Scale invariance",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Affine invariance",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Region-based",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Useful in text detection",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are limitations of MSER?\n{\n~%50% Sensitive to noise\n~%50% Computationally heavy\n~%-100% Always real-time fastest\n~%-100% Point-only detection\n}",
+    "title": "MULTI4",
+    "question": "Which are limitations of MSER?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Sensitive to noise",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Computationally heavy",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Always real-time fastest",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Point-only detection",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are applications of MSER?\n{\n~%33.33333% Text detection\n~%33.33333% Stereo matching\n~%33.33333% Object recognition\n~%-100% Audio synthesis\n}",
+    "title": "MULTI5",
+    "question": "Which are applications of MSER?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Text detection",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Stereo matching",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Object recognition",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Audio synthesis",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are differences between Harris and MSER?\n{\n~%50% Harris = corners\n~%50% MSER = regions\n~%-100% Both detect only textures\n~%-100% Both ignore intensity changes\n}",
+    "title": "MULTI6",
+    "question": "Which are differences between Harris and MSER?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Harris = corners",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "MSER = regions",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Both detect only textures",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Both ignore intensity changes",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are examples of scale-invariant detectors?\n{\n~%33.33333% SIFT\n~%33.33333% SURF\n~%33.33333% MSER\n~%-100% FAST\n}",
+    "title": "MULTI7",
+    "question": "Which are examples of scale-invariant detectors?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "SIFT",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "SURF",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "MSER",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "FAST",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are challenges in scale-invariant detection?\n{\n~%33.33333% Noise\n~%33.33333% Illumination variation\n~%33.33333% Computation cost\n~%-100% Perfect robustness\n}",
+    "title": "MULTI8",
+    "question": "Which are challenges in scale-invariant detection?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Noise",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Illumination variation",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Computation cost",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Perfect robustness",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich invariances are desirable for local features?\n{\n~%25% Scale\n~%25% Rotation\n~%25% Illumination\n~%25% Affine\n}",
+    "title": "MULTI9",
+    "question": "Which invariances are desirable for local features?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Scale",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Rotation",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Illumination",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Affine",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich detectors are region-based?\n{\n~%50% MSER\n~%50% Blob detectors (DoG, LoG)\n~%-100% Harris\n~%-100% FAST\n}",
+    "title": "MULTI10",
+    "question": "Which detectors are region-based?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "MSER",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Blob detectors (DoG, LoG)",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Harris",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "FAST",
+        "weight": -100.0
+      }
+    ]
+  }
+]

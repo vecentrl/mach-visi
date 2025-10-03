@@ -1,0 +1,309 @@
+::TF1::
+Background subtraction is used to separate moving objects from static scenes.
+{TRUE}
+
+::TF2::
+Frame differencing is the simplest form of background subtraction.
+{TRUE}
+
+::TF3::
+Gaussian Mixture Models (GMMs) are often used for robust background modeling.
+{TRUE}
+
+::TF4::
+Background subtraction is not affected by illumination changes.
+{FALSE}
+
+::TF5::
+Background subtraction can be used in video surveillance.
+{TRUE}
+
+::TF6::
+Running average is one method to update background models.
+{TRUE}
+
+::TF7::
+Dynamic backgrounds (like waving trees) are a challenge for subtraction methods.
+{TRUE}
+
+::TF8::
+Background subtraction detects both moving objects and static textures equally well.
+{FALSE}
+
+::TF9::
+Traffic monitoring is an application of background subtraction.
+{TRUE}
+
+::TF10::
+Shadows can cause false detections in background subtraction.
+{TRUE}
+
+::MC1::
+What is the main purpose of background subtraction?
+{
+= Detect moving objects
+~ Detect edges
+~ Reduce noise
+~ Enhance colors
+}
+
+::MC2::
+Which is the simplest background subtraction method?
+{
+= Frame differencing
+~ Gaussian mixture models
+~ k-means clustering
+~ PCA
+}
+
+::MC3::
+Which method updates the background model over time?
+{
+= Running average
+~ Frame differencing
+~ Histogram equalization
+~ Otsu thresholding
+}
+
+::MC4::
+Which model is often used for robust background modeling?
+{
+= Gaussian Mixture Model (GMM)
+~ SVM
+~ Decision tree
+~ CNN
+}
+
+::MC5::
+Which application uses background subtraction?
+{
+= Video surveillance
+~ Audio compression
+~ Histogram equalization
+~ JPEG encoding
+}
+
+::MC6::
+Which factor causes difficulty for background subtraction?
+{
+= Illumination changes
+~ Always perfect
+~ No noise
+~ Static backgrounds
+}
+
+::MC7::
+Which describes dynamic backgrounds?
+{
+= Scenes with movement like trees or water
+~ Static walls
+~ Still objects
+~ Noise-free images
+}
+
+::MC8::
+Which factor can lead to false positives in motion detection?
+{
+= Shadows
+~ Histogram bins
+~ Image resolution
+~ Compression
+}
+
+::MC9::
+Which is a property of Gaussian Mixture Models in background subtraction?
+{
+= Handle multiple background modes
+~ Always static
+~ Ignore changes
+~ Work only on grayscale
+}
+
+::MC10::
+Which field benefits from motion-based background subtraction?
+{
+= Human activity recognition
+~ White balance
+~ File compression
+~ Gamma correction
+}
+
+::MATCH1::
+Match the method to description.
+{
+= Frame differencing -> Simple subtraction
+= Running average -> Temporal update
+= GMM -> Probabilistic background model
+= CNN -> Deep motion analysis
+}
+
+::MATCH2::
+Match the challenge to effect.
+{
+= Illumination change -> False detection
+= Shadows -> Object-like artifacts
+= Dynamic background -> Noise detection
+= Noise -> Unstable mask
+}
+
+::MATCH3::
+Match the application to domain.
+{
+= Surveillance -> People detection
+= Traffic monitoring -> Vehicle detection
+= Sports analysis -> Player tracking
+= Human activity -> Gesture detection
+}
+
+::MATCH4::
+Match the factor to challenge.
+{
+= Shadows -> False positives
+= Light changes -> Instability
+= Dynamic background -> Difficult modeling
+= Static scene -> Easier modeling
+}
+
+::MATCH5::
+Match the method to robustness.
+{
+= Frame differencing -> Simple but sensitive
+= Running average -> Adapts slowly
+= GMM -> More robust
+= CNN -> Very robust
+}
+
+::MATCH6::
+Match the property to method.
+{
+= Simple -> Frame differencing
+= Adaptive -> Running average
+= Multi-modal -> GMM
+= Learned -> CNN
+}
+
+::MATCH7::
+Match the technique to field.
+{
+= GMM -> Surveillance
+= Frame differencing -> Basic detection
+= CNN -> Autonomous driving
+= Running average -> Long-term monitoring
+}
+
+::MATCH8::
+Match the issue to cause.
+{
+= False positives -> Shadows
+= Missing detection -> Fast motion
+= Instability -> Illumination change
+= Noise -> Poor quality video
+}
+
+::MATCH9::
+Match the descriptor to explanation.
+{
+= Background subtraction -> Motion detection
+= Dynamic background -> Waving trees
+= Shadow -> False object
+= Illumination -> Brightness change
+}
+
+::MATCH10::
+Match the task to example.
+{
+= Surveillance -> Detect intruder
+= Traffic monitoring -> Count vehicles
+= Sports -> Track players
+= Medicine -> Motion analysis
+}
+
+::MULTI1::
+Which are methods of background subtraction?
+{
+~%25% Frame differencing
+~%25% Running average
+~%25% Gaussian mixture models
+~%25% CNN-based
+}
+
+::MULTI2::
+Which are challenges for background subtraction?
+{
+~%25% Illumination changes
+~%25% Shadows
+~%25% Dynamic backgrounds
+~%25% Noise
+}
+
+::MULTI3::
+Which are applications of background subtraction?
+{
+~%33.33333% Surveillance
+~%33.33333% Traffic monitoring
+~%33.33333% Human activity recognition
+~%-100% Histogram equalization
+}
+
+::MULTI4::
+Which are properties of GMM background models?
+{
+~%33.33333% Multi-modal
+~%33.33333% Robust
+~%33.33333% Probabilistic
+~%-100% Single static model only
+}
+
+::MULTI5::
+Which are simple background subtraction methods?
+{
+~%50% Frame differencing
+~%50% Running average
+~%-100% GMM
+~%-100% CNN
+}
+
+::MULTI6::
+Which are motion-based tasks?
+{
+~%25% Surveillance
+~%25% Sports tracking
+~%25% Gesture analysis
+~%25% Vehicle monitoring
+}
+
+::MULTI7::
+Which are advantages of CNN-based subtraction?
+{
+~%33.33333% Learn features
+~%33.33333% High robustness
+~%33.33333% Handle complex backgrounds
+~%-100% Always simple
+}
+
+::MULTI8::
+Which are disadvantages of simple differencing?
+{
+~%50% Sensitive to noise
+~%50% Sensitive to illumination
+~%-100% Robust to everything
+~%-100% Multi-modal handling
+}
+
+::MULTI9::
+Which are examples of dynamic backgrounds?
+{
+~%33.33333% Waving trees
+~%33.33333% Water ripples
+~%33.33333% Moving escalator
+~%-100% Still wall
+}
+
+::MULTI10::
+Which are domains using motion background subtraction?
+{
+~%25% Security
+~%25% Traffic
+~%25% Sports
+~%25% Medicine
+}

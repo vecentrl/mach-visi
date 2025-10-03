@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhich cone type is most sensitive to short wavelengths?\n{\n= S-cones\n~ M-cones\n~ L-cones\n~ Rods\n}",
+    "title": "MC1",
+    "question": "Which cone type is most sensitive to short wavelengths?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "S-cones",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "M-cones",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "L-cones",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Rods",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhat do L-cones primarily detect?\n{\n= Long wavelengths (red)\n~ Medium wavelengths (green)\n~ Short wavelengths (blue)\n~ Infrared\n}",
+    "title": "MC2",
+    "question": "What do L-cones primarily detect?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Long wavelengths (red)",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Medium wavelengths (green)",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Short wavelengths (blue)",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Infrared",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhat is trichromacy?\n{\n= The ability to match any visible color with three primaries\n~ The existence of four cone types\n~ The separation of brightness and hue\n~ A subtractive printing process\n}",
+    "title": "MC3",
+    "question": "What is trichromacy?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "The ability to match any visible color with three primaries",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "The existence of four cone types",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "The separation of brightness and hue",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "A subtractive printing process",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhich mixing is used in monitors and screens?\n{\n= Additive (RGB)\n~ Subtractive (CMY)\n~ Multiplicative\n~ Mechanical\n}",
+    "title": "MC4",
+    "question": "Which mixing is used in monitors and screens?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Additive (RGB)",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Subtractive (CMY)",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Multiplicative",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Mechanical",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhich mixing is used in printers?\n{\n= Subtractive (CMYK)\n~ Additive (RGB)\n~ Binary\n~ Polarized\n}",
+    "title": "MC5",
+    "question": "Which mixing is used in printers?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Subtractive (CMYK)",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Additive (RGB)",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Binary",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Polarized",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich colors are additive primaries?\n{\n= Red, Green, Blue\n~ Cyan, Magenta, Yellow\n~ Red, Yellow, Blue\n~ Black, White, Gray\n}",
+    "title": "MC6",
+    "question": "Which colors are additive primaries?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Red, Green, Blue",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Cyan, Magenta, Yellow",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Red, Yellow, Blue",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Black, White, Gray",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich colors are subtractive primaries?\n{\n= Cyan, Magenta, Yellow\n~ Red, Green, Blue\n~ Yellow, Blue, White\n~ Black, White, Gray\n}",
+    "title": "MC7",
+    "question": "Which colors are subtractive primaries?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Cyan, Magenta, Yellow",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Red, Green, Blue",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Yellow, Blue, White",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Black, White, Gray",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhat color results from mixing red and green light additively?\n{\n= Yellow\n~ Blue\n~ Cyan\n~ Magenta\n}",
+    "title": "MC8",
+    "question": "What color results from mixing red and green light additively?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Yellow",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Blue",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Cyan",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Magenta",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhat color results from mixing cyan and yellow pigments subtractively?\n{\n= Green\n~ Red\n~ Blue\n~ White\n}",
+    "title": "MC9",
+    "question": "What color results from mixing cyan and yellow pigments subtractively?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Green",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Red",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Blue",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "White",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich is true of color matching experiments?\n{\n= A wide range of colors can be matched using 3 primaries\n~ All colors can be matched using 2 primaries\n~ 4 or more primaries are always required\n~ Human cones are not involved\n}",
+    "title": "MC10",
+    "question": "Which is true of color matching experiments?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "A wide range of colors can be matched using 3 primaries",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "All colors can be matched using 2 primaries",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "4 or more primaries are always required",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Human cones are not involved",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the cone type to its sensitivity.\n{\n= S-cone -> Short wavelengths (blue)\n= M-cone -> Medium wavelengths (green)\n= L-cone -> Long wavelengths (red)\n= Rods -> Low-light sensitivity\n}",
+    "title": "MATCH1",
+    "question": "Match the cone type to its sensitivity.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "S-cone",
+        "right": "Short wavelengths (blue)"
+      },
+      {
+        "id": 2,
+        "left": "M-cone",
+        "right": "Medium wavelengths (green)"
+      },
+      {
+        "id": 3,
+        "left": "L-cone",
+        "right": "Long wavelengths (red)"
+      },
+      {
+        "id": 4,
+        "left": "Rods",
+        "right": "Low-light sensitivity"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the mixing type to its domain.\n{\n= Additive -> Displays\n= Subtractive -> Printing\n= Trichromacy -> Human cones\n= Matching -> Color experiments\n}",
+    "title": "MATCH2",
+    "question": "Match the mixing type to its domain.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Additive",
+        "right": "Displays"
+      },
+      {
+        "id": 2,
+        "left": "Subtractive",
+        "right": "Printing"
+      },
+      {
+        "id": 3,
+        "left": "Trichromacy",
+        "right": "Human cones"
+      },
+      {
+        "id": 4,
+        "left": "Matching",
+        "right": "Color experiments"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the color model to its primaries.\n{\n= RGB -> Red, Green, Blue\n= CMY -> Cyan, Magenta, Yellow\n= CMYK -> CMY plus Black\n= RYB -> Red, Yellow, Blue\n}",
+    "title": "MATCH3",
+    "question": "Match the color model to its primaries.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "RGB",
+        "right": "Red, Green, Blue"
+      },
+      {
+        "id": 2,
+        "left": "CMY",
+        "right": "Cyan, Magenta, Yellow"
+      },
+      {
+        "id": 3,
+        "left": "CMYK",
+        "right": "CMY plus Black"
+      },
+      {
+        "id": 4,
+        "left": "RYB",
+        "right": "Red, Yellow, Blue"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the additive mix to the result.\n{\n= Red + Green -> Yellow\n= Green + Blue -> Cyan\n= Red + Blue -> Magenta\n= All three -> White\n}",
+    "title": "MATCH4",
+    "question": "Match the additive mix to the result.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Red + Green",
+        "right": "Yellow"
+      },
+      {
+        "id": 2,
+        "left": "Green + Blue",
+        "right": "Cyan"
+      },
+      {
+        "id": 3,
+        "left": "Red + Blue",
+        "right": "Magenta"
+      },
+      {
+        "id": 4,
+        "left": "All three",
+        "right": "White"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the subtractive mix to the result.\n{\n= Cyan + Yellow -> Green\n= Magenta + Yellow -> Red\n= Cyan + Magenta -> Blue\n= All three -> Black\n}",
+    "title": "MATCH5",
+    "question": "Match the subtractive mix to the result.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Cyan + Yellow",
+        "right": "Green"
+      },
+      {
+        "id": 2,
+        "left": "Magenta + Yellow",
+        "right": "Red"
+      },
+      {
+        "id": 3,
+        "left": "Cyan + Magenta",
+        "right": "Blue"
+      },
+      {
+        "id": 4,
+        "left": "All three",
+        "right": "Black"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the experiment to its finding.\n{\n= Color matching -> 3 primaries suffice\n= Cone response -> S, M, L\n= Additive -> Light mixing\n= Subtractive -> Pigment mixing\n}",
+    "title": "MATCH6",
+    "question": "Match the experiment to its finding.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Color matching",
+        "right": "3 primaries suffice"
+      },
+      {
+        "id": 2,
+        "left": "Cone response",
+        "right": "S, M, L"
+      },
+      {
+        "id": 3,
+        "left": "Additive",
+        "right": "Light mixing"
+      },
+      {
+        "id": 4,
+        "left": "Subtractive",
+        "right": "Pigment mixing"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the model to its use.\n{\n= RGB -> Screens and monitors\n= CMYK -> Printing\n= HSV -> Color editing\n= CIE XYZ -> Standard color reference\n}",
+    "title": "MATCH7",
+    "question": "Match the model to its use.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "RGB",
+        "right": "Screens and monitors"
+      },
+      {
+        "id": 2,
+        "left": "CMYK",
+        "right": "Printing"
+      },
+      {
+        "id": 3,
+        "left": "HSV",
+        "right": "Color editing"
+      },
+      {
+        "id": 4,
+        "left": "CIE XYZ",
+        "right": "Standard color reference"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the perception cue to its basis.\n{\n= Trichromacy -> Cones\n= Constancy -> Context\n= Illusion -> Visual misinterpretation\n= Shading -> Light and shape\n}",
+    "title": "MATCH8",
+    "question": "Match the perception cue to its basis.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Trichromacy",
+        "right": "Cones"
+      },
+      {
+        "id": 2,
+        "left": "Constancy",
+        "right": "Context"
+      },
+      {
+        "id": 3,
+        "left": "Illusion",
+        "right": "Visual misinterpretation"
+      },
+      {
+        "id": 4,
+        "left": "Shading",
+        "right": "Light and shape"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the light mixing to the application.\n{\n= Additive -> Projectors\n= Subtractive -> Printers\n= Trichromacy -> Human vision\n= RGB -> Displays\n}",
+    "title": "MATCH9",
+    "question": "Match the light mixing to the application.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Additive",
+        "right": "Projectors"
+      },
+      {
+        "id": 2,
+        "left": "Subtractive",
+        "right": "Printers"
+      },
+      {
+        "id": 3,
+        "left": "Trichromacy",
+        "right": "Human vision"
+      },
+      {
+        "id": 4,
+        "left": "RGB",
+        "right": "Displays"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the subtractive color to its complement.\n{\n= Cyan -> Red\n= Magenta -> Green\n= Yellow -> Blue\n= Black -> None\n}",
+    "title": "MATCH10",
+    "question": "Match the subtractive color to its complement.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Cyan",
+        "right": "Red"
+      },
+      {
+        "id": 2,
+        "left": "Magenta",
+        "right": "Green"
+      },
+      {
+        "id": 3,
+        "left": "Yellow",
+        "right": "Blue"
+      },
+      {
+        "id": 4,
+        "left": "Black",
+        "right": "None"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are cone types in human vision?\n{\n~%33.33333% S-cones\n~%33.33333% M-cones\n~%33.33333% L-cones\n~%-100% R-cones only\n}",
+    "title": "MULTI1",
+    "question": "Which are cone types in human vision?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "S-cones",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "M-cones",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "L-cones",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "R-cones only",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are additive primaries?\n{\n~%33.33333% Red\n~%33.33333% Green\n~%33.33333% Blue\n~%-100% Yellow\n}",
+    "title": "MULTI2",
+    "question": "Which are additive primaries?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Red",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Green",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Blue",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Yellow",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are subtractive primaries?\n{\n~%33.33333% Cyan\n~%33.33333% Magenta\n~%33.33333% Yellow\n~%-100% Black\n}",
+    "title": "MULTI3",
+    "question": "Which are subtractive primaries?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Cyan",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Magenta",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Yellow",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Black",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich results are produced by additive mixing?\n{\n~%25% Red + Green = Yellow\n~%25% Green + Blue = Cyan\n~%25% Red + Blue = Magenta\n~%25% All three = White\n}",
+    "title": "MULTI4",
+    "question": "Which results are produced by additive mixing?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Red + Green = Yellow",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Green + Blue = Cyan",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Red + Blue = Magenta",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "All three = White",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich results are produced by subtractive mixing?\n{\n~%25% Cyan + Yellow = Green\n~%25% Magenta + Yellow = Red\n~%25% Cyan + Magenta = Blue\n~%25% All three = Black\n}",
+    "title": "MULTI5",
+    "question": "Which results are produced by subtractive mixing?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Cyan + Yellow = Green",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Magenta + Yellow = Red",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Cyan + Magenta = Blue",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "All three = Black",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are true of trichromacy?\n{\n~%33.33333% Based on 3 cone types\n~%33.33333% 3 primaries match most colors\n~%33.33333% Basis for RGB model\n~%-100% Requires 4 cones\n}",
+    "title": "MULTI6",
+    "question": "Which are true of trichromacy?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Based on 3 cone types",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "3 primaries match most colors",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Basis for RGB model",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Requires 4 cones",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich color models are additive?\n{\n~%50% RGB\n~%50% CIE XYZ\n~%-100% CMY\n~%-100% CMYK\n}",
+    "title": "MULTI7",
+    "question": "Which color models are additive?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "RGB",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "CIE XYZ",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "CMY",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "CMYK",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich color models are subtractive?\n{\n~%50% CMY\n~%50% CMYK\n~%-100% RGB\n~%-100% HSV\n}",
+    "title": "MULTI8",
+    "question": "Which color models are subtractive?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "CMY",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "CMYK",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "RGB",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "HSV",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are results of color matching experiments?\n{\n~%33.33333% 3 primaries suffice\n~%33.33333% Based on cone responses\n~%33.33333% Humans show trichromacy\n~%-100% 2 primaries are always enough\n}",
+    "title": "MULTI9",
+    "question": "Which are results of color matching experiments?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "3 primaries suffice",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Based on cone responses",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Humans show trichromacy",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "2 primaries are always enough",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are true about RGB vs. CMY models?\n{\n~%50% RGB is additive\n~%50% CMY is subtractive\n~%-100% Both are subtractive\n~%-100% Both are additive\n}",
+    "title": "MULTI10",
+    "question": "Which are true about RGB vs. CMY models?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "RGB is additive",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "CMY is subtractive",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Both are subtractive",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Both are additive",
+        "weight": -100.0
+      }
+    ]
+  }
+]

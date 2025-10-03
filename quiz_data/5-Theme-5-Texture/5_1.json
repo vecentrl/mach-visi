@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhat does texture describe?\n{\n= Local intensity variations or patterns\n~ Average brightness only\n~ Only the image color\n~ File size of image\n}",
+    "title": "MC1",
+    "question": "What does texture describe?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Local intensity variations or patterns",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Average brightness only",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Only the image color",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "File size of image",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhich is an example of a statistical approach to texture?\n{\n= Co-occurrence matrix\n~ Fourier transform\n~ Structural tiling\n~ RGB histogram\n}",
+    "title": "MC2",
+    "question": "Which is an example of a statistical approach to texture?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Co-occurrence matrix",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Fourier transform",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Structural tiling",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "RGB histogram",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhich is an example of a structural approach?\n{\n= Repeated patterns or primitives\n~ Histogram of gray levels\n~ Noise variance\n~ Co-occurrence matrix\n}",
+    "title": "MC3",
+    "question": "Which is an example of a structural approach?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Repeated patterns or primitives",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram of gray levels",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Noise variance",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Co-occurrence matrix",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhich is an example of a spectral method?\n{\n= Gabor filtering\n~ Gray-level histogram\n~ Binary thresholding\n~ Edge detection\n}",
+    "title": "MC4",
+    "question": "Which is an example of a spectral method?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Gabor filtering",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Gray-level histogram",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Binary thresholding",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Edge detection",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhich type of texture has little variation and smooth appearance?\n{\n= Smooth texture\n~ Coarse texture\n~ Random texture\n~ Regular texture\n}",
+    "title": "MC5",
+    "question": "Which type of texture has little variation and smooth appearance?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Smooth texture",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Coarse texture",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Random texture",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Regular texture",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich type of texture has large variations and roughness?\n{\n= Coarse texture\n~ Smooth texture\n~ Regular texture\n~ Random texture\n}",
+    "title": "MC6",
+    "question": "Which type of texture has large variations and roughness?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Coarse texture",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Smooth texture",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Regular texture",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Random texture",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich type of texture shows strong repetitive patterns?\n{\n= Regular texture\n~ Random texture\n~ Smooth texture\n~ Noise texture\n}",
+    "title": "MC7",
+    "question": "Which type of texture shows strong repetitive patterns?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Regular texture",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Random texture",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Smooth texture",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Noise texture",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich type of texture lacks any discernible pattern?\n{\n= Random texture\n~ Regular texture\n~ Smooth texture\n~ Coarse texture\n}",
+    "title": "MC8",
+    "question": "Which type of texture lacks any discernible pattern?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Random texture",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Regular texture",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Smooth texture",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Coarse texture",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich application uses texture features?\n{\n= Surface inspection\n~ Gamma correction\n~ File encryption\n~ Histogram equalization\n}",
+    "title": "MC9",
+    "question": "Which application uses texture features?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Surface inspection",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Gamma correction",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "File encryption",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram equalization",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich method analyzes texture in the frequency domain?\n{\n= Spectral methods\n~ Statistical methods\n~ Structural methods\n~ Histogram methods\n}",
+    "title": "MC10",
+    "question": "Which method analyzes texture in the frequency domain?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Spectral methods",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Statistical methods",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Structural methods",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram methods",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the texture type to its property.\n{\n= Smooth -> Low variation\n= Coarse -> Rough, large variation\n= Regular -> Repetitive patterns\n= Random -> No clear pattern\n}",
+    "title": "MATCH1",
+    "question": "Match the texture type to its property.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Smooth",
+        "right": "Low variation"
+      },
+      {
+        "id": 2,
+        "left": "Coarse",
+        "right": "Rough, large variation"
+      },
+      {
+        "id": 3,
+        "left": "Regular",
+        "right": "Repetitive patterns"
+      },
+      {
+        "id": 4,
+        "left": "Random",
+        "right": "No clear pattern"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the approach to description.\n{\n= Statistical -> Distribution-based\n= Structural -> Pattern-based\n= Spectral -> Frequency-based\n= Hybrid -> Combination\n}",
+    "title": "MATCH2",
+    "question": "Match the approach to description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Statistical",
+        "right": "Distribution-based"
+      },
+      {
+        "id": 2,
+        "left": "Structural",
+        "right": "Pattern-based"
+      },
+      {
+        "id": 3,
+        "left": "Spectral",
+        "right": "Frequency-based"
+      },
+      {
+        "id": 4,
+        "left": "Hybrid",
+        "right": "Combination"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the method to its type.\n{\n= Histogram -> Statistical\n= Co-occurrence matrix -> Statistical\n= Gabor filter -> Spectral\n= Tiling model -> Structural\n}",
+    "title": "MATCH3",
+    "question": "Match the method to its type.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Histogram",
+        "right": "Statistical"
+      },
+      {
+        "id": 2,
+        "left": "Co-occurrence matrix",
+        "right": "Statistical"
+      },
+      {
+        "id": 3,
+        "left": "Gabor filter",
+        "right": "Spectral"
+      },
+      {
+        "id": 4,
+        "left": "Tiling model",
+        "right": "Structural"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the domain to application.\n{\n= Medical imaging -> Tissue classification\n= Remote sensing -> Terrain classification\n= Industrial -> Surface inspection\n= Graphics -> Texture synthesis\n}",
+    "title": "MATCH4",
+    "question": "Match the domain to application.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Medical imaging",
+        "right": "Tissue classification"
+      },
+      {
+        "id": 2,
+        "left": "Remote sensing",
+        "right": "Terrain classification"
+      },
+      {
+        "id": 3,
+        "left": "Industrial",
+        "right": "Surface inspection"
+      },
+      {
+        "id": 4,
+        "left": "Graphics",
+        "right": "Texture synthesis"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the descriptor to meaning.\n{\n= Contrast -> Difference in intensity\n= Homogeneity -> Uniformity\n= Energy -> Repetition strength\n= Entropy -> Randomness\n}",
+    "title": "MATCH5",
+    "question": "Match the descriptor to meaning.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Contrast",
+        "right": "Difference in intensity"
+      },
+      {
+        "id": 2,
+        "left": "Homogeneity",
+        "right": "Uniformity"
+      },
+      {
+        "id": 3,
+        "left": "Energy",
+        "right": "Repetition strength"
+      },
+      {
+        "id": 4,
+        "left": "Entropy",
+        "right": "Randomness"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the method to output.\n{\n= Statistical -> Feature values\n= Structural -> Shape elements\n= Spectral -> Frequency components\n= Hybrid -> Combined descriptors\n}",
+    "title": "MATCH6",
+    "question": "Match the method to output.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Statistical",
+        "right": "Feature values"
+      },
+      {
+        "id": 2,
+        "left": "Structural",
+        "right": "Shape elements"
+      },
+      {
+        "id": 3,
+        "left": "Spectral",
+        "right": "Frequency components"
+      },
+      {
+        "id": 4,
+        "left": "Hybrid",
+        "right": "Combined descriptors"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the texture to example.\n{\n= Smooth -> Clear sky\n= Coarse -> Gravel road\n= Regular -> Brick wall\n= Random -> Clouds\n}",
+    "title": "MATCH7",
+    "question": "Match the texture to example.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Smooth",
+        "right": "Clear sky"
+      },
+      {
+        "id": 2,
+        "left": "Coarse",
+        "right": "Gravel road"
+      },
+      {
+        "id": 3,
+        "left": "Regular",
+        "right": "Brick wall"
+      },
+      {
+        "id": 4,
+        "left": "Random",
+        "right": "Clouds"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the feature to property.\n{\n= Histogram -> Pixel intensity distribution\n= Co-occurrence -> Spatial relation of pixels\n= Fourier -> Frequency components\n= Gabor -> Multi-scale texture\n}",
+    "title": "MATCH8",
+    "question": "Match the feature to property.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Histogram",
+        "right": "Pixel intensity distribution"
+      },
+      {
+        "id": 2,
+        "left": "Co-occurrence",
+        "right": "Spatial relation of pixels"
+      },
+      {
+        "id": 3,
+        "left": "Fourier",
+        "right": "Frequency components"
+      },
+      {
+        "id": 4,
+        "left": "Gabor",
+        "right": "Multi-scale texture"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the field to usage.\n{\n= Remote sensing -> Land classification\n= Medicine -> Tumor analysis\n= Robotics -> Surface navigation\n= Inspection -> Quality control\n}",
+    "title": "MATCH9",
+    "question": "Match the field to usage.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Remote sensing",
+        "right": "Land classification"
+      },
+      {
+        "id": 2,
+        "left": "Medicine",
+        "right": "Tumor analysis"
+      },
+      {
+        "id": 3,
+        "left": "Robotics",
+        "right": "Surface navigation"
+      },
+      {
+        "id": 4,
+        "left": "Inspection",
+        "right": "Quality control"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the concept to contrast.\n{\n= Smooth -> Low contrast\n= Coarse -> High contrast\n= Regular -> Predictable\n= Random -> Unpredictable\n}",
+    "title": "MATCH10",
+    "question": "Match the concept to contrast.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Smooth",
+        "right": "Low contrast"
+      },
+      {
+        "id": 2,
+        "left": "Coarse",
+        "right": "High contrast"
+      },
+      {
+        "id": 3,
+        "left": "Regular",
+        "right": "Predictable"
+      },
+      {
+        "id": 4,
+        "left": "Random",
+        "right": "Unpredictable"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are types of texture?\n{\n~%25% Smooth\n~%25% Coarse\n~%25% Regular\n~%25% Random\n}",
+    "title": "MULTI1",
+    "question": "Which are types of texture?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Smooth",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Coarse",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Regular",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Random",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are approaches to texture analysis?\n{\n~%33.33333% Statistical\n~%33.33333% Structural\n~%33.33333% Spectral\n~%-100% Gamma correction\n}",
+    "title": "MULTI2",
+    "question": "Which are approaches to texture analysis?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Statistical",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Structural",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Spectral",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Gamma correction",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are statistical descriptors for texture?\n{\n~%33.33333% Co-occurrence matrix\n~%33.33333% Histogram\n~%33.33333% Contrast/entropy\n~%-100% Gabor filtering\n}",
+    "title": "MULTI3",
+    "question": "Which are statistical descriptors for texture?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Co-occurrence matrix",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Histogram",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Contrast/entropy",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Gabor filtering",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are spectral methods?\n{\n~%50% Fourier transform\n~%50% Gabor filters\n~%-100% Co-occurrence\n~%-100% Histogram\n}",
+    "title": "MULTI4",
+    "question": "Which are spectral methods?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Fourier transform",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Gabor filters",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Co-occurrence",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Histogram",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are structural methods?\n{\n~%50% Tiling models\n~%50% Repeated primitives\n~%-100% Fourier transform\n~%-100% Histogram\n}",
+    "title": "MULTI5",
+    "question": "Which are structural methods?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Tiling models",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Repeated primitives",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Fourier transform",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Histogram",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are applications of texture analysis?\n{\n~%25% Medical imaging\n~%25% Remote sensing\n~%25% Industrial inspection\n~%25% Graphics\n}",
+    "title": "MULTI6",
+    "question": "Which are applications of texture analysis?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Medical imaging",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Remote sensing",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Industrial inspection",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Graphics",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are descriptors derived from co-occurrence matrices?\n{\n~%25% Contrast\n~%25% Energy\n~%25% Homogeneity\n~%25% Entropy\n}",
+    "title": "MULTI7",
+    "question": "Which are descriptors derived from co-occurrence matrices?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Contrast",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Energy",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Homogeneity",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Entropy",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are properties of coarse texture?\n{\n~%33.33333% Large variations\n~%33.33333% Rough appearance\n~%33.33333% High contrast\n~%-100% Smooth uniformity\n}",
+    "title": "MULTI8",
+    "question": "Which are properties of coarse texture?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Large variations",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Rough appearance",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "High contrast",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Smooth uniformity",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are properties of smooth texture?\n{\n~%33.33333% Low variation\n~%33.33333% Fine patterns\n~%33.33333% Uniform intensity\n~%-100% Rough randomness\n}",
+    "title": "MULTI9",
+    "question": "Which are properties of smooth texture?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Low variation",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Fine patterns",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Uniform intensity",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Rough randomness",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are challenges in texture analysis?\n{\n~%33.33333% Illumination variation\n~%33.33333% Noise\n~%33.33333% Scale changes\n~%-100% File compression\n}",
+    "title": "MULTI10",
+    "question": "Which are challenges in texture analysis?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Illumination variation",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Noise",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Scale changes",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "File compression",
+        "weight": -100.0
+      }
+    ]
+  }
+]

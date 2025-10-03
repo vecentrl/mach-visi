@@ -1,0 +1,309 @@
+::TF1::
+Nearest Neighbor classification assigns a label based on the closest training sample.
+{TRUE}
+
+::TF2::
+Nearest Centroid classification assigns a label based on the mean of each class.
+{TRUE}
+
+::TF3::
+Euclidean distance is commonly used in NN classification.
+{TRUE}
+
+::TF4::
+Nearest Neighbor is always robust to noise.
+{FALSE}
+
+::TF5::
+Nearest Centroid is faster than Nearest Neighbor for large datasets.
+{TRUE}
+
+::TF6::
+Manhattan distance is also known as L1 distance.
+{TRUE}
+
+::TF7::
+Cosine similarity can be used as a distance measure in classification.
+{TRUE}
+
+::TF8::
+Nearest Neighbor requires storing the entire training set.
+{TRUE}
+
+::TF9::
+Nearest Centroid only needs to store class averages.
+{TRUE}
+
+::TF10::
+NN and centroid classifiers are widely used in handwriting recognition.
+{TRUE}
+
+::MC1::
+What is the basis of Nearest Neighbor classification?
+{
+= Distance to the closest training sample
+~ Distance to class mean
+~ Decision tree splits
+~ Histogram bins
+}
+
+::MC2::
+What is the basis of Nearest Centroid classification?
+{
+= Distance to class mean
+~ Distance to closest neighbor
+~ Gradient-based optimization
+~ Histogram equalization
+}
+
+::MC3::
+Which distance metric is most common in NN?
+{
+= Euclidean
+~ Cosine
+~ Jaccard
+~ Chi-square
+}
+
+::MC4::
+Which distance metric is also known as L1 distance?
+{
+= Manhattan
+~ Euclidean
+~ Cosine
+~ Mahalanobis
+}
+
+::MC5::
+Which is an advantage of NN?
+{
+= Simple and intuitive
+~ Requires no distance measure
+~ Ignores training data
+~ Perfect robustness
+}
+
+::MC6::
+Which is an advantage of Nearest Centroid?
+{
+= Requires storing only class means
+~ Requires all samples
+~ Always more accurate
+~ Requires no distance
+}
+
+::MC7::
+Which is a limitation of NN?
+{
+= Sensitive to noise
+~ Always invariant
+~ Requires no data
+~ Ignores distance
+}
+
+::MC8::
+Which is a limitation of Nearest Centroid?
+{
+= Can oversimplify class boundaries
+~ Requires storing all training data
+~ Computationally expensive
+~ Always perfect
+}
+
+::MC9::
+Which application uses NN classifiers?
+{
+= Handwriting recognition
+~ Gamma correction
+~ White balance
+~ Audio compression
+}
+
+::MC10::
+Which application uses Centroid classifiers?
+{
+= Face recognition
+~ Histogram equalization
+~ Audio synthesis
+~ File encryption
+}
+
+::MATCH1::
+Match the classifier to its rule.
+{
+= NN -> Closest training sample
+= Centroid -> Closest class mean
+= SVM -> Decision boundary
+= k-means -> Cluster assignment
+}
+
+::MATCH2::
+Match the distance metric to property.
+{
+= Euclidean -> L2 norm
+= Manhattan -> L1 norm
+= Cosine -> Angle similarity
+= Mahalanobis -> Accounts for variance
+}
+
+::MATCH3::
+Match the classifier to advantage.
+{
+= NN -> Simple
+= Centroid -> Compact storage
+= SVM -> Strong generalization
+= Decision tree -> Interpretability
+}
+
+::MATCH4::
+Match the classifier to drawback.
+{
+= NN -> Sensitive to noise
+= Centroid -> Oversimplified boundaries
+= SVM -> Requires tuning
+= Decision tree -> Overfitting
+}
+
+::MATCH5::
+Match the method to storage requirement.
+{
+= NN -> All training samples
+= Centroid -> Class averages
+= kNN -> k neighbors
+= PCA -> Reduced dimensions
+}
+
+::MATCH6::
+Match the metric to example.
+{
+= Euclidean -> Straight-line distance
+= Manhattan -> Grid-like distance
+= Cosine -> Document similarity
+= Mahalanobis -> Correlated features
+}
+
+::MATCH7::
+Match the application to classifier.
+{
+= Handwriting -> NN
+= Face recognition -> Centroid
+= Retrieval -> NN
+= Object classification -> Both
+}
+
+::MATCH8::
+Match the concept to type.
+{
+= Prototype -> Centroid
+= Instance -> Nearest Neighbor
+= Cluster -> k-means
+= Margin -> SVM
+}
+
+::MATCH9::
+Match the limitation to cause.
+{
+= Noise sensitivity -> NN
+= Oversimplification -> Centroid
+= High computation -> NN
+= Storage -> NN
+}
+
+::MATCH10::
+Match the classifier to domain.
+{
+= NN -> Small datasets
+= Centroid -> Large class-based sets
+= SVM -> High-dimensional data
+= CNN -> Deep learning
+}
+
+::MULTI1::
+Which are properties of NN?
+{
+~%33.33333% Simple
+~%33.33333% Needs full training set
+~%33.33333% Sensitive to noise
+~%-100% Always compact
+}
+
+::MULTI2::
+Which are properties of Nearest Centroid?
+{
+~%33.33333% Uses class means
+~%33.33333% Compact storage
+~%33.33333% Fast classification
+~%-100% Needs all samples
+}
+
+::MULTI3::
+Which are distance metrics?
+{
+~%25% Euclidean
+~%25% Manhattan
+~%25% Cosine
+~%25% Mahalanobis
+}
+
+::MULTI4::
+Which are applications of NN?
+{
+~%33.33333% Handwriting recognition
+~%33.33333% Retrieval
+~%33.33333% Object recognition
+~%-100% Audio synthesis
+}
+
+::MULTI5::
+Which are applications of Centroid classifiers?
+{
+~%33.33333% Face recognition
+~%33.33333% Object classification
+~%33.33333% Document categorization
+~%-100% Histogram smoothing
+}
+
+::MULTI6::
+Which are limitations of NN?
+{
+~%50% Sensitive to noise
+~%50% Computationally expensive
+~%-100% Requires only class mean
+~%-100% Always compact
+}
+
+::MULTI7::
+Which are limitations of Centroid classifiers?
+{
+~%50% Oversimplified decision boundary
+~%50% Poor with overlapping classes
+~%-100% Requires all samples
+~%-100% Always robust
+}
+
+::MULTI8::
+Which are distance-based classifiers?
+{
+~%50% NN
+~%50% Centroid
+~%-100% Decision tree
+~%-100% SVM margin
+}
+
+::MULTI9::
+Which are desirable properties of classifiers?
+{
+~%25% Accuracy
+~%25% Efficiency
+~%25% Robustness
+~%25% Generalization
+}
+
+::MULTI10::
+Which are challenges in distance-based classification?
+{
+~%33.33333% Scaling issues
+~%33.33333% Noise
+~%33.33333% High-dimensional data
+~%-100% Always perfect
+}

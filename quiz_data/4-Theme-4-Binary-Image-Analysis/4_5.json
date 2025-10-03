@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhich property is given by the centroid of a shape?\n{\n= Geometric center\n~ Boundary length\n~ Brightness\n~ Noise level\n}",
+    "title": "MC1",
+    "question": "Which property is given by the centroid of a shape?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Geometric center",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Boundary length",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Brightness",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Noise level",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhich property is described by orientation moments?\n{\n= Main axis of the shape\n~ Color\n~ Texture\n~ File size\n}",
+    "title": "MC2",
+    "question": "Which property is described by orientation moments?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Main axis of the shape",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Color",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Texture",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "File size",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhich moments are invariant to translation, rotation, and scale?\n{\n= Hu moments\n~ Raw moments\n~ Color histograms\n~ Edge gradients\n}",
+    "title": "MC3",
+    "question": "Which moments are invariant to translation, rotation, and scale?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Hu moments",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Raw moments",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Color histograms",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Edge gradients",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhat do Fourier descriptors represent?\n{\n= Boundary shape in frequency domain\n~ Intensity histogram\n~ Color distribution\n~ Texture patches\n}",
+    "title": "MC4",
+    "question": "What do Fourier descriptors represent?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Boundary shape in frequency domain",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Intensity histogram",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Color distribution",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Texture patches",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhat does skeletonization produce?\n{\n= Medial axis of a shape\n~ Outer contour\n~ Histogram equalization\n~ Noise removal\n}",
+    "title": "MC5",
+    "question": "What does skeletonization produce?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Medial axis of a shape",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Outer contour",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Noise removal",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich is an advantage of Fourier descriptors?\n{\n= Compact boundary representation\n~ Require raw pixel texture\n~ Only work for convex shapes\n~ Always lose invariance\n}",
+    "title": "MC6",
+    "question": "Which is an advantage of Fourier descriptors?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Compact boundary representation",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Require raw pixel texture",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Only work for convex shapes",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Always lose invariance",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich is an application of skeletons?\n{\n= Analyzing branching structures\n~ File compression\n~ Gamma correction\n~ Histogram smoothing\n}",
+    "title": "MC7",
+    "question": "Which is an application of skeletons?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Analyzing branching structures",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "File compression",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Gamma correction",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram smoothing",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich property should robust shape descriptors have?\n{\n= Invariance to scale, rotation, translation\n~ Sensitivity to noise\n~ Dependence on file type\n~ Dependence on illumination\n}",
+    "title": "MC8",
+    "question": "Which property should robust shape descriptors have?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Invariance to scale, rotation, translation",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Sensitivity to noise",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Dependence on file type",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Dependence on illumination",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich moment feature describes the area of a shape?\n{\n= Zeroth-order moment\n~ First-order moment\n~ Second-order moment\n~ Hu moment 1\n}",
+    "title": "MC9",
+    "question": "Which moment feature describes the area of a shape?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Zeroth-order moment",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "First-order moment",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Second-order moment",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Hu moment 1",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich is a limitation of skeletons?\n{\n= Sensitive to noise and boundary irregularities\n~ Always compact\n~ Always invariant\n~ Ignore structure\n}",
+    "title": "MC10",
+    "question": "Which is a limitation of skeletons?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Sensitive to noise and boundary irregularities",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Always compact",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Always invariant",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Ignore structure",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the descriptor to its type.\n{\n= Moments -> Region-based\n= Fourier descriptors -> Boundary-based\n= Skeleton -> Medial axis\n= Compactness -> Simple descriptor\n}",
+    "title": "MATCH1",
+    "question": "Match the descriptor to its type.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Moments",
+        "right": "Region-based"
+      },
+      {
+        "id": 2,
+        "left": "Fourier descriptors",
+        "right": "Boundary-based"
+      },
+      {
+        "id": 3,
+        "left": "Skeleton",
+        "right": "Medial axis"
+      },
+      {
+        "id": 4,
+        "left": "Compactness",
+        "right": "Simple descriptor"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the moment to property.\n{\n= Zeroth-order -> Area\n= First-order -> Centroid\n= Second-order -> Orientation\n= Hu moments -> Invariant features\n}",
+    "title": "MATCH2",
+    "question": "Match the moment to property.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Zeroth-order",
+        "right": "Area"
+      },
+      {
+        "id": 2,
+        "left": "First-order",
+        "right": "Centroid"
+      },
+      {
+        "id": 3,
+        "left": "Second-order",
+        "right": "Orientation"
+      },
+      {
+        "id": 4,
+        "left": "Hu moments",
+        "right": "Invariant features"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the method to its application.\n{\n= Moments -> Shape recognition\n= Fourier descriptors -> Boundary matching\n= Skeleton -> Branch analysis\n= Compactness -> Roundness measure\n}",
+    "title": "MATCH3",
+    "question": "Match the method to its application.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Moments",
+        "right": "Shape recognition"
+      },
+      {
+        "id": 2,
+        "left": "Fourier descriptors",
+        "right": "Boundary matching"
+      },
+      {
+        "id": 3,
+        "left": "Skeleton",
+        "right": "Branch analysis"
+      },
+      {
+        "id": 4,
+        "left": "Compactness",
+        "right": "Roundness measure"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the property to the descriptor.\n{\n= Area -> Moment\n= Centroid -> Moment\n= Boundary shape -> Fourier descriptor\n= Thin axis -> Skeleton\n}",
+    "title": "MATCH4",
+    "question": "Match the property to the descriptor.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Area",
+        "right": "Moment"
+      },
+      {
+        "id": 2,
+        "left": "Centroid",
+        "right": "Moment"
+      },
+      {
+        "id": 3,
+        "left": "Boundary shape",
+        "right": "Fourier descriptor"
+      },
+      {
+        "id": 4,
+        "left": "Thin axis",
+        "right": "Skeleton"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the invariant feature to example.\n{\n= Translation invariance -> Centroid shift removed\n= Scale invariance -> Normalized descriptors\n= Rotation invariance -> Angle normalization\n= Hu moments -> All three invariances\n}",
+    "title": "MATCH5",
+    "question": "Match the invariant feature to example.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Translation invariance",
+        "right": "Centroid shift removed"
+      },
+      {
+        "id": 2,
+        "left": "Scale invariance",
+        "right": "Normalized descriptors"
+      },
+      {
+        "id": 3,
+        "left": "Rotation invariance",
+        "right": "Angle normalization"
+      },
+      {
+        "id": 4,
+        "left": "Hu moments",
+        "right": "All three invariances"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the algorithm to domain.\n{\n= Moments -> Region statistics\n= Fourier -> Frequency representation\n= Skeleton -> Topological analysis\n= Compactness -> Simple measurement\n}",
+    "title": "MATCH6",
+    "question": "Match the algorithm to domain.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Moments",
+        "right": "Region statistics"
+      },
+      {
+        "id": 2,
+        "left": "Fourier",
+        "right": "Frequency representation"
+      },
+      {
+        "id": 3,
+        "left": "Skeleton",
+        "right": "Topological analysis"
+      },
+      {
+        "id": 4,
+        "left": "Compactness",
+        "right": "Simple measurement"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the descriptor to limitation.\n{\n= Moments -> Sensitive to noise\n= Fourier -> Boundary-dependent\n= Skeleton -> Sensitive to irregularities\n= Compactness -> Not unique\n}",
+    "title": "MATCH7",
+    "question": "Match the descriptor to limitation.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Moments",
+        "right": "Sensitive to noise"
+      },
+      {
+        "id": 2,
+        "left": "Fourier",
+        "right": "Boundary-dependent"
+      },
+      {
+        "id": 3,
+        "left": "Skeleton",
+        "right": "Sensitive to irregularities"
+      },
+      {
+        "id": 4,
+        "left": "Compactness",
+        "right": "Not unique"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the feature to invariant property.\n{\n= Hu moments -> Rotation\n= Fourier descriptors -> Scale\n= Normalization -> Translation\n= Centroid -> Position\n}",
+    "title": "MATCH8",
+    "question": "Match the feature to invariant property.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Hu moments",
+        "right": "Rotation"
+      },
+      {
+        "id": 2,
+        "left": "Fourier descriptors",
+        "right": "Scale"
+      },
+      {
+        "id": 3,
+        "left": "Normalization",
+        "right": "Translation"
+      },
+      {
+        "id": 4,
+        "left": "Centroid",
+        "right": "Position"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the representation to robustness.\n{\n= Moments -> Region-based stability\n= Fourier -> Boundary detail\n= Skeleton -> Topology preservation\n= Compactness -> Rough descriptor\n}",
+    "title": "MATCH9",
+    "question": "Match the representation to robustness.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Moments",
+        "right": "Region-based stability"
+      },
+      {
+        "id": 2,
+        "left": "Fourier",
+        "right": "Boundary detail"
+      },
+      {
+        "id": 3,
+        "left": "Skeleton",
+        "right": "Topology preservation"
+      },
+      {
+        "id": 4,
+        "left": "Compactness",
+        "right": "Rough descriptor"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the property to feature.\n{\n= Area -> Zeroth-order moment\n= Centroid -> First-order moment\n= Orientation -> Second-order moment\n= Hu moments -> Invariant shape descriptor\n}",
+    "title": "MATCH10",
+    "question": "Match the property to feature.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Area",
+        "right": "Zeroth-order moment"
+      },
+      {
+        "id": 2,
+        "left": "Centroid",
+        "right": "First-order moment"
+      },
+      {
+        "id": 3,
+        "left": "Orientation",
+        "right": "Second-order moment"
+      },
+      {
+        "id": 4,
+        "left": "Hu moments",
+        "right": "Invariant shape descriptor"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are examples of region-based descriptors?\n{\n~%33.33333% Moments\n~%33.33333% Area\n~%33.33333% Centroid\n~%-100% Fourier descriptors\n}",
+    "title": "MULTI1",
+    "question": "Which are examples of region-based descriptors?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Moments",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Area",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Centroid",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Fourier descriptors",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are examples of boundary-based descriptors?\n{\n~%50% Fourier descriptors\n~%50% Contours\n~%-100% Moments\n~%-100% Skeleton\n}",
+    "title": "MULTI2",
+    "question": "Which are examples of boundary-based descriptors?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Fourier descriptors",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Contours",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Moments",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Skeleton",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are properties of Hu moments?\n{\n~%33.33333% Invariant to translation\n~%33.33333% Invariant to scale\n~%33.33333% Invariant to rotation\n~%-100% Dependent on illumination\n}",
+    "title": "MULTI3",
+    "question": "Which are properties of Hu moments?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Invariant to translation",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Invariant to scale",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Invariant to rotation",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Dependent on illumination",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are properties of skeletonization?\n{\n~%33.33333% Produces medial axis\n~%33.33333% Useful for elongated shapes\n~%33.33333% Sensitive to noise\n~%-100% Preserves pixel intensities\n}",
+    "title": "MULTI4",
+    "question": "Which are properties of skeletonization?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Produces medial axis",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Useful for elongated shapes",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Sensitive to noise",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Preserves pixel intensities",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are advantages of Fourier descriptors?\n{\n~%33.33333% Compact shape representation\n~%33.33333% Boundary matching\n~%33.33333% Invariance with normalization\n~%-100% Region-based\n}",
+    "title": "MULTI5",
+    "question": "Which are advantages of Fourier descriptors?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Compact shape representation",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Boundary matching",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Invariance with normalization",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Region-based",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are basic shape descriptors?\n{\n~%33.33333% Compactness\n~%33.33333% Area\n~%33.33333% Perimeter\n~%-100% JPEG size\n}",
+    "title": "MULTI6",
+    "question": "Which are basic shape descriptors?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Compactness",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Area",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Perimeter",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "JPEG size",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are desirable properties of shape descriptors?\n{\n~%25% Scale invariance\n~%25% Rotation invariance\n~%25% Translation invariance\n~%25% Robustness\n}",
+    "title": "MULTI7",
+    "question": "Which are desirable properties of shape descriptors?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Scale invariance",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Rotation invariance",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Translation invariance",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Robustness",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are challenges for skeletons?\n{\n~%50% Noise sensitivity\n~%50% Boundary irregularities\n~%-100% Always smooth\n~%-100% Always unique\n}",
+    "title": "MULTI8",
+    "question": "Which are challenges for skeletons?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Noise sensitivity",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Boundary irregularities",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Always smooth",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Always unique",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are examples of invariant shape representations?\n{\n~%33.33333% Hu moments\n~%33.33333% Normalized Fourier descriptors\n~%33.33333% Compactness ratio\n~%-100% Raw pixel intensity\n}",
+    "title": "MULTI9",
+    "question": "Which are examples of invariant shape representations?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Hu moments",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Normalized Fourier descriptors",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Compactness ratio",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Raw pixel intensity",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are applications of advanced shape descriptors?\n{\n~%33.33333% Object recognition\n~%33.33333% Shape classification\n~%33.33333% Image retrieval\n~%-100% File compression\n}",
+    "title": "MULTI10",
+    "question": "Which are applications of advanced shape descriptors?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Object recognition",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Shape classification",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Image retrieval",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "File compression",
+        "weight": -100.0
+      }
+    ]
+  }
+]

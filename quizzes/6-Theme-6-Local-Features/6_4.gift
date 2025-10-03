@@ -1,0 +1,309 @@
+::TF1::
+Local descriptors represent detected features with numerical vectors.
+{TRUE}
+
+::TF2::
+SIFT is scale- and rotation-invariant.
+{TRUE}
+
+::TF3::
+SURF is faster than SIFT but less precise.
+{TRUE}
+
+::TF4::
+ORB is a binary descriptor designed for efficiency.
+{TRUE}
+
+::TF5::
+All local descriptors are invariant to every transformation.
+{FALSE}
+
+::TF6::
+A good descriptor should be distinctive and robust.
+{TRUE}
+
+::TF7::
+SIFT descriptors are based on gradient orientation histograms.
+{TRUE}
+
+::TF8::
+ORB combines FAST keypoints with BRIEF descriptors.
+{TRUE}
+
+::TF9::
+SURF stands for Speeded-Up Robust Features.
+{TRUE}
+
+::TF10::
+Local descriptors are important for matching, recognition, and SLAM.
+{TRUE}
+
+::MC1::
+What is the main purpose of a local descriptor?
+{
+= To represent a feature for matching and recognition
+~ To compress an image
+~ To remove noise
+~ To balance colors
+}
+
+::MC2::
+Which descriptor is known for high robustness but high cost?
+{
+= SIFT
+~ SURF
+~ ORB
+~ FAST
+}
+
+::MC3::
+Which descriptor was designed as a faster approximation of SIFT?
+{
+= SURF
+~ ORB
+~ FAST
+~ MSER
+}
+
+::MC4::
+Which descriptor is binary and efficient for real-time?
+{
+= ORB
+~ SIFT
+~ SURF
+~ Harris
+}
+
+::MC5::
+Which property is essential for a good local descriptor?
+{
+= Distinctiveness
+~ Randomness
+~ Sensitivity to noise
+~ File size dependence
+}
+
+::MC6::
+Which descriptor is based on gradient orientation histograms?
+{
+= SIFT
+~ SURF
+~ ORB
+~ BRIEF
+}
+
+::MC7::
+Which descriptor combines FAST with BRIEF?
+{
+= ORB
+~ SIFT
+~ SURF
+~ MSER
+}
+
+::MC8::
+Which descriptor is most computationally heavy?
+{
+= SIFT
+~ SURF
+~ ORB
+~ FAST
+}
+
+::MC9::
+Which property is improved in SURF compared to SIFT?
+{
+= Speed
+~ Accuracy
+~ Distinctiveness
+~ Rotation sensitivity
+}
+
+::MC10::
+Which application uses local descriptors?
+{
+= 3D reconstruction
+~ Histogram equalization
+~ File compression
+~ Gamma correction
+}
+
+::MATCH1::
+Match the descriptor to property.
+{
+= SIFT -> Gradient histograms
+= SURF -> Faster SIFT approximation
+= ORB -> Binary descriptor
+= All -> Feature matching
+}
+
+::MATCH2::
+Match the acronym to meaning.
+{
+= SIFT -> Scale-Invariant Feature Transform
+= SURF -> Speeded-Up Robust Features
+= ORB -> Oriented FAST and BRIEF
+= SLAM -> Simultaneous Localization and Mapping
+}
+
+::MATCH3::
+Match the descriptor to drawback.
+{
+= SIFT -> Slow
+= SURF -> Less distinctive than SIFT
+= ORB -> Less robust to large scale changes
+= All -> Sensitive to extreme illumination
+}
+
+::MATCH4::
+Match the descriptor to advantage.
+{
+= SIFT -> Robustness
+= SURF -> Speed
+= ORB -> Efficiency
+= All -> Feature matching
+}
+
+::MATCH5::
+Match the descriptor to application.
+{
+= SIFT -> Object recognition
+= SURF -> Image retrieval
+= ORB -> Real-time SLAM
+= All -> 3D reconstruction
+}
+
+::MATCH6::
+Match the descriptor to data type.
+{
+= SIFT -> Floating-point vectors
+= SURF -> Floating-point (shorter)
+= ORB -> Binary vectors
+= All -> Feature descriptors
+}
+
+::MATCH7::
+Match the requirement to property.
+{
+= Distinctive -> Differentiates features
+= Robust -> Works under noise
+= Compact -> Efficient representation
+= Invariant -> Stable under changes
+}
+
+::MATCH8::
+Match the step to descriptor.
+{
+= Compute gradients -> SIFT
+= Use Haar wavelets -> SURF
+= Binary intensity test -> ORB
+= Build feature vector -> All
+}
+
+::MATCH9::
+Match the detector-descriptor pair.
+{
+= FAST -> ORB
+= MSER -> Region descriptor
+= Harris -> Corners
+= SIFT -> Scale-invariant features
+}
+
+::MATCH10::
+Match the challenge to effect.
+{
+= Noise -> Descriptor errors
+= Scale change -> Matching issues
+= Rotation -> Orientation differences
+= Illumination -> Reduced distinctiveness
+}
+
+::MULTI1::
+Which are local descriptors?
+{
+~%33.33333% SIFT
+~%33.33333% SURF
+~%33.33333% ORB
+~%-100% FAST
+}
+
+::MULTI2::
+Which are desirable properties of descriptors?
+{
+~%25% Distinctiveness
+~%25% Robustness
+~%25% Compactness
+~%25% Invariance
+}
+
+::MULTI3::
+Which are true of SIFT?
+{
+~%33.33333% Scale-invariant
+~%33.33333% Rotation-invariant
+~%33.33333% Gradient histograms
+~%-100% Binary descriptor
+}
+
+::MULTI4::
+Which are true of SURF?
+{
+~%33.33333% Faster than SIFT
+~%33.33333% Uses Haar wavelets
+~%33.33333% Robust features
+~%-100% Binary-only
+}
+
+::MULTI5::
+Which are true of ORB?
+{
+~%33.33333% Combines FAST + BRIEF
+~%33.33333% Binary descriptors
+~%33.33333% Efficient for real-time
+~%-100% Gradient histograms
+}
+
+::MULTI6::
+Which are applications of local descriptors?
+{
+~%25% Object recognition
+~%25% Image retrieval
+~%25% SLAM
+~%25% 3D reconstruction
+}
+
+::MULTI7::
+Which are drawbacks of SIFT?
+{
+~%50% Computationally expensive
+~%50% Slower than SURF
+~%-100% Binary-only
+~%-100% Not distinctive
+}
+
+::MULTI8::
+Which are drawbacks of ORB?
+{
+~%50% Less robust to large scale changes
+~%50% Less distinctive than SIFT
+~%-100% Always slow
+~%-100% Requires floating-point
+}
+
+::MULTI9::
+Which are differences between descriptors?
+{
+~%33.33333% SIFT = floating-point
+~%33.33333% SURF = faster, shorter vectors
+~%33.33333% ORB = binary vectors
+~%-100% All identical
+}
+
+::MULTI10::
+Which are properties of good local descriptors?
+{
+~%25% Distinctiveness
+~%25% Robustness
+~%25% Efficiency
+~%25% Invariance
+}

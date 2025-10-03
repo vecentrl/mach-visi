@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhat does dense optical flow provide?\n{\n= Motion vectors for every pixel\n~ Motion vectors for corners only\n~ Histograms\n~ Binary segmentation\n}",
+    "title": "MC1",
+    "question": "What does dense optical flow provide?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Motion vectors for every pixel",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Motion vectors for corners only",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Histograms",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Binary segmentation",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhich method is a global dense flow algorithm?\n{\n= Horn–Schunck\n~ Lucas–Kanade\n~ CNN tracker\n~ Frame differencing\n}",
+    "title": "MC2",
+    "question": "Which method is a global dense flow algorithm?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Horn–Schunck",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Lucas–Kanade",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "CNN tracker",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Frame differencing",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhich describes a dense flow field?\n{\n= Complete velocity map of all pixels\n~ Sparse set of features\n~ Histogram bins\n~ Object bounding boxes\n}",
+    "title": "MC3",
+    "question": "Which describes a dense flow field?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Complete velocity map of all pixels",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Sparse set of features",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Histogram bins",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Object bounding boxes",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhich is an application of dense flow?\n{\n= Crowd analysis\n~ JPEG compression\n~ White balance\n~ Histogram smoothing\n}",
+    "title": "MC4",
+    "question": "Which is an application of dense flow?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Crowd analysis",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "JPEG compression",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "White balance",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram smoothing",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhich is a limitation of dense flow?\n{\n= Sensitive to illumination and noise\n~ Always robust\n~ Requires no computation\n~ Ignores occlusion\n}",
+    "title": "MC5",
+    "question": "Which is a limitation of dense flow?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Sensitive to illumination and noise",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Always robust",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Requires no computation",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Ignores occlusion",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich property does Horn–Schunck enforce?\n{\n= Global smoothness\n~ Sparse matching\n~ Histogram equalization\n~ Random sampling\n}",
+    "title": "MC6",
+    "question": "Which property does Horn–Schunck enforce?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Global smoothness",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Sparse matching",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Random sampling",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich is an advantage of dense flow?\n{\n= Provides full motion information\n~ Always fastest\n~ No assumptions\n~ Works only on corners\n}",
+    "title": "MC7",
+    "question": "Which is an advantage of dense flow?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Provides full motion information",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Always fastest",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "No assumptions",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Works only on corners",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich is a drawback of dense flow?\n{\n= High computational cost\n~ Provides no motion information\n~ Always perfect\n~ Ignores smoothness\n}",
+    "title": "MC8",
+    "question": "Which is a drawback of dense flow?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "High computational cost",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Provides no motion information",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Always perfect",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Ignores smoothness",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich challenge affects dense flow estimation?\n{\n= Occlusion\n~ Perfect robustness\n~ Small dataset size\n~ Always smooth\n}",
+    "title": "MC9",
+    "question": "Which challenge affects dense flow estimation?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Occlusion",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Perfect robustness",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Small dataset size",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Always smooth",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich domain applies dense flow?\n{\n= Activity recognition\n~ File compression only\n~ White balance\n~ Gamma correction\n}",
+    "title": "MC10",
+    "question": "Which domain applies dense flow?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Activity recognition",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "File compression only",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "White balance",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Gamma correction",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the flow type to property.\n{\n= Sparse flow -> Few keypoints\n= Dense flow -> All pixels\n= Local -> Window-based\n= Global -> Smoothness\n}",
+    "title": "MATCH1",
+    "question": "Match the flow type to property.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Sparse flow",
+        "right": "Few keypoints"
+      },
+      {
+        "id": 2,
+        "left": "Dense flow",
+        "right": "All pixels"
+      },
+      {
+        "id": 3,
+        "left": "Local",
+        "right": "Window-based"
+      },
+      {
+        "id": 4,
+        "left": "Global",
+        "right": "Smoothness"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the algorithm to category.\n{\n= Lucas–Kanade -> Sparse local\n= Horn–Schunck -> Dense global\n= CNN flow -> Learned dense\n= Frame differencing -> Simple detection\n}",
+    "title": "MATCH2",
+    "question": "Match the algorithm to category.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Lucas–Kanade",
+        "right": "Sparse local"
+      },
+      {
+        "id": 2,
+        "left": "Horn–Schunck",
+        "right": "Dense global"
+      },
+      {
+        "id": 3,
+        "left": "CNN flow",
+        "right": "Learned dense"
+      },
+      {
+        "id": 4,
+        "left": "Frame differencing",
+        "right": "Simple detection"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the challenge to effect.\n{\n= Illumination -> False motion\n= Noise -> Instability\n= Occlusion -> Missing vectors\n= Computation -> High cost\n}",
+    "title": "MATCH3",
+    "question": "Match the challenge to effect.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Illumination",
+        "right": "False motion"
+      },
+      {
+        "id": 2,
+        "left": "Noise",
+        "right": "Instability"
+      },
+      {
+        "id": 3,
+        "left": "Occlusion",
+        "right": "Missing vectors"
+      },
+      {
+        "id": 4,
+        "left": "Computation",
+        "right": "High cost"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the application to field.\n{\n= Crowd analysis -> Surveillance\n= Activity recognition -> Sports\n= Video compression -> Media\n= Navigation -> Robotics\n}",
+    "title": "MATCH4",
+    "question": "Match the application to field.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Crowd analysis",
+        "right": "Surveillance"
+      },
+      {
+        "id": 2,
+        "left": "Activity recognition",
+        "right": "Sports"
+      },
+      {
+        "id": 3,
+        "left": "Video compression",
+        "right": "Media"
+      },
+      {
+        "id": 4,
+        "left": "Navigation",
+        "right": "Robotics"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the assumption to limitation.\n{\n= Brightness constancy -> Illumination changes\n= Smoothness -> Motion discontinuities\n= Global model -> Oversmoothing\n= Dense field -> Heavy computation\n}",
+    "title": "MATCH5",
+    "question": "Match the assumption to limitation.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Brightness constancy",
+        "right": "Illumination changes"
+      },
+      {
+        "id": 2,
+        "left": "Smoothness",
+        "right": "Motion discontinuities"
+      },
+      {
+        "id": 3,
+        "left": "Global model",
+        "right": "Oversmoothing"
+      },
+      {
+        "id": 4,
+        "left": "Dense field",
+        "right": "Heavy computation"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the method to property.\n{\n= Horn–Schunck -> Smooth dense flow\n= Lucas–Kanade -> Sparse features\n= CNN flow -> Deep learning\n= Background subtraction -> Foreground masks\n}",
+    "title": "MATCH6",
+    "question": "Match the method to property.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Horn–Schunck",
+        "right": "Smooth dense flow"
+      },
+      {
+        "id": 2,
+        "left": "Lucas–Kanade",
+        "right": "Sparse features"
+      },
+      {
+        "id": 3,
+        "left": "CNN flow",
+        "right": "Deep learning"
+      },
+      {
+        "id": 4,
+        "left": "Background subtraction",
+        "right": "Foreground masks"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the advantage to flow type.\n{\n= Sparse flow -> Efficiency\n= Dense flow -> Complete field\n= CNN flow -> Robust learning\n= Frame differencing -> Simplicity\n}",
+    "title": "MATCH7",
+    "question": "Match the advantage to flow type.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Sparse flow",
+        "right": "Efficiency"
+      },
+      {
+        "id": 2,
+        "left": "Dense flow",
+        "right": "Complete field"
+      },
+      {
+        "id": 3,
+        "left": "CNN flow",
+        "right": "Robust learning"
+      },
+      {
+        "id": 4,
+        "left": "Frame differencing",
+        "right": "Simplicity"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the drawback to method.\n{\n= Dense flow -> Expensive computation\n= Sparse flow -> Limited coverage\n= Horn–Schunck -> Oversmoothing\n= Lucas–Kanade -> Large motion fails\n}",
+    "title": "MATCH8",
+    "question": "Match the drawback to method.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Dense flow",
+        "right": "Expensive computation"
+      },
+      {
+        "id": 2,
+        "left": "Sparse flow",
+        "right": "Limited coverage"
+      },
+      {
+        "id": 3,
+        "left": "Horn–Schunck",
+        "right": "Oversmoothing"
+      },
+      {
+        "id": 4,
+        "left": "Lucas–Kanade",
+        "right": "Large motion fails"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the property to type.\n{\n= Dense -> Motion vector per pixel\n= Sparse -> Few features\n= Global -> Whole image constraints\n= Local -> Neighborhood patches\n}",
+    "title": "MATCH9",
+    "question": "Match the property to type.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Dense",
+        "right": "Motion vector per pixel"
+      },
+      {
+        "id": 2,
+        "left": "Sparse",
+        "right": "Few features"
+      },
+      {
+        "id": 3,
+        "left": "Global",
+        "right": "Whole image constraints"
+      },
+      {
+        "id": 4,
+        "left": "Local",
+        "right": "Neighborhood patches"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the motion analysis to application.\n{\n= Dense flow -> Crowd tracking\n= Sparse flow -> Corner tracking\n= CNN flow -> Complex motions\n= Frame differencing -> Simple detection\n}",
+    "title": "MATCH10",
+    "question": "Match the motion analysis to application.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Dense flow",
+        "right": "Crowd tracking"
+      },
+      {
+        "id": 2,
+        "left": "Sparse flow",
+        "right": "Corner tracking"
+      },
+      {
+        "id": 3,
+        "left": "CNN flow",
+        "right": "Complex motions"
+      },
+      {
+        "id": 4,
+        "left": "Frame differencing",
+        "right": "Simple detection"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are types of optical flow?\n{\n~%25% Sparse\n~%25% Dense\n~%25% Local\n~%25% Global\n}",
+    "title": "MULTI1",
+    "question": "Which are types of optical flow?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Sparse",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Dense",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Local",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Global",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are dense flow algorithms?\n{\n~%50% Horn–Schunck\n~%50% Farnebäck\n~%-100% Lucas–Kanade\n~%-100% Harris\n}",
+    "title": "MULTI2",
+    "question": "Which are dense flow algorithms?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Horn–Schunck",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Farnebäck",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Lucas–Kanade",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Harris",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are applications of dense flow?\n{\n~%25% Crowd analysis\n~%25% Video compression\n~%25% Activity recognition\n~%25% Robotics navigation\n}",
+    "title": "MULTI3",
+    "question": "Which are applications of dense flow?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Crowd analysis",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Video compression",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Activity recognition",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Robotics navigation",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are advantages of dense flow?\n{\n~%33.33333% Complete motion field\n~%33.33333% Smooth flow\n~%33.33333% Full pixel coverage\n~%-100% Always efficient\n}",
+    "title": "MULTI4",
+    "question": "Which are advantages of dense flow?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Complete motion field",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Smooth flow",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Full pixel coverage",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Always efficient",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are challenges in dense flow?\n{\n~%25% Illumination change\n~%25% Occlusion\n~%25% Noise\n~%25% High computation\n}",
+    "title": "MULTI5",
+    "question": "Which are challenges in dense flow?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Illumination change",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Occlusion",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Noise",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "High computation",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are properties of Horn–Schunck?\n{\n~%33.33333% Global\n~%33.33333% Smoothness\n~%33.33333% Dense flow\n~%-100% Local only\n}",
+    "title": "MULTI6",
+    "question": "Which are properties of Horn–Schunck?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Global",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Smoothness",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Dense flow",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Local only",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are properties of sparse flow?\n{\n~%50% Few points\n~%50% Feature-based\n~%-100% All pixels\n~%-100% Global\n}",
+    "title": "MULTI7",
+    "question": "Which are properties of sparse flow?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Few points",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Feature-based",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "All pixels",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Global",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are drawbacks of dense flow?\n{\n~%50% Sensitive to illumination\n~%50% Computationally heavy\n~%-100% Always efficient\n~%-100% Ignores occlusion\n}",
+    "title": "MULTI8",
+    "question": "Which are drawbacks of dense flow?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Sensitive to illumination",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Computationally heavy",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Always efficient",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Ignores occlusion",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are outputs of dense flow?\n{\n~%50% Pixel-wise motion vectors\n~%50% Complete velocity field\n~%-100% Only corners\n~%-100% Histogram bins\n}",
+    "title": "MULTI9",
+    "question": "Which are outputs of dense flow?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Pixel-wise motion vectors",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Complete velocity field",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Only corners",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Histogram bins",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are domains using dense flow?\n{\n~%25% Surveillance\n~%25% Sports\n~%25% Robotics\n~%25% Media compression\n}",
+    "title": "MULTI10",
+    "question": "Which are domains using dense flow?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Surveillance",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Sports",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Robotics",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Media compression",
+        "weight": 25.0
+      }
+    ]
+  }
+]

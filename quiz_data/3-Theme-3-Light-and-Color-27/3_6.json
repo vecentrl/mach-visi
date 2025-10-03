@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhat does color constancy ensure?\n{\n= Object colors appear stable despite changes in illumination\n~ All objects reflect the same spectrum\n~ Shadows disappear from images\n~ Only grayscale values are preserved\n}",
+    "title": "MC1",
+    "question": "What does color constancy ensure?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Object colors appear stable despite changes in illumination",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "All objects reflect the same spectrum",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Shadows disappear from images",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Only grayscale values are preserved",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhich method assumes the average scene color is gray?\n{\n= Grey World\n~ White Patch\n~ Retinex\n~ Histogram equalization\n}",
+    "title": "MC2",
+    "question": "Which method assumes the average scene color is gray?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Grey World",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "White Patch",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Retinex",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram equalization",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhich method assumes the brightest pixel corresponds to white?\n{\n= White Patch\n~ Grey World\n~ Retinex\n~ Stereo matching\n}",
+    "title": "MC3",
+    "question": "Which method assumes the brightest pixel corresponds to white?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "White Patch",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Grey World",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Retinex",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Stereo matching",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhich theory uses local intensity ratios to achieve color constancy?\n{\n= Retinex\n~ Grey World\n~ White Patch\n~ Fourier analysis\n}",
+    "title": "MC4",
+    "question": "Which theory uses local intensity ratios to achieve color constancy?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Retinex",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Grey World",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "White Patch",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Fourier analysis",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhy is color constancy important in machine vision?\n{\n= Enables illumination-independent recognition\n~ Reduces file size\n~ Increases sensor gain\n~ Improves gamma correction\n}",
+    "title": "MC5",
+    "question": "Why is color constancy important in machine vision?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Enables illumination-independent recognition",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Reduces file size",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Increases sensor gain",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Improves gamma correction",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich factor complicates color constancy?\n{\n= Multiple light sources\n~ Single light source\n~ Uniform illumination\n~ Perfectly white light\n}",
+    "title": "MC6",
+    "question": "Which factor complicates color constancy?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Multiple light sources",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Single light source",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Uniform illumination",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Perfectly white light",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich application relies on color constancy?\n{\n= Object recognition\n~ Audio processing\n~ File compression\n~ Text editing\n}",
+    "title": "MC7",
+    "question": "Which application relies on color constancy?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Object recognition",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Audio processing",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "File compression",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Text editing",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich is a limitation of the White Patch method?\n{\n= Sensitive to noise and specular highlights\n~ Requires multiple sensors\n~ Works only outdoors\n~ Always more robust than Retinex\n}",
+    "title": "MC8",
+    "question": "Which is a limitation of the White Patch method?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Sensitive to noise and specular highlights",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Requires multiple sensors",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Works only outdoors",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Always more robust than Retinex",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich is a limitation of the Grey World method?\n{\n= Assumes scene average is gray, may fail otherwise\n~ Needs deep learning\n~ Requires IR sensors\n~ Only works in monochrome\n}",
+    "title": "MC9",
+    "question": "Which is a limitation of the Grey World method?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Assumes scene average is gray, may fail otherwise",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Needs deep learning",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Requires IR sensors",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Only works in monochrome",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich is an advantage of learning-based methods for color constancy?\n{\n= Can adapt to complex scenes\n~ Do not require training data\n~ Always outperform Retinex\n~ Independent of illumination\n}",
+    "title": "MC10",
+    "question": "Which is an advantage of learning-based methods for color constancy?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Can adapt to complex scenes",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Do not require training data",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Always outperform Retinex",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Independent of illumination",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the method to its principle.\n{\n= Grey World -> Average scene color is gray\n= White Patch -> Brightest pixel is white\n= Retinex -> Local ratio comparisons\n= Learning-based -> Data-driven models\n}",
+    "title": "MATCH1",
+    "question": "Match the method to its principle.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Grey World",
+        "right": "Average scene color is gray"
+      },
+      {
+        "id": 2,
+        "left": "White Patch",
+        "right": "Brightest pixel is white"
+      },
+      {
+        "id": 3,
+        "left": "Retinex",
+        "right": "Local ratio comparisons"
+      },
+      {
+        "id": 4,
+        "left": "Learning-based",
+        "right": "Data-driven models"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the challenge to its effect.\n{\n= Multiple light sources -> Mixed illumination\n= Shadows -> Local illumination variation\n= Colored lighting -> Color shifts\n= Noise -> Errors in estimation\n}",
+    "title": "MATCH2",
+    "question": "Match the challenge to its effect.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Multiple light sources",
+        "right": "Mixed illumination"
+      },
+      {
+        "id": 2,
+        "left": "Shadows",
+        "right": "Local illumination variation"
+      },
+      {
+        "id": 3,
+        "left": "Colored lighting",
+        "right": "Color shifts"
+      },
+      {
+        "id": 4,
+        "left": "Noise",
+        "right": "Errors in estimation"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the method to a drawback.\n{\n= Grey World -> Fails if average not gray\n= White Patch -> Sensitive to noise\n= Retinex -> Computationally intensive\n= Learning-based -> Requires training data\n}",
+    "title": "MATCH3",
+    "question": "Match the method to a drawback.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Grey World",
+        "right": "Fails if average not gray"
+      },
+      {
+        "id": 2,
+        "left": "White Patch",
+        "right": "Sensitive to noise"
+      },
+      {
+        "id": 3,
+        "left": "Retinex",
+        "right": "Computationally intensive"
+      },
+      {
+        "id": 4,
+        "left": "Learning-based",
+        "right": "Requires training data"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the concept to the application.\n{\n= Color constancy -> Object recognition\n= Grey World -> Simple algorithm\n= Retinex -> Inspired by human vision\n= White Patch -> Assumes max brightness\n}",
+    "title": "MATCH4",
+    "question": "Match the concept to the application.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Color constancy",
+        "right": "Object recognition"
+      },
+      {
+        "id": 2,
+        "left": "Grey World",
+        "right": "Simple algorithm"
+      },
+      {
+        "id": 3,
+        "left": "Retinex",
+        "right": "Inspired by human vision"
+      },
+      {
+        "id": 4,
+        "left": "White Patch",
+        "right": "Assumes max brightness"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the illumination condition to the difficulty.\n{\n= Uniform lighting -> Easier constancy\n= Multiple sources -> Harder constancy\n= Colored light -> Color shifts\n= Shadows -> Local inconsistency\n}",
+    "title": "MATCH5",
+    "question": "Match the illumination condition to the difficulty.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Uniform lighting",
+        "right": "Easier constancy"
+      },
+      {
+        "id": 2,
+        "left": "Multiple sources",
+        "right": "Harder constancy"
+      },
+      {
+        "id": 3,
+        "left": "Colored light",
+        "right": "Color shifts"
+      },
+      {
+        "id": 4,
+        "left": "Shadows",
+        "right": "Local inconsistency"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the property to the effect.\n{\n= Reflectance -> Stable property\n= Illumination -> Variable property\n= Constancy -> Stable appearance\n= Shadow -> Distorts cues\n}",
+    "title": "MATCH6",
+    "question": "Match the property to the effect.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Reflectance",
+        "right": "Stable property"
+      },
+      {
+        "id": 2,
+        "left": "Illumination",
+        "right": "Variable property"
+      },
+      {
+        "id": 3,
+        "left": "Constancy",
+        "right": "Stable appearance"
+      },
+      {
+        "id": 4,
+        "left": "Shadow",
+        "right": "Distorts cues"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the algorithm type to the approach.\n{\n= Grey World -> Statistical\n= White Patch -> Heuristic\n= Retinex -> Biological model\n= Learning-based -> Machine learning\n}",
+    "title": "MATCH7",
+    "question": "Match the algorithm type to the approach.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Grey World",
+        "right": "Statistical"
+      },
+      {
+        "id": 2,
+        "left": "White Patch",
+        "right": "Heuristic"
+      },
+      {
+        "id": 3,
+        "left": "Retinex",
+        "right": "Biological model"
+      },
+      {
+        "id": 4,
+        "left": "Learning-based",
+        "right": "Machine learning"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the method to robustness.\n{\n= Grey World -> Simple but limited\n= White Patch -> Affected by highlights\n= Retinex -> Handles local variation\n= Learning-based -> Adapts to complex scenes\n}",
+    "title": "MATCH8",
+    "question": "Match the method to robustness.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Grey World",
+        "right": "Simple but limited"
+      },
+      {
+        "id": 2,
+        "left": "White Patch",
+        "right": "Affected by highlights"
+      },
+      {
+        "id": 3,
+        "left": "Retinex",
+        "right": "Handles local variation"
+      },
+      {
+        "id": 4,
+        "left": "Learning-based",
+        "right": "Adapts to complex scenes"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the research concept to the field.\n{\n= Retinex -> Human visual theory\n= Color constancy -> Machine vision\n= Grey World -> Algorithmic assumption\n= White Patch -> Simplest approach\n}",
+    "title": "MATCH9",
+    "question": "Match the research concept to the field.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Retinex",
+        "right": "Human visual theory"
+      },
+      {
+        "id": 2,
+        "left": "Color constancy",
+        "right": "Machine vision"
+      },
+      {
+        "id": 3,
+        "left": "Grey World",
+        "right": "Algorithmic assumption"
+      },
+      {
+        "id": 4,
+        "left": "White Patch",
+        "right": "Simplest approach"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the difficulty to the scenario.\n{\n= Shadow -> Wrong reflectance estimate\n= Multiple light sources -> Mixed colors\n= Specular highlight -> Misidentified white\n= Strong ambient light -> Sensor saturation\n}",
+    "title": "MATCH10",
+    "question": "Match the difficulty to the scenario.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Shadow",
+        "right": "Wrong reflectance estimate"
+      },
+      {
+        "id": 2,
+        "left": "Multiple light sources",
+        "right": "Mixed colors"
+      },
+      {
+        "id": 3,
+        "left": "Specular highlight",
+        "right": "Misidentified white"
+      },
+      {
+        "id": 4,
+        "left": "Strong ambient light",
+        "right": "Sensor saturation"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are goals of color constancy?\n{\n~%33.33333% Stable object colors\n~%33.33333% Illumination-invariant recognition\n~%33.33333% Reliable perception under different lights\n~%-100% File compression\n}",
+    "title": "MULTI1",
+    "question": "Which are goals of color constancy?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Stable object colors",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Illumination-invariant recognition",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Reliable perception under different lights",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "File compression",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are basic methods for color constancy?\n{\n~%33.33333% Grey World\n~%33.33333% White Patch\n~%33.33333% Retinex\n~%-100% JPEG\n}",
+    "title": "MULTI2",
+    "question": "Which are basic methods for color constancy?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Grey World",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "White Patch",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Retinex",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "JPEG",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are challenges for color constancy?\n{\n~%33.33333% Shadows\n~%33.33333% Multiple light sources\n~%33.33333% Colored lighting\n~%-100% High resolution\n}",
+    "title": "MULTI3",
+    "question": "Which are challenges for color constancy?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Shadows",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Multiple light sources",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Colored lighting",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "High resolution",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are properties of Grey World?\n{\n~%50% Assumes average is gray\n~%50% Simple to implement\n~%-100% Always accurate\n~%-100% Needs deep learning\n}",
+    "title": "MULTI4",
+    "question": "Which are properties of Grey World?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Assumes average is gray",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Simple to implement",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Always accurate",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Needs deep learning",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are properties of White Patch?\n{\n~%50% Assumes brightest = white\n~%50% Sensitive to highlights\n~%-100% Robust in all scenes\n~%-100% Requires multiple sensors\n}",
+    "title": "MULTI5",
+    "question": "Which are properties of White Patch?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Assumes brightest = white",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Sensitive to highlights",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Robust in all scenes",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Requires multiple sensors",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are properties of Retinex?\n{\n~%33.33333% Inspired by human vision\n~%33.33333% Local ratio comparisons\n~%33.33333% Computationally intensive\n~%-100% Always trivial\n}",
+    "title": "MULTI6",
+    "question": "Which are properties of Retinex?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Inspired by human vision",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Local ratio comparisons",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Computationally intensive",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Always trivial",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are properties of learning-based methods?\n{\n~%33.33333% Data-driven\n~%33.33333% Adapt to complex scenes\n~%33.33333% Require training data\n~%-100% Independent of input\n}",
+    "title": "MULTI7",
+    "question": "Which are properties of learning-based methods?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Data-driven",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Adapt to complex scenes",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Require training data",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Independent of input",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are difficulties for machine vision color constancy?\n{\n~%25% Mixed illumination\n~%25% Shadows\n~%25% Specular highlights\n~%25% Ambient light\n}",
+    "title": "MULTI8",
+    "question": "Which are difficulties for machine vision color constancy?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Mixed illumination",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Shadows",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Specular highlights",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Ambient light",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich applications require color constancy?\n{\n~%33.33333% Robotics\n~%33.33333% Autonomous driving\n~%33.33333% Object recognition\n~%-100% Text compression\n}",
+    "title": "MULTI9",
+    "question": "Which applications require color constancy?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Robotics",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Autonomous driving",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Object recognition",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Text compression",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are examples of assumptions in simple color constancy methods?\n{\n~%50% Grey World assumption\n~%50% White Patch assumption\n~%-100% Illumination independence\n~%-100% Infinite accuracy\n}",
+    "title": "MULTI10",
+    "question": "Which are examples of assumptions in simple color constancy methods?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Grey World assumption",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "White Patch assumption",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Illumination independence",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Infinite accuracy",
+        "weight": -100.0
+      }
+    ]
+  }
+]

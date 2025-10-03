@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhich type of image is produced by depth cameras?\n{\n= RGB-D image\n~ JPEG\n~ Histogram\n~ Gamma-corrected RGB\n}",
+    "title": "MC1",
+    "question": "Which type of image is produced by depth cameras?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "RGB-D image",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "JPEG",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Histogram",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Gamma-corrected RGB",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhich method uses projected light patterns to measure depth?\n{\n= Triangulation\n~ Histogram equalization\n~ Gamma correction\n~ Thresholding\n}",
+    "title": "MC2",
+    "question": "Which method uses projected light patterns to measure depth?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Triangulation",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Gamma correction",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Thresholding",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhat is required in triangulation-based depth measurement?\n{\n= Known geometry between projector and camera\n~ Only color balancing\n~ Random noise\n~ Single-lens optics\n}",
+    "title": "MC3",
+    "question": "What is required in triangulation-based depth measurement?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Known geometry between projector and camera",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Only color balancing",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Random noise",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Single-lens optics",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhich device uses a pseudo-random infrared dot pattern for depth sensing?\n{\n= Kinect\n~ DSLR\n~ Webcam\n~ Microscope\n}",
+    "title": "MC4",
+    "question": "Which device uses a pseudo-random infrared dot pattern for depth sensing?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Kinect",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "DSLR",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Webcam",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Microscope",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhich depth-sensing device relies on amplitude-modulated laser beams?\n{\n= LIDAR\n~ RGB camera\n~ Webcam\n~ Optical mouse\n}",
+    "title": "MC5",
+    "question": "Which depth-sensing device relies on amplitude-modulated laser beams?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "LIDAR",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "RGB camera",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Webcam",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Optical mouse",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhat does LIDAR measure to estimate distance?\n{\n= Phase shift of reflected signal\n~ Pixel brightness\n~ JPEG compression\n~ File size\n}",
+    "title": "MC6",
+    "question": "What does LIDAR measure to estimate distance?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Phase shift of reflected signal",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Pixel brightness",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "JPEG compression",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "File size",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhy is LIDAR often slower than time-of-flight cameras?\n{\n= Mechanical scanning is required\n~ Too much noise\n~ Weak sensors\n~ Incorrect calibration\n}",
+    "title": "MC7",
+    "question": "Why is LIDAR often slower than time-of-flight cameras?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Mechanical scanning is required",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Too much noise",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Weak sensors",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Incorrect calibration",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhat is measured directly in time-of-flight cameras?\n{\n= Travel time of light\n~ Pixel color\n~ Gamma value\n~ Image sharpness\n}",
+    "title": "MC8",
+    "question": "What is measured directly in time-of-flight cameras?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Travel time of light",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Pixel color",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Gamma value",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Image sharpness",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich technology provides dense depth maps in real time?\n{\n= Kinect\n~ Simple webcam\n~ JPEG compressor\n~ CRT monitor\n}",
+    "title": "MC9",
+    "question": "Which technology provides dense depth maps in real time?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Kinect",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Simple webcam",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "JPEG compressor",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "CRT monitor",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich system is often called “scannerless LIDAR”?\n{\n= Time-of-flight camera\n~ Triangulation\n~ Kinect\n~ Stereo vision\n}",
+    "title": "MC10",
+    "question": "Which system is often called “scannerless LIDAR”?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Time-of-flight camera",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Triangulation",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Kinect",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Stereo vision",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the method to its description.\n{\n= Triangulation -> Uses projector + camera geometry\n= Kinect -> Projects NIR pattern\n= LIDAR -> Measures phase of modulated laser\n= Time-of-flight -> Measures round-trip time of light\n}",
+    "title": "MATCH1",
+    "question": "Match the method to its description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Triangulation",
+        "right": "Uses projector + camera geometry"
+      },
+      {
+        "id": 2,
+        "left": "Kinect",
+        "right": "Projects NIR pattern"
+      },
+      {
+        "id": 3,
+        "left": "LIDAR",
+        "right": "Measures phase of modulated laser"
+      },
+      {
+        "id": 4,
+        "left": "Time-of-flight",
+        "right": "Measures round-trip time of light"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the device to its output.\n{\n= RGB camera -> Color image\n= Depth camera -> RGB-D\n= Kinect -> Dense depth map\n= LIDAR -> Range image\n}",
+    "title": "MATCH2",
+    "question": "Match the device to its output.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "RGB camera",
+        "right": "Color image"
+      },
+      {
+        "id": 2,
+        "left": "Depth camera",
+        "right": "RGB-D"
+      },
+      {
+        "id": 3,
+        "left": "Kinect",
+        "right": "Dense depth map"
+      },
+      {
+        "id": 4,
+        "left": "LIDAR",
+        "right": "Range image"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the challenge to the technology.\n{\n= Mechanical scanning -> LIDAR\n= Calibration with projector -> Kinect\n= Pseudo-random pattern -> Kinect\n= Fast acquisition -> Time-of-flight\n}",
+    "title": "MATCH3",
+    "question": "Match the challenge to the technology.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Mechanical scanning",
+        "right": "LIDAR"
+      },
+      {
+        "id": 2,
+        "left": "Calibration with projector",
+        "right": "Kinect"
+      },
+      {
+        "id": 3,
+        "left": "Pseudo-random pattern",
+        "right": "Kinect"
+      },
+      {
+        "id": 4,
+        "left": "Fast acquisition",
+        "right": "Time-of-flight"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the technique to the component.\n{\n= Triangulation -> Plane of light\n= Kinect -> CMOS IR camera\n= LIDAR -> Amplitude-modulated laser\n= ToF camera -> Timing electronics\n}",
+    "title": "MATCH4",
+    "question": "Match the technique to the component.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Triangulation",
+        "right": "Plane of light"
+      },
+      {
+        "id": 2,
+        "left": "Kinect",
+        "right": "CMOS IR camera"
+      },
+      {
+        "id": 3,
+        "left": "LIDAR",
+        "right": "Amplitude-modulated laser"
+      },
+      {
+        "id": 4,
+        "left": "ToF camera",
+        "right": "Timing electronics"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the principle to the method.\n{\n= Geometry -> Triangulation\n= Phase comparison -> LIDAR\n= Travel time -> ToF\n= Pattern projection -> Kinect\n}",
+    "title": "MATCH5",
+    "question": "Match the principle to the method.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Geometry",
+        "right": "Triangulation"
+      },
+      {
+        "id": 2,
+        "left": "Phase comparison",
+        "right": "LIDAR"
+      },
+      {
+        "id": 3,
+        "left": "Travel time",
+        "right": "ToF"
+      },
+      {
+        "id": 4,
+        "left": "Pattern projection",
+        "right": "Kinect"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the device to the property.\n{\n= Kinect -> Projects IR speckles\n= LIDAR -> Mechanical scanning\n= ToF camera -> Scannerless\n= Triangulation -> Requires known geometry\n}",
+    "title": "MATCH6",
+    "question": "Match the device to the property.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Kinect",
+        "right": "Projects IR speckles"
+      },
+      {
+        "id": 2,
+        "left": "LIDAR",
+        "right": "Mechanical scanning"
+      },
+      {
+        "id": 3,
+        "left": "ToF camera",
+        "right": "Scannerless"
+      },
+      {
+        "id": 4,
+        "left": "Triangulation",
+        "right": "Requires known geometry"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the acronym to the meaning.\n{\n= RGB-D -> Color + depth image\n= NIR -> Near-infrared\n= ToF -> Time of flight\n= LIDAR -> Light detection and ranging\n}",
+    "title": "MATCH7",
+    "question": "Match the acronym to the meaning.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "RGB-D",
+        "right": "Color + depth image"
+      },
+      {
+        "id": 2,
+        "left": "NIR",
+        "right": "Near-infrared"
+      },
+      {
+        "id": 3,
+        "left": "ToF",
+        "right": "Time of flight"
+      },
+      {
+        "id": 4,
+        "left": "LIDAR",
+        "right": "Light detection and ranging"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the imaging type to its advantage.\n{\n= RGB-D -> Adds depth to color\n= Triangulation -> Simple geometry\n= LIDAR -> Long range\n= ToF -> Fast acquisition\n}",
+    "title": "MATCH8",
+    "question": "Match the imaging type to its advantage.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "RGB-D",
+        "right": "Adds depth to color"
+      },
+      {
+        "id": 2,
+        "left": "Triangulation",
+        "right": "Simple geometry"
+      },
+      {
+        "id": 3,
+        "left": "LIDAR",
+        "right": "Long range"
+      },
+      {
+        "id": 4,
+        "left": "ToF",
+        "right": "Fast acquisition"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the technology to its application.\n{\n= Kinect -> Gaming / motion tracking\n= LIDAR -> Autonomous vehicles\n= ToF -> Gesture recognition\n= Triangulation -> 3D scanning\n}",
+    "title": "MATCH9",
+    "question": "Match the technology to its application.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Kinect",
+        "right": "Gaming / motion tracking"
+      },
+      {
+        "id": 2,
+        "left": "LIDAR",
+        "right": "Autonomous vehicles"
+      },
+      {
+        "id": 3,
+        "left": "ToF",
+        "right": "Gesture recognition"
+      },
+      {
+        "id": 4,
+        "left": "Triangulation",
+        "right": "3D scanning"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the signal property to the method.\n{\n= Infrared pattern -> Kinect\n= Phase shift -> LIDAR\n= Round-trip delay -> ToF\n= Projection geometry -> Triangulation\n}",
+    "title": "MATCH10",
+    "question": "Match the signal property to the method.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Infrared pattern",
+        "right": "Kinect"
+      },
+      {
+        "id": 2,
+        "left": "Phase shift",
+        "right": "LIDAR"
+      },
+      {
+        "id": 3,
+        "left": "Round-trip delay",
+        "right": "ToF"
+      },
+      {
+        "id": 4,
+        "left": "Projection geometry",
+        "right": "Triangulation"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich devices provide depth imaging?\n{\n~%33.33333% Kinect\n~%33.33333% LIDAR\n~%33.33333% Time-of-flight camera\n~%-100% Webcam\n}",
+    "title": "MULTI1",
+    "question": "Which devices provide depth imaging?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Kinect",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "LIDAR",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Time-of-flight camera",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Webcam",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are key aspects of triangulation?\n{\n~%33.33333% Plane of light\n~%33.33333% Known geometry\n~%33.33333% Projector-camera setup\n~%-100% Histogram stretching\n}",
+    "title": "MULTI2",
+    "question": "Which are key aspects of triangulation?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Plane of light",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Known geometry",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Projector-camera setup",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Histogram stretching",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are components of Kinect’s depth sensing?\n{\n~%33.33333% Projected IR speckle pattern\n~%33.33333% IR CMOS camera\n~%33.33333% Calibration between camera and projector\n~%-100% Mechanical scanning mirrors\n}",
+    "title": "MULTI3",
+    "question": "Which are components of Kinect’s depth sensing?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Projected IR speckle pattern",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "IR CMOS camera",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Calibration between camera and projector",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Mechanical scanning mirrors",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are features of LIDAR systems?\n{\n~%33.33333% Amplitude-modulated laser beam\n~%33.33333% Phase shift measurement\n~%33.33333% Mechanical steering\n~%-100% JPEG compression\n}",
+    "title": "MULTI4",
+    "question": "Which are features of LIDAR systems?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Amplitude-modulated laser beam",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Phase shift measurement",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Mechanical steering",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "JPEG compression",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are characteristics of time-of-flight cameras?\n{\n~%33.33333% Scannerless design\n~%33.33333% Fast acquisition\n~%33.33333% Measures round-trip light time\n~%-100% Requires rotating mirrors\n}",
+    "title": "MULTI5",
+    "question": "Which are characteristics of time-of-flight cameras?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Scannerless design",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Fast acquisition",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Measures round-trip light time",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Requires rotating mirrors",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich outputs are typical for depth imaging devices?\n{\n~%33.33333% Depth map\n~%33.33333% Range image\n~%33.33333% RGB-D\n~%-100% Text file\n}",
+    "title": "MULTI6",
+    "question": "Which outputs are typical for depth imaging devices?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Depth map",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Range image",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "RGB-D",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Text file",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich sensors are commonly used in depth cameras?\n{\n~%50% CMOS\n~%50% CCD\n~%-100% CRT\n~%-100% Plasma\n}",
+    "title": "MULTI7",
+    "question": "Which sensors are commonly used in depth cameras?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "CMOS",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "CCD",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "CRT",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Plasma",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich technologies provide dense depth information?\n{\n~%33.33333% Kinect\n~%33.33333% LIDAR\n~%33.33333% ToF camera\n~%-100% Webcam\n}",
+    "title": "MULTI8",
+    "question": "Which technologies provide dense depth information?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Kinect",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "LIDAR",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "ToF camera",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Webcam",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich techniques are useful for 3D reconstruction?\n{\n~%25% Triangulation\n~%25% Kinect\n~%25% LIDAR\n~%25% Time-of-flight\n}",
+    "title": "MULTI9",
+    "question": "Which techniques are useful for 3D reconstruction?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Triangulation",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Kinect",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "LIDAR",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Time-of-flight",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich applications use depth imaging?\n{\n~%33.33333% Gesture recognition\n~%33.33333% Robotics\n~%33.33333% Autonomous driving\n~%-100% Text editing\n}",
+    "title": "MULTI10",
+    "question": "Which applications use depth imaging?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Gesture recognition",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Robotics",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Autonomous driving",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Text editing",
+        "weight": -100.0
+      }
+    ]
+  }
+]

@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhich algorithm automatically determines a global threshold?\n{\n= Otsu’s method\n~ Histogram equalization\n~ White patch\n~ Retinex\n}",
+    "title": "MC1",
+    "question": "Which algorithm automatically determines a global threshold?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Otsu’s method",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "White patch",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Retinex",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhich method adapts thresholds to local variations?\n{\n= Adaptive thresholding\n~ Global thresholding\n~ Otsu’s method only\n~ Fourier filtering\n}",
+    "title": "MC2",
+    "question": "Which method adapts thresholds to local variations?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Adaptive thresholding",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Global thresholding",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Otsu’s method only",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Fourier filtering",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhich color space is perceptually uniform?\n{\n= CIELAB\n~ RGB\n~ HSV\n~ CMYK\n}",
+    "title": "MC3",
+    "question": "Which color space is perceptually uniform?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "CIELAB",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "RGB",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "HSV",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "CMYK",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhich color space separates hue, saturation, and value?\n{\n= HSV\n~ RGB\n~ CIE XYZ\n~ CMYK\n}",
+    "title": "MC4",
+    "question": "Which color space separates hue, saturation, and value?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "HSV",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "RGB",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "CIE XYZ",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "CMYK",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhich task benefits from color segmentation?\n{\n= Object tracking\n~ Gamma correction\n~ File compression\n~ Histogram equalization\n}",
+    "title": "MC5",
+    "question": "Which task benefits from color segmentation?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Object tracking",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Gamma correction",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "File compression",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram equalization",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich is a drawback of global thresholding?\n{\n= Fails under uneven illumination\n~ Always slow\n~ Works only in color images\n~ Independent of histogram\n}",
+    "title": "MC6",
+    "question": "Which is a drawback of global thresholding?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Fails under uneven illumination",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Always slow",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Works only in color images",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Independent of histogram",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich assumption underlies Otsu’s method?\n{\n= Image histogram has bimodal distribution\n~ All pixels are uniform\n~ Noise dominates\n~ Always multimodal\n}",
+    "title": "MC7",
+    "question": "Which assumption underlies Otsu’s method?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Image histogram has bimodal distribution",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "All pixels are uniform",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Noise dominates",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Always multimodal",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich challenge affects color segmentation?\n{\n= Overlapping color distributions\n~ Perfect separation\n~ Uniform illumination always\n~ Infinite resolution\n}",
+    "title": "MC8",
+    "question": "Which challenge affects color segmentation?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Overlapping color distributions",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Perfect separation",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Uniform illumination always",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Infinite resolution",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich domain is adaptive thresholding most useful for?\n{\n= Unevenly illuminated images\n~ Perfectly uniform scenes\n~ Binary images\n~ File compression\n}",
+    "title": "MC9",
+    "question": "Which domain is adaptive thresholding most useful for?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Unevenly illuminated images",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Perfectly uniform scenes",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Binary images",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "File compression",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich color model is used in printing but not ideal for segmentation?\n{\n= CMYK\n~ RGB\n~ HSV\n~ CIELAB\n}",
+    "title": "MC10",
+    "question": "Which color model is used in printing but not ideal for segmentation?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "CMYK",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "RGB",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "HSV",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "CIELAB",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the method to its description.\n{\n= Otsu’s method -> Maximizes between-class variance\n= Adaptive thresholding -> Local neighborhood thresholds\n= Global thresholding -> Single cutoff for whole image\n= Color segmentation -> Uses chromatic information\n}",
+    "title": "MATCH1",
+    "question": "Match the method to its description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Otsu’s method",
+        "right": "Maximizes between-class variance"
+      },
+      {
+        "id": 2,
+        "left": "Adaptive thresholding",
+        "right": "Local neighborhood thresholds"
+      },
+      {
+        "id": 3,
+        "left": "Global thresholding",
+        "right": "Single cutoff for whole image"
+      },
+      {
+        "id": 4,
+        "left": "Color segmentation",
+        "right": "Uses chromatic information"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the color space to its property.\n{\n= RGB -> Device-dependent\n= HSV -> Hue, saturation, value separation\n= CIELAB -> Perceptually uniform\n= CMYK -> Printing model\n}",
+    "title": "MATCH2",
+    "question": "Match the color space to its property.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "RGB",
+        "right": "Device-dependent"
+      },
+      {
+        "id": 2,
+        "left": "HSV",
+        "right": "Hue, saturation, value separation"
+      },
+      {
+        "id": 3,
+        "left": "CIELAB",
+        "right": "Perceptually uniform"
+      },
+      {
+        "id": 4,
+        "left": "CMYK",
+        "right": "Printing model"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the challenge to the effect.\n{\n= Uneven illumination -> Fails global thresholding\n= Noise -> Misclassified pixels\n= Overlapping distributions -> Hard color separation\n= Varying light -> Unstable segmentation\n}",
+    "title": "MATCH3",
+    "question": "Match the challenge to the effect.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Uneven illumination",
+        "right": "Fails global thresholding"
+      },
+      {
+        "id": 2,
+        "left": "Noise",
+        "right": "Misclassified pixels"
+      },
+      {
+        "id": 3,
+        "left": "Overlapping distributions",
+        "right": "Hard color separation"
+      },
+      {
+        "id": 4,
+        "left": "Varying light",
+        "right": "Unstable segmentation"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the application to segmentation type.\n{\n= Object tracking -> Color segmentation\n= Medical imaging -> Adaptive thresholding\n= Industrial inspection -> Otsu’s method\n= Scene understanding -> Region segmentation\n}",
+    "title": "MATCH4",
+    "question": "Match the application to segmentation type.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Object tracking",
+        "right": "Color segmentation"
+      },
+      {
+        "id": 2,
+        "left": "Medical imaging",
+        "right": "Adaptive thresholding"
+      },
+      {
+        "id": 3,
+        "left": "Industrial inspection",
+        "right": "Otsu’s method"
+      },
+      {
+        "id": 4,
+        "left": "Scene understanding",
+        "right": "Region segmentation"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the algorithm to the assumption.\n{\n= Otsu -> Bimodal histogram\n= Adaptive -> Local variation\n= Global -> Uniform illumination\n= Retinex -> Human perception model\n}",
+    "title": "MATCH5",
+    "question": "Match the algorithm to the assumption.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Otsu",
+        "right": "Bimodal histogram"
+      },
+      {
+        "id": 2,
+        "left": "Adaptive",
+        "right": "Local variation"
+      },
+      {
+        "id": 3,
+        "left": "Global",
+        "right": "Uniform illumination"
+      },
+      {
+        "id": 4,
+        "left": "Retinex",
+        "right": "Human perception model"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the space to its use.\n{\n= RGB -> Raw camera output\n= HSV -> Color segmentation\n= CIELAB -> Perceptual comparison\n= CMYK -> Printing\n}",
+    "title": "MATCH6",
+    "question": "Match the space to its use.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "RGB",
+        "right": "Raw camera output"
+      },
+      {
+        "id": 2,
+        "left": "HSV",
+        "right": "Color segmentation"
+      },
+      {
+        "id": 3,
+        "left": "CIELAB",
+        "right": "Perceptual comparison"
+      },
+      {
+        "id": 4,
+        "left": "CMYK",
+        "right": "Printing"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the segmentation type to an example.\n{\n= Global thresholding -> Simple black/white separation\n= Adaptive thresholding -> Uneven lighting correction\n= Otsu’s method -> Automatic threshold finding\n= Color segmentation -> Fruit detection\n}",
+    "title": "MATCH7",
+    "question": "Match the segmentation type to an example.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Global thresholding",
+        "right": "Simple black/white separation"
+      },
+      {
+        "id": 2,
+        "left": "Adaptive thresholding",
+        "right": "Uneven lighting correction"
+      },
+      {
+        "id": 3,
+        "left": "Otsu’s method",
+        "right": "Automatic threshold finding"
+      },
+      {
+        "id": 4,
+        "left": "Color segmentation",
+        "right": "Fruit detection"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the factor to the method.\n{\n= Illumination variation -> Adaptive thresholding\n= Bimodal histogram -> Otsu’s method\n= Device dependence -> RGB\n= Printing -> CMYK\n}",
+    "title": "MATCH8",
+    "question": "Match the factor to the method.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Illumination variation",
+        "right": "Adaptive thresholding"
+      },
+      {
+        "id": 2,
+        "left": "Bimodal histogram",
+        "right": "Otsu’s method"
+      },
+      {
+        "id": 3,
+        "left": "Device dependence",
+        "right": "RGB"
+      },
+      {
+        "id": 4,
+        "left": "Printing",
+        "right": "CMYK"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the type to its limitation.\n{\n= Global thresholding -> Sensitive to illumination\n= Adaptive thresholding -> Computationally heavier\n= Otsu -> Needs bimodal histogram\n= Color segmentation -> Overlapping colors\n}",
+    "title": "MATCH9",
+    "question": "Match the type to its limitation.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Global thresholding",
+        "right": "Sensitive to illumination"
+      },
+      {
+        "id": 2,
+        "left": "Adaptive thresholding",
+        "right": "Computationally heavier"
+      },
+      {
+        "id": 3,
+        "left": "Otsu",
+        "right": "Needs bimodal histogram"
+      },
+      {
+        "id": 4,
+        "left": "Color segmentation",
+        "right": "Overlapping colors"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the technique to its domain.\n{\n= Otsu -> Industrial imaging\n= Adaptive threshold -> Document scanning\n= HSV segmentation -> Object tracking\n= CIELAB -> Perceptual segmentation\n}",
+    "title": "MATCH10",
+    "question": "Match the technique to its domain.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Otsu",
+        "right": "Industrial imaging"
+      },
+      {
+        "id": 2,
+        "left": "Adaptive threshold",
+        "right": "Document scanning"
+      },
+      {
+        "id": 3,
+        "left": "HSV segmentation",
+        "right": "Object tracking"
+      },
+      {
+        "id": 4,
+        "left": "CIELAB",
+        "right": "Perceptual segmentation"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are advanced thresholding methods?\n{\n~%50% Otsu’s method\n~%50% Adaptive thresholding\n~%-100% Global thresholding only\n~%-100% JPEG compression\n}",
+    "title": "MULTI1",
+    "question": "Which are advanced thresholding methods?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Otsu’s method",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Adaptive thresholding",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Global thresholding only",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "JPEG compression",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are color spaces useful for segmentation?\n{\n~%33.33333% HSV\n~%33.33333% CIELAB\n~%33.33333% CIE XYZ\n~%-100% CMYK\n}",
+    "title": "MULTI2",
+    "question": "Which are color spaces useful for segmentation?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "HSV",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "CIELAB",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "CIE XYZ",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "CMYK",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are limitations of global thresholding?\n{\n~%33.33333% Sensitive to illumination\n~%33.33333% Cannot handle uneven lighting\n~%33.33333% Fails with noise\n~%-100% Always robust\n}",
+    "title": "MULTI3",
+    "question": "Which are limitations of global thresholding?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Sensitive to illumination",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Cannot handle uneven lighting",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Fails with noise",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Always robust",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are applications of color segmentation?\n{\n~%33.33333% Object tracking\n~%33.33333% Medical imaging\n~%33.33333% Industrial inspection\n~%-100% Audio processing\n}",
+    "title": "MULTI4",
+    "question": "Which are applications of color segmentation?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Object tracking",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Medical imaging",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Industrial inspection",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Audio processing",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are properties of HSV?\n{\n~%33.33333% Separates hue\n~%33.33333% Separates saturation\n~%33.33333% Separates value\n~%-100% Device-independent standard\n}",
+    "title": "MULTI5",
+    "question": "Which are properties of HSV?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Separates hue",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Separates saturation",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Separates value",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Device-independent standard",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are properties of CIELAB?\n{\n~%33.33333% Perceptually uniform\n~%33.33333% Device independent\n~%33.33333% Derived from XYZ\n~%-100% Printing model\n}",
+    "title": "MULTI6",
+    "question": "Which are properties of CIELAB?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Perceptually uniform",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Device independent",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Derived from XYZ",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Printing model",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are advantages of Otsu’s method?\n{\n~%50% Automatic thresholding\n~%50% Histogram-based\n~%-100% Requires no bimodal assumption\n~%-100% Works only in color images\n}",
+    "title": "MULTI7",
+    "question": "Which are advantages of Otsu’s method?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Automatic thresholding",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Histogram-based",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Requires no bimodal assumption",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Works only in color images",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are challenges for color segmentation?\n{\n~%33.33333% Overlapping color distributions\n~%33.33333% Illumination variation\n~%33.33333% Shadows\n~%-100% File size\n}",
+    "title": "MULTI8",
+    "question": "Which are challenges for color segmentation?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Overlapping color distributions",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Illumination variation",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Shadows",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "File size",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are true of adaptive thresholding?\n{\n~%50% Works locally\n~%50% Handles uneven lighting\n~%-100% Always global\n~%-100% Device-independent only\n}",
+    "title": "MULTI9",
+    "question": "Which are true of adaptive thresholding?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Works locally",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Handles uneven lighting",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Always global",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Device-independent only",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are applications of segmentation in different domains?\n{\n~%25% Industrial inspection\n~%25% Object tracking\n~%25% Medical imaging\n~%25% Scene understanding\n}",
+    "title": "MULTI10",
+    "question": "Which are applications of segmentation in different domains?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Industrial inspection",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Object tracking",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Medical imaging",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Scene understanding",
+        "weight": 25.0
+      }
+    ]
+  }
+]

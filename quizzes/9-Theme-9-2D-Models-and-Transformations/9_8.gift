@@ -1,0 +1,309 @@
+::TF1::
+A homography is represented by a 3×3 matrix.
+{TRUE}
+
+::TF2::
+A homography has 8 degrees of freedom (ignoring scale).
+{TRUE}
+
+::TF3::
+At least four point correspondences are needed to estimate a homography.
+{TRUE}
+
+::TF4::
+The four points used for homography must be collinear.
+{FALSE}
+
+::TF5::
+Over-determined homography systems can be solved with least squares.
+{TRUE}
+
+::TF6::
+Normalization of coordinates improves stability of homography estimation.
+{TRUE}
+
+::TF7::
+RANSAC can be used to make homography estimation robust to outliers.
+{TRUE}
+
+::TF8::
+Iterative refinement can minimize reprojection error in homography.
+{TRUE}
+
+::TF9::
+Homography estimation is never affected by noise.
+{FALSE}
+
+::TF10::
+Panorama stitching uses homography estimation between overlapping images.
+{TRUE}
+
+::MC1::
+How many degrees of freedom does a homography have (ignoring scale)?
+{
+= 8
+~ 9
+~ 6
+~ 3
+}
+
+::MC2::
+What is the minimum number of point correspondences for homography estimation?
+{
+= Four
+~ Three
+~ Two
+~ One
+}
+
+::MC3::
+Why must homography points be non-collinear?
+{
+= Collinear points lead to degeneracy
+~ It reduces computation
+~ It avoids parallelism
+~ It is required for affine transforms
+}
+
+::MC4::
+Which method solves over-determined homography equations?
+{
+= Least squares
+~ Histogram equalization
+~ PCA
+~ Clustering
+}
+
+::MC5::
+Which method improves numerical stability in homography estimation?
+{
+= Normalization of coordinates
+~ JPEG compression
+~ Gamma correction
+~ White balance
+}
+
+::MC6::
+Which robust method is often used for homography estimation?
+{
+= RANSAC
+~ Histogram smoothing
+~ Decision trees
+~ SVM
+}
+
+::MC7::
+Which step minimizes reprojection error?
+{
+= Iterative refinement
+~ Initial correspondences only
+~ Random guessing
+~ Histogram equalization
+}
+
+::MC8::
+Which is an application of homography estimation?
+{
+= Image rectification
+~ JPEG encoding
+~ Gamma correction
+~ Audio compression
+}
+
+::MC9::
+Which factor causes errors in homography estimation?
+{
+= Noise and outliers
+~ File format
+~ Histogram bins
+~ Gamma encoding
+}
+
+::MC10::
+Which field uses homography estimation?
+{
+= Augmented reality
+~ Audio compression
+~ File encryption
+~ Histogram smoothing
+}
+
+::MATCH1::
+Match the method to role.
+{
+= Four points -> Minimum correspondences
+= Least squares -> Over-determined solve
+= Normalization -> Stability
+= RANSAC -> Outlier handling
+}
+
+::MATCH2::
+Match the property to homography.
+{
+= 3×3 matrix -> Transformation
+= 8 DoF -> Degrees of freedom
+= Straight lines -> Preserved
+= Parallelism -> Not preserved
+}
+
+::MATCH3::
+Match the challenge to effect.
+{
+= Noise -> Inaccurate estimate
+= Outliers -> Wrong mapping
+= Collinearity -> Degeneracy
+= Few points -> Insufficient data
+}
+
+::MATCH4::
+Match the step to estimation.
+{
+= Point correspondences -> Input
+= Normalization -> Preprocessing
+= Least squares -> Solve
+= Refinement -> Minimize error
+}
+
+::MATCH5::
+Match the application to domain.
+{
+= Panorama -> Vision
+= Rectification -> Document deskew
+= Calibration -> Camera geometry
+= AR -> Plane mapping
+}
+
+::MATCH6::
+Match the technique to description.
+{
+= RANSAC -> Robust fitting
+= Least squares -> Minimizes squared error
+= Normalization -> Coordinate scaling
+= Iterative refinement -> Error reduction
+}
+
+::MATCH7::
+Match the limitation to cause.
+{
+= Degenerate -> Collinear points
+= Noise -> Unstable estimate
+= Outliers -> Wrong result
+= Few points -> Not solvable
+}
+
+::MATCH8::
+Match the algorithm to usage.
+{
+= Homography -> Panorama stitching
+= Affine -> Motion compensation
+= Euclidean -> Rigid motion
+= Similarity -> Scale + rotation
+}
+
+::MATCH9::
+Match the homography element to meaning.
+{
+= h11..h33 -> Matrix entries
+= Scale -> Arbitrary factor
+= Inliers -> Support model
+= Residual -> Reprojection error
+}
+
+::MATCH10::
+Match the robust step to purpose.
+{
+= RANSAC -> Outlier rejection
+= Normalization -> Stability
+= Iterative refinement -> Accuracy
+= Least squares -> Initial solve
+}
+
+::MULTI1::
+Which are properties of homography?
+{
+~%25% 3×3 matrix
+~%25% 8 degrees of freedom
+~%25% Preserves straight lines
+~%25% Models perspective
+}
+
+::MULTI2::
+Which are requirements for homography estimation?
+{
+~%33.33333% Four point correspondences
+~%33.33333% Non-collinearity
+~%33.33333% Feature matching
+~%-100% Collinear points
+}
+
+::MULTI3::
+Which are methods for robust homography estimation?
+{
+~%33.33333% RANSAC
+~%33.33333% Normalization
+~%33.33333% Iterative refinement
+~%-100% Histogram equalization
+}
+
+::MULTI4::
+Which are applications of homography estimation?
+{
+~%25% Panorama stitching
+~%25% Rectification
+~%25% Augmented reality
+~%25% Camera calibration
+}
+
+::MULTI5::
+Which are challenges in homography estimation?
+{
+~%25% Noise
+~%25% Outliers
+~%25% Collinear points
+~%25% Degenerate data
+}
+
+::MULTI6::
+Which are properties NOT preserved by homography?
+{
+~%50% Parallelism
+~%50% Ratios of lengths
+~%-100% Straight lines
+~%-100% Collinearity
+}
+
+::MULTI7::
+Which are estimation steps for homography?
+{
+~%25% Collect correspondences
+~%25% Normalize coordinates
+~%25% Solve equations
+~%25% Refine by minimizing error
+}
+
+::MULTI8::
+Which are benefits of using RANSAC for homography?
+{
+~%33.33333% Robust to outliers
+~%33.33333% Works with mismatched points
+~%33.33333% More reliable estimates
+~%-100% Needs no correspondences
+}
+
+::MULTI9::
+Which are challenges with minimal four points?
+{
+~%50% Degenerate if collinear
+~%50% Sensitive to noise
+~%-100% Always robust
+~%-100% Needs no correspondences
+}
+
+::MULTI10::
+Which are domains using homography estimation?
+{
+~%25% Vision
+~%25% Augmented reality
+~%25% Robotics
+~%25% Medical imaging
+}

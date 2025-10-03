@@ -1,0 +1,309 @@
+::TF1::
+Human color vision is based on three types of cone cells.
+{TRUE}
+
+::TF2::
+The S, M, and L cones are most sensitive to short, medium, and long wavelengths respectively.
+{TRUE}
+
+::TF3::
+Trichromacy means that three primary colors are sufficient to match any visible color.
+{TRUE}
+
+::TF4::
+Color matching experiments show that most colors can be matched by mixing just two primaries.
+{FALSE}
+
+::TF5::
+Additive color mixing involves combining light sources.
+{TRUE}
+
+::TF6::
+Subtractive color mixing is typically used in printing.
+{TRUE}
+
+::TF7::
+The RGB color model is additive.
+{TRUE}
+
+::TF8::
+The CMY/CMYK color model is subtractive.
+{TRUE}
+
+::TF9::
+Additive mixing of red and green produces yellow.
+{TRUE}
+
+::TF10::
+Subtractive mixing of cyan and yellow produces red.
+{FALSE}
+
+::MC1::
+Which cone type is most sensitive to short wavelengths?
+{
+= S-cones
+~ M-cones
+~ L-cones
+~ Rods
+}
+
+::MC2::
+What do L-cones primarily detect?
+{
+= Long wavelengths (red)
+~ Medium wavelengths (green)
+~ Short wavelengths (blue)
+~ Infrared
+}
+
+::MC3::
+What is trichromacy?
+{
+= The ability to match any visible color with three primaries
+~ The existence of four cone types
+~ The separation of brightness and hue
+~ A subtractive printing process
+}
+
+::MC4::
+Which mixing is used in monitors and screens?
+{
+= Additive (RGB)
+~ Subtractive (CMY)
+~ Multiplicative
+~ Mechanical
+}
+
+::MC5::
+Which mixing is used in printers?
+{
+= Subtractive (CMYK)
+~ Additive (RGB)
+~ Binary
+~ Polarized
+}
+
+::MC6::
+Which colors are additive primaries?
+{
+= Red, Green, Blue
+~ Cyan, Magenta, Yellow
+~ Red, Yellow, Blue
+~ Black, White, Gray
+}
+
+::MC7::
+Which colors are subtractive primaries?
+{
+= Cyan, Magenta, Yellow
+~ Red, Green, Blue
+~ Yellow, Blue, White
+~ Black, White, Gray
+}
+
+::MC8::
+What color results from mixing red and green light additively?
+{
+= Yellow
+~ Blue
+~ Cyan
+~ Magenta
+}
+
+::MC9::
+What color results from mixing cyan and yellow pigments subtractively?
+{
+= Green
+~ Red
+~ Blue
+~ White
+}
+
+::MC10::
+Which is true of color matching experiments?
+{
+= A wide range of colors can be matched using 3 primaries
+~ All colors can be matched using 2 primaries
+~ 4 or more primaries are always required
+~ Human cones are not involved
+}
+
+::MATCH1::
+Match the cone type to its sensitivity.
+{
+= S-cone -> Short wavelengths (blue)
+= M-cone -> Medium wavelengths (green)
+= L-cone -> Long wavelengths (red)
+= Rods -> Low-light sensitivity
+}
+
+::MATCH2::
+Match the mixing type to its domain.
+{
+= Additive -> Displays
+= Subtractive -> Printing
+= Trichromacy -> Human cones
+= Matching -> Color experiments
+}
+
+::MATCH3::
+Match the color model to its primaries.
+{
+= RGB -> Red, Green, Blue
+= CMY -> Cyan, Magenta, Yellow
+= CMYK -> CMY plus Black
+= RYB -> Red, Yellow, Blue
+}
+
+::MATCH4::
+Match the additive mix to the result.
+{
+= Red + Green -> Yellow
+= Green + Blue -> Cyan
+= Red + Blue -> Magenta
+= All three -> White
+}
+
+::MATCH5::
+Match the subtractive mix to the result.
+{
+= Cyan + Yellow -> Green
+= Magenta + Yellow -> Red
+= Cyan + Magenta -> Blue
+= All three -> Black
+}
+
+::MATCH6::
+Match the experiment to its finding.
+{
+= Color matching -> 3 primaries suffice
+= Cone response -> S, M, L
+= Additive -> Light mixing
+= Subtractive -> Pigment mixing
+}
+
+::MATCH7::
+Match the model to its use.
+{
+= RGB -> Screens and monitors
+= CMYK -> Printing
+= HSV -> Color editing
+= CIE XYZ -> Standard color reference
+}
+
+::MATCH8::
+Match the perception cue to its basis.
+{
+= Trichromacy -> Cones
+= Constancy -> Context
+= Illusion -> Visual misinterpretation
+= Shading -> Light and shape
+}
+
+::MATCH9::
+Match the light mixing to the application.
+{
+= Additive -> Projectors
+= Subtractive -> Printers
+= Trichromacy -> Human vision
+= RGB -> Displays
+}
+
+::MATCH10::
+Match the subtractive color to its complement.
+{
+= Cyan -> Red
+= Magenta -> Green
+= Yellow -> Blue
+= Black -> None
+}
+
+::MULTI1::
+Which are cone types in human vision?
+{
+~%33.33333% S-cones
+~%33.33333% M-cones
+~%33.33333% L-cones
+~%-100% R-cones only
+}
+
+::MULTI2::
+Which are additive primaries?
+{
+~%33.33333% Red
+~%33.33333% Green
+~%33.33333% Blue
+~%-100% Yellow
+}
+
+::MULTI3::
+Which are subtractive primaries?
+{
+~%33.33333% Cyan
+~%33.33333% Magenta
+~%33.33333% Yellow
+~%-100% Black
+}
+
+::MULTI4::
+Which results are produced by additive mixing?
+{
+~%25% Red + Green = Yellow
+~%25% Green + Blue = Cyan
+~%25% Red + Blue = Magenta
+~%25% All three = White
+}
+
+::MULTI5::
+Which results are produced by subtractive mixing?
+{
+~%25% Cyan + Yellow = Green
+~%25% Magenta + Yellow = Red
+~%25% Cyan + Magenta = Blue
+~%25% All three = Black
+}
+
+::MULTI6::
+Which are true of trichromacy?
+{
+~%33.33333% Based on 3 cone types
+~%33.33333% 3 primaries match most colors
+~%33.33333% Basis for RGB model
+~%-100% Requires 4 cones
+}
+
+::MULTI7::
+Which color models are additive?
+{
+~%50% RGB
+~%50% CIE XYZ
+~%-100% CMY
+~%-100% CMYK
+}
+
+::MULTI8::
+Which color models are subtractive?
+{
+~%50% CMY
+~%50% CMYK
+~%-100% RGB
+~%-100% HSV
+}
+
+::MULTI9::
+Which are results of color matching experiments?
+{
+~%33.33333% 3 primaries suffice
+~%33.33333% Based on cone responses
+~%33.33333% Humans show trichromacy
+~%-100% 2 primaries are always enough
+}
+
+::MULTI10::
+Which are true about RGB vs. CMY models?
+{
+~%50% RGB is additive
+~%50% CMY is subtractive
+~%-100% Both are subtractive
+~%-100% Both are additive
+}

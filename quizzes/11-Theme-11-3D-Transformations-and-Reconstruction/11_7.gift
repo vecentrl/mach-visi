@@ -1,0 +1,309 @@
+::TF1::
+Incremental SfM reconstruction adds new views step by step.
+{TRUE}
+
+::TF2::
+Triangulation is repeated as new views are added in SfM.
+{TRUE}
+
+::TF3::
+Bundle adjustment optimizes both camera poses and 3D points.
+{TRUE}
+
+::TF4::
+Bundle adjustment minimizes reprojection error.
+{TRUE}
+
+::TF5::
+Bundle adjustment is a nonlinear optimization.
+{TRUE}
+
+::TF6::
+SfM refinement requires good initialization.
+{TRUE}
+
+::TF7::
+Bundle adjustment is computationally expensive.
+{TRUE}
+
+::TF8::
+Loop closure helps reduce drift in large reconstructions.
+{TRUE}
+
+::TF9::
+SfM can suffer from scaling errors and local minima.
+{TRUE}
+
+::TF10::
+SfM refinement has no challenges and always converges perfectly.
+{FALSE}
+
+::MC1::
+What does incremental SfM reconstruction do?
+{
+= Adds views step by step
+~ Uses only one image
+~ Ignores new views
+~ Compresses histograms
+}
+
+::MC2::
+What does triangulation do in SfM?
+{
+= Computes new 3D points
+~ Removes outliers
+~ Normalizes brightness
+~ Smooths histograms
+}
+
+::MC3::
+What does bundle adjustment optimize?
+{
+= Poses and 3D points
+~ Only focal length
+~ Only 2D points
+~ Only depth maps
+}
+
+::MC4::
+What error does bundle adjustment minimize?
+{
+= Reprojection error
+~ JPEG artifacts
+~ Histogram bins
+~ PCA variance
+}
+
+::MC5::
+What type of problem is bundle adjustment?
+{
+= Nonlinear optimization
+~ Linear filtering
+~ Fourier transform
+~ Histogram equalization
+}
+
+::MC6::
+What is required for bundle adjustment to work well?
+{
+= Good initialization
+~ Random guesses
+~ Noise only
+~ No correspondences
+}
+
+::MC7::
+Why is bundle adjustment expensive?
+{
+= Many parameters optimized jointly
+~ Only uses one point
+~ Histogram computation
+~ Audio filtering
+}
+
+::MC8::
+What does loop closure address?
+{
+= Drift in reconstructions
+~ Noise in histograms
+~ Only brightness errors
+~ Always exact results
+}
+
+::MC9::
+Which is a challenge in SfM refinement?
+{
+= Local minima
+~ Always robust
+~ No scaling
+~ Guaranteed convergence
+}
+
+::MC10::
+Which domain uses SfM refinement?
+{
+= SLAM
+~ Audio compression
+~ JPEG encoding
+~ White balance
+}
+
+::MATCH1::
+Match the step to pipeline.
+{
+= Incremental -> Add views
+= Triangulation -> Compute new points
+= Bundle adjustment -> Optimize
+= Loop closure -> Correct drift
+}
+
+::MATCH2::
+Match the problem to solution.
+{
+= Drift -> Loop closure
+= Poor accuracy -> Bundle adjustment
+= Outliers -> Robust estimation
+= Scaling error -> Global adjustment
+}
+
+::MATCH3::
+Match the concept to meaning.
+{
+= Bundle adjustment -> Joint optimization
+= Reprojection error -> Distance in pixels
+= Initialization -> Starting estimate
+= Loop closure -> Global consistency
+}
+
+::MATCH4::
+Match the application to field.
+{
+= Cities -> Large-scale mapping
+= Robotics -> SLAM
+= AR/VR -> Scene mapping
+= Heritage -> 3D reconstruction
+}
+
+::MATCH5::
+Match the requirement to method.
+{
+= Initialization -> Needed for BA
+= Nonlinear -> BA optimization
+= Many cameras -> SfM
+= Outlier rejection -> RANSAC
+}
+
+::MATCH6::
+Match the challenge to cause.
+{
+= High cost -> Many parameters
+= Local minima -> Nonlinear optimization
+= Drift -> Incremental errors
+= Scaling -> Metric ambiguity
+}
+
+::MATCH7::
+Match the refinement to advantage.
+{
+= Incremental -> Expands model
+= Bundle adjustment -> Accuracy
+= Loop closure -> Stability
+= Robust estimation -> Outlier handling
+}
+
+::MATCH8::
+Match the concept to role.
+{
+= Camera poses -> Motion
+= 3D points -> Structure
+= Reprojection error -> Objective
+= Optimization -> Bundle adjustment
+}
+
+::MATCH9::
+Match the technique to description.
+{
+= BA -> Optimize poses and points
+= Incremental -> Stepwise growth
+= Loop closure -> Correct trajectory
+= Triangulation -> Depth estimation
+}
+
+::MATCH10::
+Match the method to drawback.
+{
+= Incremental -> Drift
+= Bundle adjustment -> Expensive
+= Loop closure -> Needs detection
+= Global adjustment -> Complexity
+}
+
+::MULTI1::
+Which are steps in SfM pipeline (part 2)?
+{
+~%25% Incremental reconstruction
+~%25% Triangulation
+~%25% Bundle adjustment
+~%25% Loop closure
+}
+
+::MULTI2::
+Which are optimized in bundle adjustment?
+{
+~%33.33333% Camera poses
+~%33.33333% 3D points
+~%33.33333% Structure
+~%-100% Audio filters
+}
+
+::MULTI3::
+Which are outputs of SfM refinement?
+{
+~%25% Refined 3D points
+~%25% Optimized poses
+~%25% Reduced reprojection error
+~%25% Consistent structure
+}
+
+::MULTI4::
+Which are challenges in SfM refinement?
+{
+~%25% Computational cost
+~%25% Local minima
+~%25% Drift
+~%25% Outliers
+}
+
+::MULTI5::
+Which are applications of SfM refinement?
+{
+~%25% SLAM
+~%25% AR/VR
+~%25% 3D mapping
+~%25% Cultural heritage
+}
+
+::MULTI6::
+Which are parts of the reprojection error equation?
+{
+~%50% Observed image points
+~%50% Projected points from 3D
+~%-100% Audio signals
+~%-100% Histogram bins
+}
+
+::MULTI7::
+Which are methods for drift correction?
+{
+~%50% Loop closure
+~%50% Global adjustment
+~%-100% Histogram equalization
+~%-100% Gamma correction
+}
+
+::MULTI8::
+Which are limitations of bundle adjustment?
+{
+~%33.33333% Expensive
+~%33.33333% Local minima
+~%33.33333% Needs initialization
+~%-100% Always perfect
+}
+
+::MULTI9::
+Which are techniques in SfM refinement?
+{
+~%25% Incremental addition
+~%25% Triangulation
+~%25% Bundle adjustment
+~%25% Loop closure
+}
+
+::MULTI10::
+Which domains use SfM refinement?
+{
+~%25% Vision
+~%25% Robotics
+~%25% AR/VR
+~%25% Heritage
+}

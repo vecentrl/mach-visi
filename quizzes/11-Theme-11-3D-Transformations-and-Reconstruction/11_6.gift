@@ -1,0 +1,309 @@
+::TF1::
+Structure from Motion (SfM) estimates both 3D structure and camera motion.
+{TRUE}
+
+::TF2::
+SfM requires multiple overlapping views of a scene.
+{TRUE}
+
+::TF3::
+The first step in SfM is feature detection and matching.
+{TRUE}
+
+::TF4::
+RANSAC is used in SfM to reject outliers in matches.
+{TRUE}
+
+::TF5::
+The essential matrix is used for initial pose estimation in SfM.
+{TRUE}
+
+::TF6::
+SfM can be performed with a single image.
+{FALSE}
+
+::TF7::
+Triangulation is used to compute 3D points from correspondences.
+{TRUE}
+
+::TF8::
+SfM is applied in robotics navigation and AR/VR.
+{TRUE}
+
+::TF9::
+SfM pipelines are unaffected by noise or mismatches.
+{FALSE}
+
+::TF10::
+Wide baselines make SfM more challenging.
+{TRUE}
+
+::MC1::
+What does SfM jointly estimate?
+{
+= 3D points and camera poses
+~ Only depth from shading
+~ Only histograms
+~ Only compression
+}
+
+::MC2::
+What is the first step of SfM?
+{
+= Feature detection and matching
+~ Depth map estimation
+~ Image compression
+~ PCA
+}
+
+::MC3::
+Which method is used to reject outliers in matches?
+{
+= RANSAC
+~ Histogram equalization
+~ PCA
+~ Gradient descent
+}
+
+::MC4::
+Which matrix is central to two-view pose estimation?
+{
+= Essential matrix
+~ Homography
+~ Covariance
+~ Histogram
+}
+
+::MC5::
+What is triangulation used for in SfM?
+{
+= Computing 3D points
+~ Filtering noise
+~ Histogram equalization
+~ Gamma correction
+}
+
+::MC6::
+Which is an application of SfM?
+{
+= Cultural heritage 3D reconstruction
+~ Audio compression
+~ File encryption
+~ JPEG encoding
+}
+
+::MC7::
+Which is a challenge in SfM?
+{
+= Outliers and mismatches
+~ Always robust
+~ No geometry required
+~ Guaranteed exactness
+}
+
+::MC8::
+Which is required for SfM?
+{
+= Multiple overlapping images
+~ Only one image
+~ Only disparity
+~ Audio input
+}
+
+::MC9::
+Which technique is used for initial pose estimation in SfM?
+{
+= Essential matrix decomposition
+~ Histogram bins
+~ PCA
+~ JPEG compression
+}
+
+::MC10::
+Which domain benefits from SfM?
+{
+= Robotics navigation
+~ Audio filtering
+~ White balance
+~ Histogram smoothing
+}
+
+::MATCH1::
+Match the step to description.
+{
+= Feature detection -> Find points
+= Matching -> Link across images
+= RANSAC -> Remove outliers
+= Essential matrix -> Pose estimation
+}
+
+::MATCH2::
+Match the component to role.
+{
+= 3D points -> Structure
+= Camera poses -> Motion
+= Correspondences -> Input
+= Triangulation -> Depth recovery
+}
+
+::MATCH3::
+Match the problem to challenge.
+{
+= Noise -> Unstable estimates
+= Outliers -> Wrong geometry
+= Wide baseline -> Matching difficult
+= Textureless -> Few features
+}
+
+::MATCH4::
+Match the application to domain.
+{
+= Mapping -> Robotics
+= Reconstruction -> Heritage
+= AR/VR -> Immersion
+= Vision -> 3D modeling
+}
+
+::MATCH5::
+Match the method to stage.
+{
+= SIFT -> Feature detection
+= ORB -> Fast features
+= RANSAC -> Outlier rejection
+= Essential matrix -> Pose estimation
+}
+
+::MATCH6::
+Match the geometry to usage.
+{
+= Fundamental matrix -> Uncalibrated
+= Essential matrix -> Calibrated
+= Homography -> Planar mapping
+= Triangulation -> 3D points
+}
+
+::MATCH7::
+Match the pipeline to order.
+{
+= Detect -> Features
+= Match -> Across views
+= Estimate pose -> Essential matrix
+= Triangulate -> 3D points
+}
+
+::MATCH8::
+Match the correspondence issue to effect.
+{
+= Outliers -> Wrong pose
+= Degeneracy -> Unstable solution
+= Wide baseline -> Matching hard
+= Noise -> Error
+}
+
+::MATCH9::
+Match the domain to application.
+{
+= AR -> Overlay graphics
+= Robotics -> Navigation
+= Heritage -> 3D scanning
+= Vision -> Reconstruction
+}
+
+::MATCH10::
+Match the refinement to purpose.
+{
+= Bundle adjustment -> Optimization
+= RANSAC -> Robustness
+= Normalization -> Stability
+= Multi-view -> Expansion
+}
+
+::MULTI1::
+Which are steps in SfM pipeline (part 1)?
+{
+~%25% Feature detection
+~%25% Matching
+~%25% Outlier rejection
+~%25% Pose estimation
+}
+
+::MULTI2::
+Which are inputs to SfM?
+{
+~%33.33333% Multiple images
+~%33.33333% Feature matches
+~%33.33333% Calibration (optional)
+~%-100% Single image only
+}
+
+::MULTI3::
+Which are applications of SfM?
+{
+~%25% 3D mapping
+~%25% AR/VR
+~%25% Robotics
+~%25% Cultural heritage
+}
+
+::MULTI4::
+Which are challenges in SfM?
+{
+~%25% Noise
+~%25% Outliers
+~%25% Wide baselines
+~%25% Textureless scenes
+}
+
+::MULTI5::
+Which are techniques in SfM pose estimation?
+{
+~%50% Essential matrix
+~%50% RANSAC
+~%-100% JPEG compression
+~%-100% Histogram bins
+}
+
+::MULTI6::
+Which are outputs of SfM?
+{
+~%33.33333% 3D points
+~%33.33333% Camera poses
+~%33.33333% Structure
+~%-100% Audio features
+}
+
+::MULTI7::
+Which are challenges with wide-baseline SfM?
+{
+~%33.33333% Feature mismatches
+~%33.33333% Occlusion
+~%33.33333% Appearance change
+~%-100% Always robust
+}
+
+::MULTI8::
+Which are advantages of SfM?
+{
+~%33.33333% Works with uncalibrated cameras
+~%33.33333% Recovers motion
+~%33.33333% Recovers structure
+~%-100% Needs only one image
+}
+
+::MULTI9::
+Which are methods for outlier rejection?
+{
+~%50% RANSAC
+~%50% Robust estimation
+~%-100% Always keep all matches
+~%-100% Only histograms
+}
+
+::MULTI10::
+Which domains use SfM?
+{
+~%25% Vision
+~%25% Robotics
+~%25% AR/VR
+~%25% Heritage
+}

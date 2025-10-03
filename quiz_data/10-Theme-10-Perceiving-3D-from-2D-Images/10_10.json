@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhat are sparse correspondences?\n{\n= Matches between distinctive features\n~ All pixel matches\n~ Histogram bins\n~ Gradient smoothing\n}",
+    "title": "MC1",
+    "question": "What are sparse correspondences?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Matches between distinctive features",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "All pixel matches",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Histogram bins",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Gradient smoothing",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhat is the purpose of sparse correspondences?\n{\n= Estimate geometry (F/E matrix, homography)\n~ Create disparity maps directly\n~ Only compress data\n~ Adjust histograms\n}",
+    "title": "MC2",
+    "question": "What is the purpose of sparse correspondences?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Estimate geometry (F/E matrix, homography)",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Create disparity maps directly",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Only compress data",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Adjust histograms",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhat is the goal of rectification?\n{\n= Align epipolar lines horizontally\n~ Detect objects\n~ Remove noise\n~ Filter brightness\n}",
+    "title": "MC3",
+    "question": "What is the goal of rectification?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Align epipolar lines horizontally",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Detect objects",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Remove noise",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Filter brightness",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhy does rectification help stereo matching?\n{\n= Reduces search to 1D\n~ Requires no geometry\n~ Removes disparity\n~ Makes 2D search harder\n}",
+    "title": "MC4",
+    "question": "Why does rectification help stereo matching?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Reduces search to 1D",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Requires no geometry",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Removes disparity",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Makes 2D search harder",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhat is required for rectification?\n{\n= Fundamental or essential matrix\n~ JPEG encoding\n~ Histogram equalization\n~ PCA\n}",
+    "title": "MC5",
+    "question": "What is required for rectification?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Fundamental or essential matrix",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "JPEG encoding",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "PCA",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich is a feature detector used for sparse correspondences?\n{\n= SIFT\n~ JPEG\n~ Fourier\n~ Gamma\n}",
+    "title": "MC6",
+    "question": "Which is a feature detector used for sparse correspondences?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "SIFT",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "JPEG",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Fourier",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Gamma",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich is an application of rectification?\n{\n= Depth estimation\n~ Audio compression\n~ File encryption\n~ Histogram smoothing\n}",
+    "title": "MC7",
+    "question": "Which is an application of rectification?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Depth estimation",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Audio compression",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "File encryption",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram smoothing",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich is a challenge in sparse correspondences?\n{\n= Mismatches\n~ Always perfect\n~ No calibration needed\n~ Infinite accuracy\n}",
+    "title": "MC8",
+    "question": "Which is a challenge in sparse correspondences?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Mismatches",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Always perfect",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "No calibration needed",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Infinite accuracy",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich is a challenge in rectification?\n{\n= Calibration accuracy\n~ Always trivial\n~ No geometry required\n~ Guaranteed robustness\n}",
+    "title": "MC9",
+    "question": "Which is a challenge in rectification?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Calibration accuracy",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Always trivial",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "No geometry required",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Guaranteed robustness",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich domain uses rectification?\n{\n= Robotics\n~ Audio processing\n~ File compression\n~ Histogram filtering\n}",
+    "title": "MC10",
+    "question": "Which domain uses rectification?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Robotics",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Audio processing",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "File compression",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram filtering",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the method to description.\n{\n= Sparse -> Few feature matches\n= Dense -> All pixels\n= Rectification -> Align epipolar lines\n= Stereo -> Depth estimation\n}",
+    "title": "MATCH1",
+    "question": "Match the method to description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Sparse",
+        "right": "Few feature matches"
+      },
+      {
+        "id": 2,
+        "left": "Dense",
+        "right": "All pixels"
+      },
+      {
+        "id": 3,
+        "left": "Rectification",
+        "right": "Align epipolar lines"
+      },
+      {
+        "id": 4,
+        "left": "Stereo",
+        "right": "Depth estimation"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the feature to detector.\n{\n= Corner -> Harris\n= SIFT -> Descriptor\n= ORB -> Fast feature\n= SURF -> Robust feature\n}",
+    "title": "MATCH2",
+    "question": "Match the feature to detector.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Corner",
+        "right": "Harris"
+      },
+      {
+        "id": 2,
+        "left": "SIFT",
+        "right": "Descriptor"
+      },
+      {
+        "id": 3,
+        "left": "ORB",
+        "right": "Fast feature"
+      },
+      {
+        "id": 4,
+        "left": "SURF",
+        "right": "Robust feature"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the geometry to method.\n{\n= Fundamental matrix -> Two-view\n= Essential matrix -> Calibrated stereo\n= Homography -> Planar mapping\n= Rectification -> Alignment\n}",
+    "title": "MATCH3",
+    "question": "Match the geometry to method.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Fundamental matrix",
+        "right": "Two-view"
+      },
+      {
+        "id": 2,
+        "left": "Essential matrix",
+        "right": "Calibrated stereo"
+      },
+      {
+        "id": 3,
+        "left": "Homography",
+        "right": "Planar mapping"
+      },
+      {
+        "id": 4,
+        "left": "Rectification",
+        "right": "Alignment"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the step to function.\n{\n= Detect -> Features\n= Match -> Correspondences\n= Estimate -> Geometry\n= Rectify -> Align images\n}",
+    "title": "MATCH4",
+    "question": "Match the step to function.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Detect",
+        "right": "Features"
+      },
+      {
+        "id": 2,
+        "left": "Match",
+        "right": "Correspondences"
+      },
+      {
+        "id": 3,
+        "left": "Estimate",
+        "right": "Geometry"
+      },
+      {
+        "id": 4,
+        "left": "Rectify",
+        "right": "Align images"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the advantage to technique.\n{\n= Sparse -> Efficient\n= Dense -> Complete map\n= Rectification -> 1D search\n= Stereo -> 3D depth\n}",
+    "title": "MATCH5",
+    "question": "Match the advantage to technique.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Sparse",
+        "right": "Efficient"
+      },
+      {
+        "id": 2,
+        "left": "Dense",
+        "right": "Complete map"
+      },
+      {
+        "id": 3,
+        "left": "Rectification",
+        "right": "1D search"
+      },
+      {
+        "id": 4,
+        "left": "Stereo",
+        "right": "3D depth"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the problem to challenge.\n{\n= Noise -> Wrong matches\n= Outliers -> Bad geometry\n= Calibration -> Rectification errors\n= Wide baseline -> Distortion\n}",
+    "title": "MATCH6",
+    "question": "Match the problem to challenge.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Noise",
+        "right": "Wrong matches"
+      },
+      {
+        "id": 2,
+        "left": "Outliers",
+        "right": "Bad geometry"
+      },
+      {
+        "id": 3,
+        "left": "Calibration",
+        "right": "Rectification errors"
+      },
+      {
+        "id": 4,
+        "left": "Wide baseline",
+        "right": "Distortion"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the method to output.\n{\n= Sparse -> Feature matches\n= Dense -> Disparity map\n= Rectification -> Horizontal epipolars\n= Stereo -> Depth map\n}",
+    "title": "MATCH7",
+    "question": "Match the method to output.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Sparse",
+        "right": "Feature matches"
+      },
+      {
+        "id": 2,
+        "left": "Dense",
+        "right": "Disparity map"
+      },
+      {
+        "id": 3,
+        "left": "Rectification",
+        "right": "Horizontal epipolars"
+      },
+      {
+        "id": 4,
+        "left": "Stereo",
+        "right": "Depth map"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the application to domain.\n{\n= Vision -> Stereo depth\n= Robotics -> Navigation\n= AR -> Alignment\n= Graphics -> 3D reconstruction\n}",
+    "title": "MATCH8",
+    "question": "Match the application to domain.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Vision",
+        "right": "Stereo depth"
+      },
+      {
+        "id": 2,
+        "left": "Robotics",
+        "right": "Navigation"
+      },
+      {
+        "id": 3,
+        "left": "AR",
+        "right": "Alignment"
+      },
+      {
+        "id": 4,
+        "left": "Graphics",
+        "right": "3D reconstruction"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the element to meaning.\n{\n= Epipolar line -> Horizontal after rectification\n= Fundamental matrix -> Needed for rectification\n= Feature descriptor -> Match support\n= Outlier -> Wrong correspondence\n}",
+    "title": "MATCH9",
+    "question": "Match the element to meaning.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Epipolar line",
+        "right": "Horizontal after rectification"
+      },
+      {
+        "id": 2,
+        "left": "Fundamental matrix",
+        "right": "Needed for rectification"
+      },
+      {
+        "id": 3,
+        "left": "Feature descriptor",
+        "right": "Match support"
+      },
+      {
+        "id": 4,
+        "left": "Outlier",
+        "right": "Wrong correspondence"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the property to method.\n{\n= Sparse -> Corners/SIFT\n= Dense -> Every pixel\n= Rectification -> Alignment\n= Stereo -> Depth\n}",
+    "title": "MATCH10",
+    "question": "Match the property to method.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Sparse",
+        "right": "Corners/SIFT"
+      },
+      {
+        "id": 2,
+        "left": "Dense",
+        "right": "Every pixel"
+      },
+      {
+        "id": 3,
+        "left": "Rectification",
+        "right": "Alignment"
+      },
+      {
+        "id": 4,
+        "left": "Stereo",
+        "right": "Depth"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are examples of sparse features?\n{\n~%25% Corners\n~%25% SIFT\n~%25% ORB\n~%25% SURF\n}",
+    "title": "MULTI1",
+    "question": "Which are examples of sparse features?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Corners",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "SIFT",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "ORB",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "SURF",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are uses of sparse correspondences?\n{\n~%33.33333% Fundamental matrix estimation\n~%33.33333% Essential matrix estimation\n~%33.33333% Homography estimation\n~%-100% Audio filtering\n}",
+    "title": "MULTI2",
+    "question": "Which are uses of sparse correspondences?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Fundamental matrix estimation",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Essential matrix estimation",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Homography estimation",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Audio filtering",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are goals of rectification?\n{\n~%50% Horizontal epipolar lines\n~%50% 1D correspondence search\n~%-100% Remove disparity\n~%-100% Avoid calibration\n}",
+    "title": "MULTI3",
+    "question": "Which are goals of rectification?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Horizontal epipolar lines",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "1D correspondence search",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Remove disparity",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Avoid calibration",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are applications of rectification?\n{\n~%25% Stereo depth estimation\n~%25% 3D reconstruction\n~%25% Robotics\n~%25% AR/VR\n}",
+    "title": "MULTI4",
+    "question": "Which are applications of rectification?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Stereo depth estimation",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "3D reconstruction",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Robotics",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "AR/VR",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are challenges in sparse correspondences?\n{\n~%33.33333% Noise\n~%33.33333% Outliers\n~%33.33333% Mismatches\n~%-100% Always robust\n}",
+    "title": "MULTI5",
+    "question": "Which are challenges in sparse correspondences?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Noise",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Outliers",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Mismatches",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Always robust",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are challenges in rectification?\n{\n~%33.33333% Calibration accuracy\n~%33.33333% Wide baselines\n~%33.33333% Outliers\n~%-100% No geometry needed\n}",
+    "title": "MULTI6",
+    "question": "Which are challenges in rectification?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Calibration accuracy",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Wide baselines",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Outliers",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "No geometry needed",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are outputs of sparse correspondence pipelines?\n{\n~%33.33333% Matched features\n~%33.33333% Estimated F/E matrix\n~%33.33333% Homography\n~%-100% Disparity maps directly\n}",
+    "title": "MULTI7",
+    "question": "Which are outputs of sparse correspondence pipelines?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Matched features",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Estimated F/E matrix",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Homography",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Disparity maps directly",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are post-rectification benefits?\n{\n~%50% Simplified search\n~%50% Horizontal lines\n~%-100% Stereo eliminated\n~%-100% Always 3D reconstruction\n}",
+    "title": "MULTI8",
+    "question": "Which are post-rectification benefits?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Simplified search",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Horizontal lines",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Stereo eliminated",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Always 3D reconstruction",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are properties of sparse vs. dense methods?\n{\n~%50% Sparse = efficient\n~%50% Dense = complete\n~%-100% Sparse = all pixels\n~%-100% Dense = few features\n}",
+    "title": "MULTI9",
+    "question": "Which are properties of sparse vs. dense methods?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Sparse = efficient",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Dense = complete",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Sparse = all pixels",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Dense = few features",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are domains using sparse correspondences & rectification?\n{\n~%25% Robotics\n~%25% Vision\n~%25% AR/VR\n~%25% Graphics\n}",
+    "title": "MULTI10",
+    "question": "Which are domains using sparse correspondences & rectification?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Robotics",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Vision",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "AR/VR",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Graphics",
+        "weight": 25.0
+      }
+    ]
+  }
+]

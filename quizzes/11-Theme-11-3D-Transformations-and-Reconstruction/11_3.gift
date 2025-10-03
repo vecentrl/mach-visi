@@ -1,0 +1,309 @@
+::TF1::
+Pose estimation recovers the position and orientation of a camera.
+{TRUE}
+
+::TF2::
+The P3P problem uses 3 known 3D–2D correspondences to compute pose.
+{TRUE}
+
+::TF3::
+The P3P problem assumes camera intrinsics are known.
+{TRUE}
+
+::TF4::
+P3P can produce multiple solutions.
+{TRUE}
+
+::TF5::
+P3P always gives exactly one solution.
+{FALSE}
+
+::TF6::
+At least 3 non-collinear points are required for P3P.
+{TRUE}
+
+::TF7::
+Additional correspondences can disambiguate multiple P3P solutions.
+{TRUE}
+
+::TF8::
+P3P estimates both rotation and translation.
+{TRUE}
+
+::TF9::
+Pose estimation is used in augmented reality.
+{TRUE}
+
+::TF10::
+Collinear 3D points are ideal for stable P3P estimation.
+{FALSE}
+
+::MC1::
+What does pose estimation compute?
+{
+= Camera position and orientation
+~ Only focal length
+~ Only pixel brightness
+~ Only histogram equalization
+}
+
+::MC2::
+What is the P3P problem?
+{
+= Pose from 3 3D–2D correspondences
+~ Pose from 2D–2D correspondences
+~ Only depth recovery
+~ PCA decomposition
+}
+
+::MC3::
+How many solutions can P3P yield?
+{
+= Up to four
+~ Always one
+~ Only two
+~ Unlimited
+}
+
+::MC4::
+What is required for P3P?
+{
+= 3 non-collinear 3D–2D correspondences
+~ Only one point
+~ Histogram bins
+~ Random noise
+}
+
+::MC5::
+What does P3P assume about camera intrinsics?
+{
+= They are known
+~ They are unknown
+~ They are ignored
+~ They are random
+}
+
+::MC6::
+Which matrix components does pose estimation compute?
+{
+= Rotation and translation
+~ Only scaling
+~ Only focal length
+~ Only skew
+}
+
+::MC7::
+Which field uses pose estimation?
+{
+= Robotics
+~ Audio processing
+~ File compression
+~ Histogram equalization
+}
+
+::MC8::
+Which is a challenge in P3P?
+{
+= Collinear points
+~ Always unique solution
+~ No effect of noise
+~ No calibration needed
+}
+
+::MC9::
+Which is an application of P3P?
+{
+= Augmented reality
+~ JPEG compression
+~ Gamma correction
+~ Audio filtering
+}
+
+::MC10::
+Which term best describes P3P solutions?
+{
+= Multiple possible poses
+~ Always exact
+~ Single fixed answer
+~ No solution
+}
+
+::MATCH1::
+Match the parameter to role.
+{
+= Rotation -> Orientation
+= Translation -> Position
+= Intrinsics -> Internal calibration
+= Correspondences -> Input data
+}
+
+::MATCH2::
+Match the method to requirement.
+{
+= P3P -> 3 points
+= PnP -> More points
+= RANSAC -> Outlier handling
+= Calibration -> Intrinsics
+}
+
+::MATCH3::
+Match the challenge to cause.
+{
+= Collinear points -> Degenerate
+= Noise -> Inaccuracy
+= Outliers -> Wrong pose
+= Ambiguity -> Multiple solutions
+}
+
+::MATCH4::
+Match the application to field.
+{
+= AR -> Overlay graphics
+= Robotics -> Navigation
+= Vision -> SLAM
+= Medicine -> Image guidance
+}
+
+::MATCH5::
+Match the correspondence type to description.
+{
+= 3D–2D -> P3P input
+= 3D–3D -> Registration
+= 2D–2D -> Epipolar geometry
+= 2D–3D -> Pose estimation
+}
+
+::MATCH6::
+Match the solution to refinement.
+{
+= P3P -> Initial guess
+= PnP -> Extended solution
+= Iterative refinement -> Accuracy
+= RANSAC -> Robustness
+}
+
+::MATCH7::
+Match the matrix to content.
+{
+= R -> Rotation
+= t -> Translation
+= K -> Intrinsics
+= [R|t] -> Extrinsic
+}
+
+::MATCH8::
+Match the step to purpose.
+{
+= Detect points -> Features
+= Match -> Correspondences
+= Solve P3P -> Initial pose
+= Refine -> Improve accuracy
+}
+
+::MATCH9::
+Match the problem to method.
+{
+= Outliers -> RANSAC
+= Ambiguity -> Extra points
+= Degenerate -> Non-collinear points
+= Noise -> Iterative refinement
+}
+
+::MATCH10::
+Match the domain to example.
+{
+= AR -> Headset overlay
+= Robotics -> Localization
+= SLAM -> Mapping
+= Graphics -> Camera placement
+}
+
+::MULTI1::
+Which are inputs to P3P?
+{
+~%33.33333% 3D points
+~%33.33333% 2D points
+~%33.33333% Intrinsic matrix
+~%-100% Audio signals
+}
+
+::MULTI2::
+Which are outputs of P3P?
+{
+~%50% Rotation
+~%50% Translation
+~%-100% Intrinsic parameters
+~%-100% Histograms
+}
+
+::MULTI3::
+Which are requirements of P3P?
+{
+~%33.33333% Known intrinsics
+~%33.33333% 3 correspondences
+~%33.33333% Non-collinear points
+~%-100% Collinear points
+}
+
+::MULTI4::
+Which are challenges of P3P?
+{
+~%25% Noise
+~%25% Outliers
+~%25% Degenerate points
+~%25% Ambiguity
+}
+
+::MULTI5::
+Which are extensions of P3P?
+{
+~%50% PnP (n > 3)
+~%50% Iterative refinement
+~%-100% Histogram equalization
+~%-100% PCA
+}
+
+::MULTI6::
+Which are applications of pose estimation?
+{
+~%25% Augmented reality
+~%25% Robotics
+~%25% SLAM
+~%25% Medicine
+}
+
+::MULTI7::
+Which are solutions to multiple poses in P3P?
+{
+~%33.33333% Extra correspondences
+~%33.33333% RANSAC
+~%33.33333% Geometric validation
+~%-100% Ignoring calibration
+}
+
+::MULTI8::
+Which are included in extrinsic parameters from P3P?
+{
+~%50% Rotation
+~%50% Translation
+~%-100% Focal length
+~%-100% Principal point
+}
+
+::MULTI9::
+Which are characteristics of P3P?
+{
+~%25% Minimal problem
+~%25% Up to 4 solutions
+~%25% Needs intrinsics
+~%25% Sensitive to noise
+}
+
+::MULTI10::
+Which are domains using P3P?
+{
+~%25% Vision
+~%25% Robotics
+~%25% AR
+~%25% Graphics
+}

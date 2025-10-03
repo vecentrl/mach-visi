@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhat does model fitting do?\n{\n= Estimates model parameters from data\n~ Removes all noise\n~ Always provides perfect prediction\n~ Compresses images\n}",
+    "title": "MC1",
+    "question": "What does model fitting do?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Estimates model parameters from data",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Removes all noise",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Always provides perfect prediction",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Compresses images",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhich method minimizes squared error?\n{\n= Least squares\n~ Maximum likelihood\n~ PCA\n~ Histogram equalization\n}",
+    "title": "MC2",
+    "question": "Which method minimizes squared error?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Least squares",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Maximum likelihood",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "PCA",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram equalization",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhich is an example of model fitting in vision?\n{\n= Fitting a line to edge points\n~ Histogram equalization\n~ JPEG compression\n~ Gamma correction\n}",
+    "title": "MC3",
+    "question": "Which is an example of model fitting in vision?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Fitting a line to edge points",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "JPEG compression",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Gamma correction",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhich is a drawback of least squares?\n{\n= Sensitive to outliers\n~ Always robust\n~ Ignores error\n~ Works only for curves\n}",
+    "title": "MC4",
+    "question": "Which is a drawback of least squares?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Sensitive to outliers",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Always robust",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Ignores error",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Works only for curves",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhich method is more robust to outliers?\n{\n= RANSAC\n~ Least squares\n~ Histogram equalization\n~ PCA\n}",
+    "title": "MC5",
+    "question": "Which method is more robust to outliers?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "RANSAC",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Least squares",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "PCA",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich is an application of model fitting?\n{\n= Camera calibration\n~ Audio compression\n~ File encryption\n~ Histogram smoothing\n}",
+    "title": "MC6",
+    "question": "Which is an application of model fitting?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Camera calibration",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Audio compression",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "File encryption",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram smoothing",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich factor affects model fitting quality?\n{\n= Noise\n~ File format\n~ Gamma correction\n~ Histogram bins\n}",
+    "title": "MC7",
+    "question": "Which factor affects model fitting quality?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Noise",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "File format",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Gamma correction",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram bins",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich property is true of robust fitting?\n{\n= Handles outliers better\n~ Ignores models\n~ Needs no data\n~ Always linear\n}",
+    "title": "MC8",
+    "question": "Which property is true of robust fitting?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Handles outliers better",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Ignores models",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Needs no data",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Always linear",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich is a challenge in non-linear fitting?\n{\n= Convergence\n~ Always perfect accuracy\n~ No noise\n~ Histogram issues\n}",
+    "title": "MC9",
+    "question": "Which is a challenge in non-linear fitting?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Convergence",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Always perfect accuracy",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "No noise",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram issues",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich is an example of 3D model fitting?\n{\n= Fitting a plane to 3D points\n~ Histogram equalization\n~ File compression\n~ PCA feature reduction\n}",
+    "title": "MC10",
+    "question": "Which is an example of 3D model fitting?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Fitting a plane to 3D points",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "File compression",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "PCA feature reduction",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the method to property.\n{\n= Least squares -> Minimizes squared error\n= RANSAC -> Robust to outliers\n= PCA -> Feature reduction\n= k-means -> Clustering\n}",
+    "title": "MATCH1",
+    "question": "Match the method to property.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Least squares",
+        "right": "Minimizes squared error"
+      },
+      {
+        "id": 2,
+        "left": "RANSAC",
+        "right": "Robust to outliers"
+      },
+      {
+        "id": 3,
+        "left": "PCA",
+        "right": "Feature reduction"
+      },
+      {
+        "id": 4,
+        "left": "k-means",
+        "right": "Clustering"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the model to application.\n{\n= Line -> Edge fitting\n= Plane -> 3D reconstruction\n= Polynomial -> Curve fitting\n= Camera -> Calibration\n}",
+    "title": "MATCH2",
+    "question": "Match the model to application.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Line",
+        "right": "Edge fitting"
+      },
+      {
+        "id": 2,
+        "left": "Plane",
+        "right": "3D reconstruction"
+      },
+      {
+        "id": 3,
+        "left": "Polynomial",
+        "right": "Curve fitting"
+      },
+      {
+        "id": 4,
+        "left": "Camera",
+        "right": "Calibration"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the challenge to cause.\n{\n= Noise -> Measurement errors\n= Outliers -> Wrong samples\n= Non-linear -> Convergence issues\n= Few data -> Poor estimates\n}",
+    "title": "MATCH3",
+    "question": "Match the challenge to cause.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Noise",
+        "right": "Measurement errors"
+      },
+      {
+        "id": 2,
+        "left": "Outliers",
+        "right": "Wrong samples"
+      },
+      {
+        "id": 3,
+        "left": "Non-linear",
+        "right": "Convergence issues"
+      },
+      {
+        "id": 4,
+        "left": "Few data",
+        "right": "Poor estimates"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the technique to robustness.\n{\n= Least squares -> Sensitive\n= RANSAC -> Robust\n= Robust regression -> Outlier handling\n= Plain mean -> Sensitive\n}",
+    "title": "MATCH4",
+    "question": "Match the technique to robustness.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Least squares",
+        "right": "Sensitive"
+      },
+      {
+        "id": 2,
+        "left": "RANSAC",
+        "right": "Robust"
+      },
+      {
+        "id": 3,
+        "left": "Robust regression",
+        "right": "Outlier handling"
+      },
+      {
+        "id": 4,
+        "left": "Plain mean",
+        "right": "Sensitive"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the application to domain.\n{\n= Vision -> Line/plane fitting\n= Robotics -> Pose estimation\n= Medicine -> Shape detection\n= Graphics -> Model approximation\n}",
+    "title": "MATCH5",
+    "question": "Match the application to domain.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Vision",
+        "right": "Line/plane fitting"
+      },
+      {
+        "id": 2,
+        "left": "Robotics",
+        "right": "Pose estimation"
+      },
+      {
+        "id": 3,
+        "left": "Medicine",
+        "right": "Shape detection"
+      },
+      {
+        "id": 4,
+        "left": "Graphics",
+        "right": "Model approximation"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the model to shape.\n{\n= Line -> 2D edge\n= Plane -> 3D surface\n= Circle -> Round object\n= Ellipse -> Shape outline\n}",
+    "title": "MATCH6",
+    "question": "Match the model to shape.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Line",
+        "right": "2D edge"
+      },
+      {
+        "id": 2,
+        "left": "Plane",
+        "right": "3D surface"
+      },
+      {
+        "id": 3,
+        "left": "Circle",
+        "right": "Round object"
+      },
+      {
+        "id": 4,
+        "left": "Ellipse",
+        "right": "Shape outline"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the method to drawback.\n{\n= Least squares -> Outliers sensitive\n= RANSAC -> Randomness\n= Non-linear -> Convergence issues\n= Robust regression -> Complexity\n}",
+    "title": "MATCH7",
+    "question": "Match the method to drawback.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Least squares",
+        "right": "Outliers sensitive"
+      },
+      {
+        "id": 2,
+        "left": "RANSAC",
+        "right": "Randomness"
+      },
+      {
+        "id": 3,
+        "left": "Non-linear",
+        "right": "Convergence issues"
+      },
+      {
+        "id": 4,
+        "left": "Robust regression",
+        "right": "Complexity"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the domain to use.\n{\n= Camera calibration -> Vision\n= Pose estimation -> Robotics\n= Tumor detection -> Medicine\n= Object modeling -> Graphics\n}",
+    "title": "MATCH8",
+    "question": "Match the domain to use.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Camera calibration",
+        "right": "Vision"
+      },
+      {
+        "id": 2,
+        "left": "Pose estimation",
+        "right": "Robotics"
+      },
+      {
+        "id": 3,
+        "left": "Tumor detection",
+        "right": "Medicine"
+      },
+      {
+        "id": 4,
+        "left": "Object modeling",
+        "right": "Graphics"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the technique to description.\n{\n= Least squares -> Minimize sum of squares\n= RANSAC -> Random sampling\n= Robust regression -> Weighted fitting\n= PCA -> Reduce dimensions\n}",
+    "title": "MATCH9",
+    "question": "Match the technique to description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Least squares",
+        "right": "Minimize sum of squares"
+      },
+      {
+        "id": 2,
+        "left": "RANSAC",
+        "right": "Random sampling"
+      },
+      {
+        "id": 3,
+        "left": "Robust regression",
+        "right": "Weighted fitting"
+      },
+      {
+        "id": 4,
+        "left": "PCA",
+        "right": "Reduce dimensions"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the problem to solution.\n{\n= Outliers -> RANSAC\n= Noise -> Robust regression\n= Non-linear -> Iterative solver\n= Few data -> Regularization\n}",
+    "title": "MATCH10",
+    "question": "Match the problem to solution.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Outliers",
+        "right": "RANSAC"
+      },
+      {
+        "id": 2,
+        "left": "Noise",
+        "right": "Robust regression"
+      },
+      {
+        "id": 3,
+        "left": "Non-linear",
+        "right": "Iterative solver"
+      },
+      {
+        "id": 4,
+        "left": "Few data",
+        "right": "Regularization"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are model fitting methods?\n{\n~%25% Least squares\n~%25% RANSAC\n~%25% Robust regression\n~%25% Maximum likelihood\n}",
+    "title": "MULTI1",
+    "question": "Which are model fitting methods?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Least squares",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "RANSAC",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Robust regression",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Maximum likelihood",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are challenges in model fitting?\n{\n~%25% Noise\n~%25% Outliers\n~%25% Non-linearity\n~%25% Few data\n}",
+    "title": "MULTI2",
+    "question": "Which are challenges in model fitting?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Noise",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Outliers",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Non-linearity",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Few data",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are applications of model fitting?\n{\n~%33.33333% Camera calibration\n~%33.33333% 3D reconstruction\n~%33.33333% Object detection\n~%-100% Audio compression\n}",
+    "title": "MULTI3",
+    "question": "Which are applications of model fitting?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Camera calibration",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "3D reconstruction",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Object detection",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Audio compression",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are true about least squares?\n{\n~%50% Minimizes squared error\n~%50% Sensitive to outliers\n~%-100% Robust to all data\n~%-100% Handles occlusion\n}",
+    "title": "MULTI4",
+    "question": "Which are true about least squares?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Minimizes squared error",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Sensitive to outliers",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Robust to all data",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Handles occlusion",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are true about robust fitting?\n{\n~%33.33333% Handles outliers\n~%33.33333% More stable\n~%33.33333% Can use RANSAC\n~%-100% Sensitive like least squares\n}",
+    "title": "MULTI5",
+    "question": "Which are true about robust fitting?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Handles outliers",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "More stable",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Can use RANSAC",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Sensitive like least squares",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are examples of fitted models?\n{\n~%25% Line\n~%25% Plane\n~%25% Circle\n~%25% Ellipse\n}",
+    "title": "MULTI6",
+    "question": "Which are examples of fitted models?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Line",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Plane",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Circle",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Ellipse",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are domains using model fitting?\n{\n~%25% Vision\n~%25% Robotics\n~%25% Medicine\n~%25% Graphics\n}",
+    "title": "MULTI7",
+    "question": "Which are domains using model fitting?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Vision",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Robotics",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Medicine",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Graphics",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are drawbacks of model fitting?\n{\n~%50% Sensitive to noise/outliers\n~%50% Convergence issues in non-linear cases\n~%-100% Always perfect\n~%-100% Needs no data\n}",
+    "title": "MULTI8",
+    "question": "Which are drawbacks of model fitting?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Sensitive to noise/outliers",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Convergence issues in non-linear cases",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Always perfect",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Needs no data",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are robust fitting methods?\n{\n~%33.33333% RANSAC\n~%33.33333% Robust regression\n~%33.33333% M-estimators\n~%-100% Plain least squares\n}",
+    "title": "MULTI9",
+    "question": "Which are robust fitting methods?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "RANSAC",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Robust regression",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "M-estimators",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Plain least squares",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are benefits of model fitting?\n{\n~%25% Parameter estimation\n~%25% Data generalization\n~%25% Shape detection\n~%25% Reconstruction\n}",
+    "title": "MULTI10",
+    "question": "Which are benefits of model fitting?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Parameter estimation",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Data generalization",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Shape detection",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Reconstruction",
+        "weight": 25.0
+      }
+    ]
+  }
+]

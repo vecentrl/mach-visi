@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhich features can be extracted from co-occurrence matrices?\n{\n= Contrast, energy, homogeneity, entropy\n~ RGB color histograms\n~ JPEG compression artifacts\n~ File size\n}",
+    "title": "MC1",
+    "question": "Which features can be extracted from co-occurrence matrices?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Contrast, energy, homogeneity, entropy",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "RGB color histograms",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "JPEG compression artifacts",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "File size",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhich method is an example of a spectral texture descriptor?\n{\n= Gabor filter\n~ Histogram\n~ Co-occurrence matrix\n~ Otsu thresholding\n}",
+    "title": "MC2",
+    "question": "Which method is an example of a spectral texture descriptor?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Gabor filter",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Co-occurrence matrix",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Otsu thresholding",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhich is a structural approach to texture?\n{\n= Using repeated texels\n~ Fourier analysis\n~ Histogram equalization\n~ Edge detection\n}",
+    "title": "MC3",
+    "question": "Which is a structural approach to texture?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Using repeated texels",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Fourier analysis",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Edge detection",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhat is the goal of texture synthesis?\n{\n= Generate new textures similar to samples\n~ Reduce noise\n~ Increase file size\n~ Encrypt data\n}",
+    "title": "MC4",
+    "question": "What is the goal of texture synthesis?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Generate new textures similar to samples",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Reduce noise",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Increase file size",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Encrypt data",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhich feature measures local variations in intensity?\n{\n= Contrast\n~ Energy\n~ Homogeneity\n~ Entropy\n}",
+    "title": "MC5",
+    "question": "Which feature measures local variations in intensity?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Contrast",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Energy",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Homogeneity",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Entropy",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich feature measures texture smoothness or uniformity?\n{\n= Homogeneity\n~ Contrast\n~ Entropy\n~ Histogram bins\n}",
+    "title": "MC6",
+    "question": "Which feature measures texture smoothness or uniformity?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Homogeneity",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Contrast",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Entropy",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram bins",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich feature measures the strength of repetition?\n{\n= Energy\n~ Contrast\n~ Homogeneity\n~ JPEG quality\n}",
+    "title": "MC7",
+    "question": "Which feature measures the strength of repetition?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Energy",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Contrast",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Homogeneity",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "JPEG quality",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich feature measures randomness?\n{\n= Entropy\n~ Energy\n~ Contrast\n~ Homogeneity\n}",
+    "title": "MC8",
+    "question": "Which feature measures randomness?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Entropy",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Energy",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Contrast",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Homogeneity",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich domain is used by spectral texture analysis?\n{\n= Frequency domain\n~ Spatial domain only\n~ File compression\n~ Binary thresholding\n}",
+    "title": "MC9",
+    "question": "Which domain is used by spectral texture analysis?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Frequency domain",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Spatial domain only",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "File compression",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Binary thresholding",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich application uses texture synthesis?\n{\n= Graphics and animation\n~ Histogram equalization\n~ White balance\n~ File encryption\n}",
+    "title": "MC10",
+    "question": "Which application uses texture synthesis?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Graphics and animation",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "White balance",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "File encryption",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the statistical feature to its meaning.\n{\n= Contrast -> Intensity difference\n= Energy -> Repetition strength\n= Homogeneity -> Uniformity\n= Entropy -> Randomness\n}",
+    "title": "MATCH1",
+    "question": "Match the statistical feature to its meaning.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Contrast",
+        "right": "Intensity difference"
+      },
+      {
+        "id": 2,
+        "left": "Energy",
+        "right": "Repetition strength"
+      },
+      {
+        "id": 3,
+        "left": "Homogeneity",
+        "right": "Uniformity"
+      },
+      {
+        "id": 4,
+        "left": "Entropy",
+        "right": "Randomness"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the method to its type.\n{\n= Histogram -> Statistical\n= Co-occurrence -> Statistical\n= Fourier -> Spectral\n= Gabor -> Spectral\n}",
+    "title": "MATCH2",
+    "question": "Match the method to its type.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Histogram",
+        "right": "Statistical"
+      },
+      {
+        "id": 2,
+        "left": "Co-occurrence",
+        "right": "Statistical"
+      },
+      {
+        "id": 3,
+        "left": "Fourier",
+        "right": "Spectral"
+      },
+      {
+        "id": 4,
+        "left": "Gabor",
+        "right": "Spectral"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the approach to description.\n{\n= Statistical -> Distribution-based\n= Spectral -> Frequency-based\n= Structural -> Pattern-based\n= Synthesis -> Generating textures\n}",
+    "title": "MATCH3",
+    "question": "Match the approach to description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Statistical",
+        "right": "Distribution-based"
+      },
+      {
+        "id": 2,
+        "left": "Spectral",
+        "right": "Frequency-based"
+      },
+      {
+        "id": 3,
+        "left": "Structural",
+        "right": "Pattern-based"
+      },
+      {
+        "id": 4,
+        "left": "Synthesis",
+        "right": "Generating textures"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the feature to the property.\n{\n= Contrast -> Local variation\n= Energy -> Strength of pattern\n= Homogeneity -> Smoothness\n= Entropy -> Disorder\n}",
+    "title": "MATCH4",
+    "question": "Match the feature to the property.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Contrast",
+        "right": "Local variation"
+      },
+      {
+        "id": 2,
+        "left": "Energy",
+        "right": "Strength of pattern"
+      },
+      {
+        "id": 3,
+        "left": "Homogeneity",
+        "right": "Smoothness"
+      },
+      {
+        "id": 4,
+        "left": "Entropy",
+        "right": "Disorder"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the application to texture analysis.\n{\n= Medical imaging -> Tissue classification\n= Remote sensing -> Land cover classification\n= Industrial inspection -> Surface defects\n= Scene recognition -> Identifying context\n}",
+    "title": "MATCH5",
+    "question": "Match the application to texture analysis.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Medical imaging",
+        "right": "Tissue classification"
+      },
+      {
+        "id": 2,
+        "left": "Remote sensing",
+        "right": "Land cover classification"
+      },
+      {
+        "id": 3,
+        "left": "Industrial inspection",
+        "right": "Surface defects"
+      },
+      {
+        "id": 4,
+        "left": "Scene recognition",
+        "right": "Identifying context"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the method to application.\n{\n= Fourier -> Frequency features\n= Gabor -> Multi-scale analysis\n= Co-occurrence -> Statistical descriptors\n= Texel models -> Structural approach\n}",
+    "title": "MATCH6",
+    "question": "Match the method to application.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Fourier",
+        "right": "Frequency features"
+      },
+      {
+        "id": 2,
+        "left": "Gabor",
+        "right": "Multi-scale analysis"
+      },
+      {
+        "id": 3,
+        "left": "Co-occurrence",
+        "right": "Statistical descriptors"
+      },
+      {
+        "id": 4,
+        "left": "Texel models",
+        "right": "Structural approach"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the challenge to effect.\n{\n= Scale variation -> Feature instability\n= Illumination -> Contrast change\n= Noise -> Distorted patterns\n= Randomness -> Hard synthesis\n}",
+    "title": "MATCH7",
+    "question": "Match the challenge to effect.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Scale variation",
+        "right": "Feature instability"
+      },
+      {
+        "id": 2,
+        "left": "Illumination",
+        "right": "Contrast change"
+      },
+      {
+        "id": 3,
+        "left": "Noise",
+        "right": "Distorted patterns"
+      },
+      {
+        "id": 4,
+        "left": "Randomness",
+        "right": "Hard synthesis"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the synthesis method to idea.\n{\n= Sample-based -> Copying patches\n= Model-based -> Parameterized descriptors\n= Procedural -> Algorithmic generation\n= Hybrid -> Combination\n}",
+    "title": "MATCH8",
+    "question": "Match the synthesis method to idea.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Sample-based",
+        "right": "Copying patches"
+      },
+      {
+        "id": 2,
+        "left": "Model-based",
+        "right": "Parameterized descriptors"
+      },
+      {
+        "id": 3,
+        "left": "Procedural",
+        "right": "Algorithmic generation"
+      },
+      {
+        "id": 4,
+        "left": "Hybrid",
+        "right": "Combination"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the feature to example.\n{\n= High contrast -> Rough surface\n= High homogeneity -> Smooth area\n= High energy -> Strong repetition\n= High entropy -> Random texture\n}",
+    "title": "MATCH9",
+    "question": "Match the feature to example.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "High contrast",
+        "right": "Rough surface"
+      },
+      {
+        "id": 2,
+        "left": "High homogeneity",
+        "right": "Smooth area"
+      },
+      {
+        "id": 3,
+        "left": "High energy",
+        "right": "Strong repetition"
+      },
+      {
+        "id": 4,
+        "left": "High entropy",
+        "right": "Random texture"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the descriptor to the domain.\n{\n= Co-occurrence -> Statistics\n= Fourier -> Frequency\n= Gabor -> Multi-scale frequency\n= Texel -> Structural\n}",
+    "title": "MATCH10",
+    "question": "Match the descriptor to the domain.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Co-occurrence",
+        "right": "Statistics"
+      },
+      {
+        "id": 2,
+        "left": "Fourier",
+        "right": "Frequency"
+      },
+      {
+        "id": 3,
+        "left": "Gabor",
+        "right": "Multi-scale frequency"
+      },
+      {
+        "id": 4,
+        "left": "Texel",
+        "right": "Structural"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are statistical features of texture?\n{\n~%25% Contrast\n~%25% Energy\n~%25% Homogeneity\n~%25% Entropy\n}",
+    "title": "MULTI1",
+    "question": "Which are statistical features of texture?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Contrast",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Energy",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Homogeneity",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Entropy",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are spectral methods?\n{\n~%33.33333% Fourier\n~%33.33333% Gabor\n~%33.33333% Wavelets\n~%-100% Histogram\n}",
+    "title": "MULTI2",
+    "question": "Which are spectral methods?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Fourier",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Gabor",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Wavelets",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Histogram",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are structural methods?\n{\n~%50% Texels\n~%50% Pattern repetition\n~%-100% Fourier\n~%-100% Gabor\n}",
+    "title": "MULTI3",
+    "question": "Which are structural methods?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Texels",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Pattern repetition",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Fourier",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Gabor",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are applications of texture analysis?\n{\n~%25% Surface classification\n~%25% Medical imaging\n~%25% Remote sensing\n~%25% Scene recognition\n}",
+    "title": "MULTI4",
+    "question": "Which are applications of texture analysis?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Surface classification",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Medical imaging",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Remote sensing",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Scene recognition",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are challenges for texture analysis?\n{\n~%33.33333% Illumination variation\n~%33.33333% Noise\n~%33.33333% Scale variation\n~%-100% File compression\n}",
+    "title": "MULTI5",
+    "question": "Which are challenges for texture analysis?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Illumination variation",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Noise",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Scale variation",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "File compression",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are types of texture synthesis methods?\n{\n~%25% Sample-based\n~%25% Model-based\n~%25% Procedural\n~%25% Hybrid\n}",
+    "title": "MULTI6",
+    "question": "Which are types of texture synthesis methods?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Sample-based",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Model-based",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Procedural",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Hybrid",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are properties of co-occurrence features?\n{\n~%50% Statistical\n~%50% Based on pixel pairs\n~%-100% Frequency domain\n~%-100% Always structural\n}",
+    "title": "MULTI7",
+    "question": "Which are properties of co-occurrence features?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Statistical",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Based on pixel pairs",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Frequency domain",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Always structural",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are properties of Gabor filters?\n{\n~%33.33333% Multi-scale\n~%33.33333% Frequency-based\n~%33.33333% Directional sensitivity\n~%-100% Histogram-based\n}",
+    "title": "MULTI8",
+    "question": "Which are properties of Gabor filters?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Multi-scale",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Frequency-based",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Directional sensitivity",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Histogram-based",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are goals of texture synthesis?\n{\n~%33.33333% Generate realistic textures\n~%33.33333% Extend samples\n~%33.33333% Graphics/animation\n~%-100% Reduce image size\n}",
+    "title": "MULTI9",
+    "question": "Which are goals of texture synthesis?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Generate realistic textures",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Extend samples",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Graphics/animation",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Reduce image size",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are descriptors of randomness in texture?\n{\n~%50% Entropy\n~%50% Variance\n~%-100% Energy\n~%-100% Homogeneity\n}",
+    "title": "MULTI10",
+    "question": "Which are descriptors of randomness in texture?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Entropy",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Variance",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Energy",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Homogeneity",
+        "weight": -100.0
+      }
+    ]
+  }
+]

@@ -1,0 +1,814 @@
+[
+  {
+    "gift_source": "::MC1::\nWhat is chromatic aberration?\n{\n= Different colors focusing at slightly different points\n~ Uneven exposure due to shutter\n~ Brightness falloff at edges\n~ Random photon noise\n}",
+    "title": "MC1",
+    "question": "What is chromatic aberration?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Different colors focusing at slightly different points",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Uneven exposure due to shutter",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Brightness falloff at edges",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Random photon noise",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhich type of lens can reduce chromatic aberration?\n{\n= Compound lens\n~ Single-element lens\n~ Plastic pinhole\n~ Diffuser\n}",
+    "title": "MC2",
+    "question": "Which type of lens can reduce chromatic aberration?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Compound lens",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Single-element lens",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Plastic pinhole",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Diffuser",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhat does vignetting cause in an image?\n{\n= Darkening at the edges\n~ Color fringing\n~ Motion blur\n~ Noise spikes\n}",
+    "title": "MC3",
+    "question": "What does vignetting cause in an image?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Darkening at the edges",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Color fringing",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Motion blur",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Noise spikes",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhat is the main cause of shot noise?\n{\n= Random arrival of photons\n~ JPEG compression\n~ Incorrect gamma correction\n~ Lens distortion\n}",
+    "title": "MC4",
+    "question": "What is the main cause of shot noise?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Random arrival of photons",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "JPEG compression",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Incorrect gamma correction",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Lens distortion",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhich type of noise is modeled as Poisson-distributed?\n{\n= Shot noise\n~ Quantization noise\n~ Thermal noise\n~ Electronic noise\n}",
+    "title": "MC5",
+    "question": "Which type of noise is modeled as Poisson-distributed?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Shot noise",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Quantization noise",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Thermal noise",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Electronic noise",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich type of noise is introduced by digitizing signals?\n{\n= Quantization noise\n~ Thermal noise\n~ Shot noise\n~ Photon absorption\n}",
+    "title": "MC6",
+    "question": "Which type of noise is introduced by digitizing signals?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Quantization noise",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Thermal noise",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Shot noise",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Photon absorption",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich color space is commonly used for JPEG compression?\n{\n= YCbCr\n~ HSV\n~ RGB only\n~ CIE XYZ\n}",
+    "title": "MC7",
+    "question": "Which color space is commonly used for JPEG compression?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "YCbCr",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "HSV",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "RGB only",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "CIE XYZ",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhat is the purpose of white balance?\n{\n= Adjusting colors to account for illumination\n~ Removing blur\n~ Reducing noise\n~ Correcting gamma\n}",
+    "title": "MC8",
+    "question": "What is the purpose of white balance?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Adjusting colors to account for illumination",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Removing blur",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Reducing noise",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Correcting gamma",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nGamma pre-correction adjusts image intensity because\\:\n{\n= Human vision is nonlinear in brightness\n~ Cameras are nonlinear\n~ Sensors measure hue directly\n~ Pixels are arranged irregularly\n}",
+    "title": "MC9",
+    "question": "Gamma pre-correction adjusts image intensity because\\:",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Human vision is nonlinear in brightness",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Cameras are nonlinear",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Sensors measure hue directly",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Pixels are arranged irregularly",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the optical effect to its description.\n{\n= Chromatic aberration -> Colors focus differently\n= Vignetting -> Brightness falloff at edges\n= Noise -> Random variation in pixel values\n= White balance -> Adjust colors for illumination\n}",
+    "title": "MATCH1",
+    "question": "Match the optical effect to its description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Chromatic aberration",
+        "right": "Colors focus differently"
+      },
+      {
+        "id": 2,
+        "left": "Vignetting",
+        "right": "Brightness falloff at edges"
+      },
+      {
+        "id": 3,
+        "left": "Noise",
+        "right": "Random variation in pixel values"
+      },
+      {
+        "id": 4,
+        "left": "White balance",
+        "right": "Adjust colors for illumination"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the noise type to its cause.\n{\n= Shot noise -> Photon randomness\n= Quantization noise -> Digitization step size\n= Thermal noise -> Heat in electronics\n= Electronic noise -> Circuit interference\n}",
+    "title": "MATCH2",
+    "question": "Match the noise type to its cause.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Shot noise",
+        "right": "Photon randomness"
+      },
+      {
+        "id": 2,
+        "left": "Quantization noise",
+        "right": "Digitization step size"
+      },
+      {
+        "id": 3,
+        "left": "Thermal noise",
+        "right": "Heat in electronics"
+      },
+      {
+        "id": 4,
+        "left": "Electronic noise",
+        "right": "Circuit interference"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the lens type to its effect.\n{\n= Simple lens -> Chromatic aberration\n= Compound lens -> Corrects aberration\n= Wide aperture -> Shallow depth of field\n= Wide angle -> Strong radial distortion\n}",
+    "title": "MATCH3",
+    "question": "Match the lens type to its effect.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Simple lens",
+        "right": "Chromatic aberration"
+      },
+      {
+        "id": 2,
+        "left": "Compound lens",
+        "right": "Corrects aberration"
+      },
+      {
+        "id": 3,
+        "left": "Wide aperture",
+        "right": "Shallow depth of field"
+      },
+      {
+        "id": 4,
+        "left": "Wide angle",
+        "right": "Strong radial distortion"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the correction to the purpose.\n{\n= White balance -> Correct color cast\n= Gamma correction -> Adjust brightness perception\n= Denoising -> Reduce random variation\n= Color transform -> Map to standard space\n}",
+    "title": "MATCH4",
+    "question": "Match the correction to the purpose.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "White balance",
+        "right": "Correct color cast"
+      },
+      {
+        "id": 2,
+        "left": "Gamma correction",
+        "right": "Adjust brightness perception"
+      },
+      {
+        "id": 3,
+        "left": "Denoising",
+        "right": "Reduce random variation"
+      },
+      {
+        "id": 4,
+        "left": "Color transform",
+        "right": "Map to standard space"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the function to the domain.\n{\n= OTF -> Frequency response of optics\n= PSF -> Spatial spread of light\n= Gamma curve -> Intensity adjustment\n= YCbCr -> Color space for compression\n}",
+    "title": "MATCH5",
+    "question": "Match the function to the domain.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "OTF",
+        "right": "Frequency response of optics"
+      },
+      {
+        "id": 2,
+        "left": "PSF",
+        "right": "Spatial spread of light"
+      },
+      {
+        "id": 3,
+        "left": "Gamma curve",
+        "right": "Intensity adjustment"
+      },
+      {
+        "id": 4,
+        "left": "YCbCr",
+        "right": "Color space for compression"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the camera operation to the result.\n{\n= White balancing -> Neutral whites\n= Gamma correction -> Match human perception\n= Demosaicing -> Reconstruct color image\n= Compression -> Reduce file size\n}",
+    "title": "MATCH6",
+    "question": "Match the camera operation to the result.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "White balancing",
+        "right": "Neutral whites"
+      },
+      {
+        "id": 2,
+        "left": "Gamma correction",
+        "right": "Match human perception"
+      },
+      {
+        "id": 3,
+        "left": "Demosaicing",
+        "right": "Reconstruct color image"
+      },
+      {
+        "id": 4,
+        "left": "Compression",
+        "right": "Reduce file size"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the type of noise to its distribution.\n{\n= Shot noise -> Poisson\n= Electronic noise -> Random\n= Quantization noise -> Uniform\n= Thermal noise -> Gaussian-like\n}",
+    "title": "MATCH7",
+    "question": "Match the type of noise to its distribution.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Shot noise",
+        "right": "Poisson"
+      },
+      {
+        "id": 2,
+        "left": "Electronic noise",
+        "right": "Random"
+      },
+      {
+        "id": 3,
+        "left": "Quantization noise",
+        "right": "Uniform"
+      },
+      {
+        "id": 4,
+        "left": "Thermal noise",
+        "right": "Gaussian-like"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the issue to the solution.\n{\n= Chromatic aberration -> Compound lenses\n= Vignetting -> Radiometric correction\n= Noise -> Denoising\n= Illumination shift -> White balance\n}",
+    "title": "MATCH8",
+    "question": "Match the issue to the solution.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Chromatic aberration",
+        "right": "Compound lenses"
+      },
+      {
+        "id": 2,
+        "left": "Vignetting",
+        "right": "Radiometric correction"
+      },
+      {
+        "id": 3,
+        "left": "Noise",
+        "right": "Denoising"
+      },
+      {
+        "id": 4,
+        "left": "Illumination shift",
+        "right": "White balance"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the example to the category.\n{\n= sRGB -> Standard color space\n= YCbCr -> Compression color space\n= HSV -> Nonlinear intuitive color space\n= CIE XYZ -> Foundation of colorimetry\n}",
+    "title": "MATCH9",
+    "question": "Match the example to the category.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "sRGB",
+        "right": "Standard color space"
+      },
+      {
+        "id": 2,
+        "left": "YCbCr",
+        "right": "Compression color space"
+      },
+      {
+        "id": 3,
+        "left": "HSV",
+        "right": "Nonlinear intuitive color space"
+      },
+      {
+        "id": 4,
+        "left": "CIE XYZ",
+        "right": "Foundation of colorimetry"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the gamma value to perception.\n{\n= <1 (0.45) -> Brightens dark tones\n= exactly 1 -> Linear\n= >1 (2.0) -> Darkens mid-tones\n= Variable -> Adjusts brightness mapping\n}",
+    "title": "MATCH10",
+    "question": "Match the gamma value to perception.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "<1 (0.45)",
+        "right": "Brightens dark tones"
+      },
+      {
+        "id": 2,
+        "left": "exactly 1",
+        "right": "Linear"
+      },
+      {
+        "id": 3,
+        "left": ">1 (2.0)",
+        "right": "Darkens mid-tones"
+      },
+      {
+        "id": 4,
+        "left": "Variable",
+        "right": "Adjusts brightness mapping"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are types of lens-related imperfections?\n{\n~%33.33333% Chromatic aberration\n~%33.33333% Vignetting\n~%33.33333% Distortion\n~%-100% File compression artifacts\n}",
+    "title": "MULTI1",
+    "question": "Which are types of lens-related imperfections?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Chromatic aberration",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Vignetting",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Distortion",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "File compression artifacts",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are sources of image noise?\n{\n~%25% Shot noise\n~%25% Quantization noise\n~%25% Electronic noise\n~%25% Thermal noise\n}",
+    "title": "MULTI2",
+    "question": "Which are sources of image noise?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Shot noise",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Quantization noise",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Electronic noise",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Thermal noise",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich techniques correct lens or sensor effects?\n{\n~%33.33333% White balance\n~%33.33333% Gamma correction\n~%33.33333% Denoising\n~%-100% Encryption\n}",
+    "title": "MULTI3",
+    "question": "Which techniques correct lens or sensor effects?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "White balance",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Gamma correction",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Denoising",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Encryption",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich color spaces are commonly used in imaging?\n{\n~%33.33333% RGB\n~%33.33333% sRGB\n~%33.33333% YCbCr\n~%-100% ASCII\n}",
+    "title": "MULTI4",
+    "question": "Which color spaces are commonly used in imaging?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "RGB",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "sRGB",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "YCbCr",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "ASCII",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are characteristics of vignetting?\n{\n~%50% Brightness falloff toward edges\n~%50% Depends on off-axis angle\n~%-100% Uniform brightness everywhere\n~%-100% Always intentional\n}",
+    "title": "MULTI5",
+    "question": "Which are characteristics of vignetting?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Brightness falloff toward edges",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Depends on off-axis angle",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Uniform brightness everywhere",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Always intentional",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are common noise models in images?\n{\n~%50% Poisson (shot noise)\n~%50% Gaussian (thermal/electronic)\n~%-100% Hexadecimal\n~%-100% ASCII coding\n}",
+    "title": "MULTI6",
+    "question": "Which are common noise models in images?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Poisson (shot noise)",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Gaussian (thermal/electronic)",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Hexadecimal",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "ASCII coding",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are common corrections in digital camera pipelines?\n{\n~%25% Demosaicing\n~%25% White balancing\n~%25% Gamma correction\n~%25% JPEG encoding\n}",
+    "title": "MULTI7",
+    "question": "Which are common corrections in digital camera pipelines?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Demosaicing",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "White balancing",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Gamma correction",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "JPEG encoding",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are examples of optical imperfections?\n{\n~%33.33333% Blur\n~%33.33333% Chromatic aberration\n~%33.33333% Vignetting\n~%-100% Perfect focus\n}",
+    "title": "MULTI8",
+    "question": "Which are examples of optical imperfections?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Blur",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Chromatic aberration",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Vignetting",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Perfect focus",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich tasks are part of preparing an image for human perception?\n{\n~%33.33333% Gamma correction\n~%33.33333% White balance\n~%33.33333% Noise reduction\n~%-100% File encryption\n}",
+    "title": "MULTI9",
+    "question": "Which tasks are part of preparing an image for human perception?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Gamma correction",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "White balance",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Noise reduction",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "File encryption",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich values or spaces are standard in digital imaging?\n{\n~%33.33333% sRGB\n~%33.33333% Gamma ≈ 0.45\n~%33.33333% YCbCr\n~%-100% Morse code\n}",
+    "title": "MULTI10",
+    "question": "Which values or spaces are standard in digital imaging?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "sRGB",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Gamma ≈ 0.45",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "YCbCr",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Morse code",
+        "weight": -100.0
+      }
+    ]
+  }
+]

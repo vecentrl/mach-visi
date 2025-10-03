@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhich factor causes missing depth values when objects block each other?\n{\n= Occlusion\n~ Multipath interference\n~ White balance\n~ Gamma correction\n}",
+    "title": "MC1",
+    "question": "Which factor causes missing depth values when objects block each other?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Occlusion",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Multipath interference",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "White balance",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Gamma correction",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhat is multipath interference?\n{\n= Light bouncing along multiple paths before detection\n~ Brightness falloff at edges\n~ JPEG compression error\n~ Vignetting\n}",
+    "title": "MC2",
+    "question": "What is multipath interference?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Light bouncing along multiple paths before detection",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Brightness falloff at edges",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "JPEG compression error",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Vignetting",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhich source of error particularly affects time-of-flight cameras?\n{\n= Multipath interference\n~ Chromatic aberration\n~ Color quantization\n~ Histogram equalization\n}",
+    "title": "MC3",
+    "question": "Which source of error particularly affects time-of-flight cameras?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Multipath interference",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Chromatic aberration",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Color quantization",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram equalization",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhy does Kinect perform poorly outdoors?\n{\n= Infrared pattern overwhelmed by sunlight\n~ Mechanical scanning too slow\n~ Phase shift too small\n~ Wrong gamma correction\n}",
+    "title": "MC4",
+    "question": "Why does Kinect perform poorly outdoors?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Infrared pattern overwhelmed by sunlight",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Mechanical scanning too slow",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Phase shift too small",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Wrong gamma correction",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhat happens if multiple Kinect devices are used in the same space?\n{\n= Their projected IR patterns interfere\n~ Their USB ports conflict\n~ Their color images overlap\n~ They lose calibration\n}",
+    "title": "MC5",
+    "question": "What happens if multiple Kinect devices are used in the same space?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Their projected IR patterns interfere",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Their USB ports conflict",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Their color images overlap",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "They lose calibration",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich factor reduces effective range of depth cameras?\n{\n= Ambient light interference\n~ JPEG compression\n~ White balance error\n~ Histogram clipping\n}",
+    "title": "MC6",
+    "question": "Which factor reduces effective range of depth cameras?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Ambient light interference",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "JPEG compression",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "White balance error",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram clipping",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich limitation is typical for LIDAR systems?\n{\n= Mechanical scanning\n~ Small aperture\n~ Color shift\n~ Gamma mismatch\n}",
+    "title": "MC7",
+    "question": "Which limitation is typical for LIDAR systems?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Mechanical scanning",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Small aperture",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Color shift",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Gamma mismatch",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich is a challenge for all depth sensing methods?\n{\n= Limited resolution\n~ Color saturation\n~ File size\n~ Network latency\n}",
+    "title": "MC8",
+    "question": "Which is a challenge for all depth sensing methods?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Limited resolution",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Color saturation",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "File size",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Network latency",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich is a common limitation of structured light methods?\n{\n= Limited outdoor usability\n~ Excessive depth resolution\n~ Perfect robustness\n~ Wide-angle distortion\n}",
+    "title": "MC9",
+    "question": "Which is a common limitation of structured light methods?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Limited outdoor usability",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Excessive depth resolution",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Perfect robustness",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Wide-angle distortion",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich depth sensing technology is most expensive in general?\n{\n= LIDAR\n~ Kinect\n~ Stereo webcam\n~ ToF camera\n}",
+    "title": "MC10",
+    "question": "Which depth sensing technology is most expensive in general?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "LIDAR",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Kinect",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Stereo webcam",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "ToF camera",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the challenge to the cause.\n{\n= Occlusion -> Objects blocking line of sight\n= Multipath -> Light bounces multiple times\n= Ambient light -> Sunlight interference\n= Interference -> Multiple devices projecting\n}",
+    "title": "MATCH1",
+    "question": "Match the challenge to the cause.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Occlusion",
+        "right": "Objects blocking line of sight"
+      },
+      {
+        "id": 2,
+        "left": "Multipath",
+        "right": "Light bounces multiple times"
+      },
+      {
+        "id": 3,
+        "left": "Ambient light",
+        "right": "Sunlight interference"
+      },
+      {
+        "id": 4,
+        "left": "Interference",
+        "right": "Multiple devices projecting"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the depth sensing technology to its issue.\n{\n= Kinect -> Limited outdoor use\n= ToF -> Multipath interference\n= LIDAR -> Mechanical scanning\n= Stereo -> Poor performance in textureless regions\n}",
+    "title": "MATCH2",
+    "question": "Match the depth sensing technology to its issue.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Kinect",
+        "right": "Limited outdoor use"
+      },
+      {
+        "id": 2,
+        "left": "ToF",
+        "right": "Multipath interference"
+      },
+      {
+        "id": 3,
+        "left": "LIDAR",
+        "right": "Mechanical scanning"
+      },
+      {
+        "id": 4,
+        "left": "Stereo",
+        "right": "Poor performance in textureless regions"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the error type to the description.\n{\n= Occlusion -> Missing depth pixels\n= Multipath -> Wrong distance measured\n= Resolution limit -> Coarse depth map\n= Noise -> Random variation\n}",
+    "title": "MATCH3",
+    "question": "Match the error type to the description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Occlusion",
+        "right": "Missing depth pixels"
+      },
+      {
+        "id": 2,
+        "left": "Multipath",
+        "right": "Wrong distance measured"
+      },
+      {
+        "id": 3,
+        "left": "Resolution limit",
+        "right": "Coarse depth map"
+      },
+      {
+        "id": 4,
+        "left": "Noise",
+        "right": "Random variation"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the device to the drawback.\n{\n= Kinect -> IR pattern fails in sunlight\n= LIDAR -> Expensive\n= ToF -> Range ambiguity\n= Structured light -> Interference between devices\n}",
+    "title": "MATCH4",
+    "question": "Match the device to the drawback.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Kinect",
+        "right": "IR pattern fails in sunlight"
+      },
+      {
+        "id": 2,
+        "left": "LIDAR",
+        "right": "Expensive"
+      },
+      {
+        "id": 3,
+        "left": "ToF",
+        "right": "Range ambiguity"
+      },
+      {
+        "id": 4,
+        "left": "Structured light",
+        "right": "Interference between devices"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the cause to the sensor effect.\n{\n= Ambient light -> IR sensor saturation\n= Multipath -> Depth error\n= Occlusion -> Missing pixels\n= Mechanical scan -> Slow acquisition\n}",
+    "title": "MATCH5",
+    "question": "Match the cause to the sensor effect.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Ambient light",
+        "right": "IR sensor saturation"
+      },
+      {
+        "id": 2,
+        "left": "Multipath",
+        "right": "Depth error"
+      },
+      {
+        "id": 3,
+        "left": "Occlusion",
+        "right": "Missing pixels"
+      },
+      {
+        "id": 4,
+        "left": "Mechanical scan",
+        "right": "Slow acquisition"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the system to the application.\n{\n= Kinect -> Indoor gaming\n= LIDAR -> Autonomous cars\n= ToF -> Gesture recognition\n= Stereo -> 3D movies\n}",
+    "title": "MATCH6",
+    "question": "Match the system to the application.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Kinect",
+        "right": "Indoor gaming"
+      },
+      {
+        "id": 2,
+        "left": "LIDAR",
+        "right": "Autonomous cars"
+      },
+      {
+        "id": 3,
+        "left": "ToF",
+        "right": "Gesture recognition"
+      },
+      {
+        "id": 4,
+        "left": "Stereo",
+        "right": "3D movies"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the metric to the limitation.\n{\n= Resolution -> Cannot capture fine details\n= Range -> Limited distance\n= Speed -> Limited by scanning\n= Robustness -> Sensitive to light\n}",
+    "title": "MATCH7",
+    "question": "Match the metric to the limitation.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Resolution",
+        "right": "Cannot capture fine details"
+      },
+      {
+        "id": 2,
+        "left": "Range",
+        "right": "Limited distance"
+      },
+      {
+        "id": 3,
+        "left": "Speed",
+        "right": "Limited by scanning"
+      },
+      {
+        "id": 4,
+        "left": "Robustness",
+        "right": "Sensitive to light"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the technology to interference.\n{\n= Kinect -> Competing IR patterns\n= LIDAR -> Overlapping scan beams\n= ToF -> Multipath reflections\n= Stereo -> Textureless failure\n}",
+    "title": "MATCH8",
+    "question": "Match the technology to interference.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Kinect",
+        "right": "Competing IR patterns"
+      },
+      {
+        "id": 2,
+        "left": "LIDAR",
+        "right": "Overlapping scan beams"
+      },
+      {
+        "id": 3,
+        "left": "ToF",
+        "right": "Multipath reflections"
+      },
+      {
+        "id": 4,
+        "left": "Stereo",
+        "right": "Textureless failure"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the effect to the phenomenon.\n{\n= Vignetting -> Brightness falloff\n= Noise -> Random variation\n= Aberration -> Color fringing\n= Depth error -> Multipath\n}",
+    "title": "MATCH9",
+    "question": "Match the effect to the phenomenon.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Vignetting",
+        "right": "Brightness falloff"
+      },
+      {
+        "id": 2,
+        "left": "Noise",
+        "right": "Random variation"
+      },
+      {
+        "id": 3,
+        "left": "Aberration",
+        "right": "Color fringing"
+      },
+      {
+        "id": 4,
+        "left": "Depth error",
+        "right": "Multipath"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the imaging quality issue to example.\n{\n= Chromatic aberration -> Misaligned colors\n= Occlusion -> Hidden surface missing depth\n= Multipath -> Wrong depth value\n= Ambient light -> Saturated sensor\n}",
+    "title": "MATCH10",
+    "question": "Match the imaging quality issue to example.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Chromatic aberration",
+        "right": "Misaligned colors"
+      },
+      {
+        "id": 2,
+        "left": "Occlusion",
+        "right": "Hidden surface missing depth"
+      },
+      {
+        "id": 3,
+        "left": "Multipath",
+        "right": "Wrong depth value"
+      },
+      {
+        "id": 4,
+        "left": "Ambient light",
+        "right": "Saturated sensor"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are challenges in depth sensing?\n{\n~%25% Occlusion\n~%25% Multipath\n~%25% Ambient light\n~%25% Limited resolution\n}",
+    "title": "MULTI1",
+    "question": "Which are challenges in depth sensing?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Occlusion",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Multipath",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Ambient light",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Limited resolution",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are typical limitations of Kinect?\n{\n~%33.33333% IR interference outdoors\n~%33.33333% Calibration requirement\n~%33.33333% Multiple-device interference\n~%-100% Perfect robustness\n}",
+    "title": "MULTI2",
+    "question": "Which are typical limitations of Kinect?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "IR interference outdoors",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Calibration requirement",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Multiple-device interference",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Perfect robustness",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich errors affect time-of-flight cameras?\n{\n~%33.33333% Multipath\n~%33.33333% Range ambiguity\n~%33.33333% Low reflectivity sensitivity\n~%-100% Infinite resolution\n}",
+    "title": "MULTI3",
+    "question": "Which errors affect time-of-flight cameras?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Multipath",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Range ambiguity",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Low reflectivity sensitivity",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Infinite resolution",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are drawbacks of LIDAR?\n{\n~%33.33333% Mechanical scanning\n~%33.33333% High cost\n~%33.33333% Limited resolution\n~%-100% Always compact and cheap\n}",
+    "title": "MULTI4",
+    "question": "Which are drawbacks of LIDAR?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Mechanical scanning",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "High cost",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Limited resolution",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Always compact and cheap",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are depth sensing devices?\n{\n~%25% Kinect\n~%25% LIDAR\n~%25% ToF camera\n~%25% Stereo system\n}",
+    "title": "MULTI5",
+    "question": "Which are depth sensing devices?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Kinect",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "LIDAR",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "ToF camera",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Stereo system",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich environmental conditions can disturb depth sensors?\n{\n~%33.33333% Strong sunlight\n~%33.33333% Reflective surfaces\n~%33.33333% Occlusions\n~%-100% File compression\n}",
+    "title": "MULTI6",
+    "question": "Which environmental conditions can disturb depth sensors?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Strong sunlight",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Reflective surfaces",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Occlusions",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "File compression",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are image quality issues relevant for depth maps?\n{\n~%33.33333% Noise\n~%33.33333% Resolution limits\n~%33.33333% Occlusion holes\n~%-100% Infinite sharpness\n}",
+    "title": "MULTI7",
+    "question": "Which are image quality issues relevant for depth maps?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Noise",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Resolution limits",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Occlusion holes",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Infinite sharpness",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich factors distinguish structured light from LIDAR?\n{\n~%50% Projected IR pattern\n~%50% Calibration of projector-camera\n~%-100% Phase modulation\n~%-100% Mechanical steering\n}",
+    "title": "MULTI8",
+    "question": "Which factors distinguish structured light from LIDAR?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Projected IR pattern",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Calibration of projector-camera",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Phase modulation",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Mechanical steering",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are typical applications of depth sensing?\n{\n~%33.33333% Robotics\n~%33.33333% Gesture recognition\n~%33.33333% Autonomous vehicles\n~%-100% Text editing\n}",
+    "title": "MULTI9",
+    "question": "Which are typical applications of depth sensing?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Robotics",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Gesture recognition",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Autonomous vehicles",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Text editing",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich types of noise/errors affect depth sensing?\n{\n~%25% Shot noise\n~%25% Multipath\n~%25% Occlusion\n~%25% Ambient interference\n}",
+    "title": "MULTI10",
+    "question": "Which types of noise/errors affect depth sensing?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Shot noise",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Multipath",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Occlusion",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Ambient interference",
+        "weight": 25.0
+      }
+    ]
+  }
+]

@@ -1,0 +1,312 @@
+
+
+::TF1::
+Photographic cameras, video cameras, and webcams are all types of cameras used in imaging.
+{TRUE}
+
+::TF2::
+Industrial or machine vision cameras are designed for applications like quality inspection.
+{TRUE}
+
+::TF3::
+Spectral cameras such as infrared or hyperspectral are considered special types of cameras.
+{TRUE}
+
+::TF4::
+RGB-D cameras capture both color and depth information.
+{TRUE}
+
+::TF5::
+Line scan cameras capture an entire 2D image at once like standard video cameras.
+{FALSE}
+
+::TF6::
+Astronomical cameras are commonly used to observe celestial objects.
+{TRUE}
+
+::TF7::
+Surveillance cameras are never used in computer vision applications.
+{FALSE}
+
+::TF8::
+CCD and CMOS are the two main types of image sensors.
+{TRUE}
+
+::TF9::
+Professional DSLR cameras may use full-frame sensors.
+{TRUE}
+
+::TF10::
+In mobile phones, image sensors are typically larger than those in professional DSLR cameras.
+{FALSE}
+
+::MC1::
+Which of these is NOT a type of camera commonly used in imaging?
+{
+= Microwave oven
+~ Photographic camera
+~ Surveillance camera
+~ Astronomical camera
+}
+
+::MC2::
+Which type of camera can capture both color and depth information?
+{
+= RGB-D camera
+~ Video camera
+~ Photographic camera
+~ Line scan camera
+}
+
+::MC3::
+Which type of camera is particularly useful for conveyor belt inspections?
+{
+= Line scan camera
+~ Web camera
+~ Astronomical camera
+~ Photographic camera
+}
+
+::MC4::
+Which imaging device is designed for hyperspectral measurements?
+{
+= Spectral camera
+~ Video camera
+~ Webcam
+~ DSLR
+}
+
+::MC5::
+Which is an example of a machine vision camera application?
+{
+= Industrial quality control
+~ Playing music
+~ Storing databases
+~ Writing documents
+}
+
+::MC6::
+Which part of a digital camera controls the amount of light entering the sensor?
+{
+= Aperture
+~ Flash memory
+~ CCD
+~ Battery
+}
+
+::MC7::
+Which part of a camera body determines exposure time?
+{
+= Shutter
+~ Lens
+~ CMOS
+~ USB port
+}
+
+::MC8::
+Which lens characteristic allows focusing on objects at different distances?
+{
+= Focusing
+~ Aperture
+~ Flash
+~ ISO
+}
+
+::MC9::
+Which is a common ISO setting adjustment in digital cameras?
+{
+= Sensor gain
+~ Lens diameter
+~ Shutter curtain
+~ JPEG compression
+}
+
+::MC10::
+Which pipeline step converts raw sensor signals into a final image?
+{
+= Digital signal processing (DSP)
+~ Aperture adjustment
+~ Flash synchronization
+~ Mechanical shuttering
+}
+
+::MATCH1::
+Match the camera type to its application.
+{
+= Astronomical camera -> Observing stars and planets
+= Surveillance camera -> Security monitoring
+= Industrial camera -> Quality inspection
+= Web camera -> Online communication
+}
+
+::MATCH2::
+Match the sensor type to its property.
+{
+= CCD -> Often higher image quality, lower noise
+= CMOS -> Lower power consumption, cheaper integration
+= Full-frame sensor -> Used in professional DSLRs
+= Small sensor -> Common in smartphones
+}
+
+::MATCH3::
+Match the camera part to its function.
+{
+= Shutter -> Controls exposure time
+= Aperture -> Controls light amount
+= Lens -> Focuses light
+= Image sensor -> Captures photons
+}
+
+::MATCH4::
+Match the file format to its description.
+{
+= RAW -> Contains minimally processed sensor data
+= JPG -> Compressed standard image format
+= DSP pipeline -> Converts RAW to final format
+= A/D conversion -> Transforms analog to digital signal
+}
+
+::MATCH5::
+Match the processing step to its role.
+{
+= Demosaicing -> Reconstructing color image from CFA
+= White balancing -> Correcting color cast
+= Gamma correction -> Adjusting brightness perception
+= JPEG encoding -> Compressing image
+}
+
+::MATCH6::
+Match the camera type to a keyword.
+{
+= RGB-D camera -> Depth sensing
+= Spectral camera -> Infrared or hyperspectral
+= Line scan camera -> Conveyor belt imaging
+= Photographic camera -> Still photography
+}
+
+::MATCH7::
+Match the optical element to its function.
+{
+= Lens -> Focus light rays
+= Aperture -> Control brightness
+= Flash -> Illuminate the scene
+= Optical filter -> Select wavelength band
+}
+
+::MATCH8::
+Match the camera body part to its task.
+{
+= Flash -> Provides extra light
+= Shutter -> Opens and closes exposure
+= Viewfinder -> Helps frame the image
+= Battery -> Supplies power
+}
+
+::MATCH9::
+Match the concept to its description.
+{
+= ISO -> Sensor sensitivity
+= F-number -> Ratio of focal length to aperture diameter
+= Depth of field -> Range in focus
+= Principal point -> Center of imaging geometry
+}
+
+::MATCH10::
+Match the sensor issue to its description.
+{
+= Vignetting -> Brightness falloff at edges
+= Noise -> Random variation in pixel values
+= Distortion -> Warping of straight lines
+= Aberration -> Color fringing
+}
+
+::MULTI1::
+Which of the following are camera types?
+{
+~%25% Photographic camera
+~%25% Surveillance camera
+~%25% Astronomical camera
+~%-100% Refrigerator
+}
+
+::MULTI2::
+Which are special-purpose cameras?
+{
+~%33.33333% Spectral camera
+~%33.33333% Astronomical camera
+~%33.33333% Line scan camera
+~%-100% Typewriter
+}
+
+::MULTI3::
+Which are components of a digital camera body?
+{
+~%25% Shutter
+~%25% Flash
+~%25% Battery
+~%25% Viewfinder
+}
+
+::MULTI4::
+Which belong to the optics system of a camera?
+{
+~%33.33333% Lenses
+~%33.33333% Aperture
+~%33.33333% Focusing
+~%-100% USB connector
+}
+
+::MULTI5::
+Which are image sensor technologies?
+{
+~%50% CCD
+~%50% CMOS
+~%-100% CRT
+~%-100% Plasma
+}
+
+::MULTI6::
+Which are steps in the digital camera processing pipeline?
+{
+~%25% Demosaicing
+~%25% White balancing
+~%25% Gamma correction
+~%25% JPEG encoding
+}
+
+::MULTI7::
+Which are typical image quality problems?
+{
+~%33.33333% Noise
+~%33.33333% Distortion
+~%33.33333% Vignetting
+~%-100% Perfect clarity
+}
+
+::MULTI8::
+Which are common characteristics of full-frame sensors?
+{
+~%50% Large size
+~%50% Used in professional DSLRs
+~%-100% Typical in smartphones
+~%-100% Only used in line scan cameras
+}
+
+::MULTI9::
+Which are examples of camera optics?
+{
+~%33.33333% Lens
+~%33.33333% Aperture
+~%33.33333% Optical filters
+~%-100% SD card
+}
+
+::MULTI10::
+Which are digital camera output formats?
+{
+~%50% RAW
+~%50% JPEG
+~%-100% TXT
+~%-100% MP3
+}
+

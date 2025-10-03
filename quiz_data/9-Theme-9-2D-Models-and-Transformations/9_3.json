@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhat does RANSAC do in each iteration?\n{\n= Randomly samples a subset and fits a model\n~ Uses all data directly\n~ Votes in parameter space\n~ Computes PCA\n}",
+    "title": "MC1",
+    "question": "What does RANSAC do in each iteration?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Randomly samples a subset and fits a model",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Uses all data directly",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Votes in parameter space",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Computes PCA",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhat is the main strength of RANSAC?\n{\n= Robustness to outliers\n~ Always optimal\n~ Requires no iterations\n~ Requires no model\n}",
+    "title": "MC2",
+    "question": "What is the main strength of RANSAC?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Robustness to outliers",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Always optimal",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Requires no iterations",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Requires no model",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhat is a limitation of RANSAC?\n{\n= May miss optimal solution if too few iterations\n~ Cannot handle outliers\n~ Needs no random sampling\n~ Always exact\n}",
+    "title": "MC3",
+    "question": "What is a limitation of RANSAC?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "May miss optimal solution if too few iterations",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Cannot handle outliers",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Needs no random sampling",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Always exact",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhat does the Hough accumulator represent?\n{\n= Votes for model parameters\n~ Random subsets\n~ Distance metrics\n~ Histograms\n}",
+    "title": "MC4",
+    "question": "What does the Hough accumulator represent?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Votes for model parameters",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Random subsets",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Distance metrics",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histograms",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhich shapes are typically detected by Hough Transform?\n{\n= Lines and circles\n~ Arbitrary textures\n~ Noise patterns\n~ Audio signals\n}",
+    "title": "MC5",
+    "question": "Which shapes are typically detected by Hough Transform?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Lines and circles",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Arbitrary textures",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Noise patterns",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Audio signals",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich factor affects Hough accuracy?\n{\n= Accumulator resolution\n~ File format\n~ JPEG compression\n~ Color balance\n}",
+    "title": "MC6",
+    "question": "Which factor affects Hough accuracy?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Accumulator resolution",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "File format",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "JPEG compression",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Color balance",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich is a drawback of Hough Transform?\n{\n= Computational cost\n~ Ignores shapes\n~ Requires no parameters\n~ No noise sensitivity\n}",
+    "title": "MC7",
+    "question": "Which is a drawback of Hough Transform?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Computational cost",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Ignores shapes",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Requires no parameters",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "No noise sensitivity",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich is a difference between RANSAC and Hough?\n{\n= RANSAC is random sampling, Hough is global voting\n~ Both identical\n~ Both only use histograms\n~ Hough is iterative sampling\n}",
+    "title": "MC8",
+    "question": "Which is a difference between RANSAC and Hough?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "RANSAC is random sampling, Hough is global voting",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Both identical",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Both only use histograms",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Hough is iterative sampling",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich step is unique to RANSAC?\n{\n= Counting inliers for a model\n~ Voting in parameter space\n~ Building accumulator\n~ Using ρ and θ\n}",
+    "title": "MC9",
+    "question": "Which step is unique to RANSAC?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Counting inliers for a model",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Voting in parameter space",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Building accumulator",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Using ρ and θ",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich step is unique to Hough Transform?\n{\n= Voting in parameter space\n~ Random sampling\n~ Inlier counting\n~ Iterative fitting\n}",
+    "title": "MC10",
+    "question": "Which step is unique to Hough Transform?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Voting in parameter space",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Random sampling",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Inlier counting",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Iterative fitting",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the algorithm to principle.\n{\n= RANSAC -> Random sampling + inliers\n= Hough -> Parameter space voting\n= PCA -> Feature reduction\n= CNN -> Learned features\n}",
+    "title": "MATCH1",
+    "question": "Match the algorithm to principle.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "RANSAC",
+        "right": "Random sampling + inliers"
+      },
+      {
+        "id": 2,
+        "left": "Hough",
+        "right": "Parameter space voting"
+      },
+      {
+        "id": 3,
+        "left": "PCA",
+        "right": "Feature reduction"
+      },
+      {
+        "id": 4,
+        "left": "CNN",
+        "right": "Learned features"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the step to RANSAC.\n{\n= Sample -> Random subset\n= Fit -> Estimate model\n= Count -> Inliers\n= Consensus -> Best model\n}",
+    "title": "MATCH2",
+    "question": "Match the step to RANSAC.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Sample",
+        "right": "Random subset"
+      },
+      {
+        "id": 2,
+        "left": "Fit",
+        "right": "Estimate model"
+      },
+      {
+        "id": 3,
+        "left": "Count",
+        "right": "Inliers"
+      },
+      {
+        "id": 4,
+        "left": "Consensus",
+        "right": "Best model"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the step to Hough.\n{\n= Edge point -> Votes\n= Accumulator -> Collects votes\n= Peak -> Shape detection\n= Parameters -> ρ, θ\n}",
+    "title": "MATCH3",
+    "question": "Match the step to Hough.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Edge point",
+        "right": "Votes"
+      },
+      {
+        "id": 2,
+        "left": "Accumulator",
+        "right": "Collects votes"
+      },
+      {
+        "id": 3,
+        "left": "Peak",
+        "right": "Shape detection"
+      },
+      {
+        "id": 4,
+        "left": "Parameters",
+        "right": "ρ, θ"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the property to method.\n{\n= Random sampling -> RANSAC\n= Voting accumulator -> Hough\n= Outlier robustness -> RANSAC\n= Shape detection -> Hough\n}",
+    "title": "MATCH4",
+    "question": "Match the property to method.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Random sampling",
+        "right": "RANSAC"
+      },
+      {
+        "id": 2,
+        "left": "Voting accumulator",
+        "right": "Hough"
+      },
+      {
+        "id": 3,
+        "left": "Outlier robustness",
+        "right": "RANSAC"
+      },
+      {
+        "id": 4,
+        "left": "Shape detection",
+        "right": "Hough"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the limitation to algorithm.\n{\n= Random iterations -> RANSAC\n= High computation -> Hough\n= Noise -> Both\n= Optimality -> RANSAC not guaranteed\n}",
+    "title": "MATCH5",
+    "question": "Match the limitation to algorithm.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Random iterations",
+        "right": "RANSAC"
+      },
+      {
+        "id": 2,
+        "left": "High computation",
+        "right": "Hough"
+      },
+      {
+        "id": 3,
+        "left": "Noise",
+        "right": "Both"
+      },
+      {
+        "id": 4,
+        "left": "Optimality",
+        "right": "RANSAC not guaranteed"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the advantage to algorithm.\n{\n= RANSAC -> Robust to outliers\n= Hough -> Global voting\n= PCA -> Dimensionality reduction\n= SVM -> Margin classification\n}",
+    "title": "MATCH6",
+    "question": "Match the advantage to algorithm.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "RANSAC",
+        "right": "Robust to outliers"
+      },
+      {
+        "id": 2,
+        "left": "Hough",
+        "right": "Global voting"
+      },
+      {
+        "id": 3,
+        "left": "PCA",
+        "right": "Dimensionality reduction"
+      },
+      {
+        "id": 4,
+        "left": "SVM",
+        "right": "Margin classification"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the shape to detection method.\n{\n= Line -> Hough\n= Circle -> Hough\n= Plane -> RANSAC\n= Motion model -> RANSAC\n}",
+    "title": "MATCH7",
+    "question": "Match the shape to detection method.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Line",
+        "right": "Hough"
+      },
+      {
+        "id": 2,
+        "left": "Circle",
+        "right": "Hough"
+      },
+      {
+        "id": 3,
+        "left": "Plane",
+        "right": "RANSAC"
+      },
+      {
+        "id": 4,
+        "left": "Motion model",
+        "right": "RANSAC"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the application to domain.\n{\n= RANSAC -> Motion estimation\n= Hough -> Lane detection\n= CNN -> Object recognition\n= k-means -> Clustering\n}",
+    "title": "MATCH8",
+    "question": "Match the application to domain.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "RANSAC",
+        "right": "Motion estimation"
+      },
+      {
+        "id": 2,
+        "left": "Hough",
+        "right": "Lane detection"
+      },
+      {
+        "id": 3,
+        "left": "CNN",
+        "right": "Object recognition"
+      },
+      {
+        "id": 4,
+        "left": "k-means",
+        "right": "Clustering"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the algorithm to category.\n{\n= RANSAC -> Iterative random fitting\n= Hough -> Global voting\n= SVM -> Supervised classification\n= kNN -> Distance classifier\n}",
+    "title": "MATCH9",
+    "question": "Match the algorithm to category.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "RANSAC",
+        "right": "Iterative random fitting"
+      },
+      {
+        "id": 2,
+        "left": "Hough",
+        "right": "Global voting"
+      },
+      {
+        "id": 3,
+        "left": "SVM",
+        "right": "Supervised classification"
+      },
+      {
+        "id": 4,
+        "left": "kNN",
+        "right": "Distance classifier"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the step to description.\n{\n= Inliers -> Support model\n= Accumulator -> Parameter votes\n= Iterations -> RANSAC loop\n= Resolution -> Hough accuracy\n}",
+    "title": "MATCH10",
+    "question": "Match the step to description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Inliers",
+        "right": "Support model"
+      },
+      {
+        "id": 2,
+        "left": "Accumulator",
+        "right": "Parameter votes"
+      },
+      {
+        "id": 3,
+        "left": "Iterations",
+        "right": "RANSAC loop"
+      },
+      {
+        "id": 4,
+        "left": "Resolution",
+        "right": "Hough accuracy"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are properties of RANSAC?\n{\n~%33.33333% Random sampling\n~%33.33333% Robust to outliers\n~%33.33333% Iterative fitting\n~%-100% Deterministic voting\n}",
+    "title": "MULTI1",
+    "question": "Which are properties of RANSAC?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Random sampling",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Robust to outliers",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Iterative fitting",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Deterministic voting",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are properties of Hough Transform?\n{\n~%25% Voting in parameter space\n~%25% Accumulator peaks\n~%25% Detects shapes\n~%25% Parameter resolution dependent\n}",
+    "title": "MULTI2",
+    "question": "Which are properties of Hough Transform?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Voting in parameter space",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Accumulator peaks",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Detects shapes",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Parameter resolution dependent",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are applications of RANSAC?\n{\n~%33.33333% Line fitting\n~%33.33333% Plane fitting\n~%33.33333% Motion estimation\n~%-100% Histogram equalization\n}",
+    "title": "MULTI3",
+    "question": "Which are applications of RANSAC?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Line fitting",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Plane fitting",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Motion estimation",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Histogram equalization",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are applications of Hough Transform?\n{\n~%25% Line detection\n~%25% Circle detection\n~%25% Lane detection\n~%25% Object shape detection\n}",
+    "title": "MULTI4",
+    "question": "Which are applications of Hough Transform?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Line detection",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Circle detection",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Lane detection",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Object shape detection",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are challenges for RANSAC?\n{\n~%50% Many iterations\n~%50% May miss optimum\n~%-100% Always exact\n~%-100% Needs no model\n}",
+    "title": "MULTI5",
+    "question": "Which are challenges for RANSAC?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Many iterations",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "May miss optimum",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Always exact",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Needs no model",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are challenges for Hough Transform?\n{\n~%33.33333% Computational cost\n~%33.33333% Memory use\n~%33.33333% Resolution sensitivity\n~%-100% Always fast\n}",
+    "title": "MULTI6",
+    "question": "Which are challenges for Hough Transform?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Computational cost",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Memory use",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Resolution sensitivity",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Always fast",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are similarities of RANSAC and Hough?\n{\n~%50% Robust fitting\n~%50% Shape detection\n~%-100% Identical algorithms\n~%-100% Audio synthesis\n}",
+    "title": "MULTI7",
+    "question": "Which are similarities of RANSAC and Hough?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Robust fitting",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Shape detection",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Identical algorithms",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Audio synthesis",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are differences between RANSAC and Hough?\n{\n~%33.33333% RANSAC = random sampling\n~%33.33333% Hough = voting\n~%33.33333% RANSAC iterative, Hough global\n~%-100% Both identical\n}",
+    "title": "MULTI8",
+    "question": "Which are differences between RANSAC and Hough?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "RANSAC = random sampling",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Hough = voting",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "RANSAC iterative, Hough global",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Both identical",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich shapes are typically detected by Hough?\n{\n~%25% Line\n~%25% Circle\n~%25% Ellipse\n~%25% Lane markings\n}",
+    "title": "MULTI9",
+    "question": "Which shapes are typically detected by Hough?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Line",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Circle",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Ellipse",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Lane markings",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich domains use RANSAC and Hough?\n{\n~%25% Vision\n~%25% Robotics\n~%25% Medicine\n~%25% Automotive\n}",
+    "title": "MULTI10",
+    "question": "Which domains use RANSAC and Hough?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Vision",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Robotics",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Medicine",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Automotive",
+        "weight": 25.0
+      }
+    ]
+  }
+]

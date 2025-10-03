@@ -1,0 +1,309 @@
+::TF1::
+The number of RANSAC iterations depends on the inlier ratio and desired confidence.
+{TRUE}
+
+::TF2::
+RANSAC can be used to fit homographies and fundamental matrices.
+{TRUE}
+
+::TF3::
+RANSAC is widely used in camera calibration and motion estimation.
+{TRUE}
+
+::TF4::
+Hough Transform can be generalized to detect arbitrary shapes.
+{TRUE}
+
+::TF5::
+Circle detection with Hough requires more parameters than line detection.
+{TRUE}
+
+::TF6::
+Increasing accumulator resolution in Hough improves accuracy but costs memory.
+{TRUE}
+
+::TF7::
+RANSAC always finds the exact global optimum.
+{FALSE}
+
+::TF8::
+Generalized Hough Transform can detect shapes not defined by simple equations.
+{TRUE}
+
+::TF9::
+Both RANSAC and Hough are used in 3D vision tasks.
+{TRUE}
+
+::TF10::
+Hough Transform is computationally cheap in high-dimensional parameter spaces.
+{FALSE}
+
+::MC1::
+What determines the number of RANSAC iterations?
+{
+= Inlier ratio and confidence
+~ File size
+~ Image brightness
+~ PCA variance
+}
+
+::MC2::
+Which models can RANSAC estimate?
+{
+= Homographies and fundamental matrices
+~ JPEG coefficients
+~ PCA projections
+~ Histogram bins
+}
+
+::MC3::
+Which application uses RANSAC?
+{
+= Camera calibration
+~ Histogram smoothing
+~ Audio compression
+~ White balance
+}
+
+::MC4::
+Which method can detect arbitrary shapes?
+{
+= Generalized Hough Transform
+~ RANSAC only
+~ PCA
+~ k-means
+}
+
+::MC5::
+Which is true about circle detection with Hough?
+{
+= Requires three parameters (center x, center y, radius)
+~ Requires only one parameter
+~ Same as line detection
+~ No parameter space
+}
+
+::MC6::
+What is a drawback of high-resolution accumulators in Hough?
+{
+= High memory and computation cost
+~ No effect on results
+~ Always perfect results
+~ No noise sensitivity
+}
+
+::MC7::
+Which is a drawback of RANSAC?
+{
+= May miss optimum if iterations too few
+~ Always exact
+~ No randomness
+~ Needs no model
+}
+
+::MC8::
+Which is an application of Hough Transform?
+{
+= Lane detection
+~ File encryption
+~ Gamma correction
+~ Audio equalization
+}
+
+::MC9::
+Which statement is true about RANSAC vs Hough?
+{
+= RANSAC is random sampling, Hough is global voting
+~ Both identical
+~ Both use only histograms
+~ Both are deterministic
+}
+
+::MC10::
+Which challenge affects Hough in higher dimensions?
+{
+= Computational complexity
+~ Always faster
+~ No effect of resolution
+~ No parameter tuning
+}
+
+::MATCH1::
+Match the model to RANSAC use.
+{
+= Line -> Robust fitting
+= Plane -> 3D reconstruction
+= Homography -> Image alignment
+= Fundamental matrix -> Stereo vision
+}
+
+::MATCH2::
+Match the Hough variant to shape.
+{
+= Standard -> Line
+= Circular -> Circle
+= Generalized -> Arbitrary shape
+= Extended -> Ellipse
+}
+
+::MATCH3::
+Match the drawback to algorithm.
+{
+= RANSAC -> Random, may miss optimum
+= Hough -> High memory/computation
+= PCA -> Loss of interpretability
+= Decision trees -> Overfitting
+}
+
+::MATCH4::
+Match the application to domain.
+{
+= RANSAC -> Camera calibration
+= Hough -> Lane detection
+= SVM -> Face recognition
+= CNN -> Object detection
+}
+
+::MATCH5::
+Match the factor to effect.
+{
+= Inlier ratio -> Iteration count
+= Confidence -> Iteration count
+= Resolution -> Hough accuracy
+= Parameters -> Memory cost
+}
+
+::MATCH6::
+Match the method to robustness.
+{
+= RANSAC -> Robust to outliers
+= Hough -> Works with edges
+= CNN -> Data hungry
+= kNN -> Instance-based
+}
+
+::MATCH7::
+Match the algorithm to challenge.
+{
+= RANSAC -> Iteration control
+= Hough -> High-dimensional cost
+= CNN -> Needs data
+= Optical flow -> Occlusion
+}
+
+::MATCH8::
+Match the shape to detection method.
+{
+= Line -> Hough
+= Circle -> Circular Hough
+= Arbitrary shape -> Generalized Hough
+= Motion model -> RANSAC
+}
+
+::MATCH9::
+Match the domain to use.
+{
+= Vision -> Line/circle detection
+= Robotics -> Pose estimation
+= Medicine -> Shape detection
+= Automotive -> Lane detection
+}
+
+::MATCH10::
+Match the algorithm to property.
+{
+= RANSAC -> Randomized
+= Hough -> Voting-based
+= SVM -> Margin-based
+= PCA -> Reduction-based
+}
+
+::MULTI1::
+Which are properties of RANSAC?
+{
+~%33.33333% Random sampling
+~%33.33333% Robust to outliers
+~%33.33333% Fits complex models
+~%-100% Deterministic global search
+}
+
+::MULTI2::
+Which are advanced uses of RANSAC?
+{
+~%33.33333% Homography estimation
+~%33.33333% Fundamental matrix estimation
+~%33.33333% Motion estimation
+~%-100% Histogram smoothing
+}
+
+::MULTI3::
+Which are applications of Hough Transform?
+{
+~%25% Line detection
+~%25% Circle detection
+~%25% Lane detection
+~%25% Shape recognition
+}
+
+::MULTI4::
+Which are challenges in Hough Transform?
+{
+~%33.33333% Computation cost
+~%33.33333% Memory use
+~%33.33333% Resolution sensitivity
+~%-100% Always efficient
+}
+
+::MULTI5::
+Which are challenges in RANSAC?
+{
+~%50% Random iteration count
+~%50% May miss optimum
+~%-100% Always exact
+~%-100% Needs no model
+}
+
+::MULTI6::
+Which are differences between RANSAC and Hough?
+{
+~%33.33333% RANSAC = sampling
+~%33.33333% Hough = voting
+~%33.33333% RANSAC iterative, Hough global
+~%-100% Both identical
+}
+
+::MULTI7::
+Which are similarities of RANSAC and Hough?
+{
+~%33.33333% Robust model fitting
+~%33.33333% Shape detection
+~%33.33333% Vision applications
+~%-100% Audio filtering
+}
+
+::MULTI8::
+Which are RANSAC applications?
+{
+~%25% Camera calibration
+~%25% Motion estimation
+~%25% 3D reconstruction
+~%25% Robust line fitting
+}
+
+::MULTI9::
+Which are Hough applications?
+{
+~%25% Line detection
+~%25% Circle detection
+~%25% Lane detection
+~%25% Arbitrary shape detection
+}
+
+::MULTI10::
+Which are domains using advanced RANSAC & Hough?
+{
+~%25% Vision
+~%25% Robotics
+~%25% Automotive
+~%25% Medicine
+}

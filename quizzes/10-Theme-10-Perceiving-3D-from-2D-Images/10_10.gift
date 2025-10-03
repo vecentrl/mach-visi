@@ -1,0 +1,309 @@
+::TF1::
+Sparse correspondences are based on distinctive features like corners or SIFT.
+{TRUE}
+
+::TF2::
+Sparse correspondences are useful for estimating the fundamental matrix.
+{TRUE}
+
+::TF3::
+Rectification transforms stereo images so epipolar lines are horizontal.
+{TRUE}
+
+::TF4::
+Rectification simplifies stereo matching to 1D horizontal search.
+{TRUE}
+
+::TF5::
+Rectification always requires the fundamental or essential matrix.
+{TRUE}
+
+::TF6::
+Sparse correspondences are the same as dense correspondences.
+{FALSE}
+
+::TF7::
+Sparse features can be matched using descriptors like ORB or SIFT.
+{TRUE}
+
+::TF8::
+Rectification is unnecessary in stereo vision.
+{FALSE}
+
+::TF9::
+Rectification is useful in stereo depth estimation.
+{TRUE}
+
+::TF10::
+Sparse correspondences can be used in 3D reconstruction pipelines.
+{TRUE}
+
+::MC1::
+What are sparse correspondences?
+{
+= Matches between distinctive features
+~ All pixel matches
+~ Histogram bins
+~ Gradient smoothing
+}
+
+::MC2::
+What is the purpose of sparse correspondences?
+{
+= Estimate geometry (F/E matrix, homography)
+~ Create disparity maps directly
+~ Only compress data
+~ Adjust histograms
+}
+
+::MC3::
+What is the goal of rectification?
+{
+= Align epipolar lines horizontally
+~ Detect objects
+~ Remove noise
+~ Filter brightness
+}
+
+::MC4::
+Why does rectification help stereo matching?
+{
+= Reduces search to 1D
+~ Requires no geometry
+~ Removes disparity
+~ Makes 2D search harder
+}
+
+::MC5::
+What is required for rectification?
+{
+= Fundamental or essential matrix
+~ JPEG encoding
+~ Histogram equalization
+~ PCA
+}
+
+::MC6::
+Which is a feature detector used for sparse correspondences?
+{
+= SIFT
+~ JPEG
+~ Fourier
+~ Gamma
+}
+
+::MC7::
+Which is an application of rectification?
+{
+= Depth estimation
+~ Audio compression
+~ File encryption
+~ Histogram smoothing
+}
+
+::MC8::
+Which is a challenge in sparse correspondences?
+{
+= Mismatches
+~ Always perfect
+~ No calibration needed
+~ Infinite accuracy
+}
+
+::MC9::
+Which is a challenge in rectification?
+{
+= Calibration accuracy
+~ Always trivial
+~ No geometry required
+~ Guaranteed robustness
+}
+
+::MC10::
+Which domain uses rectification?
+{
+= Robotics
+~ Audio processing
+~ File compression
+~ Histogram filtering
+}
+
+::MATCH1::
+Match the method to description.
+{
+= Sparse -> Few feature matches
+= Dense -> All pixels
+= Rectification -> Align epipolar lines
+= Stereo -> Depth estimation
+}
+
+::MATCH2::
+Match the feature to detector.
+{
+= Corner -> Harris
+= SIFT -> Descriptor
+= ORB -> Fast feature
+= SURF -> Robust feature
+}
+
+::MATCH3::
+Match the geometry to method.
+{
+= Fundamental matrix -> Two-view
+= Essential matrix -> Calibrated stereo
+= Homography -> Planar mapping
+= Rectification -> Alignment
+}
+
+::MATCH4::
+Match the step to function.
+{
+= Detect -> Features
+= Match -> Correspondences
+= Estimate -> Geometry
+= Rectify -> Align images
+}
+
+::MATCH5::
+Match the advantage to technique.
+{
+= Sparse -> Efficient
+= Dense -> Complete map
+= Rectification -> 1D search
+= Stereo -> 3D depth
+}
+
+::MATCH6::
+Match the problem to challenge.
+{
+= Noise -> Wrong matches
+= Outliers -> Bad geometry
+= Calibration -> Rectification errors
+= Wide baseline -> Distortion
+}
+
+::MATCH7::
+Match the method to output.
+{
+= Sparse -> Feature matches
+= Dense -> Disparity map
+= Rectification -> Horizontal epipolars
+= Stereo -> Depth map
+}
+
+::MATCH8::
+Match the application to domain.
+{
+= Vision -> Stereo depth
+= Robotics -> Navigation
+= AR -> Alignment
+= Graphics -> 3D reconstruction
+}
+
+::MATCH9::
+Match the element to meaning.
+{
+= Epipolar line -> Horizontal after rectification
+= Fundamental matrix -> Needed for rectification
+= Feature descriptor -> Match support
+= Outlier -> Wrong correspondence
+}
+
+::MATCH10::
+Match the property to method.
+{
+= Sparse -> Corners/SIFT
+= Dense -> Every pixel
+= Rectification -> Alignment
+= Stereo -> Depth
+}
+
+::MULTI1::
+Which are examples of sparse features?
+{
+~%25% Corners
+~%25% SIFT
+~%25% ORB
+~%25% SURF
+}
+
+::MULTI2::
+Which are uses of sparse correspondences?
+{
+~%33.33333% Fundamental matrix estimation
+~%33.33333% Essential matrix estimation
+~%33.33333% Homography estimation
+~%-100% Audio filtering
+}
+
+::MULTI3::
+Which are goals of rectification?
+{
+~%50% Horizontal epipolar lines
+~%50% 1D correspondence search
+~%-100% Remove disparity
+~%-100% Avoid calibration
+}
+
+::MULTI4::
+Which are applications of rectification?
+{
+~%25% Stereo depth estimation
+~%25% 3D reconstruction
+~%25% Robotics
+~%25% AR/VR
+}
+
+::MULTI5::
+Which are challenges in sparse correspondences?
+{
+~%33.33333% Noise
+~%33.33333% Outliers
+~%33.33333% Mismatches
+~%-100% Always robust
+}
+
+::MULTI6::
+Which are challenges in rectification?
+{
+~%33.33333% Calibration accuracy
+~%33.33333% Wide baselines
+~%33.33333% Outliers
+~%-100% No geometry needed
+}
+
+::MULTI7::
+Which are outputs of sparse correspondence pipelines?
+{
+~%33.33333% Matched features
+~%33.33333% Estimated F/E matrix
+~%33.33333% Homography
+~%-100% Disparity maps directly
+}
+
+::MULTI8::
+Which are post-rectification benefits?
+{
+~%50% Simplified search
+~%50% Horizontal lines
+~%-100% Stereo eliminated
+~%-100% Always 3D reconstruction
+}
+
+::MULTI9::
+Which are properties of sparse vs. dense methods?
+{
+~%50% Sparse = efficient
+~%50% Dense = complete
+~%-100% Sparse = all pixels
+~%-100% Dense = few features
+}
+
+::MULTI10::
+Which are domains using sparse correspondences & rectification?
+{
+~%25% Robotics
+~%25% Vision
+~%25% AR/VR
+~%25% Graphics
+}

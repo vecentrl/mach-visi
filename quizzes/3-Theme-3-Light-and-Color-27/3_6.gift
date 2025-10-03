@@ -1,0 +1,309 @@
+::TF1::
+Color constancy refers to the ability to perceive stable colors under changing illumination.
+{TRUE}
+
+::TF2::
+Machine vision systems naturally achieve color constancy without algorithms.
+{FALSE}
+
+::TF3::
+The Grey World assumption states that the average color in a scene is gray.
+{TRUE}
+
+::TF4::
+The White Patch method assumes the brightest pixel corresponds to white.
+{TRUE}
+
+::TF5::
+Retinex theory explains color constancy by comparing local intensity ratios.
+{TRUE}
+
+::TF6::
+Color constancy is not important for object recognition in machine vision.
+{FALSE}
+
+::TF7::
+Multiple light sources can make color constancy more difficult.
+{TRUE}
+
+::TF8::
+Color constancy algorithms attempt to separate reflectance from illumination.
+{TRUE}
+
+::TF9::
+Shadows can create challenges for color constancy.
+{TRUE}
+
+::TF10::
+Color constancy has no relevance to robotics or autonomous driving.
+{FALSE}
+
+::MC1::
+What does color constancy ensure?
+{
+= Object colors appear stable despite changes in illumination
+~ All objects reflect the same spectrum
+~ Shadows disappear from images
+~ Only grayscale values are preserved
+}
+
+::MC2::
+Which method assumes the average scene color is gray?
+{
+= Grey World
+~ White Patch
+~ Retinex
+~ Histogram equalization
+}
+
+::MC3::
+Which method assumes the brightest pixel corresponds to white?
+{
+= White Patch
+~ Grey World
+~ Retinex
+~ Stereo matching
+}
+
+::MC4::
+Which theory uses local intensity ratios to achieve color constancy?
+{
+= Retinex
+~ Grey World
+~ White Patch
+~ Fourier analysis
+}
+
+::MC5::
+Why is color constancy important in machine vision?
+{
+= Enables illumination-independent recognition
+~ Reduces file size
+~ Increases sensor gain
+~ Improves gamma correction
+}
+
+::MC6::
+Which factor complicates color constancy?
+{
+= Multiple light sources
+~ Single light source
+~ Uniform illumination
+~ Perfectly white light
+}
+
+::MC7::
+Which application relies on color constancy?
+{
+= Object recognition
+~ Audio processing
+~ File compression
+~ Text editing
+}
+
+::MC8::
+Which is a limitation of the White Patch method?
+{
+= Sensitive to noise and specular highlights
+~ Requires multiple sensors
+~ Works only outdoors
+~ Always more robust than Retinex
+}
+
+::MC9::
+Which is a limitation of the Grey World method?
+{
+= Assumes scene average is gray, may fail otherwise
+~ Needs deep learning
+~ Requires IR sensors
+~ Only works in monochrome
+}
+
+::MC10::
+Which is an advantage of learning-based methods for color constancy?
+{
+= Can adapt to complex scenes
+~ Do not require training data
+~ Always outperform Retinex
+~ Independent of illumination
+}
+
+::MATCH1::
+Match the method to its principle.
+{
+= Grey World -> Average scene color is gray
+= White Patch -> Brightest pixel is white
+= Retinex -> Local ratio comparisons
+= Learning-based -> Data-driven models
+}
+
+::MATCH2::
+Match the challenge to its effect.
+{
+= Multiple light sources -> Mixed illumination
+= Shadows -> Local illumination variation
+= Colored lighting -> Color shifts
+= Noise -> Errors in estimation
+}
+
+::MATCH3::
+Match the method to a drawback.
+{
+= Grey World -> Fails if average not gray
+= White Patch -> Sensitive to noise
+= Retinex -> Computationally intensive
+= Learning-based -> Requires training data
+}
+
+::MATCH4::
+Match the concept to the application.
+{
+= Color constancy -> Object recognition
+= Grey World -> Simple algorithm
+= Retinex -> Inspired by human vision
+= White Patch -> Assumes max brightness
+}
+
+::MATCH5::
+Match the illumination condition to the difficulty.
+{
+= Uniform lighting -> Easier constancy
+= Multiple sources -> Harder constancy
+= Colored light -> Color shifts
+= Shadows -> Local inconsistency
+}
+
+::MATCH6::
+Match the property to the effect.
+{
+= Reflectance -> Stable property
+= Illumination -> Variable property
+= Constancy -> Stable appearance
+= Shadow -> Distorts cues
+}
+
+::MATCH7::
+Match the algorithm type to the approach.
+{
+= Grey World -> Statistical
+= White Patch -> Heuristic
+= Retinex -> Biological model
+= Learning-based -> Machine learning
+}
+
+::MATCH8::
+Match the method to robustness.
+{
+= Grey World -> Simple but limited
+= White Patch -> Affected by highlights
+= Retinex -> Handles local variation
+= Learning-based -> Adapts to complex scenes
+}
+
+::MATCH9::
+Match the research concept to the field.
+{
+= Retinex -> Human visual theory
+= Color constancy -> Machine vision
+= Grey World -> Algorithmic assumption
+= White Patch -> Simplest approach
+}
+
+::MATCH10::
+Match the difficulty to the scenario.
+{
+= Shadow -> Wrong reflectance estimate
+= Multiple light sources -> Mixed colors
+= Specular highlight -> Misidentified white
+= Strong ambient light -> Sensor saturation
+}
+
+::MULTI1::
+Which are goals of color constancy?
+{
+~%33.33333% Stable object colors
+~%33.33333% Illumination-invariant recognition
+~%33.33333% Reliable perception under different lights
+~%-100% File compression
+}
+
+::MULTI2::
+Which are basic methods for color constancy?
+{
+~%33.33333% Grey World
+~%33.33333% White Patch
+~%33.33333% Retinex
+~%-100% JPEG
+}
+
+::MULTI3::
+Which are challenges for color constancy?
+{
+~%33.33333% Shadows
+~%33.33333% Multiple light sources
+~%33.33333% Colored lighting
+~%-100% High resolution
+}
+
+::MULTI4::
+Which are properties of Grey World?
+{
+~%50% Assumes average is gray
+~%50% Simple to implement
+~%-100% Always accurate
+~%-100% Needs deep learning
+}
+
+::MULTI5::
+Which are properties of White Patch?
+{
+~%50% Assumes brightest = white
+~%50% Sensitive to highlights
+~%-100% Robust in all scenes
+~%-100% Requires multiple sensors
+}
+
+::MULTI6::
+Which are properties of Retinex?
+{
+~%33.33333% Inspired by human vision
+~%33.33333% Local ratio comparisons
+~%33.33333% Computationally intensive
+~%-100% Always trivial
+}
+
+::MULTI7::
+Which are properties of learning-based methods?
+{
+~%33.33333% Data-driven
+~%33.33333% Adapt to complex scenes
+~%33.33333% Require training data
+~%-100% Independent of input
+}
+
+::MULTI8::
+Which are difficulties for machine vision color constancy?
+{
+~%25% Mixed illumination
+~%25% Shadows
+~%25% Specular highlights
+~%25% Ambient light
+}
+
+::MULTI9::
+Which applications require color constancy?
+{
+~%33.33333% Robotics
+~%33.33333% Autonomous driving
+~%33.33333% Object recognition
+~%-100% Text compression
+}
+
+::MULTI10::
+Which are examples of assumptions in simple color constancy methods?
+{
+~%50% Grey World assumption
+~%50% White Patch assumption
+~%-100% Illumination independence
+~%-100% Infinite accuracy
+}

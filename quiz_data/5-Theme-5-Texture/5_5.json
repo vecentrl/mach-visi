@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhat is a feature vector?\n{\n= A collection of numerical descriptors\n~ A binary mask\n~ A histogram of colors only\n~ A compressed file\n}",
+    "title": "MC1",
+    "question": "What is a feature vector?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "A collection of numerical descriptors",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "A binary mask",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "A histogram of colors only",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "A compressed file",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhich method is unsupervised dimensionality reduction?\n{\n= PCA\n~ LDA\n~ Histogram equalization\n~ Thresholding\n}",
+    "title": "MC2",
+    "question": "Which method is unsupervised dimensionality reduction?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "PCA",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "LDA",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Thresholding",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhich method is supervised dimensionality reduction?\n{\n= LDA\n~ PCA\n~ Fourier transform\n~ Dilation\n}",
+    "title": "MC3",
+    "question": "Which method is supervised dimensionality reduction?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "LDA",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "PCA",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Fourier transform",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Dilation",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhy combine multiple texture features?\n{\n= To improve classification robustness\n~ To reduce file size\n~ To increase pixel intensity\n~ To apply JPEG compression\n}",
+    "title": "MC4",
+    "question": "Why combine multiple texture features?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "To improve classification robustness",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "To reduce file size",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "To increase pixel intensity",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "To apply JPEG compression",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhich domain benefits from texture feature vectors?\n{\n= Image retrieval\n~ Histogram equalization\n~ Audio compression\n~ Gamma correction\n}",
+    "title": "MC5",
+    "question": "Which domain benefits from texture feature vectors?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Image retrieval",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Audio compression",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Gamma correction",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich is a drawback of large feature sets?\n{\n= High dimensionality\n~ Always invariant\n~ No information\n~ Perfect robustness\n}",
+    "title": "MC6",
+    "question": "Which is a drawback of large feature sets?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "High dimensionality",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Always invariant",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "No information",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Perfect robustness",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich technique can reduce dimensionality?\n{\n= PCA\n~ Histogram matching\n~ Otsu thresholding\n~ Histogram equalization\n}",
+    "title": "MC7",
+    "question": "Which technique can reduce dimensionality?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "PCA",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram matching",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Otsu thresholding",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram equalization",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich property should robust texture features have?\n{\n= Invariance to scale, rotation, illumination\n~ Dependence on file type\n~ Sensitivity to noise only\n~ Inconsistent results\n}",
+    "title": "MC8",
+    "question": "Which property should robust texture features have?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Invariance to scale, rotation, illumination",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Dependence on file type",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Sensitivity to noise only",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Inconsistent results",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich is an application of texture feature analysis?\n{\n= Industrial surface inspection\n~ Gamma correction\n~ White balance\n~ File compression\n}",
+    "title": "MC9",
+    "question": "Which is an application of texture feature analysis?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Industrial surface inspection",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Gamma correction",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "White balance",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "File compression",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich is an example of feature combination?\n{\n= Statistical + Spectral descriptors\n~ Only histogram features\n~ Only Fourier coefficients\n~ Only texels\n}",
+    "title": "MC10",
+    "question": "Which is an example of feature combination?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Statistical + Spectral descriptors",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Only histogram features",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Only Fourier coefficients",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Only texels",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the feature type to example.\n{\n= Statistical -> Co-occurrence\n= Spectral -> Fourier\n= Structural -> Texels\n= Combined -> Feature vector\n}",
+    "title": "MATCH1",
+    "question": "Match the feature type to example.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Statistical",
+        "right": "Co-occurrence"
+      },
+      {
+        "id": 2,
+        "left": "Spectral",
+        "right": "Fourier"
+      },
+      {
+        "id": 3,
+        "left": "Structural",
+        "right": "Texels"
+      },
+      {
+        "id": 4,
+        "left": "Combined",
+        "right": "Feature vector"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the method to use.\n{\n= PCA -> Unsupervised reduction\n= LDA -> Supervised reduction\n= Feature vector -> Combination of descriptors\n= Retrieval -> Image search\n}",
+    "title": "MATCH2",
+    "question": "Match the method to use.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "PCA",
+        "right": "Unsupervised reduction"
+      },
+      {
+        "id": 2,
+        "left": "LDA",
+        "right": "Supervised reduction"
+      },
+      {
+        "id": 3,
+        "left": "Feature vector",
+        "right": "Combination of descriptors"
+      },
+      {
+        "id": 4,
+        "left": "Retrieval",
+        "right": "Image search"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the application to domain.\n{\n= Classification -> Recognize texture class\n= Segmentation -> Partition images\n= Retrieval -> Search by similarity\n= Inspection -> Detect flaws\n}",
+    "title": "MATCH3",
+    "question": "Match the application to domain.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Classification",
+        "right": "Recognize texture class"
+      },
+      {
+        "id": 2,
+        "left": "Segmentation",
+        "right": "Partition images"
+      },
+      {
+        "id": 3,
+        "left": "Retrieval",
+        "right": "Search by similarity"
+      },
+      {
+        "id": 4,
+        "left": "Inspection",
+        "right": "Detect flaws"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the feature to limitation.\n{\n= Histogram -> Ignores spatial info\n= Co-occurrence -> Direction sensitive\n= Fourier -> Sensitive to noise\n= Combined vector -> High dimensionality\n}",
+    "title": "MATCH4",
+    "question": "Match the feature to limitation.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Histogram",
+        "right": "Ignores spatial info"
+      },
+      {
+        "id": 2,
+        "left": "Co-occurrence",
+        "right": "Direction sensitive"
+      },
+      {
+        "id": 3,
+        "left": "Fourier",
+        "right": "Sensitive to noise"
+      },
+      {
+        "id": 4,
+        "left": "Combined vector",
+        "right": "High dimensionality"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the challenge to its effect.\n{\n= Rotation -> Descriptor change\n= Scale -> Feature instability\n= Illumination -> Contrast variation\n= Noise -> Distorted descriptors\n}",
+    "title": "MATCH5",
+    "question": "Match the challenge to its effect.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Rotation",
+        "right": "Descriptor change"
+      },
+      {
+        "id": 2,
+        "left": "Scale",
+        "right": "Feature instability"
+      },
+      {
+        "id": 3,
+        "left": "Illumination",
+        "right": "Contrast variation"
+      },
+      {
+        "id": 4,
+        "left": "Noise",
+        "right": "Distorted descriptors"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the technique to the goal.\n{\n= PCA -> Reduce dimensions\n= LDA -> Class separation\n= Feature combination -> Robustness\n= Feature selection -> Compact set\n}",
+    "title": "MATCH6",
+    "question": "Match the technique to the goal.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "PCA",
+        "right": "Reduce dimensions"
+      },
+      {
+        "id": 2,
+        "left": "LDA",
+        "right": "Class separation"
+      },
+      {
+        "id": 3,
+        "left": "Feature combination",
+        "right": "Robustness"
+      },
+      {
+        "id": 4,
+        "left": "Feature selection",
+        "right": "Compact set"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the descriptor to application.\n{\n= Energy -> Repetition\n= Entropy -> Randomness\n= Fourier -> Frequency\n= Texels -> Structure\n}",
+    "title": "MATCH7",
+    "question": "Match the descriptor to application.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Energy",
+        "right": "Repetition"
+      },
+      {
+        "id": 2,
+        "left": "Entropy",
+        "right": "Randomness"
+      },
+      {
+        "id": 3,
+        "left": "Fourier",
+        "right": "Frequency"
+      },
+      {
+        "id": 4,
+        "left": "Texels",
+        "right": "Structure"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the property to descriptor.\n{\n= Robustness -> Combined features\n= Compactness -> PCA\n= Supervision -> LDA\n= Invariance -> Feature normalization\n}",
+    "title": "MATCH8",
+    "question": "Match the property to descriptor.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Robustness",
+        "right": "Combined features"
+      },
+      {
+        "id": 2,
+        "left": "Compactness",
+        "right": "PCA"
+      },
+      {
+        "id": 3,
+        "left": "Supervision",
+        "right": "LDA"
+      },
+      {
+        "id": 4,
+        "left": "Invariance",
+        "right": "Feature normalization"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the method to drawback.\n{\n= PCA -> Loses interpretability\n= LDA -> Requires labels\n= Combined features -> Dimensionality issues\n= Raw histogram -> Sensitive to illumination\n}",
+    "title": "MATCH9",
+    "question": "Match the method to drawback.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "PCA",
+        "right": "Loses interpretability"
+      },
+      {
+        "id": 2,
+        "left": "LDA",
+        "right": "Requires labels"
+      },
+      {
+        "id": 3,
+        "left": "Combined features",
+        "right": "Dimensionality issues"
+      },
+      {
+        "id": 4,
+        "left": "Raw histogram",
+        "right": "Sensitive to illumination"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the step to example.\n{\n= Extraction -> Gabor features\n= Combination -> Feature vector\n= Reduction -> PCA\n= Application -> Texture classification\n}",
+    "title": "MATCH10",
+    "question": "Match the step to example.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Extraction",
+        "right": "Gabor features"
+      },
+      {
+        "id": 2,
+        "left": "Combination",
+        "right": "Feature vector"
+      },
+      {
+        "id": 3,
+        "left": "Reduction",
+        "right": "PCA"
+      },
+      {
+        "id": 4,
+        "left": "Application",
+        "right": "Texture classification"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are texture feature categories?\n{\n~%33.33333% Statistical\n~%33.33333% Structural\n~%33.33333% Spectral\n~%-100% Audio\n}",
+    "title": "MULTI1",
+    "question": "Which are texture feature categories?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Statistical",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Structural",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Spectral",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Audio",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are dimensionality reduction methods?\n{\n~%50% PCA\n~%50% LDA\n~%-100% Histogram equalization\n~%-100% Thresholding\n}",
+    "title": "MULTI2",
+    "question": "Which are dimensionality reduction methods?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "PCA",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "LDA",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Histogram equalization",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Thresholding",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are reasons to combine features?\n{\n~%33.33333% Improve accuracy\n~%33.33333% Increase robustness\n~%33.33333% Handle complex textures\n~%-100% Reduce file size only\n}",
+    "title": "MULTI3",
+    "question": "Which are reasons to combine features?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Improve accuracy",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Increase robustness",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Handle complex textures",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Reduce file size only",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are applications of texture feature vectors?\n{\n~%25% Classification\n~%25% Segmentation\n~%25% Retrieval\n~%25% Inspection\n}",
+    "title": "MULTI4",
+    "question": "Which are applications of texture feature vectors?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Classification",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Segmentation",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Retrieval",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Inspection",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are challenges for texture features?\n{\n~%33.33333% Scale variation\n~%33.33333% Rotation sensitivity\n~%33.33333% Illumination changes\n~%-100% Always invariant\n}",
+    "title": "MULTI5",
+    "question": "Which are challenges for texture features?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Scale variation",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Rotation sensitivity",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Illumination changes",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Always invariant",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are properties of robust descriptors?\n{\n~%25% Scale invariance\n~%25% Rotation invariance\n~%25% Illumination invariance\n~%25% Robustness to noise\n}",
+    "title": "MULTI6",
+    "question": "Which are properties of robust descriptors?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Scale invariance",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Rotation invariance",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Illumination invariance",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Robustness to noise",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are examples of spectral descriptors?\n{\n~%50% Fourier\n~%50% Gabor\n~%-100% Histogram\n~%-100% Texels\n}",
+    "title": "MULTI7",
+    "question": "Which are examples of spectral descriptors?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Fourier",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Gabor",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Histogram",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Texels",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are examples of structural descriptors?\n{\n~%50% Texels\n~%50% Repeated primitives\n~%-100% Fourier\n~%-100% PCA\n}",
+    "title": "MULTI8",
+    "question": "Which are examples of structural descriptors?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Texels",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Repeated primitives",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Fourier",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "PCA",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are benefits of dimensionality reduction?\n{\n~%33.33333% Reduce computation\n~%33.33333% Remove redundancy\n~%33.33333% Compact representation\n~%-100% Increase dimensionality\n}",
+    "title": "MULTI9",
+    "question": "Which are benefits of dimensionality reduction?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Reduce computation",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Remove redundancy",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Compact representation",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Increase dimensionality",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are applications of combined features?\n{\n~%33.33333% Texture classification\n~%33.33333% Image retrieval\n~%33.33333% Industrial inspection\n~%-100% Audio compression\n}",
+    "title": "MULTI10",
+    "question": "Which are applications of combined features?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Texture classification",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Image retrieval",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Industrial inspection",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Audio compression",
+        "weight": -100.0
+      }
+    ]
+  }
+]

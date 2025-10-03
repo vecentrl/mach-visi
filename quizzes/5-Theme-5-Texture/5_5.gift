@@ -1,0 +1,309 @@
+::TF1::
+Texture features can be combined into feature vectors for classification.
+{TRUE}
+
+::TF2::
+Using only one type of texture feature is always sufficient for all applications.
+{FALSE}
+
+::TF3::
+Dimensionality reduction helps manage large feature sets.
+{TRUE}
+
+::TF4::
+Principal Component Analysis (PCA) is commonly used for reducing feature dimensionality.
+{TRUE}
+
+::TF5::
+Linear Discriminant Analysis (LDA) can be used for supervised feature reduction.
+{TRUE}
+
+::TF6::
+Combining statistical and spectral features can improve classification accuracy.
+{TRUE}
+
+::TF7::
+Texture feature vectors can be used for image retrieval.
+{TRUE}
+
+::TF8::
+Rotation and scale changes can affect texture features.
+{TRUE}
+
+::TF9::
+Illumination invariance is an important challenge for texture analysis.
+{TRUE}
+
+::TF10::
+Texture features are irrelevant in industrial surface inspection.
+{FALSE}
+
+::MC1::
+What is a feature vector?
+{
+= A collection of numerical descriptors
+~ A binary mask
+~ A histogram of colors only
+~ A compressed file
+}
+
+::MC2::
+Which method is unsupervised dimensionality reduction?
+{
+= PCA
+~ LDA
+~ Histogram equalization
+~ Thresholding
+}
+
+::MC3::
+Which method is supervised dimensionality reduction?
+{
+= LDA
+~ PCA
+~ Fourier transform
+~ Dilation
+}
+
+::MC4::
+Why combine multiple texture features?
+{
+= To improve classification robustness
+~ To reduce file size
+~ To increase pixel intensity
+~ To apply JPEG compression
+}
+
+::MC5::
+Which domain benefits from texture feature vectors?
+{
+= Image retrieval
+~ Histogram equalization
+~ Audio compression
+~ Gamma correction
+}
+
+::MC6::
+Which is a drawback of large feature sets?
+{
+= High dimensionality
+~ Always invariant
+~ No information
+~ Perfect robustness
+}
+
+::MC7::
+Which technique can reduce dimensionality?
+{
+= PCA
+~ Histogram matching
+~ Otsu thresholding
+~ Histogram equalization
+}
+
+::MC8::
+Which property should robust texture features have?
+{
+= Invariance to scale, rotation, illumination
+~ Dependence on file type
+~ Sensitivity to noise only
+~ Inconsistent results
+}
+
+::MC9::
+Which is an application of texture feature analysis?
+{
+= Industrial surface inspection
+~ Gamma correction
+~ White balance
+~ File compression
+}
+
+::MC10::
+Which is an example of feature combination?
+{
+= Statistical + Spectral descriptors
+~ Only histogram features
+~ Only Fourier coefficients
+~ Only texels
+}
+
+::MATCH1::
+Match the feature type to example.
+{
+= Statistical -> Co-occurrence
+= Spectral -> Fourier
+= Structural -> Texels
+= Combined -> Feature vector
+}
+
+::MATCH2::
+Match the method to use.
+{
+= PCA -> Unsupervised reduction
+= LDA -> Supervised reduction
+= Feature vector -> Combination of descriptors
+= Retrieval -> Image search
+}
+
+::MATCH3::
+Match the application to domain.
+{
+= Classification -> Recognize texture class
+= Segmentation -> Partition images
+= Retrieval -> Search by similarity
+= Inspection -> Detect flaws
+}
+
+::MATCH4::
+Match the feature to limitation.
+{
+= Histogram -> Ignores spatial info
+= Co-occurrence -> Direction sensitive
+= Fourier -> Sensitive to noise
+= Combined vector -> High dimensionality
+}
+
+::MATCH5::
+Match the challenge to its effect.
+{
+= Rotation -> Descriptor change
+= Scale -> Feature instability
+= Illumination -> Contrast variation
+= Noise -> Distorted descriptors
+}
+
+::MATCH6::
+Match the technique to the goal.
+{
+= PCA -> Reduce dimensions
+= LDA -> Class separation
+= Feature combination -> Robustness
+= Feature selection -> Compact set
+}
+
+::MATCH7::
+Match the descriptor to application.
+{
+= Energy -> Repetition
+= Entropy -> Randomness
+= Fourier -> Frequency
+= Texels -> Structure
+}
+
+::MATCH8::
+Match the property to descriptor.
+{
+= Robustness -> Combined features
+= Compactness -> PCA
+= Supervision -> LDA
+= Invariance -> Feature normalization
+}
+
+::MATCH9::
+Match the method to drawback.
+{
+= PCA -> Loses interpretability
+= LDA -> Requires labels
+= Combined features -> Dimensionality issues
+= Raw histogram -> Sensitive to illumination
+}
+
+::MATCH10::
+Match the step to example.
+{
+= Extraction -> Gabor features
+= Combination -> Feature vector
+= Reduction -> PCA
+= Application -> Texture classification
+}
+
+::MULTI1::
+Which are texture feature categories?
+{
+~%33.33333% Statistical
+~%33.33333% Structural
+~%33.33333% Spectral
+~%-100% Audio
+}
+
+::MULTI2::
+Which are dimensionality reduction methods?
+{
+~%50% PCA
+~%50% LDA
+~%-100% Histogram equalization
+~%-100% Thresholding
+}
+
+::MULTI3::
+Which are reasons to combine features?
+{
+~%33.33333% Improve accuracy
+~%33.33333% Increase robustness
+~%33.33333% Handle complex textures
+~%-100% Reduce file size only
+}
+
+::MULTI4::
+Which are applications of texture feature vectors?
+{
+~%25% Classification
+~%25% Segmentation
+~%25% Retrieval
+~%25% Inspection
+}
+
+::MULTI5::
+Which are challenges for texture features?
+{
+~%33.33333% Scale variation
+~%33.33333% Rotation sensitivity
+~%33.33333% Illumination changes
+~%-100% Always invariant
+}
+
+::MULTI6::
+Which are properties of robust descriptors?
+{
+~%25% Scale invariance
+~%25% Rotation invariance
+~%25% Illumination invariance
+~%25% Robustness to noise
+}
+
+::MULTI7::
+Which are examples of spectral descriptors?
+{
+~%50% Fourier
+~%50% Gabor
+~%-100% Histogram
+~%-100% Texels
+}
+
+::MULTI8::
+Which are examples of structural descriptors?
+{
+~%50% Texels
+~%50% Repeated primitives
+~%-100% Fourier
+~%-100% PCA
+}
+
+::MULTI9::
+Which are benefits of dimensionality reduction?
+{
+~%33.33333% Reduce computation
+~%33.33333% Remove redundancy
+~%33.33333% Compact representation
+~%-100% Increase dimensionality
+}
+
+::MULTI10::
+Which are applications of combined features?
+{
+~%33.33333% Texture classification
+~%33.33333% Image retrieval
+~%33.33333% Industrial inspection
+~%-100% Audio compression
+}

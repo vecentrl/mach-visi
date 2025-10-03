@@ -1,0 +1,309 @@
+::TF1::
+Statistical texture representation uses numerical measures instead of structural models.
+{TRUE}
+
+::TF2::
+Histograms are first-order statistical descriptors.
+{TRUE}
+
+::TF3::
+Co-occurrence matrices are examples of second-order statistics.
+{TRUE}
+
+::TF4::
+Autocorrelation can be used as a higher-order texture descriptor.
+{TRUE}
+
+::TF5::
+Mean and variance are first-order features.
+{TRUE}
+
+::TF6::
+GLCM features include contrast, energy, entropy, and homogeneity.
+{TRUE}
+
+::TF7::
+Statistical methods are completely invariant to scale and rotation.
+{FALSE}
+
+::TF8::
+Statistical methods are often used in medical and industrial applications.
+{TRUE}
+
+::TF9::
+Histograms capture spatial relationships between pixels.
+{FALSE}
+
+::TF10::
+Entropy measures randomness in texture patterns.
+{TRUE}
+
+::MC1::
+Which is a first-order texture feature?
+{
+= Mean intensity
+~ Co-occurrence contrast
+~ Autocorrelation
+~ Skeleton
+}
+
+::MC2::
+Which is a second-order statistical feature?
+{
+= Co-occurrence matrix feature
+~ Histogram mean
+~ Pixel intensity variance
+~ Compactness
+}
+
+::MC3::
+Which describes entropy in texture analysis?
+{
+= Measure of randomness
+~ Measure of brightness
+~ Measure of repetition
+~ Measure of uniformity
+}
+
+::MC4::
+Which describes homogeneity in texture?
+{
+= Uniformity of pixel values
+~ Difference in intensity
+~ Randomness
+~ Roughness
+}
+
+::MC5::
+Which feature describes local variation?
+{
+= Contrast
+~ Energy
+~ Homogeneity
+~ Entropy
+}
+
+::MC6::
+Which feature measures strength of repetition?
+{
+= Energy
+~ Entropy
+~ Contrast
+~ Histogram bins
+}
+
+::MC7::
+Which feature is derived from GLCM?
+{
+= Co-occurrence-based contrast
+~ Histogram mean
+~ Fourier coefficients
+~ Edge gradient
+}
+
+::MC8::
+Which is a higher-order descriptor?
+{
+= Autocorrelation
+~ Histogram variance
+~ Compactness
+~ Perimeter
+}
+
+::MC9::
+Which is a drawback of statistical methods?
+{
+= Sensitive to scale and rotation
+~ Always computationally heavy
+~ Not numerical
+~ Never used in practice
+}
+
+::MC10::
+Which is an application of statistical texture features?
+{
+= Tissue classification in medical imaging
+~ Audio synthesis
+~ File encryption
+~ Gamma correction
+}
+
+::MATCH1::
+Match the order to the method.
+{
+= First-order -> Histogram features
+= Second-order -> Co-occurrence
+= Higher-order -> Autocorrelation
+= Mixed -> Neighborhood features
+}
+
+::MATCH2::
+Match the feature to meaning.
+{
+= Mean -> Average intensity
+= Variance -> Spread of values
+= Entropy -> Randomness
+= Contrast -> Local variation
+}
+
+::MATCH3::
+Match the GLCM feature to definition.
+{
+= Energy -> Strength of repetition
+= Homogeneity -> Uniformity
+= Entropy -> Disorder
+= Contrast -> Difference in intensity
+}
+
+::MATCH4::
+Match the descriptor to example.
+{
+= First-order -> Histogram mean
+= Second-order -> Co-occurrence entropy
+= Higher-order -> Autocorrelation
+= Region-based -> Shape moments
+}
+
+::MATCH5::
+Match the statistical method to application.
+{
+= Histogram -> Brightness distribution
+= Co-occurrence -> Texture patterns
+= Autocorrelation -> Repetition
+= Variance -> Roughness
+}
+
+::MATCH6::
+Match the domain to usage.
+{
+= Medical imaging -> Tumor texture
+= Industrial inspection -> Surface quality
+= Remote sensing -> Terrain classification
+= Scene analysis -> Segmentation
+}
+
+::MATCH7::
+Match the statistic to order.
+{
+= Mean -> First-order
+= Variance -> First-order
+= Co-occurrence -> Second-order
+= Autocorrelation -> Higher-order
+}
+
+::MATCH8::
+Match the concept to limitation.
+{
+= Histogram -> Ignores spatial info
+= Co-occurrence -> Sensitive to direction
+= Autocorrelation -> Sensitive to noise
+= All -> Sensitive to illumination
+}
+
+::MATCH9::
+Match the texture measure to interpretation.
+{
+= Low entropy -> Regular pattern
+= High entropy -> Random texture
+= High contrast -> Rough texture
+= High homogeneity -> Smooth texture
+}
+
+::MATCH10::
+Match the feature to property.
+{
+= Contrast -> Variation
+= Energy -> Repetition strength
+= Homogeneity -> Uniformity
+= Entropy -> Disorder
+}
+
+::MULTI1::
+Which are first-order texture features?
+{
+~%33.33333% Mean
+~%33.33333% Variance
+~%33.33333% Histogram statistics
+~%-100% Co-occurrence entropy
+}
+
+::MULTI2::
+Which are second-order texture features?
+{
+~%25% Contrast
+~%25% Energy
+~%25% Homogeneity
+~%25% Entropy
+}
+
+::MULTI3::
+Which are higher-order descriptors?
+{
+~%50% Autocorrelation
+~%50% Neighborhood features
+~%-100% Histogram mean
+~%-100% Co-occurrence contrast
+}
+
+::MULTI4::
+Which are derived from co-occurrence matrices?
+{
+~%25% Contrast
+~%25% Energy
+~%25% Homogeneity
+~%25% Entropy
+}
+
+::MULTI5::
+Which are challenges for statistical texture representation?
+{
+~%33.33333% Scale variation
+~%33.33333% Rotation sensitivity
+~%33.33333% Illumination change
+~%-100% Always perfect invariance
+}
+
+::MULTI6::
+Which are applications of statistical texture features?
+{
+~%25% Medical imaging
+~%25% Industrial inspection
+~%25% Remote sensing
+~%25% Scene classification
+}
+
+::MULTI7::
+Which are true about entropy?
+{
+~%33.33333% Measures randomness
+~%33.33333% High entropy = irregular texture
+~%33.33333% Low entropy = regular pattern
+~%-100% Measures average brightness
+}
+
+::MULTI8::
+Which are true about contrast?
+{
+~%50% Measures local variation
+~%50% High contrast = coarse texture
+~%-100% Always uniform
+~%-100% Measures randomness
+}
+
+::MULTI9::
+Which are true about homogeneity?
+{
+~%50% Measures uniformity
+~%50% High homogeneity = smooth texture
+~%-100% Measures randomness
+~%-100% Measures histogram mean
+}
+
+::MULTI10::
+Which are true about energy?
+{
+~%50% Measures strength of repetition
+~%50% Higher energy = more regular texture
+~%-100% Measures randomness
+~%-100% Color only
+}

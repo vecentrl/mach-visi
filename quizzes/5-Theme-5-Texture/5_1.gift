@@ -1,0 +1,309 @@
+::TF1::
+Texture refers to repeated patterns or local intensity variations in an image.
+{TRUE}
+
+::TF2::
+Color and texture describe exactly the same property.
+{FALSE}
+
+::TF3::
+Texture can be smooth, coarse, regular, or random.
+{TRUE}
+
+::TF4::
+Statistical descriptors are one way to characterize texture.
+{TRUE}
+
+::TF5::
+Structural texture models describe repeated arrangements of elements.
+{TRUE}
+
+::TF6::
+Spectral methods use frequency domain analysis for texture.
+{TRUE}
+
+::TF7::
+Texture information can be captured using co-occurrence matrices.
+{TRUE}
+
+::TF8::
+Random textures have no discernible repetitive pattern.
+{TRUE}
+
+::TF9::
+Texture is not important in medical imaging.
+{FALSE}
+
+::TF10::
+Remote sensing often uses texture to classify terrain or vegetation.
+{TRUE}
+
+::MC1::
+What does texture describe?
+{
+= Local intensity variations or patterns
+~ Average brightness only
+~ Only the image color
+~ File size of image
+}
+
+::MC2::
+Which is an example of a statistical approach to texture?
+{
+= Co-occurrence matrix
+~ Fourier transform
+~ Structural tiling
+~ RGB histogram
+}
+
+::MC3::
+Which is an example of a structural approach?
+{
+= Repeated patterns or primitives
+~ Histogram of gray levels
+~ Noise variance
+~ Co-occurrence matrix
+}
+
+::MC4::
+Which is an example of a spectral method?
+{
+= Gabor filtering
+~ Gray-level histogram
+~ Binary thresholding
+~ Edge detection
+}
+
+::MC5::
+Which type of texture has little variation and smooth appearance?
+{
+= Smooth texture
+~ Coarse texture
+~ Random texture
+~ Regular texture
+}
+
+::MC6::
+Which type of texture has large variations and roughness?
+{
+= Coarse texture
+~ Smooth texture
+~ Regular texture
+~ Random texture
+}
+
+::MC7::
+Which type of texture shows strong repetitive patterns?
+{
+= Regular texture
+~ Random texture
+~ Smooth texture
+~ Noise texture
+}
+
+::MC8::
+Which type of texture lacks any discernible pattern?
+{
+= Random texture
+~ Regular texture
+~ Smooth texture
+~ Coarse texture
+}
+
+::MC9::
+Which application uses texture features?
+{
+= Surface inspection
+~ Gamma correction
+~ File encryption
+~ Histogram equalization
+}
+
+::MC10::
+Which method analyzes texture in the frequency domain?
+{
+= Spectral methods
+~ Statistical methods
+~ Structural methods
+~ Histogram methods
+}
+
+::MATCH1::
+Match the texture type to its property.
+{
+= Smooth -> Low variation
+= Coarse -> Rough, large variation
+= Regular -> Repetitive patterns
+= Random -> No clear pattern
+}
+
+::MATCH2::
+Match the approach to description.
+{
+= Statistical -> Distribution-based
+= Structural -> Pattern-based
+= Spectral -> Frequency-based
+= Hybrid -> Combination
+}
+
+::MATCH3::
+Match the method to its type.
+{
+= Histogram -> Statistical
+= Co-occurrence matrix -> Statistical
+= Gabor filter -> Spectral
+= Tiling model -> Structural
+}
+
+::MATCH4::
+Match the domain to application.
+{
+= Medical imaging -> Tissue classification
+= Remote sensing -> Terrain classification
+= Industrial -> Surface inspection
+= Graphics -> Texture synthesis
+}
+
+::MATCH5::
+Match the descriptor to meaning.
+{
+= Contrast -> Difference in intensity
+= Homogeneity -> Uniformity
+= Energy -> Repetition strength
+= Entropy -> Randomness
+}
+
+::MATCH6::
+Match the method to output.
+{
+= Statistical -> Feature values
+= Structural -> Shape elements
+= Spectral -> Frequency components
+= Hybrid -> Combined descriptors
+}
+
+::MATCH7::
+Match the texture to example.
+{
+= Smooth -> Clear sky
+= Coarse -> Gravel road
+= Regular -> Brick wall
+= Random -> Clouds
+}
+
+::MATCH8::
+Match the feature to property.
+{
+= Histogram -> Pixel intensity distribution
+= Co-occurrence -> Spatial relation of pixels
+= Fourier -> Frequency components
+= Gabor -> Multi-scale texture
+}
+
+::MATCH9::
+Match the field to usage.
+{
+= Remote sensing -> Land classification
+= Medicine -> Tumor analysis
+= Robotics -> Surface navigation
+= Inspection -> Quality control
+}
+
+::MATCH10::
+Match the concept to contrast.
+{
+= Smooth -> Low contrast
+= Coarse -> High contrast
+= Regular -> Predictable
+= Random -> Unpredictable
+}
+
+::MULTI1::
+Which are types of texture?
+{
+~%25% Smooth
+~%25% Coarse
+~%25% Regular
+~%25% Random
+}
+
+::MULTI2::
+Which are approaches to texture analysis?
+{
+~%33.33333% Statistical
+~%33.33333% Structural
+~%33.33333% Spectral
+~%-100% Gamma correction
+}
+
+::MULTI3::
+Which are statistical descriptors for texture?
+{
+~%33.33333% Co-occurrence matrix
+~%33.33333% Histogram
+~%33.33333% Contrast/entropy
+~%-100% Gabor filtering
+}
+
+::MULTI4::
+Which are spectral methods?
+{
+~%50% Fourier transform
+~%50% Gabor filters
+~%-100% Co-occurrence
+~%-100% Histogram
+}
+
+::MULTI5::
+Which are structural methods?
+{
+~%50% Tiling models
+~%50% Repeated primitives
+~%-100% Fourier transform
+~%-100% Histogram
+}
+
+::MULTI6::
+Which are applications of texture analysis?
+{
+~%25% Medical imaging
+~%25% Remote sensing
+~%25% Industrial inspection
+~%25% Graphics
+}
+
+::MULTI7::
+Which are descriptors derived from co-occurrence matrices?
+{
+~%25% Contrast
+~%25% Energy
+~%25% Homogeneity
+~%25% Entropy
+}
+
+::MULTI8::
+Which are properties of coarse texture?
+{
+~%33.33333% Large variations
+~%33.33333% Rough appearance
+~%33.33333% High contrast
+~%-100% Smooth uniformity
+}
+
+::MULTI9::
+Which are properties of smooth texture?
+{
+~%33.33333% Low variation
+~%33.33333% Fine patterns
+~%33.33333% Uniform intensity
+~%-100% Rough randomness
+}
+
+::MULTI10::
+Which are challenges in texture analysis?
+{
+~%33.33333% Illumination variation
+~%33.33333% Noise
+~%33.33333% Scale changes
+~%-100% File compression
+}

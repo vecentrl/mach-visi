@@ -1,0 +1,309 @@
+::TF1::
+Human vision exhibits color constancy, making objects appear similar in color under different illumination.
+{TRUE}
+
+::TF2::
+Brightness constancy means objects appear to maintain brightness even when illumination changes.
+{TRUE}
+
+::TF3::
+The checker shadow illusion shows that perceived brightness can differ from actual luminance values.
+{TRUE}
+
+::TF4::
+Human vision is always accurate in interpreting physical light intensities.
+{FALSE}
+
+::TF5::
+Color illusions demonstrate that perception depends on context.
+{TRUE}
+
+::TF6::
+Computer vision systems naturally have color constancy without special algorithms.
+{FALSE}
+
+::TF7::
+Shading and context can cause the same physical color to appear different to humans.
+{TRUE}
+
+::TF8::
+Constancy effects are beneficial for human perception of stable environments.
+{TRUE}
+
+::TF9::
+Illusions highlight the gap between physical reality and perception.
+{TRUE}
+
+::TF10::
+In graphics, understanding human visual illusions can improve rendering realism.
+{TRUE}
+
+::MC1::
+What does color constancy mean?
+{
+= Object color appears stable under different lighting
+~ All colors are perceived equally
+~ Shadows have no effect
+~ Brightness never changes
+}
+
+::MC2::
+Which is an example of a brightness illusion?
+{
+= Checker shadow illusion
+~ Stereopsis
+~ Motion parallax
+~ Gamma correction
+}
+
+::MC3::
+Which explains why two squares of the same shade look different in context?
+{
+= Influence of surrounding shading and shadow
+~ Incorrect sensor calibration
+~ JPEG compression
+~ File size differences
+}
+
+::MC4::
+Which is NOT a characteristic of human vision?
+{
+= Perfect measurement of absolute light intensity
+~ Color constancy
+~ Brightness constancy
+~ Context-dependent perception
+}
+
+::MC5::
+Why do illusions matter for computer vision?
+{
+= They reveal how human perception differs from raw data
+~ They eliminate the need for sensors
+~ They ensure all pixels are accurate
+~ They prevent image compression
+}
+
+::MC6::
+Which factor influences human perception of brightness?
+{
+= Context and surrounding light
+~ File format
+~ Pixel resolution only
+~ Gamma encoding
+}
+
+::MC7::
+Which example shows color constancy?
+{
+= A red apple looking red under daylight and indoor light
+~ A red pixel measured as changing values
+~ Shadows always appearing black
+~ Compression artifacts in JPEG
+}
+
+::MC8::
+Which illusion demonstrates that the same luminance can appear different?
+{
+= Checker shadow illusion
+~ Stereogram
+~ Motion blur
+~ Lens distortion
+}
+
+::MC9::
+Which field benefits from modeling human perception of light and color?
+{
+= Computer graphics
+~ File compression
+~ Circuit design
+~ Cryptography
+}
+
+::MC10::
+Which perceptual phenomenon helps humans perceive a stable world despite lighting changes?
+{
+= Constancy
+~ Chromatic aberration
+~ Vignetting
+~ Noise
+}
+
+::MATCH1::
+Match the constancy type to its meaning.
+{
+= Color constancy -> Stable object color under different lights
+= Brightness constancy -> Stable object brightness under different illumination
+= Size constancy -> Stable size perception despite distance
+= Shape constancy -> Stable shape perception despite orientation
+}
+
+::MATCH2::
+Match the illusion to its description.
+{
+= Checker shadow -> Same shades appear different
+= Color illusion -> Context alters hue perception
+= Brightness illusion -> Shadows change perceived gray
+= Optical illusion -> Visual trick of interpretation
+}
+
+::MATCH3::
+Match the concept to the field.
+{
+= Illusions -> Psychology
+= Color constancy -> Vision science
+= Rendering -> Computer graphics
+= Radiometry -> Physics
+}
+
+::MATCH4::
+Match the cause to the perception.
+{
+= Surrounding brightness -> Alters apparent shade
+= Shadow context -> Changes perceived color
+= Light direction assumption -> Convex/concave reversal
+= Contrast effect -> Alters perception of gray
+}
+
+::MATCH5::
+Match the example to the principle.
+{
+= Red apple under sunlight and lamp -> Color constancy
+= Checker shadow illusion -> Brightness illusion
+= Face appearing convex under shading -> Shape-from-shading
+= Yellow streetlight changing scene color -> Illumination effect
+}
+
+::MATCH6::
+Match the constancy effect to its benefit.
+{
+= Color constancy -> Stable object recognition
+= Brightness constancy -> Understand shading
+= Size constancy -> Recognize distance
+= Shape constancy -> Recognize rotated objects
+}
+
+::MATCH7::
+Match the human vision property to its issue.
+{
+= Constancy -> Can cause illusions
+= Illusion -> Misperception of physical reality
+= Perception -> Context-dependent
+= Measurement -> Physics-based
+}
+
+::MATCH8::
+Match the phenomenon to its consequence.
+{
+= Illusions -> Reveal perception bias
+= Constancy -> Enables stability
+= Shadows -> Create ambiguity
+= Context -> Alters perception
+}
+
+::MATCH9::
+Match the perception type to the system.
+{
+= Human vision -> Context-dependent
+= Computer vision -> Raw pixel values
+= Radiometry -> Physical measurements
+= Graphics -> Rendering perception
+}
+
+::MATCH10::
+Match the effect to the example.
+{
+= Color constancy -> Apple looks red indoors/outdoors
+= Brightness illusion -> Checkerboard shadow
+= Shape-from-shading -> Convex/concave
+= Context -> Two identical grays look different
+}
+
+::MULTI1::
+Which are examples of constancy in vision?
+{
+~%25% Color constancy
+~%25% Brightness constancy
+~%25% Size constancy
+~%25% Shape constancy
+}
+
+::MULTI2::
+Which are examples of visual illusions?
+{
+~%33.33333% Checker shadow illusion
+~%33.33333% Brightness illusions
+~%33.33333% Color illusions
+~%-100% File compression artifacts
+}
+
+::MULTI3::
+Which statements about constancy are true?
+{
+~%33.33333% Helps perceive stable world
+~%33.33333% Based on context
+~%33.33333% Can cause illusions
+~%-100% Perfectly matches physics
+}
+
+::MULTI4::
+Which are human perception properties?
+{
+~%25% Context dependence
+~%25% Illusions
+~%25% Constancy
+~%25% Sensitivity to shading
+}
+
+::MULTI5::
+Which are true about color constancy?
+{
+~%33.33333% Makes object color stable
+~%33.33333% Helps recognition
+~%33.33333% Independent of illumination spectrum
+~%-100% Same as brightness constancy
+}
+
+::MULTI6::
+Which are examples of brightness illusions?
+{
+~%50% Checker shadow illusion
+~%50% Context-based gray perception
+~%-100% JPEG blocking
+~%-100% Gamma correction
+}
+
+::MULTI7::
+Which disciplines use knowledge of human illusions?
+{
+~%33.33333% Psychology
+~%33.33333% Computer vision
+~%33.33333% Graphics
+~%-100% Thermodynamics
+}
+
+::MULTI8::
+Which factors influence perceived brightness?
+{
+~%33.33333% Shadows
+~%33.33333% Surrounding contrast
+~%33.33333% Illumination context
+~%-100% Pixel storage format
+}
+
+::MULTI9::
+Which are consequences of constancy in vision?
+{
+~%33.33333% Stable perception
+~%33.33333% Misperceptions possible
+~%33.33333% Context influences
+~%-100% Exact radiometric accuracy
+}
+
+::MULTI10::
+Which are examples where human vision differs from physical measurement?
+{
+~%33.33333% Illusions
+~%33.33333% Constancy
+~%33.33333% Context effects
+~%-100% Lux measurements
+}

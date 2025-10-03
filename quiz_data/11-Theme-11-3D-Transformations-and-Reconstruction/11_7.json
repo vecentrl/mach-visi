@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhat does incremental SfM reconstruction do?\n{\n= Adds views step by step\n~ Uses only one image\n~ Ignores new views\n~ Compresses histograms\n}",
+    "title": "MC1",
+    "question": "What does incremental SfM reconstruction do?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Adds views step by step",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Uses only one image",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Ignores new views",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Compresses histograms",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhat does triangulation do in SfM?\n{\n= Computes new 3D points\n~ Removes outliers\n~ Normalizes brightness\n~ Smooths histograms\n}",
+    "title": "MC2",
+    "question": "What does triangulation do in SfM?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Computes new 3D points",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Removes outliers",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Normalizes brightness",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Smooths histograms",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhat does bundle adjustment optimize?\n{\n= Poses and 3D points\n~ Only focal length\n~ Only 2D points\n~ Only depth maps\n}",
+    "title": "MC3",
+    "question": "What does bundle adjustment optimize?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Poses and 3D points",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Only focal length",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Only 2D points",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Only depth maps",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhat error does bundle adjustment minimize?\n{\n= Reprojection error\n~ JPEG artifacts\n~ Histogram bins\n~ PCA variance\n}",
+    "title": "MC4",
+    "question": "What error does bundle adjustment minimize?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Reprojection error",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "JPEG artifacts",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Histogram bins",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "PCA variance",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhat type of problem is bundle adjustment?\n{\n= Nonlinear optimization\n~ Linear filtering\n~ Fourier transform\n~ Histogram equalization\n}",
+    "title": "MC5",
+    "question": "What type of problem is bundle adjustment?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Nonlinear optimization",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Linear filtering",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Fourier transform",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram equalization",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhat is required for bundle adjustment to work well?\n{\n= Good initialization\n~ Random guesses\n~ Noise only\n~ No correspondences\n}",
+    "title": "MC6",
+    "question": "What is required for bundle adjustment to work well?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Good initialization",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Random guesses",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Noise only",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "No correspondences",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhy is bundle adjustment expensive?\n{\n= Many parameters optimized jointly\n~ Only uses one point\n~ Histogram computation\n~ Audio filtering\n}",
+    "title": "MC7",
+    "question": "Why is bundle adjustment expensive?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Many parameters optimized jointly",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Only uses one point",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Histogram computation",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Audio filtering",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhat does loop closure address?\n{\n= Drift in reconstructions\n~ Noise in histograms\n~ Only brightness errors\n~ Always exact results\n}",
+    "title": "MC8",
+    "question": "What does loop closure address?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Drift in reconstructions",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Noise in histograms",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Only brightness errors",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Always exact results",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich is a challenge in SfM refinement?\n{\n= Local minima\n~ Always robust\n~ No scaling\n~ Guaranteed convergence\n}",
+    "title": "MC9",
+    "question": "Which is a challenge in SfM refinement?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Local minima",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Always robust",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "No scaling",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Guaranteed convergence",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich domain uses SfM refinement?\n{\n= SLAM\n~ Audio compression\n~ JPEG encoding\n~ White balance\n}",
+    "title": "MC10",
+    "question": "Which domain uses SfM refinement?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "SLAM",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Audio compression",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "JPEG encoding",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "White balance",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the step to pipeline.\n{\n= Incremental -> Add views\n= Triangulation -> Compute new points\n= Bundle adjustment -> Optimize\n= Loop closure -> Correct drift\n}",
+    "title": "MATCH1",
+    "question": "Match the step to pipeline.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Incremental",
+        "right": "Add views"
+      },
+      {
+        "id": 2,
+        "left": "Triangulation",
+        "right": "Compute new points"
+      },
+      {
+        "id": 3,
+        "left": "Bundle adjustment",
+        "right": "Optimize"
+      },
+      {
+        "id": 4,
+        "left": "Loop closure",
+        "right": "Correct drift"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the problem to solution.\n{\n= Drift -> Loop closure\n= Poor accuracy -> Bundle adjustment\n= Outliers -> Robust estimation\n= Scaling error -> Global adjustment\n}",
+    "title": "MATCH2",
+    "question": "Match the problem to solution.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Drift",
+        "right": "Loop closure"
+      },
+      {
+        "id": 2,
+        "left": "Poor accuracy",
+        "right": "Bundle adjustment"
+      },
+      {
+        "id": 3,
+        "left": "Outliers",
+        "right": "Robust estimation"
+      },
+      {
+        "id": 4,
+        "left": "Scaling error",
+        "right": "Global adjustment"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the concept to meaning.\n{\n= Bundle adjustment -> Joint optimization\n= Reprojection error -> Distance in pixels\n= Initialization -> Starting estimate\n= Loop closure -> Global consistency\n}",
+    "title": "MATCH3",
+    "question": "Match the concept to meaning.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Bundle adjustment",
+        "right": "Joint optimization"
+      },
+      {
+        "id": 2,
+        "left": "Reprojection error",
+        "right": "Distance in pixels"
+      },
+      {
+        "id": 3,
+        "left": "Initialization",
+        "right": "Starting estimate"
+      },
+      {
+        "id": 4,
+        "left": "Loop closure",
+        "right": "Global consistency"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the application to field.\n{\n= Cities -> Large-scale mapping\n= Robotics -> SLAM\n= AR/VR -> Scene mapping\n= Heritage -> 3D reconstruction\n}",
+    "title": "MATCH4",
+    "question": "Match the application to field.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Cities",
+        "right": "Large-scale mapping"
+      },
+      {
+        "id": 2,
+        "left": "Robotics",
+        "right": "SLAM"
+      },
+      {
+        "id": 3,
+        "left": "AR/VR",
+        "right": "Scene mapping"
+      },
+      {
+        "id": 4,
+        "left": "Heritage",
+        "right": "3D reconstruction"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the requirement to method.\n{\n= Initialization -> Needed for BA\n= Nonlinear -> BA optimization\n= Many cameras -> SfM\n= Outlier rejection -> RANSAC\n}",
+    "title": "MATCH5",
+    "question": "Match the requirement to method.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Initialization",
+        "right": "Needed for BA"
+      },
+      {
+        "id": 2,
+        "left": "Nonlinear",
+        "right": "BA optimization"
+      },
+      {
+        "id": 3,
+        "left": "Many cameras",
+        "right": "SfM"
+      },
+      {
+        "id": 4,
+        "left": "Outlier rejection",
+        "right": "RANSAC"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the challenge to cause.\n{\n= High cost -> Many parameters\n= Local minima -> Nonlinear optimization\n= Drift -> Incremental errors\n= Scaling -> Metric ambiguity\n}",
+    "title": "MATCH6",
+    "question": "Match the challenge to cause.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "High cost",
+        "right": "Many parameters"
+      },
+      {
+        "id": 2,
+        "left": "Local minima",
+        "right": "Nonlinear optimization"
+      },
+      {
+        "id": 3,
+        "left": "Drift",
+        "right": "Incremental errors"
+      },
+      {
+        "id": 4,
+        "left": "Scaling",
+        "right": "Metric ambiguity"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the refinement to advantage.\n{\n= Incremental -> Expands model\n= Bundle adjustment -> Accuracy\n= Loop closure -> Stability\n= Robust estimation -> Outlier handling\n}",
+    "title": "MATCH7",
+    "question": "Match the refinement to advantage.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Incremental",
+        "right": "Expands model"
+      },
+      {
+        "id": 2,
+        "left": "Bundle adjustment",
+        "right": "Accuracy"
+      },
+      {
+        "id": 3,
+        "left": "Loop closure",
+        "right": "Stability"
+      },
+      {
+        "id": 4,
+        "left": "Robust estimation",
+        "right": "Outlier handling"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the concept to role.\n{\n= Camera poses -> Motion\n= 3D points -> Structure\n= Reprojection error -> Objective\n= Optimization -> Bundle adjustment\n}",
+    "title": "MATCH8",
+    "question": "Match the concept to role.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Camera poses",
+        "right": "Motion"
+      },
+      {
+        "id": 2,
+        "left": "3D points",
+        "right": "Structure"
+      },
+      {
+        "id": 3,
+        "left": "Reprojection error",
+        "right": "Objective"
+      },
+      {
+        "id": 4,
+        "left": "Optimization",
+        "right": "Bundle adjustment"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the technique to description.\n{\n= BA -> Optimize poses and points\n= Incremental -> Stepwise growth\n= Loop closure -> Correct trajectory\n= Triangulation -> Depth estimation\n}",
+    "title": "MATCH9",
+    "question": "Match the technique to description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "BA",
+        "right": "Optimize poses and points"
+      },
+      {
+        "id": 2,
+        "left": "Incremental",
+        "right": "Stepwise growth"
+      },
+      {
+        "id": 3,
+        "left": "Loop closure",
+        "right": "Correct trajectory"
+      },
+      {
+        "id": 4,
+        "left": "Triangulation",
+        "right": "Depth estimation"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the method to drawback.\n{\n= Incremental -> Drift\n= Bundle adjustment -> Expensive\n= Loop closure -> Needs detection\n= Global adjustment -> Complexity\n}",
+    "title": "MATCH10",
+    "question": "Match the method to drawback.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Incremental",
+        "right": "Drift"
+      },
+      {
+        "id": 2,
+        "left": "Bundle adjustment",
+        "right": "Expensive"
+      },
+      {
+        "id": 3,
+        "left": "Loop closure",
+        "right": "Needs detection"
+      },
+      {
+        "id": 4,
+        "left": "Global adjustment",
+        "right": "Complexity"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are steps in SfM pipeline (part 2)?\n{\n~%25% Incremental reconstruction\n~%25% Triangulation\n~%25% Bundle adjustment\n~%25% Loop closure\n}",
+    "title": "MULTI1",
+    "question": "Which are steps in SfM pipeline (part 2)?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Incremental reconstruction",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Triangulation",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Bundle adjustment",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Loop closure",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are optimized in bundle adjustment?\n{\n~%33.33333% Camera poses\n~%33.33333% 3D points\n~%33.33333% Structure\n~%-100% Audio filters\n}",
+    "title": "MULTI2",
+    "question": "Which are optimized in bundle adjustment?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Camera poses",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "3D points",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Structure",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Audio filters",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are outputs of SfM refinement?\n{\n~%25% Refined 3D points\n~%25% Optimized poses\n~%25% Reduced reprojection error\n~%25% Consistent structure\n}",
+    "title": "MULTI3",
+    "question": "Which are outputs of SfM refinement?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Refined 3D points",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Optimized poses",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Reduced reprojection error",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Consistent structure",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are challenges in SfM refinement?\n{\n~%25% Computational cost\n~%25% Local minima\n~%25% Drift\n~%25% Outliers\n}",
+    "title": "MULTI4",
+    "question": "Which are challenges in SfM refinement?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Computational cost",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Local minima",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Drift",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Outliers",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are applications of SfM refinement?\n{\n~%25% SLAM\n~%25% AR/VR\n~%25% 3D mapping\n~%25% Cultural heritage\n}",
+    "title": "MULTI5",
+    "question": "Which are applications of SfM refinement?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "SLAM",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "AR/VR",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "3D mapping",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Cultural heritage",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are parts of the reprojection error equation?\n{\n~%50% Observed image points\n~%50% Projected points from 3D\n~%-100% Audio signals\n~%-100% Histogram bins\n}",
+    "title": "MULTI6",
+    "question": "Which are parts of the reprojection error equation?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Observed image points",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Projected points from 3D",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Audio signals",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Histogram bins",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are methods for drift correction?\n{\n~%50% Loop closure\n~%50% Global adjustment\n~%-100% Histogram equalization\n~%-100% Gamma correction\n}",
+    "title": "MULTI7",
+    "question": "Which are methods for drift correction?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Loop closure",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Global adjustment",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Histogram equalization",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Gamma correction",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are limitations of bundle adjustment?\n{\n~%33.33333% Expensive\n~%33.33333% Local minima\n~%33.33333% Needs initialization\n~%-100% Always perfect\n}",
+    "title": "MULTI8",
+    "question": "Which are limitations of bundle adjustment?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Expensive",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Local minima",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Needs initialization",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Always perfect",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are techniques in SfM refinement?\n{\n~%25% Incremental addition\n~%25% Triangulation\n~%25% Bundle adjustment\n~%25% Loop closure\n}",
+    "title": "MULTI9",
+    "question": "Which are techniques in SfM refinement?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Incremental addition",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Triangulation",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Bundle adjustment",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Loop closure",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich domains use SfM refinement?\n{\n~%25% Vision\n~%25% Robotics\n~%25% AR/VR\n~%25% Heritage\n}",
+    "title": "MULTI10",
+    "question": "Which domains use SfM refinement?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Vision",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Robotics",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "AR/VR",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Heritage",
+        "weight": 25.0
+      }
+    ]
+  }
+]

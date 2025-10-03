@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhich is a first-order texture feature?\n{\n= Mean intensity\n~ Co-occurrence contrast\n~ Autocorrelation\n~ Skeleton\n}",
+    "title": "MC1",
+    "question": "Which is a first-order texture feature?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Mean intensity",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Co-occurrence contrast",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Autocorrelation",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Skeleton",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhich is a second-order statistical feature?\n{\n= Co-occurrence matrix feature\n~ Histogram mean\n~ Pixel intensity variance\n~ Compactness\n}",
+    "title": "MC2",
+    "question": "Which is a second-order statistical feature?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Co-occurrence matrix feature",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram mean",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Pixel intensity variance",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Compactness",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhich describes entropy in texture analysis?\n{\n= Measure of randomness\n~ Measure of brightness\n~ Measure of repetition\n~ Measure of uniformity\n}",
+    "title": "MC3",
+    "question": "Which describes entropy in texture analysis?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Measure of randomness",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Measure of brightness",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Measure of repetition",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Measure of uniformity",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhich describes homogeneity in texture?\n{\n= Uniformity of pixel values\n~ Difference in intensity\n~ Randomness\n~ Roughness\n}",
+    "title": "MC4",
+    "question": "Which describes homogeneity in texture?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Uniformity of pixel values",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Difference in intensity",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Randomness",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Roughness",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhich feature describes local variation?\n{\n= Contrast\n~ Energy\n~ Homogeneity\n~ Entropy\n}",
+    "title": "MC5",
+    "question": "Which feature describes local variation?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Contrast",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Energy",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Homogeneity",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Entropy",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich feature measures strength of repetition?\n{\n= Energy\n~ Entropy\n~ Contrast\n~ Histogram bins\n}",
+    "title": "MC6",
+    "question": "Which feature measures strength of repetition?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Energy",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Entropy",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Contrast",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram bins",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich feature is derived from GLCM?\n{\n= Co-occurrence-based contrast\n~ Histogram mean\n~ Fourier coefficients\n~ Edge gradient\n}",
+    "title": "MC7",
+    "question": "Which feature is derived from GLCM?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Co-occurrence-based contrast",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram mean",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Fourier coefficients",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Edge gradient",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich is a higher-order descriptor?\n{\n= Autocorrelation\n~ Histogram variance\n~ Compactness\n~ Perimeter\n}",
+    "title": "MC8",
+    "question": "Which is a higher-order descriptor?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Autocorrelation",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram variance",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Compactness",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Perimeter",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich is a drawback of statistical methods?\n{\n= Sensitive to scale and rotation\n~ Always computationally heavy\n~ Not numerical\n~ Never used in practice\n}",
+    "title": "MC9",
+    "question": "Which is a drawback of statistical methods?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Sensitive to scale and rotation",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Always computationally heavy",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Not numerical",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Never used in practice",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich is an application of statistical texture features?\n{\n= Tissue classification in medical imaging\n~ Audio synthesis\n~ File encryption\n~ Gamma correction\n}",
+    "title": "MC10",
+    "question": "Which is an application of statistical texture features?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Tissue classification in medical imaging",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Audio synthesis",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "File encryption",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Gamma correction",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the order to the method.\n{\n= First-order -> Histogram features\n= Second-order -> Co-occurrence\n= Higher-order -> Autocorrelation\n= Mixed -> Neighborhood features\n}",
+    "title": "MATCH1",
+    "question": "Match the order to the method.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "First-order",
+        "right": "Histogram features"
+      },
+      {
+        "id": 2,
+        "left": "Second-order",
+        "right": "Co-occurrence"
+      },
+      {
+        "id": 3,
+        "left": "Higher-order",
+        "right": "Autocorrelation"
+      },
+      {
+        "id": 4,
+        "left": "Mixed",
+        "right": "Neighborhood features"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the feature to meaning.\n{\n= Mean -> Average intensity\n= Variance -> Spread of values\n= Entropy -> Randomness\n= Contrast -> Local variation\n}",
+    "title": "MATCH2",
+    "question": "Match the feature to meaning.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Mean",
+        "right": "Average intensity"
+      },
+      {
+        "id": 2,
+        "left": "Variance",
+        "right": "Spread of values"
+      },
+      {
+        "id": 3,
+        "left": "Entropy",
+        "right": "Randomness"
+      },
+      {
+        "id": 4,
+        "left": "Contrast",
+        "right": "Local variation"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the GLCM feature to definition.\n{\n= Energy -> Strength of repetition\n= Homogeneity -> Uniformity\n= Entropy -> Disorder\n= Contrast -> Difference in intensity\n}",
+    "title": "MATCH3",
+    "question": "Match the GLCM feature to definition.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Energy",
+        "right": "Strength of repetition"
+      },
+      {
+        "id": 2,
+        "left": "Homogeneity",
+        "right": "Uniformity"
+      },
+      {
+        "id": 3,
+        "left": "Entropy",
+        "right": "Disorder"
+      },
+      {
+        "id": 4,
+        "left": "Contrast",
+        "right": "Difference in intensity"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the descriptor to example.\n{\n= First-order -> Histogram mean\n= Second-order -> Co-occurrence entropy\n= Higher-order -> Autocorrelation\n= Region-based -> Shape moments\n}",
+    "title": "MATCH4",
+    "question": "Match the descriptor to example.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "First-order",
+        "right": "Histogram mean"
+      },
+      {
+        "id": 2,
+        "left": "Second-order",
+        "right": "Co-occurrence entropy"
+      },
+      {
+        "id": 3,
+        "left": "Higher-order",
+        "right": "Autocorrelation"
+      },
+      {
+        "id": 4,
+        "left": "Region-based",
+        "right": "Shape moments"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the statistical method to application.\n{\n= Histogram -> Brightness distribution\n= Co-occurrence -> Texture patterns\n= Autocorrelation -> Repetition\n= Variance -> Roughness\n}",
+    "title": "MATCH5",
+    "question": "Match the statistical method to application.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Histogram",
+        "right": "Brightness distribution"
+      },
+      {
+        "id": 2,
+        "left": "Co-occurrence",
+        "right": "Texture patterns"
+      },
+      {
+        "id": 3,
+        "left": "Autocorrelation",
+        "right": "Repetition"
+      },
+      {
+        "id": 4,
+        "left": "Variance",
+        "right": "Roughness"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the domain to usage.\n{\n= Medical imaging -> Tumor texture\n= Industrial inspection -> Surface quality\n= Remote sensing -> Terrain classification\n= Scene analysis -> Segmentation\n}",
+    "title": "MATCH6",
+    "question": "Match the domain to usage.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Medical imaging",
+        "right": "Tumor texture"
+      },
+      {
+        "id": 2,
+        "left": "Industrial inspection",
+        "right": "Surface quality"
+      },
+      {
+        "id": 3,
+        "left": "Remote sensing",
+        "right": "Terrain classification"
+      },
+      {
+        "id": 4,
+        "left": "Scene analysis",
+        "right": "Segmentation"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the statistic to order.\n{\n= Mean -> First-order\n= Variance -> First-order\n= Co-occurrence -> Second-order\n= Autocorrelation -> Higher-order\n}",
+    "title": "MATCH7",
+    "question": "Match the statistic to order.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Mean",
+        "right": "First-order"
+      },
+      {
+        "id": 2,
+        "left": "Variance",
+        "right": "First-order"
+      },
+      {
+        "id": 3,
+        "left": "Co-occurrence",
+        "right": "Second-order"
+      },
+      {
+        "id": 4,
+        "left": "Autocorrelation",
+        "right": "Higher-order"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the concept to limitation.\n{\n= Histogram -> Ignores spatial info\n= Co-occurrence -> Sensitive to direction\n= Autocorrelation -> Sensitive to noise\n= All -> Sensitive to illumination\n}",
+    "title": "MATCH8",
+    "question": "Match the concept to limitation.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Histogram",
+        "right": "Ignores spatial info"
+      },
+      {
+        "id": 2,
+        "left": "Co-occurrence",
+        "right": "Sensitive to direction"
+      },
+      {
+        "id": 3,
+        "left": "Autocorrelation",
+        "right": "Sensitive to noise"
+      },
+      {
+        "id": 4,
+        "left": "All",
+        "right": "Sensitive to illumination"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the texture measure to interpretation.\n{\n= Low entropy -> Regular pattern\n= High entropy -> Random texture\n= High contrast -> Rough texture\n= High homogeneity -> Smooth texture\n}",
+    "title": "MATCH9",
+    "question": "Match the texture measure to interpretation.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Low entropy",
+        "right": "Regular pattern"
+      },
+      {
+        "id": 2,
+        "left": "High entropy",
+        "right": "Random texture"
+      },
+      {
+        "id": 3,
+        "left": "High contrast",
+        "right": "Rough texture"
+      },
+      {
+        "id": 4,
+        "left": "High homogeneity",
+        "right": "Smooth texture"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the feature to property.\n{\n= Contrast -> Variation\n= Energy -> Repetition strength\n= Homogeneity -> Uniformity\n= Entropy -> Disorder\n}",
+    "title": "MATCH10",
+    "question": "Match the feature to property.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Contrast",
+        "right": "Variation"
+      },
+      {
+        "id": 2,
+        "left": "Energy",
+        "right": "Repetition strength"
+      },
+      {
+        "id": 3,
+        "left": "Homogeneity",
+        "right": "Uniformity"
+      },
+      {
+        "id": 4,
+        "left": "Entropy",
+        "right": "Disorder"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are first-order texture features?\n{\n~%33.33333% Mean\n~%33.33333% Variance\n~%33.33333% Histogram statistics\n~%-100% Co-occurrence entropy\n}",
+    "title": "MULTI1",
+    "question": "Which are first-order texture features?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Mean",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Variance",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Histogram statistics",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Co-occurrence entropy",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are second-order texture features?\n{\n~%25% Contrast\n~%25% Energy\n~%25% Homogeneity\n~%25% Entropy\n}",
+    "title": "MULTI2",
+    "question": "Which are second-order texture features?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Contrast",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Energy",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Homogeneity",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Entropy",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are higher-order descriptors?\n{\n~%50% Autocorrelation\n~%50% Neighborhood features\n~%-100% Histogram mean\n~%-100% Co-occurrence contrast\n}",
+    "title": "MULTI3",
+    "question": "Which are higher-order descriptors?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Autocorrelation",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Neighborhood features",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Histogram mean",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Co-occurrence contrast",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are derived from co-occurrence matrices?\n{\n~%25% Contrast\n~%25% Energy\n~%25% Homogeneity\n~%25% Entropy\n}",
+    "title": "MULTI4",
+    "question": "Which are derived from co-occurrence matrices?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Contrast",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Energy",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Homogeneity",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Entropy",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are challenges for statistical texture representation?\n{\n~%33.33333% Scale variation\n~%33.33333% Rotation sensitivity\n~%33.33333% Illumination change\n~%-100% Always perfect invariance\n}",
+    "title": "MULTI5",
+    "question": "Which are challenges for statistical texture representation?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Scale variation",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Rotation sensitivity",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Illumination change",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Always perfect invariance",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are applications of statistical texture features?\n{\n~%25% Medical imaging\n~%25% Industrial inspection\n~%25% Remote sensing\n~%25% Scene classification\n}",
+    "title": "MULTI6",
+    "question": "Which are applications of statistical texture features?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Medical imaging",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Industrial inspection",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Remote sensing",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Scene classification",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are true about entropy?\n{\n~%33.33333% Measures randomness\n~%33.33333% High entropy = irregular texture\n~%33.33333% Low entropy = regular pattern\n~%-100% Measures average brightness\n}",
+    "title": "MULTI7",
+    "question": "Which are true about entropy?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Measures randomness",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "High entropy = irregular texture",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Low entropy = regular pattern",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Measures average brightness",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are true about contrast?\n{\n~%50% Measures local variation\n~%50% High contrast = coarse texture\n~%-100% Always uniform\n~%-100% Measures randomness\n}",
+    "title": "MULTI8",
+    "question": "Which are true about contrast?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Measures local variation",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "High contrast = coarse texture",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Always uniform",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Measures randomness",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are true about homogeneity?\n{\n~%50% Measures uniformity\n~%50% High homogeneity = smooth texture\n~%-100% Measures randomness\n~%-100% Measures histogram mean\n}",
+    "title": "MULTI9",
+    "question": "Which are true about homogeneity?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Measures uniformity",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "High homogeneity = smooth texture",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Measures randomness",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Measures histogram mean",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are true about energy?\n{\n~%50% Measures strength of repetition\n~%50% Higher energy = more regular texture\n~%-100% Measures randomness\n~%-100% Color only\n}",
+    "title": "MULTI10",
+    "question": "Which are true about energy?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Measures strength of repetition",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Higher energy = more regular texture",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Measures randomness",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Color only",
+        "weight": -100.0
+      }
+    ]
+  }
+]

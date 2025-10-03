@@ -1,0 +1,309 @@
+::TF1::
+The Harris detector is one of the most widely used corner detection algorithms.
+{TRUE}
+
+::TF2::
+Harris corners are based on the gradient covariance matrix.
+{TRUE}
+
+::TF3::
+Shi-Tomasi improves Harris by using the minimum eigenvalue criterion.
+{TRUE}
+
+::TF4::
+FAST is a real-time corner detector.
+{TRUE}
+
+::TF5::
+The Harris detector is computationally more expensive than FAST.
+{TRUE}
+
+::TF6::
+Shi-Tomasi is sometimes referred to as the "Good Features to Track" method.
+{TRUE}
+
+::TF7::
+FAST compares pixel intensities in a circular neighborhood around a candidate point.
+{TRUE}
+
+::TF8::
+Harris corners are invariant to rotation.
+{TRUE}
+
+::TF9::
+Corner detectors are only useful for binary images.
+{FALSE}
+
+::TF10::
+Corner detectors are applied in SLAM (Simultaneous Localization and Mapping).
+{TRUE}
+
+::MC1::
+What is the basis of the Harris detector?
+{
+= Gradient covariance matrix
+~ Histogram equalization
+~ Fourier transform
+~ Co-occurrence matrix
+}
+
+::MC2::
+Which criterion does Shi-Tomasi use?
+{
+= Minimum eigenvalue
+~ Determinant only
+~ Trace only
+~ Fourier coefficients
+}
+
+::MC3::
+What does FAST stand for?
+{
+= Features from Accelerated Segment Test
+~ Fourier-based Adaptive Segmentation Tool
+~ Fast Approximation of Shape Tracking
+~ Feature Analysis by Spatial Threshold
+}
+
+::MC4::
+Which is an advantage of FAST?
+{
+= High speed, suitable for real-time
+~ Invariant to all transformations
+~ Provides descriptors directly
+~ Works only on binary images
+}
+
+::MC5::
+Which is a drawback of Harris?
+{
+= Computationally heavier than FAST
+~ Cannot detect corners
+~ Ignores gradients
+~ Never rotation invariant
+}
+
+::MC6::
+Which application is Shi-Tomasi especially known for?
+{
+= Tracking ("Good Features to Track")
+~ Compression
+~ Histogram smoothing
+~ Edge detection
+}
+
+::MC7::
+Which property is desirable for corner detectors?
+{
+= Repeatability
+~ Sensitivity to noise only
+~ Randomness
+~ Invariance failure
+}
+
+::MC8::
+Which algorithm uses a circular pixel test for corners?
+{
+= FAST
+~ Harris
+~ Shi-Tomasi
+~ Otsu
+}
+
+::MC9::
+Which method relies on eigenvalues of the covariance matrix?
+{
+= Harris and Shi-Tomasi
+~ FAST only
+~ Fourier descriptors
+~ Morphology
+}
+
+::MC10::
+Which application uses corner detectors?
+{
+= Panorama stitching
+~ Histogram equalization
+~ White balance
+~ Audio compression
+}
+
+::MATCH1::
+Match the detector to property.
+{
+= Harris -> Gradient covariance
+= Shi-Tomasi -> Minimum eigenvalue
+= FAST -> Circular neighborhood test
+= All -> Corner detection
+}
+
+::MATCH2::
+Match the detector to application.
+{
+= Harris -> Feature matching
+= Shi-Tomasi -> Tracking
+= FAST -> Real-time detection
+= All -> Recognition
+}
+
+::MATCH3::
+Match the detector to limitation.
+{
+= Harris -> Computationally heavier
+= Shi-Tomasi -> Similar to Harris but slower
+= FAST -> Less accurate under noise
+= All -> Sensitive to illumination
+}
+
+::MATCH4::
+Match the criterion to detector.
+{
+= Eigenvalues -> Harris, Shi-Tomasi
+= Circular pixel test -> FAST
+= Minimum eigenvalue -> Shi-Tomasi
+= Gradient covariance -> Harris
+}
+
+::MATCH5::
+Match the abbreviation to meaning.
+{
+= FAST -> Features from Accelerated Segment Test
+= PCA -> Principal Component Analysis
+= SLAM -> Simultaneous Localization and Mapping
+= LDA -> Linear Discriminant Analysis
+}
+
+::MATCH6::
+Match the property to detector.
+{
+= Rotation invariance -> Harris
+= Good features to track -> Shi-Tomasi
+= Real-time -> FAST
+= Gradient-based -> Harris
+}
+
+::MATCH7::
+Match the domain to usage.
+{
+= Robotics -> SLAM
+= Graphics -> Panorama stitching
+= Vision -> Tracking
+= Industry -> Object detection
+}
+
+::MATCH8::
+Match the step to algorithm.
+{
+= Compute gradient covariance -> Harris
+= Take minimum eigenvalue -> Shi-Tomasi
+= Use circular intensity test -> FAST
+= Select interest points -> All
+}
+
+::MATCH9::
+Match the benefit to algorithm.
+{
+= Robust corners -> Harris
+= Better tracking -> Shi-Tomasi
+= High speed -> FAST
+= All -> Local feature detection
+}
+
+::MATCH10::
+Match the challenge to all detectors.
+{
+= Noise -> False detections
+= Illumination -> Reduced repeatability
+= Scale -> Matching errors
+= Computation -> Trade-off
+}
+
+::MULTI1::
+Which are corner detectors?
+{
+~%33.33333% Harris
+~%33.33333% Shi-Tomasi
+~%33.33333% FAST
+~%-100% Otsu
+}
+
+::MULTI2::
+Which are properties of Harris corners?
+{
+~%33.33333% Gradient covariance
+~%33.33333% Rotation invariance
+~%33.33333% Widely used
+~%-100% Circular pixel test
+}
+
+::MULTI3::
+Which are properties of Shi-Tomasi?
+{
+~%33.33333% Minimum eigenvalue
+~%33.33333% Good for tracking
+~%33.33333% Derived from Harris
+~%-100% Circular intensity test
+}
+
+::MULTI4::
+Which are properties of FAST?
+{
+~%33.33333% High speed
+~%33.33333% Real-time use
+~%33.33333% Circular neighborhood test
+~%-100% Eigenvalue calculation
+}
+
+::MULTI5::
+Which are desirable properties of corner detectors?
+{
+~%25% Repeatability
+~%25% Distinctiveness
+~%25% Invariance
+~%25% Efficiency
+}
+
+::MULTI6::
+Which are applications of corner detection?
+{
+~%25% Panorama stitching
+~%25% SLAM
+~%25% Object recognition
+~%25% Tracking
+}
+
+::MULTI7::
+Which are limitations of FAST?
+{
+~%50% Sensitive to noise
+~%50% Less accurate than Harris
+~%-100% Always invariant
+~%-100% Eigenvalue based
+}
+
+::MULTI8::
+Which are advantages of Harris?
+{
+~%50% Robust corners
+~%50% Rotation invariance
+~%-100% Always fastest
+~%-100% Circular test
+}
+
+::MULTI9::
+Which are advantages of Shi-Tomasi?
+{
+~%50% Good tracking performance
+~%50% Refinement of Harris
+~%-100% Fastest real-time
+~%-100% Circular test
+}
+
+::MULTI10::
+Which are applications of FAST?
+{
+~%33.33333% Real-time tracking
+~%33.33333% Robotics
+~%33.33333% SLAM
+~%-100% Histogram smoothing
+}

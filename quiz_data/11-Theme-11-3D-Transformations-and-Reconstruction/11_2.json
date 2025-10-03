@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhat do extrinsic parameters represent?\n{\n= World-to-camera transformation\n~ Internal lens properties\n~ Pixel intensity scaling\n~ Noise reduction\n}",
+    "title": "MC1",
+    "question": "What do extrinsic parameters represent?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "World-to-camera transformation",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Internal lens properties",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Pixel intensity scaling",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Noise reduction",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhat do intrinsic parameters represent?\n{\n= Internal camera characteristics\n~ External camera pose\n~ World coordinate system\n~ Noise filtering\n}",
+    "title": "MC2",
+    "question": "What do intrinsic parameters represent?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Internal camera characteristics",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "External camera pose",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "World coordinate system",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Noise filtering",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhich are included in intrinsic parameters?\n{\n= Focal length and principal point\n~ Rotation and translation\n~ Histogram bins\n~ Gamma correction\n}",
+    "title": "MC3",
+    "question": "Which are included in intrinsic parameters?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Focal length and principal point",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Rotation and translation",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Histogram bins",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Gamma correction",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhat is the form of the intrinsic matrix K?\n{\n= 3×3\n~ 4×4\n~ 2×2\n~ 5×5\n}",
+    "title": "MC4",
+    "question": "What is the form of the intrinsic matrix K?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "3×3",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "4×4",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "2×2",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "5×5",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhich parameters are in extrinsics?\n{\n= Rotation and translation\n~ Focal length and skew\n~ Principal point\n~ Image width and height\n}",
+    "title": "MC5",
+    "question": "Which parameters are in extrinsics?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Rotation and translation",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Focal length and skew",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Principal point",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Image width and height",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhat is the full camera projection equation?\n{\n= x' = K [R|t] X\n~ x = fX/Z\n~ Ax = b\n~ PCA = variance\n}",
+    "title": "MC6",
+    "question": "What is the full camera projection equation?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "x' = K [R|t] X",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "x = fX/Z",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Ax = b",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "PCA = variance",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhat does calibration compute?\n{\n= Intrinsic and extrinsic parameters\n~ Only pixel brightness\n~ Image compression\n~ Histogram equalization\n}",
+    "title": "MC7",
+    "question": "What does calibration compute?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Intrinsic and extrinsic parameters",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Only pixel brightness",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Image compression",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram equalization",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich is a limitation of the simple camera model?\n{\n= Ignores lens distortion\n~ Needs PCA\n~ Requires audio filtering\n~ Works only for grayscale\n}",
+    "title": "MC8",
+    "question": "Which is a limitation of the simple camera model?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Ignores lens distortion",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Needs PCA",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Requires audio filtering",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Works only for grayscale",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich is true about skew in K?\n{\n= Usually 0 in modern cameras\n~ Always 1\n~ Always large\n~ Not part of K\n}",
+    "title": "MC9",
+    "question": "Which is true about skew in K?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Usually 0 in modern cameras",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Always 1",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Always large",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Not part of K",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich domain uses extrinsic and intrinsic calibration?\n{\n= Augmented reality\n~ Audio compression\n~ File encryption\n~ Histogram smoothing\n}",
+    "title": "MC10",
+    "question": "Which domain uses extrinsic and intrinsic calibration?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Augmented reality",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Audio compression",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "File encryption",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram smoothing",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the parameter to category.\n{\n= Rotation -> Extrinsic\n= Translation -> Extrinsic\n= Focal length -> Intrinsic\n= Principal point -> Intrinsic\n}",
+    "title": "MATCH1",
+    "question": "Match the parameter to category.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Rotation",
+        "right": "Extrinsic"
+      },
+      {
+        "id": 2,
+        "left": "Translation",
+        "right": "Extrinsic"
+      },
+      {
+        "id": 3,
+        "left": "Focal length",
+        "right": "Intrinsic"
+      },
+      {
+        "id": 4,
+        "left": "Principal point",
+        "right": "Intrinsic"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the symbol to meaning.\n{\n= fx, fy -> Focal lengths\n= cx, cy -> Principal point\n= R -> Rotation\n= t -> Translation\n}",
+    "title": "MATCH2",
+    "question": "Match the symbol to meaning.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "fx, fy",
+        "right": "Focal lengths"
+      },
+      {
+        "id": 2,
+        "left": "cx, cy",
+        "right": "Principal point"
+      },
+      {
+        "id": 3,
+        "left": "R",
+        "right": "Rotation"
+      },
+      {
+        "id": 4,
+        "left": "t",
+        "right": "Translation"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the matrix to role.\n{\n= K -> Intrinsic\n= [R|t] -> Extrinsic\n= Projection -> Camera matrix\n= F -> Fundamental\n}",
+    "title": "MATCH3",
+    "question": "Match the matrix to role.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "K",
+        "right": "Intrinsic"
+      },
+      {
+        "id": 2,
+        "left": "[R|t]",
+        "right": "Extrinsic"
+      },
+      {
+        "id": 3,
+        "left": "Projection",
+        "right": "Camera matrix"
+      },
+      {
+        "id": 4,
+        "left": "F",
+        "right": "Fundamental"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the property to model.\n{\n= Pose -> Extrinsic\n= Internal geometry -> Intrinsic\n= Lens distortion -> Non-ideal\n= Calibration -> Estimation\n}",
+    "title": "MATCH4",
+    "question": "Match the property to model.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Pose",
+        "right": "Extrinsic"
+      },
+      {
+        "id": 2,
+        "left": "Internal geometry",
+        "right": "Intrinsic"
+      },
+      {
+        "id": 3,
+        "left": "Lens distortion",
+        "right": "Non-ideal"
+      },
+      {
+        "id": 4,
+        "left": "Calibration",
+        "right": "Estimation"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the application to field.\n{\n= Calibration -> Vision\n= AR -> Overlay graphics\n= Robotics -> Localization\n= Graphics -> Rendering\n}",
+    "title": "MATCH5",
+    "question": "Match the application to field.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Calibration",
+        "right": "Vision"
+      },
+      {
+        "id": 2,
+        "left": "AR",
+        "right": "Overlay graphics"
+      },
+      {
+        "id": 3,
+        "left": "Robotics",
+        "right": "Localization"
+      },
+      {
+        "id": 4,
+        "left": "Graphics",
+        "right": "Rendering"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the problem to cause.\n{\n= Distortion -> Lens\n= Noise -> Sensor\n= Miscalibration -> Wrong parameters\n= Skew -> Pixel geometry\n}",
+    "title": "MATCH6",
+    "question": "Match the problem to cause.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Distortion",
+        "right": "Lens"
+      },
+      {
+        "id": 2,
+        "left": "Noise",
+        "right": "Sensor"
+      },
+      {
+        "id": 3,
+        "left": "Miscalibration",
+        "right": "Wrong parameters"
+      },
+      {
+        "id": 4,
+        "left": "Skew",
+        "right": "Pixel geometry"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the domain to example.\n{\n= AR -> Hologram alignment\n= Robotics -> Camera pose\n= Medicine -> Imaging\n= Vision -> Reconstruction\n}",
+    "title": "MATCH7",
+    "question": "Match the domain to example.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "AR",
+        "right": "Hologram alignment"
+      },
+      {
+        "id": 2,
+        "left": "Robotics",
+        "right": "Camera pose"
+      },
+      {
+        "id": 3,
+        "left": "Medicine",
+        "right": "Imaging"
+      },
+      {
+        "id": 4,
+        "left": "Vision",
+        "right": "Reconstruction"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the camera equation to component.\n{\n= K -> Intrinsic matrix\n= [R|t] -> Extrinsic matrix\n= X -> 3D point\n= x' -> Image point\n}",
+    "title": "MATCH8",
+    "question": "Match the camera equation to component.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "K",
+        "right": "Intrinsic matrix"
+      },
+      {
+        "id": 2,
+        "left": "[R|t]",
+        "right": "Extrinsic matrix"
+      },
+      {
+        "id": 3,
+        "left": "X",
+        "right": "3D point"
+      },
+      {
+        "id": 4,
+        "left": "x'",
+        "right": "Image point"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the extrinsic parameter to effect.\n{\n= Rotation -> Orientation\n= Translation -> Position\n= [R|t] -> Pose\n= Identity -> No transform\n}",
+    "title": "MATCH9",
+    "question": "Match the extrinsic parameter to effect.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Rotation",
+        "right": "Orientation"
+      },
+      {
+        "id": 2,
+        "left": "Translation",
+        "right": "Position"
+      },
+      {
+        "id": 3,
+        "left": "[R|t]",
+        "right": "Pose"
+      },
+      {
+        "id": 4,
+        "left": "Identity",
+        "right": "No transform"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the intrinsic parameter to effect.\n{\n= fx, fy -> Scale\n= cx, cy -> Principal point offset\n= Skew -> Axis alignment\n= K -> Internal geometry\n}",
+    "title": "MATCH10",
+    "question": "Match the intrinsic parameter to effect.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "fx, fy",
+        "right": "Scale"
+      },
+      {
+        "id": 2,
+        "left": "cx, cy",
+        "right": "Principal point offset"
+      },
+      {
+        "id": 3,
+        "left": "Skew",
+        "right": "Axis alignment"
+      },
+      {
+        "id": 4,
+        "left": "K",
+        "right": "Internal geometry"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are intrinsic parameters?\n{\n~%25% Focal length\n~%25% Principal point\n~%25% Skew\n~%25% Pixel scaling\n}",
+    "title": "MULTI1",
+    "question": "Which are intrinsic parameters?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Focal length",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Principal point",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Skew",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Pixel scaling",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are extrinsic parameters?\n{\n~%33.33333% Rotation\n~%33.33333% Translation\n~%33.33333% Pose\n~%-100% Focal length\n}",
+    "title": "MULTI2",
+    "question": "Which are extrinsic parameters?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Rotation",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Translation",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Pose",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Focal length",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are included in the intrinsic matrix K?\n{\n~%33.33333% fx\n~%33.33333% fy\n~%33.33333% cx, cy\n~%-100% Rotation\n}",
+    "title": "MULTI3",
+    "question": "Which are included in the intrinsic matrix K?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "fx",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "fy",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "cx, cy",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Rotation",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are applications of calibration?\n{\n~%25% Camera geometry\n~%25% AR\n~%25% Robotics\n~%25% 3D reconstruction\n}",
+    "title": "MULTI4",
+    "question": "Which are applications of calibration?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Camera geometry",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "AR",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Robotics",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "3D reconstruction",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are properties of extrinsic parameters?\n{\n~%33.33333% Orientation\n~%33.33333% Position\n~%33.33333% World-to-camera mapping\n~%-100% Lens distortion\n}",
+    "title": "MULTI5",
+    "question": "Which are properties of extrinsic parameters?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Orientation",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Position",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "World-to-camera mapping",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Lens distortion",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are applications of intrinsic parameters?\n{\n~%33.33333% Correct field of view\n~%33.33333% Image scaling\n~%33.33333% Centering principal point\n~%-100% Camera pose\n}",
+    "title": "MULTI6",
+    "question": "Which are applications of intrinsic parameters?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Correct field of view",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Image scaling",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Centering principal point",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Camera pose",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are challenges in camera calibration?\n{\n~%25% Lens distortion\n~%25% Noise\n~%25% Degenerate configurations\n~%25% Precision errors\n}",
+    "title": "MULTI7",
+    "question": "Which are challenges in camera calibration?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Lens distortion",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Noise",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Degenerate configurations",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Precision errors",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are components of the projection equation?\n{\n~%25% Intrinsic K\n~%25% Extrinsic [R|t]\n~%25% 3D point X\n~%25% Image point x'\n}",
+    "title": "MULTI8",
+    "question": "Which are components of the projection equation?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Intrinsic K",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Extrinsic [R|t]",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "3D point X",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Image point x'",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are domains using camera models?\n{\n~%25% Vision\n~%25% Robotics\n~%25% AR/VR\n~%25% Graphics\n}",
+    "title": "MULTI9",
+    "question": "Which are domains using camera models?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Vision",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Robotics",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "AR/VR",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Graphics",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are limitations of the basic camera model?\n{\n~%50% Ignores lens distortion\n~%50% Needs calibration\n~%-100% Always perfect\n~%-100% No geometry involved\n}",
+    "title": "MULTI10",
+    "question": "Which are limitations of the basic camera model?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Ignores lens distortion",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Needs calibration",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Always perfect",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "No geometry involved",
+        "weight": -100.0
+      }
+    ]
+  }
+]

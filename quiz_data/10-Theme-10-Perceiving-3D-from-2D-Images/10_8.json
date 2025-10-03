@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhat does semi-global matching (SGM) combine?\n{\n= Local efficiency and global accuracy\n~ Histogram equalization\n~ PCA features\n~ Fourier transforms\n}",
+    "title": "MC1",
+    "question": "What does semi-global matching (SGM) combine?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Local efficiency and global accuracy",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "PCA features",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Fourier transforms",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhat is the role of regularization in stereo optimization?\n{\n= Smooth disparities while preserving edges\n~ Remove color\n~ Ignore depth\n~ Filter brightness\n}",
+    "title": "MC2",
+    "question": "What is the role of regularization in stereo optimization?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Smooth disparities while preserving edges",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Remove color",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Ignore depth",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Filter brightness",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhat is sub-pixel refinement used for?\n{\n= Improve disparity precision\n~ Reduce occlusion\n~ Remove texture\n~ Normalize brightness\n}",
+    "title": "MC3",
+    "question": "What is sub-pixel refinement used for?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Improve disparity precision",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Reduce occlusion",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Remove texture",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Normalize brightness",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhat is a left-right consistency check?\n{\n= Compares disparities from both directions\n~ Compares stereo vs. motion\n~ Measures brightness only\n~ Checks color histograms\n}",
+    "title": "MC4",
+    "question": "What is a left-right consistency check?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Compares disparities from both directions",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Compares stereo vs. motion",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Measures brightness only",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Checks color histograms",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhat does hole filling address?\n{\n= Occluded or missing disparity regions\n~ Histogram mismatches\n~ JPEG blocks\n~ Gamma correction\n}",
+    "title": "MC5",
+    "question": "What does hole filling address?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Occluded or missing disparity regions",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram mismatches",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "JPEG blocks",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Gamma correction",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich is an application of stereo optimization refinements?\n{\n= Autonomous driving\n~ Audio filtering\n~ File encryption\n~ Histogram equalization\n}",
+    "title": "MC6",
+    "question": "Which is an application of stereo optimization refinements?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Autonomous driving",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Audio filtering",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "File encryption",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram equalization",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich is a challenge in stereo optimization?\n{\n= Balancing accuracy and speed\n~ Always trivial\n~ Ignoring occlusions\n~ File compression\n}",
+    "title": "MC7",
+    "question": "Which is a challenge in stereo optimization?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Balancing accuracy and speed",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Always trivial",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Ignoring occlusions",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "File compression",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich technique improves precision beyond pixel level?\n{\n= Sub-pixel refinement\n~ Global energy minimization\n~ Histogram equalization\n~ PCA\n}",
+    "title": "MC8",
+    "question": "Which technique improves precision beyond pixel level?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Sub-pixel refinement",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Global energy minimization",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "PCA",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich is a post-processing step?\n{\n= Left-right check\n~ Stereo capture\n~ Epipolar rectification\n~ Feature detection\n}",
+    "title": "MC9",
+    "question": "Which is a post-processing step?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Left-right check",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Stereo capture",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Epipolar rectification",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Feature detection",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich is an advantage of semi-global matching?\n{\n= Real-time capability\n~ Always perfect accuracy\n~ Needs no regularization\n~ Ignores occlusions\n}",
+    "title": "MC10",
+    "question": "Which is an advantage of semi-global matching?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Real-time capability",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Always perfect accuracy",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Needs no regularization",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Ignores occlusions",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the refinement to role.\n{\n= Regularization -> Smooth disparities\n= Sub-pixel refinement -> Precision\n= Consistency check -> Detect mismatches\n= Hole filling -> Fix occlusion\n}",
+    "title": "MATCH1",
+    "question": "Match the refinement to role.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Regularization",
+        "right": "Smooth disparities"
+      },
+      {
+        "id": 2,
+        "left": "Sub-pixel refinement",
+        "right": "Precision"
+      },
+      {
+        "id": 3,
+        "left": "Consistency check",
+        "right": "Detect mismatches"
+      },
+      {
+        "id": 4,
+        "left": "Hole filling",
+        "right": "Fix occlusion"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the method to type.\n{\n= Local -> Window-based\n= Global -> Energy-based\n= Semi-global -> Compromise\n= Post-processing -> Refinement\n}",
+    "title": "MATCH2",
+    "question": "Match the method to type.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Local",
+        "right": "Window-based"
+      },
+      {
+        "id": 2,
+        "left": "Global",
+        "right": "Energy-based"
+      },
+      {
+        "id": 3,
+        "left": "Semi-global",
+        "right": "Compromise"
+      },
+      {
+        "id": 4,
+        "left": "Post-processing",
+        "right": "Refinement"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the problem to solution.\n{\n= Occlusion -> Hole filling\n= Mismatches -> Consistency check\n= Noise -> Regularization\n= Precision -> Sub-pixel refinement\n}",
+    "title": "MATCH3",
+    "question": "Match the problem to solution.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Occlusion",
+        "right": "Hole filling"
+      },
+      {
+        "id": 2,
+        "left": "Mismatches",
+        "right": "Consistency check"
+      },
+      {
+        "id": 3,
+        "left": "Noise",
+        "right": "Regularization"
+      },
+      {
+        "id": 4,
+        "left": "Precision",
+        "right": "Sub-pixel refinement"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the application to domain.\n{\n= Driving -> Stereo sensing\n= Robotics -> Navigation\n= Graphics -> 3D reconstruction\n= Medicine -> Imaging\n}",
+    "title": "MATCH4",
+    "question": "Match the application to domain.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Driving",
+        "right": "Stereo sensing"
+      },
+      {
+        "id": 2,
+        "left": "Robotics",
+        "right": "Navigation"
+      },
+      {
+        "id": 3,
+        "left": "Graphics",
+        "right": "3D reconstruction"
+      },
+      {
+        "id": 4,
+        "left": "Medicine",
+        "right": "Imaging"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the step to function.\n{\n= SGM -> Balanced optimization\n= Regularization -> Edge-preserving smoothing\n= Sub-pixel -> Refined depth\n= Consistency -> Error filtering\n}",
+    "title": "MATCH5",
+    "question": "Match the step to function.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "SGM",
+        "right": "Balanced optimization"
+      },
+      {
+        "id": 2,
+        "left": "Regularization",
+        "right": "Edge-preserving smoothing"
+      },
+      {
+        "id": 3,
+        "left": "Sub-pixel",
+        "right": "Refined depth"
+      },
+      {
+        "id": 4,
+        "left": "Consistency",
+        "right": "Error filtering"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the challenge to cause.\n{\n= Large disparities -> Wide baseline\n= Occlusion -> Hidden regions\n= Real-time -> Computation limits\n= Accuracy -> Limited resolution\n}",
+    "title": "MATCH6",
+    "question": "Match the challenge to cause.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Large disparities",
+        "right": "Wide baseline"
+      },
+      {
+        "id": 2,
+        "left": "Occlusion",
+        "right": "Hidden regions"
+      },
+      {
+        "id": 3,
+        "left": "Real-time",
+        "right": "Computation limits"
+      },
+      {
+        "id": 4,
+        "left": "Accuracy",
+        "right": "Limited resolution"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the refinement to advantage.\n{\n= Sub-pixel -> Precision\n= SGM -> Efficiency\n= Regularization -> Smoothness\n= Hole filling -> Completeness\n}",
+    "title": "MATCH7",
+    "question": "Match the refinement to advantage.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Sub-pixel",
+        "right": "Precision"
+      },
+      {
+        "id": 2,
+        "left": "SGM",
+        "right": "Efficiency"
+      },
+      {
+        "id": 3,
+        "left": "Regularization",
+        "right": "Smoothness"
+      },
+      {
+        "id": 4,
+        "left": "Hole filling",
+        "right": "Completeness"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the domain to use.\n{\n= Autonomous -> Driving\n= Robotics -> Mapping\n= Vision -> 3D models\n= AR/VR -> Immersion\n}",
+    "title": "MATCH8",
+    "question": "Match the domain to use.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Autonomous",
+        "right": "Driving"
+      },
+      {
+        "id": 2,
+        "left": "Robotics",
+        "right": "Mapping"
+      },
+      {
+        "id": 3,
+        "left": "Vision",
+        "right": "3D models"
+      },
+      {
+        "id": 4,
+        "left": "AR/VR",
+        "right": "Immersion"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the concept to description.\n{\n= Disparity map -> Depth info\n= Consistency check -> Left vs. right\n= Hole filling -> Fill missing\n= Regularization -> Smoothness\n}",
+    "title": "MATCH9",
+    "question": "Match the concept to description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Disparity map",
+        "right": "Depth info"
+      },
+      {
+        "id": 2,
+        "left": "Consistency check",
+        "right": "Left vs. right"
+      },
+      {
+        "id": 3,
+        "left": "Hole filling",
+        "right": "Fill missing"
+      },
+      {
+        "id": 4,
+        "left": "Regularization",
+        "right": "Smoothness"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the algorithm to category.\n{\n= Graph cuts -> Global\n= Belief propagation -> Global\n= SGM -> Semi-global\n= Window matching -> Local\n}",
+    "title": "MATCH10",
+    "question": "Match the algorithm to category.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Graph cuts",
+        "right": "Global"
+      },
+      {
+        "id": 2,
+        "left": "Belief propagation",
+        "right": "Global"
+      },
+      {
+        "id": 3,
+        "left": "SGM",
+        "right": "Semi-global"
+      },
+      {
+        "id": 4,
+        "left": "Window matching",
+        "right": "Local"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are refinements in stereo optimization?\n{\n~%25% Regularization\n~%25% Sub-pixel refinement\n~%25% Consistency check\n~%25% Hole filling\n}",
+    "title": "MULTI1",
+    "question": "Which are refinements in stereo optimization?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Regularization",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Sub-pixel refinement",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Consistency check",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Hole filling",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are features of semi-global matching?\n{\n~%33.33333% Combines local & global\n~%33.33333% Efficient\n~%33.33333% Real-time capable\n~%-100% Always global-only\n}",
+    "title": "MULTI2",
+    "question": "Which are features of semi-global matching?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Combines local & global",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Efficient",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Real-time capable",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Always global-only",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are post-processing steps?\n{\n~%25% Consistency check\n~%25% Hole filling\n~%25% Filtering mismatches\n~%25% Refinement\n}",
+    "title": "MULTI3",
+    "question": "Which are post-processing steps?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Consistency check",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Hole filling",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Filtering mismatches",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Refinement",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are challenges in stereo optimization?\n{\n~%25% Occlusion\n~%25% Large disparities\n~%25% Accuracy vs. speed\n~%25% Repetitive patterns\n}",
+    "title": "MULTI4",
+    "question": "Which are challenges in stereo optimization?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Occlusion",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Large disparities",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Accuracy vs. speed",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Repetitive patterns",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are applications of optimized stereo?\n{\n~%25% Autonomous driving\n~%25% Robotics\n~%25% 3D reconstruction\n~%25% AR/VR\n}",
+    "title": "MULTI5",
+    "question": "Which are applications of optimized stereo?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Autonomous driving",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Robotics",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "3D reconstruction",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "AR/VR",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are advantages of sub-pixel refinement?\n{\n~%50% Higher precision\n~%50% Smoother depth\n~%-100% Lower accuracy\n~%-100% Always slower\n}",
+    "title": "MULTI6",
+    "question": "Which are advantages of sub-pixel refinement?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Higher precision",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Smoother depth",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Lower accuracy",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Always slower",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are benefits of regularization?\n{\n~%33.33333% Smooth maps\n~%33.33333% Preserve edges\n~%33.33333% Reduce noise\n~%-100% Remove disparity\n}",
+    "title": "MULTI7",
+    "question": "Which are benefits of regularization?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Smooth maps",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Preserve edges",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Reduce noise",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Remove disparity",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are outputs of stereo matching with optimization?\n{\n~%25% Dense disparity map\n~%25% Depth map\n~%25% 3D reconstruction\n~%25% Obstacle detection\n}",
+    "title": "MULTI8",
+    "question": "Which are outputs of stereo matching with optimization?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Dense disparity map",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Depth map",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "3D reconstruction",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Obstacle detection",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are domains using stereo optimization?\n{\n~%25% Robotics\n~%25% Automotive\n~%25% Graphics\n~%25% AR/VR\n}",
+    "title": "MULTI9",
+    "question": "Which are domains using stereo optimization?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Robotics",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Automotive",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Graphics",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "AR/VR",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are challenges for real-time stereo?\n{\n~%33.33333% Computation\n~%33.33333% Accuracy\n~%33.33333% Occlusion handling\n~%-100% Always trivial\n}",
+    "title": "MULTI10",
+    "question": "Which are challenges for real-time stereo?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Computation",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Accuracy",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Occlusion handling",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Always trivial",
+        "weight": -100.0
+      }
+    ]
+  }
+]

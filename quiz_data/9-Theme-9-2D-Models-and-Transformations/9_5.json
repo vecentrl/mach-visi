@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhat is the main goal of image alignment?\n{\n= Register images to a common coordinate system\n~ Compress images\n~ Detect objects\n~ Enhance contrast\n}",
+    "title": "MC1",
+    "question": "What is the main goal of image alignment?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Register images to a common coordinate system",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Compress images",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Detect objects",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Enhance contrast",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhich does an affine transformation preserve?\n{\n= Straight lines and parallelism\n~ Angles and lengths\n~ Only rotations\n~ Only translations\n}",
+    "title": "MC2",
+    "question": "Which does an affine transformation preserve?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Straight lines and parallelism",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Angles and lengths",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Only rotations",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Only translations",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhich operations are included in affine transformations?\n{\n= Translation, rotation, scaling, shearing\n~ Histogram equalization\n~ JPEG encoding\n~ Filtering\n}",
+    "title": "MC3",
+    "question": "Which operations are included in affine transformations?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Translation, rotation, scaling, shearing",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "JPEG encoding",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Filtering",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhich mathematical form describes affine mapping?\n{\n= Linear transform + translation\n~ Nonlinear warping\n~ Random sampling\n~ Histogram normalization\n}",
+    "title": "MC4",
+    "question": "Which mathematical form describes affine mapping?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Linear transform + translation",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Nonlinear warping",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Random sampling",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram normalization",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhich is an application of affine alignment?\n{\n= Panorama stitching\n~ JPEG compression\n~ Histogram equalization\n~ White balance\n}",
+    "title": "MC5",
+    "question": "Which is an application of affine alignment?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Panorama stitching",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "JPEG compression",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "White balance",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich factor challenges affine alignment?\n{\n= Outliers\n~ File size\n~ Color histogram\n~ Audio signals\n}",
+    "title": "MC6",
+    "question": "Which factor challenges affine alignment?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Outliers",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "File size",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Color histogram",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Audio signals",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich tool is used to estimate affine parameters?\n{\n= Feature correspondences\n~ Random pixels\n~ PCA eigenfaces\n~ Histogram bins\n}",
+    "title": "MC7",
+    "question": "Which tool is used to estimate affine parameters?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Feature correspondences",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Random pixels",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "PCA eigenfaces",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram bins",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich application domain uses image alignment?\n{\n= Medical imaging\n~ Audio compression\n~ File encryption\n~ White balance\n}",
+    "title": "MC8",
+    "question": "Which application domain uses image alignment?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Medical imaging",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Audio compression",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "File encryption",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "White balance",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich property is NOT preserved in affine transforms?\n{\n= Angles\n~ Parallelism\n~ Straight lines\n~ Collinearity\n}",
+    "title": "MC9",
+    "question": "Which property is NOT preserved in affine transforms?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Angles",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Parallelism",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Straight lines",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Collinearity",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich is true about affine transforms?\n{\n= Combination of linear transformation + translation\n~ Nonlinear deformation\n~ Histogram-based adjustment\n~ Random projection\n}",
+    "title": "MC10",
+    "question": "Which is true about affine transforms?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Combination of linear transformation + translation",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Nonlinear deformation",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Histogram-based adjustment",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Random projection",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the property to transform.\n{\n= Affine -> Lines and parallelism preserved\n= Euclidean -> Lengths and angles preserved\n= Similarity -> Shape preserved under scale\n= Projective -> Straight lines preserved, not parallelism\n}",
+    "title": "MATCH1",
+    "question": "Match the property to transform.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Affine",
+        "right": "Lines and parallelism preserved"
+      },
+      {
+        "id": 2,
+        "left": "Euclidean",
+        "right": "Lengths and angles preserved"
+      },
+      {
+        "id": 3,
+        "left": "Similarity",
+        "right": "Shape preserved under scale"
+      },
+      {
+        "id": 4,
+        "left": "Projective",
+        "right": "Straight lines preserved, not parallelism"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the operation to category.\n{\n= Translation -> Shift\n= Rotation -> Turn\n= Scaling -> Resize\n= Shearing -> Skew\n}",
+    "title": "MATCH2",
+    "question": "Match the operation to category.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Translation",
+        "right": "Shift"
+      },
+      {
+        "id": 2,
+        "left": "Rotation",
+        "right": "Turn"
+      },
+      {
+        "id": 3,
+        "left": "Scaling",
+        "right": "Resize"
+      },
+      {
+        "id": 4,
+        "left": "Shearing",
+        "right": "Skew"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the application to domain.\n{\n= Panorama stitching -> Vision\n= Motion compensation -> Video\n= Registration -> Medical\n= Alignment -> Robotics\n}",
+    "title": "MATCH3",
+    "question": "Match the application to domain.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Panorama stitching",
+        "right": "Vision"
+      },
+      {
+        "id": 2,
+        "left": "Motion compensation",
+        "right": "Video"
+      },
+      {
+        "id": 3,
+        "left": "Registration",
+        "right": "Medical"
+      },
+      {
+        "id": 4,
+        "left": "Alignment",
+        "right": "Robotics"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the problem to challenge.\n{\n= Noise -> Inaccurate parameters\n= Outliers -> Wrong alignment\n= Few correspondences -> Poor estimation\n= Occlusion -> Missing features\n}",
+    "title": "MATCH4",
+    "question": "Match the problem to challenge.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Noise",
+        "right": "Inaccurate parameters"
+      },
+      {
+        "id": 2,
+        "left": "Outliers",
+        "right": "Wrong alignment"
+      },
+      {
+        "id": 3,
+        "left": "Few correspondences",
+        "right": "Poor estimation"
+      },
+      {
+        "id": 4,
+        "left": "Occlusion",
+        "right": "Missing features"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the transform to property.\n{\n= Affine -> Linear + translation\n= Euclidean -> Rigid, preserves distance\n= Similarity -> Scaled rigid\n= Projective -> Perspective mapping\n}",
+    "title": "MATCH5",
+    "question": "Match the transform to property.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Affine",
+        "right": "Linear + translation"
+      },
+      {
+        "id": 2,
+        "left": "Euclidean",
+        "right": "Rigid, preserves distance"
+      },
+      {
+        "id": 3,
+        "left": "Similarity",
+        "right": "Scaled rigid"
+      },
+      {
+        "id": 4,
+        "left": "Projective",
+        "right": "Perspective mapping"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the estimation method to description.\n{\n= Least squares -> Minimizes error\n= RANSAC -> Robust to outliers\n= Feature matching -> Correspondences\n= Optimization -> Refinement\n}",
+    "title": "MATCH6",
+    "question": "Match the estimation method to description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Least squares",
+        "right": "Minimizes error"
+      },
+      {
+        "id": 2,
+        "left": "RANSAC",
+        "right": "Robust to outliers"
+      },
+      {
+        "id": 3,
+        "left": "Feature matching",
+        "right": "Correspondences"
+      },
+      {
+        "id": 4,
+        "left": "Optimization",
+        "right": "Refinement"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the concept to definition.\n{\n= Affine -> Linear + translation\n= Shear -> Skew transformation\n= Scaling -> Size change\n= Translation -> Position shift\n}",
+    "title": "MATCH7",
+    "question": "Match the concept to definition.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Affine",
+        "right": "Linear + translation"
+      },
+      {
+        "id": 2,
+        "left": "Shear",
+        "right": "Skew transformation"
+      },
+      {
+        "id": 3,
+        "left": "Scaling",
+        "right": "Size change"
+      },
+      {
+        "id": 4,
+        "left": "Translation",
+        "right": "Position shift"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the technique to robustness.\n{\n= Least squares -> Sensitive to outliers\n= RANSAC -> Robust fitting\n= Robust regression -> Weighted errors\n= Plain mean -> Sensitive\n}",
+    "title": "MATCH8",
+    "question": "Match the technique to robustness.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Least squares",
+        "right": "Sensitive to outliers"
+      },
+      {
+        "id": 2,
+        "left": "RANSAC",
+        "right": "Robust fitting"
+      },
+      {
+        "id": 3,
+        "left": "Robust regression",
+        "right": "Weighted errors"
+      },
+      {
+        "id": 4,
+        "left": "Plain mean",
+        "right": "Sensitive"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the application to example.\n{\n= Vision -> Panorama\n= Medicine -> MRI registration\n= Robotics -> Motion alignment\n= Graphics -> Image warping\n}",
+    "title": "MATCH9",
+    "question": "Match the application to example.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Vision",
+        "right": "Panorama"
+      },
+      {
+        "id": 2,
+        "left": "Medicine",
+        "right": "MRI registration"
+      },
+      {
+        "id": 3,
+        "left": "Robotics",
+        "right": "Motion alignment"
+      },
+      {
+        "id": 4,
+        "left": "Graphics",
+        "right": "Image warping"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the feature to role.\n{\n= Corner -> Stable match\n= Edge -> Guideline\n= SIFT -> Descriptor\n= ORB -> Fast descriptor\n}",
+    "title": "MATCH10",
+    "question": "Match the feature to role.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Corner",
+        "right": "Stable match"
+      },
+      {
+        "id": 2,
+        "left": "Edge",
+        "right": "Guideline"
+      },
+      {
+        "id": 3,
+        "left": "SIFT",
+        "right": "Descriptor"
+      },
+      {
+        "id": 4,
+        "left": "ORB",
+        "right": "Fast descriptor"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are operations in affine transforms?\n{\n~%25% Translation\n~%25% Rotation\n~%25% Scaling\n~%25% Shearing\n}",
+    "title": "MULTI1",
+    "question": "Which are operations in affine transforms?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Translation",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Rotation",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Scaling",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Shearing",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are preserved by affine mapping?\n{\n~%33.33333% Straight lines\n~%33.33333% Parallelism\n~%33.33333% Collinearity\n~%-100% Angles\n}",
+    "title": "MULTI2",
+    "question": "Which are preserved by affine mapping?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Straight lines",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Parallelism",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Collinearity",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Angles",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are applications of affine alignment?\n{\n~%25% Panorama stitching\n~%25% Motion compensation\n~%25% Medical registration\n~%25% Robotics navigation\n}",
+    "title": "MULTI3",
+    "question": "Which are applications of affine alignment?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Panorama stitching",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Motion compensation",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Medical registration",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Robotics navigation",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are challenges in affine mapping?\n{\n~%33.33333% Noise\n~%33.33333% Outliers\n~%33.33333% Few correspondences\n~%-100% Always robust\n}",
+    "title": "MULTI4",
+    "question": "Which are challenges in affine mapping?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Noise",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Outliers",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Few correspondences",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Always robust",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are examples of linear + translation transforms?\n{\n~%33.33333% Affine\n~%33.33333% Euclidean\n~%33.33333% Similarity\n~%-100% Nonlinear warping\n}",
+    "title": "MULTI5",
+    "question": "Which are examples of linear + translation transforms?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Affine",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Euclidean",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Similarity",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Nonlinear warping",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are robust estimation methods?\n{\n~%50% RANSAC\n~%50% Robust regression\n~%-100% Plain least squares\n~%-100% Histogram equalization\n}",
+    "title": "MULTI6",
+    "question": "Which are robust estimation methods?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "RANSAC",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Robust regression",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Plain least squares",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Histogram equalization",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are feature-based methods for alignment?\n{\n~%33.33333% Corners\n~%33.33333% SIFT\n~%33.33333% ORB\n~%-100% Random pixels\n}",
+    "title": "MULTI7",
+    "question": "Which are feature-based methods for alignment?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Corners",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "SIFT",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "ORB",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Random pixels",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are properties of affine transforms?\n{\n~%25% Preserve straight lines\n~%25% Preserve parallelism\n~%25% Allow skewing\n~%25% Allow scaling\n}",
+    "title": "MULTI8",
+    "question": "Which are properties of affine transforms?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Preserve straight lines",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Preserve parallelism",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Allow skewing",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Allow scaling",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are domains using affine alignment?\n{\n~%25% Vision\n~%25% Medicine\n~%25% Robotics\n~%25% Graphics\n}",
+    "title": "MULTI9",
+    "question": "Which are domains using affine alignment?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Vision",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Medicine",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Robotics",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Graphics",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are drawbacks of affine mapping?\n{\n~%50% Not angle-preserving\n~%50% Sensitive to noise/outliers\n~%-100% Always nonlinear\n~%-100% Uses no correspondences\n}",
+    "title": "MULTI10",
+    "question": "Which are drawbacks of affine mapping?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Not angle-preserving",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Sensitive to noise/outliers",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Always nonlinear",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Uses no correspondences",
+        "weight": -100.0
+      }
+    ]
+  }
+]

@@ -1,0 +1,307 @@
+::TF1::
+Computer vision is an interdisciplinary field that enables computers to understand images and video at a high level.
+{TRUE}
+
+::TF2::
+Machine vision is usually more theoretical than computer vision.
+{FALSE}
+
+::TF3::
+Computer vision seeks to automate tasks that the human visual system can perform.
+{TRUE}
+
+::TF4::
+Machine vision is primarily about designing new AI algorithms unrelated to applications.
+{FALSE}
+
+::TF5::
+Converting raw digital images into higher-level representations is part of computer vision.
+{TRUE}
+
+::TF6::
+Image processing and computer vision are exactly the same thing with no distinction.
+{FALSE}
+
+::TF7::
+Machine vision is often more application-oriented than computer vision.
+{TRUE}
+
+::TF8::
+Computer vision can be applied to recognition of people, objects, scenes, and activities.
+{TRUE}
+
+::TF9::
+Human vision and computer vision currently have identical capabilities.
+{FALSE}
+
+::TF10::
+Computer vision is closely related to artificial intelligence research.
+{TRUE}
+
+::MC1::
+Which best describes computer vision?
+{
+= An interdisciplinary field for extracting meaning from images and video
+~ A field about only storing digital pictures
+~ A branch of optics
+~ A type of mechanical engineering
+}
+
+::MC2::
+What is the main difference between machine vision and computer vision?
+{
+= Machine vision is more application oriented
+~ Computer vision is only hardware design
+~ Machine vision focuses only on human biology
+~ There is no difference
+}
+
+::MC3::
+Which task is NOT typically part of computer vision?
+{
+= Repairing hardware circuits
+~ Recognizing faces
+~ Tracking motion
+~ Classifying objects
+}
+
+::MC4::
+Which of these is an example of computer vision?
+{
+= Detecting pedestrians in a video
+~ Playing audio files
+~ Encrypting data
+~ Compressing text documents
+}
+
+::MC5::
+Computer vision is closely related to:
+{
+= Artificial intelligence
+~ Mechanical engineering
+~ Organic chemistry
+~ Database indexing
+}
+
+::MC6::
+Which best defines “automatic understanding of images”?
+{
+= Computing 3D properties, recognizing objects and activities
+~ Copying files
+~ Drawing sketches
+~ Designing optical lenses
+}
+
+::MC7::
+Which task fits under computer vision?
+{
+= Scene interpretation from video
+~ Cooking automation
+~ Spreadsheet analysis
+~ Microchip design
+}
+
+::MC8::
+What was one original motivation for computer vision research?
+{
+= To automate tasks of human visual perception
+~ To improve keyboard typing speed
+~ To simulate sound recognition
+~ To compress internet protocols
+}
+
+::MC9::
+Which of the following is a common tool in computer vision research?
+{
+= Deep learning
+~ Oil painting
+~ Traffic engineering
+~ Rocket propulsion
+}
+
+::MC10::
+Which of these is primarily handled by computer vision?
+{
+= Image recognition
+~ Hard disk formatting
+~ Password management
+~ CPU instruction decoding
+}
+
+::MATCH1::
+Match the term to its definition.
+{
+= Image processing -> Transforming images into images
+= Image understanding -> Making decisions or scene descriptions from images
+= Image recognition -> Identifying objects, people, or actions in images
+= Machine learning -> Approach commonly used in computer vision
+}
+
+::MATCH2::
+Match the domain to its relevance.
+{
+= Machine learning -> Provides algorithms for pattern recognition
+= Color science -> Helps explain visual perception and imaging
+= Computer graphics -> Related by focusing on image generation
+= Robotics -> Uses vision for navigation and control
+}
+
+::MATCH3::
+Match the vision type to its focus.
+{
+= Computer vision -> High-level interpretation
+= Machine vision -> Industrial and applied tasks
+= Human vision -> Biological perception
+}
+
+::MATCH4::
+Match the example to the application.
+{
+= Face detection -> Security and biometrics
+= Cell tracking -> Biomedical image analysis
+= Capsule networks -> Image recognition research
+= HoloLens -> Augmented reality
+}
+
+::MATCH5::
+Match the decade with development.
+{
+= Early days -> Special hardware needed
+= Today -> PCs and GPUs perform vision tasks
+= Recent years -> Self-driving cars progress
+}
+
+::MATCH6::
+Match the clue to 3D perception.
+{
+= Interposition -> Near objects occlude farther ones
+= Relative size -> Larger objects perceived closer
+= Vanishing point -> Parallel lines converge in distance
+= Foreshortening -> Rectangle projects as trapezoid
+}
+
+::MATCH7::
+Match the tool with its use.
+{
+= OpenCV -> General computer vision library
+= TensorFlow -> Deep learning framework
+= Digital cameras -> Cheap image acquisition
+= Matlab toolboxes -> Specialized image analysis
+}
+
+::MATCH8::
+Match the challenge with the description.
+{
+= Illumination variation -> Shadows, occlusions
+= Scene constraints -> Controlled lighting needed
+= Invariant features -> Needed for reliable recognition
+= Grouping pixels -> Hard for machines, easy for humans
+}
+
+::MATCH9::
+Match the adversarial example source.
+{
+= OpenAI blog -> Research report
+= The Verge -> Popular articles showing fooled AI
+= 3D printed turtle -> Object misclassified as rifle
+= Adversarial images -> Cause wrong DNN predictions
+}
+
+::MATCH10::
+Match the computer vision area to example.
+{
+= Recognition -> Identifying objects or faces
+= Retrieval -> Finding images by content
+= Motion -> Tracking objects across frames
+= 3D reconstruction -> Inferring structure from images
+}
+
+::MULTI1::
+Which of the following are goals of computer vision?
+{
+~%33.33333% Recognize objects
+~%33.33333% Understand scenes
+~%33.33333% Interpret activities
+~%-100% Encrypt files
+}
+
+::MULTI2::
+Which are applications of machine vision?
+{
+~%33.33333% Visual inspection
+~%33.33333% Biometric authentication
+~%33.33333% Augmented reality
+~%-100% Database backup
+}
+
+::MULTI3::
+Which technologies are closely related to computer vision?
+{
+~%33.33333% Artificial intelligence
+~%33.33333% Machine learning
+~%33.33333% Color science
+~%-100% Astrology
+}
+
+::MULTI4::
+Which are examples of adversarial attacks in computer vision?
+{
+~%50% Small pixel changes fooling DNNs
+~%50% 3D printed objects misclassified
+~%-100% Extra image compression
+~%-100% File renaming
+}
+
+::MULTI5::
+Which are examples of computer vision in daily life?
+{
+~%33.33333% Face unlock on smartphones
+~%33.33333% Self-driving cars
+~%-100% Word processors
+~%33.33333% Automatic photo tagging
+}
+
+::MULTI6::
+Which hardware advances boosted computer vision?
+{
+~%33.33333% GPUs
+~%33.33333% Cheap digital cameras
+~%-100% Dot-matrix printers
+~%33.33333% High-speed internet cables
+}
+
+::MULTI7::
+Which are limitations of computer vision?
+{
+~%33.33333% Varying illumination
+~%33.33333% Occlusions
+~%33.33333% Need for invariant features
+~%-100% Perfect biological mimicry
+}
+
+::MULTI8::
+Which methods are commonly used in computer vision research?
+{
+~%50% Deep neural networks
+~%50% Image processing
+~%-100% Handwriting with pen
+~%-100% Cooking recipes
+}
+
+::MULTI9::
+Which areas overlap with computer vision?
+{
+~%33.33333% Robotics
+~%33.33333% Cognitive science
+~%33.33333% Neuroscience
+~%-100% Literary studies
+}
+
+::MULTI10::
+Which are characteristics of machine vision vs computer vision?
+{
+~%50% Machine vision is application-oriented
+~%50% Computer vision aims at high-level understanding
+~%-100% Machine vision ignores industry
+~%-100% Computer vision is not related to AI
+}

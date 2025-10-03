@@ -1,0 +1,309 @@
+::TF1::
+Stereo matching estimates disparity maps by finding correspondences.
+{TRUE}
+
+::TF2::
+Local stereo methods use small windows for matching.
+{TRUE}
+
+::TF3::
+Global stereo methods minimize an energy function.
+{TRUE}
+
+::TF4::
+The energy function typically has a data term and a smoothness term.
+{TRUE}
+
+::TF5::
+Dynamic programming can be used for stereo matching optimization.
+{TRUE}
+
+::TF6::
+Graph cuts and belief propagation are global optimization techniques.
+{TRUE}
+
+::TF7::
+Local stereo methods are always more accurate than global methods.
+{FALSE}
+
+::TF8::
+Global stereo methods are usually more computationally expensive.
+{TRUE}
+
+::TF9::
+Occlusion makes stereo matching more difficult.
+{TRUE}
+
+::TF10::
+Stereo matching is used to create depth maps.
+{TRUE}
+
+::MC1::
+What is the goal of stereo matching?
+{
+= Compute disparity maps
+~ Adjust brightness
+~ Perform segmentation
+~ Reduce noise
+}
+
+::MC2::
+What do local stereo methods rely on?
+{
+= Small matching windows
+~ Large global models
+~ Histogram equalization
+~ Fourier transforms
+}
+
+::MC3::
+What is minimized in global stereo methods?
+{
+= Energy function
+~ Histogram bins
+~ Compression error
+~ JPEG coefficients
+}
+
+::MC4::
+What are the two main terms in stereo energy functions?
+{
+= Data and smoothness
+~ Color and contrast
+~ Histogram and brightness
+~ Gamma and exposure
+}
+
+::MC5::
+Which is a global optimization technique?
+{
+= Graph cuts
+~ Histogram equalization
+~ JPEG encoding
+~ PCA
+}
+
+::MC6::
+Which is a local method drawback?
+{
+= Errors in textureless regions
+~ Always exact
+~ Works with no images
+~ No effect of occlusion
+}
+
+::MC7::
+Which is a drawback of global methods?
+{
+= Computational cost
+~ Always inaccurate
+~ No smoothness
+~ Ignores disparity
+}
+
+::MC8::
+Which is an application of stereo matching?
+{
+= Depth estimation
+~ Audio compression
+~ File encryption
+~ Gamma correction
+}
+
+::MC9::
+Which factor complicates stereo matching?
+{
+= Repetitive patterns
+~ Always unique matches
+~ No occlusion
+~ Histogram mismatch
+}
+
+::MC10::
+Which is a trade-off in stereo optimization?
+{
+= Local fast vs. global accurate
+~ Always global is best
+~ Always local is best
+~ No trade-off
+}
+
+::MATCH1::
+Match the method to category.
+{
+= Local -> Window-based
+= Global -> Energy-based
+= Graph cuts -> Global
+= Dynamic programming -> Optimization
+}
+
+::MATCH2::
+Match the energy term to meaning.
+{
+= Data -> Photometric similarity
+= Smoothness -> Neighbor consistency
+= Regularization -> Penalty
+= Outlier -> Error
+}
+
+::MATCH3::
+Match the algorithm to property.
+{
+= Graph cuts -> Discrete optimization
+= Belief propagation -> Probabilistic
+= Dynamic programming -> Sequential
+= Window matching -> Local
+}
+
+::MATCH4::
+Match the problem to cause.
+{
+= Occlusion -> Missing matches
+= Textureless -> Ambiguity
+= Repetitive -> Wrong match
+= Noise -> Errors
+}
+
+::MATCH5::
+Match the trade-off to type.
+{
+= Local -> Efficient
+= Global -> Accurate
+= Real-time -> Needs speed
+= Robust -> Needs computation
+}
+
+::MATCH6::
+Match the application to domain.
+{
+= Depth map -> Vision
+= Obstacle detection -> Robotics
+= Reconstruction -> Graphics
+= Navigation -> Autonomous vehicles
+}
+
+::MATCH7::
+Match the method to drawback.
+{
+= Local -> Textureless errors
+= Global -> Computation heavy
+= Graph cuts -> Complexity
+= Dynamic programming -> Limited flexibility
+}
+
+::MATCH8::
+Match the technique to description.
+{
+= Graph cuts -> Min-cut/Max-flow
+= Belief propagation -> Message passing
+= Dynamic programming -> Sequential solve
+= Local matching -> Simple windows
+}
+
+::MATCH9::
+Match the feature to challenge.
+{
+= Occlusion -> Hidden areas
+= Textureless -> Ambiguity
+= Repetition -> Confusion
+= Calibration -> Errors
+}
+
+::MATCH10::
+Match the step to process.
+{
+= Capture -> Stereo images
+= Match -> Correspondences
+= Optimize -> Energy minimization
+= Output -> Depth map
+}
+
+::MULTI1::
+Which are stereo matching methods?
+{
+~%25% Local
+~%25% Global
+~%25% Semi-global
+~%25% Hybrid
+}
+
+::MULTI2::
+Which are terms in stereo energy functions?
+{
+~%50% Data
+~%50% Smoothness
+~%-100% Histogram
+~%-100% Gamma
+}
+
+::MULTI3::
+Which are global optimization techniques?
+{
+~%33.33333% Graph cuts
+~%33.33333% Belief propagation
+~%33.33333% Dynamic programming
+~%-100% Histogram equalization
+}
+
+::MULTI4::
+Which are drawbacks of local methods?
+{
+~%50% Errors in textureless regions
+~%50% Problems with occlusion
+~%-100% Always robust
+~%-100% Always global
+}
+
+::MULTI5::
+Which are drawbacks of global methods?
+{
+~%50% High computation
+~%50% Slower speed
+~%-100% Always fast
+~%-100% Always trivial
+}
+
+::MULTI6::
+Which are challenges in stereo matching?
+{
+~%25% Occlusion
+~%25% Textureless areas
+~%25% Repetitive patterns
+~%25% Noise
+}
+
+::MULTI7::
+Which are applications of stereo matching?
+{
+~%25% Depth maps
+~%25% 3D reconstruction
+~%25% Robotics
+~%25% Autonomous driving
+}
+
+::MULTI8::
+Which are properties of local stereo methods?
+{
+~%50% Window-based
+~%50% Fast
+~%-100% Always accurate
+~%-100% Energy minimization
+}
+
+::MULTI9::
+Which are properties of global stereo methods?
+{
+~%33.33333% Energy minimization
+~%33.33333% Data + smoothness
+~%33.33333% More accurate
+~%-100% Always real-time
+}
+
+::MULTI10::
+Which are energy optimization algorithms?
+{
+~%33.33333% Graph cuts
+~%33.33333% Belief propagation
+~%33.33333% Dynamic programming
+~%-100% Histogram matching
+}

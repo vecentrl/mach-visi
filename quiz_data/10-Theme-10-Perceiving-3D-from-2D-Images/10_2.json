@@ -1,0 +1,847 @@
+[
+  {
+    "gift_source": "::MC1::\nWhat does Shape from shading rely on?\n{\n= Brightness variations\n~ Stereo disparity\n~ Silhouettes\n~ Motion parallax\n}",
+    "title": "MC1",
+    "question": "What does Shape from shading rely on?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Brightness variations",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Stereo disparity",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Silhouettes",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Motion parallax",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhat does Shape from texture use as a cue?\n{\n= Texture distortions\n~ Shadows only\n~ Stereo disparity\n~ Silhouettes\n}",
+    "title": "MC2",
+    "question": "What does Shape from texture use as a cue?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Texture distortions",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Shadows only",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Stereo disparity",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Silhouettes",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nShape from motion is also called...\n{\n= Structure from motion\n~ Background subtraction\n~ Optical flow\n~ Histogram equalization\n}",
+    "title": "MC3",
+    "question": "Shape from motion is also called...",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Structure from motion",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Background subtraction",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Optical flow",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram equalization",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhat is the key cue in stereo vision?\n{\n= Disparity between images\n~ Texture distortions\n~ Shadows\n~ Optical flow\n}",
+    "title": "MC4",
+    "question": "What is the key cue in stereo vision?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Disparity between images",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Texture distortions",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Shadows",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Optical flow",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhat does Shape from contour rely on?\n{\n= Silhouettes\n~ Stereo disparity\n~ Brightness\n~ Texture gradients\n}",
+    "title": "MC5",
+    "question": "What does Shape from contour rely on?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Silhouettes",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Stereo disparity",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Brightness",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Texture gradients",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich method suffers from convex/concave ambiguity?\n{\n= Shape from shading\n~ Shape from motion\n~ Shape from stereo\n~ Shape from contour\n}",
+    "title": "MC6",
+    "question": "Which method suffers from convex/concave ambiguity?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Shape from shading",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Shape from motion",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Shape from stereo",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Shape from contour",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich method uses temporal viewpoint changes?\n{\n= Shape from motion\n~ Shape from texture\n~ Shape from contour\n~ Shape from shading\n}",
+    "title": "MC7",
+    "question": "Which method uses temporal viewpoint changes?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Shape from motion",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Shape from texture",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Shape from contour",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Shape from shading",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich is an application of Shape from X?\n{\n= 3D reconstruction\n~ JPEG compression\n~ Gamma correction\n~ Histogram equalization\n}",
+    "title": "MC8",
+    "question": "Which is an application of Shape from X?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "3D reconstruction",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "JPEG compression",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Gamma correction",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram equalization",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich challenge affects Shape from stereo?\n{\n= Calibration and occlusion\n~ Always perfect accuracy\n~ No disparity needed\n~ Histogram mismatch\n}",
+    "title": "MC9",
+    "question": "Which challenge affects Shape from stereo?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Calibration and occlusion",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Always perfect accuracy",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "No disparity needed",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram mismatch",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich domain uses Shape from X?\n{\n= Robotics\n~ Audio compression\n~ File encryption\n~ White balance\n}",
+    "title": "MC10",
+    "question": "Which domain uses Shape from X?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Robotics",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Audio compression",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "File encryption",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "White balance",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the method to cue.\n{\n= Shading -> Brightness\n= Texture -> Distortion\n= Motion -> Viewpoint change\n= Stereo -> Disparity\n}",
+    "title": "MATCH1",
+    "question": "Match the method to cue.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Shading",
+        "right": "Brightness"
+      },
+      {
+        "id": 2,
+        "left": "Texture",
+        "right": "Distortion"
+      },
+      {
+        "id": 3,
+        "left": "Motion",
+        "right": "Viewpoint change"
+      },
+      {
+        "id": 4,
+        "left": "Stereo",
+        "right": "Disparity"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the method to application.\n{\n= Stereo -> Depth maps\n= Motion -> Structure from motion\n= Shading -> Shape recovery\n= Contour -> Silhouette modeling\n}",
+    "title": "MATCH2",
+    "question": "Match the method to application.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Stereo",
+        "right": "Depth maps"
+      },
+      {
+        "id": 2,
+        "left": "Motion",
+        "right": "Structure from motion"
+      },
+      {
+        "id": 3,
+        "left": "Shading",
+        "right": "Shape recovery"
+      },
+      {
+        "id": 4,
+        "left": "Contour",
+        "right": "Silhouette modeling"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the method to challenge.\n{\n= Shading -> Ambiguity\n= Stereo -> Calibration\n= Motion -> Tracking features\n= Texture -> Regularity assumption\n}",
+    "title": "MATCH3",
+    "question": "Match the method to challenge.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Shading",
+        "right": "Ambiguity"
+      },
+      {
+        "id": 2,
+        "left": "Stereo",
+        "right": "Calibration"
+      },
+      {
+        "id": 3,
+        "left": "Motion",
+        "right": "Tracking features"
+      },
+      {
+        "id": 4,
+        "left": "Texture",
+        "right": "Regularity assumption"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the method to domain.\n{\n= Stereo -> Robotics\n= Motion -> AR/VR\n= Shading -> Graphics\n= Contour -> Medical imaging\n}",
+    "title": "MATCH4",
+    "question": "Match the method to domain.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Stereo",
+        "right": "Robotics"
+      },
+      {
+        "id": 2,
+        "left": "Motion",
+        "right": "AR/VR"
+      },
+      {
+        "id": 3,
+        "left": "Shading",
+        "right": "Graphics"
+      },
+      {
+        "id": 4,
+        "left": "Contour",
+        "right": "Medical imaging"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the feature to meaning.\n{\n= Disparity -> Stereo depth\n= Silhouette -> Contour shape\n= Brightness -> Shading cue\n= Texture -> Depth gradient\n}",
+    "title": "MATCH5",
+    "question": "Match the feature to meaning.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Disparity",
+        "right": "Stereo depth"
+      },
+      {
+        "id": 2,
+        "left": "Silhouette",
+        "right": "Contour shape"
+      },
+      {
+        "id": 3,
+        "left": "Brightness",
+        "right": "Shading cue"
+      },
+      {
+        "id": 4,
+        "left": "Texture",
+        "right": "Depth gradient"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the problem to effect.\n{\n= Noise -> Errors\n= Occlusion -> Missing info\n= Calibration error -> Wrong depth\n= Ambiguity -> Wrong shape\n}",
+    "title": "MATCH6",
+    "question": "Match the problem to effect.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Noise",
+        "right": "Errors"
+      },
+      {
+        "id": 2,
+        "left": "Occlusion",
+        "right": "Missing info"
+      },
+      {
+        "id": 3,
+        "left": "Calibration error",
+        "right": "Wrong depth"
+      },
+      {
+        "id": 4,
+        "left": "Ambiguity",
+        "right": "Wrong shape"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the Shape from X to advantage.\n{\n= Stereo -> Direct depth\n= Motion -> Works with moving camera\n= Shading -> Simple input\n= Texture -> Surface detail\n}",
+    "title": "MATCH7",
+    "question": "Match the Shape from X to advantage.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Stereo",
+        "right": "Direct depth"
+      },
+      {
+        "id": 2,
+        "left": "Motion",
+        "right": "Works with moving camera"
+      },
+      {
+        "id": 3,
+        "left": "Shading",
+        "right": "Simple input"
+      },
+      {
+        "id": 4,
+        "left": "Texture",
+        "right": "Surface detail"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the Shape from X to drawback.\n{\n= Stereo -> Needs calibration\n= Motion -> Needs multiple views\n= Shading -> Ambiguity\n= Contour -> Limited info\n}",
+    "title": "MATCH8",
+    "question": "Match the Shape from X to drawback.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Stereo",
+        "right": "Needs calibration"
+      },
+      {
+        "id": 2,
+        "left": "Motion",
+        "right": "Needs multiple views"
+      },
+      {
+        "id": 3,
+        "left": "Shading",
+        "right": "Ambiguity"
+      },
+      {
+        "id": 4,
+        "left": "Contour",
+        "right": "Limited info"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the technique to example.\n{\n= Stereo -> 3D cameras\n= Motion -> Drone mapping\n= Shading -> Virtual rendering\n= Texture -> Patterned surfaces\n}",
+    "title": "MATCH9",
+    "question": "Match the technique to example.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Stereo",
+        "right": "3D cameras"
+      },
+      {
+        "id": 2,
+        "left": "Motion",
+        "right": "Drone mapping"
+      },
+      {
+        "id": 3,
+        "left": "Shading",
+        "right": "Virtual rendering"
+      },
+      {
+        "id": 4,
+        "left": "Texture",
+        "right": "Patterned surfaces"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the application to field.\n{\n= Robotics -> Navigation\n= Medicine -> Imaging\n= AR -> Depth estimation\n= Graphics -> 3D modeling\n}",
+    "title": "MATCH10",
+    "question": "Match the application to field.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Robotics",
+        "right": "Navigation"
+      },
+      {
+        "id": 2,
+        "left": "Medicine",
+        "right": "Imaging"
+      },
+      {
+        "id": 3,
+        "left": "AR",
+        "right": "Depth estimation"
+      },
+      {
+        "id": 4,
+        "left": "Graphics",
+        "right": "3D modeling"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are Shape from X methods?\n{\n~%20% Shading\n~%20% Texture\n~%20% Motion\n~%20% Stereo\n~%20% Contour\n}",
+    "title": "MULTI1",
+    "question": "Which are Shape from X methods?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Shading",
+        "weight": 20.0
+      },
+      {
+        "id": 2,
+        "text": "Texture",
+        "weight": 20.0
+      },
+      {
+        "id": 3,
+        "text": "Motion",
+        "weight": 20.0
+      },
+      {
+        "id": 4,
+        "text": "Stereo",
+        "weight": 20.0
+      },
+      {
+        "id": 5,
+        "text": "Contour",
+        "weight": 20.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are cues used in Shape from X?\n{\n~%25% Brightness\n~%25% Texture gradients\n~%25% Disparity\n~%25% Silhouettes\n}",
+    "title": "MULTI2",
+    "question": "Which are cues used in Shape from X?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Brightness",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Texture gradients",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Disparity",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Silhouettes",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are challenges for Shape from X?\n{\n~%25% Noise\n~%25% Occlusion\n~%25% Calibration errors\n~%25% Ambiguity\n}",
+    "title": "MULTI3",
+    "question": "Which are challenges for Shape from X?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Noise",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Occlusion",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Calibration errors",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Ambiguity",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are applications of Shape from X?\n{\n~%25% 3D reconstruction\n~%25% AR/VR\n~%25% Robotics\n~%25% Medical imaging\n}",
+    "title": "MULTI4",
+    "question": "Which are applications of Shape from X?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "3D reconstruction",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "AR/VR",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Robotics",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Medical imaging",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich describe Shape from shading?\n{\n~%33.33333% Uses brightness\n~%33.33333% Ambiguity issues\n~%33.33333% Recovers surface orientation\n~%-100% Uses disparity\n}",
+    "title": "MULTI5",
+    "question": "Which describe Shape from shading?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Uses brightness",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Ambiguity issues",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Recovers surface orientation",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Uses disparity",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich describe Shape from stereo?\n{\n~%33.33333% Uses disparity\n~%33.33333% Needs calibration\n~%33.33333% Provides depth maps\n~%-100% Uses shading only\n}",
+    "title": "MULTI6",
+    "question": "Which describe Shape from stereo?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Uses disparity",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Needs calibration",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Provides depth maps",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Uses shading only",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich describe Shape from motion?\n{\n~%33.33333% Structure from motion\n~%33.33333% Needs multiple views\n~%33.33333% Recovers 3D structure\n~%-100% Single image only\n}",
+    "title": "MULTI7",
+    "question": "Which describe Shape from motion?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Structure from motion",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Needs multiple views",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Recovers 3D structure",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Single image only",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich describe Shape from texture?\n{\n~%50% Uses distortions\n~%50% Depth cues\n~%-100% Uses stereo cameras\n~%-100% Always unambiguous\n}",
+    "title": "MULTI8",
+    "question": "Which describe Shape from texture?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Uses distortions",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Depth cues",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Uses stereo cameras",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Always unambiguous",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich describe Shape from contour?\n{\n~%50% Uses silhouettes\n~%50% Constrains 3D shape\n~%-100% Needs disparity\n~%-100% Uses brightness\n}",
+    "title": "MULTI9",
+    "question": "Which describe Shape from contour?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Uses silhouettes",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Constrains 3D shape",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Needs disparity",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Uses brightness",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are domains applying Shape from X?\n{\n~%25% Vision\n~%25% Robotics\n~%25% Medicine\n~%25% Graphics\n}",
+    "title": "MULTI10",
+    "question": "Which are domains applying Shape from X?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Vision",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Robotics",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Medicine",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Graphics",
+        "weight": 25.0
+      }
+    ]
+  }
+]

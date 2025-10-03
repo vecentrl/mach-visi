@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhat is the basis of Nearest Neighbor classification?\n{\n= Distance to the closest training sample\n~ Distance to class mean\n~ Decision tree splits\n~ Histogram bins\n}",
+    "title": "MC1",
+    "question": "What is the basis of Nearest Neighbor classification?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Distance to the closest training sample",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Distance to class mean",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Decision tree splits",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram bins",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhat is the basis of Nearest Centroid classification?\n{\n= Distance to class mean\n~ Distance to closest neighbor\n~ Gradient-based optimization\n~ Histogram equalization\n}",
+    "title": "MC2",
+    "question": "What is the basis of Nearest Centroid classification?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Distance to class mean",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Distance to closest neighbor",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Gradient-based optimization",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram equalization",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhich distance metric is most common in NN?\n{\n= Euclidean\n~ Cosine\n~ Jaccard\n~ Chi-square\n}",
+    "title": "MC3",
+    "question": "Which distance metric is most common in NN?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Euclidean",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Cosine",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Jaccard",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Chi-square",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhich distance metric is also known as L1 distance?\n{\n= Manhattan\n~ Euclidean\n~ Cosine\n~ Mahalanobis\n}",
+    "title": "MC4",
+    "question": "Which distance metric is also known as L1 distance?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Manhattan",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Euclidean",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Cosine",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Mahalanobis",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhich is an advantage of NN?\n{\n= Simple and intuitive\n~ Requires no distance measure\n~ Ignores training data\n~ Perfect robustness\n}",
+    "title": "MC5",
+    "question": "Which is an advantage of NN?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Simple and intuitive",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Requires no distance measure",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Ignores training data",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Perfect robustness",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich is an advantage of Nearest Centroid?\n{\n= Requires storing only class means\n~ Requires all samples\n~ Always more accurate\n~ Requires no distance\n}",
+    "title": "MC6",
+    "question": "Which is an advantage of Nearest Centroid?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Requires storing only class means",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Requires all samples",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Always more accurate",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Requires no distance",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich is a limitation of NN?\n{\n= Sensitive to noise\n~ Always invariant\n~ Requires no data\n~ Ignores distance\n}",
+    "title": "MC7",
+    "question": "Which is a limitation of NN?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Sensitive to noise",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Always invariant",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Requires no data",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Ignores distance",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich is a limitation of Nearest Centroid?\n{\n= Can oversimplify class boundaries\n~ Requires storing all training data\n~ Computationally expensive\n~ Always perfect\n}",
+    "title": "MC8",
+    "question": "Which is a limitation of Nearest Centroid?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Can oversimplify class boundaries",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Requires storing all training data",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Computationally expensive",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Always perfect",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich application uses NN classifiers?\n{\n= Handwriting recognition\n~ Gamma correction\n~ White balance\n~ Audio compression\n}",
+    "title": "MC9",
+    "question": "Which application uses NN classifiers?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Handwriting recognition",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Gamma correction",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "White balance",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Audio compression",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich application uses Centroid classifiers?\n{\n= Face recognition\n~ Histogram equalization\n~ Audio synthesis\n~ File encryption\n}",
+    "title": "MC10",
+    "question": "Which application uses Centroid classifiers?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Face recognition",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Audio synthesis",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "File encryption",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the classifier to its rule.\n{\n= NN -> Closest training sample\n= Centroid -> Closest class mean\n= SVM -> Decision boundary\n= k-means -> Cluster assignment\n}",
+    "title": "MATCH1",
+    "question": "Match the classifier to its rule.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "NN",
+        "right": "Closest training sample"
+      },
+      {
+        "id": 2,
+        "left": "Centroid",
+        "right": "Closest class mean"
+      },
+      {
+        "id": 3,
+        "left": "SVM",
+        "right": "Decision boundary"
+      },
+      {
+        "id": 4,
+        "left": "k-means",
+        "right": "Cluster assignment"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the distance metric to property.\n{\n= Euclidean -> L2 norm\n= Manhattan -> L1 norm\n= Cosine -> Angle similarity\n= Mahalanobis -> Accounts for variance\n}",
+    "title": "MATCH2",
+    "question": "Match the distance metric to property.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Euclidean",
+        "right": "L2 norm"
+      },
+      {
+        "id": 2,
+        "left": "Manhattan",
+        "right": "L1 norm"
+      },
+      {
+        "id": 3,
+        "left": "Cosine",
+        "right": "Angle similarity"
+      },
+      {
+        "id": 4,
+        "left": "Mahalanobis",
+        "right": "Accounts for variance"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the classifier to advantage.\n{\n= NN -> Simple\n= Centroid -> Compact storage\n= SVM -> Strong generalization\n= Decision tree -> Interpretability\n}",
+    "title": "MATCH3",
+    "question": "Match the classifier to advantage.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "NN",
+        "right": "Simple"
+      },
+      {
+        "id": 2,
+        "left": "Centroid",
+        "right": "Compact storage"
+      },
+      {
+        "id": 3,
+        "left": "SVM",
+        "right": "Strong generalization"
+      },
+      {
+        "id": 4,
+        "left": "Decision tree",
+        "right": "Interpretability"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the classifier to drawback.\n{\n= NN -> Sensitive to noise\n= Centroid -> Oversimplified boundaries\n= SVM -> Requires tuning\n= Decision tree -> Overfitting\n}",
+    "title": "MATCH4",
+    "question": "Match the classifier to drawback.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "NN",
+        "right": "Sensitive to noise"
+      },
+      {
+        "id": 2,
+        "left": "Centroid",
+        "right": "Oversimplified boundaries"
+      },
+      {
+        "id": 3,
+        "left": "SVM",
+        "right": "Requires tuning"
+      },
+      {
+        "id": 4,
+        "left": "Decision tree",
+        "right": "Overfitting"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the method to storage requirement.\n{\n= NN -> All training samples\n= Centroid -> Class averages\n= kNN -> k neighbors\n= PCA -> Reduced dimensions\n}",
+    "title": "MATCH5",
+    "question": "Match the method to storage requirement.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "NN",
+        "right": "All training samples"
+      },
+      {
+        "id": 2,
+        "left": "Centroid",
+        "right": "Class averages"
+      },
+      {
+        "id": 3,
+        "left": "kNN",
+        "right": "k neighbors"
+      },
+      {
+        "id": 4,
+        "left": "PCA",
+        "right": "Reduced dimensions"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the metric to example.\n{\n= Euclidean -> Straight-line distance\n= Manhattan -> Grid-like distance\n= Cosine -> Document similarity\n= Mahalanobis -> Correlated features\n}",
+    "title": "MATCH6",
+    "question": "Match the metric to example.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Euclidean",
+        "right": "Straight-line distance"
+      },
+      {
+        "id": 2,
+        "left": "Manhattan",
+        "right": "Grid-like distance"
+      },
+      {
+        "id": 3,
+        "left": "Cosine",
+        "right": "Document similarity"
+      },
+      {
+        "id": 4,
+        "left": "Mahalanobis",
+        "right": "Correlated features"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the application to classifier.\n{\n= Handwriting -> NN\n= Face recognition -> Centroid\n= Retrieval -> NN\n= Object classification -> Both\n}",
+    "title": "MATCH7",
+    "question": "Match the application to classifier.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Handwriting",
+        "right": "NN"
+      },
+      {
+        "id": 2,
+        "left": "Face recognition",
+        "right": "Centroid"
+      },
+      {
+        "id": 3,
+        "left": "Retrieval",
+        "right": "NN"
+      },
+      {
+        "id": 4,
+        "left": "Object classification",
+        "right": "Both"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the concept to type.\n{\n= Prototype -> Centroid\n= Instance -> Nearest Neighbor\n= Cluster -> k-means\n= Margin -> SVM\n}",
+    "title": "MATCH8",
+    "question": "Match the concept to type.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Prototype",
+        "right": "Centroid"
+      },
+      {
+        "id": 2,
+        "left": "Instance",
+        "right": "Nearest Neighbor"
+      },
+      {
+        "id": 3,
+        "left": "Cluster",
+        "right": "k-means"
+      },
+      {
+        "id": 4,
+        "left": "Margin",
+        "right": "SVM"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the limitation to cause.\n{\n= Noise sensitivity -> NN\n= Oversimplification -> Centroid\n= High computation -> NN\n= Storage -> NN\n}",
+    "title": "MATCH9",
+    "question": "Match the limitation to cause.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Noise sensitivity",
+        "right": "NN"
+      },
+      {
+        "id": 2,
+        "left": "Oversimplification",
+        "right": "Centroid"
+      },
+      {
+        "id": 3,
+        "left": "High computation",
+        "right": "NN"
+      },
+      {
+        "id": 4,
+        "left": "Storage",
+        "right": "NN"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the classifier to domain.\n{\n= NN -> Small datasets\n= Centroid -> Large class-based sets\n= SVM -> High-dimensional data\n= CNN -> Deep learning\n}",
+    "title": "MATCH10",
+    "question": "Match the classifier to domain.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "NN",
+        "right": "Small datasets"
+      },
+      {
+        "id": 2,
+        "left": "Centroid",
+        "right": "Large class-based sets"
+      },
+      {
+        "id": 3,
+        "left": "SVM",
+        "right": "High-dimensional data"
+      },
+      {
+        "id": 4,
+        "left": "CNN",
+        "right": "Deep learning"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are properties of NN?\n{\n~%33.33333% Simple\n~%33.33333% Needs full training set\n~%33.33333% Sensitive to noise\n~%-100% Always compact\n}",
+    "title": "MULTI1",
+    "question": "Which are properties of NN?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Simple",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Needs full training set",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Sensitive to noise",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Always compact",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are properties of Nearest Centroid?\n{\n~%33.33333% Uses class means\n~%33.33333% Compact storage\n~%33.33333% Fast classification\n~%-100% Needs all samples\n}",
+    "title": "MULTI2",
+    "question": "Which are properties of Nearest Centroid?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Uses class means",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Compact storage",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Fast classification",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Needs all samples",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are distance metrics?\n{\n~%25% Euclidean\n~%25% Manhattan\n~%25% Cosine\n~%25% Mahalanobis\n}",
+    "title": "MULTI3",
+    "question": "Which are distance metrics?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Euclidean",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Manhattan",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Cosine",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Mahalanobis",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are applications of NN?\n{\n~%33.33333% Handwriting recognition\n~%33.33333% Retrieval\n~%33.33333% Object recognition\n~%-100% Audio synthesis\n}",
+    "title": "MULTI4",
+    "question": "Which are applications of NN?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Handwriting recognition",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Retrieval",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Object recognition",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Audio synthesis",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are applications of Centroid classifiers?\n{\n~%33.33333% Face recognition\n~%33.33333% Object classification\n~%33.33333% Document categorization\n~%-100% Histogram smoothing\n}",
+    "title": "MULTI5",
+    "question": "Which are applications of Centroid classifiers?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Face recognition",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Object classification",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Document categorization",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Histogram smoothing",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are limitations of NN?\n{\n~%50% Sensitive to noise\n~%50% Computationally expensive\n~%-100% Requires only class mean\n~%-100% Always compact\n}",
+    "title": "MULTI6",
+    "question": "Which are limitations of NN?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Sensitive to noise",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Computationally expensive",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Requires only class mean",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Always compact",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are limitations of Centroid classifiers?\n{\n~%50% Oversimplified decision boundary\n~%50% Poor with overlapping classes\n~%-100% Requires all samples\n~%-100% Always robust\n}",
+    "title": "MULTI7",
+    "question": "Which are limitations of Centroid classifiers?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Oversimplified decision boundary",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Poor with overlapping classes",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Requires all samples",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Always robust",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are distance-based classifiers?\n{\n~%50% NN\n~%50% Centroid\n~%-100% Decision tree\n~%-100% SVM margin\n}",
+    "title": "MULTI8",
+    "question": "Which are distance-based classifiers?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "NN",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Centroid",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Decision tree",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "SVM margin",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are desirable properties of classifiers?\n{\n~%25% Accuracy\n~%25% Efficiency\n~%25% Robustness\n~%25% Generalization\n}",
+    "title": "MULTI9",
+    "question": "Which are desirable properties of classifiers?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Accuracy",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Efficiency",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Robustness",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Generalization",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are challenges in distance-based classification?\n{\n~%33.33333% Scaling issues\n~%33.33333% Noise\n~%33.33333% High-dimensional data\n~%-100% Always perfect\n}",
+    "title": "MULTI10",
+    "question": "Which are challenges in distance-based classification?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Scaling issues",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Noise",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "High-dimensional data",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Always perfect",
+        "weight": -100.0
+      }
+    ]
+  }
+]

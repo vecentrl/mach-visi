@@ -1,0 +1,309 @@
+::TF1::
+At least three light sources are required for basic photometric stereo.
+{TRUE}
+
+::TF2::
+Using more lights can make photometric stereo more robust.
+{TRUE}
+
+::TF3::
+Uncalibrated photometric stereo assumes unknown lighting directions.
+{TRUE}
+
+::TF4::
+Color photometric stereo can use different wavelengths for analysis.
+{TRUE}
+
+::TF5::
+Photometric stereo is unaffected by specular reflections.
+{FALSE}
+
+::TF6::
+Polarization can extend photometric stereo for more cues.
+{TRUE}
+
+::TF7::
+Controlled lighting is ideal for photometric stereo experiments.
+{TRUE}
+
+::TF8::
+Photometric stereo works equally well outdoors under the sun.
+{FALSE}
+
+::TF9::
+Shadows can reduce the accuracy of photometric stereo.
+{TRUE}
+
+::TF10::
+Photometric stereo can be applied in biometric and medical imaging.
+{TRUE}
+
+::MC1::
+How many lights are needed for the simplest photometric stereo setup?
+{
+= Three
+~ One
+~ Two
+~ Four
+}
+
+::MC2::
+What is the advantage of using more than three lights?
+{
+= More robustness
+~ No computation needed
+~ Always eliminates shadows
+~ Infinite precision
+}
+
+::MC3::
+What does uncalibrated photometric stereo assume?
+{
+= Light directions unknown
+~ Perfect Lambertian surfaces
+~ Known lighting always
+~ Stereo cameras
+}
+
+::MC4::
+Which extension uses different wavelengths?
+{
+= Color photometric stereo
+~ Uncalibrated photometric stereo
+~ Polarization stereo
+~ Stereo disparity
+}
+
+::MC5::
+Which is a limitation of photometric stereo?
+{
+= Sensitive to specular reflections
+~ Robust to all noise
+~ Works perfectly outdoors
+~ Needs no lighting info
+}
+
+::MC6::
+Which extension exploits polarization effects?
+{
+= Polarization-based photometric stereo
+~ Color photometric stereo
+~ RANSAC-based stereo
+~ Histogram equalization
+}
+
+::MC7::
+Which condition is best for photometric stereo?
+{
+= Controlled lighting
+~ Random outdoor light
+~ Only one lamp
+~ Noisy environment
+}
+
+::MC8::
+Which factor causes reduced accuracy in photometric stereo?
+{
+= Shadows
+~ Always robust
+~ No assumptions
+~ Infinite accuracy
+}
+
+::MC9::
+Which is an application of photometric stereo?
+{
+= High-precision surface inspection
+~ JPEG compression
+~ Gamma correction
+~ Histogram equalization
+}
+
+::MC10::
+Which domain benefits from photometric stereo?
+{
+= Cultural heritage
+~ Audio compression
+~ File encryption
+~ Gamma encoding
+}
+
+::MATCH1::
+Match the extension to property.
+{
+= Color -> Uses wavelengths
+= Uncalibrated -> Unknown lights
+= Polarization -> Exploits polarization
+= Standard -> Known lights
+}
+
+::MATCH2::
+Match the requirement to method.
+{
+= 3 lights -> Basic setup
+= More lights -> Robustness
+= Controlled lighting -> Accuracy
+= Outdoor lighting -> Poor performance
+}
+
+::MATCH3::
+Match the limitation to cause.
+{
+= Shadows -> Missing data
+= Specular reflections -> Invalid Lambertian
+= Non-Lambertian -> Wrong normals
+= Few lights -> Poor estimates
+}
+
+::MATCH4::
+Match the application to domain.
+{
+= Surface inspection -> Industry
+= Biometric scanning -> Security
+= Object scanning -> Cultural heritage
+= Medical imaging -> Diagnostics
+}
+
+::MATCH5::
+Match the step to description.
+{
+= Capture images -> Vary lights
+= Solve equations -> Estimate normals
+= Integrate normals -> Depth map
+= Refinement -> Improve accuracy
+}
+
+::MATCH6::
+Match the factor to robustness.
+{
+= More lights -> Less sensitive
+= RANSAC -> Outlier handling
+= Controlled lighting -> Stability
+= Iterative refinement -> Accuracy
+}
+
+::MATCH7::
+Match the technique to weakness.
+{
+= Color stereo -> Needs calibration
+= Uncalibrated -> Ambiguity
+= Polarization -> Special setup
+= Standard -> Shadows affect
+}
+
+::MATCH8::
+Match the photometric cue to usage.
+{
+= Intensity -> Normal estimation
+= Wavelength -> Color stereo
+= Polarization -> Reflectance separation
+= Geometry -> Integration
+}
+
+::MATCH9::
+Match the condition to effect.
+{
+= Shadows -> Missing normals
+= More lights -> Robust normals
+= Few lights -> Poor normals
+= Specularities -> Wrong estimation
+}
+
+::MATCH10::
+Match the application to field.
+{
+= Cultural heritage -> 3D scans
+= Industry -> Surface defects
+= Medicine -> Shape analysis
+= Security -> Biometrics
+}
+
+::MULTI1::
+Which are requirements for photometric stereo?
+{
+~%33.33333% At least three lights
+~%33.33333% Known lighting (standard)
+~%33.33333% Fixed viewpoint
+~%-100% Outdoor sunlight only
+}
+
+::MULTI2::
+Which are extensions of photometric stereo?
+{
+~%33.33333% Color photometric stereo
+~%33.33333% Uncalibrated photometric stereo
+~%33.33333% Polarization-based
+~%-100% Stereo disparity
+}
+
+::MULTI3::
+Which are limitations of photometric stereo?
+{
+~%25% Shadows
+~%25% Specular reflections
+~%25% Non-Lambertian surfaces
+~%25% Noise
+}
+
+::MULTI4::
+Which are applications of photometric stereo?
+{
+~%25% Surface inspection
+~%25% Cultural heritage
+~%25% Biometric scanning
+~%25% Medical imaging
+}
+
+::MULTI5::
+Which are advantages of using more lights?
+{
+~%33.33333% More robustness
+~%33.33333% Handles shadows better
+~%33.33333% Reduces noise effect
+~%-100% Always perfect
+}
+
+::MULTI6::
+Which are properties of uncalibrated photometric stereo?
+{
+~%50% Unknown light directions
+~%50% Joint estimation
+~%-100% Needs known lights
+~%-100% Always perfect
+}
+
+::MULTI7::
+Which are properties of color photometric stereo?
+{
+~%50% Different wavelengths
+~%50% Multi-spectral analysis
+~%-100% Always grayscale
+~%-100% Needs only one image
+}
+
+::MULTI8::
+Which are steps in photometric stereo?
+{
+~%25% Capture images under lights
+~%25% Estimate normals
+~%25% Integrate normals
+~%25% Refine results
+}
+
+::MULTI9::
+Which are best conditions for photometric stereo?
+{
+~%50% Controlled lighting
+~%50% Multiple light sources
+~%-100% Sunlight only
+~%-100% Moving camera
+}
+
+::MULTI10::
+Which are domains using photometric stereo?
+{
+~%25% Industry
+~%25% Cultural heritage
+~%25% Medicine
+~%25% Security
+}

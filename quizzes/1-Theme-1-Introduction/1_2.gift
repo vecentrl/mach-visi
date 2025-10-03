@@ -1,0 +1,309 @@
+::TF1::
+Automatic understanding of images aims to compute properties of the 3D world from visual data.
+{TRUE}
+
+::TF2::
+Scene interpretation in computer vision only concerns low-level pixel filtering.
+{FALSE}
+
+::TF3::
+Recognition of objects, people, and scenes is part of automatic understanding of images.
+{TRUE}
+
+::TF4::
+Automatic understanding of images focuses exclusively on storing visual data without interpretation.
+{FALSE}
+
+::TF5::
+Activity recognition in videos is one example of automatic image understanding.
+{TRUE}
+
+::TF6::
+Perception and interpretation in computer vision mean turning pixels into meaningful concepts.
+{TRUE}
+
+::TF7::
+Automatic understanding of images never involves machine learning methods.
+{FALSE}
+
+::TF8::
+Measurement of distances and 3D shapes from images is part of automatic understanding.
+{TRUE}
+
+::TF9::
+The goal of automatic understanding is identical to image compression.
+{FALSE}
+
+::TF10::
+Automatic understanding of video includes recognizing human actions.
+{TRUE}
+
+::MC1::
+What is the main goal of automatic understanding of images?
+{
+= Computing properties of the 3D world and recognizing objects
+~ Compressing images into smaller file sizes
+~ Designing new lenses for cameras
+~ Storing pictures in databases
+}
+
+::MC2::
+Which is an example of perception in computer vision?
+{
+= Recognizing a pedestrian crossing a street
+~ Measuring voltage in a circuit
+~ Sorting files alphabetically
+~ Counting the size of a database
+}
+
+::MC3::
+Which best describes the process of “interpretation” in image understanding?
+{
+= Assigning meaning to detected visual patterns
+~ Filtering noise from pixel arrays
+~ Correcting color balance
+~ Storing image metadata
+}
+
+::MC4::
+Which is NOT part of automatic understanding of images?
+{
+= Playing background audio
+~ Recognizing activities
+~ Scene interpretation
+~ Computing object properties
+}
+
+::MC5::
+Which type of recognition is part of automatic video understanding?
+{
+= Action recognition
+~ Audio enhancement
+~ Keyboard typing
+~ Text file parsing
+}
+
+::MC6::
+Automatic understanding of images often relies on:
+{
+= Algorithms and representations
+~ Random guessing
+~ Manual human labeling only
+~ Purely optical hardware without computation
+}
+
+::MC7::
+What is an example of measuring from visual data?
+{
+= Estimating object distances in a photo
+~ Editing text in a document
+~ Encrypting messages
+~ Sending emails
+}
+
+::MC8::
+Which best describes the “perception” role of computer vision?
+{
+= Allowing a machine to recognize and interpret its environment
+~ Providing user passwords
+~ Managing operating systems
+~ Simulating sound waves
+}
+
+::MC9::
+Which of these is a high-level task in automatic image understanding?
+{
+= Scene recognition
+~ Pixel averaging
+~ File renaming
+~ Voltage measurement
+}
+
+::MC10::
+Which activity is directly supported by automatic video understanding?
+{
+= Detecting suspicious actions in surveillance footage
+~ Sending push notifications
+~ Formatting a hard drive
+~ Editing audio files
+}
+
+::MATCH1::
+Match the concept to its description.
+{
+= Measurement -> Computing 3D properties from visual data
+= Perception -> Recognizing objects, people, and scenes
+= Interpretation -> Assigning meaning to visual information
+= Activity recognition -> Understanding what actions are happening
+}
+
+::MATCH2::
+Match the example to the task.
+{
+= Recognizing a cat in an image -> Object recognition
+= Identifying a crowd in a stadium -> Scene recognition
+= Detecting a handshake in video -> Activity recognition
+= Estimating room dimensions from photo -> Measurement
+}
+
+::MATCH3::
+Match the input to the output.
+{
+= Pixels -> Features
+= Features -> Objects
+= Objects -> Scene interpretation
+= Scenes -> Activity context
+}
+
+::MATCH4::
+Match the visual task to the domain.
+{
+= Object recognition -> Security systems
+= Scene understanding -> Navigation
+= Activity recognition -> Video surveillance
+= 3D measurement -> Robotics
+}
+
+::MATCH5::
+Match the data type to its use.
+{
+= 2D image -> Object detection
+= Sequence of frames -> Video activity recognition
+= Depth map -> 3D measurement
+= Semantic labels -> Scene interpretation
+}
+
+::MATCH6::
+Match the challenge to the task.
+{
+= Occlusion -> Object recognition
+= Complex backgrounds -> Scene interpretation
+= Multiple moving people -> Activity recognition
+= Calibration -> 3D measurement
+}
+
+::MATCH7::
+Match the algorithm to its application.
+{
+= Convolutional neural networks -> Object recognition
+= Optical flow -> Activity recognition
+= Stereo vision -> 3D measurement
+= Semantic segmentation -> Scene interpretation
+}
+
+::MATCH8::
+Match the keyword to its meaning.
+{
+= Perception -> Low-level recognition
+= Interpretation -> Higher-level meaning assignment
+= Measurement -> Quantitative analysis
+= Activity -> Dynamic event recognition
+}
+
+::MATCH9::
+Match the example to the description.
+{
+= Detecting a face -> Object recognition
+= Identifying a cityscape -> Scene recognition
+= Measuring a building’s height from images -> 3D measurement
+= Spotting running in video -> Activity recognition
+}
+
+::MATCH10::
+Match the computer vision layer to its task.
+{
+= Low-level processing -> Pixel filtering
+= Mid-level processing -> Feature extraction
+= High-level processing -> Object recognition
+= Interpretation layer -> Scene and activity understanding
+}
+
+::MULTI1::
+Which are main aims of automatic image understanding?
+{
+~%33.33333% Measurement of 3D properties
+~%33.33333% Recognition of objects and people
+~%33.33333% Interpretation of activities
+~%-100% File compression
+}
+
+::MULTI2::
+Which are examples of perception in computer vision?
+{
+~%33.33333% Object recognition
+~%33.33333% Scene understanding
+~%33.33333% Person identification
+~%-100% Audio editing
+}
+
+::MULTI3::
+Which are examples of interpretation tasks?
+{
+~%33.33333% Scene description
+~%33.33333% Activity labeling
+~%33.33333% Assigning semantic meaning
+~%-100% File backup
+}
+
+::MULTI4::
+Which domains use automatic image understanding?
+{
+~%33.33333% Robotics
+~%33.33333% Security and surveillance
+~%33.33333% Augmented reality
+~%-100% Spreadsheet management
+}
+
+::MULTI5::
+Which are input sources for automatic image understanding?
+{
+~%33.33333% Single 2D images
+~%33.33333% Video sequences
+~%33.33333% Depth maps
+~%-100% Text files
+}
+
+::MULTI6::
+Which challenges affect automatic video understanding?
+{
+~%33.33333% Occlusions
+~%33.33333% Changing illumination
+~%33.33333% Multiple moving objects
+~%-100% Correct spelling
+}
+
+::MULTI7::
+Which are examples of activity recognition?
+{
+~%33.33333% Detecting walking
+~%33.33333% Identifying handshakes
+~%33.33333% Recognizing running
+~%-100% Calculating tax rates
+}
+
+::MULTI8::
+Which algorithms support automatic image understanding?
+{
+~%33.33333% Convolutional neural networks
+~%33.33333% Optical flow
+~%33.33333% Stereo vision
+~%-100% Sorting algorithms for databases
+}
+
+::MULTI9::
+Which outputs are produced by image understanding?
+{
+~%33.33333% Object labels
+~%33.33333% Scene categories
+~%33.33333% Activity descriptions
+~%-100% File extensions
+}
+
+::MULTI10::
+Which are real-world applications of automatic image understanding?
+{
+~%33.33333% Self-driving cars
+~%33.33333% Surveillance cameras
+~%33.33333% Augmented reality systems
+~%-100% Text document editing
+}

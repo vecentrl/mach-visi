@@ -1,0 +1,301 @@
+::TF1::
+Scale-invariant detection ensures features are stable when images are resized.
+{TRUE}
+
+::TF2::
+MSER stands for Maximally Stable Extremal Regions.
+{TRUE}
+
+::TF3::
+MSER detects regions that remain stable across thresholds.
+{TRUE}
+
+::TF4::
+MSER is a point detector like Harris.
+{FALSE}
+
+::TF5::
+MSER regions are often blob-like and intensity-consistent.
+{TRUE}
+
+::TF6::
+MSER is invariant to scale and affine transformations.
+{TRUE}
+
+::TF7::
+MSER can be useful for text detection.
+{TRUE}
+
+::TF8::
+MSER is always the fastest detector in real-time systems.
+{FALSE}
+
+::TF9::
+MSER is more region-oriented, while Harris is point-oriented.
+{TRUE}
+
+::TF10::
+MSER features can be used in stereo matching.
+{TRUE}
+
+::MC1::
+What does MSER stand for?
+{
+= Maximally Stable Extremal Regions
+~ Multi-Scale Edge Response
+~ Minimum Stable Edge Regions
+~ Multi-Scale Error Reduction
+}
+
+::MC2::
+What is the basis of MSER detection?
+{
+= Stability of regions across intensity thresholds
+~ Eigenvalue analysis
+~ Gradient magnitude
+~ Circular neighborhood test
+}
+
+::MC3::
+Which type of feature does MSER detect?
+{
+= Regions
+~ Points only
+~ Edges only
+~ Textures only
+}
+
+::MC4::
+Which property makes MSER attractive?
+{
+= Scale and affine invariance
+~ Always fastest runtime
+~ Works only on color images
+~ Requires Fourier transform
+}
+
+::MC5::
+Which application benefits from MSER?
+{
+= Text detection
+~ Audio compression
+~ Gamma correction
+~ Histogram equalization
+}
+
+::MC6::
+Which challenge affects MSER?
+{
+= Sensitivity to noise
+~ Invariance failure
+~ Always inaccurate
+~ Limited to binary images
+}
+
+
+::MC8::
+Which invariances are associated with MSER?
+{
+= Scale and affine
+~ Only translation
+~ Only rotation
+~ None
+}
+
+::MC9::
+Which property makes MSER useful for stereo matching?
+{
+= Robust region correspondences
+~ Sensitivity to color
+~ Always binary
+~ Edge filtering
+}
+
+::MC10::
+Which is a drawback of MSER?
+{
+= Computationally heavier than FAST
+~ Cannot detect regions
+~ No invariance
+~ Not repeatable
+}
+
+::MATCH1::
+Match the detector to feature type.
+{
+= Harris -> Corners
+= FAST -> Corners (real-time)
+= MSER -> Regions
+= SIFT -> Scale-invariant keypoints
+}
+
+::MATCH2::
+Match the property to MSER.
+{
+= Scale invariance -> Resizing robustness
+= Affine invariance -> Shape changes
+= Illumination tolerance -> Stable regions
+= Blob-like -> Region appearance
+}
+
+::MATCH3::
+Match the application to method.
+{
+= MSER -> Text detection
+= Harris -> Registration
+= FAST -> Real-time corners
+= SIFT -> Scale-invariant keypoints
+}
+
+::MATCH4::
+Match the detector to limitation.
+{
+= Harris -> Heavier computation
+= FAST -> Sensitive to noise
+= MSER -> Sensitive to noise, slower
+= All -> Sensitive to extreme lighting
+}
+
+::MATCH5::
+Match the method to invariance.
+{
+= Harris -> Rotation
+= Shi-Tomasi -> Tracking stability
+= FAST -> Speed, not invariance
+= MSER -> Scale & affine
+}
+
+::MATCH6::
+Match the detection type to example.
+{
+= Corners -> Harris
+= Edges -> Canny
+= Regions -> MSER
+= Blobs -> DoG
+}
+
+::MATCH7::
+Match the descriptor to field.
+{
+= MSER -> Region features
+= Harris -> Corner features
+= SIFT -> Scale-invariant keypoints
+= ORB -> Fast binary descriptors
+}
+
+::MATCH8::
+Match the property to usage.
+{
+= MSER -> Blob/region detection
+= Harris -> Local corners
+= FAST -> Real-time detection
+= SIFT -> Robust descriptors
+}
+
+::MATCH9::
+Match the challenge to effect.
+{
+= Noise -> Spurious regions
+= Scale -> MSER invariant
+= Affine transform -> MSER robust
+= Computation -> Slower than FAST
+}
+
+::MATCH10::
+Match the application to example.
+{
+= MSER -> Text detection
+= Harris -> Panorama stitching
+= FAST -> Real-time SLAM
+= SIFT -> Object recognition
+}
+
+::MULTI1::
+Which are region detectors?
+{
+~%50% MSER
+~%50% Blob detection
+~%-100% Harris
+~%-100% FAST
+}
+
+::MULTI2::
+Which are corner detectors?
+{
+~%33.33333% Harris
+~%33.33333% Shi-Tomasi
+~%33.33333% FAST
+~%-100% MSER
+}
+
+::MULTI3::
+Which are properties of MSER?
+{
+~%25% Scale invariance
+~%25% Affine invariance
+~%25% Region-based
+~%25% Useful in text detection
+}
+
+::MULTI4::
+Which are limitations of MSER?
+{
+~%50% Sensitive to noise
+~%50% Computationally heavy
+~%-100% Always real-time fastest
+~%-100% Point-only detection
+}
+
+::MULTI5::
+Which are applications of MSER?
+{
+~%33.33333% Text detection
+~%33.33333% Stereo matching
+~%33.33333% Object recognition
+~%-100% Audio synthesis
+}
+
+::MULTI6::
+Which are differences between Harris and MSER?
+{
+~%50% Harris = corners
+~%50% MSER = regions
+~%-100% Both detect only textures
+~%-100% Both ignore intensity changes
+}
+
+::MULTI7::
+Which are examples of scale-invariant detectors?
+{
+~%33.33333% SIFT
+~%33.33333% SURF
+~%33.33333% MSER
+~%-100% FAST
+}
+
+::MULTI8::
+Which are challenges in scale-invariant detection?
+{
+~%33.33333% Noise
+~%33.33333% Illumination variation
+~%33.33333% Computation cost
+~%-100% Perfect robustness
+}
+
+::MULTI9::
+Which invariances are desirable for local features?
+{
+~%25% Scale
+~%25% Rotation
+~%25% Illumination
+~%25% Affine
+}
+
+::MULTI10::
+Which detectors are region-based?
+{
+~%50% MSER
+~%50% Blob detectors (DoG, LoG)
+~%-100% Harris
+~%-100% FAST
+}

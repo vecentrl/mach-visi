@@ -1,0 +1,837 @@
+[
+  {
+    "gift_source": "::MC1::\nWhat does epipolar geometry describe?\n{\n= The relationship between two cameras and a 3D point\n~ Only one image\n~ Histogram matching\n~ File compression\n}",
+    "title": "MC1",
+    "question": "What does epipolar geometry describe?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "The relationship between two cameras and a 3D point",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Only one image",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Histogram matching",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "File compression",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhat size is the fundamental matrix?\n{\n= 3×3\n~ 2×2\n~ 4×4\n~ 8×8\n}",
+    "title": "MC2",
+    "question": "What size is the fundamental matrix?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "3×3",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "2×2",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "4×4",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "8×8",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhat is the rank of the fundamental matrix?\n{\n= 2\n~ 1\n~ 3\n~ Full rank\n}",
+    "title": "MC3",
+    "question": "What is the rank of the fundamental matrix?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "2",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "1",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "3",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Full rank",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhat does the fundamental matrix map?\n{\n= Points to epipolar lines\n~ Lines to points\n~ Images to histograms\n~ Depth maps directly\n}",
+    "title": "MC4",
+    "question": "What does the fundamental matrix map?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Points to epipolar lines",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Lines to points",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Images to histograms",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Depth maps directly",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhat is the epipolar constraint?\n{\n= x'^T F x = 0\n~ Ax = b\n~ PCA = variance\n~ Histogram equalization\n}",
+    "title": "MC5",
+    "question": "What is the epipolar constraint?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "x'^T F x = 0",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Ax = b",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "PCA = variance",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram equalization",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich algorithm estimates the fundamental matrix?\n{\n= 8-point algorithm\n~ RANSAC only\n~ Fourier transform\n~ K-means\n}",
+    "title": "MC6",
+    "question": "Which algorithm estimates the fundamental matrix?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "8-point algorithm",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "RANSAC only",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Fourier transform",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "K-means",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich method improves stability of F estimation?\n{\n= Normalized 8-point algorithm\n~ Histogram bins\n~ Gamma correction\n~ JPEG compression\n}",
+    "title": "MC7",
+    "question": "Which method improves stability of F estimation?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Normalized 8-point algorithm",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram bins",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Gamma correction",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "JPEG compression",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich method handles outliers in F estimation?\n{\n= RANSAC\n~ Histogram smoothing\n~ Gradient descent\n~ PCA\n}",
+    "title": "MC8",
+    "question": "Which method handles outliers in F estimation?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "RANSAC",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram smoothing",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Gradient descent",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "PCA",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich is an application of the fundamental matrix?\n{\n= Stereo rectification\n~ File compression\n~ Audio filtering\n~ White balance\n}",
+    "title": "MC9",
+    "question": "Which is an application of the fundamental matrix?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Stereo rectification",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "File compression",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Audio filtering",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "White balance",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich case causes degeneracy in F estimation?\n{\n= Planar scenes\n~ Random noise\n~ Histogram mismatch\n~ Always robust\n}",
+    "title": "MC10",
+    "question": "Which case causes degeneracy in F estimation?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Planar scenes",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Random noise",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Histogram mismatch",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Always robust",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the element to definition.\n{\n= Epipolar line -> Projection of epipolar plane\n= Epipole -> Baseline intersection\n= Fundamental matrix -> Relates images\n= Epipolar plane -> Through cameras and point\n}",
+    "title": "MATCH1",
+    "question": "Match the element to definition.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Epipolar line",
+        "right": "Projection of epipolar plane"
+      },
+      {
+        "id": 2,
+        "left": "Epipole",
+        "right": "Baseline intersection"
+      },
+      {
+        "id": 3,
+        "left": "Fundamental matrix",
+        "right": "Relates images"
+      },
+      {
+        "id": 4,
+        "left": "Epipolar plane",
+        "right": "Through cameras and point"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the method to use.\n{\n= 8-point -> Estimate F\n= Normalized -> Stable estimation\n= RANSAC -> Robust fitting\n= Rectification -> Align epipolar lines\n}",
+    "title": "MATCH2",
+    "question": "Match the method to use.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "8-point",
+        "right": "Estimate F"
+      },
+      {
+        "id": 2,
+        "left": "Normalized",
+        "right": "Stable estimation"
+      },
+      {
+        "id": 3,
+        "left": "RANSAC",
+        "right": "Robust fitting"
+      },
+      {
+        "id": 4,
+        "left": "Rectification",
+        "right": "Align epipolar lines"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the challenge to cause.\n{\n= Planar scene -> Degenerate case\n= Pure rotation -> Degenerate case\n= Noise -> Inaccuracy\n= Outliers -> Wrong F\n}",
+    "title": "MATCH3",
+    "question": "Match the challenge to cause.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Planar scene",
+        "right": "Degenerate case"
+      },
+      {
+        "id": 2,
+        "left": "Pure rotation",
+        "right": "Degenerate case"
+      },
+      {
+        "id": 3,
+        "left": "Noise",
+        "right": "Inaccuracy"
+      },
+      {
+        "id": 4,
+        "left": "Outliers",
+        "right": "Wrong F"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the application to field.\n{\n= Stereo -> Rectification\n= SfM -> Motion estimation\n= Vision -> 3D reconstruction\n= Robotics -> Navigation\n}",
+    "title": "MATCH4",
+    "question": "Match the application to field.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Stereo",
+        "right": "Rectification"
+      },
+      {
+        "id": 2,
+        "left": "SfM",
+        "right": "Motion estimation"
+      },
+      {
+        "id": 3,
+        "left": "Vision",
+        "right": "3D reconstruction"
+      },
+      {
+        "id": 4,
+        "left": "Robotics",
+        "right": "Navigation"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the matrix to property.\n{\n= Fundamental -> Two-view, uncalibrated\n= Essential -> Calibrated, metric\n= Homography -> Planar mapping\n= Affine -> Linear mapping\n}",
+    "title": "MATCH5",
+    "question": "Match the matrix to property.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Fundamental",
+        "right": "Two-view, uncalibrated"
+      },
+      {
+        "id": 2,
+        "left": "Essential",
+        "right": "Calibrated, metric"
+      },
+      {
+        "id": 3,
+        "left": "Homography",
+        "right": "Planar mapping"
+      },
+      {
+        "id": 4,
+        "left": "Affine",
+        "right": "Linear mapping"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the technique to purpose.\n{\n= 8-point -> Estimate F\n= Normalized -> Stability\n= RANSAC -> Outlier rejection\n= Iterative refinement -> Accuracy\n}",
+    "title": "MATCH6",
+    "question": "Match the technique to purpose.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "8-point",
+        "right": "Estimate F"
+      },
+      {
+        "id": 2,
+        "left": "Normalized",
+        "right": "Stability"
+      },
+      {
+        "id": 3,
+        "left": "RANSAC",
+        "right": "Outlier rejection"
+      },
+      {
+        "id": 4,
+        "left": "Iterative refinement",
+        "right": "Accuracy"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the property to transformation.\n{\n= Preserves straight lines -> Homography\n= Relates epipolar lines -> Fundamental\n= Relates calibrated cameras -> Essential\n= Linear + translation -> Affine\n}",
+    "title": "MATCH7",
+    "question": "Match the property to transformation.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Preserves straight lines",
+        "right": "Homography"
+      },
+      {
+        "id": 2,
+        "left": "Relates epipolar lines",
+        "right": "Fundamental"
+      },
+      {
+        "id": 3,
+        "left": "Relates calibrated cameras",
+        "right": "Essential"
+      },
+      {
+        "id": 4,
+        "left": "Linear + translation",
+        "right": "Affine"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the problem to solution.\n{\n= Outliers -> RANSAC\n= Degenerate -> Scene constraints\n= Noise -> Normalization\n= Poor accuracy -> Refinement\n}",
+    "title": "MATCH8",
+    "question": "Match the problem to solution.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Outliers",
+        "right": "RANSAC"
+      },
+      {
+        "id": 2,
+        "left": "Degenerate",
+        "right": "Scene constraints"
+      },
+      {
+        "id": 3,
+        "left": "Noise",
+        "right": "Normalization"
+      },
+      {
+        "id": 4,
+        "left": "Poor accuracy",
+        "right": "Refinement"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the notation to meaning.\n{\n= x -> Point in image 1\n= x' -> Point in image 2\n= F -> Fundamental matrix\n}",
+    "title": "MATCH9",
+    "question": "Match the notation to meaning.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "x",
+        "right": "Point in image 1"
+      },
+      {
+        "id": 2,
+        "left": "x'",
+        "right": "Point in image 2"
+      },
+      {
+        "id": 3,
+        "left": "F",
+        "right": "Fundamental matrix"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the domain to application.\n{\n= Vision -> Stereo\n= Robotics -> Navigation\n= AR -> Depth mapping\n= Graphics -> 3D modeling\n}",
+    "title": "MATCH10",
+    "question": "Match the domain to application.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Vision",
+        "right": "Stereo"
+      },
+      {
+        "id": 2,
+        "left": "Robotics",
+        "right": "Navigation"
+      },
+      {
+        "id": 3,
+        "left": "AR",
+        "right": "Depth mapping"
+      },
+      {
+        "id": 4,
+        "left": "Graphics",
+        "right": "3D modeling"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are properties of the fundamental matrix?\n{\n~%25% 3×3\n~%25% Rank 2\n~%25% Maps points to lines\n~%25% Encodes epipolar geometry\n}",
+    "title": "MULTI1",
+    "question": "Which are properties of the fundamental matrix?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "3×3",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Rank 2",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Maps points to lines",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Encodes epipolar geometry",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are algorithms for F estimation?\n{\n~%33.33333% 8-point\n~%33.33333% Normalized 8-point\n~%33.33333% RANSAC-based\n~%-100% Histogram equalization\n}",
+    "title": "MULTI2",
+    "question": "Which are algorithms for F estimation?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "8-point",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Normalized 8-point",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "RANSAC-based",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Histogram equalization",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are applications of F?\n{\n~%25% Stereo rectification\n~%25% Structure from motion\n~%25% Robotics navigation\n~%25% 3D reconstruction\n}",
+    "title": "MULTI3",
+    "question": "Which are applications of F?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Stereo rectification",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Structure from motion",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Robotics navigation",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "3D reconstruction",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are challenges in F estimation?\n{\n~%25% Planar scenes\n~%25% Pure rotation\n~%25% Noise\n~%25% Outliers\n}",
+    "title": "MULTI4",
+    "question": "Which are challenges in F estimation?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Planar scenes",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Pure rotation",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Noise",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Outliers",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are epipolar elements?\n{\n~%25% Epipolar plane\n~%25% Epipolar line\n~%25% Epipole\n~%25% Fundamental matrix\n}",
+    "title": "MULTI5",
+    "question": "Which are epipolar elements?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Epipolar plane",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Epipolar line",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Epipole",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Fundamental matrix",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are differences between F and E (essential matrix)?\n{\n~%50% F -> Uncalibrated\n~%50% E -> Calibrated\n~%-100% Both identical\n~%-100% Both planar only\n}",
+    "title": "MULTI6",
+    "question": "Which are differences between F and E (essential matrix)?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "F -> Uncalibrated",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "E -> Calibrated",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Both identical",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Both planar only",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are steps in F estimation?\n{\n~%25% Collect correspondences\n~%25% Solve with 8-point\n~%25% Normalize data\n~%25% Robust fit (RANSAC)\n}",
+    "title": "MULTI7",
+    "question": "Which are steps in F estimation?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Collect correspondences",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Solve with 8-point",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Normalize data",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Robust fit (RANSAC)",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are uses of epipolar geometry?\n{\n~%25% Reducing correspondence search\n~%25% Stereo rectification\n~%25% 3D reconstruction\n~%25% Motion estimation\n}",
+    "title": "MULTI8",
+    "question": "Which are uses of epipolar geometry?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Reducing correspondence search",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Stereo rectification",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "3D reconstruction",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Motion estimation",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are degenerate cases for F?\n{\n~%50% Planar scenes\n~%50% Pure camera rotation\n~%-100% Random textures\n~%-100% Always generic\n}",
+    "title": "MULTI9",
+    "question": "Which are degenerate cases for F?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Planar scenes",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Pure camera rotation",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Random textures",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Always generic",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are domains using F estimation?\n{\n~%25% Vision\n~%25% Robotics\n~%25% AR/VR\n~%25% Graphics\n}",
+    "title": "MULTI10",
+    "question": "Which are domains using F estimation?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Vision",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Robotics",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "AR/VR",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Graphics",
+        "weight": 25.0
+      }
+    ]
+  }
+]

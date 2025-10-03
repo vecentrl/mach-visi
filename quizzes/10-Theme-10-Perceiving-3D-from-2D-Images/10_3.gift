@@ -1,0 +1,309 @@
+::TF1::
+Photometric stereo recovers shape using multiple images with different lighting.
+{TRUE}
+
+::TF2::
+Photometric stereo requires changing the viewpoint.
+{FALSE}
+
+::TF3::
+Lighting direction must be known for photometric stereo.
+{TRUE}
+
+::TF4::
+Photometric stereo assumes Lambertian reflectance.
+{TRUE}
+
+::TF5::
+The output of photometric stereo is a field of surface normals.
+{TRUE}
+
+::TF6::
+Surface normals from photometric stereo can be integrated into depth maps.
+{TRUE}
+
+::TF7::
+Photometric stereo is robust to specular highlights.
+{FALSE}
+
+::TF8::
+Photometric stereo is useful for scanning cultural heritage objects.
+{TRUE}
+
+::TF9::
+Shadows and non-Lambertian surfaces cause problems in photometric stereo.
+{TRUE}
+
+::TF10::
+Photometric stereo uses varying illumination, not varying viewpoint.
+{TRUE}
+
+::MC1::
+What is the main idea of photometric stereo?
+{
+= Recover shape from varying illumination
+~ Recover shape from varying viewpoints
+~ Use stereo disparity
+~ Use silhouettes
+}
+
+::MC2::
+Which must be known in photometric stereo?
+{
+= Light source directions
+~ Stereo disparity
+~ Texture distortion
+~ Object silhouettes
+}
+
+::MC3::
+What reflectance model is assumed in photometric stereo?
+{
+= Lambertian
+~ Specular
+~ Glossy
+~ Transparent
+}
+
+::MC4::
+What is the output of photometric stereo?
+{
+= Surface normals
+~ Depth maps directly
+~ Edge maps
+~ Silhouettes
+}
+
+::MC5::
+Which step follows surface normal estimation?
+{
+= Depth integration
+~ Stereo matching
+~ Texture mapping
+~ Histogram equalization
+}
+
+::MC6::
+Which is an application of photometric stereo?
+{
+= Cultural heritage scanning
+~ JPEG compression
+~ Audio filtering
+~ Gamma correction
+}
+
+::MC7::
+Which factor causes failure in photometric stereo?
+{
+= Shadows and specularities
+~ Known lights
+~ Lambertian assumption
+~ Multiple images
+}
+
+::MC8::
+Which imaging condition is required for photometric stereo?
+{
+= Same viewpoint
+~ Multiple viewpoints
+~ Random angles
+~ Motion parallax
+}
+
+::MC9::
+Which domain uses photometric stereo?
+{
+= Industrial inspection
+~ Audio compression
+~ File encryption
+~ White balance
+}
+
+::MC10::
+Which property differentiates photometric stereo from shape from shading?
+{
+= Multiple lighting directions
+~ Single image
+~ Ambiguity only
+~ Uses stereo disparity
+}
+
+::MATCH1::
+Match the method to cue.
+{
+= Photometric stereo -> Illumination variation
+= Stereo -> Disparity
+= Motion -> Multi-viewpoint
+= Shading -> Single image
+}
+
+::MATCH2::
+Match the requirement to method.
+{
+= Known lighting -> Photometric stereo
+= Two cameras -> Stereo
+= Multiple frames -> Motion
+= Single shading -> Shape from shading
+}
+
+::MATCH3::
+Match the challenge to cause.
+{
+= Shadows -> Missing data
+= Specularities -> Violate Lambertian assumption
+= Noise -> Unstable normals
+= Unknown lighting -> Failure
+}
+
+::MATCH4::
+Match the application to field.
+{
+= Cultural heritage -> Object scans
+= Industry -> Surface inspection
+= Medicine -> Shape recovery
+= Robotics -> Depth sensing
+}
+
+::MATCH5::
+Match the step to output.
+{
+= Estimate normals -> Surface orientation
+= Integrate -> Depth map
+= Align lights -> Known directions
+= Capture images -> Varying illumination
+}
+
+::MATCH6::
+Match the advantage to method.
+{
+= Photometric stereo -> Detailed surface normals
+= Stereo -> Depth map
+= Motion -> Structure
+= Contour -> Silhouette shape
+}
+
+::MATCH7::
+Match the factor to limitation.
+{
+= Shadows -> Missing normals
+= Specularities -> Wrong estimates
+= Non-Lambertian -> Invalid model
+= Few lights -> Poor accuracy
+}
+
+::MATCH8::
+Match the imaging setup to description.
+{
+= Fixed viewpoint -> Photometric stereo
+= Two viewpoints -> Stereo
+= Many frames -> Motion
+= Single shading -> Shape from shading
+}
+
+::MATCH9::
+Match the concept to description.
+{
+= Normal -> Orientation vector
+= Depth -> Integrated surface
+= Lambertian -> Diffuse reflection
+= Specular -> Mirror-like
+}
+
+::MATCH10::
+Match the method to requirement.
+{
+= Photometric stereo -> Multiple lights
+= Stereo -> Two cameras
+= Motion -> Multi-frame
+= Contour -> Silhouette
+}
+
+::MULTI1::
+Which are requirements of photometric stereo?
+{
+~%33.33333% Known light directions
+~%33.33333% Same viewpoint
+~%33.33333% Multiple images
+~%-100% Multiple viewpoints
+}
+
+::MULTI2::
+Which are assumptions of photometric stereo?
+{
+~%50% Lambertian reflectance
+~%50% Diffuse surfaces
+~%-100% Strong specular highlights
+~%-100% Transparent materials
+}
+
+::MULTI3::
+Which are outputs of photometric stereo?
+{
+~%50% Surface normals
+~%50% Depth maps (via integration)
+~%-100% Silhouettes
+~%-100% Stereo disparity
+}
+
+::MULTI4::
+Which are challenges in photometric stereo?
+{
+~%25% Shadows
+~%25% Specular reflections
+~%25% Non-Lambertian surfaces
+~%25% Noise
+}
+
+::MULTI5::
+Which are applications of photometric stereo?
+{
+~%25% Cultural heritage
+~%25% Industrial inspection
+~%25% Medical imaging
+~%25% Robotics
+}
+
+::MULTI6::
+Which are cues in Shape from X vs. Photometric stereo?
+{
+~%50% Shading (single image)
+~%50% Illumination variation (multiple images)
+~%-100% Stereo disparity
+~%-100% Motion parallax
+}
+
+::MULTI7::
+Which are limitations of photometric stereo?
+{
+~%33.33333% Shadows
+~%33.33333% Specularities
+~%33.33333% Non-Lambertian surfaces
+~%-100% Robust to all conditions
+}
+
+::MULTI8::
+Which are steps in photometric stereo?
+{
+~%25% Capture multiple images
+~%25% Use known lights
+~%25% Estimate normals
+~%25% Integrate depth
+}
+
+::MULTI9::
+Which are advantages of photometric stereo?
+{
+~%33.33333% High detail normals
+~%33.33333% Works with fixed camera
+~%33.33333% Accurate for diffuse surfaces
+~%-100% Works with one image only
+}
+
+::MULTI10::
+Which are domains using photometric stereo?
+{
+~%25% Vision
+~%25% Medicine
+~%25% Robotics
+~%25% Cultural heritage
+}

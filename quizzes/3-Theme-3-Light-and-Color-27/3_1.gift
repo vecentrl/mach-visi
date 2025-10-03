@@ -1,0 +1,309 @@
+::TF1::
+Visible light is part of the electromagnetic spectrum.
+{TRUE}
+
+::TF2::
+The wavelength range of visible light is approximately 400–700 nanometers.
+{TRUE}
+
+::TF3::
+Photon energy increases with longer wavelength.
+{FALSE}
+
+::TF4::
+Blue light photons have higher energy than red light photons.
+{TRUE}
+
+::TF5::
+Radiometry measures light based on human visual perception.
+{FALSE}
+
+::TF6::
+Photometry weights radiation according to human eye sensitivity.
+{TRUE}
+
+::TF7::
+The SI unit of radiant flux is the watt (W).
+{TRUE}
+
+::TF8::
+Luminous flux is measured in lumens (lm).
+{TRUE}
+
+::TF9::
+Illuminance is measured in lux (lx), which is lumens per square meter.
+{TRUE}
+
+::TF10::
+Candela (cd) is the SI unit of luminous intensity.
+{TRUE}
+
+::MC1::
+What is the approximate wavelength range of visible light?
+{
+= 400–700 nm
+~ 1–100 nm
+~ 700–1500 nm
+~ 1–10 mm
+}
+
+::MC2::
+Which photons carry more energy?
+{
+= Blue photons
+~ Red photons
+~ Infrared photons
+~ Radio photons
+}
+
+::MC3::
+What is the relationship between photon energy and wavelength?
+{
+= Inversely proportional
+~ Directly proportional
+~ Independent
+~ Quadratic
+}
+
+::MC4::
+Which field measures absolute radiant energy without considering the eye?
+{
+= Radiometry
+~ Photometry
+~ Psychology
+~ Radiology
+}
+
+::MC5::
+Which field measures light weighted by human visual sensitivity?
+{
+= Photometry
+~ Radiometry
+~ Neuroscience
+~ Chemistry
+}
+
+::MC6::
+Which is the SI unit of radiant flux?
+{
+= Watt (W)
+~ Lumen (lm)
+~ Candela (cd)
+~ Lux (lx)
+}
+
+::MC7::
+Which unit is used for luminous flux?
+{
+= Lumen (lm)
+~ Watt (W)
+~ Candela (cd)
+~ Lux (lx)
+}
+
+::MC8::
+Which unit measures illuminance (flux per unit area)?
+{
+= Lux (lx)
+~ Candela (cd)
+~ Watt (W)
+~ Hertz (Hz)
+}
+
+::MC9::
+Which unit measures luminous intensity?
+{
+= Candela (cd)
+~ Lumen (lm)
+~ Lux (lx)
+~ Watt (W)
+}
+
+::MC10::
+Which term describes power received by a surface per unit area?
+{
+= Irradiance
+~ Radiant flux
+~ Radiance
+~ Reflectance
+}
+
+::MATCH1::
+Match the wavelength band to its type.
+{
+= 400–700 nm -> Visible light
+= <400 nm -> Ultraviolet
+= >700 nm -> Infrared
+= Radio waves -> Longest wavelengths
+}
+
+::MATCH2::
+Match the photon property to the description.
+{
+= Blue light -> Higher energy
+= Red light -> Lower energy
+= Energy -> Inversely related to wavelength
+= Photon -> Quantum of light
+}
+
+::MATCH3::
+Match the field to its definition.
+{
+= Radiometry -> Measurement of radiant energy
+= Photometry -> Measurement weighted by human eye
+= Psychology -> Study of perception
+= Optics -> Study of light behavior
+}
+
+::MATCH4::
+Match the unit to the quantity.
+{
+= Watt (W) -> Radiant flux
+= Lumen (lm) -> Luminous flux
+= Lux (lx) -> Illuminance
+= Candela (cd) -> Luminous intensity
+}
+
+::MATCH5::
+Match the term to the concept.
+{
+= Radiant flux -> Total power of radiation
+= Irradiance -> Power per area on surface
+= Radiance -> Power per unit area and solid angle
+= Luminance -> Brightness as perceived
+}
+
+::MATCH6::
+Match the property to the wavelength.
+{
+= Short wavelength -> High energy
+= Long wavelength -> Low energy
+= Blue -> around 450 nm
+= Red -> about 650 nm
+}
+
+::MATCH7::
+Match the perception type to the basis.
+{
+= Photometric -> Human sensitivity
+= Radiometric -> Physical energy
+= Luminous flux -> Lumens
+= Radiant flux -> Watts
+}
+
+::MATCH8::
+Match the quantity to its SI unit.
+{
+= Radiant flux -> Watt
+= Luminous flux -> Lumen
+= Illuminance -> Lux
+= Intensity -> Candela
+}
+
+::MATCH9::
+Match the application to the field.
+{
+= Camera sensor calibration -> Radiometry
+= Human visual comfort -> Photometry
+= Electromagnetic waves -> Physics
+= Brightness correction -> Perception
+}
+
+::MATCH10::
+Match the light property to the example.
+{
+= Ultraviolet -> Sunburn
+= Infrared -> Heat radiation
+= Visible -> Color perception
+= Radio -> Wireless communication
+}
+
+::MULTI1::
+Which are properties of visible light?
+{
+~%33.33333% Wavelength ~400–700 nm
+~%33.33333% Electromagnetic radiation
+~%33.33333% Perceived as color
+~%-100% Audible wave
+}
+
+::MULTI2::
+Which statements about photons are true?
+{
+~%33.33333% Energy inversely proportional to wavelength
+~%33.33333% Blue photons more energetic than red
+~%33.33333% Light is quantized
+~%-100% Photon mass determines energy
+}
+
+::MULTI3::
+Which belong to radiometric quantities?
+{
+~%33.33333% Radiant flux
+~%33.33333% Irradiance
+~%33.33333% Radiance
+~%-100% Luminous flux
+}
+
+::MULTI4::
+Which belong to photometric quantities?
+{
+~%25% Luminous flux
+~%25% Luminous intensity
+~%25% Illuminance
+~%25% Luminance
+}
+
+::MULTI5::
+Which are SI units related to light measurement?
+{
+~%25% Watt
+~%25% Lumen
+~%25% Lux
+~%25% Candela
+}
+
+::MULTI6::
+Which are true of radiometry?
+{
+~%33.33333% Measures absolute radiant power
+~%33.33333% Independent of eye sensitivity
+~%33.33333% Quantities in watts
+~%-100% Weighted by human vision
+}
+
+::MULTI7::
+Which are true of photometry?
+{
+~%33.33333% Based on human visual system
+~%33.33333% Units like lumen and lux
+~%33.33333% Weighted spectral sensitivity
+~%-100% Always equal to radiometry
+}
+
+::MULTI8::
+Which are wavelength ranges outside visible light?
+{
+~%33.33333% Ultraviolet (<400 nm)
+~%33.33333% Infrared (>700 nm)
+~%33.33333% Radio waves (mm–km)
+~%-100% Green (500–550 nm)
+}
+
+::MULTI9::
+Which describe irradiance?
+{
+~%50% Power received per unit area
+~%50% Radiometric quantity
+~%-100% Measured in lumens
+~%-100% Always independent of distance
+}
+
+::MULTI10::
+Which describe luminous intensity?
+{
+~%50% Measured in candela
+~%50% Photometric quantity
+~%-100% Radiometric
+~%-100% Measured in lux
+}

@@ -1,0 +1,309 @@
+::TF1::
+SVM stands for Support Vector Machine.
+{TRUE}
+
+::TF2::
+SVM is a supervised learning method.
+{TRUE}
+
+::TF3::
+SVM finds the optimal separating hyperplane between classes.
+{TRUE}
+
+::TF4::
+Support vectors are the data points closest to the decision boundary.
+{TRUE}
+
+::TF5::
+A wide margin in SVM leads to better generalization.
+{TRUE}
+
+::TF6::
+SVM decision boundary is always curved.
+{FALSE}
+
+::TF7::
+Distance to the hyperplane is important for classification in SVM.
+{TRUE}
+
+::TF8::
+SVM is only used for image compression.
+{FALSE}
+
+::TF9::
+SVM can be applied to text classification and face recognition.
+{TRUE}
+
+::TF10::
+The margin in SVM is defined as the distance between the boundary and support vectors.
+{TRUE}
+
+::MC1::
+What does SVM try to maximize?
+{
+= The margin between classes
+~ The number of support vectors
+~ The noise in training data
+~ The size of dataset
+}
+
+::MC2::
+What are support vectors?
+{
+= Points closest to the decision boundary
+~ All training samples
+~ Random features
+~ Histogram bins
+}
+
+::MC3::
+What defines the decision boundary in SVM?
+{
+= Separating hyperplane
+~ Histogram equalization
+~ k-means clustering
+~ PCA projection
+}
+
+::MC4::
+Which property improves generalization in SVM?
+{
+= Larger margin
+~ Smaller dataset
+~ More support vectors
+~ Random boundaries
+}
+
+::MC5::
+Which learning type does SVM belong to?
+{
+= Supervised
+~ Unsupervised
+~ Reinforcement
+~ Clustering
+}
+
+::MC6::
+Which is an application of SVM?
+{
+= Text classification
+~ Audio compression
+~ White balance
+~ Histogram smoothing
+}
+
+::MC7::
+Which factor defines classification in SVM?
+{
+= Distance to hyperplane
+~ Histogram variance
+~ k-means centroids
+~ Audio frequency
+}
+
+::MC8::
+What does the hyperplane represent in SVM?
+{
+= Decision boundary
+~ Histogram equalization
+~ Feature clustering
+~ Centroid averaging
+}
+
+::MC9::
+Which is a challenge for SVM?
+{
+= Choice of kernel for nonlinear problems
+~ Always perfect separation
+~ No training required
+~ Distance metric irrelevant
+}
+
+::MC10::
+Which is true about SVM margins?
+{
+= Wider margin → better generalization
+~ Narrower margin → better generalization
+~ Margin is irrelevant
+~ Margin equals centroid
+}
+
+::MATCH1::
+Match the concept to definition.
+{
+= SVM -> Support Vector Machine
+= Hyperplane -> Decision boundary
+= Margin -> Distance to support vectors
+= Support vectors -> Closest samples
+}
+
+::MATCH2::
+Match the property to benefit.
+{
+= Wide margin -> Better generalization
+= Support vectors -> Define boundary
+= Hyperplane -> Separates classes
+= Distance -> Defines classification
+}
+
+::MATCH3::
+Match the application to field.
+{
+= Text classification -> NLP
+= Face recognition -> Vision
+= Bioinformatics -> Gene classification
+= Industrial inspection -> Defect detection
+}
+
+::MATCH4::
+Match the learning type to method.
+{
+= SVM -> Supervised
+= k-means -> Unsupervised
+= Reinforcement -> Agent learning
+= PCA -> Dimensionality reduction
+}
+
+::MATCH5::
+Match the factor to effect.
+{
+= Noise -> Misclassification
+= Small margin -> Poor generalization
+= Wide margin -> Robust classifier
+= Kernel -> Nonlinear separation
+}
+
+::MATCH6::
+Match the component to SVM.
+{
+= Hyperplane -> Decision boundary
+= Margin -> Separation distance
+= Support vectors -> Boundary samples
+= Distance -> Classification score
+}
+
+::MATCH7::
+Match the classifier to property.
+{
+= NN -> Instance-based
+= Centroid -> Prototype-based
+= SVM -> Margin-based
+= Decision tree -> Rule-based
+}
+
+::MATCH8::
+Match the concept to synonym.
+{
+= Support vector -> Boundary sample
+= Hyperplane -> Separator
+= Margin -> Safety distance
+= Classification -> Decision
+}
+
+::MATCH9::
+Match the challenge to solution.
+{
+= Nonlinear separation -> Kernel trick
+= Noise -> Soft margin SVM
+= High dimensions -> SVM works well
+= Too few labels -> Semi-supervised
+}
+
+::MATCH10::
+Match the field to use.
+{
+= Text -> Document categorization
+= Vision -> Face recognition
+= Industry -> Quality control
+= Medicine -> Diagnosis
+}
+
+::MULTI1::
+Which are key elements of SVM?
+{
+~%25% Hyperplane
+~%25% Support vectors
+~%25% Margin
+~%25% Distance measure
+}
+
+::MULTI2::
+Which are desirable properties of SVM?
+{
+~%33.33333% Large margin
+~%33.33333% Good generalization
+~%33.33333% Robustness
+~%-100% Random boundary
+}
+
+::MULTI3::
+Which are applications of SVM?
+{
+~%25% Text classification
+~%25% Face recognition
+~%25% Bioinformatics
+~%25% Industrial inspection
+}
+
+::MULTI4::
+Which describe support vectors?
+{
+~%33.33333% Closest to boundary
+~%33.33333% Define hyperplane
+~%33.33333% Influence decision function
+~%-100% Random points
+}
+
+::MULTI5::
+Which describe the hyperplane in SVM?
+{
+~%50% Decision boundary
+~%50% Separates classes
+~%-100% Histogram
+~%-100% Clustering result
+}
+
+::MULTI6::
+Which are challenges in SVM?
+{
+~%33.33333% Kernel choice
+~%33.33333% Noise
+~%33.33333% Small margin
+~%-100% No distance used
+}
+
+::MULTI7::
+Which are properties of margins in SVM?
+{
+~%50% Distance between classes
+~%50% Larger margin → better generalization
+~%-100% Margin irrelevant
+~%-100% Margin = centroid
+}
+
+::MULTI8::
+Which are classifiers similar to SVM in purpose?
+{
+~%50% Logistic regression
+~%50% Decision trees
+~%-100% JPEG
+~%-100% Histogram equalization
+}
+
+::MULTI9::
+Which are correct about supervised learning?
+{
+~%33.33333% Uses labeled data
+~%33.33333% SVM is supervised
+~%33.33333% kNN is supervised
+~%-100% k-means is supervised
+}
+
+::MULTI10::
+Which are examples of SVM applications?
+{
+~%25% Document categorization
+~%25% Face recognition
+~%25% Defect inspection
+~%25% Medical diagnosis
+}

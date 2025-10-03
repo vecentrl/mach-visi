@@ -1,0 +1,786 @@
+[
+  {
+    "gift_source": "::MC1::\nWhich model is commonly used to approximate camera projection?\n{\n= Pinhole model\n~ Thin prism model\n~ Orthographic scanner\n~ Radar model\n}",
+    "title": "MC1",
+    "question": "Which model is commonly used to approximate camera projection?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Pinhole model",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Thin prism model",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Orthographic scanner",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Radar model",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhat does the focal length control in perspective projection?\n{\n= The scaling between world and image coordinates\n~ The shutter speed\n~ The pixel bit depth\n~ The JPEG compression level\n}",
+    "title": "MC2",
+    "question": "What does the focal length control in perspective projection?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "The scaling between world and image coordinates",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "The shutter speed",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "The pixel bit depth",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "The JPEG compression level",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhat is the role of a virtual front image plane?\n{\n= To display the image upright\n~ To reduce noise\n~ To increase ISO\n~ To improve lens sharpness\n}",
+    "title": "MC3",
+    "question": "What is the role of a virtual front image plane?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "To display the image upright",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "To reduce noise",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "To increase ISO",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "To improve lens sharpness",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhich coordinate is often labeled as the principal point in imaging geometry?\n{\n= (c0, r0)\n~ (0,0)\n~ (1,1)\n~ (f,f)\n}",
+    "title": "MC4",
+    "question": "Which coordinate is often labeled as the principal point in imaging geometry?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "(c0, r0)",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "(0,0)",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "(1,1)",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "(f,f)",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhat does M represent in an image matrix of size M × N?\n{\n= Number of rows\n~ Number of columns\n~ Pixel depth\n~ Image brightness\n}",
+    "title": "MC5",
+    "question": "What does M represent in an image matrix of size M × N?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Number of rows",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Number of columns",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Pixel depth",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Image brightness",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhat is the relationship in perspective projection for x-coordinates?\n{\n= fx = f * Xc / Zc\n~ fx = Zc / Yc\n~ fx = Yc / f\n~ fx = c0 * r0\n}",
+    "title": "MC6",
+    "question": "What is the relationship in perspective projection for x-coordinates?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "fx = f * Xc / Zc",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "fx = Zc / Yc",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "fx = Yc / f",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "fx = c0 * r0",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhat is the relationship in perspective projection for y-coordinates?\n{\n= fy = f * Yc / Zc\n~ fy = Zc / Xc\n~ fy = Xc / f\n~ fy = c0 * f\n}",
+    "title": "MC7",
+    "question": "What is the relationship in perspective projection for y-coordinates?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "fy = f * Yc / Zc",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "fy = Zc / Xc",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "fy = Xc / f",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "fy = c0 * f",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhat is included in the geometric camera model?\n{\n= Rotation and translation of the camera\n~ Only shutter speed\n~ Only lens aperture\n~ Noise variance\n}",
+    "title": "MC8",
+    "question": "What is included in the geometric camera model?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Rotation and translation of the camera",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Only shutter speed",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Only lens aperture",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Noise variance",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich part of imaging geometry causes nonlinear transformations between viewpoints?\n{\n= Perspective distortion\n~ Histogram equalization\n~ Color balancing\n~ White noise\n}",
+    "title": "MC9",
+    "question": "Which part of imaging geometry causes nonlinear transformations between viewpoints?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Perspective distortion",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Color balancing",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "White noise",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich point in the imaging system corresponds to the intersection of the optical axis with the sensor plane?\n{\n= Principal point\n~ Vanishing point\n~ Focal point\n~ Rotation origin\n}",
+    "title": "MC10",
+    "question": "Which point in the imaging system corresponds to the intersection of the optical axis with the sensor plane?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Principal point",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Vanishing point",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Focal point",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Rotation origin",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the concept to its definition.\n{\n= Focal length -> Distance between pinhole and image plane\n= Principal point -> Intersection of optical axis with image plane\n= Pinhole model -> Common camera approximation\n= Perspective projection -> Mapping 3D points to 2D image\n}",
+    "title": "MATCH1",
+    "question": "Match the concept to its definition.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Focal length",
+        "right": "Distance between pinhole and image plane"
+      },
+      {
+        "id": 2,
+        "left": "Principal point",
+        "right": "Intersection of optical axis with image plane"
+      },
+      {
+        "id": 3,
+        "left": "Pinhole model",
+        "right": "Common camera approximation"
+      },
+      {
+        "id": 4,
+        "left": "Perspective projection",
+        "right": "Mapping 3D points to 2D image"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the coordinate system element to its meaning.\n{\n= M -> Number of rows\n= N -> Number of columns\n= (c0, r0) -> Principal point\n= (0,0) -> Image origin\n}",
+    "title": "MATCH2",
+    "question": "Match the coordinate system element to its meaning.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "M",
+        "right": "Number of rows"
+      },
+      {
+        "id": 2,
+        "left": "N",
+        "right": "Number of columns"
+      },
+      {
+        "id": 3,
+        "left": "(c0, r0)",
+        "right": "Principal point"
+      },
+      {
+        "id": 4,
+        "left": "(0,0)",
+        "right": "Image origin"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the equation to its projection.\n{\n= fx = f * Xc / Zc -> x-coordinate mapping\n= fy = f * Yc / Zc -> y-coordinate mapping\n= (Xc, Yc, Zc) -> Camera-centered world coordinates\n= (u,v) -> Image plane coordinates\n}",
+    "title": "MATCH3",
+    "question": "Match the equation to its projection.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "fx = f * Xc / Zc",
+        "right": "x-coordinate mapping"
+      },
+      {
+        "id": 2,
+        "left": "fy = f * Yc / Zc",
+        "right": "y-coordinate mapping"
+      },
+      {
+        "id": 3,
+        "left": "(Xc, Yc, Zc)",
+        "right": "Camera-centered world coordinates"
+      },
+      {
+        "id": 4,
+        "left": "(u,v)",
+        "right": "Image plane coordinates"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the model to the description.\n{\n= Pinhole -> Simplified, upside-down projection\n= Virtual front plane -> Upright image representation\n= Geometric camera model -> Rotation + translation\n= Perspective distortion -> Nonlinear viewpoint change\n}",
+    "title": "MATCH4",
+    "question": "Match the model to the description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Pinhole",
+        "right": "Simplified, upside-down projection"
+      },
+      {
+        "id": 2,
+        "left": "Virtual front plane",
+        "right": "Upright image representation"
+      },
+      {
+        "id": 3,
+        "left": "Geometric camera model",
+        "right": "Rotation + translation"
+      },
+      {
+        "id": 4,
+        "left": "Perspective distortion",
+        "right": "Nonlinear viewpoint change"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the imaging property to the result.\n{\n= Large focal length -> Narrow field of view\n= Small focal length -> Wide field of view\n= Principal point shift -> Image not centered\n= Perspective projection -> Converging parallel lines\n}",
+    "title": "MATCH5",
+    "question": "Match the imaging property to the result.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Large focal length",
+        "right": "Narrow field of view"
+      },
+      {
+        "id": 2,
+        "left": "Small focal length",
+        "right": "Wide field of view"
+      },
+      {
+        "id": 3,
+        "left": "Principal point shift",
+        "right": "Image not centered"
+      },
+      {
+        "id": 4,
+        "left": "Perspective projection",
+        "right": "Converging parallel lines"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the transformation element to its type.\n{\n= Rotation matrix -> 3×3 orthonormal matrix\n= Translation vector -> 3×1 displacement\n= Homogeneous coordinates -> Linear algebra tool\n= Perspective projection -> Direct proportionality\n}",
+    "title": "MATCH6",
+    "question": "Match the transformation element to its type.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Rotation matrix",
+        "right": "3×3 orthonormal matrix"
+      },
+      {
+        "id": 2,
+        "left": "Translation vector",
+        "right": "3×1 displacement"
+      },
+      {
+        "id": 3,
+        "left": "Homogeneous coordinates",
+        "right": "Linear algebra tool"
+      },
+      {
+        "id": 4,
+        "left": "Perspective projection",
+        "right": "Direct proportionality"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the 3D concept to its 2D effect.\n{\n= Parallel lines -> Vanishing point\n= Depth change -> Size scaling\n= Object closer -> Larger image\n= Tilted plane -> Foreshortening\n}",
+    "title": "MATCH7",
+    "question": "Match the 3D concept to its 2D effect.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Parallel lines",
+        "right": "Vanishing point"
+      },
+      {
+        "id": 2,
+        "left": "Depth change",
+        "right": "Size scaling"
+      },
+      {
+        "id": 3,
+        "left": "Object closer",
+        "right": "Larger image"
+      },
+      {
+        "id": 4,
+        "left": "Tilted plane",
+        "right": "Foreshortening"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the symbol to its meaning.\n{\n= f -> Focal length\n= Zc -> Depth coordinate\n= Xc -> Horizontal world coordinate\n= Yc -> Vertical world coordinate\n}",
+    "title": "MATCH8",
+    "question": "Match the symbol to its meaning.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "f",
+        "right": "Focal length"
+      },
+      {
+        "id": 2,
+        "left": "Zc",
+        "right": "Depth coordinate"
+      },
+      {
+        "id": 3,
+        "left": "Xc",
+        "right": "Horizontal world coordinate"
+      },
+      {
+        "id": 4,
+        "left": "Yc",
+        "right": "Vertical world coordinate"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the pixel coordinate system to its explanation.\n{\n= Row (r) -> Increases downward\n= Column (c) -> Increases to the right\n= (0,0) -> Image top-left corner\n= (c0,r0) -> Principal point\n}",
+    "title": "MATCH9",
+    "question": "Match the pixel coordinate system to its explanation.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Row (r)",
+        "right": "Increases downward"
+      },
+      {
+        "id": 2,
+        "left": "Column (c)",
+        "right": "Increases to the right"
+      },
+      {
+        "id": 3,
+        "left": "(0,0)",
+        "right": "Image top-left corner"
+      },
+      {
+        "id": 4,
+        "left": "(c0,r0)",
+        "right": "Principal point"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the perspective concept to its description.\n{\n= Perspective projection -> Rays converge to pinhole\n= Virtual image plane -> Corrects upside-down projection\n= Image matrix -> M × N pixel array\n= Camera model -> Mathematical mapping of 3D to 2D\n}",
+    "title": "MATCH10",
+    "question": "Match the perspective concept to its description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Perspective projection",
+        "right": "Rays converge to pinhole"
+      },
+      {
+        "id": 2,
+        "left": "Virtual image plane",
+        "right": "Corrects upside-down projection"
+      },
+      {
+        "id": 3,
+        "left": "Image matrix",
+        "right": "M × N pixel array"
+      },
+      {
+        "id": 4,
+        "left": "Camera model",
+        "right": "Mathematical mapping of 3D to 2D"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are characteristics of perspective projection?\n{\n~%33.33333% Objects further away appear smaller\n~%33.33333% Parallel lines converge\n~%33.33333% Foreshortening occurs\n~%-100% All angles are preserved\n}",
+    "title": "MULTI2",
+    "question": "Which are characteristics of perspective projection?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Objects further away appear smaller",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Parallel lines converge",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Foreshortening occurs",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "All angles are preserved",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich parameters are part of the geometric camera model?\n{\n~%33.33333% Rotation matrix\n~%33.33333% Translation vector\n~%33.33333% Focal length\n~%-100% JPEG compression\n}",
+    "title": "MULTI3",
+    "question": "Which parameters are part of the geometric camera model?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Rotation matrix",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Translation vector",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Focal length",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "JPEG compression",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are outputs of perspective projection equations?\n{\n~%50% Image x-coordinate\n~%50% Image y-coordinate\n~%-100% Image brightness\n~%-100% File size\n}",
+    "title": "MULTI5",
+    "question": "Which are outputs of perspective projection equations?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Image x-coordinate",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Image y-coordinate",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Image brightness",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "File size",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are examples of perspective distortion?\n{\n~%33.33333% Change of viewpoint alters shape\n~%33.33333% Parallel lines converge in the image\n~%33.33333% Rectangles project as trapezoids\n~%-100% Image remains invariant\n}",
+    "title": "MULTI6",
+    "question": "Which are examples of perspective distortion?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Change of viewpoint alters shape",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Parallel lines converge in the image",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Rectangles project as trapezoids",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Image remains invariant",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are advantages of the pinhole model?\n{\n~%33.33333% Simple mathematical form\n~%33.33333% Useful for projection geometry\n~%33.33333% Approximates real cameras\n~%-100% Models lens aberrations perfectly\n}",
+    "title": "MULTI7",
+    "question": "Which are advantages of the pinhole model?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Simple mathematical form",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Useful for projection geometry",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Approximates real cameras",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Models lens aberrations perfectly",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich image coordinate conventions are typical?\n{\n~%33.33333% Rows increase downward\n~%33.33333% Columns increase rightward\n~%33.33333% Origin at top-left\n~%-100% Origin at image center by default\n}",
+    "title": "MULTI8",
+    "question": "Which image coordinate conventions are typical?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Rows increase downward",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Columns increase rightward",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Origin at top-left",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Origin at image center by default",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are important elements in camera calibration?\n{\n~%25% Focal length\n~%25% Principal point\n~%25% Rotation matrix\n~%25% Translation vector\n}",
+    "title": "MULTI9",
+    "question": "Which are important elements in camera calibration?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Focal length",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Principal point",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Rotation matrix",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Translation vector",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are consequences of small focal length?\n{\n~%33.33333% Wide field of view\n~%33.33333% Strong perspective distortion\n~%33.33333% Larger objects appear smaller\n~%-100% Narrow field of view\n}",
+    "title": "MULTI10",
+    "question": "Which are consequences of small focal length?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Wide field of view",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Strong perspective distortion",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Larger objects appear smaller",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Narrow field of view",
+        "weight": -100.0
+      }
+    ]
+  }
+]

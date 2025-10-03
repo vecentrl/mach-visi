@@ -1,0 +1,309 @@
+::TF1::
+Depth sensing devices are affected by general image quality issues such as noise and distortion.
+{TRUE}
+
+::TF2::
+Occlusion can cause missing depth information in RGB-D images.
+{TRUE}
+
+::TF3::
+Multipath interference occurs when light bounces multiple times before reaching the sensor.
+{TRUE}
+
+::TF4::
+Ambient sunlight can cause errors in infrared-based depth sensing.
+{TRUE}
+
+::TF5::
+Time-of-flight cameras are immune to multipath effects.
+{FALSE}
+
+::TF6::
+Structured light systems like Kinect may fail outdoors due to sunlight interference.
+{TRUE}
+
+::TF7::
+Interference between multiple Kinect devices can occur if they project overlapping IR patterns.
+{TRUE}
+
+::TF8::
+LIDAR systems are always inexpensive and easy to integrate.
+{FALSE}
+
+::TF9::
+Mechanical scanning in LIDAR limits acquisition speed.
+{TRUE}
+
+::TF10::
+Depth sensing is crucial for applications like robotics and autonomous vehicles.
+{TRUE}
+
+::MC1::
+Which factor causes missing depth values when objects block each other?
+{
+= Occlusion
+~ Multipath interference
+~ White balance
+~ Gamma correction
+}
+
+::MC2::
+What is multipath interference?
+{
+= Light bouncing along multiple paths before detection
+~ Brightness falloff at edges
+~ JPEG compression error
+~ Vignetting
+}
+
+::MC3::
+Which source of error particularly affects time-of-flight cameras?
+{
+= Multipath interference
+~ Chromatic aberration
+~ Color quantization
+~ Histogram equalization
+}
+
+::MC4::
+Why does Kinect perform poorly outdoors?
+{
+= Infrared pattern overwhelmed by sunlight
+~ Mechanical scanning too slow
+~ Phase shift too small
+~ Wrong gamma correction
+}
+
+::MC5::
+What happens if multiple Kinect devices are used in the same space?
+{
+= Their projected IR patterns interfere
+~ Their USB ports conflict
+~ Their color images overlap
+~ They lose calibration
+}
+
+::MC6::
+Which factor reduces effective range of depth cameras?
+{
+= Ambient light interference
+~ JPEG compression
+~ White balance error
+~ Histogram clipping
+}
+
+::MC7::
+Which limitation is typical for LIDAR systems?
+{
+= Mechanical scanning
+~ Small aperture
+~ Color shift
+~ Gamma mismatch
+}
+
+::MC8::
+Which is a challenge for all depth sensing methods?
+{
+= Limited resolution
+~ Color saturation
+~ File size
+~ Network latency
+}
+
+::MC9::
+Which is a common limitation of structured light methods?
+{
+= Limited outdoor usability
+~ Excessive depth resolution
+~ Perfect robustness
+~ Wide-angle distortion
+}
+
+::MC10::
+Which depth sensing technology is most expensive in general?
+{
+= LIDAR
+~ Kinect
+~ Stereo webcam
+~ ToF camera
+}
+
+::MATCH1::
+Match the challenge to the cause.
+{
+= Occlusion -> Objects blocking line of sight
+= Multipath -> Light bounces multiple times
+= Ambient light -> Sunlight interference
+= Interference -> Multiple devices projecting
+}
+
+::MATCH2::
+Match the depth sensing technology to its issue.
+{
+= Kinect -> Limited outdoor use
+= ToF -> Multipath interference
+= LIDAR -> Mechanical scanning
+= Stereo -> Poor performance in textureless regions
+}
+
+::MATCH3::
+Match the error type to the description.
+{
+= Occlusion -> Missing depth pixels
+= Multipath -> Wrong distance measured
+= Resolution limit -> Coarse depth map
+= Noise -> Random variation
+}
+
+::MATCH4::
+Match the device to the drawback.
+{
+= Kinect -> IR pattern fails in sunlight
+= LIDAR -> Expensive
+= ToF -> Range ambiguity
+= Structured light -> Interference between devices
+}
+
+::MATCH5::
+Match the cause to the sensor effect.
+{
+= Ambient light -> IR sensor saturation
+= Multipath -> Depth error
+= Occlusion -> Missing pixels
+= Mechanical scan -> Slow acquisition
+}
+
+::MATCH6::
+Match the system to the application.
+{
+= Kinect -> Indoor gaming
+= LIDAR -> Autonomous cars
+= ToF -> Gesture recognition
+= Stereo -> 3D movies
+}
+
+::MATCH7::
+Match the metric to the limitation.
+{
+= Resolution -> Cannot capture fine details
+= Range -> Limited distance
+= Speed -> Limited by scanning
+= Robustness -> Sensitive to light
+}
+
+::MATCH8::
+Match the technology to interference.
+{
+= Kinect -> Competing IR patterns
+= LIDAR -> Overlapping scan beams
+= ToF -> Multipath reflections
+= Stereo -> Textureless failure
+}
+
+::MATCH9::
+Match the effect to the phenomenon.
+{
+= Vignetting -> Brightness falloff
+= Noise -> Random variation
+= Aberration -> Color fringing
+= Depth error -> Multipath
+}
+
+::MATCH10::
+Match the imaging quality issue to example.
+{
+= Chromatic aberration -> Misaligned colors
+= Occlusion -> Hidden surface missing depth
+= Multipath -> Wrong depth value
+= Ambient light -> Saturated sensor
+}
+
+::MULTI1::
+Which are challenges in depth sensing?
+{
+~%25% Occlusion
+~%25% Multipath
+~%25% Ambient light
+~%25% Limited resolution
+}
+
+::MULTI2::
+Which are typical limitations of Kinect?
+{
+~%33.33333% IR interference outdoors
+~%33.33333% Calibration requirement
+~%33.33333% Multiple-device interference
+~%-100% Perfect robustness
+}
+
+::MULTI3::
+Which errors affect time-of-flight cameras?
+{
+~%33.33333% Multipath
+~%33.33333% Range ambiguity
+~%33.33333% Low reflectivity sensitivity
+~%-100% Infinite resolution
+}
+
+::MULTI4::
+Which are drawbacks of LIDAR?
+{
+~%33.33333% Mechanical scanning
+~%33.33333% High cost
+~%33.33333% Limited resolution
+~%-100% Always compact and cheap
+}
+
+::MULTI5::
+Which are depth sensing devices?
+{
+~%25% Kinect
+~%25% LIDAR
+~%25% ToF camera
+~%25% Stereo system
+}
+
+::MULTI6::
+Which environmental conditions can disturb depth sensors?
+{
+~%33.33333% Strong sunlight
+~%33.33333% Reflective surfaces
+~%33.33333% Occlusions
+~%-100% File compression
+}
+
+::MULTI7::
+Which are image quality issues relevant for depth maps?
+{
+~%33.33333% Noise
+~%33.33333% Resolution limits
+~%33.33333% Occlusion holes
+~%-100% Infinite sharpness
+}
+
+::MULTI8::
+Which factors distinguish structured light from LIDAR?
+{
+~%50% Projected IR pattern
+~%50% Calibration of projector-camera
+~%-100% Phase modulation
+~%-100% Mechanical steering
+}
+
+::MULTI9::
+Which are typical applications of depth sensing?
+{
+~%33.33333% Robotics
+~%33.33333% Gesture recognition
+~%33.33333% Autonomous vehicles
+~%-100% Text editing
+}
+
+::MULTI10::
+Which types of noise/errors affect depth sensing?
+{
+~%25% Shot noise
+~%25% Multipath
+~%25% Occlusion
+~%25% Ambient interference
+}

@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhat is the main purpose of background subtraction?\n{\n= Detect moving objects\n~ Detect edges\n~ Reduce noise\n~ Enhance colors\n}",
+    "title": "MC1",
+    "question": "What is the main purpose of background subtraction?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Detect moving objects",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Detect edges",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Reduce noise",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Enhance colors",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhich is the simplest background subtraction method?\n{\n= Frame differencing\n~ Gaussian mixture models\n~ k-means clustering\n~ PCA\n}",
+    "title": "MC2",
+    "question": "Which is the simplest background subtraction method?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Frame differencing",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Gaussian mixture models",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "k-means clustering",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "PCA",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhich method updates the background model over time?\n{\n= Running average\n~ Frame differencing\n~ Histogram equalization\n~ Otsu thresholding\n}",
+    "title": "MC3",
+    "question": "Which method updates the background model over time?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Running average",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Frame differencing",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Otsu thresholding",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhich model is often used for robust background modeling?\n{\n= Gaussian Mixture Model (GMM)\n~ SVM\n~ Decision tree\n~ CNN\n}",
+    "title": "MC4",
+    "question": "Which model is often used for robust background modeling?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Gaussian Mixture Model (GMM)",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "SVM",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Decision tree",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "CNN",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhich application uses background subtraction?\n{\n= Video surveillance\n~ Audio compression\n~ Histogram equalization\n~ JPEG encoding\n}",
+    "title": "MC5",
+    "question": "Which application uses background subtraction?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Video surveillance",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Audio compression",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "JPEG encoding",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich factor causes difficulty for background subtraction?\n{\n= Illumination changes\n~ Always perfect\n~ No noise\n~ Static backgrounds\n}",
+    "title": "MC6",
+    "question": "Which factor causes difficulty for background subtraction?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Illumination changes",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Always perfect",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "No noise",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Static backgrounds",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich describes dynamic backgrounds?\n{\n= Scenes with movement like trees or water\n~ Static walls\n~ Still objects\n~ Noise-free images\n}",
+    "title": "MC7",
+    "question": "Which describes dynamic backgrounds?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Scenes with movement like trees or water",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Static walls",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Still objects",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Noise-free images",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich factor can lead to false positives in motion detection?\n{\n= Shadows\n~ Histogram bins\n~ Image resolution\n~ Compression\n}",
+    "title": "MC8",
+    "question": "Which factor can lead to false positives in motion detection?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Shadows",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram bins",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Image resolution",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Compression",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich is a property of Gaussian Mixture Models in background subtraction?\n{\n= Handle multiple background modes\n~ Always static\n~ Ignore changes\n~ Work only on grayscale\n}",
+    "title": "MC9",
+    "question": "Which is a property of Gaussian Mixture Models in background subtraction?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Handle multiple background modes",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Always static",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Ignore changes",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Work only on grayscale",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich field benefits from motion-based background subtraction?\n{\n= Human activity recognition\n~ White balance\n~ File compression\n~ Gamma correction\n}",
+    "title": "MC10",
+    "question": "Which field benefits from motion-based background subtraction?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Human activity recognition",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "White balance",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "File compression",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Gamma correction",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the method to description.\n{\n= Frame differencing -> Simple subtraction\n= Running average -> Temporal update\n= GMM -> Probabilistic background model\n= CNN -> Deep motion analysis\n}",
+    "title": "MATCH1",
+    "question": "Match the method to description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Frame differencing",
+        "right": "Simple subtraction"
+      },
+      {
+        "id": 2,
+        "left": "Running average",
+        "right": "Temporal update"
+      },
+      {
+        "id": 3,
+        "left": "GMM",
+        "right": "Probabilistic background model"
+      },
+      {
+        "id": 4,
+        "left": "CNN",
+        "right": "Deep motion analysis"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the challenge to effect.\n{\n= Illumination change -> False detection\n= Shadows -> Object-like artifacts\n= Dynamic background -> Noise detection\n= Noise -> Unstable mask\n}",
+    "title": "MATCH2",
+    "question": "Match the challenge to effect.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Illumination change",
+        "right": "False detection"
+      },
+      {
+        "id": 2,
+        "left": "Shadows",
+        "right": "Object-like artifacts"
+      },
+      {
+        "id": 3,
+        "left": "Dynamic background",
+        "right": "Noise detection"
+      },
+      {
+        "id": 4,
+        "left": "Noise",
+        "right": "Unstable mask"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the application to domain.\n{\n= Surveillance -> People detection\n= Traffic monitoring -> Vehicle detection\n= Sports analysis -> Player tracking\n= Human activity -> Gesture detection\n}",
+    "title": "MATCH3",
+    "question": "Match the application to domain.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Surveillance",
+        "right": "People detection"
+      },
+      {
+        "id": 2,
+        "left": "Traffic monitoring",
+        "right": "Vehicle detection"
+      },
+      {
+        "id": 3,
+        "left": "Sports analysis",
+        "right": "Player tracking"
+      },
+      {
+        "id": 4,
+        "left": "Human activity",
+        "right": "Gesture detection"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the factor to challenge.\n{\n= Shadows -> False positives\n= Light changes -> Instability\n= Dynamic background -> Difficult modeling\n= Static scene -> Easier modeling\n}",
+    "title": "MATCH4",
+    "question": "Match the factor to challenge.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Shadows",
+        "right": "False positives"
+      },
+      {
+        "id": 2,
+        "left": "Light changes",
+        "right": "Instability"
+      },
+      {
+        "id": 3,
+        "left": "Dynamic background",
+        "right": "Difficult modeling"
+      },
+      {
+        "id": 4,
+        "left": "Static scene",
+        "right": "Easier modeling"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the method to robustness.\n{\n= Frame differencing -> Simple but sensitive\n= Running average -> Adapts slowly\n= GMM -> More robust\n= CNN -> Very robust\n}",
+    "title": "MATCH5",
+    "question": "Match the method to robustness.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Frame differencing",
+        "right": "Simple but sensitive"
+      },
+      {
+        "id": 2,
+        "left": "Running average",
+        "right": "Adapts slowly"
+      },
+      {
+        "id": 3,
+        "left": "GMM",
+        "right": "More robust"
+      },
+      {
+        "id": 4,
+        "left": "CNN",
+        "right": "Very robust"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the property to method.\n{\n= Simple -> Frame differencing\n= Adaptive -> Running average\n= Multi-modal -> GMM\n= Learned -> CNN\n}",
+    "title": "MATCH6",
+    "question": "Match the property to method.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Simple",
+        "right": "Frame differencing"
+      },
+      {
+        "id": 2,
+        "left": "Adaptive",
+        "right": "Running average"
+      },
+      {
+        "id": 3,
+        "left": "Multi-modal",
+        "right": "GMM"
+      },
+      {
+        "id": 4,
+        "left": "Learned",
+        "right": "CNN"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the technique to field.\n{\n= GMM -> Surveillance\n= Frame differencing -> Basic detection\n= CNN -> Autonomous driving\n= Running average -> Long-term monitoring\n}",
+    "title": "MATCH7",
+    "question": "Match the technique to field.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "GMM",
+        "right": "Surveillance"
+      },
+      {
+        "id": 2,
+        "left": "Frame differencing",
+        "right": "Basic detection"
+      },
+      {
+        "id": 3,
+        "left": "CNN",
+        "right": "Autonomous driving"
+      },
+      {
+        "id": 4,
+        "left": "Running average",
+        "right": "Long-term monitoring"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the issue to cause.\n{\n= False positives -> Shadows\n= Missing detection -> Fast motion\n= Instability -> Illumination change\n= Noise -> Poor quality video\n}",
+    "title": "MATCH8",
+    "question": "Match the issue to cause.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "False positives",
+        "right": "Shadows"
+      },
+      {
+        "id": 2,
+        "left": "Missing detection",
+        "right": "Fast motion"
+      },
+      {
+        "id": 3,
+        "left": "Instability",
+        "right": "Illumination change"
+      },
+      {
+        "id": 4,
+        "left": "Noise",
+        "right": "Poor quality video"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the descriptor to explanation.\n{\n= Background subtraction -> Motion detection\n= Dynamic background -> Waving trees\n= Shadow -> False object\n= Illumination -> Brightness change\n}",
+    "title": "MATCH9",
+    "question": "Match the descriptor to explanation.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Background subtraction",
+        "right": "Motion detection"
+      },
+      {
+        "id": 2,
+        "left": "Dynamic background",
+        "right": "Waving trees"
+      },
+      {
+        "id": 3,
+        "left": "Shadow",
+        "right": "False object"
+      },
+      {
+        "id": 4,
+        "left": "Illumination",
+        "right": "Brightness change"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the task to example.\n{\n= Surveillance -> Detect intruder\n= Traffic monitoring -> Count vehicles\n= Sports -> Track players\n= Medicine -> Motion analysis\n}",
+    "title": "MATCH10",
+    "question": "Match the task to example.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Surveillance",
+        "right": "Detect intruder"
+      },
+      {
+        "id": 2,
+        "left": "Traffic monitoring",
+        "right": "Count vehicles"
+      },
+      {
+        "id": 3,
+        "left": "Sports",
+        "right": "Track players"
+      },
+      {
+        "id": 4,
+        "left": "Medicine",
+        "right": "Motion analysis"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are methods of background subtraction?\n{\n~%25% Frame differencing\n~%25% Running average\n~%25% Gaussian mixture models\n~%25% CNN-based\n}",
+    "title": "MULTI1",
+    "question": "Which are methods of background subtraction?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Frame differencing",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Running average",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Gaussian mixture models",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "CNN-based",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are challenges for background subtraction?\n{\n~%25% Illumination changes\n~%25% Shadows\n~%25% Dynamic backgrounds\n~%25% Noise\n}",
+    "title": "MULTI2",
+    "question": "Which are challenges for background subtraction?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Illumination changes",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Shadows",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Dynamic backgrounds",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Noise",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are applications of background subtraction?\n{\n~%33.33333% Surveillance\n~%33.33333% Traffic monitoring\n~%33.33333% Human activity recognition\n~%-100% Histogram equalization\n}",
+    "title": "MULTI3",
+    "question": "Which are applications of background subtraction?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Surveillance",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Traffic monitoring",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Human activity recognition",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Histogram equalization",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are properties of GMM background models?\n{\n~%33.33333% Multi-modal\n~%33.33333% Robust\n~%33.33333% Probabilistic\n~%-100% Single static model only\n}",
+    "title": "MULTI4",
+    "question": "Which are properties of GMM background models?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Multi-modal",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Robust",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Probabilistic",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Single static model only",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are simple background subtraction methods?\n{\n~%50% Frame differencing\n~%50% Running average\n~%-100% GMM\n~%-100% CNN\n}",
+    "title": "MULTI5",
+    "question": "Which are simple background subtraction methods?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Frame differencing",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Running average",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "GMM",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "CNN",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are motion-based tasks?\n{\n~%25% Surveillance\n~%25% Sports tracking\n~%25% Gesture analysis\n~%25% Vehicle monitoring\n}",
+    "title": "MULTI6",
+    "question": "Which are motion-based tasks?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Surveillance",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Sports tracking",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Gesture analysis",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Vehicle monitoring",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are advantages of CNN-based subtraction?\n{\n~%33.33333% Learn features\n~%33.33333% High robustness\n~%33.33333% Handle complex backgrounds\n~%-100% Always simple\n}",
+    "title": "MULTI7",
+    "question": "Which are advantages of CNN-based subtraction?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Learn features",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "High robustness",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Handle complex backgrounds",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Always simple",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are disadvantages of simple differencing?\n{\n~%50% Sensitive to noise\n~%50% Sensitive to illumination\n~%-100% Robust to everything\n~%-100% Multi-modal handling\n}",
+    "title": "MULTI8",
+    "question": "Which are disadvantages of simple differencing?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Sensitive to noise",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Sensitive to illumination",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Robust to everything",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Multi-modal handling",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are examples of dynamic backgrounds?\n{\n~%33.33333% Waving trees\n~%33.33333% Water ripples\n~%33.33333% Moving escalator\n~%-100% Still wall\n}",
+    "title": "MULTI9",
+    "question": "Which are examples of dynamic backgrounds?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Waving trees",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Water ripples",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Moving escalator",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Still wall",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are domains using motion background subtraction?\n{\n~%25% Security\n~%25% Traffic\n~%25% Sports\n~%25% Medicine\n}",
+    "title": "MULTI10",
+    "question": "Which are domains using motion background subtraction?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Security",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Traffic",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Sports",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Medicine",
+        "weight": 25.0
+      }
+    ]
+  }
+]

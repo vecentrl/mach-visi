@@ -1,0 +1,309 @@
+::TF1::
+A homography is a projective transformation between two planes.
+{TRUE}
+
+::TF2::
+Homographies can model perspective distortion.
+{TRUE}
+
+::TF3::
+A homography is represented by a 3×3 matrix.
+{TRUE}
+
+::TF4::
+Homographies preserve straight lines but not parallelism.
+{TRUE}
+
+::TF5::
+Affine transformations are more general than homographies.
+{FALSE}
+
+::TF6::
+At least four point correspondences are required to compute a homography.
+{TRUE}
+
+::TF7::
+Panorama stitching uses homographies to align overlapping images.
+{TRUE}
+
+::TF8::
+Homographies preserve ratios of lengths along parallel lines.
+{FALSE}
+
+::TF9::
+Homographies can be used for image rectification.
+{TRUE}
+
+::TF10::
+Noise and collinear points can cause problems in homography estimation.
+{TRUE}
+
+::MC1::
+What type of transformation is a homography?
+{
+= Projective
+~ Affine
+~ Euclidean
+~ Similarity
+}
+
+::MC2::
+How is a homography represented mathematically?
+{
+= 3×3 matrix
+~ 2×2 matrix
+~ 4×4 matrix
+~ 1×3 vector
+}
+
+::MC3::
+Which property does a homography preserve?
+{
+= Straight lines
+~ Parallelism
+~ Lengths
+~ Angles
+}
+
+::MC4::
+Which is an advantage of homography over affine mapping?
+{
+= Can model perspective
+~ Preserves parallelism
+~ Requires fewer correspondences
+~ Always angle-preserving
+}
+
+::MC5::
+Which is required to compute a homography?
+{
+= Four point correspondences
+~ Three point correspondences
+~ One line correspondence
+~ Histogram bins
+}
+
+::MC6::
+Which is an application of homographies?
+{
+= Image rectification
+~ Histogram equalization
+~ JPEG compression
+~ White balance
+}
+
+::MC7::
+Which is a challenge in homography estimation?
+{
+= Collinear points
+~ Parallel preservation
+~ Always noise-free
+~ File size
+}
+
+::MC8::
+Which domain uses homographies?
+{
+= Camera calibration
+~ Audio compression
+~ File encryption
+~ Histogram smoothing
+}
+
+::MC9::
+Which is true about affine vs. homography?
+{
+= Homography is more general
+~ Affine is more general
+~ Both identical
+~ Both preserve parallelism
+}
+
+::MC10::
+Which factor affects homography accuracy?
+{
+= Noise and outliers
+~ File format
+~ Gamma encoding
+~ JPEG compression
+}
+
+::MATCH1::
+Match the transformation to generality.
+{
+= Euclidean -> Distances/angles preserved
+= Similarity -> Scale + rotation
+= Affine -> Parallelism preserved
+= Homography -> Perspective mapping
+}
+
+::MATCH2::
+Match the application to homography.
+{
+= Panorama -> Align images
+= Rectification -> Deskew documents
+= Calibration -> Camera geometry
+= Augmented reality -> Plane mapping
+}
+
+::MATCH3::
+Match the challenge to effect.
+{
+= Noise -> Inaccurate matrix
+= Outliers -> Wrong mapping
+= Collinear -> Degenerate case
+= Few points -> Insufficient data
+}
+
+::MATCH4::
+Match the concept to requirement.
+{
+= Affine -> 3 points
+= Homography -> 4 points
+= RANSAC -> Robust fitting
+= Least squares -> Error minimization
+}
+
+::MATCH5::
+Match the method to domain.
+{
+= Homography -> Panorama
+= Affine -> Motion compensation
+= Euclidean -> Rigid transform
+= Projective -> Perspective
+}
+
+::MATCH6::
+Match the property to transformation.
+{
+= Preserves parallelism -> Affine
+= Preserves perspective -> Homography
+= Preserves angles -> Euclidean
+= Preserves ratios of lengths -> Similarity
+}
+
+::MATCH7::
+Match the application to field.
+{
+= Vision -> Panorama stitching
+= Medicine -> Image rectification
+= Robotics -> Pose estimation
+= Graphics -> Texture mapping
+}
+
+::MATCH8::
+Match the limitation to algorithm.
+{
+= Affine -> Cannot model perspective
+= Homography -> Needs 4 points
+= Euclidean -> Too rigid
+= Similarity -> No shear
+}
+
+::MATCH9::
+Match the parameter to description.
+{
+= h11..h33 -> Homography matrix elements
+= Correspondences -> Data points
+= Outliers -> Errors
+= Residual -> Fitting error
+}
+
+::MATCH10::
+Match the technique to robustness.
+{
+= Least squares -> Sensitive
+= RANSAC -> Robust
+= Normalization -> Improves stability
+= Iterative refinement -> Accuracy
+}
+
+::MULTI1::
+Which are properties of homographies?
+{
+~%25% Projective
+~%25% 3×3 matrix
+~%25% Preserve lines
+~%25% Allow perspective
+}
+
+::MULTI2::
+Which are NOT preserved in homography?
+{
+~%50% Parallelism
+~%50% Lengths/angles
+~%-100% Straight lines
+~%-100% Collinearity
+}
+
+::MULTI3::
+Which are applications of homographies?
+{
+~%25% Panorama stitching
+~%25% Rectification
+~%25% Camera calibration
+~%25% Augmented reality
+}
+
+::MULTI4::
+Which are challenges in homography estimation?
+{
+~%25% Noise
+~%25% Outliers
+~%25% Collinear points
+~%25% Degenerate data
+}
+
+::MULTI5::
+Which are examples of projective transformations?
+{
+~%50% Homography
+~%50% Perspective mapping
+~%-100% Affine
+~%-100% Euclidean
+}
+
+::MULTI6::
+Which are estimation methods for homographies?
+{
+~%33.33333% Four correspondences
+~%33.33333% Least squares
+~%33.33333% RANSAC
+~%-100% Histogram bins
+}
+
+::MULTI7::
+Which are limitations of affine mapping compared to homography?
+{
+~%33.33333% Cannot model perspective
+~%33.33333% Less general
+~%33.33333% Only linear + translation
+~%-100% Handles perspective always
+}
+
+::MULTI8::
+Which are transformations more general than affine?
+{
+~%33.33333% Homography
+~%33.33333% Projective mapping
+~%33.33333% Perspective transform
+~%-100% Euclidean
+}
+
+::MULTI9::
+Which are applications of homographies in AR/VR?
+{
+~%33.33333% Plane mapping
+~%33.33333% Viewpoint correction
+~%33.33333% Texture alignment
+~%-100% Audio filtering
+}
+
+::MULTI10::
+Which are benefits of homographies?
+{
+~%25% Handle perspective
+~%25% Enable panoramas
+~%25% Rectify tilted images
+~%25% Camera calibration
+}

@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhat is the decision rule in Bayesian classification?\n{\n= Choose the class with highest posterior probability\n~ Choose the class with most features\n~ Always select majority class\n~ Random choice\n}",
+    "title": "MC1",
+    "question": "What is the decision rule in Bayesian classification?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Choose the class with highest posterior probability",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Choose the class with most features",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Always select majority class",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Random choice",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhich assumption does Naïve Bayes make?\n{\n= Feature independence\n~ Features always correlated\n~ Linear separability\n~ Nonlinear kernel use\n}",
+    "title": "MC2",
+    "question": "Which assumption does Naïve Bayes make?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Feature independence",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Features always correlated",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Linear separability",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Nonlinear kernel use",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhat is a main advantage of Naïve Bayes?\n{\n= Simple and effective\n~ Always perfect accuracy\n~ Requires no training data\n~ No probability use\n}",
+    "title": "MC3",
+    "question": "What is a main advantage of Naïve Bayes?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Simple and effective",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Always perfect accuracy",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Requires no training data",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "No probability use",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhich is a drawback of Naïve Bayes?\n{\n= Assumes independence between features\n~ Too complex to compute\n~ Requires large decision trees\n~ Needs kernel trick\n}",
+    "title": "MC4",
+    "question": "Which is a drawback of Naïve Bayes?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Assumes independence between features",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Too complex to compute",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Requires large decision trees",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Needs kernel trick",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhat defines decision trees?\n{\n= Hierarchical feature tests\n~ Probability models\n~ Gradient descent\n~ Clustering rules\n}",
+    "title": "MC5",
+    "question": "What defines decision trees?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Hierarchical feature tests",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Probability models",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Gradient descent",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Clustering rules",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhat do leaves in decision trees represent?\n{\n= Final class labels\n~ Feature tests\n~ Probability distributions\n~ Distance metrics\n}",
+    "title": "MC6",
+    "question": "What do leaves in decision trees represent?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Final class labels",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Feature tests",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Probability distributions",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Distance metrics",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich is a drawback of decision trees?\n{\n= Overfitting\n~ Cannot be trained\n~ No interpretability\n~ Independence assumption\n}",
+    "title": "MC7",
+    "question": "Which is a drawback of decision trees?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Overfitting",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Cannot be trained",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "No interpretability",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Independence assumption",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich is an application of Bayesian classifiers?\n{\n= Spam filtering\n~ File compression\n~ Histogram equalization\n~ Gamma correction\n}",
+    "title": "MC8",
+    "question": "Which is an application of Bayesian classifiers?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Spam filtering",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "File compression",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Gamma correction",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich is an application of decision trees?\n{\n= Medical diagnosis\n~ Histogram smoothing\n~ Gamma correction\n~ File encryption\n}",
+    "title": "MC9",
+    "question": "Which is an application of decision trees?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Medical diagnosis",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram smoothing",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Gamma correction",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "File encryption",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich statement is true about Bayesian vs. Trees?\n{\n= Bayesian are probabilistic, Trees are rule-based\n~ Both assume feature independence\n~ Trees are always better\n~ Bayesian require kernels\n}",
+    "title": "MC10",
+    "question": "Which statement is true about Bayesian vs. Trees?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Bayesian are probabilistic, Trees are rule-based",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Both assume feature independence",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Trees are always better",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Bayesian require kernels",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the classifier to principle.\n{\n= Naïve Bayes -> Probability + independence assumption\n= Decision tree -> Feature-based splits\n= SVM -> Margin maximization\n= kNN -> Neighbor voting\n}",
+    "title": "MATCH1",
+    "question": "Match the classifier to principle.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Naïve Bayes",
+        "right": "Probability + independence assumption"
+      },
+      {
+        "id": 2,
+        "left": "Decision tree",
+        "right": "Feature-based splits"
+      },
+      {
+        "id": 3,
+        "left": "SVM",
+        "right": "Margin maximization"
+      },
+      {
+        "id": 4,
+        "left": "kNN",
+        "right": "Neighbor voting"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the concept to description.\n{\n= Prior probability -> Probability before data\n= Posterior probability -> Probability after data\n= Likelihood -> Data probability given class\n= Independence -> Naïve Bayes assumption\n}",
+    "title": "MATCH2",
+    "question": "Match the concept to description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Prior probability",
+        "right": "Probability before data"
+      },
+      {
+        "id": 2,
+        "left": "Posterior probability",
+        "right": "Probability after data"
+      },
+      {
+        "id": 3,
+        "left": "Likelihood",
+        "right": "Data probability given class"
+      },
+      {
+        "id": 4,
+        "left": "Independence",
+        "right": "Naïve Bayes assumption"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the classifier to advantage.\n{\n= Naïve Bayes -> Simple, efficient\n= Decision tree -> Interpretability\n= SVM -> Strong generalization\n= NN -> Simple matching\n}",
+    "title": "MATCH3",
+    "question": "Match the classifier to advantage.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Naïve Bayes",
+        "right": "Simple, efficient"
+      },
+      {
+        "id": 2,
+        "left": "Decision tree",
+        "right": "Interpretability"
+      },
+      {
+        "id": 3,
+        "left": "SVM",
+        "right": "Strong generalization"
+      },
+      {
+        "id": 4,
+        "left": "NN",
+        "right": "Simple matching"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the classifier to drawback.\n{\n= Naïve Bayes -> Independence assumption\n= Decision tree -> Overfitting\n= SVM -> Kernel choice\n= kNN -> High computation\n}",
+    "title": "MATCH4",
+    "question": "Match the classifier to drawback.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Naïve Bayes",
+        "right": "Independence assumption"
+      },
+      {
+        "id": 2,
+        "left": "Decision tree",
+        "right": "Overfitting"
+      },
+      {
+        "id": 3,
+        "left": "SVM",
+        "right": "Kernel choice"
+      },
+      {
+        "id": 4,
+        "left": "kNN",
+        "right": "High computation"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the classifier to application.\n{\n= Naïve Bayes -> Spam filtering\n= Decision tree -> Medical diagnosis\n= SVM -> Face recognition\n= kNN -> Handwriting\n}",
+    "title": "MATCH5",
+    "question": "Match the classifier to application.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Naïve Bayes",
+        "right": "Spam filtering"
+      },
+      {
+        "id": 2,
+        "left": "Decision tree",
+        "right": "Medical diagnosis"
+      },
+      {
+        "id": 3,
+        "left": "SVM",
+        "right": "Face recognition"
+      },
+      {
+        "id": 4,
+        "left": "kNN",
+        "right": "Handwriting"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the component to Bayesian rule.\n{\n= Prior -> Before evidence\n= Likelihood -> Data given class\n= Posterior -> Class after evidence\n= Independence -> Feature assumption\n}",
+    "title": "MATCH6",
+    "question": "Match the component to Bayesian rule.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Prior",
+        "right": "Before evidence"
+      },
+      {
+        "id": 2,
+        "left": "Likelihood",
+        "right": "Data given class"
+      },
+      {
+        "id": 3,
+        "left": "Posterior",
+        "right": "Class after evidence"
+      },
+      {
+        "id": 4,
+        "left": "Independence",
+        "right": "Feature assumption"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the classifier to property.\n{\n= Naïve Bayes -> Probabilistic\n= Decision tree -> Rule-based\n= SVM -> Margin-based\n= PCA -> Dimensionality reduction\n}",
+    "title": "MATCH7",
+    "question": "Match the classifier to property.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Naïve Bayes",
+        "right": "Probabilistic"
+      },
+      {
+        "id": 2,
+        "left": "Decision tree",
+        "right": "Rule-based"
+      },
+      {
+        "id": 3,
+        "left": "SVM",
+        "right": "Margin-based"
+      },
+      {
+        "id": 4,
+        "left": "PCA",
+        "right": "Dimensionality reduction"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the decision tree element to role.\n{\n= Node -> Feature test\n= Branch -> Outcome\n= Leaf -> Class label\n= Root -> Start\n}",
+    "title": "MATCH8",
+    "question": "Match the decision tree element to role.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Node",
+        "right": "Feature test"
+      },
+      {
+        "id": 2,
+        "left": "Branch",
+        "right": "Outcome"
+      },
+      {
+        "id": 3,
+        "left": "Leaf",
+        "right": "Class label"
+      },
+      {
+        "id": 4,
+        "left": "Root",
+        "right": "Start"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the issue to solution.\n{\n= Tree overfitting -> Pruning\n= Feature dependence -> Naïve Bayes limitation\n= Nonlinear boundaries -> Kernel SVM\n= Noise -> Robust features\n}",
+    "title": "MATCH9",
+    "question": "Match the issue to solution.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Tree overfitting",
+        "right": "Pruning"
+      },
+      {
+        "id": 2,
+        "left": "Feature dependence",
+        "right": "Naïve Bayes limitation"
+      },
+      {
+        "id": 3,
+        "left": "Nonlinear boundaries",
+        "right": "Kernel SVM"
+      },
+      {
+        "id": 4,
+        "left": "Noise",
+        "right": "Robust features"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the classifier to type.\n{\n= Naïve Bayes -> Probabilistic\n= Decision tree -> Hierarchical\n= kNN -> Distance-based\n= Neural network -> Connectionist\n}",
+    "title": "MATCH10",
+    "question": "Match the classifier to type.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Naïve Bayes",
+        "right": "Probabilistic"
+      },
+      {
+        "id": 2,
+        "left": "Decision tree",
+        "right": "Hierarchical"
+      },
+      {
+        "id": 3,
+        "left": "kNN",
+        "right": "Distance-based"
+      },
+      {
+        "id": 4,
+        "left": "Neural network",
+        "right": "Connectionist"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are probabilistic classifiers?\n{\n~%50% Naïve Bayes\n~%50% Bayesian networks\n~%-100% Decision trees\n~%-100% SVM\n}",
+    "title": "MULTI1",
+    "question": "Which are probabilistic classifiers?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Naïve Bayes",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Bayesian networks",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Decision trees",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "SVM",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are rule-based classifiers?\n{\n~%50% Decision trees\n~%50% Rule sets\n~%-100% Naïve Bayes\n~%-100% SVM\n}",
+    "title": "MULTI2",
+    "question": "Which are rule-based classifiers?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Decision trees",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Rule sets",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Naïve Bayes",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "SVM",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are applications of Bayesian classifiers?\n{\n~%33.33333% Spam filtering\n~%33.33333% Document classification\n~%33.33333% Sentiment analysis\n~%-100% Image compression\n}",
+    "title": "MULTI3",
+    "question": "Which are applications of Bayesian classifiers?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Spam filtering",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Document classification",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Sentiment analysis",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Image compression",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are applications of decision trees?\n{\n~%33.33333% Medical diagnosis\n~%33.33333% Industrial inspection\n~%33.33333% Pattern classification\n~%-100% Audio synthesis\n}",
+    "title": "MULTI4",
+    "question": "Which are applications of decision trees?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Medical diagnosis",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Industrial inspection",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Pattern classification",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Audio synthesis",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are advantages of Naïve Bayes?\n{\n~%33.33333% Simple\n~%33.33333% Efficient\n~%33.33333% Probabilistic\n~%-100% Requires feature dependence\n}",
+    "title": "MULTI5",
+    "question": "Which are advantages of Naïve Bayes?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Simple",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Efficient",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Probabilistic",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Requires feature dependence",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are advantages of decision trees?\n{\n~%33.33333% Easy to interpret\n~%33.33333% Handle mixed features\n~%33.33333% Visualizable\n~%-100% Require kernel trick\n}",
+    "title": "MULTI6",
+    "question": "Which are advantages of decision trees?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Easy to interpret",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Handle mixed features",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Visualizable",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Require kernel trick",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are drawbacks of Naïve Bayes?\n{\n~%50% Independence assumption\n~%50% May misclassify correlated features\n~%-100% Too complex\n~%-100% Requires pruning\n}",
+    "title": "MULTI7",
+    "question": "Which are drawbacks of Naïve Bayes?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Independence assumption",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "May misclassify correlated features",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Too complex",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Requires pruning",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are drawbacks of decision trees?\n{\n~%50% Overfitting\n~%50% Instability with small changes\n~%-100% Independence assumption\n~%-100% No visualization\n}",
+    "title": "MULTI8",
+    "question": "Which are drawbacks of decision trees?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Overfitting",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Instability with small changes",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Independence assumption",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "No visualization",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are components of Bayesian rule?\n{\n~%25% Prior\n~%25% Likelihood\n~%25% Posterior\n~%25% Independence assumption\n}",
+    "title": "MULTI9",
+    "question": "Which are components of Bayesian rule?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Prior",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Likelihood",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Posterior",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Independence assumption",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are classifier types?\n{\n~%25% Probabilistic\n~%25% Rule-based\n~%25% Distance-based\n~%25% Margin-based\n}",
+    "title": "MULTI10",
+    "question": "Which are classifier types?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Probabilistic",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Rule-based",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Distance-based",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Margin-based",
+        "weight": 25.0
+      }
+    ]
+  }
+]

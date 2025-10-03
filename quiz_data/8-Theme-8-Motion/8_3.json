@@ -1,0 +1,842 @@
+[
+  {
+    "gift_source": "::MC1::\nWhat type of optical flow method is Lucas–Kanade?\n{\n= Local, differential\n~ Global, smoothness\n~ CNN-based\n~ Histogram-based\n}",
+    "title": "MC1",
+    "question": "What type of optical flow method is Lucas–Kanade?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Local, differential",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Global, smoothness",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "CNN-based",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Histogram-based",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC2::\nWhich assumption underlies Lucas–Kanade?\n{\n= Brightness constancy\n~ Histogram equalization\n~ Large displacements\n~ No spatial coherence\n}",
+    "title": "MC2",
+    "question": "Which assumption underlies Lucas–Kanade?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Brightness constancy",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Large displacements",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "No spatial coherence",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC3::\nWhich assumption is specific to Lucas–Kanade?\n{\n= Small motion\n~ Large motion\n~ Noisy motion\n~ Random motion\n}",
+    "title": "MC3",
+    "question": "Which assumption is specific to Lucas–Kanade?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Small motion",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Large motion",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Noisy motion",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Random motion",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC4::\nWhat does Lucas–Kanade use to estimate motion?\n{\n= Local window of pixels\n~ Entire image\n~ Only histograms\n~ Only CNN features\n}",
+    "title": "MC4",
+    "question": "What does Lucas–Kanade use to estimate motion?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Local window of pixels",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Entire image",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Only histograms",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Only CNN features",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC5::\nWhat kind of flow does Lucas–Kanade usually produce?\n{\n= Sparse flow at features\n~ Dense flow everywhere\n~ Histogram equalization\n~ Binary segmentation\n}",
+    "title": "MC5",
+    "question": "What kind of flow does Lucas–Kanade usually produce?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Sparse flow at features",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Dense flow everywhere",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Histogram equalization",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Binary segmentation",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC6::\nWhich is an application of Lucas–Kanade?\n{\n= Feature tracking\n~ Histogram matching\n~ Gamma correction\n~ Image compression\n}",
+    "title": "MC6",
+    "question": "Which is an application of Lucas–Kanade?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Feature tracking",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Histogram matching",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Gamma correction",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Image compression",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC7::\nWhich factor causes Lucas–Kanade to fail?\n{\n= Large displacements\n~ Small motions\n~ Brightness constancy\n~ Window selection\n}",
+    "title": "MC7",
+    "question": "Which factor causes Lucas–Kanade to fail?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Large displacements",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Small motions",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Brightness constancy",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Window selection",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC8::\nWhich kind of regions does Lucas–Kanade struggle with?\n{\n= Textureless\n~ Corner-rich\n~ Feature-rich\n~ High-contrast\n}",
+    "title": "MC8",
+    "question": "Which kind of regions does Lucas–Kanade struggle with?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Textureless",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Corner-rich",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Feature-rich",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "High-contrast",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC9::\nWhich is an advantage of Lucas–Kanade?\n{\n= Efficient for small local motion\n~ Works for large global motion\n~ Provides dense flow automatically\n~ Requires no assumptions\n}",
+    "title": "MC9",
+    "question": "Which is an advantage of Lucas–Kanade?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Efficient for small local motion",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "Works for large global motion",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Provides dense flow automatically",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Requires no assumptions",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MC10::\nWhich domain applies Lucas–Kanade widely?\n{\n= Video stabilization\n~ JPEG compression\n~ Histogram smoothing\n~ Audio filtering\n}",
+    "title": "MC10",
+    "question": "Which domain applies Lucas–Kanade widely?",
+    "type": "single",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Video stabilization",
+        "weight": 100
+      },
+      {
+        "id": 2,
+        "text": "JPEG compression",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "text": "Histogram smoothing",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "text": "Audio filtering",
+        "weight": 0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH1::\nMatch the assumption to meaning.\n{\n= Brightness constancy -> Pixel intensity unchanged\n= Small motion -> Tiny displacement\n= Spatial coherence -> Neighboring pixels move similarly\n= Local window -> Patch of pixels\n}",
+    "title": "MATCH1",
+    "question": "Match the assumption to meaning.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Brightness constancy",
+        "right": "Pixel intensity unchanged"
+      },
+      {
+        "id": 2,
+        "left": "Small motion",
+        "right": "Tiny displacement"
+      },
+      {
+        "id": 3,
+        "left": "Spatial coherence",
+        "right": "Neighboring pixels move similarly"
+      },
+      {
+        "id": 4,
+        "left": "Local window",
+        "right": "Patch of pixels"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH2::\nMatch the method to category.\n{\n= Lucas–Kanade -> Local optical flow\n= Horn–Schunck -> Global optical flow\n= CNN-based flow -> Learned\n= Background subtraction -> Foreground detection\n}",
+    "title": "MATCH2",
+    "question": "Match the method to category.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Lucas–Kanade",
+        "right": "Local optical flow"
+      },
+      {
+        "id": 2,
+        "left": "Horn–Schunck",
+        "right": "Global optical flow"
+      },
+      {
+        "id": 3,
+        "left": "CNN-based flow",
+        "right": "Learned"
+      },
+      {
+        "id": 4,
+        "left": "Background subtraction",
+        "right": "Foreground detection"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH3::\nMatch the property to Lucas–Kanade.\n{\n= Sparse flow -> Few points\n= Local -> Window-based\n= Corner-friendly -> Works on features\n= Limitation -> Large motion failure\n}",
+    "title": "MATCH3",
+    "question": "Match the property to Lucas–Kanade.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Sparse flow",
+        "right": "Few points"
+      },
+      {
+        "id": 2,
+        "left": "Local",
+        "right": "Window-based"
+      },
+      {
+        "id": 3,
+        "left": "Corner-friendly",
+        "right": "Works on features"
+      },
+      {
+        "id": 4,
+        "left": "Limitation",
+        "right": "Large motion failure"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH4::\nMatch the component to role.\n{\n= Window -> Region for equations\n= Brightness -> Constancy assumption\n= Spatial coherence -> Neighbor similarity\n= Motion equation -> Solved locally\n}",
+    "title": "MATCH4",
+    "question": "Match the component to role.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Window",
+        "right": "Region for equations"
+      },
+      {
+        "id": 2,
+        "left": "Brightness",
+        "right": "Constancy assumption"
+      },
+      {
+        "id": 3,
+        "left": "Spatial coherence",
+        "right": "Neighbor similarity"
+      },
+      {
+        "id": 4,
+        "left": "Motion equation",
+        "right": "Solved locally"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH5::\nMatch the algorithm to application.\n{\n= Lucas–Kanade -> Feature tracking\n= Horn–Schunck -> Dense flow\n= CNN flow -> Large motion\n= Background subtraction -> Moving objects\n}",
+    "title": "MATCH5",
+    "question": "Match the algorithm to application.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Lucas–Kanade",
+        "right": "Feature tracking"
+      },
+      {
+        "id": 2,
+        "left": "Horn–Schunck",
+        "right": "Dense flow"
+      },
+      {
+        "id": 3,
+        "left": "CNN flow",
+        "right": "Large motion"
+      },
+      {
+        "id": 4,
+        "left": "Background subtraction",
+        "right": "Moving objects"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH6::\nMatch the issue to cause.\n{\n= Occlusion -> Missing flow\n= Large displacement -> Failure\n= Uniform region -> No features\n= Noise -> Unstable estimation\n}",
+    "title": "MATCH6",
+    "question": "Match the issue to cause.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Occlusion",
+        "right": "Missing flow"
+      },
+      {
+        "id": 2,
+        "left": "Large displacement",
+        "right": "Failure"
+      },
+      {
+        "id": 3,
+        "left": "Uniform region",
+        "right": "No features"
+      },
+      {
+        "id": 4,
+        "left": "Noise",
+        "right": "Unstable estimation"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH7::\nMatch the flow type to description.\n{\n= Sparse flow -> Few keypoints\n= Dense flow -> All pixels\n= Local -> Patch-based\n= Global -> Whole image\n}",
+    "title": "MATCH7",
+    "question": "Match the flow type to description.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Sparse flow",
+        "right": "Few keypoints"
+      },
+      {
+        "id": 2,
+        "left": "Dense flow",
+        "right": "All pixels"
+      },
+      {
+        "id": 3,
+        "left": "Local",
+        "right": "Patch-based"
+      },
+      {
+        "id": 4,
+        "left": "Global",
+        "right": "Whole image"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH8::\nMatch the application to example.\n{\n= Stabilization -> Video correction\n= Tracking -> Object following\n= Analysis -> Motion study\n= Robotics -> Navigation\n}",
+    "title": "MATCH8",
+    "question": "Match the application to example.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Stabilization",
+        "right": "Video correction"
+      },
+      {
+        "id": 2,
+        "left": "Tracking",
+        "right": "Object following"
+      },
+      {
+        "id": 3,
+        "left": "Analysis",
+        "right": "Motion study"
+      },
+      {
+        "id": 4,
+        "left": "Robotics",
+        "right": "Navigation"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH9::\nMatch the method to limitation.\n{\n= Lucas–Kanade -> Large motion\n= Horn–Schunck -> Oversmoothing\n= CNN flow -> Needs training\n= Background subtraction -> Illumination\n}",
+    "title": "MATCH9",
+    "question": "Match the method to limitation.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Lucas–Kanade",
+        "right": "Large motion"
+      },
+      {
+        "id": 2,
+        "left": "Horn–Schunck",
+        "right": "Oversmoothing"
+      },
+      {
+        "id": 3,
+        "left": "CNN flow",
+        "right": "Needs training"
+      },
+      {
+        "id": 4,
+        "left": "Background subtraction",
+        "right": "Illumination"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MATCH10::\nMatch the assumption to failure case.\n{\n= Brightness constancy -> Illumination change\n= Small motion -> Large displacement\n= Spatial coherence -> Motion discontinuities\n= Window -> Textureless regions\n}",
+    "title": "MATCH10",
+    "question": "Match the assumption to failure case.",
+    "type": "connect",
+    "pairs": [
+      {
+        "id": 1,
+        "left": "Brightness constancy",
+        "right": "Illumination change"
+      },
+      {
+        "id": 2,
+        "left": "Small motion",
+        "right": "Large displacement"
+      },
+      {
+        "id": 3,
+        "left": "Spatial coherence",
+        "right": "Motion discontinuities"
+      },
+      {
+        "id": 4,
+        "left": "Window",
+        "right": "Textureless regions"
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI1::\nWhich are assumptions of Lucas–Kanade?\n{\n~%25% Brightness constancy\n~%25% Small motion\n~%25% Spatial coherence\n~%25% Local windows\n}",
+    "title": "MULTI1",
+    "question": "Which are assumptions of Lucas–Kanade?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Brightness constancy",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Small motion",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Spatial coherence",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Local windows",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI2::\nWhich are applications of Lucas–Kanade?\n{\n~%33.33333% Video stabilization\n~%33.33333% Feature tracking\n~%33.33333% Motion analysis\n~%-100% Histogram smoothing\n}",
+    "title": "MULTI2",
+    "question": "Which are applications of Lucas–Kanade?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Video stabilization",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Feature tracking",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Motion analysis",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Histogram smoothing",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI3::\nWhich are limitations of Lucas–Kanade?\n{\n~%33.33333% Large motion\n~%33.33333% Occlusion\n~%33.33333% Textureless regions\n~%-100% Always robust\n}",
+    "title": "MULTI3",
+    "question": "Which are limitations of Lucas–Kanade?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Large motion",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Occlusion",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Textureless regions",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Always robust",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI4::\nWhich are properties of Lucas–Kanade?\n{\n~%33.33333% Local\n~%33.33333% Window-based\n~%33.33333% Sparse flow\n~%-100% Dense global flow\n}",
+    "title": "MULTI4",
+    "question": "Which are properties of Lucas–Kanade?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Local",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Window-based",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Sparse flow",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Dense global flow",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI5::\nWhich are features that support Lucas–Kanade well?\n{\n~%33.33333% Corners\n~%33.33333% High-contrast regions\n~%33.33333% Distinct features\n~%-100% Flat regions\n}",
+    "title": "MULTI5",
+    "question": "Which are features that support Lucas–Kanade well?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Corners",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "High-contrast regions",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Distinct features",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Flat regions",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI6::\nWhich are optical flow methods?\n{\n~%25% Lucas–Kanade\n~%25% Horn–Schunck\n~%25% CNN flow\n~%25% Farneback\n}",
+    "title": "MULTI6",
+    "question": "Which are optical flow methods?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Lucas–Kanade",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Horn–Schunck",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "CNN flow",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Farneback",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI7::\nWhich are challenges for optical flow?\n{\n~%25% Occlusion\n~%25% Illumination changes\n~%25% Large motion\n~%25% Noise\n}",
+    "title": "MULTI7",
+    "question": "Which are challenges for optical flow?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Occlusion",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Illumination changes",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Large motion",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Noise",
+        "weight": 25.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI8::\nWhich are outputs of Lucas–Kanade?\n{\n~%50% Motion vectors at features\n~%50% Sparse optical flow\n~%-100% Dense per-pixel flow\n~%-100% Histogram bins\n}",
+    "title": "MULTI8",
+    "question": "Which are outputs of Lucas–Kanade?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Motion vectors at features",
+        "weight": 50.0
+      },
+      {
+        "id": 2,
+        "text": "Sparse optical flow",
+        "weight": 50.0
+      },
+      {
+        "id": 3,
+        "text": "Dense per-pixel flow",
+        "weight": -100.0
+      },
+      {
+        "id": 4,
+        "text": "Histogram bins",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI9::\nWhich are assumptions that may fail in real videos?\n{\n~%33.33333% Brightness constancy\n~%33.33333% Small motion\n~%33.33333% Spatial coherence\n~%-100% Random motion\n}",
+    "title": "MULTI9",
+    "question": "Which are assumptions that may fail in real videos?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Brightness constancy",
+        "weight": 33.33333
+      },
+      {
+        "id": 2,
+        "text": "Small motion",
+        "weight": 33.33333
+      },
+      {
+        "id": 3,
+        "text": "Spatial coherence",
+        "weight": 33.33333
+      },
+      {
+        "id": 4,
+        "text": "Random motion",
+        "weight": -100.0
+      }
+    ]
+  },
+  {
+    "gift_source": "::MULTI10::\nWhich are domains using Lucas–Kanade?\n{\n~%25% Robotics\n~%25% Video stabilization\n~%25% Sports tracking\n~%25% Motion analysis\n}",
+    "title": "MULTI10",
+    "question": "Which are domains using Lucas–Kanade?",
+    "type": "multichoice",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Robotics",
+        "weight": 25.0
+      },
+      {
+        "id": 2,
+        "text": "Video stabilization",
+        "weight": 25.0
+      },
+      {
+        "id": 3,
+        "text": "Sports tracking",
+        "weight": 25.0
+      },
+      {
+        "id": 4,
+        "text": "Motion analysis",
+        "weight": 25.0
+      }
+    ]
+  }
+]

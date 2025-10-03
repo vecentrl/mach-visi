@@ -1,0 +1,310 @@
+::TF1::
+Shape from shading estimates surface orientation from brightness patterns.
+{TRUE}
+
+::TF2::
+Shape from texture uses distortions in texture for depth cues.
+{TRUE}
+
+::TF3::
+Shape from motion is also known as structure from motion (SfM).
+{TRUE}
+
+::TF4::
+Stereo vision recovers depth from disparity between cameras.
+{TRUE}
+
+::TF5::
+Shape from contour uses silhouettes to constrain 3D shape.
+{TRUE}
+
+::TF6::
+All Shape from X methods use exactly the same cue.
+{FALSE}
+
+::TF7::
+Shape from shading can suffer from ambiguity in convex vs. concave shapes.
+{TRUE}
+
+::TF8::
+Shape from motion requires multiple viewpoints or frames.
+{TRUE}
+
+::TF9::
+Noise and occlusion are challenges in Shape from X methods.
+{TRUE}
+
+::TF10::
+Shape from X methods are applied in 3D reconstruction and AR/VR.
+{TRUE}
+
+::MC1::
+What does Shape from shading rely on?
+{
+= Brightness variations
+~ Stereo disparity
+~ Silhouettes
+~ Motion parallax
+}
+
+::MC2::
+What does Shape from texture use as a cue?
+{
+= Texture distortions
+~ Shadows only
+~ Stereo disparity
+~ Silhouettes
+}
+
+::MC3::
+Shape from motion is also called...
+{
+= Structure from motion
+~ Background subtraction
+~ Optical flow
+~ Histogram equalization
+}
+
+::MC4::
+What is the key cue in stereo vision?
+{
+= Disparity between images
+~ Texture distortions
+~ Shadows
+~ Optical flow
+}
+
+::MC5::
+What does Shape from contour rely on?
+{
+= Silhouettes
+~ Stereo disparity
+~ Brightness
+~ Texture gradients
+}
+
+::MC6::
+Which method suffers from convex/concave ambiguity?
+{
+= Shape from shading
+~ Shape from motion
+~ Shape from stereo
+~ Shape from contour
+}
+
+::MC7::
+Which method uses temporal viewpoint changes?
+{
+= Shape from motion
+~ Shape from texture
+~ Shape from contour
+~ Shape from shading
+}
+
+::MC8::
+Which is an application of Shape from X?
+{
+= 3D reconstruction
+~ JPEG compression
+~ Gamma correction
+~ Histogram equalization
+}
+
+::MC9::
+Which challenge affects Shape from stereo?
+{
+= Calibration and occlusion
+~ Always perfect accuracy
+~ No disparity needed
+~ Histogram mismatch
+}
+
+::MC10::
+Which domain uses Shape from X?
+{
+= Robotics
+~ Audio compression
+~ File encryption
+~ White balance
+}
+
+::MATCH1::
+Match the method to cue.
+{
+= Shading -> Brightness
+= Texture -> Distortion
+= Motion -> Viewpoint change
+= Stereo -> Disparity
+}
+
+::MATCH2::
+Match the method to application.
+{
+= Stereo -> Depth maps
+= Motion -> Structure from motion
+= Shading -> Shape recovery
+= Contour -> Silhouette modeling
+}
+
+::MATCH3::
+Match the method to challenge.
+{
+= Shading -> Ambiguity
+= Stereo -> Calibration
+= Motion -> Tracking features
+= Texture -> Regularity assumption
+}
+
+::MATCH4::
+Match the method to domain.
+{
+= Stereo -> Robotics
+= Motion -> AR/VR
+= Shading -> Graphics
+= Contour -> Medical imaging
+}
+
+::MATCH5::
+Match the feature to meaning.
+{
+= Disparity -> Stereo depth
+= Silhouette -> Contour shape
+= Brightness -> Shading cue
+= Texture -> Depth gradient
+}
+
+::MATCH6::
+Match the problem to effect.
+{
+= Noise -> Errors
+= Occlusion -> Missing info
+= Calibration error -> Wrong depth
+= Ambiguity -> Wrong shape
+}
+
+::MATCH7::
+Match the Shape from X to advantage.
+{
+= Stereo -> Direct depth
+= Motion -> Works with moving camera
+= Shading -> Simple input
+= Texture -> Surface detail
+}
+
+::MATCH8::
+Match the Shape from X to drawback.
+{
+= Stereo -> Needs calibration
+= Motion -> Needs multiple views
+= Shading -> Ambiguity
+= Contour -> Limited info
+}
+
+::MATCH9::
+Match the technique to example.
+{
+= Stereo -> 3D cameras
+= Motion -> Drone mapping
+= Shading -> Virtual rendering
+= Texture -> Patterned surfaces
+}
+
+::MATCH10::
+Match the application to field.
+{
+= Robotics -> Navigation
+= Medicine -> Imaging
+= AR -> Depth estimation
+= Graphics -> 3D modeling
+}
+
+::MULTI1::
+Which are Shape from X methods?
+{
+~%20% Shading
+~%20% Texture
+~%20% Motion
+~%20% Stereo
+~%20% Contour
+}
+
+::MULTI2::
+Which are cues used in Shape from X?
+{
+~%25% Brightness
+~%25% Texture gradients
+~%25% Disparity
+~%25% Silhouettes
+}
+
+::MULTI3::
+Which are challenges for Shape from X?
+{
+~%25% Noise
+~%25% Occlusion
+~%25% Calibration errors
+~%25% Ambiguity
+}
+
+::MULTI4::
+Which are applications of Shape from X?
+{
+~%25% 3D reconstruction
+~%25% AR/VR
+~%25% Robotics
+~%25% Medical imaging
+}
+
+::MULTI5::
+Which describe Shape from shading?
+{
+~%33.33333% Uses brightness
+~%33.33333% Ambiguity issues
+~%33.33333% Recovers surface orientation
+~%-100% Uses disparity
+}
+
+::MULTI6::
+Which describe Shape from stereo?
+{
+~%33.33333% Uses disparity
+~%33.33333% Needs calibration
+~%33.33333% Provides depth maps
+~%-100% Uses shading only
+}
+
+::MULTI7::
+Which describe Shape from motion?
+{
+~%33.33333% Structure from motion
+~%33.33333% Needs multiple views
+~%33.33333% Recovers 3D structure
+~%-100% Single image only
+}
+
+::MULTI8::
+Which describe Shape from texture?
+{
+~%50% Uses distortions
+~%50% Depth cues
+~%-100% Uses stereo cameras
+~%-100% Always unambiguous
+}
+
+::MULTI9::
+Which describe Shape from contour?
+{
+~%50% Uses silhouettes
+~%50% Constrains 3D shape
+~%-100% Needs disparity
+~%-100% Uses brightness
+}
+
+::MULTI10::
+Which are domains applying Shape from X?
+{
+~%25% Vision
+~%25% Robotics
+~%25% Medicine
+~%25% Graphics
+}

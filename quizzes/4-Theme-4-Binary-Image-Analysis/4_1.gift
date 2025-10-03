@@ -1,0 +1,309 @@
+::TF1::
+Segmentation is the process of dividing an image into meaningful parts.
+{TRUE}
+
+::TF2::
+Thresholding is one of the simplest methods for segmentation.
+{TRUE}
+
+::TF3::
+Region-based segmentation groups pixels with similar properties.
+{TRUE}
+
+::TF4::
+Edge-based segmentation relies on detecting object boundaries.
+{TRUE}
+
+::TF5::
+Segmentation is not used in object recognition tasks.
+{FALSE}
+
+::TF6::
+Global thresholding uses a single threshold for the whole image.
+{TRUE}
+
+::TF7::
+Local or adaptive thresholding adjusts thresholds for different regions.
+{TRUE}
+
+::TF8::
+Noise can make segmentation more difficult.
+{TRUE}
+
+::TF9::
+Segmentation is always trivial when texture is uniform.
+{FALSE}
+
+::TF10::
+Occlusions can make accurate segmentation harder.
+{TRUE}
+
+::MC1::
+What is the purpose of segmentation?
+{
+= Partitioning images into meaningful regions
+~ Reducing file size
+~ Enhancing brightness
+~ Encrypting image data
+}
+
+::MC2::
+Which method divides an image by intensity threshold?
+{
+= Thresholding
+~ Region growing
+~ Edge detection
+~ Morphological filtering
+}
+
+::MC3::
+Which method relies on similarity of pixels?
+{
+= Region-based segmentation
+~ Thresholding
+~ Edge detection
+~ Histogram equalization
+}
+
+::MC4::
+Which method uses object boundaries?
+{
+= Edge-based segmentation
+~ Thresholding
+~ Region growing
+~ White balancing
+}
+
+::MC5::
+Which segmentation method is simplest to implement?
+{
+= Global thresholding
+~ Region growing
+~ Edge linking
+~ K-means clustering
+}
+
+::MC6::
+What is adaptive thresholding?
+{
+= Thresholds vary locally across the image
+~ Single threshold globally
+~ Manual labeling
+~ Histogram equalization
+}
+
+::MC7::
+Which challenge affects segmentation?
+{
+= Noise
+~ Uniform lighting
+~ Perfect contrast
+~ Controlled lab images
+}
+
+::MC8::
+Which is an application of segmentation?
+{
+= Object recognition
+~ Gamma correction
+~ File encryption
+~ White balance
+}
+
+::MC9::
+Which factor complicates segmentation?
+{
+= Illumination variation
+~ Pixel size
+~ File type
+~ Display resolution
+}
+
+::MC10::
+Which is true about segmentation?
+{
+= Essential for high-level vision tasks
+~ Only used in compression
+~ Never used in tracking
+~ Only works on binary images
+}
+
+::MATCH1::
+Match the method to its principle.
+{
+= Thresholding -> Pixel intensity cutoff
+= Region-based -> Similarity grouping
+= Edge-based -> Boundary detection
+= Clustering -> Grouping in feature space
+}
+
+::MATCH2::
+Match the type to the description.
+{
+= Global thresholding -> Single threshold
+= Adaptive thresholding -> Local thresholds
+= Region growing -> Expand from seed points
+= Edge detection -> Gradient-based
+}
+
+::MATCH3::
+Match the challenge to the effect.
+{
+= Noise -> Misclassification
+= Illumination change -> Wrong thresholds
+= Texture variation -> Region confusion
+= Occlusion -> Missing boundaries
+}
+
+::MATCH4::
+Match the method to its drawback.
+{
+= Thresholding -> Sensitive to lighting
+= Region-based -> Computationally heavy
+= Edge-based -> Sensitive to noise
+= Clustering -> Needs parameter tuning
+}
+
+::MATCH5::
+Match the segmentation method to an example.
+{
+= Thresholding -> Separating foreground from background
+= Region-based -> Detecting tissue in medical image
+= Edge-based -> Extracting object outlines
+= Clustering -> K-means segmentation
+}
+
+::MATCH6::
+Match the application to segmentation.
+{
+= Object recognition -> Isolating objects
+= Tracking -> Following moving target
+= Medical imaging -> Identifying organs
+= Scene understanding -> Parsing regions
+}
+
+::MATCH7::
+Match the algorithm to its type.
+{
+= Otsu’s method -> Global thresholding
+= Adaptive mean -> Local threshold
+= Sobel operator -> Edge detection
+= Watershed -> Region-based
+}
+
+::MATCH8::
+Match the issue to the cause.
+{
+= Mis-segmentation -> Noise
+= Fragmented edges -> Weak gradients
+= Over-segmentation -> Too many regions
+= Under-segmentation -> Merged objects
+}
+
+::MATCH9::
+Match the factor to its influence.
+{
+= Illumination -> Threshold stability
+= Noise -> Boundary clarity
+= Texture -> Region similarity
+= Occlusion -> Completeness
+}
+
+::MATCH10::
+Match the type to a domain.
+{
+= Thresholding -> Industrial inspection
+= Region-based -> Medical imaging
+= Edge-based -> Object outline extraction
+= Clustering -> Image compression
+}
+
+::MULTI1::
+Which are basic segmentation methods?
+{
+~%33.33333% Thresholding
+~%33.33333% Region-based
+~%33.33333% Edge-based
+~%-100% JPEG encoding
+}
+
+::MULTI2::
+Which are types of thresholding?
+{
+~%50% Global
+~%50% Adaptive
+~%-100% Histogram equalization
+~%-100% Gamma correction
+}
+
+::MULTI3::
+Which are challenges for segmentation?
+{
+~%25% Noise
+~%25% Texture
+~%25% Illumination variation
+~%25% Occlusion
+}
+
+::MULTI4::
+Which are applications of segmentation?
+{
+~%33.33333% Object recognition
+~%33.33333% Tracking
+~%33.33333% Scene understanding
+~%-100% Audio compression
+}
+
+::MULTI5::
+Which are true of region-based segmentation?
+{
+~%50% Groups pixels with similar properties
+~%50% Can be grown from seed points
+~%-100% Based only on global thresholds
+~%-100% Ignores pixel similarity
+}
+
+::MULTI6::
+Which are true of edge-based segmentation?
+{
+~%50% Relies on gradients
+~%50% Finds object boundaries
+~%-100% Groups similar regions
+~%-100% Uses only thresholds
+}
+
+::MULTI7::
+Which are drawbacks of thresholding?
+{
+~%50% Sensitive to lighting
+~%50% May misclassify noisy pixels
+~%-100% Always robust
+~%-100% Works perfectly with any scene
+}
+
+::MULTI8::
+Which are common algorithms for segmentation?
+{
+~%25% Otsu’s method
+~%25% Watershed
+~%25% Sobel edges
+~%25% K-means
+}
+
+::MULTI9::
+Which are desirable properties of segmentation?
+{
+~%25% Robust to noise
+~%25% Adapt to illumination
+~%25% Accurate boundaries
+~%25% Efficient computation
+}
+
+::MULTI10::
+Which issues can occur in segmentation?
+{
+~%33.33333% Over-segmentation
+~%33.33333% Under-segmentation
+~%33.33333% Fragmented boundaries
+~%-100% Perfect separation always
+}

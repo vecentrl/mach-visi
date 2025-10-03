@@ -1,0 +1,309 @@
+::TF1::
+Local features are image points that can be reliably detected under different conditions.
+{TRUE}
+
+::TF2::
+Local features are typically invariant to scale, rotation, and illumination changes.
+{TRUE}
+
+::TF3::
+Corners are a type of local feature.
+{TRUE}
+
+::TF4::
+A corner can be defined as a point with intensity change in multiple directions.
+{TRUE}
+
+::TF5::
+Local features are rarely used in 3D reconstruction.
+{FALSE}
+
+::TF6::
+Local features are useful for matching images taken under different viewpoints.
+{TRUE}
+
+::TF7::
+Corner detection is a fundamental method in feature detection.
+{TRUE}
+
+::TF8::
+Local features are not useful in object recognition.
+{FALSE}
+
+::TF9::
+Local features can support panorama stitching.
+{TRUE}
+
+::TF10::
+All pixels in an image are equally good local features.
+{FALSE}
+
+::MC1::
+Why are local features important?
+{
+= They are robust for recognition, matching, and reconstruction
+~ They reduce file size
+~ They enhance brightness
+~ They compress textures
+}
+
+::MC2::
+Which task commonly uses local features?
+{
+= Panorama stitching
+~ Gamma correction
+~ Histogram equalization
+~ White balance
+}
+
+::MC3::
+What defines a corner in image processing?
+{
+= Large intensity change in multiple directions
+~ Uniform region
+~ Smooth gradient
+~ Constant brightness
+}
+
+::MC4::
+Which is an example of a local feature detector?
+{
+= Corner detector
+~ Histogram
+~ Thresholding
+~ White patch
+}
+
+::MC5::
+Which is a property of good local features?
+{
+= Repeatable under varying conditions
+~ Randomly distributed
+~ Independent of structure
+~ Sensitive only to noise
+}
+
+::MC6::
+Which vision problem uses local features?
+{
+= 3D reconstruction
+~ Gamma encoding
+~ File compression
+~ Audio recognition
+}
+
+::MC7::
+Which describes the role of corners?
+{
+= Stable interest points
+~ Flat areas
+~ Textureless regions
+~ Uniform intensity zones
+}
+
+::MC8::
+Which application relies heavily on feature matching?
+{
+= Image registration
+~ Histogram smoothing
+~ White balance
+~ Gamma correction
+}
+
+::MC9::
+Which statement is true about local features?
+{
+= They allow robust image alignment
+~ They remove noise automatically
+~ They only exist in grayscale
+~ They are irrelevant for recognition
+}
+
+::MC10::
+Which condition challenges local features?
+{
+= Illumination change
+~ File size
+~ JPEG format
+~ Audio artifacts
+}
+
+::MATCH1::
+Match the concept to description.
+{
+= Local features -> Stable image points
+= Corners -> Intensity change in 2D
+= Matching -> Comparing features
+= Reconstruction -> 3D from features
+}
+
+::MATCH2::
+Match the property to example.
+{
+= Scale invariance -> Resized images
+= Rotation invariance -> Rotated images
+= Illumination invariance -> Lighting changes
+= Repeatability -> Consistent detection
+}
+
+::MATCH3::
+Match the application to role.
+{
+= Panorama stitching -> Align overlapping images
+= Registration -> Align multimodal images
+= Recognition -> Identify objects
+= 3D reconstruction -> Build scene
+}
+
+::MATCH4::
+Match the method to category.
+{
+= Corner detection -> Local features
+= Histogram -> Global descriptor
+= Color constancy -> Illumination correction
+= Thresholding -> Segmentation
+}
+
+::MATCH5::
+Match the feature type to example.
+{
+= Corner -> Stable interest point
+= Blob -> Region-based feature
+= Edge -> Gradient-based feature
+= Flat area -> Poor feature
+}
+
+::MATCH6::
+Match the challenge to effect.
+{
+= Noise -> False detections
+= Illumination change -> Contrast issues
+= Scale change -> Feature mismatch
+= Rotation -> Feature orientation change
+}
+
+::MATCH7::
+Match the domain to example.
+{
+= Object recognition -> Local descriptors
+= Tracking -> Feature matching
+= Robotics -> 3D vision
+= Graphics -> Image stitching
+}
+
+::MATCH8::
+Match the requirement to feature.
+{
+= Repeatability -> Reliable detection
+= Distinctiveness -> Unique descriptor
+= Efficiency -> Fast computation
+= Invariance -> Robust to change
+}
+
+::MATCH9::
+Match the detector to property.
+{
+= Corner -> 2D intensity change
+= Edge -> 1D intensity change
+= Blob -> Local region extrema
+= Flat -> Uniform
+}
+
+::MATCH10::
+Match the local feature to use.
+{
+= Corners -> Registration
+= Blobs -> Detection
+= Edges -> Segmentation
+= Flat -> Not useful
+}
+
+::MULTI1::
+Which are examples of local features?
+{
+~%33.33333% Corners
+~%33.33333% Blobs
+~%33.33333% Edges
+~%-100% Flat regions
+}
+
+::MULTI2::
+Which are properties of good local features?
+{
+~%25% Repeatability
+~%25% Distinctiveness
+~%25% Invariance
+~%25% Efficiency
+}
+
+::MULTI3::
+Which are applications of local features?
+{
+~%25% Object recognition
+~%25% Panorama stitching
+~%25% 3D reconstruction
+~%25% Tracking
+}
+
+::MULTI4::
+Which are challenges for local features?
+{
+~%33.33333% Noise
+~%33.33333% Illumination variation
+~%33.33333% Scale changes
+~%-100% Perfect invariance
+}
+
+::MULTI5::
+Which are characteristics of corners?
+{
+~%33.33333% Intensity change in 2D
+~%33.33333% Stable location
+~%33.33333% Useful for matching
+~%-100% Flat intensity
+}
+
+::MULTI6::
+Which methods use local features?
+{
+~%33.33333% Image registration
+~%33.33333% Object recognition
+~%33.33333% Tracking
+~%-100% Histogram equalization
+}
+
+::MULTI7::
+Which are examples of feature invariance?
+{
+~%33.33333% Scale invariance
+~%33.33333% Rotation invariance
+~%33.33333% Illumination invariance
+~%-100% File-size invariance
+}
+
+::MULTI8::
+Which are examples of poor features?
+{
+~%50% Flat regions
+~%50% Uniform areas
+~%-100% Corners
+~%-100% Edges
+}
+
+::MULTI9::
+Which are reasons to use local features?
+{
+~%25% Matching
+~%25% Recognition
+~%25% Tracking
+~%25% Reconstruction
+}
+
+::MULTI10::
+Which are examples of applications requiring robust features?
+{
+~%25% Panorama stitching
+~%25% 3D reconstruction
+~%25% Robotics
+~%25% Object recognition
+}
